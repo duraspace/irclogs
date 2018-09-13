@@ -1,0 +1,214 @@
+<span class="irc-date">[0:02]</span> <span class="irc-navy">* edInCo (~smuxi@seta.coalliance.org) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[1:10]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:955e:cee:cc14:afd8) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-kornbluth.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:12]</span> <span class="irc-green">* taichunmin (uid19896@gateway/web/irccloud.com/x-keapkihafjafwjpn) has joined #duraspace</span><br />
+<span class="irc-date">[12:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:7869:af23:96ac:d3b3) has joined #duraspace</span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-navy">* taichunmin (uid19896@gateway/web/irccloud.com/x-keapkihafjafwjpn) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-green">* monikam_ (~Monika_Me@monika.Princeton.EDU) has joined #duraspace</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-green">* pbecker (~pbecker@55d437ae.access.ecotel.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:29]</span> <span class="irc-green">* PeterDietz (~textual@162-231-20-67.lightspeed.clmboh.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-green">* edInCo (~smuxi@seta.coalliance.org) has joined #duraspace</span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-green">* anja (82587893@gateway/web/freenode/ip.130.88.120.147) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;PeterDietz&gt; Hi All</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for our weekly DSpace Developers Meeting (today at 15UTC): <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-07-02">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-07-02</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-07-02 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-07-02">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-07-02</a></span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;monikam_&gt; ok</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; Agenda is pretty light today...so there should be a good amount of time for open discussion at the end (so start to think about anything you may be working on and want to discuss)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; First up though... DSpace 4.2 (bug-fix-only) release is coming in mid-July.  We've set a deadline of Fri, July 11 for any final bug fixes to the 4.x platform</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;mhwood&gt; To be clear:  are we now in freeze for non-emergency fixes?</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; 4.2 will likely be the *last* release on 4.x before 5.0...so if there's a bug that's been annoying you, help us fix it!</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;mhwood&gt; I guess that's a no then.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;PeterDietz&gt; I have annoyance with mirage2, but thats non-official, so I can't complain</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: no, "freezes" only apply to *features*.  We've never had the concept of a bug-freeze</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;mhwood&gt; OK.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; The list of bug tickets that are still open for 4.2 are available here: <a href="https://jira.duraspace.org/browse/DS/fixforversion/11840">https://jira.duraspace.org/browse/DS/fixforversion/11840</a></span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace: 4.2 - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS/fixforversion/11840">https://jira.duraspace.org/browse/DS/fixforversion/11840</a></span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; Anything that is NOT fixed by July 11 will likely be *rescheduled* for the 5.0 release near the end of this year</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;pbecker&gt; DS-2012 just needs a review. the pr is a simple bugfix.</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2012">https://jira.duraspace.org/browse/DS-2012</a> ] - [DS-2012] JSPUI does not write column last_active in database as context is not commited after login - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, we'd encourage everyone to help chip in on getting the last bugs out for 4.2!</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: I would say that we definitely are now in "freeze" for things that aren't bugs but might be dressed up as bugs</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;hpottinger&gt; erm, not that we ever do that</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; +1 hpottinger</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-green">* terryb3 (~anonymous@162.244.138.212) has joined #duraspace</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;mhwood&gt; Exactly, at some point the RC has to start closing the door so that release prep can finish.  It can close slowly, though. :-)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; We definitely are "cautious" on last minute bug fixes...anything that may not be well tested or could accidentally affect other parts of DSpace may not "get in" to 4.2 even if there's a PR out there</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;monikam_&gt; <a href="https://jira.duraspace.org/browse/DS-2017">https://jira.duraspace.org/browse/DS-2017</a>  is a typo in documentation for vagrant</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2017">https://jira.duraspace.org/browse/DS-2017</a> ] - [DS-2017] typo in vagrant README.md  - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2017] typo in vagrant README.md - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2017">https://jira.duraspace.org/browse/DS-2017</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; But, in general, we'd obviously like to fix as many bugs as we can in the 4.x platform</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; monikam: vagrant-dspace isn't part of the official "4.2" release of DSpace...it's got a separate, ad-hoc release cycle. So, fixes to that can be put in whenever.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; Also, one last note on 4.2.  robint will be performing the 4.2 release (and I may be chipping in a bit) on either July 11 or Mon, July 14.  If you have anything you desperately want reviewed or to get into 4.2, feel free to get in touch with us, or email us on the dspace-release listserv</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;hpottinger&gt; monikam_: is there a PR for DS-2017? I'd merge it right away if so.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2017">https://jira.duraspace.org/browse/DS-2017</a> ] - [DS-2017] typo in vagrant README.md  - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;pbecker&gt; Would be great, if DS-2012 could be reviewed for 4.2....</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2012">https://jira.duraspace.org/browse/DS-2012</a> ] - [DS-2012] JSPUI does not write column last_active in database as context is not commited after login - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like Ds-2012 needs someone who uses LDAP and/or x509 to test</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;monikam_&gt; no PR for 2017   it is just the one line</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;hpottinger&gt; to make it official, I'm going to be testing the PR for DS-1906, hope to get it in today</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1906">https://jira.duraspace.org/browse/DS-1906</a> ] - [DS-1906] Shibboleth attributes may need to be reconverted - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;mhwood&gt; Yay!</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: DS-2012 needs testing with all authentication methdos.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2012">https://jira.duraspace.org/browse/DS-2012</a> ] - [DS-2012] JSPUI does not write column last_active in database as context is not commited after login - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;pbecker&gt; s/methdos/methods</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: tdonohue: DS-2012 needs testing with all authentication methods.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; Before we move on to 5.0 and other topics...I just remembered something which I forgot to add to our agenda..</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;hpottinger&gt; monikam_: I just manually editied the readme file for Vagrant-DSpace, you can cross that off your list. I will close 2017</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;monikam_&gt; thanks hp</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; I had sent an email to dspace-devel about moving all JIRA notifications/updates to a separate mailing list.  Is everyone OK with that? Any ideas on what to call that list? (Cause I've had no additional feedback)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;pbecker&gt; +1</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;monikam_&gt; +1</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;pbecker&gt; dspace-issues?</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;monikam_&gt; dspace-jira ?</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;pbecker&gt; wouldn't name it after a concrete product.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; dspace-issues (or something like it) was my first thought too</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;monikam_&gt; true issues is better</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; or dspace-support (but not sure if that's specific enough)</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;hpottinger&gt; dspace-support would attract questions</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; true</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;pbecker&gt; dspace-support may be ussed by everyone who does not read the reason for the mailinglist.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;PeterDietz&gt; support implies too much in my head. I'd stick with issues</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;monikam_&gt; support sounds like helpdesk</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;hpottinger&gt; dspace-notices?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;monikam_&gt; dspace-issues +1</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;hpottinger&gt; or dspace-dispatches?</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;monikam_&gt; dspace-tickets ?</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; dspace-tickets or dspace-issues seem reasonable. My only slight concern about "dspace-issues" is that it sounds negative</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;pbecker&gt; dspace-tickets is fine as well.</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; OK, I'm going with dspace-tickets. I like that one better.  I'll create the new list likely this week and notify everyone once it is created &amp; hooked up to JIRA</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;hpottinger&gt; dspace-tickets +1</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;mhwood&gt; Whether it attracts posters is mostly irrelevant if only Jira can post.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;hpottinger&gt; "I subscribed to dspace-support and now I can't post"</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;mhwood&gt; "Correct."</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;pbecker&gt; dspace-tickets +1</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;monikam_&gt; maybe it is possible to configure the list with a custom message - that says no posting</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, only JIRA will be able to post to the 'dspace-tickets' list.  We can setup a auto-reply, or even tweak the 'reply-to' to go to dspace-tech or dspace-devel</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mhwood&gt; Sounds good.  Thanks!</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;monikam_&gt; +2</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;hpottinger&gt; auto-reply +1</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, thanks for the tips on this one. I'll let you all know once it is setup!</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; Back to the agenda...the remainder of the meeting is really "Open Discussion".  I put in a bullet on 5.0, but I didn't have anything specific to discuss.  But, I *WILL* remind you all that 5.0 feature Pull Request deadline is early October (exact date TBD)</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;monikam_&gt; I wrote some code that does bulk stuff from the command line</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;monikam_&gt; see <a href="https://jira.duraspace.org/browse/DS-2019">https://jira.duraspace.org/browse/DS-2019</a></span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2019] bulk list and change commands - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2019">https://jira.duraspace.org/browse/DS-2019</a></span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2019">https://jira.duraspace.org/browse/DS-2019</a> ] - [DS-2019] bulk list and change commands - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;monikam_&gt; there is a readme</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;hpottinger&gt; we had a discussion about testing going in #dspace earlier</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;monikam_&gt; there is a PR and readme <a href="https://github.com/DSpace/DSpace/pull/547/files#diff-7">https://github.com/DSpace/DSpace/pull/547/files#diff-7</a></span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-2019 bulk list and change commands by akinom · Pull Request #547 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/547/files#diff-7">https://github.com/DSpace/DSpace/pull/547/files#diff-7</a></span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;monikam_&gt; I missed your discussion on REST and so forth - but it may be possible to share code - at least where GET functionality is concerned</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; monikam_: Wow...I hadn't seen this yet.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mhwood&gt; At first glance, Ds-2019 looks good.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;monikam_&gt; thanks :-)</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;anja&gt; I have a question about writing documentation of features which are currently only PR. Where should it go? Wiki seems only for released things.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;monikam_&gt; the metadata-export   and bulk lister have a little overlap too - when used to list metadata values</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; The concepts look interesting...I'd want to get others feedback on them as well.  I agree, it might be an interesting to see if there's any code-share with REST that could happen.  The PR (#547) is a bit messy though, as it seems like it has a bunch up old 1.8.x commits mixed in</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;pbecker&gt; anja: did you see the DSpace-Space in the wiki?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;monikam_&gt; the metadata-export   and bulk lister have a little overlap too - when used to bulk lister is used to list items and selected metadata values</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; I would write up a personal page on the wiki.  It could be adopted as-is into the official doco. later.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; anja: Early Documentation can go in the "DSpace" area of the wiki: <a href="https://wiki.duraspace.org/display/DSPACE/Home">https://wiki.duraspace.org/display/DSPACE/Home</a>  Or, you can even create it under your own Personal space.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;kompewter&gt; [ Home - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Home">https://wiki.duraspace.org/display/DSPACE/Home</a></span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; anja: Essentially if you can put Early Documentation *somewhere* on the Wiki, we can move it over to the official Documentation area once the code is accepted</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;monikam_&gt; I did a bad choice in  Lister.java - i should have implemented an iterator - it works fine for my DSPACE instance but will blow on bigger ones</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;pbecker&gt; I'll create a Ticket and a PR in the next few days: I want to add support to DSpace to export repositories contents as Linked Data (RDF serialization and SPARQL-Endpoint).</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; monikam_: Yea,...we'd need to test this on larger DSpace sites and likely improve anything that would blow up on them</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mhwood&gt; monikam_: There is still time to change that.  Thanks for considering Iterators.  We do too many things with arrays, without considering scalability.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;monikam_&gt; I will be much tighter on time - my new project kicked in - what is the best way to move forward  efficiently - aka time wise for me ?</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;hpottinger&gt; pbecker, that sounds cool</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger: thanks. the code is almost done, but it will be a bigger pr.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;hpottinger&gt; monikam_: reach out and find a tester or two of your PR, work with them to get feedback on your code</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; monikam_: One of the early things we'd need is to cleanup the PR. It looks like it was created off of a 1.8.x version of DSpace?   It should be created off of "master" in order to ensure a clean PR.   Plus, cleaning up the PR will let others contribute to your work.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;monikam_&gt; OK ; HOW wants to test  DS-2019  ?</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2019">https://jira.duraspace.org/browse/DS-2019</a> ] - [DS-2019] bulk list and change commands - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; monikam_: The PR is hard to test as is...it's got a ton of unrelated commits in there: <a href="https://github.com/DSpace/DSpace/pull/547/commits">https://github.com/DSpace/DSpace/pull/547/commits</a></span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-2019 bulk list and change commands by akinom · Pull Request #547 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/547/commits">https://github.com/DSpace/DSpace/pull/547/commits</a></span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;mhwood&gt; Bring it up on -tech, find someone who wants this feature and is willing to work on it?</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;hpottinger&gt; it should be pretty straightforward to rebase your commits on top of master</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;monikam_&gt; I think I did against master ; it says <a href="https://github.com/akinomwants">https://github.com/akinomwants</a> to merge 246 commits into DSpace:master from akinom:prq_bulk_do</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;hpottinger&gt; right, that's the PR, the branch you want to merge isn't based on master</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;monikam_&gt; still leaning git   - sighhh</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;mhwood&gt; Where it came *from*, not where it's going *to*.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;mhwood&gt; I remember that sigh.  It gets better, really it does.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;monikam_&gt; ok - will rebase</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;PeterDietz&gt; Basically just grabbing all the commits starting at Feb 4 2014. I would guess checking out a new branch off of master, then cherry-pick from start...end would be easiest</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;PeterDietz&gt; The PR included some old commits from Robin Taylor from 2011 for DSpace 1.8, don't need those</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;monikam_&gt; cherry -picking I go …</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;monikam_&gt; thanks</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-green">* tdonohue (~androirc@2607:fb90:170f:b90d:5590:d236:416f:b97e) has joined #duraspace</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-green">* monikam_ (~Monika_Me@monika.Princeton.EDU) has left #duraspace</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue1&gt; ugh. My internet just went down for about 5 mins...sorry to drop off there</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-navy">* tdonohue (~androirc@2607:fb90:170f:b90d:5590:d236:416f:b97e) Quit (Client Quit)</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; so, any other topics here? (trying to catch up via logs)</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;anja&gt; I've done changes to how shibboleth assigns groups to people. Basically getting rid of the restriction ignore_scope or ignore_value, so that you can have both in your conifg.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger, earlier you recalled testing discussion.  There is some performance testing in dspace-api done using contiperf.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;anja&gt; Would this be something the comunity would be interested?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;anja&gt; Would this be something the community would be interested?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;hpottinger&gt; anja: yes</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; anja: might need more info on that. But, it sounds possibly interesting</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; (But, if hpottinger is interested, chances are others would be)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; so, it might be best to see a PR, etc.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;hpottinger&gt; though, I dimly remember configuring around that limitation</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;anja&gt; It is really to allow a more fine grain approch to assigning people to groups</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;anja&gt; It is only one file - I'll do an issue + PR and you can have a look than</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; anja: that sounds useful to me, probably just needs a PR or ticket to discuss</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; +1 useful</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;pbecker&gt; I want to add support to DSpace to export repositories contents as Linked Data (RDF serialization and SPARQL-Endpoint). Code is almost finished. Will create a ticket, a wiki article and a pr in the next days.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good, pbecker.  Would be interesting to see and understand some use cases for, etc.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; pbecker: I think that will generate some interest.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;pbecker&gt; glad to here that. :-)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;pbecker&gt; will provide code and information in the next days.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; going back to hpottinger (&amp; mhwood) mention on testing discussion. It would be nice to obviously improve our performance testing of DSpace (especially around major releases like 5.0).   Should we start up some docs on this on the Wiki somewhere?  E.g. around using JMeter or similar?</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;hpottinger&gt; yes, a writeup of PeterDietz's REST-API JMeter tests would be good, and if we can get them into the Maven build, even better</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; We do have some basic performance tests in dspace-api (as mhwood mentions) via contiperf.  Those would be good to also enhance.  But, I wonder if during Testathon we should start spinning up a "standard" JMeter test to run</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;hpottinger&gt; with a "standard" set of AIPs for testing</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;PeterDietz&gt; I currently have a spare cycle as we speak, and am playing with JMETER. Is there any way I can made a recordable screenshare session. i.e. informal jmeter webinar?</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;PeterDietz&gt; hangout-on-air?</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; All "doable"...we really just need someone / somewhere to start from.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: are you wanting to just record a screencast to post on the wiki somewhere?</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-brick">* hpottinger fires up Google+</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: or are you suggesting a live demo/meeting?</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;PeterDietz&gt; If anyone wants to watch some JMETER, I can show some jmeter. Thats all I'm suggesting. You can then ask questions. Sorry if this derails the wrapup from the dev meeting</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; The latter (live demo/meeting) is what Google+ is best at.  But, if you just wanted to do a screencast, here's some various screencasting tools that DuraSpace staff uses for our screencasts: <a href="https://wiki.duraspace.org/display/KB/Screencast+Guidelines">https://wiki.duraspace.org/display/KB/Screencast+Guidelines</a></span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kompewter&gt; [ Screencast Guidelines - KnowledgeBase - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/KB/Screencast+Guidelines">https://wiki.duraspace.org/display/KB/Screencast+Guidelines</a></span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-brick">* hpottinger is lurking on G+ waiting for an invite...</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding a JMeter Google+ session, I'd try and attend if I'm meeting free whenever you are doing it....</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mhwood&gt; I think he meant *now*?</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, maybe you are correct :) I was reading that differently.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;anja&gt; I take it, that is the end of the meeting ...</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietz: your G+ profile is incorrect</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, here...we are at our hour, and discussion is slowing down.  There's not a ton to sum up here, but some good discussions.   Just a reminder to chip in on bug-fixes for 4.2!  You are also encourage you to submit new features for 5.0!</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; I'll also be working on creating the new "dspace-tickets" listserv over the next week, obviously, and let you all know once that is done</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;PeterDietz&gt; I don't really know to use g+, but you can join this. It won't be exciting. <a href="https://plus.google.com/events/c22fgl68p24sqo9ofld8oegvchc">https://plus.google.com/events/c22fgl68p24sqo9ofld8oegvchc</a></span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;kompewter&gt; [ Performance testing DSpace with JMETER - Google+ ] - <a href="https://plus.google.com/events/c22fgl68p24sqo9ofld8oegvchc">https://plus.google.com/events/c22fgl68p24sqo9ofld8oegvchc</a></span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; So, with that, we'll go ahead and close up the meeting here. Looks like PeterDietz is on G+ afterall</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;hpottinger&gt; "live video broadcast will begin soon"</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;PeterDietz&gt; oops.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;mhwood&gt; I now have dspace-tickets set up in my Maildrop routing and Mutt folder list....</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-navy">* terryb3 (~anonymous@162.244.138.212) Quit (Ping timeout: 272 seconds)</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-navy">* anja (82587893@gateway/web/freenode/ip.130.88.120.147) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-navy">* pbecker (~pbecker@55d437ae.access.ecotel.net) Quit (Quit: pbecker)</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[18:10]</span> <span class="irc-navy">* PeterDietz (~textual@162-231-20-67.lightspeed.clmboh.sbcglobal.net) Quit (Ping timeout: 244 seconds)</span><br />
+<span class="irc-date">[18:36]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:31]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:7869:af23:96ac:d3b3) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[23:25]</span> <span class="irc-navy">* edInCo (~smuxi@seta.coalliance.org) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:56]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />

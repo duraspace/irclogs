@@ -1,0 +1,69 @@
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-leguin.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-leguin.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-leguin.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-leguin.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-green">* DuraLogBot (~PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[6:20]</span> <span class="irc-green">* grahamtriggs (~trig01@80.169.130.178) has joined #duraspace</span><br />
+<span class="irc-date">[9:24]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[9:47]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[10:08]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[10:47]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:59]</span> <span class="irc-green">* cwilper (~cwilper@173-85-168-197.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:00]</span> <span class="irc-black">&lt;cwilper&gt; Note: We're starting this meeting soon, anyone's free to call in: <a href="http://fedora-commons.org/confluence/display/FCREPO/2010-03-09+-+Special+Topic+-+3.4+Scoping+Kickoff">http://fedora-commons.org/confluence/display/FCREPO/2010-03-09+-+Special+Topic+-+3.4+Scoping+Kickoff</a></span><br />
+<span class="irc-date">[11:03]</span> <span class="irc-green">* sbayliss (~IceChat7@188-222-88-173.zone13.bethere.co.uk) has joined #duraspace</span><br />
+<span class="irc-date">[11:03]</span> <span class="irc-green">* anarchivist (~anarchivi@unaffiliated/anarchivist) has joined #duraspace</span><br />
+<span class="irc-date">[11:05]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[11:06]</span> <span class="irc-black">&lt;sbayliss&gt; <a href="http://www.fedora-commons.org/confluence/display/FCREPO/Feb+23-24+2010%2C+London+Committer+Meeting">http://www.fedora-commons.org/confluence/display/FCREPO/Feb+23-24+2010%2C+London+Committer+Meeting</a></span><br />
+<span class="irc-date">[11:06]</span> <span class="irc-green">* birkland (~8054452a@gateway/web/freenode/x-ygrrenyqfiqhiwcs) has joined #duraspace</span><br />
+<span class="irc-date">[11:08]</span> <span class="irc-green">* awoods (~48425075@gateway/web/freenode/x-xwwbafkbswasieob) has joined #duraspace</span><br />
+<span class="irc-date">[11:09]</span> <span class="irc-green">* eddies (~eddies@gou06-1-82-224-98-122.fbx.proxad.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:10]</span> <span class="irc-black">&lt;cwilper&gt; ECM: Green items seem to fit for 3.4</span><br />
+<span class="irc-date">[11:14]</span> <span class="irc-black">&lt;cwilper&gt; SDef/Dep Improvement: Dependency on module architecture rework</span><br />
+<span class="irc-date">[11:15]</span> <span class="irc-navy">* eddies (~eddies@gou06-1-82-224-98-122.fbx.proxad.net) Quit (Quit: eddies)</span><br />
+<span class="irc-date">[11:16]</span> <span class="irc-green">* awoods_ (~awoods@pool-72-66-80-117.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:16]</span> <span class="irc-navy">* awoods (~48425075@gateway/web/freenode/x-xwwbafkbswasieob) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[11:16]</span> <span class="irc-green">* awoods_ is now known as awoods</span><br />
+<span class="irc-date">[11:16]</span> <span class="irc-green">* eddies (~eddies@gou06-1-82-224-98-122.fbx.proxad.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:16]</span> <span class="irc-navy">* awoods (~awoods@pool-72-66-80-117.washdc.fios.verizon.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[11:17]</span> <span class="irc-green">* awoods (~awoods@pool-72-66-80-117.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:28]</span> <span class="irc-black">&lt;cwilper&gt; ...SDef/Dep Improvement: For 3.4, shift to use module framework idioms but no big change in functionality, positions us for bigger items for 4.0 (extra verbs, etc)</span><br />
+<span class="irc-date">[11:29]</span> <span class="irc-black">&lt;eddies&gt; is our maven repo down? see fc-users</span><br />
+<span class="irc-date">[11:32]</span> <span class="irc-black">&lt;awoods&gt; <a href="https://fedora-commons.org/m2/index.html">https://fedora-commons.org/m2/index.html</a></span><br />
+<span class="irc-date">[11:32]</span> <span class="irc-black">&lt;awoods&gt; appears so</span><br />
+<span class="irc-date">[11:32]</span> <span class="irc-black">&lt;cwilper&gt; Module framework: Spring for 3.4 seems tractable and not too disruptive, let's shoot for it.</span><br />
+<span class="irc-date">[11:32]</span> <span class="irc-black">&lt;cwilper&gt; (looking into m2 issue)</span><br />
+<span class="irc-date">[11:34]</span> <span class="irc-black">&lt;cwilper&gt; High level storage: Some cleanup/prep can happen for 3.4, but major move to highlevel storage (and versioning discussion) is a 4.0 thing</span><br />
+<span class="irc-date">[11:40]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:42]</span> <span class="irc-red">[eddies TIME]</span><br />
+<span class="irc-date">[11:42]</span> <span class="irc-red">[eddies TIME]</span><br />
+<span class="irc-date">[11:42]</span> <span class="irc-red">[eddies VERSION]</span><br />
+<span class="irc-date">[11:43]</span> <span class="irc-black">&lt;cwilper&gt; 503 &amp; Retry-after: Yes for 3.4, creating JIRA issue for it...need an impl that supports it (externally-developed)</span><br />
+<span class="irc-date">[11:50]</span> <span class="irc-black">&lt;barmintor&gt; <a href="http://virtuoso.openlinksw.com/main/rdf/index.htm">http://virtuoso.openlinksw.com/main/rdf/index.htm</a></span><br />
+<span class="irc-date">[11:51]</span> <span class="irc-black">&lt;cwilper&gt; Semweb: Green and some blue items fair game for 3.4, quad store and graph hierarchy better for 4.0</span><br />
+<span class="irc-date">[11:53]</span> <span class="irc-black">&lt;barmintor&gt; CModel-based triple generation is a desired item under both SDef/Dep Improvement and Semweb</span><br />
+<span class="irc-date">[12:03]</span> <span class="irc-black">&lt;cwilper&gt; FESL: Currentl stuff Steve's working on is in scope for 3.4, round2 FESL=not counting on for 3.4, funding question</span><br />
+<span class="irc-date">[12:11]</span> <span class="irc-black">&lt;cwilper&gt; ideas for community involvement:</span><br />
+<span class="irc-date">[12:11]</span> <span class="irc-black">&lt;cwilper&gt; Bill: Dev challenges for 3.4?</span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-green">* grahamtriggs (~trig01@80.169.130.178) has left #duraspace</span><br />
+<span class="irc-date">[12:16]</span> <span class="irc-black">&lt;cwilper&gt; Andrew: Release candidates?  Chris possibly at code freeze: don't necessitate a physical file release, could have people get it from svn at code freeze time.  Steve: tagging would be good.</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-black">&lt;awoods&gt; special topic candidates for next week:</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-black">&lt;awoods&gt; Module Arch Development?</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* anarchivist (~anarchivi@unaffiliated/anarchivist) has left #duraspace</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-navy">* birkland (~8054452a@gateway/web/freenode/x-ygrrenyqfiqhiwcs) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[12:27]</span> <span class="irc-black">&lt;cwilper&gt; Aaron: Versioning</span><br />
+<span class="irc-date">[12:27]</span> <span class="irc-black">&lt;cwilper&gt; Ben: 20mins or so on SDep/Def, not enough for full meeting yet</span><br />
+<span class="irc-date">[12:29]</span> <span class="irc-black">&lt;cwilper&gt; Dan: Invite Northwestern folks, and Paul re:Islandora</span><br />
+<span class="irc-date">[12:29]</span> <span class="irc-black">&lt;cwilper&gt; Steve: Further down the line: SemWeb area...not ready yet</span><br />
+<span class="irc-date">[12:33]</span> <span class="irc-black">&lt;cwilper&gt; RE: Release timing: Agreement on getting a code freeze/release candidate out 1 or 2 weeks before OR.  One option is to release just prior, another option is to use OR'10 as a chance to get the wider community involved with testing/wrap-up on 3.4.  In either case, we can still use OR'10 to start getting people involved early in the cycle for 4.0 topics.</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-navy">* eddies (~eddies@gou06-1-82-224-98-122.fbx.proxad.net) Quit (Quit: eddies)</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* grahamtriggs (~grahamtri@cpc1-stev6-2-0-cust340.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:36]</span> <span class="irc-green">* eddies (~eddies@gou06-1-82-224-98-122.fbx.proxad.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:44]</span> <span class="irc-navy">* sbayliss (~IceChat7@188-222-88-173.zone13.bethere.co.uk) Quit (Quit: bye!)</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-navy">* eddies (~eddies@gou06-1-82-224-98-122.fbx.proxad.net) Quit (Quit: eddies)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-navy">* cwilper (~cwilper@173-85-168-197.dsl1-erie.roch.ny.frontiernet.net) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-navy">* awoods (~awoods@pool-72-66-80-117.washdc.fios.verizon.net) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-green">* awoods (~awoods@pool-72-66-80-117.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />

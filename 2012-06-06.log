@@ -1,0 +1,305 @@
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-zelazny.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-zelazny.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-zelazny.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-zelazny.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:14]</span> <span class="irc-navy">* kompewter (~kompewter@sul272sandbox.lib.ohio-state.edu) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:38]</span> <span class="irc-green">* scottatm (~scottatm@adhcp218.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[14:42]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-green">* Jose__ (8dd32b9d@gateway/web/freenode/ip.141.211.43.157) has joined #duraspace</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;Jose__&gt; This is the office hour chat, right?</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;Jose__&gt; tim are you there?</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;tdonohue1&gt; Hi Jose__ : yea, office hours starts in about 5 mins.  I just got back to my computer.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;tdonohue1&gt; but, feel free to go ahead and ask whatever question(s) you have. I'm here now</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-brick">* tdonohue1 office hours is starting: <a href="https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours">https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours</a></span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;Jose__&gt; Sorry ... I had it in my mind that it was 1pm.</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;tdonohue&gt; (FYI to all -- my internet has been a little unstable today. Not sure why. So, I apologize in advance if I accidentally drop out for brief moments during office hours.)</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;Jose__&gt; My question... In manakin, I want to do what Ideals does when it diesplays a browse result, that is, specifially give the user the ability to go directly to the pdf file.  This can get kind of complicated if done correctly - showing an appropriate icon for the file type.  I contacted Bill from Ideals and have not heard back, but I'm wondering if you or any one knows of some code out there I could use?</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;tdonohue&gt; looking around at IDEALS (www.ideals.illinois.edu) to refresh my memory here...</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;tdonohue&gt; IIRC, I think that's basically just pulling info out of the METS (generated by XMLUI) to get the type of the file marked as the "primary bitstream".  It just happens that in most cases, there's just one bitstream which is a PDF</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;tdonohue&gt; So, for example, on the homepage...there's several "Recent Additions": <a href="http://www.ideals.illinois.edu/">http://www.ideals.illinois.edu/</a>  (all happen to link directly to the PDF).</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the first one listed "Front Matter" (to some issue of a journal): <a href="http://www.ideals.illinois.edu/handle/2142/31370">http://www.ideals.illinois.edu/handle/2142/31370</a></span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;tdonohue&gt; It's DRI XML can be grabbed at: <a href="http://www.ideals.illinois.edu/handle/2142/31370?XML">http://www.ideals.illinois.edu/handle/2142/31370?XML</a></span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;tdonohue&gt; In the DRI, you can get the link to the METS file...which happens to be at: <a href="http://www.ideals.illinois.edu/metadata/handle/2142/31370/mets.xml">http://www.ideals.illinois.edu/metadata/handle/2142/31370/mets.xml</a></span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;tdonohue&gt; In the METS File, there's a &lt;mets:structMap&gt; section, which includes a &lt;mets:fptr&gt; that points at the "primary" bitstream.  In this example it looks like: &lt;mets:fptr FILEID="file_104452"/&gt;</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;tdonohue&gt; Then, taking that FILEID value, you can see it points back up at the PDF document (which has a &lt;mets:file&gt; tag where ID="file_104452"</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;tdonohue&gt; That's the general *concept* of it.  But, I don't have access to the latest IDEALS code anymore.  This is a theme customization in the IDEALS site</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;Jose__&gt; Ok, I can try it from here.  Thanks!</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;tdonohue&gt; sure thing.  You could also try to email Sarah Shreeves @ Illinois.  Hopefully Bill will answer you soon though</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;Jose__&gt; This can get messy, and was hoping I could just cut and paste.</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;tdonohue&gt; yea, it probably does get a bit messy.  I think the best option would be to ask someone at Illinois to share the code.  Unfortunately, I don't think their code is in a public location (a place where it is publicly readable).  If they moved it over to GitHub, it'd be so much easier to share / borrow code</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;tdonohue&gt; (This is part of the motivation to get institutions to think about using GitHub.  It becomes much easier for everyone to share cool additions to themes, etc.)</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;tdonohue&gt; Some DSpace Sites have already started to share their Themes up at: <a href="https://wiki.duraspace.org/display/DSPACE/Repository+of+XMLUI+themes">https://wiki.duraspace.org/display/DSPACE/Repository+of+XMLUI+themes</a></span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;Jose__&gt; Cool, I'm taking a look right now.</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:43]</span> <span class="irc-navy">* PeterDietz (~peterdiet@128.146.173.59) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[18:55]</span> <span class="irc-navy">* Jose__ (8dd32b9d@gateway/web/freenode/ip.141.211.43.157) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder that our DSpace Developer Mtg starts at the top of the hour : <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-06-06">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-06-06</a></span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* sands (~sandsfish@18.189.31.239) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hello everyone. It's now time for our weekly DSpace Developers meeting. Today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-06-06">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-06-06</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;helix84&gt; ++++</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;helix84&gt; sorry</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; As always, we'll start with some JIRA reviews for today</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1038+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1038+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; kicking things off with DS-1038</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; (oh, no kompewter today)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-1038">https://jira.duraspace.org/browse/DS-1038</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;mhwood&gt; Sounds like a bug to me.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, I think the bundle should be auto-removed if there's no remaining bitstreams</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; (no reason to keep around empty bundles)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; anyone interesting in looking into this?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* kompewter (~kompewter@sul272sandbox.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-green">* PeterDietz (~peterdiet@128.146.173.59) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; (hey look it's PeterDietz &amp; kompewter!)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; no volunteers for DS-1038 then?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1038">https://jira.duraspace.org/browse/DS-1038</a> ] - [#DS-1038] CLI itemupdate does not remove empty bitstream bundles. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; I can take a look, I've been tinkering with ItemUpdate anyway</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-1038 Summary: Several of us agree this sounds like a bug.  hpottinger will look into it. (Thanks Hardy!)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-1039</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1039">https://jira.duraspace.org/browse/DS-1039</a> ] - [#DS-1039] Item view in Mirage theme broken when ORIGINAL or CONTENT bundle present and empty - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;KevinVdV&gt; I can look into this one if nobody objects ?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; Probably should be fixed both ways:  the theme should handle empty bundles, but there shouldn't *be* empty bundles.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good KevinVdV, thanks!</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-1039 Summary: sounds like a bug. KevinVdV will investigate</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;KevinVdV&gt; I'll add mhwood's comment &amp; look into that also</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-1040</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1040">https://jira.duraspace.org/browse/DS-1040</a> ] - [#DS-1040] Discovery results, sorted by title, should ignore stop words in sort - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mhwood&gt; Thinking that Ds-1038 and Ds-1039 are somewhat related.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;KevinVdV&gt; True mhwood ....</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;KevinVdV&gt; Ps: I'll also take DS 1040 since it is discovery</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- very loosely related, mhwood. Though there may be other ways that "empty bundles" happen. So, fixing Ds-1038 doesn't necessary fix Ds-1039</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; whoops, mentioned mhwood multiple times there mhwood mhwood ;)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; ok, thanks again KevinVdV</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; Loosely, yes, but the issues' owners should talk.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-1040 Summary: KevinVdV will investigate</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-1043.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1043">https://jira.duraspace.org/browse/DS-1043</a> ] - [#DS-1043] &amp;#39;ant help&amp;#39; refers to &amp;#39;install_code&amp;#39; target which does not exist - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; Anything that needs assistance here, mhwood?  I see you have this one claimed</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; Assigned to me and I need to get back to it.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; ok, we'll skip for now then. Let us know if you need any support</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-1046</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1046">https://jira.duraspace.org/browse/DS-1046</a> ] - [#DS-1046] Add metadata export for community and collection managers - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; Thanks!  Probably I just need to note that nobody objected so I can proceed.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; 1046 looks like yet another special case of We Need Finer-Grained Permissions.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; re 1043, mhwood, if you want a test of your patch, I can prioritize testing, or I can wait for the pull request and test that.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger:  thanks, I'll be in touch when I have something ready.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; It sounds like 1046 may just require enabling the metadata export link for comm/coll admins?  That seems like it might not be that hard (unless I'm overlooking something)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; That would work, I think.  But we keep having requests like this all over, and if we can ever get around to reworking the permissions then they all go away -- you just set your permissions properly and people get what they are supposed to have.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; So, for a quick fix, yes, just wire that permission into the code.  But there's a more general fix, which I try to bug us all about at suitable intervals....</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-brick">* hpottinger thinks this would be a good use of a business rules engine...</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Yup, but it starts with staring at the data model and writing out a list of what could and should have separate permissions.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; one of the oddities about the "Export Metadata" functionality is that it's actually only available when visiting a community or collection page (then it's in the XMLUI Context menu).  It seems odd then that only a full SysAdmin can use it.  Usually the SysAdmin tools are under "XMLUI Administrative" menu</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Point.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; But, on the flip-side, the "Import Metadata" option is in the XMLUI Administrative menu (which *is* SysAdmin specific).  So, all in all, this is slightly odd</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; Yes, it should be made less odd.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; Hi everyone, sorry I'm late :-)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; So, for Ds-1046, I'd be OK with giving Community/Collection Admins ability to export metadata. But, it does then seem slightly odd that they cannot import it again -- but as that's the more dangerous task, perhaps that's OK</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; Not odd that read/write permissions are different, but that they are in two such different places.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; Seems like a job for delegated administration to determine</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; Hence my usual rant about finer-grained permissions.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; I'm assuming this must not be covered by the delegated admin tools that are already available</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; just a comment - i often give different people the csv with metadata to edit, but i'm the only one who ever does the import, and I always look at the diff. so this is definitely a valid use case.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; maybe we just need a few new delegated admin configs:   'core.authorization.collection-admin.export-metadata = true/false' and 'core.authorization.community-admin.export-metadata = true/false'</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; If we're going to make it configurable, push it into the authz model instead of proliferating dspace.cfg stuff.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- although I agree conceptually (for long term), all the other  "delegated admin auth" stuff is already in dspace.cfg.  So, I was just maintaining consistency for now</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; OK, I'm not familiar with that bit.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; but, once the other 'delegated admin auth" stuff is moved out of dspace.cfg, then, yes, I agree</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; This is the stuff in dspace.cfg : <a href="https://github.com/DSpace/DSpace/blob/master/dspace/config/dspace.cfg#L319">https://github.com/DSpace/DSpace/blob/master/dspace/config/dspace.cfg#L319</a></span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace/config/dspace.cfg at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace/config/dspace.cfg#L319">https://github.com/DSpace/DSpace/blob/master/dspace/config/dspace.cfg#L319</a></span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mdiggory&gt; delegated administration represents "actions" that a user role can perform...</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; so, it seems like we just need a new configurable action for now -- an "export-metadata" action.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mdiggory&gt; Let me ask a tough question here... delegated admin actually controls exposure of UI interfaces,  but does it actually result in testing the users ability to alter the data model and run the "business logic" that the UI interacts with?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; I think the answer is *yes* (it actually blocks users in the business logic as well).  But, I could be wrong (been a while since I looked at the code)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; A good point.  We shouldn't be controlling access through UI exposure, because we have scads of UIs and they tend to diverge.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/java/org/dspace/authorize/AuthorizeConfiguration.java">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/java/org/dspace/authorize/AuthorizeConfiguration.java</a></span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-api/src/main/java/org/dspace/authorize/AuthorizeConfiguration.java at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/java/org/dspace/authorize/AuthorizeConfiguration.java">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/java/org/dspace/authorize/AuthorizeConfiguration.java</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, we've spent a large amount of time on this one topic :)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; there's a lot of great info here though -- need to add to the notes of Ds-1046</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone interested in looking more closely at Ds-1046?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; (i.e. anyone want to build out this use case)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; ok. hearing none right now.  Ds-1046 Summary:  We brainstormed this out for a bit. (Notes need to be posted to ticket).  Needs a developer volunteer to investigate / implement</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; gonna stop our official JIRA review there for today.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; on to other topics.  Quick reminder that if you have suggestions for topics at the OR12 DSpace Dev meeting add them to <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-07-09+-+OR12+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-07-09+-+OR12+Meeting</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-07-09 - OR12 Meeting - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-07-09+-+OR12+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-07-09+-+OR12+Meeting</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Also, signup there if you plan to attend.  We need to make sure we have a properly sized room :)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; just one last comment on above... AuthorizeConfiguration is used by AuthorizeUtil and the primary DSO objects</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; If you *are* going to OR12, please fill out your Crowdvine profile, too, not many of us DSpace folks in there yet...</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory : good to know.  So, as expected, it is used down in the API/business logic and not up in the UI-layer</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: is there a link to the crowdvine somewhere?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="http://or2012.crowdvine.com/">http://or2012.crowdvine.com/</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ Open Repositories 2012 - Home (CrowdVine) ] - <a href="http://or2012.crowdvine.com/">http://or2012.crowdvine.com/</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; thanks :)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: very last comment.... AuthorizeUtil is used throughout the UIs</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. we've spent a good time on JIRA today.  But, I did want to touch back on topics from last week.  Namely we had talked briefly on how our JIRA backlog doesn't seem to get smaller (in fact it's getting bigger) &amp; if there may be ways to speed up some of this process</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; After today's work (up through Ds-1046), our current JIRA backlog is at 88 unreviewed tickets</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mhwood&gt; In the beginning, each issue got one minute, and if there was consensus it could have another minute.  Nowadays we tend to go silent for longer than 2min. sometimes.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; give out an new ipad for every JIRA task that gets closed.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory : you are going to give us all ipads? really, that sounds great?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;PeterDietz&gt; I'd rather get a gently used iPad, save the planet</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; err.. that sound great!</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; dunno about paying for bugs...</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, I wondered if we need to go back to that old model.  I've been less strict about 1min per issue thing</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; oh no... whatd I get myself into....</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; I will note that we are running essentially 6+ months behind.  We just reviewed Ds-1046, which was opened on Oct 4, 2011</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. that's not so good</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; I wonder if there would be a way to weight the issue list?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; how many unreviewed issues are there?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;sands&gt; (votes)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: at this time, 88</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, I thought the purpose of the JIRA review was to prevent starvation.  Weighting tends to promote starvation.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; How about every week a developer gets "cleanup duty" to triage that week's bugs. Then at DevMtg, they can be looked at closer.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood.  I worry about "votes".  It's possible that a small bug will get no votes, even if it has a quick fix / provided patch</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; but only 51 assigned to 3.0</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;sands&gt; tdonohue: only if we are a slave to the votes, which i'm not advocating.  the question was whether there was a way to weight them.  that seems to be a solution to that problem.  it's just a unit of measurement.  *shrug*</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; (that was a different developer each week, e.g. assigned at DevMtg to prevent his unavailability)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; I've been wondering if there is a way we can do something more like "split up" the queue just to do a quick review &amp; catchup</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; the "cleanup duty" thing could also work, if others liked it</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; by "split up" though...I mean this..</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: the problem is not only with the queue, but also with stale bugs that have been reviewed</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; I think we should maybe organize on "bug" vs "feature request"  or attempt to organize out some of the "I just had this great idea" tasks</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; 1. each person take  N tickets (where N=5 or 10)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; 2. do a very quick review of those tickets &amp; essentially "rank it" (either claim it, flag it for 3.0, or somehow mark it as needing more discussion -&gt; in which case it gets discussed in these meetings)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; basically, the first issue is that I think the queue gets huge cause we discuss all issues in this meeting (even if the issue is a tiny bug with a patch that could just be flagged / committed for 3.0)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mdiggory&gt; right</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mdiggory&gt; 2.b. make sure it classified appropriately as bug or new feature</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yea, I agree about the stale bugs also being an issue. but, in a way, if we can manage the queue, we can also "refresh" stale bugs back into the bigger queue</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- true. as part of the quick review, you could do a quick clean up the metadata (the type of ticket, etc.)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mdiggory&gt; I just noticed we have "boards" like "planning", "rapid", "task"</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;sands&gt; there are also tags in JIRA, so we could subdivide without making separate queues if we wanted to...</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://jira.duraspace.org/secure/TaskBoard.jspa?selectedProjectId=10100&amp;selectedBoardId=10543">https://jira.duraspace.org/secure/TaskBoard.jspa?selectedProjectId=10100&amp;selectedBoardId=10543</a></span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace - Task Board - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/TaskBoard.jspa?selectedProjectId=10100&amp;selectedBoardId=10543">https://jira.duraspace.org/secure/TaskBoard.jspa?selectedProjectId=10100&amp;selectedBoardId=10543</a></span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; yes, there are tags (called "labels") that we could take more advantage of</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mhwood&gt; I'd be willing to commit to a best effort to reviewing a small number each week.  Maybe someone could just assign a few issues to each volunteer, still in the Received state.  A volunteer reviews Assigned+Received and must move each to another state, whether Assigned+Open (he keeps it), Closed (unactionable issue), or something else.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; I'm thinking, how do we coordinate so that we don't have four people reviewing the same issue.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea, that "TaskBoard" is a feature of the new "agile development" GreenHopper plugin for JIRA.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; perhaps the release team might consider adopting the Boards in JIRA as a means to track and organize the important issues that should be factored into planning for 3.0?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: That's why I was talking about "splitting up" the queue.  Essentially, we'd want to each take different issues.  For example, I could say "I'll take the first 10 in the queue", and then someone could take the next 10, etc.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-brick">* mhwood wonders if JIRA could automate that somehow.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;sands&gt; mdiggory: i'm not familiar with the functionality, but sounds like it's worth the RT looking at.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: I think that the boards, although useful, don't let us lessen the queue of *unreviewed* tickets.  The unreviewed tickets haven't even been scheduled for 3.0 as they haven't yet been reviewed</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; I don't think it's a good idea to take issues by numbers (that could be only for triage). They need to be assigned by areas of interest.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; but, I do think the boards could be useful in organzing 3.0</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; But we seem to have some areas of interest in which no one is interested.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: perhaps I'm not being clear.  I'm actually talking about "triage".  The "split up" the queue would be a way for us to just perform basic triage on tasks to try and determine which actually need discussion in this meeting.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; (again, this is really just a brainstorm I had.  If I'm crazy or if others think there's a better route, I'm open to ideas)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: IMHO developers shouldn't need to do triage. we have this community group (i keep forgetting what it's called) for that.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; I just don't like the fact that we are reviewing tickets that are 6+ months old every single meeting</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; CAT</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; I wonder if we could work out a list:  OK to assign {this type} of issues to me.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: we don't have a community group that does triage.  We have DCAT, but all they do is help create better use cases for *feature requests*. They don't even look at bugs</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: that could work. I like that idea.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue:  I do agree, it might be useful in we, as a group just went through and at least spent 15 seconds on a ticket classifying and prioritizing it...  Voting is good way to prioritize as well.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; right now, we have a triage system that involves one of us needing to bring a bug to everyone's attention if it's annoying enough to us personally (I do this for any Oracle issue)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Issues need to belong to someone if they are to get work (as opposed to attention).</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: correct. we are doing well at that. I think we should continue to do that as a way to triage</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mdiggory&gt; we should at least identify if a issue provides a solution or not.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;sands&gt; i've gotta jet.  cheers all.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-green">* sands (~sandsfish@18.189.31.239) has left #duraspace</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; hmm..maybe use tags/labels to flag whether it has a solution? Or just schedule it for 3.0 if it's got a patch/solution (and then hope that we can find someone later to tackle it before 3.0)?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mdiggory&gt; I'm not sure, then whoever adds a solution (patch or otherwise) needs to update the label as well...</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; I agree though -- the tickets I'd most like to "find" are those that either have a patch or a solution.  Cause those shouldn't have to wait for 6+ months necessarily.  Or at least, we should be considering them all for 3.0</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; yeah, if a bug report and patch comes in, in past it has sat for review, but it ought to come with a pull request now, so that should speed those issues up</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; this areas of interest idea seems to have some support. what about creating a wiki page with a list of devs with "OK to assign {this type} of issues to me." - it might not get rid of all bugs but still a lot</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; i'd agree to look at bugs as they come in and somehow ping those devs</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mdiggory&gt; this is where boards may come into play...  create boards for "needs solution",  "review in meeting", "schedule for next release", "postpone"</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;KevinVdV&gt; *Needs to run*</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;KevinVdV&gt; Until next time</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- s0 d4Mn l33t |t'z 5c4rY!)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; I have to go too.  Will check the log.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: yea, maybe boards could have a place here. It's just a bit hard right now as the boards would be so large with 80+ tickets</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mdiggory&gt; I think it just dumped all the tasks onto them by default....</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; but, you could be right that we could use them to be able to categorize these tickets better</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; maybe it is worth digging around with the boards some.  I can see potential here to organize things directly in JIRA. But, right now, it's a giant mess that needs some attention/love.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-brick">* tdonohue notes that we are obviously in overtime here. Sorry.  Meeting is officially closed, but I'm going to stick around a bit while I play with these "boards"</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; Take a look at fedora...  they have a few boards that they are managing the next release in</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I see. I think the problem I have is I don't quite understand the ordering yet.  It's definitely a different way of viewing/categorizing things. Just trying to determine how this can help us manage our *input* queue</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mdiggory&gt; they use alot of subtasks</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://jira.duraspace.org/browse/FCREPO-888">https://jira.duraspace.org/browse/FCREPO-888</a></span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-888] Fedora 3.5.0 Documentation Updates - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-888">https://jira.duraspace.org/browse/FCREPO-888</a></span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mdiggory&gt; They also have a "Roadmap Theme" that seems like our "Component"</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mdiggory&gt; but is more generalized</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I can see benefits of using the boards for *release management*.  I'm still trying to figure out if they are also useful for managing the unreviewed tickets queue (much of which are not scheduled for a release yet)</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: what are the available statuses you can set on a task and how do you change them?</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; for isntance...</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://jira.duraspace.org/browse/DS-892">https://jira.duraspace.org/browse/DS-892</a></span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-892">https://jira.duraspace.org/browse/DS-892</a> ] - [#DS-892] Performance issues in update enabling the StatisticsLoggingConsumer - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-892] Performance issues in update enabling the StatisticsLoggingConsumer - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-892">https://jira.duraspace.org/browse/DS-892</a></span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; status is set to "received" ...</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; Right. Everything starts as "received".</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; If you do an "Accept &amp; Open Issue" it moves to "open".  From "open" it can go to "in progress", "resolved" or "closed"</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mdiggory&gt; Documentation Status:  is this a custom field we added?</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; Or you can immediately press "Reject &amp; Close Issue" button in which case it goes straight from "received" to "closed" (this is normally for issues which are not valid JIRA tickets -- e.g. questions that can just be answered or should go to the list)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mdiggory&gt; we can manage the workflow stages and customize them</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; Yes. Documentation Status was something that was added a while back, to try and track which features still needed docs.  Not sure that we really use it consistently though</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mdiggory&gt; in the project admin</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mdiggory&gt; I'm looking at it atm</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; yep. I know. I customized them already to include that "received" status.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mdiggory&gt; could probably create a "needs solution" workflow phase, then you move it into the phase from received if theres no patch or solution... then move it into Open and/or "In Progress" when a patch is provided or someone takes ownership</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mdiggory&gt; and commits to creating a solution</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;tdonohue&gt; the problem is that the only way to tell if it "needs solution" is to have someone do a "triage" review.  That's the main issue here is that we aren't doing "triage" quick enough, which is why our queue has grown to a backlog of 80+ (6 months old)</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;mdiggory&gt; could even have something at the end that aligns with our Github Pull Request process...  "Needs Review"</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;tdonohue&gt; but, I fully agree we can tweak the workflow how we want.  The first issue though is that we need to get *people* involved in that workflow. We don't want to create/tweak the workflow before we figure out how we want to manage the queue.</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;mdiggory&gt; right, but our triage is too intense and I think we need to be more strict about classifications and quick to classify.  TBH, the meeting may not be the right place for triage...</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;mdiggory&gt; the meeting is more discussion about solutions on tickets we know are important.  How many tasks do we actually immediately reject upon review in the meeting?</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;mdiggory&gt; note that the workflow status can be set very quickly from the search results page</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;tdonohue&gt; I agree completely about the meeting not being for triage.  I'm just not sure that adding more workflow steps resolves that?</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;mdiggory&gt; I'm just looking for something more formal than labels to Identify status of the issue.</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://jira.duraspace.org/browse/DS-1178?page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel">https://jira.duraspace.org/browse/DS-1178?page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel</a></span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1178">https://jira.duraspace.org/browse/DS-1178</a> ] - [#DS-1178] XSLT stylesheet for OAI-PMH - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1178] XSLT stylesheet for OAI-PMH - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1178?page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel">https://jira.duraspace.org/browse/DS-1178?page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel</a></span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;mdiggory&gt; here we have a Pull Request, some commitment to work on the task...</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;mdiggory&gt; so its ready for review in the group and a final decision on who will follow it through.</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;mdiggory&gt; that seems more like a workflow stage than a priority</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;mdiggory&gt; or a label</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://jira.duraspace.org/browse/DS-1173">https://jira.duraspace.org/browse/DS-1173</a></span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1173">https://jira.duraspace.org/browse/DS-1173</a> ] - [#DS-1173] registry loader does not employ the more flexible MetadataImporter - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1173] registry loader does not employ the more flexible MetadataImporter - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1173">https://jira.duraspace.org/browse/DS-1173</a></span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mdiggory&gt; here we have an idea and a recommendation, but no effort to prepare the issue for resolution....</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;mdiggory&gt; "Needs Work"</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;tdonohue&gt; unfortunately I have to head out shortly. But, honestly, if you do have thoughts on how the workflow can be tweaked to make things easier, feel free to send them my way (email or similar).  Sorry...I wish I could stick around to discuss more right now</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;mdiggory&gt; no sweat... I've got to head out for my nieces graduation shortly....</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;mdiggory&gt; enjoy</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;hpottinger&gt; thanks for the reminder on 1178, mdiggory, I meant to +1 that the other day, but forgot, did it just now</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: i'd love if you leave a comment, just +1 or possibly some suggestions for improvement</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;hpottinger&gt; upvoted, and signed on to the watch list</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;helix84&gt; i actually started with a METS rendered, but I wanted to make it complete by the XSD which turns out i probably bit of more than i can chew</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;helix84&gt; s/rendered/renderer/</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: i actually started with a METS renderer, but I wanted to make it complete by the XSD which turns out i probably bit of more than i can chew</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;helix84&gt; nice feture, kompewter</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;mdiggory&gt; just accepted the pull request and took ownership of the task...</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;helix84&gt; s/feture/feature/</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: nice feature, kompewter</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;helix84&gt; :D</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;mdiggory&gt; might have been a little premature.</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;mdiggory&gt; review the comment helix84, just open new pull requests if your going to keep running with some of those recommendations...</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;helix84&gt; mdiggory: you mean because i'm still working on it (in that case i don't think so) or because you'd like bmore input?</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;mdiggory&gt; I was just concerned about having the server render html in the case of older browsers...</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;mdiggory&gt; that it'd probibly be better to just not support them at all.</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;helix84&gt; ok, i'll comment</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;mdiggory&gt; k</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-black">&lt;mdiggory&gt; got to run :-)</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has left #duraspace</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-brick">* hpottinger has to run, too, bye!</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />

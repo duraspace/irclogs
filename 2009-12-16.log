@@ -1,0 +1,509 @@
+<span class="irc-date">[0:08]</span> <span class="irc-navy">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[0:12]</span> <span class="irc-green">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[0:35]</span> <span class="irc-navy">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[0:41]</span> <span class="irc-green">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[0:55]</span> <span class="irc-navy">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[0:56]</span> <span class="irc-green">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[1:02]</span> <span class="irc-navy">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[1:03]</span> <span class="irc-green">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-navy">* ChanServ (ChanServ@services.) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* ChanServ (ChanServ@services.) has joined #duraspace</span><br />
+<span class="irc-date">[9:58]</span> <span class="irc-green">* barmintor (i=barminto@128.59.156.13) has joined #duraspace</span><br />
+<span class="irc-date">[10:01]</span> <span class="irc-navy">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[10:09]</span> <span class="irc-green">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:39]</span> <span class="irc-navy">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[10:46]</span> <span class="irc-green">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:49]</span> <span class="irc-navy">* barmintor (i=barminto@128.59.156.13) Quit (Read error: 131 (Connection reset by peer))</span><br />
+<span class="irc-date">[10:49]</span> <span class="irc-green">* barmintor (i=barminto@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[11:10]</span> <span class="irc-navy">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[11:18]</span> <span class="irc-green">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:18]</span> <span class="irc-navy">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[11:18]</span> <span class="irc-green">* kshepherd (i=kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:24]</span> <span class="irc-brown">-christel- [Global Notice] Hi all, Sorry for the delay in updating you -- wanted to get confirmation from sponsors about the actual issue, we are indeed still experiencing heavy DDoS and our upstream providers are working to curb it at the borders were possible. Further info will be via wallops. Thank you.</span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-green">* grahamtriggs (n=grahamtr@cpc1-stev6-2-0-cust340.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:42]</span> <span class="irc-green">* stuartlewis (n=stuartle@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-green">* jtrimble (n=jtrimble@maag127.maag.ysu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-green">* lcs (n=lcs@serenity.hul.harvard.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-black">&lt;kshepherd&gt; meeting today?</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-black">&lt;stuartlewis&gt; AFAIK</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-black">&lt;lcs&gt; that's what i'm here for</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;kshepherd&gt; looks like rrodgers should be along to convene it soon</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;stuartlewis&gt; If he doesn't arrive, we'll just perform a post-testathon JIRA review.</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-brick">* kshepherd nods</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-green">* richardrodgers (n=richardr@pool-173-76-16-252.bstnma.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;stuartlewis&gt; List of JIRA issues: <a href="http://jira.dspace.org/jira/secure/IssueNavigator.jspa?reset=true&amp;&amp;pid=10020&amp;resolution=-1&amp;created%3Aprevious=-4w&amp;status=1&amp;assigneeSelect=&amp;sorter/field=created&amp;sorter/order=ASC">http://jira.dspace.org/jira/secure/IssueNavigator.jspa?reset=true&amp;&amp;pid=10020&amp;resolution=-1&amp;created%3Aprevious=-4w&amp;status=1&amp;assigneeSelect=&amp;sorter/field=created&amp;sorter/order=ASC</a></span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;stuartlewis&gt; Starting with DS-400</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;stuartlewis&gt; Is everyone OK if we just plough through the outstanding issues for this meeting, and try to get as many assigned as possible for 1.6?</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;richardrodgers&gt; sure</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kshepherd&gt; sounds good to me</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;lcs&gt; so long as we can assign them to people who aren't here :-)</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;stuartlewis&gt; rochardrodgers: Sorry - didn't see you arrive.</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;stuartlewis&gt; Did you want to take over chairing the meeting?</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;richardrodgers&gt; no go ahead</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;stuartlewis&gt; OK...</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;stuartlewis&gt;  Bug   	 DS-400   	 Webui item browse (date, title or similar) reduces displayed issue date by one day <a href="http://jira.dspace.org/jira/browse/DS-400">http://jira.dspace.org/jira/browse/DS-400</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;lcs&gt; re DS-400, i'll look into a fix if someone can locate the offending code in jspui for me; i don't know my way around the underbrush.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;stuartlewis&gt; I'll try and locate it, comment on it, then assign to Larry.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;stuartlewis&gt; Next...</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-401">http://jira.dspace.org/jira/browse/DS-401</a></span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;stuartlewis&gt; Wrong date issued during submission</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;stuartlewis&gt; Old bug, leave for after 1.6 (unless anyone wants to tackle it?)</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kshepherd&gt; how 'valid' is valid? just making a hard liit of 31?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;kshepherd&gt; do we need to know if it's a leap year before decidnig the max Feb date someone can enter?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;kshepherd&gt; etc</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;richardrodgers&gt; Let's get the showstoppers first..</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;lcs&gt; it'd be better to solve it right, and then there's the problem of error handling.</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Exactly, so too big for 1.6?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;lcs&gt; teh GregorianCalendar class can help you validate dates.  but agreed, not 1.6.</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;kshepherd&gt; (the bug is just gregoriancalendar doing what its designed to do.. roll over to next month when it gets a number that overflows)</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;stuartlewis&gt; Ok - will leave open</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-402">http://jira.dspace.org/jira/browse/DS-402</a> Item mapper search case sensitive (jspui only)</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;stuartlewis&gt; I'm happy to look at this one, unless anyone else has a burning desire to do so?</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;stuartlewis&gt; (although again, not a new bug or showstopper)</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;richardrodgers&gt; knock yourself out  ;)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;stuartlewis&gt; :)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-green">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-403">http://jira.dspace.org/jira/browse/DS-403</a> Registration Notification with null data for eperson created by the administrator</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;stuartlewis&gt; Leave for post 1.6 unless anyone wants to tackle it? (not new / not showstopper)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;richardrodgers&gt; +1</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;kshepherd&gt; +1</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;lcs&gt; +1</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;stuartlewis&gt; OK +3leave for post 1.6</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-404">http://jira.dspace.org/jira/browse/DS-404</a> Notifications for submitter and workflow task responsible on workflow abortion through administrator</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;stuartlewis&gt; Same again - post 1.6?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;lcs&gt; +1 later - to big a change not to test</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;richardrodgers&gt; +1 later</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;kshepherd&gt; +1 later</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;stuartlewis&gt; OK +4 leave for post 1.6</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-405">http://jira.dspace.org/jira/browse/DS-405</a> New 1.6 Statistics settings in dspace.cfg need Documentation</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;jtrimble&gt; Done</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;stuartlewis&gt; Can the issue be closed?</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;jtrimble&gt; There were missing notes in the documentation.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;jtrimble&gt; The skeleton documentation is done.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;stuartlewis&gt; Excellent - thanks</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;stuartlewis&gt; Does the issue need to remain open?</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;jtrimble&gt; I'd like to remain open until my dear Friend Mark sends me the nitty gritty details.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - shall I assign it to Mark then?</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;jtrimble&gt; &gt;EG&lt;  Yes.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;stuartlewis&gt; OK</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;stuartlewis&gt; Assigned to mdiggory</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-406">http://jira.dspace.org/jira/browse/DS-406</a> View Statistics button does not work in item page</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;stuartlewis&gt; +1 to get this committed</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;richardrodgers&gt; +1 isn't there a patch?</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;lcs&gt; +1 yup, there's a patch</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes - patch looks ready to go</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-green">* caryn (i=80c8e115@gateway/web/freenode/x-xdzwpgdyqwmnrxzo) has joined #duraspace</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;stuartlewis&gt; OK + 3 to have it committed. kshepherd: You ok to do that?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kshepherd&gt; it's done</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kshepherd&gt; i'll commit after meeting</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;stuartlewis&gt; Thanks :)</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-407">http://jira.dspace.org/jira/browse/DS-407</a>  Install or Upgrade on existing server throws errors for "mvn package"</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;stuartlewis&gt; Does Tim's advice of using mvn -U package sound right? (it does to me)</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;jtrimble&gt; Yes, but should that be a default behavior for a fresh install??</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;richardrodgers&gt; so it's a doc issue?</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;jtrimble&gt; Well, maybe...</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;stuartlewis&gt; This is for upgrades</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;jtrimble&gt; Upgrades it makes sense to make sure you get the freshest software</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - so assign to jtrimble for doc update?</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;mdiggory&gt; my apologies, I have to lurk ATM</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;kshepherd&gt; i think it needs to be recommended in doc</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;jtrimble&gt; My question is the install....  shouldn't maven look for the matching package out there?  I just did a fresh install with 1.5.2 and didn't need the -U</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;jtrimble&gt; The ticket say for INSTALL or UPGRADE</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;jtrimble&gt; Doc is already updated.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;stuartlewis&gt; I guess it depends if it is the first time you have run fresh_install on that particular server.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;jtrimble&gt; So, now with 1.6 we need the -U for the install?</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;jtrimble&gt; OH gotcha....that could really catch someone off gard.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;jtrimble&gt; guard</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;stuartlewis&gt; No harm in specifying the -U I suppose?</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;jtrimble&gt; Not IMHO.  Everyone else with using mvn -U fresh_install?  (Can you do that with the -U flag??)</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;jtrimble&gt; else = else ok</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;stuartlewis&gt; +1</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;kshepherd&gt; +1</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;lcs&gt; +1</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;caryn&gt; +1</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;jtrimble&gt; Okay all docs will be updated over the weekend to reflect the change.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;stuartlewis&gt; Carried: 5x +1, assigned to jtrimble</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;stuartlewis&gt; Thanks Jeff.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;jtrimble&gt; I'll test a fresh install for 1.6 to make it works.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mdiggory&gt; mvn -U clean upgrade</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;richardrodgers&gt; +1 could be better I agree, bit we can live with this</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mdiggory&gt; if you do not clean the dspace/target/dspace-build.... directory, old files (especially jars, are still present)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;lcs&gt; is there an option you can set in the POM that tells it to go re-check remote repositories?</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;jtrimble&gt; are you saying to do that instead of mvn -U package or a antecedent</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;stuartlewis&gt; Do the docs mention an 'svn update' build option, which is where that problem would occur?</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;jtrimble&gt; no..there is no mvn update...just mvn package</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mdiggory&gt; -U</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;stuartlewis&gt; Do we need to add a note about users who upgrade using svn, that they need to run 'mvn -U clean package' ?</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;lcs&gt; iirc, "update" is the ant target.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;stuartlewis&gt; lcs: This is svn update, for pulling down the latest code on top of old code.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;stuartlewis&gt; In that case, mvn clean needs to be run to clean out old dependcy jars.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;jtrimble&gt; So, you want additional instructions for those who are pulling down the code too?</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;stuartlewis&gt; I don't think we do - will confuse the manual too much.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;jtrimble&gt; so for upgrade, are you suggesting mvn -U package or Mark's mvn -U clean upgrade?</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;stuartlewis&gt; Shall we put the clean in, again, does no harm?</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;jtrimble&gt; leave the svn out of it...just the public download of the zip/bz2/gz files...</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mdiggory&gt; you better run "clean" it should be a requirement</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - use 'mvn -U clean package'</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;jtrimble&gt; Okay...So the step to Rebuild DSpace is 'mvn -U clean update' instead of mvn -U package?  I just want to get this right.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-409">http://jira.dspace.org/jira/browse/DS-409</a> JSPUI Statistics Display ignores "statistics.item.authorization.admin"</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;stuartlewis&gt; Patch looks fine. +1 commit it</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;richardrodgers&gt; Looks like kshepherd has a patch +1</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;kshepherd&gt; patch ready to go</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;lcs&gt; +1</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;kshepherd&gt; ok</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;stuartlewis&gt; OK: 3 x +1, patch to be committed</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mdiggory&gt; I'd also toss in that using the path /statistics in the XMLUI blocks access to the older reporting, we should adjust this</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;stuartlewis&gt; mdiggory: Is that a new issue?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;stuartlewis&gt; (separate issue to 409)</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-410">http://jira.dspace.org/jira/browse/DS-410</a> Updates to Upgrade Instructions necessary</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;mdiggory&gt; yes, different issue, but stats related</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: i chose 'displaystats' for JSPUI.. wasn't 100% on that name either, should we try and get both UIs using the same path for usage stats to avoid confusion?</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mdiggory&gt; thats probibly fine... "/usage" might be good too.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;kshepherd&gt; hmm yes i like /usage</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;stuartlewis&gt; Can one of you open a new issue for it?</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;kshepherd&gt; let's log as a new issue and we can both submit patches?</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mdiggory&gt; note, we prepend this path onto the end of the URL... whereas you parameterize it, we might want to consider if it can be prepended in the JSPUI?</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;kshepherd&gt; true</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mdiggory&gt; ok, I'll look when I have a moment</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;kshepherd&gt; that should be fairly trivial</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;jtrimble&gt; Assign DS-410 to me.  I've already incorporated them into the documentation.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;stuartlewis&gt; jtrimble: OK - thanks.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-411">http://jira.dspace.org/jira/browse/DS-411</a> XMLUI itemSummaryList-DIM only matches first possible author metadata field</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;richardrodgers&gt; notes say postpone?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;stuartlewis&gt; Yup - just seen that. Ok will skip it.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;kshepherd&gt; yeah last week we decided to postpone</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-412">http://jira.dspace.org/jira/browse/DS-412</a>  Xpdf MediaFilter: generate UTF-8 text, and improve error reporting</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;kshepherd&gt; and i'll make some alternative templates available for those that need extra handling</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;stuartlewis&gt; +1 - looks a useful patch</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kshepherd&gt; +1</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;richardrodgers&gt; +1 seems low risk, have patch</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kshepherd&gt; UTF8 &gt; Latin1 ;)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kshepherd&gt; especially for the text i work with ;)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;lcs&gt; fwiw, i've tested this patch in production, it's been fine, and picking out the encrypted pdfs is handy.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;lcs&gt; ok, i'll commit it.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;stuartlewis&gt; 3 x +1 - OK to commit</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-413">http://jira.dspace.org/jira/browse/DS-413</a> solr statistics evaluation timespan displayed</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;kshepherd&gt; rather 'brief' description ;)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;stuartlewis&gt; I think it means rather than 'Views 317', it should say '317 views this year / month / for ever' etc</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;stuartlewis&gt; (kshepherd: That reminds me - think I've found a big with jspui stats and file names - remind me to show you later)</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;stuartlewis&gt; What do we think of that issue?</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;stuartlewis&gt; Leave it low priority? Not a show stopper?</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;richardrodgers&gt; Good idea, but don't hold 1.6 for it</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;kshepherd&gt; well.. some context is necessary, i agree</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;stuartlewis&gt; Or a simple change that will improve the reports a lot?</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;lcs&gt; it's a valid point, and would be helpful.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;kshepherd&gt; it shoudn't be hard to just give a start date for stats reporting</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;richardrodgers&gt; so it is always life of server?</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;jtrimble&gt; With this being a new better feature, it should be very clear and not need improving in a next release.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;stuartlewis&gt; kshepherd: Can we assign it to you to look at the jspui, then you can assign it to mdiggory to fix the xmlui?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;kshepherd&gt; uh</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;kshepherd&gt; is that data available from org.dspace.statistics already?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;kshepherd&gt; i didn't see it in any datasets</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;stuartlewis&gt; richardrodgers: Undecided I think. There is not the possiblility to purge or aggregate old stats yet, but this feature will no doubt be needed in future versions to cope with huge stats solr indexes.</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;richardrodgers&gt; k</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kshepherd&gt; i guess we can just make an assumption and use "life of server"</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kshepherd&gt; othewrise it'll need to go back to dspace-stats first, not the UIs</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;stuartlewis&gt; Sounds sensible, as hopefully we'll use stats aggregation later.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kshepherd&gt; that's one good thing about dspace-stats.. the way we're building it, people can upgrade dspace-stats without affecting the rest of their installation... if my understanding is correct</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;stuartlewis&gt; Who shall we assign the issue to: mdiggory or kshepherd?</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;kshepherd&gt; if you want a quick hack for 'life of solr server' or some other assumption, you can pass it to me first.. if you want it to be an accurate time period that is included in the actual stats datasets, pass to mdiggory/@mire</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;stuartlewis&gt; I guess we need some nice words that mean 'forever' / 'life of solr server' etc?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;kshepherd&gt; i plan on feeding about 18 months worth of old logs</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;kshepherd&gt; so life of solr server won't be accurate for me..</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;stuartlewis&gt; I'll assign to kshepherd for now, and we can discuss wordsmithing in JIRA</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-414">http://jira.dspace.org/jira/browse/DS-414</a> solr statistics file downloads listed in statistics display of communites and collections</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;kshepherd&gt; i'd still like a consensus on what our best assumption for 'oldest stats record' is and how we reach it</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;mdiggory&gt; I'm sorry, I've been in a phone conference all this time.  Do not stop logging.  keep logs in parallel, we need to complete stuartlewis work on rebuilding the solr index from the logs</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;stuartlewis&gt; mdiggory: No plans to stop stop logging. We're just discussing text labels.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mdiggory&gt; I'm still in call sorry, I will comment on these topics afterward via JIRA</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: ds-413 requests stats time periods in the reports</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-414">http://jira.dspace.org/jira/browse/DS-414</a> solr statistics file downloads listed in statistics display of communites and collections - kshepherd: OK if we assign this to you?</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;kshepherd&gt; stuartlewis: yep</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;richardrodgers&gt; Could I raise a non-testathon 1.6 issue?</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;stuartlewis&gt; Thanks :)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;kshepherd&gt; sorry, didn't see that one was jspui-only</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;stuartlewis&gt; richardrodgers: OK</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;richardrodgers&gt; I'm concerned about DS-253 and it's disposition IIRC we were even going to do a 1.5.3 to fix it</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;richardrodgers&gt; How does it now stand in 1.6?</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;richardrodgers&gt; (Guess this is for one of the Marks...)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;richardrodgers&gt; mdiggory: can you comment in JIRA later? Know you are in a call</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes - looks like we need a resolution for 1.6</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;stuartlewis&gt; Next issue: <a href="http://jira.dspace.org/jira/browse/DS-415">http://jira.dspace.org/jira/browse/DS-415</a> Create groups via admin UI authorization denied</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;kshepherd&gt; i have to go soon</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;stuartlewis&gt; Do we need to ask for a set of steps to replicate? (not sure if this issue is using delegated admin)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;caryn&gt; i wondered that too...</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;stuartlewis&gt; 0: Ask for more detail</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;lcs&gt; it says "as a member of the administrator group"..</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;kshepherd&gt; but i'm happy to have DS-425 assigned to me since i'm doing some other small JSPUI patching soon anyway (just in case i'm gone by then)</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;stuartlewis&gt; kshepherd: Thanks :)</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;stuartlewis&gt; Yup - can confim this.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;stuartlewis&gt; This for a normal admin user.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;stuartlewis&gt; Just recreated this bug on testathon.net/xmlui :(</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;stuartlewis&gt; This is a show stopper</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kshepherd&gt; that's... a showstopper</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kshepherd&gt; jinx!</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;stuartlewis&gt; Any volunteers? Guess it might have something to do with delegated admin patch?</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;richardrodgers&gt; can we volunteer andrea?</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;stuartlewis&gt; We can try. If not Tim also looked at that code I think.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;richardrodgers&gt; was just thinking shortest path..</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-417">http://jira.dspace.org/jira/browse/DS-417</a> 1-day (or passed) embargo dates give error upon submission</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;lcs&gt; I can look into that.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;stuartlewis&gt; I wonder if this was because he was working on testathon.net which is in the NZ timezone, so 12+ hours ahead of US time.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;stuartlewis&gt; lcs: Thanks. Will assign to you.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;lcs&gt; I may need you to help test a patch in NZ.. :-)</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-418">http://jira.dspace.org/jira/browse/DS-418</a> i18n broken in jspui</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;caryn&gt; BTW - on DS-415 I just successfully created on on testathon.net/jspui</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;stuartlewis&gt; Is DS-418 a new issue, or an old one? If old, leave for post 1.6?</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;stuartlewis&gt; caryn: Thanks. That confirms it is an xmlui only bug.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;kshepherd&gt; i want to test i18n issues more</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;richardrodgers&gt; +1 stuartlewis</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - 418 we'll ask for more info from Claudia.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;stuartlewis&gt; We have passed the 1 hour mark now.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;kshepherd&gt; i've noticed some wierd behaviour</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;stuartlewis&gt; Shall we stop, or is anyone happy to continue for a while to get through a few more issues?</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;richardrodgers&gt; I'd do a few more</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;lcs&gt; more, please</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;kshepherd&gt; when logging out of.. i can;t remember if it was JSPUI or XMLUI, the i18n immediately swapped to chinese, which is my 2nd preference in my browser settings</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;kshepherd&gt; i think that's what happened, anyway. i need tot est more.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;kshepherd&gt; but i also have to go now :( will try to be back soon</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - we'll carry on for a while.</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-419">http://jira.dspace.org/jira/browse/DS-419</a> Setting embargo.field.terms to an unqualified field throws uncaught exception on item submission</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;stuartlewis&gt; Looks like the patch can be applied?</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;lcs&gt; yup, it's all ready</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;richardrodgers&gt; +1</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;caryn&gt; +1</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;lcs&gt; +1</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;stuartlewis&gt; Excellent: 4 x +1 - can be comitted</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-420">http://jira.dspace.org/jira/browse/DS-420</a> Community admin unable to delete items mapped to other collections.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;stuartlewis&gt; Ask Andrea if he'll look at this one too?</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;lcs&gt; Is it necessarily even a bug?  Should admin A have to ask admin B to unmap them?</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;richardrodgers&gt; yes, I agree it's borderline</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes - a moot point.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;stuartlewis&gt; Shall I open up a discussion on JIRA?</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;lcs&gt; +1 stuartlewis</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;richardrodgers&gt; yep - cmmutative stuff can be unintuituve</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;caryn&gt; +1 needs to be discussed</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-421">http://jira.dspace.org/jira/browse/DS-421</a> Setting solr.metadata.item.X property to an unqualified field generates exception in SolrLogger.post on item view and prevents Solr from logging the event</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;stuartlewis&gt; dspace.cfg has been fixed now?</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;lcs&gt; good grief, we need some utility routines that can break down the stupid DC field specifiers without these bugs.. embargo had the same problem.</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mdiggory&gt; I'll take it</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;lcs&gt; the routines in embargomanager are fixed now :-)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;stuartlewis&gt; mdiggory: Thanks</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-422">http://jira.dspace.org/jira/browse/DS-422</a>  Directory 'etc' missing from Ant target 'init_installation'.</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;stuartlewis&gt; Anyone happy to look into this one?</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;richardrodgers&gt; sure should be trivial</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Thanks.</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-423">http://jira.dspace.org/jira/browse/DS-423</a> Ant target 'clean_database' doesn't drop all tables'.</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;stuartlewis&gt; Shall we ask Claudia to commit the patch, then assign to (lcs?) to look at the Oracle side?</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;richardrodgers&gt; +1</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;caryn&gt; +1</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;lcs&gt; I have an ugly solution for Oracle; a separate script that generates teh SQL to clean out tables.</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;lcs&gt; otherwise there's no way to catch all the BI-* tables.  but oracle folks ought to be used to such horrors by now.  and, yeah, i'll take it after Claudia.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;stuartlewis&gt; Thanks</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-424">http://jira.dspace.org/jira/browse/DS-424</a>  Export metadata button displayed in JSPUI Administration List of withdrawn items</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;stuartlewis&gt; I'm happy to look at this?</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-425">http://jira.dspace.org/jira/browse/DS-425</a> JSP UI cosmetics: horizontal scroll bar</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;richardrodgers&gt; +1 seems simple</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;stuartlewis&gt; kshepherd said he was happy to do this one if we're happy with the fix?</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;stuartlewis&gt; +1</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;caryn&gt; +1</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;lcs&gt; +1</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;stuartlewis&gt; 4 x +1 - assigned to Kim</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-426">http://jira.dspace.org/jira/browse/DS-426</a> Item's submission license accessible without beiing configured to be public</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;stuartlewis&gt; Old bug? Leave for post 1.6?</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;lcs&gt; it _is_ shown in teh xmlui, and has been since 1.5..</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://jira.dspace.org/jira/browse/DS-422">http://jira.dspace.org/jira/browse/DS-422</a> etc was never actually used/run in [dspace-dir] it gets run during ant install in [dspace-src]</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mdiggory&gt; so having etc in [dspace-dir]/etc doesn't actually serve a purpose unless we decide we want to recommend that should be where it is always executed from</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;lcs&gt; so the information in the license which "might conflict with privacy laws" is the email address of the submitter, right?  I think that is now configurable; i was working on it with andrea a while ago.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;richardrodgers&gt; ok so mistaken report?</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;mdiggory&gt; or more specifically where the sql files on fresh_install are aquired from</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;stuartlewis&gt; What shall we do with ds-422?</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;mdiggory&gt; 426 .... take it out of XMLUI template  +1 for fixing in 1.6</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;richardrodgers&gt; Update issue with this explanation</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;stuartlewis&gt; Sorry - yes, 426 (not 422!)</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;mdiggory&gt; sorry, I'm now here for a bit</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;stuartlewis&gt; Who shall we assign 426 to?</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mdiggory&gt; focusr on 426 first</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;lcs&gt; oops, it looks like DS-217, the license work, got dropped on the floor.</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;stuartlewis&gt; Does 217 fix 426? (can it be marked as duplicate and closed?)</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;lcs&gt; they are related -- 217 allows you to prevent the confidential info from getting into licenses.  but it doesn't necessarily fix it.</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;jtrimble&gt; &lt;==has to leave.  Nighty night all...</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;stuartlewis&gt; Thanks Jeff. Bye.</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;mdiggory&gt; no 426 is about exposing the Collection submission license in the presentation of the collection view</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;richardrodgers&gt; bye</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-navy">* jtrimble (n=jtrimble@maag127.maag.ysu.edu) Quit ("Leaving")</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;stuartlewis&gt; Anyone happy for us to assign 426 to them?</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;mdiggory&gt; it shows only if it has been customized... claudia brought it up</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;lcs&gt; d'oh, i thought it was in the Item, you're right..</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mdiggory&gt; hmm, wait this is stlightly different than that</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;mdiggory&gt; this is about access rights on license bitstreams</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;lcs&gt; nope again, ds-426 _is_ about the Item's deposit license.</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;caryn&gt; so, if u can customize item license (as prescribed in 217), does this solve it?</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;lcs&gt; if we change the access so it is not public than we should remove the links in the xmlui item page (full view at least has it).</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;mdiggory&gt; thought this was... <a href="http://jira.dspace.org/jira/browse/DS-398">http://jira.dspace.org/jira/browse/DS-398</a></span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;lcs&gt; this is getting complicated enough that perhaps it ought to be put off to the next release.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mdiggory&gt; I want to caution that, we are now talking about individual organization policies here, not neccessarily what the DSpace application should be hardwired to do</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mdiggory&gt; we want to be cautious and support configurability</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;caryn&gt; mdiggory: +1</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;caryn&gt; for some, the license could be considered part of metadata, which is typically openly available... (w/o confidential info, of course)</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;lcs&gt; +1 mdiggory</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;stuartlewis&gt; So to conclude: What (if anything) do we do for 1.6?</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;lcs&gt; i would like to postpone it and combine it with DS-217 - already drew the link in jira.</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - thanks.</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;caryn&gt; +1 lcs - having a good sense of "requirements" would be useful</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;stuartlewis&gt; ANd the same for <a href="http://jira.dspace.org/jira/browse/DS-427">http://jira.dspace.org/jira/browse/DS-427</a> ?</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mdiggory&gt; I would like to postpone it and consider that maybe what we want are "Item templates" that define what the policies should be on various bundles / bitstreams</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;stuartlewis&gt; "Item license per default displayed in item display of the xmlui"</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;lcs&gt; Re -427, does the JSPUI display a link to the license?  If not, we could bring them to "parity"..</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;stuartlewis&gt; IIRC, jspui only does if configured to do so in dspace.cfg (can't remember the key)</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;mdiggory&gt; note, in XMLUI there is a configuration option to expose presentation / access and editing the License bundle across the whole repo...</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;stuartlewis&gt; # whether to display the contents of the licence bundle (often just the deposit</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;mdiggory&gt; Content, License, Metadata, Text, etc</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;stuartlewis&gt; # licence in standard DSpace installation</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;stuartlewis&gt; webui.licence_bundle.show = false</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;kshepherd&gt; back</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;caryn&gt; postpone - document the options currently available in jira</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;mdiggory&gt; so 427 : fix default setting for xmlui</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;mdiggory&gt; to behave same as jspui</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;richardrodgers&gt; yes</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;stuartlewis&gt; 427: Any volunteers?</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;mdiggory&gt; gosh that took a alot of talk to clarify</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;richardrodgers&gt; could do</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;caryn&gt; just so i have my head around it, license will be hidden by default  in both xmlui and jspui  display (need change in dspace.cfg for xmlui), but will be bundled in download, right?</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;stuartlewis&gt; richardrodgers: Thanks :)</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;mdiggory&gt; I'm not sure, but I think this should be ItemViewer in the XMLUI</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; At least, this is where that logic "should" be</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;richardrodgers&gt; k, thanks for pointer</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-429">http://jira.dspace.org/jira/browse/DS-429</a> Item withdrawal/tombstoning</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;stuartlewis&gt; (8 more issues to go BTW)</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;stuartlewis&gt; Not new / leave for post 1.6?</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mdiggory&gt; post 1.6 +1</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;kshepherd&gt; hrm, so this is mroe of a feature request -- adding proper tombstoning to withdrawal process?</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;kshepherd&gt; if ss, post 1.6 +1</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;lcs&gt; +1 later</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;kshepherd&gt; s/ss/so/</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;richardrodgers&gt; +1 later</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;caryn&gt; +1 l8r</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;stuartlewis&gt; Ok - will mark as a feature request</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-431">http://jira.dspace.org/jira/browse/DS-431</a> Restricted Bitstream prompts for login, then forwards user to MyDSpace</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;richardrodgers&gt; Is this new?</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;stuartlewis&gt; Don't think so</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;kshepherd&gt; it'd be pretty nice to fix</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;caryn&gt; +1 kshepherd (would be more elegant)</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;caryn&gt; probably not a show stopper, if it's complicated to resolve</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;stuartlewis&gt; Any volunteers? If not, we'll leave it.</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;stuartlewis&gt; Ok - we'll leave for now. Not a showstopper.</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;kshepherd&gt; not quite familiar enough with JSPUI to volunteer just yet.. if it turns out to be easy, i'll grab the JIRA issue later?</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - thanks :)</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-430">http://jira.dspace.org/jira/browse/DS-430</a> 'Embargo'</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;stuartlewis&gt; Can this issue be closed? Has the documentation been improved?</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;kshepherd&gt; (send a 'previousPage' path with auth request, iwth My DSpace as the default 'previousPage' or so)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;richardrodgers&gt; Haven't looked recently</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;lcs&gt; me neither..</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;stuartlewis&gt; Assign to Jeff to check?</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;richardrodgers&gt; yep</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;stuartlewis&gt; OK</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;lcs&gt; maybe change title to "Embargo Docu8menation".</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;lcs&gt; um, the "8" is silent.</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;stuartlewis&gt; :)</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;kshepherd&gt; heh</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-432">http://jira.dspace.org/jira/browse/DS-432</a> No mention of config/news-xmlui.xml in manual</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;richardrodgers&gt; Should probably get a mention</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;caryn&gt; fwiw, i didn't see any documentation of embargo at <a href="http://digital.maag.ysu.edu/jspui/doc/">http://digital.maag.ysu.edu/jspui/doc/</a></span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;stuartlewis&gt; Anyone happy to write some text for Jeff?</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;caryn&gt; i can take that one</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;richardrodgers&gt; caryn: he did write some, maybe not incorporated</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;kshepherd&gt; <a href="http://digital.maag.ysu.edu:8080/jspui/doc/ch08.html#N15853">http://digital.maag.ysu.edu:8080/jspui/doc/ch08.html#N15853</a></span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;caryn&gt; thanks, richardrogers - i'll follow up with him, and give him text if he needs it</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;kshepherd&gt; embargo CLI reference is there</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;kshepherd&gt; and dspace.cfg properties are also documented in his lastest doc</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;caryn&gt; kshepherd: config stuff is documented, but not ui</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;richardrodgers&gt; Maybe some simple 'use-cases' would help</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;kshepherd&gt; hm, well.. there isn't really a UI supplied from my understanding, we're supposed to just incorporate it into submission and standard metadata editing, right?</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-brick">* kshepherd realises he might be out of date with embargos ;)</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;lcs&gt; kshepherd: right.</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;stuartlewis&gt; caryn: Thanks.</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-433">http://jira.dspace.org/jira/browse/DS-433</a> Update DublinCore Registry to Implement lates DC Standards</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;lcs&gt; re -432, i'll take a stab at it if nobody who knows xmlui better jumps in.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;caryn&gt; in the issue, jim provides some basic info about how to get at the embargo settings in the ui (it's basically, look for a button), but i didn't see anything about it in the docs...</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;caryn&gt; lcs: let me know how i can help... i work in a library, so there are all kinds of dc experts around here!</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;caryn&gt; actually, sorry - i was thinking you were responding to 433</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-433">http://jira.dspace.org/jira/browse/DS-433</a> Update DublinCore Registry to Implement lates DC Standard - leave for post 1.6?</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;lcs&gt; +1 stuartlewis - this is a can-o-worms.</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;richardrodgers&gt; not sure the exact thrust of 433 - just default reg settings?</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;caryn&gt; definitely leave for post-1.6 - it might get very complicated very fast</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;kshepherd&gt; lcs: one thing that might be a good note for DS-432 is to note that links need to be &lt;xref&gt; to render correctly, i've seen that trip a few people up</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;lcs&gt; kshepherd: thanks!</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - DS-433 - leave for now</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;kshepherd&gt; 433 is HUGE, and definitely needs addressing, but not now ;)</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-434">http://jira.dspace.org/jira/browse/DS-434</a>  Browse use of jump to navigation leeds to NPE</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;stuartlewis&gt; Can't reproduce this in xmlui</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;kshepherd&gt; i can't replicate in my jspui either</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;richardrodgers&gt; needs requalification then</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;kshepherd&gt; and the affected versions aren't noted...</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;stuartlewis&gt; Close as can't reproduce? Claudia can re-open if needed.</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;lcs&gt; sometimes that happens when you change browse config and don't rebuild indexes.</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;kshepherd&gt; lcs: good point</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;kshepherd&gt; +1 can't reproduce, need more info</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;lcs&gt; +1 kshepherd</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;stuartlewis&gt; 3 issues left...</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;caryn&gt; +1 kshepherd</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-435">http://jira.dspace.org/jira/browse/DS-435</a> UI cosmetics, "My Exports" displayed in navigation bar, when no user is logged in</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;stuartlewis&gt; Doesn't seem to occur at <a href="http://testathon.net/xmlui">http://testathon.net/xmlui</a></span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;stuartlewis&gt; Or <a href="http://eldorado2.tu-dortmund.de:8080/xmlui">http://eldorado2.tu-dortmund.de:8080/xmlui</a></span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;kshepherd&gt; nor mine</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-brick">* kshepherd blames cocoon caching</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;stuartlewis&gt; Or <a href="http://tspacetest.library.utoronto.ca:14080/xmlui">http://tspacetest.library.utoronto.ca:14080/xmlui</a></span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;lcs&gt; It's happened to me intermittently with  a very hacked 1.5.2, but i never had time to track it down.  still don't.</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;stuartlewis&gt; Ok - close - can't reproduce?</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;lcs&gt; ooh, yeah, i like "blame cocoon caching".</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;kshepherd&gt; i get all sorts of funny issues after logging out/in until i do full browser refreshes, etc.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;caryn&gt; i get it this at our instance of dspace 1.5.1 - <a href="http://dspace.nacs.uci.edu/xmlui/">http://dspace.nacs.uci.edu/xmlui/</a></span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-436">http://jira.dspace.org/jira/browse/DS-436</a> SWORD Authenticator don't support the special groups infrastructure</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;caryn&gt; not in jspui though...</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;kshepherd&gt; caryn: thanks, well spotted... perhaps we fixed this in 1.5.2 or 1.6, i'll check</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;stuartlewis&gt; Looks like Andrea has this one sorted.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;lcs&gt; re -436, i'd like to see that if it's not too destabilizing.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;stuartlewis&gt; 436: +1</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;richardrodgers&gt; +1</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;kshepherd&gt; +1</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;lcs&gt; +1</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;stuartlewis&gt; Thanks  - 4 x +1</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;stuartlewis&gt; Last one...</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://jira.dspace.org/jira/browse/DS-437">http://jira.dspace.org/jira/browse/DS-437</a> Oracle DB Schema has artifacts from past releases</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;stuartlewis&gt; +1</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;lcs&gt; +1 but it's my patch</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;kshepherd&gt; i don't use oracle, patch looks sensible though</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;richardrodgers&gt; +1</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;caryn&gt; +1</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - thanks. 4 x +1</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;stuartlewis&gt; WOW - thanks - we've covered a lot of ground today :)</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;kshepherd&gt; yep good work :)</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;caryn&gt; woohoo!</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;lcs&gt; first tiem we've caught up with JIRA!</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;kshepherd&gt; quick, let's make it read-only before anyone logs another issue!</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;kshepherd&gt; ;)</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;caryn&gt; lol</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;stuartlewis&gt; I've got a new one - but I'll leave it until after lunch!</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - meeting over?</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;kshepherd&gt; stuartlewis: oh, what was the filename/jspui stats issue you mentioned?</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;lcs&gt; +1</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;kshepherd&gt; hehe +1</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;stuartlewis&gt; kshepherd: Yup - that's the one ;)</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;stuartlewis&gt; Thank you all! A pleasure as always :)</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;richardrodgers&gt; I've gotta go - thanks all</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-brick">* stuartlewis heads off for a mid-morning coffee...</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;kshepherd&gt; stuartlewis: feel free to just log it and assign to me</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;lcs&gt; KTHXBYE</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-green">* richardrodgers (n=richardr@pool-173-76-16-252.bstnma.fios.verizon.net) has left #duraspace</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;kshepherd&gt; thanks all</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-green">* lcs (n=lcs@serenity.hul.harvard.edu) has left #duraspace</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;caryn&gt; thanks, everyone!  l8r!</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-navy">* caryn (i=80c8e115@gateway/web/freenode/x-xdzwpgdyqwmnrxzo) Quit ("Page closed")</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-navy">* grahamtriggs (n=grahamtr@cpc1-stev6-2-0-cust340.9-2.cable.virginmedia.com) Quit ()</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-navy">* stuartlewis (n=stuartle@gendiglt02.lbr.auckland.ac.nz) Quit ()</span><br />
+<span class="irc-date">[19:26]</span> <span class="irc-green">* stuartlewis (n=stuartle@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-green">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has left #duraspace</span><br />

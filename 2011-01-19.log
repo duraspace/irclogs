@@ -1,0 +1,385 @@
+<span class="irc-date">[4:05]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-66-248.clt.bellsouth.net) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-navy">* snail (~stuart@130.195.179.88) Quit (*.net *.split)</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp136.evans.tamu.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:00]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[7:00]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[7:00]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[7:00]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[7:00]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[7:00]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[7:00]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:27]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[8:27]</span> <span class="irc-green">* snail (~stuart@130.195.179.88) has joined #duraspace</span><br />
+<span class="irc-date">[8:27]</span> <span class="irc-green">* scottatm (~scottatm@adhcp136.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[11:32]</span> <span class="irc-green">* grahamtriggs (~grahamtri@62.189.56.2) has joined #duraspace</span><br />
+<span class="irc-date">[12:27]</span> <span class="irc-green">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-navy">* krnl__ (Andrius@193.219.34.106) Quit ()</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[14:26]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:47]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp136.evans.tamu.edu) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[14:50]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-green">* scottatm (~scottatm@adhcp136.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-green">* ksclarke (~kevin@adsl-39-66-248.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-green">* grahamtriggs (~grahamtri@62.189.56.2) has left #duraspace</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-green">* grahamtriggs (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:14]</span> <span class="irc-navy">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) Quit (*.net *.split)</span><br />
+<span class="irc-date">[19:14]</span> <span class="irc-navy">* snail (~stuart@130.195.179.88) Quit (*.net *.split)</span><br />
+<span class="irc-date">[19:14]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-66-248.clt.bellsouth.net) Quit (*.net *.split)</span><br />
+<span class="irc-date">[19:14]</span> <span class="irc-navy">* krnl_ (Andrius@193.219.34.106) Quit (*.net *.split)</span><br />
+<span class="irc-date">[19:18]</span> <span class="irc-green">* ksclarke (~kevin@adsl-39-66-248.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:18]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[19:18]</span> <span class="irc-green">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) has joined #duraspace</span><br />
+<span class="irc-date">[19:18]</span> <span class="irc-green">* snail (~stuart@130.195.179.88) has joined #duraspace</span><br />
+<span class="irc-date">[19:20]</span> <span class="irc-black">&lt;snail&gt; kshepherd: you may or may not be interested in <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia_talk:WikiProject_New_Zealand/M%C4%81ori_task_force">https://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia_talk:WikiProject_New_Zealand/M%C4%81ori_task_force</a></span><br />
+<span class="irc-date">[19:28]</span> <span class="irc-black">&lt;kshepherd&gt; yep, i you passed me the link once before</span><br />
+<span class="irc-date">[19:29]</span> <span class="irc-black">&lt;kshepherd&gt; happy to help where i can</span><br />
+<span class="irc-date">[19:30]</span> <span class="irc-black">&lt;snail&gt; we've managed to catch the eye of the national library who're looking at updating their iwi / hapu list</span><br />
+<span class="irc-date">[19:30]</span> <span class="irc-black">&lt;kshepherd&gt; very cool</span><br />
+<span class="irc-date">[19:31]</span> <span class="irc-black">&lt;kshepherd&gt; i'd love an authority file i can use for iwi affiliations with performers/composers</span><br />
+<span class="irc-date">[19:33]</span> <span class="irc-black">&lt;kshepherd&gt; <a href="http://iwihapu.natlib.govt.nz/iwi-hapu/index.htm">http://iwihapu.natlib.govt.nz/iwi-hapu/index.htm</a> isn't very API or machine-friendly (even annoying to screenscrape...)</span><br />
+<span class="irc-date">[19:35]</span> <span class="irc-black">&lt;snail&gt; kshepherd: it sounds like Kim is drawing up a project plan to attract funding to update it. Sounds like they'll have to consult with a representative of every represented group though, which makes it somewhat a large project</span><br />
+<span class="irc-date">[19:36]</span> <span class="irc-black">&lt;kshepherd&gt; ah</span><br />
+<span class="irc-date">[19:36]</span> <span class="irc-black">&lt;snail&gt; kshepherd: the list is explicitly not avaliable for download, because they are trying to discourage use of the current version becuse it is so old and outdated</span><br />
+<span class="irc-date">[19:36]</span> <span class="irc-black">&lt;kshepherd&gt; Kim.. Gutchlag?</span><br />
+<span class="irc-date">[19:36]</span> <span class="irc-black">&lt;snail&gt; i have a machine readable file, but i can't really distribute it</span><br />
+<span class="irc-date">[19:36]</span> <span class="irc-black">&lt;snail&gt; indeed</span><br />
+<span class="irc-date">[19:37]</span> <span class="irc-black">&lt;kshepherd&gt; right</span><br />
+<span class="irc-date">[19:37]</span> <span class="irc-black">&lt;kshepherd&gt; that's understandable..</span><br />
+<span class="irc-date">[19:39]</span> <span class="irc-black">&lt;kshepherd&gt; google fail: browsing <a href="http://iwihapu.natlib.govt.nz/iwi-hapu/index_t.htm,">http://iwihapu.natlib.govt.nz/iwi-hapu/index_t.htm,</a> Chrome tells me "This page is in Dutch, would you like to translate it?"</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-green">* jefftrimble (~jefftrimb@maag127.maag.ysu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-green">* loaner_mac_01 (~sandsfish@18.111.2.20) has joined #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-navy">* loaner_mac_01 (~sandsfish@18.111.2.20) Quit (Client Quit)</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-green">* sandsfish (~sandsfish@18.111.2.20) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;tdonohue&gt; At top of the hour, we'll be starting DSpace Developer Mtg here.  Today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-01-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-01-19</a></span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-green">* robint (5229fe8f@gateway/web/freenode/ip.82.41.254.143) has joined #duraspace</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-green">* cccharles (~chris@131.104.62.55) has joined #duraspace</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;grahamtriggs&gt; kshepherd: you can't expect Google to work with made up languages...</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* hpottinger (80ce8882@gateway/web/freenode/ip.128.206.136.130) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, DSpace Developers Mtg is starting right about now.  Agenda posted at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-01-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-01-19</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; We'll start off again with some JIRA reviews for the first 15-20mins.  Today we'll start with DS-659.  Here's a full listing of issues to review: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-659+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-659+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Collection.findAll performance issue - offset and limit improvement    : <a href="https://jira.duraspace.org/browse/DS-659">https://jira.duraspace.org/browse/DS-659</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* richardrodgers (~richardro@dhcp-18-111-15-218.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;mhwood&gt; Sounds useful.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-brick">* tdonohue hi richard, we're starting with a JIRA review.  we're looking at: <a href="https://jira.duraspace.org/browse/DS-659">https://jira.duraspace.org/browse/DS-659</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; it does sound useful -- I wonder if it could be applied elsewhere as well</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; has anyone had time to take a closer look at the code / try it out?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; alternatively, any volunteers to test it out further and do a small code review of sorts?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;grahamtriggs&gt; what happens when an item is added to / deleted from the collection whilst a client is browsing through the REST interface?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- no idea, but that's probably more of a REST issue, than directly pertaining to DS-659, isn't it?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;mhwood&gt; Any Oracle users here?  Will there be problems with LIMIT and OFFSET?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;grahamtriggs&gt; tdonohue: except this issue is directly related to REST, and there isn't necessarily anywhere else where it is / would be used</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;grahamtriggs&gt; mhwood: and yes, LIMIT / OFFSET do not work in Oracle</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; Patch needs work then.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; good point.  patch definitely would need to support Oracle as well.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;richardrodgers&gt; Is it the patch or the API?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; SQL in the patch uses OFFSET and LIMIT.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;sandsfish&gt; So patch modifications would need to be completed by someone with an Oracle instance to test on, yes?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; correct -- or anyone willing to install Oracle instance locally (you can install for free)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-100.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; We use Oracle here, can test code</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; thanks hpottinger, we'd appreciate it. Feel free to add comments/results to DS-659</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;sandsfish&gt; ( if by free you mean, $0 + the anguish of dealing with oracle  ;)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, in essence of time, we probably should move on to next one.  If anyone else has comments, please add thoughts/comments to DS-659</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; Add a remote log viewer to DSpace. : <a href="https://jira.duraspace.org/browse/DS-667">https://jira.duraspace.org/browse/DS-667</a></span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; My first thought was:  "I have SSH for that"</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;richardrodgers&gt; Sounds like RobinT has issues</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; I see robin has concerns on patch itself.   What do you all think about the idea?  Is this something we want to support as an "idea"?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;grahamtriggs&gt; haven't looked at the code, but the comments aren't inspiring me with confidence that it will behave itself with very large files</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;jefftrimble&gt; I think there are some security issues with that...I can't put my finger on it....but could it be hacked since some of our dspace installs are being served up on port 8080 instead of 8443?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;jefftrimble&gt; While it's only for viewing purposes, there are security issues about viewing data like that, that some institutions might officially prohibit.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;sandsfish&gt; I would support any DSpace administrator learning more about the workings of DSpace and troubleshooting it, but I imagine most individuals that would know what to do with the log information would have access to the log file itself.  Perhaps I'm missing some use cases though...</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; jefftrimble:  But, is it still a security issue if it's only available to DSpace Administrator?  (honest question, I don't know the answer)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mdiggory&gt; TBH, I'm already frustrated enough with the way dspace hardcoded logging,  creating something that is dependent on it always being there raises red flags for me</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;grahamtriggs&gt; *massive* data protection issues</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;grahamtriggs&gt; possibly :)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;jefftrimble&gt; well, there are cache issues too...</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- sounds like there's a lot of concerns in general.  Personally, I wonder if there is separate "log viewer" software that people could install specifically if they needed to view logs remotely?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;jefftrimble&gt; I know that at my institution, we have very stringent rules of what can and cannot be served up on port 8080 no matter who you are.  That said, I'm a little leary of putting this stuff out there, but then again, we have so much admin anyways. what the heck.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; chainsaw</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;jefftrimble&gt; LOL</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;grahamtriggs&gt; splunk</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;jefftrimble&gt; BZZZZZZZ</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; So you could put Global Thermonuclear War on port 9090 but not on 8080?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  DS-667 -- will add comment about our concerns.  Suggest using either chainsaw or splunk (or similar) to view logs remotely as needed</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; nagios, remotely anywhere... or more simply... ssh</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; one more --</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; Pre-configure DSpace Embargo settings so that it is easier to enable. : <a href="https://jira.duraspace.org/browse/DS-668">https://jira.duraspace.org/browse/DS-668</a></span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;jefftrimble&gt; SSH is fine.....  lazy people want http.... IMHO</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; just please do not create a field called dc.embargo !</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; DS-668 is me being frustrated with the number of questions about configuring embargo that we had on listservs immediately after it was released -- would appreciate others reactions to this...</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;richardrodgers&gt; I'm not crazy about this - perconfiguration means we have to pick a setter, and there are already 2</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; Yes, if we put real configuration values there, they need a namespace in which to live.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;jefftrimble&gt; there is no embargo element in the official DCMI terms</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; jefftrimble: precisely</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; yea, this is an area where we start to delve into whether a 'dim' schema is needed:  e.g. "dim.embargo.*"</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; reminds me of Rob Tansleys last plea to both adding new elements to the dc namespace</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; IIRC we need a namespace of our own anyway -- we ship with a few non-DC terms.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; not dim</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;jefftrimble&gt; Well, the whole defaul QDC in Dspace is so out of date from DCMI</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://dspace.org/system">http://dspace.org/system</a> or something like that</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; well, yea, that could be the schema path -- but it would still need a 'short abbreviation' version.  'dim' or 'sys' or 'dsp' or whatever</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; When I was playing with embargo, I think I made up DSpace Supplementary Metadata:  dsm</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; dim is not a metadata namespace, is an xml format without a formal schema</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; ds</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- good point.  to avoid confusion we should *not* use dim</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; ds or 'dsm' would work</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; we use multiple separate namespaces for workflow and submission etc in @mire</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; But, getting back to the question at hand.  do we like this idea?  Should we create a new namespace called 'ds' or 'dsm' and preconfigure embargo fields?  Or is this a bad idea?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;grahamtriggs&gt; ds is too close to dc - easy to get confused. What's wrong with the full 'dspace'</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; we limit access to these when non-admins are accessing the UI</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; this allows us to use them for "Item State" etc when customizing our workflows</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- we could do the full 'dspace'.  I have no strong feelings any which way, we'd just need to decide on something and go with it.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; I do like some form of the idea.  This is one of those things which benefit from real examples.  There is a lot left open (properly, for flexibility) and it's hard to pin it all down.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;jefftrimble&gt; graham's idea has lots of merit.  we have too many acronyms...</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;sandsfish&gt; +1 for dspace</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; 'dspace' ok with me.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;jefftrimble&gt; +1</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; +1 ok with me as well</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;richardrodgers&gt; I'm +1 for non-dc, but against re-configuraiton</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; supercalfragalisticexpialadocious</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;richardrodgers&gt; pre-configuration</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; From the prism schema - prism:embargoDate.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; we should probibly have prism in there already... but without "qualifiers"</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers: why?  also by "pre-configuration" I don't mean that it should be auto-enabled.  Rather, it should be easier to enable</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Sounds like importing 'prism' is its own improvement request.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; quite true</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;jefftrimble&gt; if you need an embargo field, your closest standard to DCMI would but description.embargoterm and descriptoin.embargolift</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;jefftrimble&gt; but=be something like</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; We've used description.embargoterm and date.embargolift</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;richardrodgers&gt; tdonohue: you need to choose whether to have separate terms &amp; lift fields, what the setter and lifter are, etc and all these are selectable. What are your grounds for choosing a default configuration?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; because lift is a date and term is a description of the embargo period</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;jefftrimble&gt; mdiggory:  that's what I meant.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; :-)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; I think you just stated the grounds.  Everything is wide open.  There are so many choices to make, it's hard to grasp how they fit together.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;sandsfish&gt; Is it a configuration issue or a documentation issue?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers:  I guess my grounds were more like -- it seems too complex, if people are asking a ton of questions.  I'd rather they be able to "flip a switch" for an easy way to enable it.  But, if they wanted they are also welcome to fully tweak all options</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;richardrodgers&gt; gotta run, I'm sorry - but Sands will report on 1.8 etc</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-navy">* richardrodgers (~richardro@dhcp-18-111-15-218.dyn.mit.edu) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-green">* PeterDietz (~PeterDiet@128.146.175.194) has joined #duraspace</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; sandsfish -- I guess it could be a docs issue as well.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;jefftrimble&gt; Well the dspace.cfg should have the QDC fields already filled out....</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mdiggory&gt; I think sane defaults are reasonable, ultimate configuration results ultimately in unpredictability</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;jefftrimble&gt; so, if you go with mdiggory's suggestion, and add those two fields to the Schema, then its a slam dunk whether or not to comment it out or not.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; +1 for sane defaults</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;robint&gt; +1</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;snail&gt; this seems like maybe the kind of issue that fedora might have a policy / approach on hat we can shamelessly steal?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;snail&gt; s/hat/that/</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; OK.  We're at a 1/2 hour.  It sounds like we still have differing viewpoints.  If anyone is interesting in proposing a way to resolve this (better docs, sane defaults, both), please feel free to claim this task.  We can revisit later once we have some better details in place</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, maybe the concrete examples belong in the documentation.  One could argue that there is *too much* in the shipping config.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;sandsfish&gt; +0, sane defaults sound reasonable, though I'm not familiar enough with the configuration to vote, but certainly if there are defaults, it should be off by default.  a HOWTO seems like it's in order in any case.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; sandsfish -- agreed, +1 to 'sane defaults', but i'm also +1 to it being "off" by default.    I think there's a way to fill out the base configs with some sane defaults, while also requiring some sort of basic action (e.g. uncommenting) to actually enable embargo</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; Ok -- we'll stop there for now.  Add more comments/suggestions to DS-668</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;jefftrimble&gt; +1 for tdonohue's idea.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; Next topic to get into:  Finalizing the 1.8.0 Schedule.  We've had suggestions for Sept, Oct, and "before OR12".  See agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-01-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-01-19</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like (from discussion in mtgs and in dspace-commit list) most folks were in favor of Oct 2012 for 1.8.  But, we had a few folks who seemed strongly against that idea.  So, I thought it'd be worth some more discussion here</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; I actually want longer... or a beta release and a final in the early spring...</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; OR12 is, what, 170 days away?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; No, 140.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- that's OR11 :)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;jefftrimble&gt; If you're in academia, October seems to be a better month........the semesters start in August/September.... and you can implement upgrades during the Winter breaks.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; OR12 = sometime in 2012</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mdiggory&gt; but I do realize my comments about syncing it to OR are difficult if OR moves around... maybe we can make a plea they stop such nonsense</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;jefftrimble&gt; mdiggory: need a target poster  for OR practicing?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- so, why is it that you want 'longer'?  Is there a reason why you'd like to see the release period extended to something like 14-16months?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;sandsfish&gt; i think tying our release schedule to OR is a little to constraining, to things like release coordinator schedules, flexibility in the release process for testing, fixing bugs, etc.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; How resolutely do we need to chase a marketing opportunity?  That's what following OR boils down to, no?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; I want longer so that we can have a real meeting of the minds about architecture</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;sandsfish&gt; i'd be more for specifying a quarter, Q1,2,3,4, and being flexible enough with the other parameters.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; and develop plans for the different versions...</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;grahamtriggs&gt; mdiggory: but practically, even if we were scheduling around an OR in June (like this year), that would mean Jan/Feb release (Mar at the absolute latest) for planning around presentations.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; and I think this will not be feasable until OR</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; So a physical meeting happens near the *start* of development, not at the *end*.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: quite true</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- so, I'm curious why you think that all those architecture changes need to be in 1.8 though.  Couldn't we still have that meeting at OR10, and still do a 1.8 release in Oct (maybe with minor arch changes) followed by a future 1.9 (with larger changes)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; why would you have a 1.8 release if it didn't have changes?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  1.8 could still have new features though -- we have lots "in the waiting" that just missed 1.7</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; Cart before the horse -- what arch. changes need to go in?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; theres no reason for a major release if there are not db changes or significant architectural changes</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Oops, is 1.7.1 a feature release or a bugfix release?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;grahamtriggs&gt; theres no reason for there NOT to be a major release if there are significant user differences</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; i'll point out that 1.7 didn't have significant arch changes (unless you count Mirage &amp; such).  We had no new DB fields in 1.7</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-navy">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) Quit (Quit: alxp)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; why did we do it then and not a 1.6.3?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; 1.7 was primarily a "new features &amp; stabilization" release, which included no significant arch changes (though it added lots of new features)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;grahamtriggs&gt; the constraint is that we shouldn't make major architecture or db changes in a point release, not that we must have them to make it a non-point release</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- because during the 1.6.x releases we made a joint decision that all sub-minor releases : 1.6.1, 1.6.2, had to be *bug-fix only* releases</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; ok ok ok</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; I'm on the wrong side of a loosing battle</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-brick">* mdiggory changes sides</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; So, if we are continuing this trend, then 1.7.1 and 1.7.2 (should we need them) should be *bug-fix only*.   Then, 1.8 would be our next release with new features (and it may or may not include arch changes, depending on whether we are ready for any)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; I think there are some disagreements on terms.  I tend to think that a "major release" is 1.x -&gt; 2.0, a "minor release" (features added) is 1.7.x -&gt; 1.8.0, and 1.7.1 -&gt; 1.7.2 is bugfixes only.  But there are a number of alternatives in common use.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;robint&gt; mhwood: that is my understanding.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: my understanding as well.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; (And "major" means "we broke stuff, intentionally".)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;robint&gt; mhwood: cant stop laughing...</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; Anyway, whichever digit it is, do we have anything in the works which makes other code stop working?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-brick">* mdiggory thinks we should just drop the first digit so we can be on DSpace 8</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; So, now that we have a more common understanding, does this change our proposed schedule for 1.8?  Are we ready for a vote on this?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;grahamtriggs&gt; mdiggory: fair point about meeting around the architecture. The actual 2.0 work was discussed in a much smaller group than the previous architecture meeting, and whilst it was influenced by earlier meeting, it isn't necessarily the same thing. Plus we have a change in the nature of the overarching organisation to consider, which wasn't part of either meeting</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; cause that sounds more advanced</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory has me laughing to myself...</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Does the Outreach Committee(?) yet have any priorities re: things users want to see?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;robint&gt; mdiggory: I hate to say it but it is a valid point</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- Outreach (now called "DCAT" - DSpace Community Advisory Team) has been adding their comments to various 'feature requests' already in JIRA.  There have been quite a few they've reviewed and put some support behind</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: quite true, and now with service providers we have a whole new organizational dynamic at play</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;grahamtriggs&gt; mdiggory: If I had my way, we would be planning DSpace 11.10 right now. Light years ahead :)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; Maybe we need to just call what we're talking about version.next until we have some idea of what it is.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; Aaaand, I have to go.  Sorry, will catch up later.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; so, I'd be open to the idea of a renumbering, if we wanted to do that -- whether it's DSpace 8 or 11.10, or 1.8, or whatever.  We could call a special topic meeting to discuss, if there's enough interest here.  Is there?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; Anyhow, maybe we can talk a bit about features?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; later mhwood</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; DSpace Theater 2000</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; Sure -- we can talk features.  (I'll suggest a re-vote on 1.8 schedule then on dspace-commit)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; We should have code namse ;-)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; DSpace 8, Wildcat :)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; I had put a list of potential 1.8 features I've "heard" about (and could recall) on the agenda : <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-01-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-01-19</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-brick">* grahamtriggs votes for the code names to be based on the works of Gerry Anderson</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially, if we wanted to do a "brain dump" of what we are all working on (and hope to be ready for 1.8), it might be a good place to start in terms of potential features</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;sandsfish&gt; MIT is planning to contribute an implementation of Context-Guided Ingest, as well as additional Curation Tasks, specifically we are currently working on Format Identification, and others.  That's what we've got to report so far.  I hope to contribute more, but I'm not ready to commit (lower-case 'c') yet.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-brick">* grahamtriggs and bagsies 'Captain Scarlet' as my committer identity</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-brick">* mdiggory blasts grahamtriggs with is ray gun</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-brick">* grahamtriggs is indestructible</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-brick">* tdonohue is lost on Gerry Anderson references -- I had to wikipedia him :)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; Do we have a wiki page with release features thats not a meeting page</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;PeterDietz&gt; we've been working alot on usability, in terms of making the site's content better presented for visitors, and making submissions more intuitive (with regards to where delete buttons, and next/save buttons are, etc)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; We can start dumping a list of potential features on teh 1.8.0 release notes: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+1.8.0+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+1.8.0+Notes</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; We have a few features we are planning to contribute</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; Context Sensitive Help for XMLUI</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; +1 for Context Sensitive help!</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; +1 for usability improvements as well</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; resource metadata for DSpaceObjects in general</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;PeterDietz&gt; I also have a bunch of xmlui partial-themes that I want to share and get feedback on</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietz&gt; ... themes for displaying images in items, browse image gallery, simple mp3 player</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietz&gt; As opposed to look and feel make-over like Mirage</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; The whole Asyncronous release process is still in the works</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;robint&gt; My new overlords at Edina have various things they want to contribute but I haven't picked through them yet</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;grahamtriggs&gt; +1 metadata on all DSpaceObjects. What's the possibility of cleaning up DCValue (ie. finally removing it) at the same time? (I realise there are a lot of changes that need to be made to make that happen)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;hpottinger&gt; we're working on XMLUI them stuff as well, in a similar vein as PeterDietz (digital library stuff in DSpace)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;sandsfish&gt; Aside:  I'd love to see collection homepages list browse results sorted by date by default instead of latest submissions via RSS, if anyone happens to be wandering by that code before 1.8.  Don't have time to look into it yet, but that's one of our biggest UX complaints.  People don't realize that they aren't being presented with the collection contents.  non-intuitive.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; We also are looking at further enhancements to Discovery to support ACL and Workflow state driven search which is in the Dryad version, but not in 1.7.0</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: we should talk because I know you have some prototyping in this area as well</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mdiggory&gt; DSpaceObject metadata that is</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;PeterDietz&gt; mdiggory, would my whole understanding of asynchronous release be clearer if I thought of it as a way where upon building, maven grabs things in your module pom (such as solr / Localhostrestrcitionfilter) jar and tosses that into the whole finished product, as opposed to source that lives within the parent project?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, looks like lots of new stuff in the work.  Could you all take some time in the next week to add some further details (links to JIRA or Wiki pages too) here: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+1.8.0+Notes#DSpaceRelease1.8.0Notes-PotentialChangesandNewFeatures">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+1.8.0+Notes#DSpaceRelease1.8.0Notes-PotentialChangesandNewFeatures</a></span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;grahamtriggs&gt; mdiggory: your work is going to be more useful (mine doesn't actually function yet), but there are definitely discussions to be had around the storage requirements, and what should be possible from having these fields</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: Async release means, dspace-api can be released under its own version identifier and depended on by external modules that are included into the final release</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; I've already seeded that with what I had listed on the meeting notes.  I can also copy in much of what has been mentioned here.  But, links to JIRA issues and other resources would be great</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mdiggory&gt; that modules are versioned and release independent of  the formal official release</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mdiggory&gt; and the formal release is a configuration of exisitng individually released modules</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mdiggory&gt; this allow us to not have dspace-discovery and dspace-stats in the middle of trunk</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; and still have them released with 1.8.0</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- in regards to async release -- we might want to talk more too.  I'm in the process of making an "easy installer" -- although it's not directly related to async release, we could end up both digging in Maven poms a bit: <a href="https://jira.duraspace.org/browse/DS-802">https://jira.duraspace.org/browse/DS-802</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs stumbled into the basic strategy in his upgrade to maven 3</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;grahamtriggs&gt; and it also means nobody bothers to look at the source code, as it's not in their 'standard' checkout :)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mdiggory&gt; no, I keep trying to get you guys to look up from the trunk and see theres a whole city of addons getting built around you</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- we're over time here.  (1) I'll call for a final vote on 1.8 schedule on dspace-commit list, so we can formally announce.  (2) everyone take some time to add details on what they are working on to the 1.8.0 release notes (and/or JIRA, as necessary)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mdiggory&gt; @mire managed DSpace instances are assemblies of dspace core and addons from modules and separate @Mire managed maven repositories</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-brick">* tdonohue I'm going to go ahead and "close" the meeting.  But, feel free to continue discussion.  I'll hang out for a while as well.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: yes lets talk further</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; about your installer</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: definitely -- I'd like your opinion on it (and anyone else's for that matter).  I have an early version i'll be posting to SVN later today actually (already initiallized a branch in 'sandbox' for it)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-green">* jefftrimble (~jefftrimb@maag127.maag.ysu.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;robint&gt; tdonohue: You said something about it working offline ?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;sandsfish&gt; cheers all</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; Maybe we can toss around some possible requirements from the developer group</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* sandsfish (~sandsfish@18.111.2.20) Quit (Quit: sandsfish)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; robint -- yes.  It basically takes *all of DSpace* and packages it up into a JAR.  You can install from that JAR (no need for Maven, Ant or even internet access, other than to download that JAR)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; (*all of DSpace* doesn't yet include Tomcat or the DB though -- it's just all the WARs, JARs, configs, etc)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mdiggory&gt; for instance, recently I've got someone experimenting with packaging tomcat into the target/dspace/... build that maven creates and trying to run the maven build directory as dspace.dir</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mdiggory&gt; this means that a release could be constructed that does not need to have ant run on it</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;grahamtriggs&gt; I'm interested in the possibilities of going the other way - having a single war that can be deployed to a container, and it can create things as necessary - file system, db schema</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mdiggory&gt; and that dspace.dir would always be relative to the "bin" directory that the dspace script or tomcat is started from</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- that does sound similar to my idea, though I also want to remove the need for non-programmers to have to deal with building via Maven.   So, I'm going the approach of Fedora Commons, where you can install everything from a single JAR, without Maven or Ant or anything needed to build it</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mdiggory&gt; right, maven would be used to create the distribution, but not to install it</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; bingo.  exactly</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; but, my point is that normal users do not even *create* the distribution (as they do now).  I want to be able to say:  (1) download this JAR, (2) run it, (3) answer the questions....and then DSpace is "installed"  (guarranteed, you might need to first have a DB or Tomcat, unless we auto-install those as well)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mdiggory&gt; which means that the jar has to be a container of the entire assembled distribution that was going to be installed by ant</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea, it is. It has all of that within it</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; I'll post the code in a bit to SVN.  I have the full install process working already (though update/upgrade is still buggy)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: I'm for that too.... a war that installs itself into db and creates filesystem</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mdiggory&gt; the work on dspace 2 and the way the ConfigurationService loads attempted to allow for the configuration to be retrieved from relative locations.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mdiggory&gt; the webapp, the servlet container working directory, user home, etc</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: I still think this would be orthogonal to async release</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs: I'm also potentially interested in that idea.  But, so far, I found this JAR installer to be easier (at least in our current install setup).</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; because the installer is really something that would be assembled and released</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; but we still need more flexibility to manage addon modules in separate source trees</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- i agree. I think it would be.  But, it only starts to "overlap" some when you ask whether someone who installs DSpace using the "installer" can then go back later on and install a new version of a module (which was just asynchronously released).</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mdiggory&gt; that would mean we would need an update mechanism for the installed distribution.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- bingo again.  exactly what I've been brainstorming.  still not sure the best route, but would be worth sharing our plans in more details, so that we can find something that works well</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mdiggory&gt; for which we currently use ant in very poor fashion</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mdiggory&gt; ie lib.bak and webapps.bak , etc</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mdiggory&gt; sorry, not poor as in bad, poor as in "poor mans"</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; yea.  that's where I also see a need to make improvements.  Currently the initial version of the installer I'm working on does that same simplistic "update" (in fact it actually uses Ant API within itself right now, to just call those same targets, unbeknownst to the actual user)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: TBH, untill the etc and configuration directories are evaluated and work is done to bring configuration into the database, updating will always be a very very complex</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mdiggory&gt; Work needs to happen to bring the group to better understand "still" what we use DSpace Services and the ServiceManager for.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mdiggory&gt; For instance, I have a prototype now that rewrites ScriptLauncher such that there is no longer a launcher.xml and instead the ServiceManager is used to load commands into a LauncherService</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- interesting.  is that prototype up in SVN somewhere?</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-navy">* hpottinger (80ce8882@gateway/web/freenode/ip.128.206.136.130) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;mdiggory&gt; no, in my workspace, I"m trying to put together tutorial/workshop material for OR</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mdiggory&gt; but, once I'm ready to commit,  yes</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; cool.  sounds godo</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; good...not 'godo', whatever that is :)</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;mdiggory&gt; We've actually gotten very good at using the Spring environment to assist in configuring addons being inserted into DSpace, and where before the DSpace 2.0 design was trying to make it so that you had to implement certain interfaces to use dspace.cfg style plugin definitions, we are actually favoring working directly in spring with xml and annotations over writing DSpace service manager dependent code.</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;mdiggory&gt; sorry that was a bit of grammatical soup</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; i could tell it was english though :)</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; and I think i get the gist.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mdiggory&gt; I feel that we need better "best practicies" for developing DSpace than we currently have</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;tdonohue&gt; I wonder if there's anything in that work that @mire would be willing to put forward for 1.8.0?  Or maybe you'd be willing to do a tutorial/workshop/online talk on it?  It sounds like something that would be worth us all understanding a bit better..</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mdiggory&gt; for instance, if you start to think you need an XML file in the config directory, you should immediately sbe directed to approach the solution using spring</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;mdiggory&gt; because if you are actually writing code to parse and map xml to java objects or configuration, then your reinventing something that is already present in the ServiceManager via Spring configuration</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;mdiggory&gt; and likewise, you making us more and more dependent on a fixed absolute dspace.dir directory.</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;mdiggory&gt; In the DSpace 2 work, we switched from defining where dspace.cfg was (with dspace.dir inside it) to dspace.dir being defined first and everything else always being relative to it.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mdiggory&gt; the problem with having dspace.dir inside dspace.cfg is that there actually end up being two separate definitions of where dspace.dir resides.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mdiggory&gt; Actually there end up being 3</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;tdonohue&gt; as a concept, that makes sense to me...</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;mdiggory&gt; there is the definition in the web.xml, there is the presence of the config directory relative to the bin directory on the classpath of cli applications and then there is the property in the dspace.cfg</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;tdonohue&gt; right.</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;mdiggory&gt; so one recommendation I am preparing is that we actually remove dspace.dir from dspace.cfg and that perhaps it should become a calculated property that is always delivered based on how dspace was started rather than a hardcoded absolute path</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;mdiggory&gt; this would mean that rather than -Ddspace.configuration=/path/to/dspace.cfg  that commandline execution would use something like -Ddspace.dir=/path/to/dir and that then the ConfigurationService would call /path/to/dir + "config/dspace.cfg" to determine if there was a configuration file present</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;mdiggory&gt; and in web.xml</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;mdiggory&gt; there would be the current parameter for dspace.dir used by the ConfigurationService</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mdiggory&gt; What this enables ultimately is that one could test dspace instances against the existing target/dspace-release-XXXX/ directories without having to run ant to install them into a more permanent location</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mdiggory&gt; which shortens the development cycle for testing alterations and customizations</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;tdonohue&gt; seems like it could be a logical change.  not entirely certain what all this would affect :) But, hopefully it shouldn't affect much.</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;mdiggory&gt; it will effect folks that call the build with their own dspace.cfg</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;mdiggory&gt; mvn package; ant fresh-install; would probibly still look the same</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;mdiggory&gt; but if your inserting your own dspace.cfg... things change because we are actually trying to bind dspace.cfg to always be in ${dspace.dir/config/dspace.cfg</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;mdiggory&gt; So now rather than defining in some dspace.cfg alternate locations for your dspace installation.  You would need to place them ont he commandline.  ant update -Ddspace.dir=/mydspacedeployment</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;mdiggory&gt; which IMO is much more explicit than ant update -Ddspace.config=/some/dspace.cfg that possibly is no where near ${dspace.dir}</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;tdonohue&gt; yea. again, definitely sounds logical to me.  I'd just want to see the proposed patch/changes and try it out :)</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;tdonohue&gt; FYI -- just posted a very early version of my installer to <a href="http://scm.dspace.org/svn/repo/sandbox/installer-prototype/">http://scm.dspace.org/svn/repo/sandbox/installer-prototype/</a>  Very basic docs at: <a href="https://wiki.duraspace.org/display/DSPACE/InstallerPrototype">https://wiki.duraspace.org/display/DSPACE/InstallerPrototype</a></span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;mdiggory&gt; back to your installer,  I think if you can design you installer.jar loosely enough, ti could also be used in the grahamtriggs war idea as well.</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;mdiggory&gt; IE there would be an "InstallerService" or manager that has some sane defualts for where to install and creating databases etc. then a war could execute the steps of the installer as easily as the commandline</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;tdonohue&gt; yea -- I think so, or it could morph into that later.  I think the WAR idea is a good one, but IMHO I think it's a little further off, as it would likely call for an Admin UI to configs (or ideally it would).  This JAR installer may be a step towards that</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;mdiggory&gt; Yes, the war approach requires creating a webapp interface for mediating the install rather than a commandline one.</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;tdonohue&gt; currently, the JAR installer is *extremely* simplistic.  Just one Java class, which actually just makes Ant API calls to call a build.xml in a more automated way.  User just sees it as a basic Q&amp;A though, they wouldn't necessarily realize it's actually running the same (or similar) Ant install scripts they currently exist.</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;mdiggory&gt; Another project that should be added to possible suggestions for 1.8.0 would be to pull the database configuration out of dspace.cfg and store it elsewhere preferably in a 'manner that it can be defined or over=riden by Spring and the servlet engine</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;mdiggory&gt; yes, you can run ant programatically htat way... I beleive we are already relying on ant as a dependency now, so if written properly, it would already be present in dspace.</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;mdiggory&gt; Another idea for your installer, in the absence of a proper database, fire up the in-memory db used in the junit testing.</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;mdiggory&gt; Are you considering providing a servlet container in the installer?</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-navy">* robint (5229fe8f@gateway/web/freenode/ip.82.41.254.143) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: for instance being able to start a jetty instance or the like so that the installer could actually be used to demo dspace or for testing</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- right now, I was just trying to build something simple that *works*.  So, there's a lot of various ways this could go. But, I started with making Ant API calls to make it as similar to how it currently works</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- oh, yea.. along that route, was thinking about potentially embedding tomcat/jetty (like Fedora Commons does -- it offers option to auto-install Fedora into pre-configured Tomcat)</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-black">&lt;tdonohue&gt; so, this installer could potentially ask if you want it to autoinstall Tomcat and even a basic in-memory DB for a "quick install" option</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-black">&lt;tdonohue&gt; but, right now -- it's just a simple wrapper of Ant :)</span><br />
+<span class="irc-date">[22:49]</span> <span class="irc-green">* ksclarke1 (~kevin@adsl-39-65-246.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:51]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-66-248.clt.bellsouth.net) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[23:08]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:12]</span> <span class="irc-green">* ksclarke1 is now known as ksclarke</span><br />
+<span class="irc-date">[23:32]</span> <span class="irc-navy">* grahamtriggs (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Quit: grahamtriggs)</span><br />
+<span class="irc-date">[23:57]</span> <span class="irc-black">&lt;snail&gt; <a href="http://oldwiki.dspace.org/">http://oldwiki.dspace.org/</a> is dead</span><br />
+<span class="irc-date">[23:59]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://oldwiki.dspace.org/">http://oldwiki.dspace.org/</a> is dead. Long live <a href="http://oldwiki.dspace.org/.">http://oldwiki.dspace.org/.</a></span><br />

@@ -1,0 +1,180 @@
+<span class="irc-date">[1:56]</span> <span class="irc-navy">* kdweeks (~Adium@75-139-93-137.dhcp.spbg.sc.charter.com) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[1:58]</span> <span class="irc-green">* kdweeks (~Adium@75-139-93-137.dhcp.spbg.sc.charter.com) has joined #duraspace</span><br />
+<span class="irc-date">[2:02]</span> <span class="irc-navy">* kdweeks (~Adium@75-139-93-137.dhcp.spbg.sc.charter.com) Quit (Client Quit)</span><br />
+<span class="irc-date">[2:24]</span> <span class="irc-green">* kdweeks (~Adium@75-139-93-137.dhcp.spbg.sc.charter.com) has joined #duraspace</span><br />
+<span class="irc-date">[4:11]</span> <span class="irc-green">* kdweeks (~Adium@75-139-93-137.dhcp.spbg.sc.charter.com) has left #duraspace</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-brown">-adams.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-brown">-adams.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-brown">-adams.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-brown">-adams.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-green">* hpottinger (~hpottinge@162.104.218.179) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; All, reminder that our DevMtg starts now-ish. Rough agenda at <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-30">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-30</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2016-11-30 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-30">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-30</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Good morning (or afternoon) all.  The agenda for today is above.  Pinging our Committers here (helix84, hpottinger, mhwood)</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; We are a small group it seems...so a few quick announcements/reminders before we get started today</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; First, if you don't have your OR2017 proposals in yet, get them in ASAP.  The deadline is end of day today!</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; (As a sidenote, I've submitted a proposal on DSpace 7 work along with Art &amp; Andrea B... and I've decided not to do the DCAT/DevMtg as a Workshop. We'll find another way to try and meet up informally there)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;hpottinger&gt; Oh, cool, I was worried about that</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; A further clarification... I feel the DCAT/DevMtg is just getting in the way of us doing other workshops, and it sounds like others wanted to submit other types of workshops...so, we need to find a better way to do this meetup informally</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; (Plus the content in that meeting was often repetitive of other talks)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; One other reminder/note... the next DSpace 7 UI Working Group meeting is tomorrow (Dec 1) at 15UTC (for Angular2) and 16UTC (for REST API) respectively.  It will be in the usual Google Hangout (contact art.lowel at atmire.com if you need an invite)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;hpottinger&gt; just curious: ping helix84, mhwood</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;mhwood&gt; pong</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;hpottinger&gt; after we cover the agenda, I vote we go straight to backlog</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; Just curious... any other last minute OR17 proposals you all are working on (I realize we are just 3 here though).  I should also mention, there's going to be another "Repo Rodeo" (updates from all projects), and I'll represent DSpace again on that panel</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like not. no problems</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;hpottinger&gt; Kim Shepherd is working on a How to contribute presentation, Art and I are pitching in</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; awesome! glad to hear that idea is moving forward</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; ok, moving along to agenda topics... we have our running list of DSpace 6 issues to review...then I agree, we should jump into "backlog".  I won't be available for backlog hour, but I can take part for the full hour that is this meeting</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding 6.0 tickets.. this one just came in this morning (not yet on our list on the agenda): DS-3406</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3406">https://jira.duraspace.org/browse/DS-3406</a> ] - [DS-3406] Sub-communities and collections not sorted alphabetically - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; This sounds like a major, unexpected change in behavior</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;mhwood&gt; Reported by multiple sites, too.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; my guess is the updated API refactor may have a bug in the query (e.g. no sort by)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;hpottinger&gt; sounds like a discovery snafu?</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone have time to investigate this?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;hpottinger&gt; I can</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I don't think this list of sub-communities/collections comes from Discovery. IIRC, it's a database query</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; thanks, hpottinger!</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-green">* dyelar (~dyelar@129.237.45.105) has joined #duraspace</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; moving along to the next one on our agenda list... DS-3367</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3367">https://jira.duraspace.org/browse/DS-3367</a> ] - [DS-3367] Configurable Workflow authorization denied error - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; needs a volunteer still...verified by several folks, but the bug needs tracking down</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;mhwood&gt; I'll put it on my list.  I need to learn more about configurable workflow anyway.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; huh, I just remembered I saw another ticket like this one recently... here it is DS-2920 (updated today)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2920">https://jira.duraspace.org/browse/DS-2920</a> ] - [DS-2920] AuthorizeException on &amp;quot;take task&amp;quot; during workflow process - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; 2920 was reported in 5.x with *traditional* workflow.  3367 was reported on 5.x and 6.0 with *configurable* workflow</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; but, the errors sound very similar</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;mhwood&gt; Link them?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; yep, doing that as we type already</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; done. Added a comment to 3367 to note that 2920  has more info on a possible workaround too</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; and I see mhwood claimed 3367.  Thanks!</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; moving along to next in our list... DS-3381</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3381">https://jira.duraspace.org/browse/DS-3381</a> ] - [DS-3381] Blocking error trying the versioning system - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; needs volunteer. We asked for more info on the errors in JSPUI, but this sounds like something anyone should be able to replicate (after turning on versioning)</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; if anyone wants this, please claim it. Otherwise, I'll flag as "needs volunteer" but leave it on our agenda shortlist</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mhwood&gt; Assigned to hpottinger.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;hpottinger&gt; wait, wut?</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; 3381 is not assigned to anyone :)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, wrong tab.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; i'll flag as "needs volunteer" for now, and leave it on our list</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; done</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; last up is mostly just a reminder ticket... DS-3389</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3389">https://jira.duraspace.org/browse/DS-3389</a> ] - [DS-3389] Replication Task Suite add-on doesn&amp;#39;t work with DSpace 6 API - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; If anyone has time to devote to updating this, please claim it. Otherwise, I'll likely get to it next year once we update DSpaceDirect to DSpace 6 (as that service uses ReplicationTaskSuite)</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;hpottinger&gt; On my list, I think?</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;mhwood&gt; This one *is* assigned.  I'm not sure what Received/Assigned means...</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;hpottinger&gt; yes, assigned to me</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; oh..yes, thanks hpottinger</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; in that case, we need to update status to "Accepted"</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; done</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; I missed the assignment and was just looking at the status</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; ok, that's it for our "shortlist" of DSpace 6 tickets.  Anything else come in recently that needs attention (or to be added to this list)?</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;hpottinger&gt; it would be nice if when we clicked "assign to me" the ticket would advance in the workflow</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;mhwood&gt; I suppose that Received/Assigned means "someone gave this to me but I'm not working on it yet."</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yes, it would be nice. Haven't figured out a way to make that happen automatically in JIRA yet though (I had looked into it a while back with no success, not sure if newer JIRA now supports it though)</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;hpottinger&gt; I am not sure, but I think I've found an oddity with DS-2818</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2818">https://jira.duraspace.org/browse/DS-2818</a> ] - [DS-2818] authentication fails after upgrade from 3.x to master (6.0) schema - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mhwood&gt; IIRC that "ignored" migration is supposed to be ignored in some cases.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;hpottinger&gt; the flyway migration which "fixed" 2818 is showing up as status "ignored"</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; which migration is this? and what version are you upgrading from?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; if "ignored" is an acceptible state, we probably need to tell that to the database validate script</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; If you look at the migrated database, is it in the state that it would occupy were the ignored migration to have run?</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: I haven't dug in today yet, I noticed it last night</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;hpottinger&gt; | 4.9.2015.10.26 | DS-2818 registry update                          |                     | Ignored |</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2818">https://jira.duraspace.org/browse/DS-2818</a> ] - [DS-2818] authentication fails after upgrade from 3.x to master (6.0) schema - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;hpottinger&gt; If I run dspace database validate it throws errors on that ignored migration</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: if you are upgrading from 5.x to 6.0 then that migration *will* always be ignored (as it is flagged as a "4.9" migration, which only runs for 4.x or below)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;hpottinger&gt; OK, so, the bug is in the validation script</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; The validation script literally just runs Flyway's "validate" command.  It might throw errors on ignored migrations...not sure. If so, maybe we should see if there's a way to tell Flyway's "validate" that ignored migrations are "warnings" instead</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; Also, if it really bugs you locally, you could run "./dspace database migrate ignored" (which runs any old migrations flagged as ignored).  In this scenario it won't hurt, as that old migration will be a noop.  But, it's best to not generally run migrations "out of order" (which is what that does)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;mhwood&gt; IIRC what's going on here is that we needed a new migration for certain cases of 4.x-&gt;5.x, but this was dicovered *after* 5.something was released.  5.x fresh installs don't need it.  So it was added to the 4-&gt; path retroactively.  Which means it won't run for any 5.n-&gt;5.n+m upgrades.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: that is 100% correct.  That essentially boils down to.. when upgrading from 4.x or below, this migration will NOT be "ignored"... but when upgrading from 5.x or above, it *will* be ignored (as it is not necessary / is a noop)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; so, the only real "issue" here is that the "validate" command seems to complain about this migration being ignored (and that complaint is misleading, as it is expected behavior to us)</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; So, this might either be a Documentation issue... or maybe there's some way to tell Flyway's "validate" command to not complain about "ignored" migrations (but I'm not seeing any after searching around a bit)</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;mhwood&gt; Hmm.  There may be cases where it really is a problem to have an ignored migration?  If so, then what we need is "dspace database migrate --expert --ignored2finished NAME"</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;hpottinger&gt; DS-3407</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3407">https://jira.duraspace.org/browse/DS-3407</a> ] - [DS-3407] database validate script fails when it encounters an ignored FlyWay migration - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; According to Flyway, if a migration is ignored, it *might* be a problem.  But, base on how *DSpace* has built our migrations, we  have some (rare) scenarios (like this one) where ignored migrations are unfortunately necessary to ensure a smooth upgrade from all past versions.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;hpottinger&gt; is there a better state than "ignored"?</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; I hope in the future these migrations are EXTREMELY rare (as this isn't good practice).  But, DS-2818 was a scenario we didn't anticipate and forced us to backport a migration (which is subsequently ignored by 5.x or above)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2818">https://jira.duraspace.org/browse/DS-2818</a> ] - [DS-2818] authentication fails after upgrade from 3.x to master (6.0) schema - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: there's no other states to my knowledge... there's only "ignored", "success" and "failed".   Flyway controls the states.  It only flags something success/failed if it runs, otherwise the default is "ignored"</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mhwood&gt; If you're satisfied that the migration can be permanently ignored, you *could* just poke the state in that record of the migrations table.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: your new ticket has an empty code box at the beginning of the description. I think you meant to paste in the migration: DS-3407</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3407">https://jira.duraspace.org/browse/DS-3407</a> ] - [DS-3407] database validate script fails when it encounters an ignored FlyWay migration - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; In all honesty here... 2818 is the only scenario where an "ignored" migration is NOT some sort of issue in DSpace.   Hopefully it's the only one EVER (in which case we document this as a known issue and tell folks to run "./dspace database migrate ignored" to correct it</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: I think I'd prefer to tweak the dspace database migrate ignored script to do what you suggest: move from "ignored" to "succeed"</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; So, this was a very specific scenario...there was no way around this in fixing 2818...believe me, I dug into this at the time.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: I fixed the empty code block, thanks for noticing it</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; not sure what that suggestion is... the "./dspace database migrate ignored" script *will* run this old migration (resulting in a noop) and *will* already move the status from "ignored" to "succeed"</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; So, we already have a script that does this.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-green">* luizsan (~luizsan@199.79.165.2) has joined #duraspace</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; orly?</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; sweet</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; yeah, "fix" this with docs</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, I forgot "migrate ignored".  Better than lying to Flyway.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; oh, that's lovely</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; The only reason we don't advertise "database migrate ignored" heavily is that it has the *potential* to be dangerous in other scenarios... as it runs *all* "ignored" migrations immediately.  In the scenario of fixing 2818, this is exactly what we need to do. But, in other scenarios it is safer to simply run "database migrate"</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; [dspace@apg dspace]$ bin/dspace database validate</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; Database URL: jdbc:postgresql://localhost:5432/ds5</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; Attempting to validate database status (and migration checksums) via FlywayDB...</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; No errors thrown. Validation succeeded. (Check dspace logs for more details)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; So, yes, I agree, we should fix this with Documentation</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; I just want to be sure the Documentation also warns folks to run "dspace database migrate" in all other scenarios (people shouldn't get in the habit of always running "dspace database migrate ignored")</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;mhwood&gt; Document this option as "use this only when recommended by the maintainers."</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; yes, exactly</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; it's a very useful command to have.. but can  have unforeseen side-effects if used too frequently</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;hpottinger&gt; I've assigned DS-3407 to myself</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3407">https://jira.duraspace.org/browse/DS-3407</a> ] - [DS-3407] database validate script fails when it encounters an ignored FlyWay migration - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mhwood&gt; Before we break:  any thoughts on DS-2707?  There was concern about duplicative logging.  The problem is that the code is peppered with System.out.X calls that don't work in webapp.s.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2707">https://jira.duraspace.org/browse/DS-2707</a> ] - [DS-2707] Poor messaging when batch upload directory cannot be created - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I added a clarifying comment to 3407...though I now see you did the same ;)</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mhwood&gt; The code has been repurposed, and now needs to support the servlet environment in addition to the command line (for which it was originally written).  It's kind of a mess right now.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, I understand that now with 2707.  I do wonder if we rip out all the System.out calls, and just report to check the logs (when run from commandline)... that's what we do with other commands</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mhwood&gt; I can look at how to do that.  Does that belong in 2707 or should it be a new ticket?</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; But, if that results in further complications, the duplication of logging is OK for now. We just should note why it's there</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; probably a new ticket,  I guess.  I don't mind the debug logs...it'd just be nice to clean up the logging here at some point</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;mhwood&gt; OK, I can add a note to the code.  Then 2707 just needs approval.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mhwood&gt; Thanks for taking another look.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; The code looked ok to me.  I'm assuming it's been tested and seems to work fine?  There's a lot of code changes/realignment here...while it looks good to me, I haven't run any tests</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;luizsan&gt; Hi, I am sorry about this out of topic question, a couple of weeks I ago I volunteered myself to the XOAI update, so I have a question about the XOAI update, basically what I have to do is change it dependency in pom.xml and fix the errors, right?</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, there was a big chunk that was hard to read.  I've put a couple of line comments in to show where the actual fix happens.</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: approved it</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mhwood&gt; Thanks!</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; I unfortunately have to run here (wish I could stick around, but have a busy day ahead).  So, I need to close up the meeting until next week. If others have time, please feel free to do some JIRA backlog review</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mhwood&gt; luizsan, that sounds correct.  It's hard to say what "fix the errors" will require.</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; luizsan: Yes, in updating DSpace to use the latest XOAI, you'd need to update DSpace's POMs to use that new version, and then likely refactor/update the DSpace "oai" project to fix errors. The "fix errors" though is uncertain, as no one has dug deeply into how many errors there will/may be</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; jumping off now...will be lurking, but need to get a few other things done. bye</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;hpottinger&gt; I added a section to "troubleshooting upgrade issues" here: <a href="https://wiki.duraspace.org/display/DSDOC6x/Upgrading+DSpace">https://wiki.duraspace.org/display/DSDOC6x/Upgrading+DSpace</a></span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;kompewter&gt; [ Upgrading DSpace - DSpace 6.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC6x/Upgrading+DSpace">https://wiki.duraspace.org/display/DSDOC6x/Upgrading+DSpace</a></span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;mhwood&gt; Thanks tdonohue.</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;hpottinger&gt; DS-3407 closed as fixed</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3407">https://jira.duraspace.org/browse/DS-3407</a> ] - [DS-3407] database validate script fails when it encounters an ignored FlyWay migration - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;luizsan&gt; Thank you guys, I will work on it.</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;mhwood&gt; Thanks to you as well, luizsan.</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger:  any way to say "don't do this unless we tell you to"?</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mhwood&gt; Otherwise this looks well.  Thanks for adding it.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: it's a wiki ;-)</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mhwood&gt; Warning amplified.</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mhwood&gt; Moving over to #dspace.</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-green">* isido (~sidoroff@dm2-hulib-1.hulib.helsinki.fi) has joined #duraspace</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.45.105) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-green">* dyelar (~dyelar@129.237.108.10) has joined #duraspace</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.108.10) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-green">* dyelar (~dyelar@129.237.45.105) has joined #duraspace</span><br />
+<span class="irc-date">[18:07]</span> <span class="irc-navy">* isido (~sidoroff@dm2-hulib-1.hulib.helsinki.fi) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.45.105) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-green">* dyelar (~dyelar@129.237.45.105) has joined #duraspace</span><br />
+<span class="irc-date">[22:12]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:26]</span> <span class="irc-green">* luizsan_ (~luizsan@199.79.165.2) has joined #duraspace</span><br />
+<span class="irc-date">[22:26]</span> <span class="irc-navy">* luizsan (~luizsan@199.79.165.2) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:36]</span> <span class="irc-navy">* luizsan_ (~luizsan@199.79.165.2) Quit (Quit: Leaving...)</span><br />
+<span class="irc-date">[22:49]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has left #duraspace</span><br />
+<span class="irc-date">[22:58]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.45.105) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[23:56]</span> <span class="irc-navy">* hpottinger (~hpottinge@162.104.218.179) Quit (Quit: Leaving, later taterz!)</span><br />

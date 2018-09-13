@@ -1,0 +1,397 @@
+<h3>Conversation with #duraspace at 6/29/2011 8:41:22 AM on irc.freenode.net (irc)</h3>
+<h4>NOTE: All Times below are CDT. DuraLogBot had issues logging today, and these logs were captured instead by tdonohue's IRC client</h4>
+<font size="2">(11:31:20 AM)</font><b> grahamtriggs left the room.</b><br/>
+<font size="2">(11:56:26 AM)</font><b> marcmcd [<em>~marcmcd@bas16-ottawa23-1176333776.dsl.bell.ca</em>] entered the room.</b><br/>
+<font size="2">(12:00:14 PM)</font><b> marcmcd left the room.</b><br/>
+<font size="2">(2:32:40 PM)</font><b> grahamtriggs [<em>~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com</em>] entered the room.</b><br/>
+<font size="2">(2:48:28 PM)</font><b> KevinVdV [<em>~KevinVdV@d54C14B16.access.telenet.be</em>] entered the room.</b><br/>
+<font color="#16569E"><font size="2">(2:52:27 PM)</font> <b>tdonohue:</b></font> Hi all - Reminder we have our weekly DSpace Devel Mtg here at top of the hour: https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-29<br/>
+<font color="#A82F2F"><font size="2">(2:52:28 PM)</font> <b>kompewter:</b></font> [ DevMtg 2011-06-29 - DSpace - DuraSpace Wiki ] - https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-29<br/>
+<font size="2">(2:58:25 PM)</font><b> hpottinger [<em>80cea2c6@gateway/web/freenode/ip.128.206.162.198</em>] entered the room.</b><br/>
+<font size="2">(2:58:48 PM)</font><b> aschweer [<em>~schweer@schweer.its.waikato.ac.nz</em>] entered the room.</b><br/>
+<font size="2">(2:59:26 PM)</font><b> richardrodgers [<em>~richardro@pool-96-237-109-89.bstnma.fios.verizon.net</em>] entered the room.</b><br/>
+<font size="2">(3:00:48 PM)</font><b> mdiggory [<em>~mdiggory@rrcs-74-87-47-114.west.biz.rr.com</em>] entered the room.</b><br/>
+<font color="#16569E"><font size="2">(3:00:58 PM)</font> <b>tdonohue:</b></font> Hi all, looks like it's that time again.  Here's our DSpace Devel Mtg agenda for today: https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-29<br/>
+<font color="#A82F2F"><font size="2">(3:00:59 PM)</font> <b>kompewter:</b></font> [ DevMtg 2011-06-29 - DSpace - DuraSpace Wiki ] - https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-29<br/>
+<font color="#16569E"><font size="2">(3:01:30 PM)</font> <b>tdonohue:</b></font> We'll start things off with a Quick JIRA review for the first 15-20 minutes or so.  Here's the list of JIRA issues we're working from: https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-820+ORDER+BY+key+ASC<br/>
+<font color="#A82F2F"><font size="2">(3:01:31 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-820 ] - [#DS-820] SFX button + SFX in Mirage - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:01:34 PM)</font> <b>kompewter:</b></font> [ Issue Navigator - DuraSpace JIRA ] - https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-820+ORDER+BY+key+ASC<br/>
+<font color="#16569E"><font size="2">(3:01:38 PM)</font> <b>tdonohue:</b></font> We'll start with DS-820<br/>
+<font color="#A82F2F"><font size="2">(3:01:39 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-820 ] - [#DS-820] SFX button + SFX in Mirage - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:01:59 PM)</font> <b>mhwood:</b></font> Assigned<br/>
+<font color="#16569E"><font size="2">(3:02:28 PM)</font> <b>tdonohue:</b></font> yep, looks like this one is assigned. I doubt kshepherd is here yet (early for him), so we'll just assume he's still taking care of this on. <br/>
+<font color="#16569E"><font size="2">(3:02:42 PM)</font> <b>tdonohue:</b></font> Next up, DS-824<br/>
+<font color="#A82F2F"><font size="2">(3:02:42 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-824 ] - [#DS-824] Request Copy function for XMLUI; would allow author of item to give viewing privs to restricted item - DuraSpace JIRA<br/>
+<font size="2">(3:02:49 PM)</font><b> robint [<em>522921b0@gateway/web/freenode/ip.82.41.33.176</em>] entered the room.</b><br/>
+<font color="#16569E"><font size="2">(3:02:51 PM)</font> <b>tdonohue:</b></font> ack. Wait..next is DS-822<br/>
+<font color="#A82F2F"><font size="2">(3:02:52 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-822 ] - [#DS-822] Default dc metadata schema not used when selecting fields from DIM for default item display - DuraSpace JIRA<br/>
+<font color="#062585"><font size="2">(3:03:18 PM)</font> <b>***tdonohue</b></font> notes we&apos;ll do ds-824 after ds-822<br/>
+<font color="#A82F2F"><font size="2">(3:03:19 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/ds-824 ] - [#DS-824] Request Copy function for XMLUI; would allow author of item to give viewing privs to restricted item - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:03:21 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/ds-822 ] - [#DS-822] Default dc metadata schema not used when selecting fields from DIM for default item display - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:04:37 PM)</font> <b>richardrodgers:</b></font> looks like a little further work needed (ds-822)?<br/>
+<font color="#A82F2F"><font size="2">(3:04:38 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/ds-822 ] - [#DS-822] Default dc metadata schema not used when selecting fields from DIM for default item display - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:04:49 PM)</font> <b>scottatm:</b></font> yes it does.<br/>
+<font color="#16569E"><font size="2">(3:05:17 PM)</font> <b>tdonohue:</b></font> yes. looks like that's the case. Any volunteers to update Claudia's patch for Ds-822, based on kshepherd's notes?<br/>
+<font color="#16569E"><font size="2">(3:05:44 PM)</font> <b>tdonohue:</b></font> (i.e. this seems like a rather easy fix, if someone wants to tackle it quickly)<br/>
+<font color="#16569E"><font size="2">(3:07:12 PM)</font> <b>tdonohue:</b></font> No one? ok. We'll just schedule Ds-822 for 1.8 and leave it unassigned for now. Hopefully Claudia or kshepherd can finish this up..<br/>
+<font color="#16569E"><font size="2">(3:07:22 PM)</font> <b>tdonohue:</b></font> Next up, DS-824<br/>
+<font color="#A82F2F"><font size="2">(3:07:23 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-824 ] - [#DS-824] Request Copy function for XMLUI; would allow author of item to give viewing privs to restricted item - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:07:49 PM)</font> <b>richardrodgers:</b></font> scottatm: you folks still interested in this (working on it)?<br/>
+<font color="#16569E"><font size="2">(3:07:53 PM)</font> <b>tdonohue:</b></font> this is assigned to scottatm.  need any help or feedback scott?<br/>
+<font color="#A82F2F"><font size="2">(3:08:04 PM)</font> <b>scottatm:</b></font> A&amp;M is working on this.... We have it implemented for XMLUI, we plan to implement it also in JSPUI.<br/>
+<font color="#16569E"><font size="2">(3:08:20 PM)</font> <b>tdonohue:</b></font> Ok, sounds good. we'll move on then.  Thanks, scottatm!<br/>
+<font color="#16569E"><font size="2">(3:08:31 PM)</font> <b>tdonohue:</b></font> Next up, DS-826<br/>
+<font color="#A82F2F"><font size="2">(3:08:32 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-826 ] - [#DS-826] LDAPServlet.java incorrectly redirects to incorrect.jsp rather than ldap-incorrect.jsp - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:09:02 PM)</font> <b>richardrodgers:</b></font> just need an LDAPper to verify?<br/>
+<font size="2">(3:09:52 PM)</font><b> bradmc [<em>~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com</em>] entered the room.</b><br/>
+<font color="#16569E"><font size="2">(3:09:56 PM)</font> <b>tdonohue:</b></font> anyone want to verify this?  Someone have an LDAP handy?<br/>
+<font color="#16569E"><font size="2">(3:11:34 PM)</font> <b>tdonohue:</b></font> wow, simply no volunteers today :) and these seem like easy ones!<br/>
+<font color="#16569E"><font size="2">(3:12:39 PM)</font> <b>tdonohue:</b></font> Summary for Ds-826: Schedule for 1.8.0 as it seems to be a minor fix.  Needs a volunteer to test with LDAP. <br/>
+<font color="#A82F2F"><font size="2">(3:12:43 PM)</font> <b>robint:</b></font> No ldap (handy excuse!)<br/>
+<font color="#A82F2F"><font size="2">(3:12:54 PM)</font> <b>mdiggory:</b></font> Sorry, I&quot;m afraid I&apos;m lurking...<br/>
+<font color="#A82F2F"><font size="2">(3:13:06 PM)</font> <b>scottatm:</b></font> A&amp;M is all shibboleth....<br/>
+<font color="#A82F2F"><font size="2">(3:13:12 PM)</font> <b>richardrodgers:</b></font> same here...<br/>
+<font color="#A82F2F"><font size="2">(3:13:34 PM)</font> <b>aschweer:</b></font> doesn&apos;t stuartlewis have a test ldap somewhere? if he does then I can give this a quick test<br/>
+<font color="#16569E"><font size="2">(3:14:12 PM)</font> <b>tdonohue:</b></font> he might.  I'm not sure, aschweer, but that sounds like something stuartlewis would have :)<br/>
+<font color="#A82F2F"><font size="2">(3:14:15 PM)</font> <b>ablemann:</b></font> hm<br/>
+<font color="#A82F2F"><font size="2">(3:14:17 PM)</font> <b>ablemann:</b></font> I can confirm it.<br/>
+<font color="#16569E"><font size="2">(3:14:47 PM)</font> <b>tdonohue:</b></font> ablemann : you already tested this? Or you are volunteering to test it? (just want to clarify)<br/>
+<font color="#A82F2F"><font size="2">(3:15:11 PM)</font> <b>ablemann:</b></font> I just tested it and it seems to be correct.  I can post that in the ticket.<br/>
+<font color="#A82F2F"><font size="2">(3:15:20 PM)</font> <b>ablemann:</b></font> correct as in the bug report is correct<br/>
+<font color="#16569E"><font size="2">(3:15:51 PM)</font> <b>tdonohue:</b></font> thanks, ablemann. If you want to claim that in the ticket, we can go ahead and get it committed.  It looks like an obvious bug to me, but we just need someone to vouch for the fix :)<br/>
+<font color="#16569E"><font size="2">(3:16:24 PM)</font> <b>tdonohue:</b></font> moving on to our next ticket... DS-827<br/>
+<font size="2">(3:16:25 PM)</font><b> bradmc left the room (quit: Read error: Connection reset by peer).</b><br/>
+<font color="#A82F2F"><font size="2">(3:16:25 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-827 ] - [#DS-827] Autoregister in LDAPHierarchicalAuthentication is incompatible with ldap.netid_email_domain option - DuraSpace JIRA<br/>
+<font color="#16569E"><font size="2">(3:16:50 PM)</font> <b>tdonohue:</b></font> another LDAP one, looks like<br/>
+<font size="2">(3:17:52 PM)</font><b> bradmc [<em>~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com</em>] entered the room.</b><br/>
+<font color="#062585"><font size="2">(3:17:52 PM)</font> <b>***tdonohue</b></font> notes we need to find someone who is running LDAP to help verify these fixes<br/>
+<font color="#A82F2F"><font size="2">(3:18:16 PM)</font> <b>aschweer:</b></font> http://blog.stuartlewis.com/2008/07/07/test-ldap-service/ but I don&apos;t know if the test ldap server is still up<br/>
+<font color="#A82F2F"><font size="2">(3:18:18 PM)</font> <b>kompewter:</b></font> [ Stuart Lewis&apos; Blog » Test LDAP service ] - http://blog.stuartlewis.com/2008/07/07/test-ldap-service/<br/>
+<font color="#16569E"><font size="2">(3:19:38 PM)</font> <b>tdonohue:</b></font> well, maybe we can ask stuartlewis about these if he comes online later<br/>
+<font color="#16569E"><font size="2">(3:20:33 PM)</font> <b>tdonohue:</b></font> ok.  Summary for Ds-827:  Again, needs a volunteer with LDAP to verify solution.  Ask stuartlewis if he's still got a test LDAP available.<br/>
+<font color="#16569E"><font size="2">(3:21:16 PM)</font> <b>tdonohue:</b></font> ok. we're at 20 minutes, so we'll stop there for today. <br/>
+<font color="#16569E"><font size="2">(3:21:40 PM)</font> <b>tdonohue:</b></font> General Announcements now...<br/>
+<font color="#16569E"><font size="2">(3:22:01 PM)</font> <b>tdonohue:</b></font> since she's here in attendance, another congrats/welcome to aschweer, our newest Committer!<br/>
+<font color="#A82F2F"><font size="2">(3:22:11 PM)</font> <b>aschweer:</b></font> thanks :)<br/>
+<font color="#A82F2F"><font size="2">(3:22:19 PM)</font> <b>mdiggory:</b></font> Welcome<br/>
+<font color="#A82F2F"><font size="2">(3:22:20 PM)</font> <b>mhwood:</b></font> Welcome!<br/>
+<font color="#A82F2F"><font size="2">(3:22:32 PM)</font> <b>richardrodgers:</b></font> welcome and thanks aschweer !<br/>
+<font color="#062585"><font size="2">(3:22:52 PM)</font> <b>***grahamtriggs</b></font> would stand and applaud, but that would mean putting the laptop down<br/>
+<font color="#A82F2F"><font size="2">(3:23:11 PM)</font> <b>aschweer:</b></font> thanks everyone :) Stuart is working on getting me sorted with permissions etc<br/>
+<font color="#16569E"><font size="2">(3:23:29 PM)</font> <b>tdonohue:</b></font> Also, as I've sent out to -devel, we have a new &quot;Unreleased Documentation&quot; wiki area, where everyone can start to add in their 1.8.0 documentation updates immediately: https://wiki.duraspace.org/display/DSDOCDEV<br/>
+<font color="#A82F2F"><font size="2">(3:23:30 PM)</font> <b>kompewter:</b></font> [ DSpace Documentation - DSpace Unreleased Documentation - DuraSpace Wiki ] - https://wiki.duraspace.org/display/DSDOCDEV<br/>
+<font color="#16569E"><font size="2">(3:24:34 PM)</font> <b>tdonohue:</b></font> this means that I fully expect to see mdiggory creating amazing documentation there in the coming weeks/days (I'm teasing mdiggory, cause he hates writing docs)<br/>
+<font color="#A82F2F"><font size="2">(3:24:51 PM)</font> <b>mdiggory:</b></font> hey... thats not true ;-)<br/>
+<font color="#16569E"><font size="2">(3:24:56 PM)</font> <b>tdonohue:</b></font> haha ;)<br/>
+<font color="#A82F2F"><font size="2">(3:25:00 PM)</font> <b>mdiggory:</b></font> I love writing docs ;-)<br/>
+<font color="#16569E"><font size="2">(3:25:04 PM)</font> <b>tdonohue:</b></font> (just seeing if you were paying attention there)<br/>
+<font color="#A82F2F"><font size="2">(3:25:07 PM)</font> <b>mhwood:</b></font> So now DSDOC is just a place that DSDOCDEV gets copied to on release?<br/>
+<font color="#16569E"><font size="2">(3:25:34 PM)</font> <b>tdonohue:</b></font> correct, mhwood.  DSDOC is now the &quot;officially released docs&quot;.  It's the place that DSDOCDEV will be copied to on release<br/>
+<font color="#A82F2F"><font size="2">(3:25:52 PM)</font> <b>aschweer:</b></font> and if we find a bug in DSDOC, do we fix it in both places?<br/>
+<font color="#16569E"><font size="2">(3:26:45 PM)</font> <b>tdonohue:</b></font> unfortunately, yes.  DSDOC will essentially get &quot;overwritten&quot; by what is in DSDOCDEV during the release process.  There's no easy way to &quot;merge&quot; things.  So, if the bug needs immediate fixing (before 1.8) then it needs to be fixed in two places<br/>
+<font color="#A82F2F"><font size="2">(3:27:02 PM)</font> <b>aschweer:</b></font> thanks tdonohue, good to know<br/>
+<font color="#16569E"><font size="2">(3:28:02 PM)</font> <b>tdonohue:</b></font> I'll admit, I'm still working on the DSDOCDEV -&gt; DSDOC release process.  I'm leaning heavily on Fedora &amp; DuraCloud folks, and we are all trying to figure out the easiest way to manage docs in Confluence.<br/>
+<font color="#A82F2F"><font size="2">(3:28:19 PM)</font> <b>hpottinger:</b></font> tdonohue: do tools exist to help finding conflicts between versions?<br/>
+<font color="#A82F2F"><font size="2">(3:28:22 PM)</font> <b>richardrodgers:</b></font> Have they had that process in place for a while?<br/>
+<font color="#16569E"><font size="2">(3:28:48 PM)</font> <b>tdonohue:</b></font> hpottinger: no, Confluence is limited in tools to find &quot;conflicts&quot; across two different wiki spaces<br/>
+<font color="#16569E"><font size="2">(3:29:26 PM)</font> <b>tdonohue:</b></font> richardrodgers: currently, DuraCloud has a docs process they've had in place for a while.  Fedora is trying to simplify their processes (based on limitations of Confluence).  <br/>
+<font color="#A82F2F"><font size="2">(3:30:34 PM)</font> <b>hpottinger:</b></font> if it&apos;s mostly an eblow-grease-powered process, these elbows volunteer<br/>
+<font color="#16569E"><font size="2">(3:30:41 PM)</font> <b>tdonohue:</b></font> essentially the biggest issue here is that Confluence doesn't let you &quot;merge&quot; differences between spaces easily.  You can only copy/move contents.  Which means right now, during a release, the contents of DSDOC would be &quot;replaced&quot; by DSDOCDEV <br/>
+<font color="#A82F2F"><font size="2">(3:31:01 PM)</font> <b>richardrodgers:</b></font> so regression is an issue<br/>
+<font color="#A82F2F"><font size="2">(3:31:22 PM)</font> <b>mhwood:</b></font> More docs to read:  what&apos;s a &quot;space&quot;?<br/>
+<font color="#16569E"><font size="2">(3:31:49 PM)</font> <b>tdonohue:</b></font> &quot;space&quot; = An &quot;area&quot; of the Confluence Wiki.   DSDOC is a &quot;space&quot;, so is DSDOCDEV<br/>
+<font color="#16569E"><font size="2">(3:32:54 PM)</font> <b>tdonohue:</b></font> So -- in the end, still working on ways to improve this Documentation process.  But, I think we already identified that DSDOCDEV is of benefit -- it lets us write 1.8 docs right away (while people are still referring to 1.7.2 docs in DSDOC)<br/>
+<font color="#A82F2F"><font size="2">(3:33:08 PM)</font> <b>grahamtriggs:</b></font> Why don&apos;t we do what Atlassian does, and maintain an archive of the different versions of the documentation?<br/>
+<font color="#16569E"><font size="2">(3:33:31 PM)</font> <b>tdonohue:</b></font> grahamtriggs: we can do that.  That's what DuraCloud actually does (and Fedora may move that way too).    <br/>
+<font color="#16569E"><font size="2">(3:33:48 PM)</font> <b>tdonohue:</b></font> using that process we'd do something like this during a release:<br/>
+<font color="#16569E"><font size="2">(3:34:06 PM)</font> <b>tdonohue:</b></font> (1) Move DSDOC to &quot;DSDOC17&quot; (1.7.x Docs) as an &quot;archive&quot;<br/>
+<font color="#16569E"><font size="2">(3:34:19 PM)</font> <b>tdonohue:</b></font> (2) Move DSDOCDEV to DSDOC (to release 1.8 docs)<br/>
+<font color="#16569E"><font size="2">(3:34:44 PM)</font> <b>tdonohue:</b></font> that's what DuraCloud does<br/>
+<font color="#A82F2F"><font size="2">(3:35:28 PM)</font> <b>richardrodgers:</b></font> we surely need x-n docsets, where x = current<br/>
+<font color="#16569E"><font size="2">(3:36:18 PM)</font> <b>tdonohue:</b></font> not sure I understand that statement, richardrodgers?<br/>
+<font color="#A82F2F"><font size="2">(3:36:38 PM)</font> <b>richardrodgers:</b></font> I mean, we can&apos;t lose 1.7 when 1.8 appears<br/>
+<font color="#16569E"><font size="2">(3:37:11 PM)</font> <b>tdonohue:</b></font> right.  Currently, our process is that we create a PDF &amp; HTML copy as &quot;archived&quot; copies of the past docs (just like for 1.6 and previous)<br/>
+<font color="#A82F2F"><font size="2">(3:37:12 PM)</font> <b>richardrodgers:</b></font> And I mean 1.7 as a living doc, since there may be corrections<br/>
+<font color="#A82F2F"><font size="2">(3:37:32 PM)</font> <b>aschweer:</b></font> I have to leave, bye everyone<br/>
+<font size="2">(3:37:36 PM)</font><b> aschweer left the room (quit: Quit: leaving).</b><br/>
+<font color="#16569E"><font size="2">(3:38:11 PM)</font> <b>tdonohue:</b></font> yea, I can see that as a point. That's why DuraCloud &amp; Fedora chose that route as well.  So, I'd be fine with going that way and creating a DSDOC17 space to &quot;archive&quot; the 1.7.x docs when we release 1.8<br/>
+<font color="#062585"><font size="2">(3:38:27 PM)</font> <b>***hpottinger</b></font> has to leave, too, but is thinking about the potential of the Confluence to XML export for comparing versions<br/>
+<font color="#16569E"><font size="2">(3:39:01 PM)</font> <b>tdonohue:</b></font> hpottinger -- I'd welcome you to play around with it :)  We are looking for other ideas<br/>
+<font color="#A82F2F"><font size="2">(3:39:28 PM)</font> <b>mdiggory:</b></font> I think resources are too thin to support separate branches of documentation... retire old versions of the docs to PDF/HTML and abandon supporting changes to them...<br/>
+<font color="#A82F2F"><font size="2">(3:39:45 PM)</font> <b>mdiggory:</b></font> Focus all resources on providing the best current documentation possible<br/>
+<font color="#A82F2F"><font size="2">(3:40:00 PM)</font> <b>mdiggory:</b></font> eventually, that will filter into previous versions over the comming years<br/>
+<font size="2">(3:40:13 PM)</font><b> hpottinger left the room (quit: Quit: Page closed).</b><br/>
+<font color="#A82F2F"><font size="2">(3:40:17 PM)</font> <b>mhwood:</b></font> Current documentation describes current code.  Not every site runs current code all the time.<br/>
+<font color="#A82F2F"><font size="2">(3:40:27 PM)</font> <b>richardrodgers:</b></font> we may indeed be resource-constrained, but it seems to me to be the big win of using wikis....<br/>
+<font color="#A82F2F"><font size="2">(3:40:40 PM)</font> <b>mdiggory:</b></font> thats why you have a pdf/html for your version<br/>
+<font color="#16569E"><font size="2">(3:40:54 PM)</font> <b>tdonohue:</b></font> mdiggory: just cause we &quot;archive&quot; things off on the Wiki (to DSDOC17 or similar) doesn't mean we need to actually continue to modify them.  DuraCloud actually makes &quot;archived&quot; spaces read-only, and only modifies them if something is blatantly wrong<br/>
+<font color="#A82F2F"><font size="2">(3:41:01 PM)</font> <b>mdiggory:</b></font> and dsdocdev / dsdoc for the current<br/>
+<font color="#A82F2F"><font size="2">(3:41:45 PM)</font> <b>mdiggory:</b></font> tdonohue: why not save the space and just push them to &quot;non-editable&quot; format<br/>
+<font color="#A82F2F"><font size="2">(3:41:52 PM)</font> <b>richardrodgers:</b></font> yes tdonohue, that&apos;s the sort of scenario I mean<br/>
+<font color="#A82F2F"><font size="2">(3:42:28 PM)</font> <b>mhwood:</b></font> DSDOC17-ERRATA....<br/>
+<font color="#16569E"><font size="2">(3:42:39 PM)</font> <b>tdonohue:</b></font> So, we could basically do something like:   DSDOC -&gt; current released version of docs,   DSDOCDEV -&gt; in process docs for next major release , DSDOCXX -&gt; &quot;archive&quot; of docs (read-only unless we really need to change something)<br/>
+<font color="#A82F2F"><font size="2">(3:43:31 PM)</font> <b>mdiggory:</b></font> I&apos;m sure at some point the Duraspace community is going to experience &quot;Confluence Space Bloat&quot; and start restricting space creation...<br/>
+<font color="#A82F2F"><font size="2">(3:44:22 PM)</font> <b>mdiggory:</b></font> I consider Confluence to be a publishing workflow, not the final form.<br/>
+<font color="#16569E"><font size="2">(3:44:27 PM)</font> <b>tdonohue:</b></font> mdiggory -- currently creating new spaces costs next-to-nothing.  But, if we did achieve &quot;space bloat&quot;, all we'd need to do is export PDF/HTML from old spaces and delete them at that point<br/>
+<font color="#A82F2F"><font size="2">(3:44:50 PM)</font> <b>mdiggory:</b></font> I&apos;m sure, quite true<br/>
+<font color="#16569E"><font size="2">(3:45:11 PM)</font> <b>tdonohue:</b></font> mdiggory -- another issue is that Confluence &quot;publishes&quot; extremely ugly HTML (have you seen it) :)<br/>
+<font color="#A82F2F"><font size="2">(3:45:32 PM)</font> <b>mdiggory:</b></font> Just trying not to open a pandoras box of &quot;create this line of text in N different versions of docs&quot;<br/>
+<font color="#A82F2F"><font size="2">(3:45:45 PM)</font> <b>mdiggory:</b></font> gzip<br/>
+<font color="#A82F2F"><font size="2">(3:45:59 PM)</font> <b>mdiggory:</b></font> oh, I thought you said &quot;huge&quot;<br/>
+<font color="#16569E"><font size="2">(3:46:01 PM)</font> <b>tdonohue:</b></font> mdiggory -- but it's no &quot;pandora's&quot; box if you make the old docs *read-only*<br/>
+<font color="#A82F2F"><font size="2">(3:46:35 PM)</font> <b>mdiggory:</b></font> \me how did I get into this discussion. should&apos;ve kept my mouth shut<br/>
+<font color="#062585"><font size="2">(3:47:16 PM)</font> <b>***mdiggory</b></font> puts down shovel, stops digging hole<br/>
+<font color="#16569E"><font size="2">(3:47:23 PM)</font> <b>tdonohue:</b></font> yea, I think we need to &quot;table this&quot; for now.  Obviously more discussion is needed.  But, I'd like to continue to discuss options with DuraCLoud &amp; Fedora folks -- hopefully we can all find something that will work for all of us<br/>
+<font color="#A82F2F"><font size="2">(3:48:06 PM)</font> <b>grahamtriggs:</b></font> Unless there is a *serious* documentation flaw, we shouldn&apos;t edit the docs of &apos;published&apos; releases, unless we&apos;re gearing up for a .1, .2, etc. release<br/>
+<font color="#16569E"><font size="2">(3:48:49 PM)</font> <b>tdonohue:</b></font> right, grahamtriggs.  that's what I meant by &quot;read-only&quot;.  We don't modify those old published docs unless something is so blatantly wrong it is embarrassing :)<br/>
+<font color="#062585"><font size="2">(3:48:57 PM)</font> <b>***mdiggory</b></font> glares at grahamtriggs <br/>
+<font color="#16569E"><font size="2">(3:49:02 PM)</font> <b>tdonohue:</b></font> ok. Going to move on now, in the essence of time<br/>
+<font color="#16569E"><font size="2">(3:49:23 PM)</font> <b>tdonohue:</b></font> robint asked that we all take a moment to discuss DS-935<br/>
+<font color="#A82F2F"><font size="2">(3:49:24 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-935 ] - [#DS-935] REST-API Has a dependency on the dspace-jspui-api, it would be nice if this could be removed. - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:49:51 PM)</font> <b>mdiggory:</b></font> yes, please delete dspace-jspui from the codebase<br/>
+<font color="#A82F2F"><font size="2">(3:50:03 PM)</font> <b>scottatm:</b></font> lol<br/>
+<font color="#A82F2F"><font size="2">(3:50:27 PM)</font> <b>robint:</b></font> The nub of the question is whether to go for the quick fix of moving a few classes out of jspui into dspace-api<br/>
+<font color="#16569E"><font size="2">(3:50:32 PM)</font> <b>tdonohue:</b></font> Specifically, the REST API has a dependency on JSPUI-API (ugly, yea).  We want to move this code out of the JSPUI-API as it doesn't belong there.  The question is whether we move this code to 'dspace-api', or whether we create a &quot;Business Logic Layer API&quot; immediately<br/>
+<font color="#A82F2F"><font size="2">(3:50:52 PM)</font> <b>robint:</b></font> Well put tdonohue<br/>
+<font color="#A82F2F"><font size="2">(3:51:22 PM)</font> <b>mdiggory:</b></font> I think you copy the code for now... seems the same approach that grahamtriggs et al. have taken with webmvc<br/>
+<font color="#A82F2F"><font size="2">(3:51:22 PM)</font> <b>grahamtriggs:</b></font> dspace-api *is* a / the business logic layer<br/>
+<font color="#A82F2F"><font size="2">(3:51:59 PM)</font> <b>richardrodgers:</b></font> I just think, if there is eventually going to be a dependency that *is not* dspace-api, why move twice?<br/>
+<font color="#16569E"><font size="2">(3:53:09 PM)</font> <b>tdonohue:</b></font> grahamtriggs: yes, it is right now. But, recall all those discussions about a &quot;Business Logic Tier&quot;, shared across the various UIs.  The question is do we start to do that right now (i.e. for 1.8).  Or do we just keep dspace-api as that &quot;business logic&quot; until we get around to larger refactoring<br/>
+<font color="#A82F2F"><font size="2">(3:53:11 PM)</font> <b>richardrodgers:</b></font> hold your nose for now, and suffer the jsp-api stupidity, and don&apos;t get trapped....<br/>
+<font color="#A82F2F"><font size="2">(3:53:14 PM)</font> <b>robint:</b></font> I am sympathetic to the idea of splitting up dspace-api, but I have no clear view of what is required at this moment in time<br/>
+<font color="#A82F2F"><font size="2">(3:54:01 PM)</font> <b>mdiggory:</b></font> Why do we have a &quot;reacentSubmissionsmanager&quot;?<br/>
+<font color="#16569E"><font size="2">(3:54:33 PM)</font> <b>tdonohue:</b></font> mdiggory: is that a philosophical question :) <br/>
+<font color="#A82F2F"><font size="2">(3:54:39 PM)</font> <b>grahamtriggs:</b></font> keep dspace-api until we have a clearer idea of what we are refactoring, and to where. More importantly, we need to actually refactor the *code* to do any artifact splitting properly - so it might as well all be in dspace-api, for now<br/>
+<font color="#A82F2F"><font size="2">(3:54:43 PM)</font> <b>mdiggory:</b></font> or an exception?<br/>
+<font color="#A82F2F"><font size="2">(3:55:11 PM)</font> <b>robint:</b></font> grahamtriggs:+1, although I am willing to be convinced otherwise<br/>
+<font color="#A82F2F"><font size="2">(3:55:16 PM)</font> <b>mdiggory:</b></font> XMLUI doesn&apos;t need this code for sure...<br/>
+<font size="2">(3:55:59 PM)</font><b> bradmc left the room (quit: Ping timeout: 240 seconds).</b><br/>
+<font color="#A82F2F"><font size="2">(3:56:04 PM)</font> <b>robint:</b></font> mdiggory: I had a bried look at the xmlui and I think it duplicates some of the code in RecentSubmissionsManager<br/>
+<font color="#A82F2F"><font size="2">(3:56:16 PM)</font> <b>robint:</b></font> bried/brief<br/>
+<font color="#A82F2F"><font size="2">(3:56:18 PM)</font> <b>mdiggory:</b></font> Discovery is a search query<br/>
+<font size="2">(3:56:56 PM)</font><b> robertqin [<em>~robertqin@bb116-14-148-121.singnet.com.sg</em>] entered the room.</b><br/>
+<font color="#16569E"><font size="2">(3:57:06 PM)</font> <b>tdonohue:</b></font> mdiggory, but what if you aren't using Discovery with XMLUI.  I thought there still is an equivalent to the &quot;Recent Submissions&quot;<br/>
+<font color="#A82F2F"><font size="2">(3:57:10 PM)</font> <b>mdiggory:</b></font> recent submissions is Application logic.... a search sorted by date<br/>
+<font color="#A82F2F"><font size="2">(3:57:41 PM)</font> <b>mdiggory:</b></font> in xmlui its a browse by date<br/>
+<font color="#A82F2F"><font size="2">(3:57:54 PM)</font> <b>mdiggory:</b></font> in jspui is a browse sorted by date<br/>
+<font color="#A82F2F"><font size="2">(3:58:02 PM)</font> <b>grahamtriggs:</b></font> RecentSubmissions has nothing (or very little) to do with HttpServlets - they don&apos;t import any of the servlet classes / interfaces. So they should also be moved to a different package, not &apos;org.dspace.app.webui.components&apos;<br/>
+<font color="#A82F2F"><font size="2">(3:58:08 PM)</font> <b>mdiggory:</b></font> its presentational<br/>
+<font color="#16569E"><font size="2">(3:58:55 PM)</font> <b>tdonohue:</b></font> so, mdiggory, what are you arguing for?  You want this RecentSubmissionsManager logic copied into the REST API itself, rather than moved to dspace-api?<br/>
+<font color="#A82F2F"><font size="2">(3:58:58 PM)</font> <b>mdiggory:</b></font> I&apos;m not feeling it... My vote is to copy it, the code is minimal and focused on presentation<br/>
+<font color="#A82F2F"><font size="2">(3:59:11 PM)</font> <b>mdiggory:</b></font> its application code, not buisness logic<br/>
+<font color="#A82F2F"><font size="2">(3:59:12 PM)</font> <b>robint:</b></font> mdiggory: there are 3 classes that retrieve the data and 2 that present it (in the jspui)<br/>
+<font color="#A82F2F"><font size="2">(3:59:28 PM)</font> <b>robint:</b></font> I want to move the 3 that retrivev the data<br/>
+<font color="#A82F2F"><font size="2">(3:59:49 PM)</font> <b>robint:</b></font> so that the REST api can use them without being dependent on the jspui<br/>
+<font color="#A82F2F"><font size="2">(4:00:04 PM)</font> <b>robint:</b></font> the 2 classes that are presentational will stay in the jspui<br/>
+<font size="2">(4:00:07 PM)</font><b> gaurav_kl [<em>75c62166@gateway/web/freenode/ip.117.198.33.102</em>] entered the room.</b><br/>
+<font color="#A82F2F"><font size="2">(4:00:15 PM)</font> <b>mdiggory:</b></font> thats what I&apos;m saying, copy them to the REST library if thats were your using them.<br/>
+<font color="#16569E"><font size="2">(4:00:27 PM)</font> <b>tdonohue:</b></font> robint: so, it sounds like mdiggory is just recommending rather than *move* those 3, you just copy them to the REST API (thus, you can still remove that dependency, as the REST API will no longer need to reference the JSPUI version)<br/>
+<font color="#A82F2F"><font size="2">(4:00:56 PM)</font> <b>grahamtriggs:</b></font> You can&apos;t just classify it as application code when you have to deal with a large dataset - this cuts back into asking the underlying storage to return data in the correct order to be efficient.<br/>
+<font color="#A82F2F"><font size="2">(4:01:01 PM)</font> <b>robint:</b></font> Ok. But that seems odd to have identical classes in 2 places<br/>
+<font color="#A82F2F"><font size="2">(4:01:04 PM)</font> <b>mdiggory:</b></font> right, we are talking about &lt; 200 lines of code<br/>
+<font color="#16569E"><font size="2">(4:01:10 PM)</font> <b>tdonohue:</b></font> is that another plausible solution, robint?  Or is there an issue here we aren't seeing?<br/>
+<font color="#16569E"><font size="2">(4:01:46 PM)</font> <b>tdonohue:</b></font> robint : yea, I can understand that concern. It's not DRY (don't repeat yourself)<br/>
+<font color="#A82F2F"><font size="2">(4:02:14 PM)</font> <b>mdiggory:</b></font> DRY is overrated<br/>
+<font color="#A82F2F"><font size="2">(4:02:26 PM)</font> <b>robint:</b></font> tdonohue: its fine for me<br/>
+<font color="#A82F2F"><font size="2">(4:03:22 PM)</font> <b>mdiggory:</b></font> the problem with acronyms arises when people use them<br/>
+<font color="#A82F2F"><font size="2">(4:03:26 PM)</font> <b>robint:</b></font> Although I confess I don&apos;t understand the logic<br/>
+<font color="#A82F2F"><font size="2">(4:03:49 PM)</font> <b>scottatm:</b></font> The logic is if you find a bug in that code, then you&apos;ll have to fix it twice.<br/>
+<font color="#A82F2F"><font size="2">(4:03:50 PM)</font> <b>mdiggory:</b></font> my logic?<br/>
+<font color="#A82F2F"><font size="2">(4:04:14 PM)</font> <b>robint:</b></font> mdiggory: yes<br/>
+<font color="#A82F2F"><font size="2">(4:06:09 PM)</font> <b>mdiggory:</b></font> The logic is that abuse of DRY in multi-tier applications results in creating &quot;super node&quot; centralized dependencies on the similar code that make modularization difficult<br/>
+<font color="#A82F2F"><font size="2">(4:06:44 PM)</font> <b>mhwood:</b></font> How does using libraries make modularization difficult?<br/>
+<font color="#A82F2F"><font size="2">(4:06:47 PM)</font> <b>mdiggory:</b></font> everything has to dependend on dspace-api because we keep cramming code in there when we think its needing to be &quot;shared&quot;<br/>
+<font color="#A82F2F"><font size="2">(4:07:23 PM)</font> <b>mdiggory:</b></font> mhwood: not just any libraries...<br/>
+<font color="#A82F2F"><font size="2">(4:08:10 PM)</font> <b>mhwood:</b></font> Why is it so wrong to depend on dspace-api?<br/>
+<font color="#A82F2F"><font size="2">(4:09:12 PM)</font> <b>mdiggory:</b></font> its not wrong to depend on dspace-api... but be aware it is...<br/>
+<font color="#A82F2F"><font size="2">(4:09:15 PM)</font> <b>mdiggory:</b></font> 1.) misnamed<br/>
+<font color="#A82F2F"><font size="2">(4:09:26 PM)</font> <b>mdiggory:</b></font> 2.) is not properly modularized yet itself<br/>
+<font color="#16569E"><font size="2">(4:09:46 PM)</font> <b>tdonohue:</b></font> I think mdiggory's bigger point here is that we are cramming a lot into dspace-api -- which I can agree with. Hence, the desire to refactor.  But, since we don't want to hold this up to wait for larger refactoring, we need to do something.<br/>
+<font color="#A82F2F"><font size="2">(4:09:46 PM)</font> <b>mdiggory:</b></font> 3.) spans both the business and persistence tiers<br/>
+<font size="2">(4:10:07 PM)</font><b> stuartlewis [<em>~stuartlew@s-lewis.itss.auckland.ac.nz</em>] entered the room.</b><br/>
+<font color="#A82F2F"><font size="2">(4:10:21 PM)</font> <b>mhwood:</b></font> So there are things we should  move into dspace-api and things we should move out of it.<br/>
+<font color="#A82F2F"><font size="2">(4:10:32 PM)</font> <b>mdiggory:</b></font> The big question is:  Is there really anything of benefit int he RescentSubmissions code that warrants centralizing it other than DRY<br/>
+<font color="#A82F2F"><font size="2">(4:10:39 PM)</font> <b>robint:</b></font> tdonohue: So the answer is to cram it into the REST api instead ? :)<br/>
+<font color="#A82F2F"><font size="2">(4:11:11 PM)</font> <b>mdiggory:</b></font> and IMO, &lt; 200 lines of code that organize a Browse Query for presentation in the JSPUI do not warrant being called Buisness Logic<br/>
+<font color="#A82F2F"><font size="2">(4:11:40 PM)</font> <b>mdiggory:</b></font> robint: yes, because then the code is where its used<br/>
+<font color="#A82F2F"><font size="2">(4:11:42 PM)</font> <b>grahamtriggs:</b></font> tdonohue: I honestly think it&apos;s the other way round - if we go out of our way to not put things [that need re-organizing in themselves] into dspace-api, then we are holding up the larger refactoring even more<br/>
+<font color="#A82F2F"><font size="2">(4:12:54 PM)</font> <b>mdiggory:</b></font> robint: In the REST case, the output is &quot;presentation&quot; if you were writing this using Spring REST, this logic would be a Controller<br/>
+<font color="#16569E"><font size="2">(4:13:20 PM)</font> <b>tdonohue:</b></font> ok. we're going quite over time here.  Should we just vote on this?<br/>
+<font size="2">(4:13:49 PM)</font><b> bojans [<em>~Bojmen@62.68.118.148</em>] entered the room.</b><br/>
+<font color="#A82F2F"><font size="2">(4:13:58 PM)</font> <b>mdiggory:</b></font> the Controller would organize the model for Presentation and pass it to the View for rendering... the recentSubmissions code is not business logic, the Browse system its calling is<br/>
+<font color="#A82F2F"><font size="2">(4:13:58 PM)</font> <b>richardrodgers:</b></font> I don&apos;t think it is a big deal either way in the near term, but it strikes me as ironic that we all appear to want a rational refactor of dspace-api, and we start out by throwing more stuff in it..<br/>
+<font color="#A82F2F"><font size="2">(4:14:17 PM)</font> <b>mhwood:</b></font> lacking somewhere else to throw it....<br/>
+<font color="#A82F2F"><font size="2">(4:15:00 PM)</font> <b>mhwood:</b></font> ...and a model to guide us as to what gets thrown where....<br/>
+<font color="#A82F2F"><font size="2">(4:16:26 PM)</font> <b>robint:</b></font> I&apos;m more confused than when I started, happy to go with the majority<br/>
+<font color="#16569E"><font size="2">(4:16:47 PM)</font> <b>tdonohue:</b></font> I've heard three options:  Option #1 - Move the offending code to dspace-api ,  Option #2 -- Duplicate the code entirely in REST API,  Option #3 - Create a new Business layer api immediately (dspace-ui-api or dspace-logic-api or similar) and move the code there. Consider this the first code to get &quot;refactored&quot; to that area.<br/>
+<font color="#16569E"><font size="2">(4:17:14 PM)</font> <b>tdonohue:</b></font> shall we vote?<br/>
+<font color="#A82F2F"><font size="2">(4:17:18 PM)</font> <b>mdiggory:</b></font> we just got done ridding ourselves of dspace-ui-shared.<br/>
+<font color="#A82F2F"><font size="2">(4:17:38 PM)</font> <b>scottatm:</b></font> I vote #2, untill someone has a solid plan for #3<br/>
+<font color="#A82F2F"><font size="2">(4:17:41 PM)</font> <b>mdiggory:</b></font> because of one very important reason... the work going on in xmlui was divergent from jspui<br/>
+<font color="#A82F2F"><font size="2">(4:18:18 PM)</font> <b>KevinVdV:</b></font> Take into account please that discovery has its own way of dealing with determining which items where submitted last<br/>
+<font color="#A82F2F"><font size="2">(4:18:20 PM)</font> <b>mdiggory:</b></font> and we don&apos;t want the shared dependency to pigeon hole xmlui development<br/>
+<font color="#16569E"><font size="2">(4:18:28 PM)</font> <b>tdonohue:</b></font> ok, Option#2 has +1  <br/>
+<font color="#A82F2F"><font size="2">(4:18:55 PM)</font> <b>mdiggory:</b></font> Option 2 +1<br/>
+<font color="#A82F2F"><font size="2">(4:19:03 PM)</font> <b>mhwood:</b></font> Bingo, we have two different ways of determining recently-submitted and we&apos;re talking about creating a third.<br/>
+<font color="#A82F2F"><font size="2">(4:19:12 PM)</font> <b>mhwood:</b></font> So what does &quot;recently-submitted&quot; mean?<br/>
+<font color="#A82F2F"><font size="2">(4:19:21 PM)</font> <b>richardrodgers:</b></font> +1 Option #2, but don&apos;t give up on shared logic jars...<br/>
+<font color="#16569E"><font size="2">(4:19:41 PM)</font> <b>tdonohue:</b></font> Option #2 has +3 votes...anyone else voting?<br/>
+<font color="#A82F2F"><font size="2">(4:19:43 PM)</font> <b>mdiggory:</b></font> They are on two completely different implementations, of course they are different<br/>
+<font color="#A82F2F"><font size="2">(4:19:53 PM)</font> <b>mhwood:</b></font> Option 1 +1<br/>
+<font color="#A82F2F"><font size="2">(4:20:04 PM)</font> <b>grahamtriggs:</b></font> opt 1 + 1<br/>
+<font color="#A82F2F"><font size="2">(4:20:30 PM)</font> <b>bojans:</b></font> #2 +1<br/>
+<font color="#A82F2F"><font size="2">(4:20:45 PM)</font> <b>mhwood:</b></font> So does &quot;recently-submitted&quot; mean what Discovery thinks it means, what JSPUI thinks it means, or what XMLUI thinks it means?<br/>
+<font color="#A82F2F"><font size="2">(4:21:01 PM)</font> <b>KevinVdV:</b></font> Well for discovery it is configurable<br/>
+<font color="#A82F2F"><font size="2">(4:21:16 PM)</font> <b>mdiggory:</b></font> mhwood: Recent Submissions is a presentation concept, its upto the application to define it.<br/>
+<font color="#16569E"><font size="2">(4:21:28 PM)</font> <b>tdonohue:</b></font> Ok.  Looks like we still have some minor disagreements here, but Option #2 looks to be the winner.  (I'll admit I'm torn between #1 and #2, so I'm abstaining)<br/>
+<font color="#A82F2F"><font size="2">(4:21:51 PM)</font> <b>robint:</b></font> Democracy in action :)<br/>
+<font color="#A82F2F"><font size="2">(4:22:00 PM)</font> <b>mhwood:</b></font> I would have voted for #3 if it was well-defined and the remains of dspace-api were well-defined.<br/>
+<font color="#A82F2F"><font size="2">(4:22:14 PM)</font> <b>scottatm:</b></font> mhwood, I agree.<br/>
+<font color="#16569E"><font size="2">(4:22:53 PM)</font> <b>tdonohue:</b></font> mhwood, I'd agree with you too. That's a discussion that will have to wait for another time (but, we should schedule a Special Topics Meeting on that one)<br/>
+<font color="#A82F2F"><font size="2">(4:22:57 PM)</font> <b>mdiggory:</b></font> TBH, if you&apos;ve looked at the code, you will understand we are arguing over about 40 lines of &quot;making a Browse query&quot;<br/>
+<font color="#A82F2F"><font size="2">(4:23:28 PM)</font> <b>mdiggory:</b></font> other parts of the UI&apos;s make this call themselves<br/>
+<font color="#A82F2F"><font size="2">(4:24:05 PM)</font> <b>richardrodgers:</b></font> gotta run, thanks all<br/>
+<font color="#16569E"><font size="2">(4:24:12 PM)</font> <b>tdonohue:</b></font> Ok. That's it for today's Devel meeting.  We've already &quot;eaten&quot; into nearly 25 minutes of the GSoC Update Meeting time.<br/>
+<font size="2">(4:24:12 PM)</font><b> richardrodgers left the room (quit: Quit: richardrodgers).</b><br/>
+<font color="#A82F2F"><font size="2">(4:24:29 PM)</font> <b>robint:</b></font> Ok, got to go. Thanks for making time for that discussion. Cheers.<br/>
+<font color="#A82F2F"><font size="2">(4:24:34 PM)</font> <b>mhwood:</b></font> Yes, I must go too.  Thanks!<br/>
+<font color="#16569E"><font size="2">(4:24:39 PM)</font> <b>tdonohue:</b></font> So, everyone is welcome to stick around. I'd suggest we switch over to GSoC topics<br/>
+<font size="2">(4:24:43 PM)</font><b> robint left the room.</b><br/>
+<font size="2">(4:24:44 PM)</font><b> mhwood left the room.</b><br/>
+<font color="#16569E"><font size="2">(4:25:46 PM)</font> <b>tdonohue:</b></font> bojans requested that as part of the GSoC meeting we talk about &quot;infrastructure&quot;.  I know that at least one project would like a &quot;virtual server&quot; for demos, etc<br/>
+<font color="#A82F2F"><font size="2">(4:26:03 PM)</font> <b>mdiggory:</b></font> yes, that is truew<br/>
+<font color="#A82F2F"><font size="2">(4:26:24 PM)</font> <b>mdiggory:</b></font> liked the free AWS tier idea<br/>
+<font color="#A82F2F"><font size="2">(4:26:27 PM)</font> <b>bojans:</b></font> yes, i supposed it would probably better to discuss that in this live session<br/>
+<font color="#A82F2F"><font size="2">(4:26:47 PM)</font> <b>bojans:</b></font> in order to try not to lose time for GSoC<br/>
+<font size="2">(4:26:52 PM)</font><b> KevinVdV left the room (quit: Quit: KevinVdV).</b><br/>
+<font color="#16569E"><font size="2">(4:27:34 PM)</font> <b>tdonohue:</b></font> So, I talked to others at DuraSpace about this idea.  As mdiggory mentioned, we were wondering if the Free AWS Tier would work for this: http://aws.amazon.com/free/<br/>
+<font color="#A82F2F"><font size="2">(4:27:35 PM)</font> <b>kompewter:</b></font> [ AWS Free Usage Tier ] - http://aws.amazon.com/free/<br/>
+<font color="#A82F2F"><font size="2">(4:27:57 PM)</font> <b>bojans:</b></font> ok seems that aws could offer enough resources for that purpose<br/>
+<font color="#A82F2F"><font size="2">(4:28:14 PM)</font> <b>bojans:</b></font> 613mb of memory<br/>
+<font color="#A82F2F"><font size="2">(4:28:28 PM)</font> <b>bojans:</b></font> and storage offered is pretty enough<br/>
+<font color="#16569E"><font size="2">(4:28:52 PM)</font> <b>tdonohue:</b></font> Essentially, anyone can get a Free AWS server set up. However, you do need to enter in a credit card.  But, as I mentioned, if somehow Amazon started charging you (e.g. you used more than the Free Tier allows) then DuraSpace could reimburse your costs (up to a limit)<br/>
+<font color="#A82F2F"><font size="2">(4:29:39 PM)</font> <b>bojans:</b></font> also I think all GSoC students already have credit card available for setup, those from Google at least<br/>
+<font color="#A82F2F"><font size="2">(4:29:45 PM)</font> <b>scottatm:</b></font> wow, I didn&apos;t know they had a free teir!<br/>
+<font color="#A82F2F"><font size="2">(4:29:50 PM)</font> <b>bojans:</b></font> me too :)<br/>
+<font color="#A82F2F"><font size="2">(4:29:53 PM)</font> <b>scottatm:</b></font> (even if it is for a year)<br/>
+<font color="#16569E"><font size="2">(4:30:23 PM)</font> <b>tdonohue:</b></font> So, also the &quot;Free Tier&quot; only lasts 12 months.  So, you would need to make sure to shutdown your AWS server before one year is up (otherwise you would get charges).  Also, DuraSpace could *ONLY* reimburse you during GSoC (and not afterwards)<br/>
+<font color="#A82F2F"><font size="2">(4:30:33 PM)</font> <b>mdiggory:</b></font> makes sense... better make sure students don&apos;t get into a bad spot with AWS if the instance costs suddenly change...<br/>
+<font color="#A82F2F"><font size="2">(4:30:59 PM)</font> <b>mdiggory:</b></font> anything we can do to buffer/protect them and us?<br/>
+<font color="#16569E"><font size="2">(4:31:44 PM)</font> <b>tdonohue:</b></font> we're open to ideas, to be honest.  Again, this is just the first ideas from DuraSpace.  So, if anyone else has ideas, we'd love to hear them.<br/>
+<font color="#A82F2F"><font size="2">(4:32:55 PM)</font> <b>bojans:</b></font> for AWS, for me looking at the documentation, it seems we should digg more to get info about overusage of resources<br/>
+<font color="#A82F2F"><font size="2">(4:33:06 PM)</font> <b>mdiggory:</b></font> tdonohue:  any way with the free tier to stop the instance if it starts &quot;charging&quot; for use<br/>
+<font color="#A82F2F"><font size="2">(4:33:10 PM)</font> <b>bojans:</b></font> standard info page says it will automaticaly bill overusage<br/>
+<font color="#16569E"><font size="2">(4:34:05 PM)</font> <b>tdonohue:</b></font> mdiggory: DuraSpace would not have a way to stop the instance, as it would not be tied to our AWS account.  However, the student or mentor (or whoever created the AWS account) would be able to start/stop instances as much as they wanted to<br/>
+<font color="#A82F2F"><font size="2">(4:34:08 PM)</font> <b>mdiggory:</b></font> how good for them<br/>
+<font color="#A82F2F"><font size="2">(4:34:16 PM)</font> <b>bojans:</b></font> http://aws.amazon.com/cloudwatch/<br/>
+<font color="#A82F2F"><font size="2">(4:34:17 PM)</font> <b>kompewter:</b></font> [ Amazon CloudWatch ] - http://aws.amazon.com/cloudwatch/<br/>
+<font color="#A82F2F"><font size="2">(4:34:19 PM)</font> <b>mdiggory:</b></font> AWS, not Duraspace<br/>
+<font color="#A82F2F"><font size="2">(4:34:28 PM)</font> <b>bojans:</b></font> it is possible to setup alarms to get notifications<br/>
+<font color="#A82F2F"><font size="2">(4:34:44 PM)</font> <b>bojans:</b></font> also it seems there is API available<br/>
+<font color="#A82F2F"><font size="2">(4:35:10 PM)</font> <b>mdiggory:</b></font> cloudwatch sounds acceptable<br/>
+<font color="#16569E"><font size="2">(4:35:44 PM)</font> <b>tdonohue:</b></font> So, yes, I'll admit there are some risks to using the AWS Free Tier.  Namely, the students/mentors would need to be responsible for ensuring they do not get charged by Amazon.  DuraSpace wouldn't have any control over that, but again, we could reimburse you if you end up with charges during GSoC<br/>
+<font color="#A82F2F"><font size="2">(4:36:26 PM)</font> <b>bojans:</b></font> we just need to make sure all alarms and related actions (shut down) are properly setup<br/>
+<font color="#A82F2F"><font size="2">(4:36:39 PM)</font> <b>bojans:</b></font> I would suggest that menthors and students do it together<br/>
+<font color="#A82F2F"><font size="2">(4:36:57 PM)</font> <b>mdiggory:</b></font> sounds like a good idea<br/>
+<font color="#A82F2F"><font size="2">(4:37:25 PM)</font> <b>bojans:</b></font> I do not know now<br/>
+<font color="#A82F2F"><font size="2">(4:37:30 PM)</font> <b>bojans:</b></font> what are requirements of other projects<br/>
+<font color="#A82F2F"><font size="2">(4:37:50 PM)</font> <b>bojans:</b></font> but for our case I would make necessary with Vibhaj<br/>
+<font color="#A82F2F"><font size="2">(4:38:00 PM)</font> <b>bojans:</b></font> to make sure it is working and usable for our purpose<br/>
+<font color="#A82F2F"><font size="2">(4:38:19 PM)</font> <b>bojans:</b></font> for the case it is not possible to setup such instance, or use it<br/>
+<font color="#16569E"><font size="2">(4:38:44 PM)</font> <b>tdonohue:</b></font> It would be a good learning experience in itself to have the mentors &amp; students work together on this :)  I'd recommend that we try to document the process on the Wiki somewhere (so that we can refer to it for other GSoCs, possibly)<br/>
+<font color="#A82F2F"><font size="2">(4:39:00 PM)</font> <b>bojans:</b></font> i could provide one simple vs instance on some of openvz servers i am workign with.. in the case community approves of course (without any obligations etc)<br/>
+<font color="#A82F2F"><font size="2">(4:39:10 PM)</font> <b>bojans:</b></font> yes good idea too<br/>
+<font color="#A82F2F"><font size="2">(4:39:38 PM)</font> <b>bojans:</b></font> so<br/>
+<font color="#A82F2F"><font size="2">(4:39:46 PM)</font> <b>bojans:</b></font> if everyone agrees<br/>
+<font color="#A82F2F"><font size="2">(4:39:51 PM)</font> <b>bojans:</b></font> or do not have other ideas :)<br/>
+<font color="#A82F2F"><font size="2">(4:40:05 PM)</font> <b>bojans:</b></font> I would contact Vibhaj further for this work<br/>
+<font color="#A82F2F"><font size="2">(4:40:21 PM)</font> <b>bojans:</b></font> and we would setup this aws instance and prepare basic documentation for other projects interested<br/>
+<font color="#16569E"><font size="2">(4:40:38 PM)</font> <b>tdonohue:</b></font> I will also mention, the only other option here is that DuraSpace could create a GSoC Server in the *DuraSpace AWS account*.  However, we would have to pay for that (will not be free), so there would be limitations on that server<br/>
+<font color="#A82F2F"><font size="2">(4:41:31 PM)</font> <b>mdiggory:</b></font> what we really need is the image in the list of aws images that can be shared for spawning the instances<br/>
+<font color="#A82F2F"><font size="2">(4:41:52 PM)</font> <b>robertqin:</b></font> hi sorry to interrupt<br/>
+<font color="#A82F2F"><font size="2">(4:42:05 PM)</font> <b>robertqin:</b></font> but could i clarify more on this AWS Free account ?<br/>
+<font color="#16569E"><font size="2">(4:42:12 PM)</font> <b>tdonohue:</b></font> mdiggory : currently we don't have an AWS image with DSpace on it.  But, we should create one (for ease of spawning instances, etc)<br/>
+<font color="#16569E"><font size="2">(4:42:24 PM)</font> <b>tdonohue:</b></font> sure, go ahead robertqin<br/>
+<font color="#A82F2F"><font size="2">(4:43:07 PM)</font> <b>robertqin:</b></font> the purpose is demo-ing our projects?<br/>
+<font color="#A82F2F"><font size="2">(4:43:29 PM)</font> <b>robertqin:</b></font> by using some amazon EC2 Micro Instance?<br/>
+<font color="#A82F2F"><font size="2">(4:44:04 PM)</font> <b>robertqin:</b></font> i just like to know how it ties in to my current project<br/>
+<font color="#16569E"><font size="2">(4:44:26 PM)</font> <b>tdonohue:</b></font> robertqin : Yea, actually the reason for this idea is that Vibhaj's project (New UI on RESTFul services) wanted a way to make a public demo available<br/>
+<font color="#16569E"><font size="2">(4:45:02 PM)</font> <b>tdonohue:</b></font> robertqin: So, it'd be an *option* for other projects.  But, it would not be required.  So, each project could decide whether they want to have a public demo on an EC2 instance, or not.<br/>
+<font color="#A82F2F"><font size="2">(4:45:15 PM)</font> <b>robertqin:</b></font> ah i understand<br/>
+<font color="#A82F2F"><font size="2">(4:45:21 PM)</font> <b>robertqin:</b></font> okay thanks tim!<br/>
+<font color="#16569E"><font size="2">(4:45:28 PM)</font> <b>tdonohue:</b></font> you are welcome <br/>
+<font color="#A82F2F"><font size="2">(4:45:40 PM)</font> <b>robertqin:</b></font> because it seems my current tasks on my webmvc seems to tuned towards jspui rewrite<br/>
+<font size="2">(4:45:59 PM)</font><b> bojans left the room (quit: Ping timeout: 244 seconds).</b><br/>
+<font color="#A82F2F"><font size="2">(4:45:59 PM)</font> <b>robertqin:</b></font> so i&apos;m not too sure if that additional resources is needed for a public demo<br/>
+<font color="#16569E"><font size="2">(4:46:17 PM)</font> <b>tdonohue:</b></font> robertqin -- yea, it may not be as necessary for all projects. <br/>
+<font color="#A82F2F"><font size="2">(4:46:20 PM)</font> <b>robertqin:</b></font> might be something i have to clarify with graham and peter<br/>
+<font color="#A82F2F"><font size="2">(4:46:24 PM)</font> <b>robertqin:</b></font> okay noted<br/>
+<font color="#A82F2F"><font size="2">(4:46:26 PM)</font> <b>robertqin:</b></font> thanks !<br/>
+<font color="#A82F2F"><font size="2">(4:47:05 PM)</font> <b>mdiggory:</b></font> the basic demo server would have tomcat / postgres / a basic install of trunk and a few dozen items already in it<br/>
+<font color="#A82F2F"><font size="2">(4:47:23 PM)</font> <b>mdiggory:</b></font> that would also mean needing java, maven and ant<br/>
+<font size="2">(4:47:24 PM)</font><b> bojans [<em>~Bojmen@62.68.103.161</em>] entered the room.</b><br/>
+<font color="#16569E"><font size="2">(4:47:40 PM)</font> <b>tdonohue:</b></font> right, mdiggory.  Unfortunately, we don't have an image with all of that on it<br/>
+<font color="#A82F2F"><font size="2">(4:47:41 PM)</font> <b>mdiggory:</b></font> for bojans sake<br/>
+<font color="#A82F2F"><font size="2">(4:47:42 PM)</font> <b>mdiggory:</b></font> mdiggory: the basic demo server would have tomcat / postgres / a basic install of trunk and a few dozen items already in it<br/>
+<font color="#A82F2F"><font size="2">(4:47:42 PM)</font> <b>mdiggory:</b></font> [2:47pm] mdiggory: that would also mean needing java, maven and ant<br/>
+<font color="#A82F2F"><font size="2">(4:47:51 PM)</font> <b>bojans:</b></font> lost connectivity<br/>
+<font color="#A82F2F"><font size="2">(4:48:13 PM)</font> <b>bojans:</b></font> ok<br/>
+<font color="#16569E"><font size="2">(4:49:16 PM)</font> <b>tdonohue:</b></font> so, if we wanted a reusable &quot;image&quot; with DSpace pre-installed, we would need someone to create that.  We could always export some test items from the demo.dspace.org server for that image<br/>
+<font color="#A82F2F"><font size="2">(4:49:53 PM)</font> <b>bojans:</b></font> ok we could take a look at this<br/>
+<font color="#A82F2F"><font size="2">(4:49:59 PM)</font> <b>bojans:</b></font> if i understood you correctly<br/>
+<font color="#A82F2F"><font size="2">(4:50:14 PM)</font> <b>bojans:</b></font> it is necessary for someone to prepare a basic dspace install incl maven ant etc<br/>
+<font color="#A82F2F"><font size="2">(4:50:22 PM)</font> <b>bojans:</b></font> import items from other instance<br/>
+<font color="#A82F2F"><font size="2">(4:50:33 PM)</font> <b>bojans:</b></font> and save it as an aws importable vs instance?<br/>
+<font color="#16569E"><font size="2">(4:50:48 PM)</font> <b>tdonohue:</b></font> exactly.  <br/>
+<font color="#A82F2F"><font size="2">(4:51:00 PM)</font> <b>bojans:</b></font> ok i could handle taht<br/>
+<font color="#A82F2F"><font size="2">(4:51:01 PM)</font> <b>bojans:</b></font> that<br/>
+<font color="#16569E"><font size="2">(4:51:46 PM)</font> <b>tdonohue:</b></font> sounds good to me then.  If there's anything else that come up, email the list obviously and we can try to help out<br/>
+<font color="#A82F2F"><font size="2">(4:52:18 PM)</font> <b>bojans:</b></font> ok<br/>
+<font color="#16569E"><font size="2">(4:52:49 PM)</font> <b>tdonohue:</b></font> Anything else we want to discuss around GSoC today? Or any other important updates? (I'll note, I unfortunately have to leave in about 10 mins, but obviously the discussion can continue after that as needed)<br/>
+<font color="#A82F2F"><font size="2">(4:54:20 PM)</font> <b>bojans:</b></font> seems there is nothing else to discuss<br/>
+<font color="#16569E"><font size="2">(4:54:48 PM)</font> <b>tdonohue:</b></font> I guess not!  Well, if anything else comes up, everyone should obviously feel free to bring it to the mailing list!<br/>
+<font color="#16569E"><font size="2">(4:54:57 PM)</font> <b>tdonohue:</b></font> Have a good week everyone!<br/>
+<font color="#A82F2F"><font size="2">(4:55:16 PM)</font> <b>gaurav_kl:</b></font> yeah.I have a few updates/issues  regarding my project.<br/>
+<font color="#A82F2F"><font size="2">(4:55:36 PM)</font> <b>gaurav_kl:</b></font> so I I am currnely in the process of making admin UI<br/>
+<font color="#A82F2F"><font size="2">(4:56:36 PM)</font> <b>gaurav_kl:</b></font> I wanted to ask if there is a way of debugging in the process.<br/>
+<font color="#A82F2F"><font size="2">(4:57:28 PM)</font> <b>gaurav_kl:</b></font> i mean with the tomcat running<br/>
+<font color="#16569E"><font size="2">(4:58:30 PM)</font> <b>tdonohue:</b></font> what sort of debugging are you talking about, gaurav_kl?<br/>
+<font color="#A82F2F"><font size="2">(4:59:27 PM)</font> <b>gaurav_kl:</b></font> i meant like putting break-point in the JS code of XMLUI<br/>
+<font color="#A82F2F"><font size="2">(5:00:02 PM)</font> <b>gaurav_kl:</b></font> I tried using firebug<br/>
+<font color="#A82F2F"><font size="2">(5:00:43 PM)</font> <b>gaurav_kl:</b></font> but could not succedd..so like I want to test if my code is reaching a particular fundtion in admininstrtive.js<br/>
+<font color="#A82F2F"><font size="2">(5:01:13 PM)</font> <b>gaurav_kl:</b></font> on clicking a link.<br/>
+<font color="#16569E"><font size="2">(5:01:16 PM)</font> <b>tdonohue:</b></font> so, you mean the actual Javascript processing code that's in the XMLUI?  I think that part is actually a bit hard to debug (though I think you can add in logging there as basic debugging).  But, maybe scottatm has some hints/tips?<br/>
+<font color="#A82F2F"><font size="2">(5:01:58 PM)</font> <b>gaurav_kl:</b></font> yeah.I meant that.<br/>
+<font size="2">(5:02:00 PM)</font><b> robertqin left the room.</b><br/>
+<font color="#A82F2F"><font size="2">(5:02:06 PM)</font> <b>scottatm:</b></font> Yeah, the javascript in the XMLUI flow scripts is a pain to write.... it&apos;s best to keep it just as simple as possible.<br/>
+<font color="#A82F2F"><font size="2">(5:02:26 PM)</font> <b>scottatm:</b></font> You can using logging, but I don&apos;t believe you can step through it in a debugger.<br/>
+<font color="#A82F2F"><font size="2">(5:02:40 PM)</font> <b>gaurav_kl:</b></font> ok.<br/>
+<font color="#A82F2F"><font size="2">(5:02:55 PM)</font> <b>scottatm:</b></font> Push out almost all logic to java land, just have the flow of the next page be done in the flowscripts.<br/>
+<font color="#A82F2F"><font size="2">(5:03:18 PM)</font> <b>gaurav_kl:</b></font> ok.<br/>
+<font color="#16569E"><font size="2">(5:04:11 PM)</font> <b>tdonohue:</b></font> yea, I think scottatm is right. The Javascript flow scripts don't like to obey debuggers.  But, I know you can use a debugger in other areas of the code (normal Java code, that is).  There are some hints on enabling debugging in many of the major IDEs on: https://wiki.duraspace.org/display/DSPACE/Developer+Guidelines+and+Tools<br/>
+<font color="#A82F2F"><font size="2">(5:04:12 PM)</font> <b>kompewter:</b></font> [ Developer Guidelines and Tools - DSpace - DuraSpace Wiki ] - https://wiki.duraspace.org/display/DSPACE/Developer+Guidelines+and+Tools<br/>
+<font color="#16569E"><font size="2">(5:05:00 PM)</font> <b>tdonohue:</b></font> (you have to go to the page of the IDE you are using -- most of them talk about how to debug Dspace using that IDE.)<br/>
+<font color="#A82F2F"><font size="2">(5:05:05 PM)</font> <b>gaurav_kl:</b></font> so for IDEA i am having the free version which I dont think has tomcat integration<br/>
+<font color="#A82F2F"><font size="2">(5:05:27 PM)</font> <b>gaurav_kl:</b></font> will I need the advanced verdion to debug my JAVA code.<br/>
+<font color="#16569E"><font size="2">(5:06:06 PM)</font> <b>tdonohue:</b></font> I'm actually not sure, as I don't use IDEA (I use NetBeans).  I think mdiggory uses IDEA though, if I remember correctly<br/>
+<font color="#A82F2F"><font size="2">(5:06:25 PM)</font> <b>bojans:</b></font> is there possibility to get an opensource edition of idea through dspace?<br/>
+<font color="#A82F2F"><font size="2">(5:06:32 PM)</font> <b>bojans:</b></font> they give out free licences to opensource projects<br/>
+<font color="#A82F2F"><font size="2">(5:06:49 PM)</font> <b>bojans:</b></font> ofcourse, if the required option is supported in os edition<br/>
+<font color="#16569E"><font size="2">(5:07:00 PM)</font> <b>tdonohue:</b></font> we do have an open source license for IDEA actually. I forgot about that.<br/>
+<font color="#A82F2F"><font size="2">(5:07:27 PM)</font> <b>mdiggory:</b></font> yes, we debug &quot;around&quot; the flowscripts... its difficult to do so in them<br/>
+<font color="#A82F2F"><font size="2">(5:08:00 PM)</font> <b>mdiggory:</b></font> Ideally keep your business logic out of the flowscript and just use it to pass state and control<br/>
+<font color="#A82F2F"><font size="2">(5:08:24 PM)</font> <b>mdiggory:</b></font> as scottatm says above<br/>
+<font color="#16569E"><font size="2">(5:08:45 PM)</font> <b>tdonohue:</b></font> gaurav_kl: I'll send you the open source license for IDEA that DuraSpace has.  All DSpace Committers have access to that, and you can use it for GSoC.  <br/>
+<font color="#A82F2F"><font size="2">(5:08:58 PM)</font> <b>mdiggory:</b></font> wish we had java flow with continuations instead of javascript<br/>
+<font color="#A82F2F"><font size="2">(5:09:38 PM)</font> <b>gaurav_kl:</b></font> ok.thanks tim. mdiggory:how can i do normal java debugging with idea<br/>
+<font color="#16569E"><font size="2">(5:09:55 PM)</font> <b>tdonohue:</b></font> mdiggory: yea, I'm not a fan of the javascript flow either, to be honest.  I'd love it if someone redid it some day<br/>
+<font color="#A82F2F"><font size="2">(5:09:58 PM)</font> <b>mdiggory:</b></font> a complete tangent.... http://mvnrepository.com/artifact/cocoon/cocoon-javaflow<br/>
+<font color="#A82F2F"><font size="2">(5:09:58 PM)</font> <b>kompewter:</b></font> [ Maven Repository: cocoon » cocoon-javaflow ] - http://mvnrepository.com/artifact/cocoon/cocoon-javaflow<br/>
+<font color="#A82F2F"><font size="2">(5:10:58 PM)</font> <b>mdiggory:</b></font> gaurav_kl: setup your tomcat runner in IDEA to start xmlui and solr,  but instead start with &quot;debug&quot; instead &quot;run&quot;<br/>
+<font color="#A82F2F"><font size="2">(5:11:24 PM)</font> <b>gaurav_kl:</b></font> ok<br/>
+<font color="#A82F2F"><font size="2">(5:11:26 PM)</font> <b>scottatm:</b></font> I very much wanted javaflow when writing the XMLUI.... it just didn&apos;t work back then.<br/>
+<font color="#A82F2F"><font size="2">(5:11:58 PM)</font> <b>mdiggory:</b></font> http://www.jetbrains.com/idea/webhelp/run-debug-configuration-tomcat.html<br/>
+<font color="#A82F2F"><font size="2">(5:11:58 PM)</font> <b>kompewter:</b></font> [ Run/Debug Configuration: Tomcat ] - http://www.jetbrains.com/idea/webhelp/run-debug-configuration-tomcat.html<br/>
+<font color="#A82F2F"><font size="2">(5:12:50 PM)</font> <b>gaurav_kl:</b></font> ok.thanks<br/>
+<font color="#16569E"><font size="2">(5:13:40 PM)</font> <b>tdonohue:</b></font> I unfortunately have to head out now.  But, feel free to continue GSoC discussion, if there's any other updates or questions...<br/>
+<font size="2">(5:13:46 PM)</font><b> hpottinger [<em>d86a33b5@gateway/web/freenode/ip.216.106.51.181</em>] entered the room.</b><br/>

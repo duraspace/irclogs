@@ -1,0 +1,66 @@
+<span class="irc-date">[0:29]</span> <span class="irc-navy">* ablemann (~alexleman@lemanal.xen.prgmr.com) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[0:44]</span> <span class="irc-green">* ablemann (~alexleman@lemanal.new.xen.prgmr.com) has joined #duraspace</span><br />
+<span class="irc-date">[0:58]</span> <span class="irc-navy">* ablemann (~alexleman@lemanal.new.xen.prgmr.com) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[0:59]</span> <span class="irc-green">* ablemann (~alexleman@lemanal.new.xen.prgmr.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-sendak.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-sendak.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-sendak.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-sendak.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:17]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:00]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:7a2b:cbff:feb4:89a9) has joined #duraspace</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-navy">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) Quit (Quit: shutdown)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-navy">* kompewter (~kompewter@peterdietz.lib.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-green">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) has joined #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-green">* motron (~fas@HSI-KBW-078-042-098-211.hsi3.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-green">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) has joined #duraspace</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; Review events from last week's meeting</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; from last week  <a href="https://wiki.duraspace.org/display/FCREPO/2011-11-15+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-11-15+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; for this meeting   slightly changing agenda from  <a href="https://wiki.duraspace.org/display/FCREPO/2011-11-22+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-11-22+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; performance issues discussion - Steve</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; in the log files differences between warnings and errors will help look at issues</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; the big question:  are triple stores part of a transaction</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; under heavy load, ingesting issues brought topic to group's attention</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; different possible approaches discussed</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; ingest process described</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; start the approach by increasing logging messages to enable easy grepping of logs</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; long term impacts of any change need to be considered especially considering a federated system</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; Need to have test cases</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; Need to have test cases that provoke the issue</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; checking the logging in the purge and recovery logic a first step</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; and a second step is better cleanup in ingest recovery</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; a jira issue will be raised</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; similar to FCREPO-1027</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; future of modules  - Frank</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; Chris provided a brief overview of Spring bean usage in current code</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; currently in a hybrid, in 4.0 the goal is to be fully converted</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; exception handling background provided by Chris</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;sbayliss&gt; got to disappear for a couple of minutes, brb</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; future exception handling is a topic for later group discussion</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-green">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) has joined #duraspace</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;cwilper&gt; <a href="http://www.infoq.com/news/2007/01/effective-exceptions">http://www.infoq.com/news/2007/01/effective-exceptions</a></span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;sbayliss&gt; back</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; recently submitted issues <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+FCREPO+AND+status+%3D+Received+ORDER+BY+created+DESC%2C+updated+DESC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+FCREPO+AND+status+%3D+Received+ORDER+BY+created+DESC%2C+updated+DESC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; action:  will open FCREPO-1027</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; possible approaches discussed</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-navy">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; FCREPO-986</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; briefly looked at</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;cwilper&gt; Thanks for taking notes, Ed!</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; before call ended at top of the hour</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-navy">* motron (~fas@HSI-KBW-078-042-098-211.hsi3.kabel-badenwuerttemberg.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-navy">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-navy">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-navy">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-navy">* cbeer (~cbeer@198.147.175.203) Quit (Quit: cbeer)</span><br />
+<span class="irc-date">[22:15]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Remote host closed the connection)</span><br />

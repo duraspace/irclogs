@@ -1,0 +1,250 @@
+<span class="irc-date">[4:05]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[8:14]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[9:33]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[10:33]</span> <span class="irc-navy">* mhwood (i=mwood@mhw.ulib.iupui.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[12:58]</span> <span class="irc-green">* ben_atmire (n=ben_atmi@62.235.138.27) has joined #duraspace</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-green">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-green">* keithg (n=keithg@68-31-193-199.pools.spcsdns.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[14:14]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:44]</span> <span class="irc-green">* jeffreytrimble (n=jeffreyt@maag127.maag.ysu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:44]</span> <span class="irc-navy">* jeffreytrimble (n=jeffreyt@maag127.maag.ysu.edu) Quit (Client Quit)</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-green">* jat_ysu (n=jtrimble@maag127.maag.ysu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-black">&lt;tdonohue&gt; All...we'll be starting the DSpace Developers meeting here shortly.   Primary topics are around final preparations for 1.6RC1 and DSpace Testathon next week.  I know jat_ysu wanted to talk Documention a bit.   Anyone else have topics to add to agenda?</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-green">* lcs (n=lcs@serenity.hul.harvard.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; Ok..it's 20:00UTC...we'll go ahead and get started, and take topics as they come up.  jat_ysu, do you want to talk about the Documentation that you still need?</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;jat_ysu&gt; Yes..</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;jat_ysu&gt; I've sent Pester emails to two individuals (who will remain Sine Nomine for now) regarding some missing documentation.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;jat_ysu&gt; As long as that missing documentation does not prohibit the proper building/installation or upgrading of DSpace, it will be fine to be missing.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;jat_ysu&gt; If there is any more documentation to be included, I have only three left-overs from JIRA that I will finish out this evening and close the tickets.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;jat_ysu&gt; So, send anything directly to me.</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;mdiggory&gt; jat_ysu: thanks... feeling properly pestered. ;-)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;jat_ysu&gt; I making one more change to the upgrade section and will regenerate the html/pdf in about 1 hour.</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kshepherd&gt; jat_ysu: i'm just about to upload a patch to JIRA, i'll make sure i pass on any doco needed directly to you so you've got it</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kshepherd&gt; (no minute like the last.. sigh)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;jat_ysu&gt; LOL</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;jat_ysu&gt; I had one funny issue last night and that was getting into the trunk....for some reason it didn't want to work and today it seems fine.</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;jat_ysu&gt; Who's the guru regarding access</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;jat_ysu&gt; ?</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-brick">* kshepherd points at mdiggory </span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;jat_ysu&gt; Now I can't pester mark, but can I bribe?</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;kshepherd&gt; heh</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;jat_ysu&gt; If I have time, the bug list will be included for the RC1 in the documentation.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;jat_ysu&gt; That's all I have for now.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;mdiggory&gt; hmmm, jat_ysu if you can post the error code you got, we might be able to tell why it failed...</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;lcs&gt; i will have some doc fixes too, but maybye not until after 5pm est - what timezone are you in, jat_ysu?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;jat_ysu&gt; Okay.  EST...I'll plan not to committ until 11 pm tonight.</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;jat_ysu&gt; lcs:  I'll be at the gym pumping iron until 7</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-green">* richardrodgers (n=richardr@dhcp-18-111-11-204.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;lcs&gt; jat_ysu: excellent, will get you what i have by 7pm est.</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; (fyi...I won't start the actual RC1 release till tomorrow morning...so, if stuff comes in late tonight, like 11pm EST, it will still make it into RC1)</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;jat_ysu&gt; great.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: yay :)</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; I also wanted to bring up JSPUI stats again...kshepherd, is that going to be ready?  A patch today?</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;kshepherd&gt; yep, about 10 - 15min</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;kshepherd&gt; so perhaps move to the next topic and after that the patch will be on JIRA</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;kshepherd&gt; just adding Message.properties keys and links from the relevent JSPs</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; ok...cool.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; next topic I had was to check on our Test Sites.  We need to get them all linked up here: <a href="http://wiki.dspace.org/index.php/DSpace_Release_1.6.0_Testathon_Page">http://wiki.dspace.org/index.php/DSpace_Release_1.6.0_Testathon_Page</a>   sometime later this week.   I'm digging into email to see who all promised a test site...</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;jat_ysu&gt; Tdonohue, is the release being coded as dspace-1.6?</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;jat_ysu&gt; or dspace-1.6.0?</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; jat_ysu: it will be dspace-1.6.0-rc1</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;jat_ysu&gt; When you run mvn package will it through everything in .../target/dspace-1.6-build.dir  or /dspace-1.6.0-build.dir?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;jat_ysu&gt; through=throw</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;mdiggory&gt; dspace-1.6.0-rc1</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;mdiggory&gt; dspace-1.6.0-rc1-build.dir...</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; it will go into /dspace-1.6.0-rc1-build.dir</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;jat_ysu&gt; okay..do you want the documentation to reflect this or more generic at this point?</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;mdiggory&gt; shesh... maybe time to mask the version...</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;jat_ysu&gt; LOL</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;jat_ysu&gt; I dont' care, I just need to know to track appropriate and make it easy on the Unix Administrator</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; jat_ysu:  The docs probably should be more generic...like /dspace-[version]-build.dir</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;jat_ysu&gt; For Testathon, perhaps more generic.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;jat_ysu&gt; and for full release (production) the exacting release then.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;lcs&gt; it's always helpful to cite an example or two just to show what to expect in real life.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; jat_ysu - sounds reasonable</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;jat_ysu&gt; That's my point.  For testathon, since you have given it to me now, I'll use it.  For future, we can be generic for testing and specific for release.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; I'm noticing from my notes Gabriela, John Davidson and Claudia will be putting up Testathon sites...since I don't think any of them are here, I'll follow up with them offline.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; is there anything besides JSPUI Stats that is rushing to get into 1.6RC1?</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;lcs&gt; maybe a fix for DS-393 if i can manage it in time.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;jat_ysu&gt; Oh I have one more question for all</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; jat_ysu...go ahead</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;mdiggory&gt; lcs: yes, that would make ben_atmire happy</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;jat_ysu&gt; In dspace.cfg we have two new key with new requirements:  dspace.baseUrl = <a href="http://localhost:8080">http://localhost:8080</a></span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;jat_ysu&gt; and dspace.url = ${dspace.baseUrl}/xmlui</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;mdiggory&gt; Yes, its just an option... so that variables can utilize it</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;jat_ysu&gt; If you happen to miss them, what will happen upon ant -Dconfig process??</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;mdiggory&gt; nothing...</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;jat_ysu&gt; Okay....gotcha.  Are there other variable references in the config file?  I didn't notice any.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;mdiggory&gt; because they are referred to later in the dspace.cfg</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;mdiggory&gt; yes, "everywhere" ;-)</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;jat_ysu&gt; Gotcha...okay, I overlooked it later on.  Bad</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;mdiggory&gt; ${variable}</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;jat_ysu&gt; &lt;===  slaps self with noodle.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;jat_ysu&gt; Should something be mentioned in the upgrade section to bring this to the user's attention?</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mdiggory&gt; TBH all this recommending ant -Dconfig stuff is not the best... I don't think we should be advising it</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-brick">* kshepherd is rebuilding w/ stats patch now</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;jat_ysu&gt; any what, at this moment should we replace it with?</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mdiggory&gt; there are very important things that need to be reviewing in your new dspace.cfg...  the ant update process will place a new dspace.cfg next to the existing one in your directory</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mdiggory&gt; dspace.cfg.new</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;jat_ysu&gt; Yeah, I know...Mr. Woods and I have discussed this at great length.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mdiggory&gt; if you use ant update -Doverwrite=true it will move the [dspace]/config/dspace.cfg to dspace.cfg.old and put the new file at dspace.cfg</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;jat_ysu&gt; And everytime I've done that I've had to perform a tape restore...(since dspace 1.4</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;jat_ysu&gt; )</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mdiggory&gt; :-O</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;jat_ysu&gt; I don't trust it.  That's just a personal opinion.</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;jat_ysu&gt; Stuart recommended we leave out the update -Doverwrite out of the upgrade instructions.....</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mdiggory&gt; Well, firstly, I keep all the customizations to the configuration in [dspace-src]/dspace/config</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mdiggory&gt; and I keep it in a svn repository where I can keep track of difference</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;kshepherd&gt; hmm.. maybe we just need to spend a bit more time explaining best practices for merging/updating configs between dspace versions</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;jat_ysu&gt; Yeah, that might be handy.  But the average user doesn't have a svn repository.  I don't even keep one for my test server (well, I do now).</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;mdiggory&gt; well, I'll pull out my broken record collection and state "All the config shouldn't be in one file"</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;jat_ysu&gt; Amen!</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;kshepherd&gt; agreed</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-brick">* tdonohue thinks that's too big a problem to tackle right now :)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;kshepherd&gt; also agreed</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-brick">* mdiggory nods</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;jat_ysu&gt; Now you're talking brother!</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; so, can we do some basic "best practices" quickly?</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;jat_ysu&gt; Yes, maybe the [space]/config directory needs several config files....based on the needs of each feature.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;kshepherd&gt; mark's svn config is a great idea</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;jat_ysu&gt; Oh I agree... That's a great idea...but the average user who downloads the source may only make changes in the production config and if things don't line up just right you end up with a configuration that blows up on you.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mdiggory&gt; much of he ant upgrade process needs revisiting... but I agree that is too big for right now</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;kshepherd&gt; but perhaps even explaining what happens when you use old dspace.cfg files with missing keys etc., will convince users without svn or other resources to use a "re-customise the *new* dspace.cfg" approach instead of "try to keep going with the old one"</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;kshepherd&gt; which i believe a lot of people do</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;kshepherd&gt; or even just a bit of diff/merge explanation</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;jat_ysu&gt; Well, I could address that in the documentation this evening Kim......and recommend that.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mdiggory&gt; well, if you just use "ant update", then you can go to your [dspace]/config directory</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;mdiggory&gt; there you will find things like dspace.cfg and dspace.cfg.new</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;jat_ysu&gt; And you're saying that the dspace.cfg.new is the merged file?</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; jat_ysu, no...but you can compare dspace.cfg.new and dspace.cfg to see what's changed</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;jat_ysu&gt; gothca</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;lcs&gt; just making [dspace-src]/dspace/config/dspace.cfg the master config file is probably a novel idea to some sites, since it's so much easier to hack on [dspace]config/dspace.cfg..</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: yeah, we know taht.. but a lot of users still seem to have difficulty</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I have a whole 'nother directory for DSpace config.s and always specify -Dconfig=</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mdiggory&gt; its your responsibility to resolve the differences... the ant echo comments state that its best to copy the individual chages you;ve made to your dspace.cfg to the dspace.cfg.new, move the dspace.cfg out of the wany and change the name of dspace.cfg.new to dsapce.cfg</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;jat_ysu&gt; Well, I think if we break up the dspace.cfg into smaller logical chunks, then this all becomes moot.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-brick">* mdiggory ponders typing lessons</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;kshepherd&gt; yeah. so i wasn't suggesting changing the ant task, just making it really clear to anynoe reading the doco what happens by default with new configs</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, some bits of dspace.cfg belong to deployment time and some to runtime, for one.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;jat_ysu&gt; Let me see what I can do to the documentation tonight.  Wish me luck !</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;lcs&gt; for now, perhaps a field guide to config files in the doc would be most appropriate, as in: [src]/.../dspace.cfg - this is the one you want to edit; [dspace].../dspace.cfg is actually used by the running app.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good.  splitting the configs is a good thought, but probably too late for 1.6 now...we'll have to wait for next release</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;mhwood&gt; Definitely too late for 1.6.0</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;mdiggory&gt; TBH I uncovered a ExtendedProperties class in Apache Commons Collections that does pretty much most of what ConfigurationManager is doing and allows multiple files and duplicate keys</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;jat_ysu&gt; lcs:  can you sketch that out for me?  I'll be happy to include it some where in the final 1.6 docs.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mdiggory&gt; Ironically it was written by stefano mazzocchi</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory, sounds like something to look into for the next major version 1.7</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mhwood&gt; Some of the list-valued and yet more complex data make me think that maybe we don't want the properties format at all, at least for some stuff.  And there are things that should maybe move into the database and have UI to mediate for the service administrator.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;lcs&gt; mdiggory: we should ask stefano if it's oen of those things he regrets, first..</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;lcs&gt; jat_ysu: ok, will try.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd:  is there anything you wanted to ask of us regarding JSPUI stats?  even without the patch being ready yet?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; any way we can help?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 54 (Connection reset by peer))</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;kshepherd&gt; think i'm all good, just bringing a test instance up to show you now</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; great!  that's excellent news</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;mdiggory&gt; lcs: nah, TBH, just because stefano regrets something now doesn't mean the tool is bad, it just means he's applying new bias'...</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;kshepherd&gt; i've done something stupid to my web.xml i think, just gimme a few secs :P</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;mdiggory&gt; If we threw out cocoon just because it wasn't the perfect framework, we'd still be working on the next perfect framework for years to come</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; while kshepherd is working on that...</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;lcs&gt; i've gotta run - one more thing about doc, there ought to be some mention of DS-377, how to look for the version info in the META generator tag.   what's the most appropriate place to mention it, though?</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; If you've written new features for 1.6...I'd appreciate help in updating the Test Scripts to help us test your features</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="http://wiki.dspace.org/index.php/DSpace_Release_1.6.0_Testathon_Page">http://wiki.dspace.org/index.php/DSpace_Release_1.6.0_Testathon_Page</a></span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; lcs:  not sure offhand.  I'd say write something up to send off to jat_ysu, and we can always figure out the most appropriate place for the 1.6 final</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;lcs&gt; since choice/authority control has to be configrued on the server, the admins for the testathon servers will have to set taht up.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;jat_ysu&gt; send all ya want.....</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;lcs&gt; gotta go to aother meeting.. bye!</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;jat_ysu&gt; &lt;==the bin for paperwork!</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; lcs:  do we have instructions/docs for them to follow for setup of authority control?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;kshepherd&gt; ok, i've rebuild my stats views on my test server: <a href="http://www.anonymous.org.nz:8180">http://www.anonymous.org.nz:8180</a> , please take a loko and let me know what you think</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;lcs&gt; all choice/auth control doc is on the wiki, i updated that.</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; ok</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;jat_ysu&gt; oh okay</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-navy">* lcs (n=lcs@serenity.hul.harvard.edu) Quit ()</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;kshepherd&gt; uploading JIRA patch now</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;jat_ysu&gt; kshepherd  those look nice!  (I'm biased to jspui)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd looks great...though FYI I just found a "??jsp.display-item.display-statistics??" missing key</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="http://www.anonymous.org.nz:8180/handle/123456789/465">http://www.anonymous.org.nz:8180/handle/123456789/465</a></span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mdiggory&gt; jat_ysu: theres a converation in the dsapce channel that brings up an error in the docs</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mhwood&gt; Very nice.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: ah, cheers</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; no prob :) one of those always slips through the cracks</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;mdiggory&gt; when configuring Tomcat to deploy your webapps, the user should be editing the &lt;Host&gt; tag to point it at [dspace]/webapps, not the &lt;Context&gt; tag</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory - this must be in the install instructions?</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;jat_ysu&gt; Okay..let me look..do know the specific section #?  (It's okay if you don't I'm looking right now)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;mdiggory&gt; think so</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;jat_ysu&gt; Got it.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;jat_ysu&gt; Maek it has &lt;HOST&gt; in my documentation.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;jat_ysu&gt; <a href="http://digital.maag.ysu.edu/jspui/doc/ch03.html#N1063E">http://digital.maag.ysu.edu/jspui/doc/ch03.html#N1063E</a></span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; yea, it looks like that might have already been fixed...it already says "&lt;host&gt;"</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mdiggory&gt; wow, this is kinda stale...</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mdiggory&gt; firstly... Tomcat highly advises not putting &lt;Context&gt; entries into your server.xml</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, well, it's okay to have &lt;Context&gt;s.  But if you put 'em in server.xml and then ask questions on the Tomcat list, the first answer will be "don't do that."  Since I run other stuff in Tomcat alongside DSpace, I have a bunch of .../Catalina/$HOST/$CONTEXT1.xml, $CONTEXT2.xml....</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; Yes, every tweak to server.xml means a Tomcat restart.  Many other tweaks will be picked up immediately, depending on Tomcat configuration.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory and mhwood - if you have updates, send them along to jat_ysu.  Our docs are only as good as we keep them up to date :)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; and I'd agree, it might be nice to write that up to not recommend server.xml changes</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mdiggory&gt; problem is that when you put them in server.xml, it breaks the overriding of context params etc</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; Hey, do we even know whether we still work with Tomcat 4?</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;jat_ysu&gt; I'm running tomcat 6</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: not sure, to be honest.  I'm on tomcat 6 too</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-brick">* mhwood too</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;mdiggory&gt; all that is needed is &lt;Host name="localhost"  appBase="[dspace]/webapps"..../&gt;</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;jat_ysu&gt; &lt;==never used this feature...I always cp -R /dspace/webapps to $Catalina/webapps</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;jat_ysu&gt; So if you re-write tonight, it will be in tonight.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;kshepherd&gt; grrr.. *rage at broken $work proxy server*</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-navy">* keithg (n=keithg@68-31-193-199.pools.spcsdns.net) Quit ("Using leafChat 2")</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mdiggory&gt; hehe... me and my big mouth</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;jat_ysu&gt; You said it , not me.....  Wisdom in the man who says nothing.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;jat_ysu&gt; LOL</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mdiggory&gt; boring is that man who says nothing</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory..but, heh, we're getting better docs out of this...it's all good</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;jat_ysu&gt; Well, let me offer to look into this at least and see if I grasp it thoroughly.  If I do, I 'll be happy to write and test for the final release.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;jat_ysu&gt; So Mark, you're temporarily off the hook.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;kshepherd&gt; <a href="http://jira.dspace.org/jira/browse/DS-363">http://jira.dspace.org/jira/browse/DS-363</a> has been updated with a patch</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://pastebin.com/m319feb0c">http://pastebin.com/m319feb0c</a></span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd - were you looking for any more detailed review before committing it?</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;jat_ysu&gt; Oh, that was EAsy!</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;mdiggory&gt; :-)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-brick">* mdiggory gets coffee before phone call</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: perhaps just comments on teh question i had around which package my 'statistics bean' should belong to.. org.dspace.app.webui.components? (that's where i have it) or should it be in org.dspace.statistics?</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;kshepherd&gt; not exactly critical</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: i've only been awake a few hours though, so perhaps if you can leave it up for people to read/test/review for 2-3 more hours, i will make sure i haven't done anything silly that hasn't occurred to me yet</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; ack.  my netbeans just locked up, so I cannot see what's already in those packages.  But, where you have it sounds more "right" to me</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd - feel free to wait it out a bit then :)</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;kshepherd&gt; at the moment, that components package just has submissions/recentsubmissions stuff, for the sideboar on colletion/commmunity pages I think</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;kshepherd&gt; well, the "City Views" list on that item grew a bit, something must be working! ;)</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd - there, i have everything back again.  It seems like the best option would be to do either org.dspace.app.webui.components  or create a new package org.dspace.app.webui.statistics</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; sorry all, we're way over time.  Meeting is officially adjorned, but feel free to continue discussions (i'll be sticking around for a bit).  Thanks for everyone for all the hard work on 1.6RC1, and I hope to see everyone online next week for the 1.6 Testathon!</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;kshepherd&gt; cheers all, sorry for the lateness on DS-363 and thanks for the feedback</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd - since it looks like you are only talking one class (StatisticsBean), I'd vote for leaving it where you have it for now...seems like a reasonable location to me</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;kshepherd&gt; cool, that's what i was thinking</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;kshepherd&gt; might promote the use of that approach in JSPUI, too, for other projects</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;kshepherd&gt; (which i like, a lot)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;kshepherd&gt; JSTL makes JSPs tolerable :)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; one last small thing I noticed...the comments at the top of StatisticsBean don't include the usual License info...</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; good to know!... i'll admit, it's been a while since I've worked with JSPs (I've tended towards XMLUI more recently)</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;kshepherd&gt; oh, yeah, that's probably right.. i'll attach and re-upload</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: if you look at the JSP source for display-statistics.jsp it should look a fair bit like an xsl template in XMLUI, but using beans instead of DIM ;)</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; yep, i see it...cool</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory has been conspicuously silent.. that either means he can't see any problems or he's realised it's too late to point them out anyway ;)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;kshepherd&gt; brb, coffee and smoke</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-navy">* richardrodgers (n=richardr@dhcp-18-111-11-204.dyn.mit.edu) Quit ()</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;jat_ysu&gt; &lt;==is off to go an lift weights.....</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;jat_ysu&gt; Enjoy your evenings.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mhwood&gt; Bye, thanks!</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-navy">* jat_ysu (n=jtrimble@maag127.maag.ysu.edu) Quit ("Leaving")</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; have a good on jat_ysu.  Thanks again for all the docs work!</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-navy">* mhwood (i=mwood@mhw.ulib.iupui.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-navy">* ben_atmire (n=ben_atmi@62.235.138.27) Quit ()</span><br />
+<span class="irc-date">[18:24]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-navy">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) Quit ()</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-66-74-214-84.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-66-74-214-84.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-66-74-214-84.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-66-74-214-84.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-66-74-214-84.san.res.rr.com) has joined #duraspace</span><br />

@@ -1,0 +1,22 @@
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-weber.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-weber.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-weber.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-weber.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[12:10]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:04]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:39]</span> <span class="irc-green">* dyelar (~dyelar@biolinux.mrb.ku.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; On a test instance with e-mail disabled, is there a way to set a test user password from the command line?  I know that I could create a new admin user and then remove admin privileges from that user, but I am curious to know if there is a simpler way.  I ran "dspace user -M -h" and I do not see an option to set a password.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;antoine&gt; dspace user -add --givenname Dummy --surname Dummy --password dummy</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; You're right that you can't do it with bin/dspace.  But when email is disabled, message bodies are written to the log.  You can get the URL that way.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Hmm.  The help doesn't mention --password.  Should be fixed.</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;antoine&gt; I found that in my command line history. But I’m trying to confirm if it’s real</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I do see that option when the -a flag is provided, so that should work for me</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; The modify code doesn't actually look at --password.  I think it won't work.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-green">* hpottinger (~hpottinge@162.104.218.179) has joined #duraspace</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-navy">* hpottinger (~hpottinge@162.104.218.179) Quit (Quit: Leaving 三三ᕕ( ᐛ )ᕗ LATER TATERS!)</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-navy">* tdonohue (~tdonohue@dspace/tdonohue) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:52]</span> <span class="irc-navy">* dyelar (~dyelar@biolinux.mrb.ku.edu) Quit (Quit: Leaving.)</span><br />

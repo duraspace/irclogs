@@ -1,0 +1,263 @@
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-green">* kstamatis (b03a8014@gateway/web/freenode/ip.176.58.128.20) has joined #duraspace</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for our weekly DSpace Developers Meeting. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-01-22">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-01-22</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-01-22 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-01-22">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-01-22</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; Sorry, the Wiki &amp; stuff is being really slow for me right now....</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; Not just you....</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; in any case, today I mostly wanted to touch back on DSpace 4.1.  There's at least one major (maven build) issue that may warrant a 4.1 release in the near(ish) future: <a href="https://jira.duraspace.org/browse/DS-1867">https://jira.duraspace.org/browse/DS-1867</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1867">https://jira.duraspace.org/browse/DS-1867</a> ] - [DS-1867] Maven build issues from [src]/dspace/ , error finding target/build.properties - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1867] Maven build issues from [src]/dspace/ , error finding target/build.properties - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1867">https://jira.duraspace.org/browse/DS-1867</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, that was also my worry.  Things are sloooow (and not sure why).  I've got two conversations going on at once</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, in any case, I wanted to revisit 4.1, in light of Ds-1867.  Do we want to start to think about scheduling a 4.1?  Do we want to wait a while longer?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; there's just one bugfix on master so far</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;helix84&gt; I'd say the build issue is non-critical - if you follow documentation, you won't encounter it</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; agreed, but some "bug fixes" are bigger than others. :)  Which is the only reason I bring this up.   I've realized that 1867 is a rather annoying Maven build bug.  It'd be nice to fix it sooner rather than later</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; that said, several people alredy did, but by that time we knew what to tell them</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; "if you follow documentation" is not exactly correct.  The Install docs say to build DSpace from "[src]/dspace", which will NOT work</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; The only way that running Maven from [src]/dspace/ *works* in 4.0 is if you first build from [src]/</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; If we want to wait a bit, can we publish a patch that's easy to apply?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; sorry, all this time I've been thinking we corrected the documentation. It still says cd [dspace-source]/dspace/</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; well, the 'patch' is essentially the fix in <a href="https://github.com/DSpace/DSpace/pull/443.">https://github.com/DSpace/DSpace/pull/443.</a>  There is an even easier patch we could do, but it doesn't change the fact that if you follow our documentation you will get an immediate error</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; So, while I agree, it seems like we don't have many fixes in for a 4.1, I am starting to wonder myself if fixing 1867 is enough to warrant a 4.1 release</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kstamatis&gt; There is also this issue: <a href="https://jira.duraspace.org/browse/DS-1857">https://jira.duraspace.org/browse/DS-1857</a> for which we are going very soon to fire a PR. Misconfiguration of BTE leads to tomcat shutdown</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1857] Unhandled exception in BTE batch import when uploading CSV files with misconfiguration options - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1857">https://jira.duraspace.org/browse/DS-1857</a></span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1857">https://jira.duraspace.org/browse/DS-1857</a> ] - [DS-1857] Unhandled exception in BTE batch import when uploading CSV files with misconfiguration options - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; kstamatis: yes, that's a serious one</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; OK, those two together cross my "big enough for a bugfix release" threshold.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; My brain is trying to tell me there's something else...</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; so, what's the schedule for fixing 1857?   Perhaps we should think about trying to get both of these into 'dspace-4_x' branch soonish, and tentatively schedule a 4.1 for a 1-2 weeks from now?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kstamatis&gt; We have a solution, tomorrow we are going to test it and then fire the PR</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; kstamatis: sounds great</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; and, to hpottinger's point. We may want to dig around in the existing PRs (and recent Jira tickets) to see if there's any other "quick fixes" that could be put into a 4.1 release in the nearish future</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-green">* keithg (46d0a0d9@gateway/web/freenode/ip.70.208.160.217) has joined #duraspace</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; I had also listed DS-1873 as a small fix to put into a possible 4.1, but it would depend on whether folks agree with this change or not (if not, it could wait till a 4.2 or 5.0 if it needs reworking).</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1873">https://jira.duraspace.org/browse/DS-1873</a> ] - [DS-1873] CheckSum Checker Emailer sends emails for 0 issues, doesn&amp;#39;t specify any site info - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; I would not object to its inclusion.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; I wouldn't call it a bug fix but I agree with it going into 4.1 ;)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I know 1873 is a "gray area" between bug  fix &amp; improvement.  We're running it in Production for DSpaceDirect already, so I thought I'd offer it up.  But, I wanted to get your opinions :)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; we already have this one on master: DS-1832 We still haven't created the 4_x branch.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-green">* jefftrimble (~jefftrimb@maag127.maag.ysu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1832">https://jira.duraspace.org/browse/DS-1832</a> ] - [DS-1832] Proxy configuration set in system properties if empty - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; huh? we have a 4.x branch : <a href="https://github.com/DSpace/DSpace/tree/dspace-4_x">https://github.com/DSpace/DSpace/tree/dspace-4_x</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/DSpace at dspace-4_x · GitHub ] - <a href="https://github.com/DSpace/DSpace/tree/dspace-4_x">https://github.com/DSpace/DSpace/tree/dspace-4_x</a></span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;helix84&gt; Right. I'm wondering why it doesn't show up here: <a href="https://github.com/DSpace/DSpace/branches">https://github.com/DSpace/DSpace/branches</a></span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Branches · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/branches">https://github.com/DSpace/DSpace/branches</a></span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;helix84&gt; It's probably nothing</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: it doesn't show up in that list cause currently "dspace-4_x" = "master" (and <a href="https://github.com/DSpace/DSpace/branches">https://github.com/DSpace/DSpace/branches</a> only shows branches != master)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Branches · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/branches">https://github.com/DSpace/DSpace/branches</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; or to be more accurate, dspace-4_x doesn't include any *new* commits that are not merged on master...it's not directly *equal to* master</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; It does show in the drop list of branches on the DSpace/DSpace page.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;helix84&gt; sorry for the distraction</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; So, sounds like we have 1857, 1867 and 1873 all as additions to 4.1.  Anything else we should try to prepare for 4.1?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; DS-1756? DS-1757?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1756">https://jira.duraspace.org/browse/DS-1756</a> ] - [DS-1756] Wrongly aligned text on item view in mobile theme - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1757">https://jira.duraspace.org/browse/DS-1757</a> ] - [DS-1757] Missing images in mobile theme - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; yes, those both look like good "quick fixes" we can add to a 4.1</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; I tested 1757. I'll confirm 1756, too.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;misilot&gt; DS-1817 ?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1817">https://jira.duraspace.org/browse/DS-1817</a> ] - [DS-1817] Improvement of Collection Dropdown on Move Item Page - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good, thanks helix84.  Both of those sound like they could be merged immediately once verified (as both are small tweaks)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; there are "quite a few" issues tagged for 4.1 in JIRA</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; 1817 should work. I just forgot to add the calling code to one or two places and 1817 adds it.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yea, I saw that too. I think it's mostly "carried over" tickets from 4.0 that were just rescheduled.  I'm not sure many of them have PRs yet, but perhaps they'd warrant a quick review in next week's "JIRA Review Hour"?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; tdonohue++</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; is it just me or does <a href="http://mobile.demo.dspace.org/xmlui/">http://mobile.demo.dspace.org/xmlui/</a> show without a stylesheet?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Home ] - <a href="http://mobile.demo.dspace.org/xmlui/">http://mobile.demo.dspace.org/xmlui/</a></span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so next week's "JIRA Backlog/Review Hour" (at 19:00UTC in #dspace, before this meeting), will be devoted towards reviewing JIRA tickets tagged for "4.1" release, just to see if there's any other "quick fixes" to be had</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: I'm seeing it as stylized (with the red header, etc)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: I see styles on that</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; So, based on this discussion so far, it sounds like we would want to wait *at least* a week to cut a 4.1 (just so we can review tickets next week &amp; get in some other fixes still).  Should we think about a 4.1 in early Feb?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; Sounds good. We should also check all bugs against 4.0 to see if there are any serious ones that we should fix ASAP.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; Or is there another timeline we want to shoot for (earlier or later)?  Just trying to get us to set a goal, so we have general timelines around when fixes need to get into "dspace-4_x" branch in time for 4.1</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; Tangent:  Jira issue page has a "Git commits" tab that always says "There are no subversion log entries for this issue yet."  "Commits" shows Git stuff.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; Early Feb sounds good.  That starts just over a week from now.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; housekeeping: same RT, same RT lead?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; for the record: I'm in</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; I think that's a question for the RT.  How do you all feel?  Have time for a 4.1?  Do we need new volunteers?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; I can do that.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; ok, so, sounds like same RT for 4.1 (assuming bollini is also game).  But, others are more than welcome to chip in, and RT feel free to ask for help if it is needed.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; Yes indeedy.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; RE: helix84's note above.  We should try and find tickets that are marked as "bugs against 4.0" and schedule them for 4.1 if they are serious.   I suspect the serious ones should already be scheduled, but we might want to do a quick skim to be sure</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; mhwood: is DS-1744 meant to go to 4.1?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1744">https://jira.duraspace.org/browse/DS-1744</a> ] - [DS-1744] Upgrade to latest log4j - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I see that I haven't got it in 4_x yet, setting up to correct that now.  Unless we want it to wait for 5.0.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I've got it, just confirming.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I'm backporting now.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mhwood&gt; Oh, OK, thanks.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; I'm slightly hesitant to upgrade dependencies in bug-fix releases, *unless* those dependency updates actually fix a bug for  us</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mhwood&gt; Memory leak fix.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; But, 1744 seems to qualify for 4.1, as it fixes a memory leak :)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; I have a raft of other dependency tweaks, but they are unscheduled or for 5.0, IIRC.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; yep, I have seen most/all of those mhwood.  I agree, they look great for 5.0 :)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so anything else we want to chat through via 4.1?  Sounds like we have a tentative schedule (early Feb) for 4.1.  We have started to approve some fixes that should be in 4.1.  Next week we'll review tickets scheduled for 4.1 (in "JIRA Review Hour").  Anything we missed?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, hearing nothing else</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; FYI backports from master to 4_x are now done</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; Thanks helix84</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; yes, thanks helix84!</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; OK, any other topics folks wish to bring up today?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: dependency tweaks, can you share?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; I just made a first pass at Metadata for All.  So far it builds but has not been run.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; mhwood: yay!</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-brick">* helix84 throws confetti</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; Oh, that reminds me, "let's talk about features"</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: for mhwood's dependency tweaks, see his recent PRs: <a href="https://github.com/DSpace/DSpace/pulls/mwoodiupui">https://github.com/DSpace/DSpace/pulls/mwoodiupui</a></span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls/mwoodiupui">https://github.com/DSpace/DSpace/pulls/mwoodiupui</a></span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; "Metadata for All"! awesome!</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; mhwood: where do I look?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; <a href="https://github.com/mwoodiupui/DSpace/tree/metadata-for-all">https://github.com/mwoodiupui/DSpace/tree/metadata-for-all</a></span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kompewter&gt; [ mwoodiupui/DSpace at metadata-for-all · GitHub ] - <a href="https://github.com/mwoodiupui/DSpace/tree/metadata-for-all">https://github.com/mwoodiupui/DSpace/tree/metadata-for-all</a></span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; It's really starting to bug me that I can't hang metadata on Collections, so I thought I'd try to fix that.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; so how does it work?  I.e. what are you using for "metadata for all" / any docs or rough notes around?</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; So far, all I've done is to move the metadata methods and fields from Item to DSpaceObject, and repair any damage that caused.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; gotcha. makes sense</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mhwood&gt; There's no new code to take advantage of it yet.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; mhwood: oh, so this is a new implementation, not a port of mdiggory's work?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; still, it sounds like a good first step.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I was wondering where the schema changes are :)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; I went looking the other day and found discussion but no code.  I guess it just isn't linked, or I missed the link.  Oops.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; I think there was a (very old now) PR that mdiggory had with some code.  But, I don't know how "built out" it really was</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; mhwood: here it is: <a href="https://github.com/DSpace/DSpace/pull/12">https://github.com/DSpace/DSpace/pull/12</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;kompewter&gt; [ Support Metadata On All DSpaceObjects by mdiggory · Pull Request #12 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/12">https://github.com/DSpace/DSpace/pull/12</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 found it :)  I was just looking for that same PR</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; oh, Lyncode has been working on OAI...</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; it has everything except UI changes</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://github.com/DSpace/DSpace/pull/441">https://github.com/DSpace/DSpace/pull/441</a></span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kompewter&gt; [ OAI 2.1 by lyncodev · Pull Request #441 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/441">https://github.com/DSpace/DSpace/pull/441</a></span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: yes, it should be interesting to hear about the upgrade to OpenAIRE on OR14</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; pre 4.1 thing: we should look for PRs without JIRAs</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; Oh, I remember that PR.  It was closed, pending discussion of the scope of the project.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; I'll open an issue for 441</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; 441 is still open</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yep, I just noticed joao had that PR (#441).  It *sounds* like it fixes DS-1856 (but it does a lot more than just fix that issue).</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1856">https://jira.duraspace.org/browse/DS-1856</a> ] - [DS-1856] OAI-PMH indexes metadata of non-public Items - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;hpottinger&gt; ah, well I remember another OAI bugfix</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; well, it depends on the new version of xoai</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; yea, not sure if PR#441 would qualify for 4.1...it sounds like major changes?  But, it's unclear</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: definitely major</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, well, if you create a new ticket for PR#441, could you link it up to 1856?  Both could just be scheduled for 5.0, I guess.  Unless we convince Joao to push out the 1856 fix earlier</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: There actually was an open issue. All linked now.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; cool, thanks.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; I noted mdiggory's PR on the Wiki page Metadata for All.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; good idea, mhwood.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; Any other last topics for today (noticing we are at one hour now)?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; mhwood: add yours, too. We may discover some differences in your approaches.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; I'd like to draw attention to a note on -devel about curious code in Item.addMetadata</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, I saw your note. Haven't had a chance to dig in yet.  At a glance, it does look a bit odd to me too</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-navy">* jefftrimble (~jefftrimb@maag127.maag.ysu.edu) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; helix84:  will do.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; another possibility for 4.1: DS-1854/ DSPR#434</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/434">https://github.com/DSpace/DSpace/pull/434</a> ] - DS-1854 by AnjaLeBlanc</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1854">https://jira.duraspace.org/browse/DS-1854</a> ] - [DS-1854] Meta data to queries in reply; Listing of all items; Pagination; Maximal pagination size option; item search using discovery - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I tried to rebase that. It's a merging mess.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I might just have to squash some parts :/</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: 1854 seems a bit "gray" to me.  There's a few seeming "bug fixes" in there, but also a lot of new features/improvements</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; Agreed, tdonohue, new stuff</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; Actually, tim already said his opinion on this when I asked earlier. Definitely an improvement, not a bug fix.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; also new configs, which I am not usually a fan of adding in a bug-fix release (as it complicates upgrades, etc)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; I'm just skimming the list of PRs and blurting out the ones that look interesting</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; I suggested we might treat REST API in 4.0 as beta and subject to change in 4.1</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; searching with REST would be helpful, 'tis true</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; "subjected to change in 4.1" is ok.  But, I start to get hesitant when we talk about adding a bunch of new configs between 4.0 and 4.1.   We could make an exception, but I just wanted to note that this starts to cross some "boundaries" on what we allow in a "bug-fix-only" release :)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; but, that is just my opinion. I'm just one person :)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; We may need to pick it apart and tease out the bug fixes, leaving the rest for later?</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; I'm only suggesting that because REST is still hot and we didn't really commit yet to it being a stable interface</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yea, I can understand where you are coming from, honestly.  I wouldn't "veto" this if others really wanted to push it into 4.1. I'm just noting my concerns.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; In any case though, it sounds like the PR itself is still a mess...so we cannot do much of anything until it gets cleaned up</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; we could ask AnjaLeBlanc to squash/rebase, and split out just the bug fixes from the features</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: with all respect, she won't be able to do that. she did all the wrong things when merging. it's just new for her.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I'll try to take a look at it again, just noting that it seems I'll have to cut some corners.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; yea, the PR is a complete mess. It's hard to even tell what is being changed.  Ideally it would be nice to split into several PRs (one per feature / logical bug fix), but I know that'd take some work / might be difficult</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; understood, I've done the same (and worse) with Git</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I don't think that's possible</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: it builds up on previous stuff in non-obvious ways</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;hpottinger&gt; oh, look, it's PeterDietz!</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;PeterDietz&gt; hi all</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: oh, I understand. That does complicate things, when it's all intermingled</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; I'll try to fix it up and we'll be wiser next week</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; Discussing PR#434</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; sounds great, helix84. Thanks</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;hpottinger&gt; DSPR#434</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/434">https://github.com/DSpace/DSpace/pull/434</a> ] - DS-1854 by AnjaLeBlanc</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;PeterDietz&gt; I've been involved in reviewing this PR somewhat. Helping to guide it along in the right direction.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietz: would you be able to help pull out the features from the bug fixes?</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; or, ahem, "bug fixes"</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;PeterDietz&gt; I think one of the first things, is that it has too much git-stuff going on. i.e. a merge/pull got chomped up and added hundreds of changes, when the actual change is much smaller, and confined to rest as Anja said</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; yea, it's not really possible to review as-is.  helix84 was saying he'd be willing to try and help clean it up</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm nervous as to what one calls DSpace REST API v1.0, I guess that is what shipped with DSpace 4.0</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;PeterDietz&gt; This PR will change the responses enough that we've have to let an API consumer know that the API has changed</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; hmm..yea, that sounds like a REST API v2.0 then if the responses are not compatible with REST API v.1.0 / DSpace 4.0</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;PeterDietz&gt; And I think it would be confusing if DSpace 4.0, and 4.1 had different API's.</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; OK, that's clearly in "new feature" territory</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; So is there stuff in there that *could* still be 1.0, that can be teased out?</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;PeterDietz&gt; These are definitely valid improvements to the API, I think we want to bring this in to the next release</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: as in next major release?</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz ++  I agree on 4.0 vs. 4.1.  I'm fine with the REST APIs being ever so slightly different though, as long as the one in 4.1 is still *compatible* with the one in 4.0.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;PeterDietz&gt; There is room to tease apart a few things. For instance this provides /items/ list, and paging, this is currently not in REST1.0, so it being a non-breaking change, is allowable to be added.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;PeterDietz&gt; But, we can't really change the response for /items/:id, /collections, ... and so on</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mhwood&gt; Since it needs worked over anyway, it might not be much more work to see how much we could adopt for 4_x, and save the rest for 5.0 (and get it into master soon).</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;PeterDietz&gt; next major, yes. i.e. 4.0 -&gt; 4.1 shouldn't break things. But 4.x -&gt; 5.x could introduce a better response from API. I'm thinking that WRITE would be a good feature for 5</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; We're well over our meeting time here :)  Love the discussion. Just noting that we won't have any other "official topics" after this one (so if folks need to head out, feel free)</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz++</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;hpottinger&gt; +1 putting the C, U, and D in CRUD</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;PeterDietz&gt; Well, since the official portion was out. I had a question. Anyone willing to consider the pro's/con's of Hydra + ActiveDSpace vs build a new rails UI system on top of DSpace REST</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;hpottinger&gt; +1 joining communities</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; what's ActiveDSpace?</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mhwood&gt; The piece someone would have to write, to bolt Hydra onto DSpace.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;PeterDietz&gt; my fictional name for a Ruby on Rails gem that speaks to DSpace. Hydra has something called ActiveFedora, that allows Hydra to talk to fedora</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; Well, doing it yourself has the obvious disadvantages of requiring you to (a) support it yourself, (b) develop it all yourself, and (c) bug fix it yourself.   Joining a large community of collaborators can ease those burdens :)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mhwood&gt; OTOH how general is the bottom side of Hydra?  Will it fit onto DSpace well?</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; "ActiveDSpace" is similar to "ActiveFedora" which is what Hydra uses to communicate with Fedora ;)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;helix84&gt; I'd start by asking who's interested in a Rails interface. I think hardy mentioned something.</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mhwood&gt; I think we have more than enough UIs already, and spend too much time developing more, but I'm an old grump....</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; I've had informal chats with others in the past around the concept of an "ActiveDSpace".  It's unknown how easy it would be to implement (no one has tried, and those in the Hydra world don't know DSpace well enough to know)</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;PeterDietz&gt; The old grump in me says I don't particularly like XMLUI, therefore I'd rather decouple the UI from the Application</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I would generally agree, but probably it's because none of them are good enough for ordinary people to customize and develop :)</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mhwood&gt; ActiveDSpace could just adapt Hydra to dspace-rest.</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;mhwood&gt; That would be a good driver for fleshing out the REST stuff.</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;helix84&gt; whatever happened to SkylightUI?</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;helix84&gt; written in a popular language, communicates with backend via a fast HTTP interface...</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;PeterDietz&gt; Also, the roll-your-own I was thinking of for DSpace, I was going to limit it to just read-only portion. The submission / management /workflow portion is so complex, that it would take many man years to redo. But a simple presentation layer would be simpler to accomplish</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;tdonohue&gt; From my (vague, possibly incorrect) understanding, Hydra may make some "assumptions" about the underlying layer...essentially that it's "Fedora-like".  I'm not sure if DSpace would fit well or not...so, it may need investigating whether ActiveDSpace idea is even possible. If it is, great. If not, then we should learn why not</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;mhwood&gt; PeterDietz++.  We need to stop thinking of the UI as a monolith, and consider what we could/should do if we e.g. break it up into browse/search/read, submission, and administration.</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;hpottinger&gt; So, who wants to play?</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: that sounds like SkylightUI, only in Ruby on Rails. SkylightUI (built by Kim Shepherd &amp; Stuart Lewis &amp; others) was/is a read-only PHP UI for DSpace: <a href="https://github.com/skylightui/skylight">https://github.com/skylightui/skylight</a></span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;kompewter&gt; [ skylightui/skylight · GitHub ] - <a href="https://github.com/skylightui/skylight">https://github.com/skylightui/skylight</a></span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;tdonohue&gt; But, I *fully agree* +1000 that we should stop building UI monoliths.  There's no reason the Admin UI and the Submission UI and the Browse/Search UI need to be the same thing.  They may need to be similar looking (sharing themes) but need not be the same.</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: couldn't agree more</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;hpottinger&gt; Jorum is working towards a RoR DSpace UI</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-brick">* hpottinger is pretty sure he didn't spill any secrets there, hopes that's true</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;tdonohue&gt; Looking at the SkylightUI github, it looks like that's also still an active project (at least kshepherd is working on it).  It's updated for DSpace 3</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;mhwood&gt; I question just how similar those refactored UIs need to be.  They should have a basic resemblance of some sort, but really, you're talking about different audiences.</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;hpottinger&gt; I think Stuart Lewis might be able to fill us in on the future of Skylight</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: oh, I didn't mean they need to be *identical* :)  Just meant that you might want to Submission UI to look somewhat similar to the Browse/Search (so it doesn't seem like an entirely different system to those users who use both).  But, if you standardized on a CSS or JS platform (e.g. Bootstrap) for the UIs, that may be all you need</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;tdonohue&gt; I'd actually expect we should talk to kshepherd about Skylight.  Stuart is now at Edinburgh, and Skylight was built at U of Auckland (where Stuart used to be and Kim still is).  So, Kim might actually know more..but who knows :)</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;helix84&gt; Kim is still in Auckland?</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;tdonohue&gt; I thought he was. Unless I haven't heard the latest :)</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mhwood&gt; <a href="http://nz.linkedin.com/pub/kim-shepherd/5/376/502">http://nz.linkedin.com/pub/kim-shepherd/5/376/502</a></span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;helix84&gt; oh, so it seems: <a href="http://nz.linkedin.com/pub/kim-shepherd/5/376/502">http://nz.linkedin.com/pub/kim-shepherd/5/376/502</a></span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;hpottinger&gt; well, suffice to say I think it would be a good idea to also ask Stuart about Skylight, if one were curious</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, it sounds like we have several folks interested in similar ideas but possibly on different platforms.... Skylight UI (on PHP) vs. a read-only Ruby on Rails interface (possibly by multiple groups).</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;tdonohue&gt; just wish we could pull together a collaborative project here :)  (though this discussion is a good first step of getting it all in our minds, I guess)</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;hpottinger&gt; anybody going to the Users Group after SPARQ in Kansas City?</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;hpottinger&gt; I might be going, and if I do end up going, I'd be up for some hacking on RoR (or, maybe PHP, if you buy enough beer)</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;mhwood&gt; Gotta go, thanks all!</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-navy">* kstamatis (b03a8014@gateway/web/freenode/ip.176.58.128.20) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not gonna be at SPARC, unfortunately</span><br />
+<span class="irc-date">[23:15]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[23:16]</span> <span class="irc-green">* PeterDietz (~peterdiet@dhcp-164-107-232-172.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[23:21]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dhcp-164-107-232-172.osuwireless.ohio-state.edu) Quit (Ping timeout: 272 seconds)</span><br />
+<span class="irc-date">[23:25]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has left #duraspace</span><br />

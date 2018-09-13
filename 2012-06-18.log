@@ -1,0 +1,66 @@
+<span class="irc-date">[4:15]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[4:33]</span> <span class="irc-green">* eddies (~eddies@bb220-255-224-197.singnet.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[4:33]</span> <span class="irc-navy">* eddies (~eddies@bb220-255-224-197.singnet.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[4:33]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[4:57]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-cameron.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-cameron.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-cameron.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-cameron.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-green">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-navy">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-black">&lt;eddies&gt; can't promise i'll be very alert</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;barmintor&gt; eddies: just sent an email, but basically the datastreamsProfiles.xsd was the best attempt I had to:</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;barmintor&gt; 1) keep backwards compatibility</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;barmintor&gt; 2) use common generated classes for serialization</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;barmintor&gt; 3) be validatable</span><br />
+<span class="irc-date">[17:36]</span> <span class="irc-black">&lt;barmintor&gt; but I'm not committed to that implementation, if you have an idea of how to improve it</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-black">&lt;barmintor&gt; also, can't remember if we discussed this on the comm. call, but I added a REST resource for schemas</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-black">&lt;barmintor&gt; so docs have schemaLocations that point back to the repo now</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-black">&lt;eddies&gt; actually, i wasn't sure (not having tested yet) if the changes were backwards-compatible, so that's good to know, as it was one of the things i was worried about</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;barmintor&gt; I'm pretty sure they are (unless you use the old schema and ask for profiles)</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;eddies&gt; the schema change i mentioned was just a tweak that seemed to follow what we were doing in some of our other schemas</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-black">&lt;barmintor&gt; yeah- I *think* I actually tried that, and had some trouble getting it to work</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-black">&lt;eddies&gt; and it made the classes i was generating in fedora-client not require a separate binding instructions file</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;eddies&gt; (otherwise i was getting DatastreamProfileType classes instead of DatastreamProfile classes)…trivial binding file</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;barmintor&gt; Hmm</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;eddies&gt; so it's not a big deal</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-black">&lt;eddies&gt; sec. brb</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-black">&lt;eddies&gt; back</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-black">&lt;eddies&gt; so i didn't test the schema change i proposed on fcrepo. just in fedora-client</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;eddies&gt; but at least there, the generated classes seem fine</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;barmintor&gt; If the integration tests pass, I'm inclined to not worry</span><br />
+<span class="irc-date">[17:43]</span> <span class="irc-brick">* barmintor mutters under his breath about OM</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;eddies&gt; i'm happy to go w/ the binding file…it's just that it feels like there's inconsistency with ObjectDatastreamsType/ObjectDatastreams, ObjectMethodsType/ObjectMethods (and other perhaps?)</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;barmintor&gt; I really have no preference for the way I did it, as long as it doesn't result in have to to type checking on the server side</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;eddies&gt; also, is it "ok" that our schema locations are local, relative references?</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;eddies&gt; e.g. schemaLocation="blah.xsd"</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;barmintor&gt; why wouldn't it be?</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;barmintor&gt; (that's not sarcastic)</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;eddies&gt; well, for a client that's getting the schemaLocation in a response, that doesn't help much for dereferencing</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;eddies&gt; just wondering. perhaps not clearly</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;barmintor&gt; doesn't the client have the url for the resource it just requested?</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;barmintor&gt; I actualy thought it was building the full url to the schema, fwiw</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;barmintor&gt; oh, is it because it's ambiguous to a client? (file system or relative url)</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;eddies&gt; so, client requests: <a href="http://example.com/fedora/objects/demo:123/datastreams?profiles=true,">http://example.com/fedora/objects/demo:123/datastreams?profiles=true,</a> response contains "schemaLocation=datastreamProfile.xsd"</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;kompewter&gt; [ IANA — Example domains ] - <a href="http://example.com/fedora/objects/demo:123/datastreams?profiles=true,">http://example.com/fedora/objects/demo:123/datastreams?profiles=true,</a></span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-black">&lt;eddies&gt; ack, i'm being spacey</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-black">&lt;eddies&gt; nm. i actually can't remember what's in that particular client response as far as schema location goes</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-black">&lt;eddies&gt; i think the serializer is constructing it correctly</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;eddies&gt; ok. well, i'm turning in. i'm going to test parsing responses with the new schema generated classes against fedora 3.5. if that works, then i'm happy</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;eddies&gt; (tomorrow, that is)</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;barmintor&gt; ok, sorry to keep you up</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;eddies&gt; no worries</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;barmintor&gt; sleep well!</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;eddies&gt; danke</span><br />
+<span class="irc-date">[17:54]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:52]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp218.evans.tamu.edu) Quit (*.net *.split)</span><br />

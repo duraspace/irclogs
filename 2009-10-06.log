@@ -1,0 +1,77 @@
+<span class="irc-date">[1:35]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[3:12]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[3:13]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[3:19]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[4:04]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 131 (Connection reset by peer))</span><br />
+<span class="irc-date">[4:04]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:04]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:04]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[4:04]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[5:11]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (leguin.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[5:11]</span> <span class="irc-navy">* krnl__ (i=krnl_@193.219.158.144) Quit (leguin.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[5:11]</span> <span class="irc-navy">* stuartlewis (n=stuartle@gendiglt02.lbr.auckland.ac.nz) Quit (leguin.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[5:12]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[5:12]</span> <span class="irc-green">* krnl__ (i=krnl_@193.219.158.144) has joined #duraspace</span><br />
+<span class="irc-date">[5:12]</span> <span class="irc-green">* stuartlewis (n=stuartle@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[6:14]</span> <span class="irc-green">* grahamtriggs (n=trig01@195.128.10.96) has joined #duraspace</span><br />
+<span class="irc-date">[8:10]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[9:17]</span> <span class="irc-green">* ksclarke (n=kevin@ip-152010148147.library.appstate.edu) has joined #duraspace</span><br />
+<span class="irc-date">[10:13]</span> <span class="irc-green">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:58]</span> <span class="irc-green">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-yofiszkxomtgfiim) has joined #duraspace</span><br />
+<span class="irc-date">[10:58]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[10:58]</span> <span class="irc-green">* Dan_Davis (i=43f11873@gateway/web/freenode/x-hhzzxyjixrhouddp) has joined #duraspace</span><br />
+<span class="irc-date">[11:01]</span> <span class="irc-green">* barmintor (i=barminto@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[11:03]</span> <span class="irc-green">* awoods (n=awoods@pool-71-191-177-212.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:07]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:08]</span> <span class="irc-black">&lt;cwilper&gt; <a href="http://fedora-commons.org/confluence/display/FEDORACREATE/Create+Forum">http://fedora-commons.org/confluence/display/FEDORACREATE/Create+Forum</a></span><br />
+<span class="irc-date">[11:08]</span> <span class="irc-green">* eddie31415 (i=52e0627a@gateway/web/freenode/x-zyewrfvtirlvbwvx) has joined #duraspace</span><br />
+<span class="irc-date">[11:12]</span> <span class="irc-brown">-christel- [Global Notice] Hi all, as you might remember we informed you a few days ago that we would be restarting some of our ircds due to a memleak issue -- I'm about to do round two of this and it will be slightly noisy as they restart. Apologies for the inconvenience and thank you for using freenode.</span><br />
+<span class="irc-date">[11:19]</span> <span class="irc-green">* bbranan (i=46799f09@gateway/web/freenode/x-ntyujkcczdwibrtp) has joined #duraspace</span><br />
+<span class="irc-date">[11:41]</span> <span class="irc-black">&lt;cwilper&gt; special topics: prefer 3.3 discussion next week if release manager if identified, then paul-led semweb capabilities discussion.  chris to followup with paul, kai, and steve.</span><br />
+<span class="irc-date">[11:41]</span> <span class="irc-black">&lt;cwilper&gt; dan: libs are now all coming from repos (central, and the one at fedora-commons.org)</span><br />
+<span class="irc-date">[11:58]</span> <span class="irc-black">&lt;bbranan&gt; <a href="https://fedora-commons.org/confluence/display/FCR30/API-M#API-M-RelationshipManagement">https://fedora-commons.org/confluence/display/FCR30/API-M#API-M-RelationshipManagement</a></span><br />
+<span class="irc-date">[11:59]</span> <span class="irc-black">&lt;cwilper&gt; <a href="http://fedora-commons.org/confluence/display/FCR30/API-M#API-M-RelationshipManagement">http://fedora-commons.org/confluence/display/FCR30/API-M#API-M-RelationshipManagement</a></span><br />
+<span class="irc-date">[12:00]</span> <span class="irc-black">&lt;eddie31415&gt; otherwise, point to the junit test for examples: <a href="http://fedora-commons.svn.sourceforge.net/viewvc/fedora-commons/fedora/trunk/integrationtest/src/test/java/fedora/test/api/TestRelationships.java?view=markup">http://fedora-commons.svn.sourceforge.net/viewvc/fedora-commons/fedora/trunk/integrationtest/src/test/java/fedora/test/api/TestRelationships.java?view=markup</a></span><br />
+<span class="irc-date">[12:17]</span> <span class="irc-green">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:29]</span> <span class="irc-black">&lt;barmintor&gt; How much is Fedora-Create supposed to emulate Apache incubator projects?</span><br />
+<span class="irc-date">[12:53]</span> <span class="irc-navy">* Dan_Davis (i=43f11873@gateway/web/freenode/x-hhzzxyjixrhouddp) Quit ("Page closed")</span><br />
+<span class="irc-date">[12:55]</span> <span class="irc-green">* grahamtriggs (n=trig01@195.128.10.96) has left #duraspace</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-navy">* eddie31415 (i=52e0627a@gateway/web/freenode/x-zyewrfvtirlvbwvx) Quit (Ping timeout: 180 seconds)</span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-navy">* bbranan (i=46799f09@gateway/web/freenode/x-ntyujkcczdwibrtp) Quit ("Page closed")</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-black">&lt;cwilper&gt; barmintor: didn't see your ? during the call re:incubator.  we haven't talked about emulating apache incubator projects within fedora-create; it's mostly designed as a place to start bringing these kinds of based-on-fedora efforts together. but it could evolve into something bigger than that depending on what people want.</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-black">&lt;barmintor&gt; just thought it bears on the way Db plugins, etc. might develop.  But thought I was talking quite enough :)</span><br />
+<span class="irc-date">[13:11]</span> <span class="irc-black">&lt;cwilper&gt; naw, it's great to have more voices on the call, that's what we were hoping for in having them publicly</span><br />
+<span class="irc-date">[13:12]</span> <span class="irc-black">&lt;cwilper&gt; s/voices/informed voices/</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;barmintor&gt; when the conversation turns to post-3.3, I'm going to start voting for SOAP-bindings-in-sdep issues.</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;barmintor&gt; so I'm saving my voice a bit.</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;mdiggory&gt; hmm, is the call going on right now?</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;mdiggory&gt; how much time is left?</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-black">&lt;barmintor&gt; the public participants (at least, me) left the call about half an hour ago.  I think it's over.</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-black">&lt;bradmc&gt; Mark, it started at 8:00 PDT and ended around 9:50.</span><br />
+<span class="irc-date">[13:25]</span> <span class="irc-black">&lt;mdiggory&gt; thanks, I just saw the chatter and was curious.</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;bradmc&gt; <a href="http://fedora-commons.org/confluence/display/FCREPO/Meeting+Notes">http://fedora-commons.org/confluence/display/FCREPO/Meeting+Notes</a></span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;mdiggory&gt; would be great to attend but the timing is quite difficult for me.  I will be interested in the incubator and how things might progress with it</span><br />
+<span class="irc-date">[13:48]</span> <span class="irc-green">* barmintor (i=barminto@specdl11.cul.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;cwilper&gt; (audio from today's mtg is up now)</span><br />
+<span class="irc-date">[14:14]</span> <span class="irc-navy">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) Quit ("Leaving...")</span><br />
+<span class="irc-date">[14:42]</span> <span class="irc-brown">-christel- [Global Notice] Hi all, we appear to be having some routing issues with our server in Luxembourgh, I'm going to jupe it for now to prevent the constant bouncing. Affected users around 2300! Apologies for the inconvenience.</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-navy">* ksclarke (n=kevin@ip-152010148147.library.appstate.edu) Quit ("Leaving.")</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-227-149-169.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-navy">* mhwood (i=mwood@mhw.ulib.iupui.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[18:31]</span> <span class="irc-navy">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) Quit (Read error: 110 (Connection timed out))</span><br />
+<span class="irc-date">[18:59]</span> <span class="irc-navy">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-yofiszkxomtgfiim) Quit ("Page closed")</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:28]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[22:39]</span> <span class="irc-green">* mdiggory (n=mdiggory@76.176.188.83) has joined #duraspace</span><br />
+<span class="irc-date">[22:46]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 54 (Connection reset by peer))</span><br />
+<span class="irc-date">[22:47]</span> <span class="irc-green">* bradmc (n=bradmc@207.172.69.79) has joined #duraspace</span><br />
+<span class="irc-date">[23:18]</span> <span class="irc-navy">* mdiggory (n=mdiggory@76.176.188.83) Quit (Read error: 131 (Connection reset by peer))</span><br />
+<span class="irc-date">[23:18]</span> <span class="irc-green">* mdiggory_ (n=mdiggory@76.176.188.83) has joined #duraspace</span><br />
+<span class="irc-date">[23:18]</span> <span class="irc-green">* mdiggory_ is now known as mdiggory</span><br />
+<span class="irc-date">[23:31]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-227-149-169.clt.bellsouth.net) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[23:44]</span> <span class="irc-navy">* bradmc (n=bradmc@207.172.69.79) Quit (Read error: 131 (Connection reset by peer))</span><br />
+<span class="irc-date">[23:45]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[23:50]</span> <span class="irc-navy">* awoods (n=awoods@pool-71-191-177-212.washdc.fios.verizon.net) Quit (Remote closed the connection)</span><br />

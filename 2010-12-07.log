@@ -1,0 +1,46 @@
+<span class="irc-date">[6:13]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-74-150.clt.bellsouth.net) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:57]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-green">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) has joined #duraspace</span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-green">* granitize (~Adium@137.149.66.159) has left #duraspace</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-green">* ksclarke (~kevin@adsl-39-74-150.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:33]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-green">* EdAtTheADR (811398fe@gateway/web/freenode/ip.129.19.152.254) has joined #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-green">* grahamtriggs (~grahamtri@62.189.56.2) has joined #duraspace</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-green">* sbayliss (~IceChat7@188-222-88-173.zone13.bethere.co.uk) has joined #duraspace</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-green">* birkland (183a31ec@gateway/web/freenode/ip.24.58.49.236) has joined #duraspace</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-green">* cwilper (ad579d86@gateway/web/freenode/ip.173.87.157.134) has joined #duraspace</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;cwilper&gt; <a href="https://wiki.duraspace.org/display/FCREPO/2010-12-07+-+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2010-12-07+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-green">* Dan_Davis (4a4f12ae@gateway/web/freenode/ip.74.79.18.174) has joined #duraspace</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;cwilper&gt; <a href="https://ffeathers.wordpress.com/2007/11/17/wiki-docs-release-management/">https://ffeathers.wordpress.com/2007/11/17/wiki-docs-release-management/</a></span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;cwilper&gt; <a href="http://semver.org/">http://semver.org/</a></span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;barmintor&gt; never seen this doc before, looks very interesting</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;eddies&gt; <a href="http://javamoods.blogspot.com/2010/10/world-of-versioning.html">http://javamoods.blogspot.com/2010/10/world-of-versioning.html</a></span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;barmintor&gt; It seems like adhering to a defined practice like this would also impact the way we thought of interface definitions in a positive way.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;barmintor&gt; <a href="http://mulgara.org/svn/mulgara/trunk/src/jar/util-xa/java/org/mulgara/store/xa/FreeList.java">http://mulgara.org/svn/mulgara/trunk/src/jar/util-xa/java/org/mulgara/store/xa/FreeList.java</a></span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;barmintor&gt; the private member stack is initialized to null, and never re-assigned</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;barmintor&gt; the private member "stack", I should say</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;eddies&gt; have to drop off now</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-navy">* birkland (183a31ec@gateway/web/freenode/ip.24.58.49.236) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;sbayliss&gt; i have to go</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-navy">* sbayliss (~IceChat7@188-222-88-173.zone13.bethere.co.uk) Quit (Quit: bye!)</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[17:36]</span> <span class="irc-green">* grahamtriggs (~grahamtri@62.189.56.2) has left #duraspace</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-navy">* Dan_Davis (4a4f12ae@gateway/web/freenode/ip.74.79.18.174) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[18:44]</span> <span class="irc-green">* EdAtTheADR (811398fe@gateway/web/freenode/ip.129.19.152.254) has left #duraspace</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-navy">* cwilper (ad579d86@gateway/web/freenode/ip.173.87.157.134) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-navy">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) Quit (Quit: Computer has gone to sleep.)</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[23:31]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-74-150.clt.bellsouth.net) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[23:32]</span> <span class="irc-green">* ksclarke (~kevin@adsl-39-74-150.clt.bellsouth.net) has joined #duraspace</span><br />

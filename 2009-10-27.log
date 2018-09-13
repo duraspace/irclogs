@@ -1,0 +1,51 @@
+<span class="irc-date">[1:02]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[1:11]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[3:25]</span> <span class="irc-green">* krnl__ (i=krnl_@193.219.158.144) has joined #duraspace</span><br />
+<span class="irc-date">[3:42]</span> <span class="irc-navy">* krnl_ (i=krnl_@193.219.158.144) Quit (Read error: 110 (Connection timed out))</span><br />
+<span class="irc-date">[4:04]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[4:04]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:04]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:04]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[6:00]</span> <span class="irc-green">* grahamtriggs (n=trig01@80.169.130.178) has joined #duraspace</span><br />
+<span class="irc-date">[7:31]</span> <span class="irc-green">* grahamtriggs (n=trig01@80.169.130.178) has left #duraspace</span><br />
+<span class="irc-date">[8:20]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[8:34]</span> <span class="irc-green">* bradmc_ (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[8:34]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[8:35]</span> <span class="irc-green">* bradmc_ is now known as bradmc</span><br />
+<span class="irc-date">[9:22]</span> <span class="irc-green">* ksclarke (n=kevin@ip-152010148147.library.appstate.edu) has joined #duraspace</span><br />
+<span class="irc-date">[10:25]</span> <span class="irc-green">* michaeldb (n=michaeld@99.233.22.222) has joined #duraspace</span><br />
+<span class="irc-date">[10:27]</span> <span class="irc-green">* Asger (i=82e118cc@gateway/web/freenode/x-sqzaudnfbretrzpv) has joined #duraspace</span><br />
+<span class="irc-date">[10:27]</span> <span class="irc-black">&lt;Asger&gt; Hi</span><br />
+<span class="irc-date">[10:28]</span> <span class="irc-black">&lt;Asger&gt; What time is it in US eastern time</span><br />
+<span class="irc-date">[10:28]</span> <span class="irc-black">&lt;Asger&gt; I would like to be on time for the committers meeting</span><br />
+<span class="irc-date">[10:28]</span> <span class="irc-black">&lt;Asger&gt; And that might be in 30 mins or 90 mins</span><br />
+<span class="irc-date">[10:29]</span> <span class="irc-black">&lt;Asger&gt; But I am unclear about daylight savings in our different countries</span><br />
+<span class="irc-date">[10:29]</span> <span class="irc-black">&lt;ksclarke&gt; US eastern is 10:29</span><br />
+<span class="irc-date">[10:29]</span> <span class="irc-black">&lt;ksclarke&gt; am</span><br />
+<span class="irc-date">[10:29]</span> <span class="irc-black">&lt;Asger&gt; Thank you, then the meeting is on 30 mins</span><br />
+<span class="irc-date">[10:36]</span> <span class="irc-green">* grahamtriggs (n=trig01@80.169.130.178) has joined #duraspace</span><br />
+<span class="irc-date">[10:53]</span> <span class="irc-green">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-ohquikiozkobeiot) has joined #duraspace</span><br />
+<span class="irc-date">[10:54]</span> <span class="irc-black">&lt;cwilper&gt; starting in a few minutes: <a href="http://fedora-commons.org/confluence/display/FCREPO/2009-10-27+-+Committer+Meeting">http://fedora-commons.org/confluence/display/FCREPO/2009-10-27+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[10:55]</span> <span class="irc-green">* barmintor (i=barminto@128.59.156.13) has joined #duraspace</span><br />
+<span class="irc-date">[11:03]</span> <span class="irc-black">&lt;bradmc&gt; <a href="http://permatime.com/">http://permatime.com/</a>  mentioned for meeting scheduling.</span><br />
+<span class="irc-date">[11:04]</span> <span class="irc-green">* sbayliss (n=IceChat7@78-86-0-203.zone2.bethere.co.uk) has joined #duraspace</span><br />
+<span class="irc-date">[11:05]</span> <span class="irc-black">&lt;Asger&gt; <a href="http://fedora-commons.org/confluence/display/FCREPO/2009-10-27+-+Committer+Meeting">http://fedora-commons.org/confluence/display/FCREPO/2009-10-27+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[11:05]</span> <span class="irc-black">&lt;Asger&gt; ah, already postet</span><br />
+<span class="irc-date">[11:06]</span> <span class="irc-black">&lt;grahamtriggs&gt; bradmc: interesting. Do one for tomorrow's meeting :)</span><br />
+<span class="irc-date">[12:11]</span> <span class="irc-black">&lt;Asger&gt; <a href="http://fedora-commons.org/confluence/display/DEV/REST+API+Forum">http://fedora-commons.org/confluence/display/DEV/REST+API+Forum</a></span><br />
+<span class="irc-date">[12:12]</span> <span class="irc-black">&lt;Asger&gt; This is where I would put it</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* sbayliss (n=IceChat7@78-86-0-203.zone2.bethere.co.uk) Quit (Read error: 110 (Connection timed out))</span><br />
+<span class="irc-date">[13:25]</span> <span class="irc-green">* barmintor (i=barminto@128.59.156.13) has left #duraspace</span><br />
+<span class="irc-date">[13:42]</span> <span class="irc-navy">* Asger (i=82e118cc@gateway/web/freenode/x-sqzaudnfbretrzpv) Quit ("Page closed")</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-navy">* ksclarke (n=kevin@ip-152010148147.library.appstate.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-navy">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-ohquikiozkobeiot) Quit ("Page closed")</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-green">* grahamtriggs (n=trig01@80.169.130.178) has left #duraspace</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-21-143-19.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-navy">* mhwood (i=mwood@mhw.ulib.iupui.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[19:06]</span> <span class="irc-navy">* michaeldb (n=michaeld@99.233.22.222) Quit ()</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-navy">* justben (n=ben@hypatia.library.emory.edu) Quit ("Leaving.")</span><br />
+<span class="irc-date">[19:44]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[19:44]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[23:11]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-21-143-19.clt.bellsouth.net) Quit ("Leaving.")</span><br />
+<span class="irc-date">[23:40]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[23:41]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />

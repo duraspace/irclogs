@@ -1,0 +1,193 @@
+<span class="irc-date">[5:52]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* DuraLogBot (~PircBot@duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 20:32:05 UTC 2009</span><br />
+<span class="irc-date">[7:09]</span> <span class="irc-green">* aways (~bmorel@2001:660:5301:11:219:b9ff:fe1a:38e7) has joined #duraspace</span><br />
+<span class="irc-date">[7:09]</span> <span class="irc-black">&lt;aways&gt; hi all</span><br />
+<span class="irc-date">[7:28]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-217-116.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[12:37]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-235-49-191.clt.bellsouth.net) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[12:51]</span> <span class="irc-green">* ksclarke (~kevin@adsl-235-49-191.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-green">* aways (~bmorel@2001:660:5301:11:219:b9ff:fe1a:38e7) has left #duraspace</span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-green">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) has joined #duraspace</span><br />
+<span class="irc-date">[14:33]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-217-116.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-green">* DuraLogBot (~PircBot@duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 20:32:05 UTC 2009</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-green">* grahamtriggs (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;tdonohue&gt; Hey all -- DSpace Devel Mtg starting here in a few minutes.  Today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2010-09-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2010-09-08</a></span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* HardyPottinger (80ce8627@gateway/web/freenode/ip.128.206.134.39) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* richardrodgers (~richardro@dhcp-18-111-12-48.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Well it's the top of the hour -- may as well get started with our Mtg: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2010-09-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2010-09-08</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; First off, JIRA review (as usual) : <a href="http://jira.dspace.org/jira/secure/IssueNavigator.jspa?reset=true&amp;&amp;pid=10020&amp;resolution=-1&amp;created%3Aprevious=-18w&amp;assigneeSelect=&amp;sorter/field=created&amp;sorter/order=ASC">http://jira.dspace.org/jira/secure/IssueNavigator.jspa?reset=true&amp;&amp;pid=10020&amp;resolution=-1&amp;created%3Aprevious=-18w&amp;assigneeSelect=&amp;sorter/field=created&amp;sorter/order=ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; We'll be starting with DS-612</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; DS-612 : Unfinished submissions see cc-rdf file instead of their uploaded PDF in the uploads step. <a href="http://jira.dspace.org/jira/browse/DS-612">http://jira.dspace.org/jira/browse/DS-612</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;richardrodgers&gt; I'd like to see if this is still a problem with the new CC license stuff - assign to me?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- will do.  it definitely needs verification with the new CC license code :)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; DS-612 -- assign to richardrodgers for verification &amp; testing with new CC license code (from MIT)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; Comment says it's side effect of a fixed bug.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; DS-613 :  Error Handling  in the XMLUI interface after section expired <a href="http://jira.dspace.org/jira/browse/DS-613">http://jira.dspace.org/jira/browse/DS-613</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;grahamtriggs&gt; sounds like the rdf should be internal - which is not the same as saying it doesn't get exposed ever by any part of the system (otherwise there wouldn't be any point in storing it)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, I think the fix for the other bug caused this DS-612 problem -- in either way, MIT is reworking the CC License stuff, so once that code is in, it *may* fix DS-612</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; Thoughts on DS-613 ?  Seems like it might be logical to try and catch this "invalid continuation" error and at least display a nicer "Your Session has Expired" page ?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; DS-613:  well, it shouldn't do *that*.  If the session is expired then doesn't the user need to login again?  And if so, what is the state of the submission?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; *That* was meant to be "throw an invalid-continuation page".</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I agree mhwood -- it needs to at least display some sort of nice message (even if that message is just "please login again"</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;grahamtriggs&gt; not clear how continuation and login are related (may not necessarily have the same lifecycle).... should have a nicer error if possible</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mhwood&gt; The poor user probably has no idea what an invalid continuation is.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;richardrodgers&gt; +1 but needs a volunteer</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- 'invalid continuation' is basically Cocoon reporting that it has lost its session info</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; +1 -- any volunteers?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;grahamtriggs&gt; yes, but is that the same as a http (/ dspace) session? eg. frameworks like Seam have multiple lifecycles that aren't related to the HTTP session</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; So how does the user get a new valid session?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; Or whatever it is called.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; I think basically they need to relogin.  Something in cocoon has "timed out" -- so it's either increase the cocoon timeout (as cocoon imbeds 'continuation IDs' into each HTML page and uses those to keep its 'context'), or catch this exception and display a nicer page</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; I can dig into this one a bit -- if I cannot figure it out, we'll revisit.   Assign DS-613 to tdonohue for analysis.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;grahamtriggs&gt; and similarly, could we be potentially use a continuation for an anonymous session (ie. refining search queries)</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mhwood&gt; Yes, if we can't tidy things automatically then we must tell the user what he needs to do in terms he understands.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mdiggory&gt; continuations actually are maintained separate from sessions in Cocoon.  I'm not 100% sure how thy get expired with the session.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- right.  eventually.  Currently though we are really only using continuations in places where a user is logged in -- so, right now, when the continuation times out, it can be refreshed with a login</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;grahamtriggs&gt; so we should be careful in our handling not to tie the message to 'you must log in again', as that may not always be true</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; possibly.  I'm not sure if that's even the best resolution (to display a nicer error page) -- it's possible there's a way to just avoid this problem by trying to extend the timeout.  It basically needs further analysis before we can make a decision</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; The association with session may be just what the reporter thinks is happening.  Still, how does the user get a fresh continuation or get back into the process he was following?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- continuations are setup during processes like Editing or a new submission.  So, essentialy if your continuation is gone, you have to relogin in and then go back to edit that item or continue your submission.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; not particularly thrilled with continuations in cocoon actually. (1) they make debugging difficult. (2) they are javascript (3) make sending out details about where to complete an administrative task difficult (3) Force al XMLUI Admin functions into one aspect/flowscript (4) arn't very restful</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- but as grahamtriggs pointed out, it's possible to use continuations in other areas as well</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; Unfriendly -- I HATE sites that drag you through a long complex process only to find that you've been timed out in the interval.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea, I'd not be against discontinuing them -- but, that's a much larger project to rip out Cocoon continuations altogether :(</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; any other thoughts on this? Should we open up a 'placeholder' issue to investigate removing usage of continuations altogether?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; possible example of handling the error differently....</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://cocoon.apache.org/2.2/blocks/flowscript/1.0/1241_1_1.html">http://cocoon.apache.org/2.2/blocks/flowscript/1.0/1241_1_1.html</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; thanks for the link -- I thought there was a better way to catch the error, minimally</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, for now, assign DS-613 to tdonohue for investigation.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; more specifically... the handle errors section of the sitemap code</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; &lt;map:handle-errors&gt;</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; DS-614 : [XMLUI] Multi-page forms error <a href="http://jira.dspace.org/jira/browse/DS-614">http://jira.dspace.org/jira/browse/DS-614</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;grahamtriggs&gt; won't resolve - if you've got more than 10 pages in your describe forms, you are going to have some seriously irritated users</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; this seems unlikely that many people would want a 10 pg submission process</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;richardrodgers&gt; Emerged in testing I hope - how could you subject users to 10 describe pages? :(</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; Could we do something less surprising than wrapping the step around to 0?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; yea, maybe we just need to document that you cannot have more than 10 pages in the describe step :)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; seems type based submission should alleaviate some complexity in creating/using multiple page forms?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;grahamtriggs&gt; mhwood: yes, we can detect it and put up a message: "STOP YOU FOOL"</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; *sigh* s/0/1/</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; what Pere points out is an instability in the code though</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;richardrodgers&gt; I think we did document that more than 6 describe pages mucks up the breadcrumbs....</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, anyone want to tackle this then?  volunteer?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; Exactly.  It's abusing Double to encode two integers.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Let me have it.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; thats the spirit</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- assign DS-614 to mhwood .  Thanks Mark!</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; DS-615 : Ability to perform maintenance on SOLR with solr.optimize <a href="http://jira.dspace.org/jira/browse/DS-615">http://jira.dspace.org/jira/browse/DS-615</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; Peter has already claimed this -- so, I'm assuming he's working on it for 1.7...any quick comments to pass along to Peter?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; I'd be +1 this -- we need to be maintaining Solr indexes better</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt;  +!</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; light enough</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- we'll just move on to one last one</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; DS-616: Make it possible to guarantee config file values are filled thru the ConfigurationManager API <a href="http://jira.dspace.org/jira/browse/DS-616">http://jira.dspace.org/jira/browse/DS-616</a></span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; ?? I thought most of our code tends to check for configs and report if they are missing (rather than throwing NullPointers?).   Beyond that, I'm not sure what else is implied?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; Maybe this should be part of moving toward ConfigurationService?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;grahamtriggs&gt; I don't like the proposed solution - if anything it should be a separately named method, not a boolean parameter (which in itself would be confusing with the operation of getBooleanProperty)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, I guess the ConfigurationService could help this perhaps -- though in general we should be checking for existance of configs when they are needed</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;grahamtriggs&gt; but if you are going after the places in the code to force them to call the configuration manager in a certain way, then you can go after them to simply check the return values properly and log meaningful (instead of generic) messages</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; ConfigurationService accepts default values for parameters when looking them up.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;richardrodgers&gt; also wouldn't this require all callers of ConfigManager to rewrite code (a big deal)?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; ConfigurationService should replace COnfigurationManager wherever possible</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; but I'm not so keen on the ticket, its upto the calling code to deal with the failure to retrieve a value appropriately</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; and to supply sane defaults in the code, not the configuration file</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;grahamtriggs&gt; mdiggory: it's not just default values - sometimes there isn't a sensible default, you must have something configured. But the answer is to make the calling code work correctly, not fudge it inside the API</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; I agree -- I'd vote -1 on this issue, but I think we find places where the code is not catching the potential NullPointer, and fix it there</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;richardrodgers&gt; so annotate ticket 'for further study'</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mdiggory&gt; in fact... dependening on implementation, the source of the configuration value is abstracted away from the file itself</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; could be database... could be some other source...</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; agree... further study</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; yea, we probably should just mark this "for further study" and keep it in mind as we move towards ConfigurationService</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; Yes, needs more thought.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; ok, DS-616 -- needs more study -- keep in mind for ConfigurationService</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-green">* PeterDietz (~PeterDiet@ACK5859s3.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;PeterDietz&gt; hi all, sorry for being late</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; we'll stop there for today ... and move on to 1.7 updates (just in time PeterDietz!)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;PeterDietz&gt; ok, I'll not jump into the unpopular here are all the remaining tasks (unclaimed, but look for at them for yourself)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Any updates for 1.7 -- PeterDietz or anyone else?   Note -- we are only 6 weeks away from "Freeze"</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;richardrodgers&gt; Curation branch is coming along - by tomorrow there will be UI code (XMLUI only the the moment)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;PeterDietz&gt; unofficially, a peer and I at work have been working on a php-ui for the dspace datamodel</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;PeterDietz&gt; ...however, that is not something for the release</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- built on what? REST? direct to Java API?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;PeterDietz&gt; I want to work more closely with existing dspace functionality, so hopefully something like dspace-api. However its just an introspection of the database, so its a read only direct database access. So you can list communities, collections, items, bitstreams, bundles</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;PeterDietz&gt; I don't want to derail real dspace work with this, but its sitting in github for those who are curious, <a href="http://github.com/jamespaulmuir/cotinga">http://github.com/jamespaulmuir/cotinga</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;grahamtriggs&gt; a php-ui isn't really something to be released as part of DSpace though? Just necessary supporting parts (ie. REST services)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; oh, i see -- I was just curious as there's no "easy way" to put another, non-Java-based UI on DSpace yet (but, this is what I was hoping REST API could eventually help with)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;PeterDietz&gt; absolutely, it would be *best* if there was an easy cross platform way to talk to dspace. And our work so far is cross platform, but it completely bypasses everything that is good about dspace, just to access some data.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- no, not something to be released as part of DSpace (at least not unless it gathered wide acceptance as a "better UI solution" from committers/developers/users)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; sigh... knew I was going to eventually need to learn php....</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- we're a bit off topic here, though it is interesting :)  other 1.7 updates/thoughts?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;grahamtriggs&gt; tdonohue: I think I can hear that can of worms creaking...</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;PeterDietz&gt; yeah, so Oct 22 is feature freeze. Thats next month plus a few weeks, so all the real projects should progress and be committed somewhere by then</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-brick">* tdonohue looks around? what can of worms? :)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;PeterDietz&gt; the brain?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;PeterDietz&gt; ok, and after oct 22, there is a quick ramp up of scheduling deadlines, especially for quality control which means that you'll be best getting work completed sooner than later.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;PeterDietz&gt; most notably testathon being three weeks after feature freeze</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; Yep -- and actually, to clarify, Oct 22 is Feature Freeze -- no new features after then -- bug fixes are fine, but no other code changes are allowable (unless formally approved by PeterDietz)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; Ok -- is that it for 1.7 stuff?  any other comments/questions?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; I'll take that silence as a "no" :)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; continuing work on async release in trunk... branch created before the laborday holiday</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;richardrodgers&gt; I'll announce a 'contest' soon around curation - big prizes!</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/sandbox/dspace-async-prototype/">http://scm.dspace.org/svn/repo/sandbox/dspace-async-prototype/</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea, is it going well, or just beginning still?</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; not much news yet, want to formalize the process and suggest others are welcome to join in if interested</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers -- sounds great :)  prizes always welcome</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- sounds good -- I'm keeping an eye on it, but haven't had a chance to pull it down yet</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, I forgot to add this to the agenda -- I'm going to be out next Weds (DuraSpace team meeting).  Any volunteers to lead next weeks meeting?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;richardrodgers&gt; I'd like to encourage committers &amp; other developers to add their own tasks - we can distribute the best in 1.7</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mdiggory&gt; initial ideas involve breaking apart dspace-parent into separate project and discontinuing use of dependencyManagement for "trunk" modules like dspace-api etc</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;PeterDietz&gt; tdonohue, would you be interested in coming up with an agenda for next weeks meeting?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- if you pay attention recently, we've had essentially the same agenda for the last 3-4 meetings :)  (1) JIRA review, (2) 1.7 Updates, (3) if anything else comes up during the week, discuss it</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; so, there's an agenda for you :)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-brick">* mhwood wonders how to build a tool that will return a list of included components and versions, so we can still answer the question "what DSpace are you running?"</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; ls -a -l xmlui/WEB-INF/lib ?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; needs to be easier than that :)  not everyone has Linux or is a developer. would be nice to have a modules list in Admin UI</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; but, I understand that concern -- it's something we need to think about -- we need to be able to say "I'm running DSpace 1.8, with the following optional modules:  rest-api v. 1.8.2, etc etc"</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;PeterDietz&gt; I can work with that tdonohue, so I can lead discussion next week.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; thanks PeterDietz!   I'll be available on email all week -- just not sure I'll be able to pull away from the meetings to attend the IRC discussion</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; Last topic teaser:  I think we need to discuss what our committer policies should be around the Unit Tests.   We likely need to enforce using these Unit Tests &amp; updating them as part of our committer guidelines: <a href="https://wiki.duraspace.org/display/DSPACE/Guidelines+for+Committing">https://wiki.duraspace.org/display/DSPACE/Guidelines+for+Committing</a></span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not looking for a decision/vote today -- I just wanted to bring this up as something we need to all be thinking about</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kshepherd&gt; hi all, sorry i missed the meeting :/</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; I like the suggestion -- existing tests must pass, strongly encouraged to provide new tests for new code.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, my recommended language (as mhwood points out) is here: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2010-09-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2010-09-08</a></span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; obviously, we cannot require unit tests for everything, as most of our code (besides org.dspace.content.*) still doesn't have any unit tests</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;PeterDietz&gt; ok, so this meeting is adjourned.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;grahamtriggs&gt; tdonohue: JIRA migration? (:strokes the duraspace jira:)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; After a period of getting used to the framework and the style of development, policies can be stiffened a bit.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-brick">* grahamtriggs bloody stupid internet connection - I'm all out of sync</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mdiggory&gt; me too... was that a IRC fork?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;richardrodgers&gt; Sorry - have to run. Bye all</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-navy">* richardrodgers (~richardro@dhcp-18-111-12-48.dyn.mit.edu) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; yea -- grahamtriggs -- that is being discussed.  DuraSpace has another separate JIRA for Fedora/DuraCloud: <a href="https://jira.duraspace.org/secure/Dashboard.jspa">https://jira.duraspace.org/secure/Dashboard.jspa</a> (it's newer &amp; fancier).  We'll be working to move DSpace over there as well soonish (we're currently just trying to find free time to do it)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;grahamtriggs&gt; mdiggory: my Skype wouldn't connect either though... but other apps appeared to still be working</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; meeting is adjourned officially (as PeterDietz said) -- but, I'm still here if there's extra topics to discuss</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; Must go.  Thanks all!</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; not sure what happened to IRC grahamtriggs &amp; mdiggory -- i didn't see it on my end</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-235-49-191.clt.bellsouth.net) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-green">* PeterDietz (~PeterDiet@ACK5859s3.lib.ohio-state.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-navy">* HardyPottinger (80ce8627@gateway/web/freenode/ip.128.206.134.39) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-green">* ksclarke (~kevin@adsl-235-49-191.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:16]</span> <span class="irc-navy">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) Quit (Quit: alxp)</span><br />
+<span class="irc-date">[22:24]</span> <span class="irc-navy">* grahamtriggs (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Quit: grahamtriggs)</span><br />
+<span class="irc-date">[23:06]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-235-49-191.clt.bellsouth.net) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[23:17]</span> <span class="irc-green">* ksclarke (~kevin@adsl-235-49-191.clt.bellsouth.net) has joined #duraspace</span><br />

@@ -1,0 +1,104 @@
+<span class="irc-date">[0:55]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[2:08]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[4:19]</span> <span class="irc-navy">* ablemann (~alexleman@subsetsum.com) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[4:19]</span> <span class="irc-green">* ablemann (~alexleman@subsetsum.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:13]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-green">* cwilper (ad579d7c@gateway/web/freenode/ip.173.87.157.124) has joined #duraspace</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[13:00]</span> <span class="irc-green">* Ed___ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) has joined #duraspace</span><br />
+<span class="irc-date">[13:00]</span> <span class="irc-black">&lt;eddies&gt; fyi: i'll be joining the call a couple mins late</span><br />
+<span class="irc-date">[13:04]</span> <span class="irc-green">* frank__ (2e05a4bb@gateway/web/freenode/ip.46.5.164.187) has joined #duraspace</span><br />
+<span class="irc-date">[13:04]</span> <span class="irc-green">* ajs6f (4a5c9982@gateway/web/freenode/ip.74.92.153.130) has joined #duraspace</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-green">* frank__ is now known as elschlomo</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-green">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) has joined #duraspace</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Fedora Object model has not been discussed much as part of 4.0 planning.</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Set aside versioning and other warts in the current design.</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Has come up especially early with Topaz (Ambra)</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Consider about modeling as open Rdf (named graph) instead of a current form.</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Graph eventually related eventuall to immutable bytestreams</span><br />
+<span class="irc-date">[13:11]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Had a similar discussion with Steve</span><br />
+<span class="irc-date">[13:12]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Runs into object model.</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Has constructed an OWL ontology.</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Yes there are many facets, Started with storage.</span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Very open data model but started with lowest level package.</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: RDF pointing to package.</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-green">* barmintor (~barmintor@cpe-72-229-190-215.nyc.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-black">&lt;barmintor&gt; can someone post the code for the conf. line? I don</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-black">&lt;barmintor&gt; t seem to have a note of it at this machine</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-black">&lt;ajs6f&gt; RDF taking on the functionality of package</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-black">&lt;cwilper&gt; Via Phone (US Number): +1(805)399-1200, Access Code: 341861</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-black">&lt;barmintor&gt; thanks cwilper</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: We should understand that we have a balancing act to do to make useful piece of infrastructure</span><br />
+<span class="irc-date">[13:25]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: At Fedora's core it is a bridge between fine-grained and course-grained information systems - but itself is based on the lowest end include course-grained immutable bytestreams.</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Much more open ended model - possibly in OWL but graph oriented regardless.</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Earlier - Facing object model</span><br />
+<span class="irc-date">[13:29]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Dissemination provides a facade (always dynamic) where you can get the graph or parts.</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Do services go away.</span><br />
+<span class="irc-date">[13:32]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Not necessarily but need to be rethought.</span><br />
+<span class="irc-date">[13:35]</span> <span class="irc-black">&lt;barmintor&gt; Well, it depends on what folks we're talking about ;)</span><br />
+<span class="irc-date">[13:37]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Not a quad store, no big quad store in the sky.</span><br />
+<span class="irc-date">[13:37]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: yes, even linked data. :-)</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Likely internal graph for durability</span><br />
+<span class="irc-date">[13:39]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Web lacks this notion.</span><br />
+<span class="irc-date">[13:41]</span> <span class="irc-black">&lt;ajs6f&gt; Web lacks that value, even.</span><br />
+<span class="irc-date">[13:41]</span> <span class="irc-black">&lt;barmintor&gt; I have a devil's advocate comment re: IDs, and a suggestion about process</span><br />
+<span class="irc-date">[13:42]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: There is a PREMIS owl model.</span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: Tension between flexibility, openness and interoperability</span><br />
+<span class="irc-date">[13:47]</span> <span class="irc-black">&lt;Dan_Davis&gt; Eddie: Why have poople not used Fedora maybe we have overconcentrated on openness.</span><br />
+<span class="irc-date">[13:48]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: What has Fedora not been taken up or dropped.  What features: Scaling.</span><br />
+<span class="irc-date">[13:49]</span> <span class="irc-black">&lt;Dan_Davis&gt; Eddie: Get the "whys'" out in the open.</span><br />
+<span class="irc-date">[13:49]</span> <span class="irc-black">&lt;Dan_Davis&gt; Eddie: We have talked about objects as named graphs.</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: We want to do richer Rdf and need to use blank nodes.</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;barmintor&gt; When do blue-sky conversations on the committer call become publicly available design propositions that the community can respond to?</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;ajs6f&gt; And how?</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;barmintor&gt; I thnk this is a necessary step in the resolution of some sticky issues</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: What happen when intellectual object are overlayed on Fedora objects.</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-black">&lt;Dan_Davis&gt; Eddie: We need to find out what are the real issues.</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;Dan_Davis&gt; Eddie: What is Fedora's special sauce?</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Some of the questions about Quad and named graph is intended to serve other uses.</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-black">&lt;eddies&gt; gotta run. have another call</span><br />
+<span class="irc-date">[14:03]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: Reacting to Bens statement: How do we redesign and not just have words in the air.</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: How do we engage constituents.  Start with forming the use case and publish it.  Be willing to reconsider if feedback indicates a new direction.</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-black">&lt;barmintor&gt; I DEMAND IT!</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Agrees.</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: We have and need experimentation.</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Checksum bug.</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: FCREPO-787</span><br />
+<span class="irc-date">[14:08]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Worked out policy problem, tests - does not work with FESL.</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-navy">* elschlomo (2e05a4bb@gateway/web/freenode/ip.46.5.164.187) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Trying to Springify FESL. So non-web layer policies work.</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Significant change, should be considered, notes that enforcement need not be a both layers.</span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Currently a lot of copy and paste code.</span><br />
+<span class="irc-date">[14:14]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Should the policy enforcement be appropriate to the layer.</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Should not be in the web layer anyway, should be lower.</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-black">&lt;ajs6f&gt; Valedicte</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-black">&lt;ajs6f&gt; \quit</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-navy">* ajs6f (4a5c9982@gateway/web/freenode/ip.74.92.153.130) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[14:17]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: If loaded in a Web application is is loading into the Web app context.</span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-black">&lt;barmintor&gt; Thanks all!</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-navy">* Ed___ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[14:50]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-navy">* cwilper (ad579d7c@gateway/web/freenode/ip.173.87.157.124) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-green">* bradmc (~bradmc@c-24-61-23-4.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-navy">* bradmc (~bradmc@c-24-61-23-4.hsd1.ma.comcast.net) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-green">* bradmc (~bradmc@c-24-61-23-4.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-navy">* bradmc (~bradmc@c-24-61-23-4.hsd1.ma.comcast.net) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-navy">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[18:39]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[18:40]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-green">* keithg (~vtkeithg@2001:468:c80:a103:9c2e:f59c:efce:3767) has left #duraspace</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[23:13]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />

@@ -1,0 +1,264 @@
+<span class="irc-date">[1:51]</span> <span class="irc-navy">* awoods (~awoods@pool-173-66-22-133.washdc.fios.verizon.net) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[3:05]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-green">* DuraLogBot (~PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[6:02]</span> <span class="irc-green">* grahamtriggs (~trig01@80.169.130.178) has joined #duraspace</span><br />
+<span class="irc-date">[7:34]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[8:02]</span> <span class="irc-green">* awoods (~awoods@pool-173-66-110-175.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[8:32]</span> <span class="irc-green">* bradmc (~bradmc@dhcp-18-111-18-170.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[9:25]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[9:26]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[9:50]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) Quit (Quit: Heading out...talk to you later.)</span><br />
+<span class="irc-date">[9:51]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[9:55]</span> <span class="irc-green">* scottatm (~scottatm@peat.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[9:56]</span> <span class="irc-green">* krnl_ (Andrius@83.171.18.74) has joined #duraspace</span><br />
+<span class="irc-date">[10:03]</span> <span class="irc-navy">* cwilper (~cwilper@173-85-168-197.dsl1-erie.roch.ny.frontiernet.net) Quit (Quit: This computer has gone to sleep)</span><br />
+<span class="irc-date">[11:30]</span> <span class="irc-green">* cwilper (~cwilper@173-85-168-197.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-navy">* bradmc (~bradmc@dhcp-18-111-18-170.dyn.mit.edu) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-green">* grahamtriggs (~trig01@80.169.130.178) has left #duraspace</span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:06]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) Quit (Quit: Heading out...talk to you later.)</span><br />
+<span class="irc-date">[14:06]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-navy">* scottatm (~scottatm@peat.evans.tamu.edu) Quit (Quit: scottatm)</span><br />
+<span class="irc-date">[14:35]</span> <span class="irc-green">* scottatm (~scottatm@peat.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:52]</span> <span class="irc-green">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-green">* grahamtriggs (~grahamtri@cpc1-stev6-2-0-cust340.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-green">* keithg (~keith-noa@lib-kgilbertson.library.gatech.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-brick">* kshepherd nurses coffee</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; In about 4 mins, we'll be starting the DSpace Developers Meeting here.  If anyone has any topics to add to the agenda I sent out (see <a href="http://sourceforge.net/mailarchive/message.php?msg_name=4BAA244C.2000206%40duraspace.org),">http://sourceforge.net/mailarchive/message.php?msg_name=4BAA244C.2000206%40duraspace.org),</a> feel free to post your topic suggestions</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-green">* caryn_ (~80c8e115@gateway/web/freenode/x-sajqxlgjunmlongu) has joined #duraspace</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-green">* bollini (~chatzilla@host240-211-dynamic.17-87-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; ok...we may as well get started.  First thing is to welcome two more committers!  Welcome to keithg (Keith Gilbertson) and Robin Taylor (who wasn't able to make it today)!  They join PeterDietz as our latest additions</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-brick">* stuartlewis claps joyfully</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;keithg&gt; hi</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-brick">* keithg smiles</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-brick">* tdonohue joins stuart in clapping</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mhwood&gt; Welcome!  Unfortunately I have to go right now but will try to get in later in the hour.</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; bye mhwood -- see you later on</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;bollini&gt; welcome</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-brick">* grahamtriggs would join in the clapping, but can't type at the same time</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  the next item is to mention that our Wiki migration (from MediaWiki to Confluence) is on track for sometime mid-next week (likely 30th or 31st)</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-green">* PeterDietz (~PeterDiet@ACK5859s3.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; we'll be announcing the Wiki migration schedule officially later this week.  But, obviously, we'll have to 'lock down' the current wiki for a few days while we migrate to Confluence</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; We'd also appreciate all the help we can get.  DuraSpace and a few other volunteers are leading the migration and cleanup.  But, if you have any time late next week, we'd appreciate more help!</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;stuartlewis&gt; Whats the URL of the new wiki? (or will it be renamed to wiki.dspace.org?)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; it will still be wiki.dspace.org</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; the old one will be made read-only, and be moved to oldwiki.dspace.org (until it's no longer necessary to keep around)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; any other thoughts/questions about the wiki migration?</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;keithg&gt; will people with accounts on the old wiki have their accounts automatically migrated to the new wiki?</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;grahamtriggs&gt; are the confluence accounts linked to jira?</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; keithg:  Unfortunately, no.  The accounts won't carry over.  You'll have to recreate your account in the new wiki</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;PeterDietz&gt; but the up side is that creating a jira account has a captcha to reduce spammers</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; (but, if you already have an acct on www.fedora-commons.org/confluence/ , then you'll be able to use that acct -- we'll be sharing the Confluence now with Fedora &amp; DuraSpace)</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;grahamtriggs&gt; what PeterDietz meant to say is that creating a Jira account has a captcha to reduce the number of normal people with 20/20 vision that can register</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;PeterDietz&gt; And I forgot that grahamtriggs is living in autopilot, with google autoresponding for him.. which sometimes misses the captcha</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs:  Right now, Confluence Accts are not linked to JIRA -- they are on separate servers, etc.</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;grahamtriggs&gt; Google's OCR is better at dealing with Captcha than I am</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;bollini&gt; google OCR... could be interesting to make a filtermedia plugin with it :-)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; Ok...if they are any other questions about wiki migration let me know offline (or "on line" later)</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; Next Topic:  April's Special Topic Mtg.   Any suggestions on a topic to cover in that meeting?  We've had a couple ideas come up in other meetings which I've started to pull together here: <a href="http://wiki.dspace.org/index.php/Special_Topics">http://wiki.dspace.org/index.php/Special_Topics</a></span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-brick">* kshepherd is half in another meeting</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;kshepherd&gt; keithg: welcome!</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;tdonohue&gt; (please feel free to add topics to the wiki list....those are just some I've pulled out of recent IRC/email discussions)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;tdonohue&gt; Is there anything in particular you all feel is "most pressing"?   A discussion of either 'asynchronous releases / modularization' or 'what is 2.0 / how to start to get there' both seem to be hot topics.   Any others?</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;stuartlewis&gt; Have we come to any consensus yet on the previous special topic meetings we've had? (have missed a couple of meetings, so am out the loop slightly)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis:  last special topics mtg was about Release Procedures.  We came to two general consensus:</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;tdonohue&gt; (1) Scheduled releases are a good thing -- we decided to schedule 1.7 for Dec 2010  (I'll be sending a call for a release coordinator for 1.7 this week)</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; (2) The Community Advisory Team idea (<a href="http://wiki.dspace.org/index.php/ReleaseAdvisoryTeamProposal)">http://wiki.dspace.org/index.php/ReleaseAdvisoryTeamProposal)</a> was also considered a good thing -- right now we're waiting on the DSpace Outreach Group (Val's leading) to also look at that proposal and provide feedback, etc</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;stuartlewis&gt; Great - sounds good.</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; so..I think on the Release Procedures we're in a good place right now -- we just need to keep pushing those forward</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;tdonohue&gt; so, i'm open to suggestions on next topics....do we dig more into modularization (Graham &amp; Mark D's ideas)?, do we start to map out a clearer 1.6 to 1.7 to...2.0 roadmap?</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;stuartlewis&gt; 1.7 / 1.8 etc roadmap would be good.</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  sounds like a good full-meeting topic (and may even carry into later meetings) :)   Others agree?</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;kshepherd&gt; yep</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;caryn_&gt; sounds good</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;keithg&gt; yes</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;tdonohue&gt; Ok -- sounds like a consensus.   We'll make April's Special Topics Meeting (first Weds -- April 7) on the topic of DSpace RoadMap (1.7 and beyond)</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;tdonohue&gt; If you have some time before that meeting, or have any poignant questions for us to discussion, please add to the wiki:  <a href="http://wiki.dspace.org/index.php/Special_Topic">http://wiki.dspace.org/index.php/Special_Topic</a></span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;kshepherd&gt; i'm always interested in the modularity stuff.. not so much the asynchronous updates, but just looking at what @mire did with dspace-stats, for example, so we can stop stuffing things in trunk and getting told off by Mark ;)</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;kshepherd&gt; dspace-solr, i should say</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- I agree, and we could always schedule a second Special Topics meeting in April about that (no reason we cannot have two).   But, I need mdiggory to speak up on that one, and suggest that he can lead the discussion :)</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;stuartlewis&gt; We also need to start to think about how we maintain 1.6 - when we make 1.6.x releases. The bugs are starting to come in now, so would be good to perhaps get a 1.6.1 out in a month or two.</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;tdonohue&gt; Any other topics anyone wants to bring up?</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;kshepherd&gt; yeah i'd like to see 1.6.1 soon</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;bollini&gt; I'm too</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; we can do it soon. we just need a 1.6.1 Release Coordinator ;)   Any interest kshepherd or bollini?</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-brick">* kshepherd suddenly looks busy</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;bollini&gt; mmm... I like only the .2 :-)</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;tdonohue&gt; (reminder, 1.6.1 is a bug fix release -- so, it shouldn't need too much coordination.  Mostly a matter of keeping things on track and assigning things in JIRA, etc)</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;kshepherd&gt; yeah ok go on then, i can do .1, andrea can do .2 ;)</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;tdonohue&gt; A bug fix release is a good way to try out the coordinator role</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;tdonohue&gt; yea!  thanks kshepherd!   We'll put you down for 1.6.1 RC</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-brick">* stuartlewis starts clapping again, this time for kshepherd :)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;grahamtriggs&gt; imho, if we're doing a bug fix release, we should be strict on a timeframe for when it needs to be out. If we're moving to timed releases, we have to have the courage of our convictions, and give ourselves the time / space to actually do it</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs:  good thoughts.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;tdonohue&gt; any suggestions for a 1.6.1 timeframe?   Reminder that kshepherd now holds veto power as 1.6.1 RC ;)</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;kshepherd&gt; yeah i see what you've done there :P</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;stuartlewis&gt; 4 to 6 weeks?</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;kshepherd&gt; beginning of June would be nice, at the latest</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;tdonohue&gt; 6 weeks would put us at beginning of May</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;kshepherd&gt; sounds good to me</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;stuartlewis&gt; Some idiot (I'm looking at myself here!) managed to break IP Auth in 1.6, and no doubt a few other nasties will arise like this in the next few weeks. Bugs that are easy to fix, so we could release in 6 weeks or so and have a useful release.</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;tdonohue&gt; that seems reasonable to me as well</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;kshepherd&gt; we may not get enough real-world use/testing in to catch a large number of bugs by then</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;kshepherd&gt; but theres always .2</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;bollini&gt; I agree</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;stuartlewis&gt; A lot of people also wait for the first bug fix release before upgrading, so releasing that will get us more people upgrading.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;grahamtriggs&gt; does 'the beginning of' something sound like it will give us an excuse to slip it back a bit? I think I prefer the idea of a 'by the end of', to reinforce the idea of an endpoint</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;tdonohue&gt; yea...but, at least we'd be able to get out the "big bugs" (like IP Auth) -- even if we don't catch all of them</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;stuartlewis&gt; So "1.6.1 - due in May"? We're committing to May, but non-commital about exactly when! :)</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;kshepherd&gt; i'm adding the 'list / abort all workflow tasks' admin feature from JSPUI to XMLUI for 1.6.1 too</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;kshepherd&gt; that'll be done today though</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs: Ok. how about we say 6 weeks from this Friday, which is Friday, May 7 (if my count is right)</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;tdonohue&gt; it could be a trial of whether we can all stay on time/target -- if it gets pushed back, fine...we'll know to leave more time for 1.6.2</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;kshepherd&gt; i actually thought that in teh last meeting people were saying the bugfix releases shouldn't be time-driven like the major ones</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;kshepherd&gt; but obviously we need to get it out fairly quickly</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;caryn_&gt; kshepherd: that was my recollection as well...  thought i was just missing something</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd: yea, that was the decision, you were right.   So, really, it's up to you if you'd like to schedule this out *exactly* or more tentatively...</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;tdonohue&gt; even if we schedule it out *exactly*, you won't get complaints if it goes past that date (we won't announce a release date publicly until we're ready)</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;kshepherd&gt; well, nothing wrong with changing our minds.. ;)</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd: if you do get complaints, then the complainers can help you fix the last bugs! (looking at grahamtriggs) :)</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;grahamtriggs&gt; we can't 'leave more time for 1.6.2', if we're going to hit an end of year 'next version'. that's part of the religion with timed release - we have to be brutal about what we do and want makes the cut</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;bollini&gt; I think that the 1.6.1 should go out as soon as possible with all the major bugs fixed (4 weeks are good to discover more important bugs too if any)</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs: agreed.  that was a slip of language.  I didn't mean to imply we could push back indefinitely on either 1.6.2 or 1.6.1.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;kshepherd&gt; hm</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;bollini&gt; the 1.6.2 could be useful only if we see a delay in the 1.7.0 release or if more bugs arise</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;kshepherd&gt; well i think a 6-week release for 1.6.1 is fine</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;bollini&gt; there is a cost to manage a 1.6.1, 1.6.2 release and go ahead with the development of a 1.7.0 release too</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd:  I think that sounds reasonable to me as well.  Which puts us at early-May for 1.6.1, and would mean that 1.6.1 would essentially be about 2 months after 1.6.0 (which also seems reasonable)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;kshepherd&gt; in other projects, i've tended to decide on a number of bugs / amount of work per bugfix release</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;kshepherd&gt; rather than trying to guess how many bugs we'll discover/fix in a 6-week timeframe</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;kshepherd&gt; but in this case i don't think it'll be a prob</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;PeterDietz&gt; When does the "idea fetching" for 1.7 features kick off?</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz:  if you have ideas, you can already start posting them in JIRA.   We need to get a 1.7 RC in place before we officially decide on too much though -- and the SpecialTopics meeting on April 7 (see above) on RoadMap could be a place to also touch on that</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;tdonohue&gt; so, it sounds like we have a consensus on 1.6.1 in 6 weeks, with kshepherd leading.    That means we'll need to start scheduling bugs to be fixed for 1.6.1 in JIRA and assign ones that need work  (kshepherd, you obviously have lead on that -- let myself or Stuart, the previous RC, know if you need suggestions/help)</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; anything else?  otherwise we could use the next 10-15mins for a quick JIRA review to start to catch up?</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;kshepherd&gt; ok sounds good</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  let's do a JIRA review for the last 10 mins, and see if we can get through 5 or so recent issues: <a href="http://jira.dspace.org/jira/secure/IssueNavigator.jspa?reset=true&amp;&amp;pid=10020&amp;resolution=-1&amp;created%3Aprevious=-6w&amp;status=1&amp;assigneeSelect=&amp;sorter/field=created&amp;sorter/order=ASC">http://jira.dspace.org/jira/secure/IssueNavigator.jspa?reset=true&amp;&amp;pid=10020&amp;resolution=-1&amp;created%3Aprevious=-6w&amp;status=1&amp;assigneeSelect=&amp;sorter/field=created&amp;sorter/order=ASC</a></span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;tdonohue&gt; We last reviewed DS-494</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;tdonohue&gt; Reminder on Voting:   +1 = keep the issue open (suggest a version to release under or someone to assign to, if you can).   -1 = close this issue, it's invalid in some way,  0 = unsure</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;tdonohue&gt; Broken link in the documentation section  8.2.3. : <a href="http://jira.dspace.org/jira/browse/DS-495">http://jira.dspace.org/jira/browse/DS-495</a></span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;kshepherd&gt; once we've figured out where that pdf has gone, we can just assign this to jeff for 1.6.1</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;stuartlewis&gt; +1, but no idea what the link should be</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;kshepherd&gt; google doesn't seem to know where it is either</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;keithg&gt; +1</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;kshepherd&gt; +1</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;tdonohue&gt; +1 - Hmm...I'll look into that link.  Maybe this still exists someone off dspace.org</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;tdonohue&gt; Title Browse index has initial/definite articles showing up : <a href="http://jira.dspace.org/jira/browse/DS-496">http://jira.dspace.org/jira/browse/DS-496</a></span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;kshepherd&gt; ah yes, i exchanged a few emails with jeff on this</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;kshepherd&gt; it never occured to me to configure title indices the way he did</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;tdonohue&gt; yea...as you can see from my comment on that one, I was a bit stumped as well.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;grahamtriggs&gt; I think it might just be a bug in the link generation</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs: something you could fix? or point us in the right direction with?</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;grahamtriggs&gt; Probably... I need to actually go back and look at the code though</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;kshepherd&gt; really?</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;bollini&gt; mmm...</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;bollini&gt; I'm working on a new infrastructure to make more general the processing of metadata in the browse/splash page</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;bollini&gt; assign the issue to me...</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;bollini&gt; I will take a look the next week</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  will assign DS-496 to bollini.</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;PeterDietz&gt; So would correct behavior for DS-496 be for the link to not have The+... or for the link to The+ to actually work</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;tdonohue&gt; Date month and day get default values  when user returns to describe form : <a href="http://jira.dspace.org/jira/browse/DS-497">http://jira.dspace.org/jira/browse/DS-497</a></span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;kshepherd&gt; to me it just seems as though the stopwords that are taken out of the indexed 'textvalue' when jeff does that non-standard title index are causing the links to be incorrect</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: good question on DS-496.</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;bollini&gt; PeterDietz: my first response is... both</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;bollini&gt; it should work in both way according to the user configuration</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;tdonohue&gt; Any quick thoughts on DS-497?  This will be the last one: <a href="http://jira.dspace.org/jira/browse/DS-497">http://jira.dspace.org/jira/browse/DS-497</a></span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;grahamtriggs&gt; kshepherd: there isn't much point guessing at it - it's down to whether the value or the sort value should be used to generate the links, and how that should reference the map to the items.</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;kshepherd&gt; yes</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-green">* mhwood1 (~Mark@adsl-99-162-52-233.dsl.ipltin.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;kshepherd&gt; people are used to titles being specific strings that always stay intact, including stopwords</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;PeterDietz&gt; 496: So: type=title value=The+Art+of+Fugue... So long as title == The+Art+... then we're good, but if his filter turns it to trimmed_title == Art+Of+..., then the browse should be trimmed_title</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;kshepherd&gt; DS-497: I haven't noticed that, i'll have to test it myself as well</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;tdonohue&gt; Ok...we'll just leave DS-497 open for more testing.  If anyone wants to take it on, feel free to assign it to yourself.</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;kshepherd&gt; DS-496: i think i missed the part where 'sort' had anything to do with it</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;tdonohue&gt; We've run over already.  So, the meeting is officially adjourned.   But, feel free to keep discussing DS-496, if you have the time :)</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;kshepherd&gt; <a href="http://rspace.maag.ysu.edu:8080/jspui/browse?type=title&amp;order=ASC&amp;rpp=20&amp;value=The+Banshee">http://rspace.maag.ysu.edu:8080/jspui/browse?type=title&amp;order=ASC&amp;rpp=20&amp;value=The+Banshee</a> shows no results</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;kshepherd&gt; <a href="http://rspace.maag.ysu.edu:8080/jspui/browse?type=title&amp;order=ASC&amp;rpp=20&amp;value=Banshee">http://rspace.maag.ysu.edu:8080/jspui/browse?type=title&amp;order=ASC&amp;rpp=20&amp;value=Banshee</a> shows "The Banshee"</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt; the problem should be related to this code</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt; <a href="http://rspace.maag.ysu.edu:8080/jspui/browse?type=title&amp;order=ASC&amp;rpp=20&amp;value=The+Art+of+Fugue%2C+BWV+1080%2C+Contrapunctus+4">http://rspace.maag.ysu.edu:8080/jspui/browse?type=title&amp;order=ASC&amp;rpp=20&amp;value=The+Art+of+Fugue%2C+BWV+1080%2C+Contrapunctus+4</a></span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt; sorry...</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt; else if (field.equals(titleField))</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt;                         {</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt;                             metadata = "&lt;a href=\"" + hrq.getContextPath() + "/handle/"</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt;                             + items[i].getHandle() + "\"&gt;"</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt;                             + Utils.addEntities(metadataArray[0].value)</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt;                             + "&lt;/a&gt;";</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt;                         }</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;grahamtriggs&gt; yes, because the 'sort value' is used to access the map, but the (display) 'value' is used in the link. If the link used the 'sort value', it would work</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt; I think that we don't go inside the block</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-navy">* caryn_ (~80c8e115@gateway/web/freenode/x-sajqxlgjunmlongu) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;bollini&gt; mmm... no graham I don't think that the sort matter</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;grahamtriggs&gt; but there is an implication, if you have the two different display values, with the same sort value, that they both resolve to the same list of items</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-navy">* keithg (~keith-noa@lib-kgilbertson.library.gatech.edu) Quit (Quit: spring soiree)</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;grahamtriggs&gt; so it may be better to make the 'value' the link into the map, instead of the 'sort value'</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;bollini&gt; we should go to the item page, or I'm making some mistake?</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;grahamtriggs&gt; no - these are metadata lists... the unique values contained within a particular metadata field across all the items - that links to a 'second level' browse of the items that contain that metadata term</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;grahamtriggs&gt; think author list -&gt; items with that author -&gt; actual item page</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;bollini&gt; ohhh I see</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;bollini&gt; sorry</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;kshepherd&gt; yeah.. we're used to doing title indexing differently, so this example jeff's given us is a bit different to normal</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;grahamtriggs&gt; I can't remember off hand what issues where encountered whilst implementing the links that led us to the current implementation, which is why I don't just want to say 'course of action A' is the correct approach</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;bollini&gt; yes... it is a little strange but it should work... if no other can look to it before than the next week I'm volunteer</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;grahamtriggs&gt; there could be a couple of different things that we can do here, and it needs looking at the code to decide which is the right way to go</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;kshepherd&gt; bollini: cool thanks</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;bollini&gt; grahamtriggs: I have done a lot of work on the map/browse stuff for the authority support, I could also have added some bugs ;-)</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;grahamtriggs&gt; now I know who to blame, even if it was my fault. Especially if it was my fault :)</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;bollini&gt; :-D</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;kshepherd&gt; my gut feeling would be that we should keep sort value (ie. "Art+of+Fugue,+BWV+1080,+Contrapunctus+4") as the string, and fix the link generation to match</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;kshepherd&gt; but like you say.. careful testing/thinking is probably needed ;)</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;bollini&gt; we should have seen similar issues when ignoring upper/lower case</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;bollini&gt; anyway, we need to think on it ;-)</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;kshepherd&gt; it's just interesting to me that we haven't seen this before</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;kshepherd&gt; i guess most other common metadata indices like subject/keyword tend not to have long strings starting with stopwords</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;grahamtriggs&gt; Upper/lowercase issue is probably why we ended up with make in the sort value the map key - it's less fragile than using the display value (with the caveat that two different display values can link to the same list as they have identical sorts)</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;kshepherd&gt; mm..</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;kshepherd&gt; grahamtriggs: so you're leaning towards keeping sort value and tweaking link generation?</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;bollini&gt; well folks I need to leave... I will check the transcription tomorrow to see if anyone save me to fix the graham mistakes :-D</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;kshepherd&gt; haha</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;kshepherd&gt; run while you can!</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;grahamtriggs&gt; kshepherd: I said I'm staying on the fence until I've looked over the code :)</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;kshepherd&gt; heh yes, very sensible. ;)</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;bollini&gt; bye</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-navy">* bollini (~chatzilla@host240-211-dynamic.17-87-r.retail.telecomitalia.it) Quit (Quit: ChatZilla 0.9.86 [Firefox 3.6.2/20100316074819])</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;kshepherd&gt; time for nicotine, caffiene and last.fm</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-green">* mhwood1 (~Mark@adsl-99-162-52-233.dsl.ipltin.sbcglobal.net) has left #duraspace</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-green">* PeterDietz (~PeterDiet@ACK5859s3.lib.ohio-state.edu) has left #duraspace</span><br />
+<span class="irc-date">[18:49]</span> <span class="irc-green">* mdiggory_ (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[18:49]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[18:49]</span> <span class="irc-green">* mdiggory_ is now known as mdiggory</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-76-79-212-182.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-76-79-212-182.west.biz.rr.com) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) Quit (*.net *.split)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-navy">* krnl_ (Andrius@83.171.18.74) Quit (*.net *.split)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-navy">* scottatm (~scottatm@peat.evans.tamu.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-navy">* cwilper (~cwilper@173-85-168-197.dsl1-erie.roch.ny.frontiernet.net) Quit (*.net *.split)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (*.net *.split)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* scottatm (~scottatm@peat.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* cwilper (~cwilper@173-85-168-197.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* krnl_ (Andrius@83.171.18.74) has joined #duraspace</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-76-79-212-182.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-76-79-212-182.west.biz.rr.com) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) Quit (*.net *.split)</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-76-79-212-182.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[22:19]</span> <span class="irc-navy">* cwilper (~cwilper@173-85-168-197.dsl1-erie.roch.ny.frontiernet.net) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[22:43]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-76-79-212-182.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />

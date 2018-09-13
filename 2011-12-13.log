@@ -1,0 +1,48 @@
+<span class="irc-date">[4:00]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-brown">-leguin.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-brown">-leguin.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-brown">-leguin.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-brown">-leguin.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:37]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-green">* EdAtTheAlliance (1809d1a2@gateway/web/freenode/ip.24.9.209.162) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-green">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-green">* Asger (82e11a21@gateway/web/freenode/ip.130.225.26.33) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-green">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) has joined #duraspace</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; review of last week's Fedora Create extended call</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; list projects based on the latest releases</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;cwilper&gt; <a href="https://wiki.duraspace.org/display/FEDORACREATE/Create+Forum">https://wiki.duraspace.org/display/FEDORACREATE/Create+Forum</a></span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-green">* birkland (80541ff7@gateway/web/freenode/ip.128.84.31.247) has joined #duraspace</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; (thanks to the volunteers for completing the section updates!)</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-green">* motron (~ruckus@HSI-KBW-085-216-105-023.hsi.kabelbw.de) has joined #duraspace</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-green">* motron is now known as elschlomo</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; discussion on display of items based on length of elapsed time since release date ( e.g. current, 3.x compatible, discontinued, 2.x compatible, verified compatibility )</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; and inactive</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; group agreed on three categories:  current ( 3.3plus), older, inactive</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; Agenda Item 4:   recently submitted issues</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1041">https://jira.duraspace.org/browse/FCREPO-1041</a></span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1040">https://jira.duraspace.org/browse/FCREPO-1040</a>  listDatastreams fails with NPE when a policy specifies a subset of datastreams to give access to</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1038">https://jira.duraspace.org/browse/FCREPO-1038</a>   Calling HEAD on getDatastreamDissemination in REST API calls GET on the underlying service for datastreams in control group E</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;elschlomo&gt; jersey and head with no implementation: <a href="http://jersey.java.net/nonav/documentation/latest/user-guide.html#d4e127">http://jersey.java.net/nonav/documentation/latest/user-guide.html#d4e127</a></span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1004">https://jira.duraspace.org/browse/FCREPO-1004</a>    Fedora object generator</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; <a href="https://github.com/fasseg/fedora-objects-factory/">https://github.com/fasseg/fedora-objects-factory/</a></span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; Ben brings up Trippi from fcrepo-dev mailing list</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; resolution:  Steve will resolve using snapshot version rather than tag</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;cwilper&gt; Resolution on trippi issue: 1.5.3 = 1.5.4 (two tags, same commit). ANd 1.5.5 is going to be the merge of Ben's and Steve's branches. REquirement is to pass Fedora tests.</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;cwilper&gt; Also, Chris will set up Bamboo tests for Trippi (Steve or Ben send instructions)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;barmintor&gt; I'll give the hangouts a try, chris</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;EdAtTheAlliance&gt; please comment on use of Google Plus Hangout</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;cwilper&gt; Thanks for taking notes again, Ed</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-navy">* EdAtTheAlliance (1809d1a2@gateway/web/freenode/ip.24.9.209.162) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-navy">* Asger (82e11a21@gateway/web/freenode/ip.130.225.26.33) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-navy">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-navy">* birkland (80541ff7@gateway/web/freenode/ip.128.84.31.247) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-navy">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-green">* kompewter (~kompewter@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-navy">* kompewter (~kompewter@peterdietz.lib.ohio-state.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:04]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

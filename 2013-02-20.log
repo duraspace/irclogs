@@ -1,0 +1,120 @@
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-brooks.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-brooks.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-brooks.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-brooks.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:17]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[18:18]</span> <span class="irc-green">* eddies (~eddies@cm107.eta98.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[18:18]</span> <span class="irc-navy">* eddies (~eddies@cm107.eta98.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[18:18]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[18:58]</span> <span class="irc-green">* Leo_ (8f6be18b@gateway/web/freenode/ip.143.107.225.139) has joined #duraspace</span><br />
+<span class="irc-date">[18:59]</span> <span class="irc-green">* Leo_ (8f6be18b@gateway/web/freenode/ip.143.107.225.139) has left #duraspace</span><br />
+<span class="irc-date">[19:36]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has joined #duraspace</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-green">* bram-atmire (~bram@94-225-36-191.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;bram-atmire&gt; hi</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;bram-atmire&gt; just read the following "Tim will be on vacation next week (will be offline from Feb 20 - 25).  Developers are still encouraged to meet on Weds, Feb 20, but there's no formal agenda as of yet."</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-black">&lt;mhwood&gt; I'm here.  It looks like others are arriving.  Nobody has claimed the moderator's chair yet.</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;bram-atmire&gt; Hi Mark</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;bram-atmire&gt; Hi Hardy</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;mhwood&gt; Hi, new committer, and welcome!</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;hpottinger&gt; what mhwood said, welcome, bram-atmire</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;hpottinger&gt; I'm way too distracted to sit in that chair :-)</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;bram-atmire&gt; ty ty!</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;helix84&gt; hello everyone</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;helix84&gt; congrats, Bram!</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;bram-atmire&gt; thanks Ivan</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;helix84&gt; does anyone want to lead the discussion today?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; I can moderate.  We have no agenda that I know of.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; or shall we just do jira today?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; Does anyone have a topic to put forward?  Otherwise JIRA sounds good.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; Jira review sounds great</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-brick">* helix84 is keeping one eye on this channel</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mhwood&gt; Actually I did have a topic.  In times past people would file JIRA issues and then, sometimes they just sat.  So we started doing weekly issue reviews.  Now things get as far as a pull request and then, often, they just sit.  Do we need periodic PR reviews?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; JIRA issues also sometimes get stuck at "review needed".</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; s/review needed/code review needed</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kompewter&gt; mhwood meant to say: JIRA issues also sometimes get stuck at "code review needed".</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; theoretically, PRs should have always an issue associated (unless it's something like a typo)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; of course that just doesn't hold true</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; but the problem is we have two tools that are used to do a similar job</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; Jira issues and GitHub PRs</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; both can have discussion</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; and we can't just forbid discussion in Jira</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; s/Jira/GitHub/</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: and we can't just forbid discussion in GitHub</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;bram-atmire&gt; hmm, tricky that a discussion can "fork off" like that</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; the other duplication here is that PRs can't be easily associated with an issue,</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; so we just paste the link in comments where it can get lost easily</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; so we started using the has-pull-request label</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; not ideal</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; it *is* tricky, and it would be nice if Jira could tie in to those discussions, and be more pull request-aware in general</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; well Jira just leaves it up to a plugin, and no GitHub-specific plugin exists (last time I checked)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; These are important considerations, but my concern is that the scheduler never runs to allocate resources to the task.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; btw, for Jira plugin developers: <a href="https://marketplace.atlassian.com/codegeist">https://marketplace.atlassian.com/codegeist</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ Atlassian Codegeist Development Competition | Atlassian Marketplace ] - <a href="https://marketplace.atlassian.com/codegeist">https://marketplace.atlassian.com/codegeist</a></span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; a friend tells me his workplace is testing a Jira/Github plugin, and promises to report back if it's helpful</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;bram-atmire&gt; Atlassian sees Github also as a competitor in a way, especially now they have their own git product, stash <a href="http://www.atlassian.com/software/stash/overview">http://www.atlassian.com/software/stash/overview</a></span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ Enterprise Git Repository Management | Atlassian Stash ] - <a href="http://www.atlassian.com/software/stash/overview">http://www.atlassian.com/software/stash/overview</a></span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;bram-atmire&gt; so I don't know whether atlassian will invest themselves in more github interaction</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; So there's no point in waiting for Atlassian to provide a link.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; so, practically speaking, PR review would be beneficial</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; I think we need some periodic action to focus attention on waiting work and ask for reviews.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; "The task that belongs to anyone, belongs to no one."</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;helix84&gt; well, 10 minutes in the weekly pre-meeting Jira cleanup should do</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; That sounds good.  How do others feel about it?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;bram-atmire&gt; sounds good - what's the normal thing that happens when the pull request is available? Waiting for a committer to pick it up and merge?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; By the rules, nontrivial PRs require two committer approvals.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; mhwood: you mean two others than the one merging it? the 3x +1, none -1 rule?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; Depends on whether the submitter is a committer, I suppose.  Does a committer-submitter count as one approval?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; practically, I was often glad when I could get 1 other reviewer before I hit the button</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-brick">* helix84 ducks</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; <a href="https://wiki.duraspace.org/display/DSPACE/Guidelines+for+Committing">https://wiki.duraspace.org/display/DSPACE/Guidelines+for+Committing</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ Guidelines for Committing - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Guidelines+for+Committing">https://wiki.duraspace.org/display/DSPACE/Guidelines+for+Committing</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;bram-atmire&gt; tnx</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; Yes, that's what I mean.  I think that sometimes we are all sitting back thinking, "someone else is more qualified to judge this -- I'll wait".</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; easy changes often just go on through (says "Max")</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; OK, I don't know where I got the rule about two approvals.  That page says "one other committer."</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; Blah, I should read before writing.  Bug fixes:  one other.  New features:  three committers.  I read that as three *other* committers.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; ;)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; so hardy and mark, are you going to any conferences this year? (I know about Bram)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; Yes, trivial stuff can just be merged by the submitter.  "Trivial" is determined by the submitter.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; Before talking about conferences, did we have a consensus on whether to do more about moving blocked issues/PRs forward?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; sorry about derailing, I felt the discussion was kinda dying down</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; No problem, I just want to tie it up before moving on.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;helix84&gt; i assume by blocked you mean stalled, no attention</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; It looks like there is interest from several of us and no strong objection.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;helix84&gt; so, make PR review part of pre-meeting Jira review?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; Yes, whoever is working the issue is waiting for review.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; Yes, brief PR review as part of JIRA session sounds good and seemed generally acceptable.  Shall I drop a note on the committers list?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;bram-atmire&gt; sounds good</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; Please, do. I don't expect the PR without Jira issue backlog to grow too much. I usually try to let people know that a Jira issue is expected for PRs.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; So it shouldn't take long to review</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; I will do that.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mhwood&gt; Done.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-navy">* bram-atmire (~bram@94-225-36-191.access.telenet.be) Quit (Ping timeout: 255 seconds)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; On to conferences?  I'll be at OR13 if there are no big delays in getting a passport.  That more than consumes my travel budget for the year, so other venues seem unlikely.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; best I can do is "I think I'm going"</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; btw there's a thread about who's attending OR</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; Other topics?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Quiet in here....</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; [chirp] [chirp]</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; [tumble] [tumble]</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, distracted, boss is here talking about other stuff, and have a 3pm meeting coming up</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; Understood.  Shall we close the meeting?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;hpottinger&gt; gotta go, later folks</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; Seeing folks leaving, I'll declare the official meeting closed.  I'm here for another hour for informal discussion, if any.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-green">* bram-atmire (~bram@94-225-36-191.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;bram-atmire&gt; my internet got disconnected</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;bram-atmire&gt; but just saw in the logs that there was not much further discussion</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;bram-atmire&gt; goodnight</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-navy">* bram-atmire (~bram@94-225-36-191.access.telenet.be) Quit (Client Quit)</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-green">* blob_ (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-navy">* blob_ (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Client Quit)</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has left #duraspace</span><br />

@@ -1,0 +1,161 @@
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sendak.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sendak.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sendak.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sendak.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<pre>(manually inserted notes due to DuraLogBot failure...thanks ajs6f)
+
+[09:02] == ajs6f [89361d33@gateway/web/freenode/ip.137.54.29.51] has joined #duraspace
+[09:04] == eddies [~eddies@cm126.sigma9.maxonline.com.sg] has joined #duraspace
+[09:04] == eddies [~eddies@cm126.sigma9.maxonline.com.sg] has quit [Changing host]
+[09:04] == eddies [~eddies@unaffiliated/eddies] has joined #duraspace
+[09:04] <ajs6f> http://www.webexhibits.org/daylightsaving/franklin3.html
+[09:04] <kompewter> [ Full text - Benjamin Franklin - The Journal of Paris, 1784 ] - http://www.webexhibits.org/daylightsaving/franklin3.html
+[09:06] == ruckus [~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de] has joined #duraspace
+[09:06] <ajs6f> Adam reluctantly agrees to take notes.
+[09:06] == ruckus has changed nick to elschlomo
+[09:07] <ajs6f> Possible special topic call for fcrepo-store.
+[09:08] <ajs6f> Special topic all will be put off for a few weeks to ensure participation.
+[09:08] <ajs6f> all -> call
+[09:11] <ajs6f> Questions about JCR raised by Mark Diggory on mailing list.
+[09:11] <ajs6f> Is Apache Jackrabbit scalable?
+[09:11] <ajs6f> Does it support transactionality, and if so, how?
+[09:13] <ajs6f> Frank: If we get into JCR, at what level of architecture would it be offered?
+[09:13] <ajs6f> Chris: Could be several places. Northwestern implemented it at a high level.
+[09:14] <ajs6f> Chris: Could be a JCR-specific implementation for storage.
+[09:14] <ajs6f> Chris: Depends on what we want to commit to.
+[09:14] <ajs6f> Dan: The JCR semantics are less capable than Fedora's.
+[09:15] <ajs6f> Chris and Adam: They're different. "Disjoint"
+[09:15] <ajs6f> Chris: Could be good to look at JCR's capabilities and what use it could be, but there's a cost of committing to those extra semantics.
+[09:16] <ajs6f> Dan: JCR semantics are a great improvement over Java EE's API-centricity .
+[09:16] <ajs6f> Dan: But Fedora is already even better.
+[09:17] <ajs6f> Dan: Storage has two parts: authoring (where transactionality  is very important)
+[09:17] <ajs6f> and making it accisble to the world (where scalability is important).
+[09:17] <ajs6f> accisible -> accessible
+[09:17] <ajs6f> Dan: And now we have the cloud, which speaks to the latter, and JCR speaks to the former.
+[09:18] <ajs6f> Dan: Tiered storage and asynchronous operations, grading out things for high scalability: these should also be on the table.
+[09:18] <ajs6f> Frank: Ala EC2.
+[09:20] <ajs6f> Chris: How does Jackrabbit scale?
+[09:21] <ajs6f> Adam: Not totally sure-- lots of possibilities of different architectures.
+[09:21] <ajs6f> Dan: We can narrow the search space.
+[09:21] <ajs6f> Chris: Eddie and Chris have looked at Sling-- not sure where the architectural discussion would lead.
+[09:22] <ajs6f> Eddie: Mea culpa!
+[09:22] <ajs6f> Eddie: Didn't push the fcrepo-store-util work Eddie has done.
+[09:23] <ajs6f> Eddie: Still work in progress-- should be out there to get people thinking.
+[09:24] <eddies> fcrepo-store-util
+[09:24] <ajs6f> is a framework and CLU to do migrations between stores.
+[09:24] <ajs6f> Eddie: How to get this kind of CLU to chain?
+[09:25] <ajs6f> Eddie: http://jewelcli.lexicalscope.com/
+[09:26] <ajs6f> Adam: Might take a look at Apache Karaf shell.
+[09:26] <ajs6f> Eddie: Lots of use cases, including changing datastream type, Rebecca's checksum problem, lots of others.
+[09:27] <ajs6f> Adam: Change the nature of the Fedora CLI?
+[09:27] <ajs6f> Eddie: Maybe, not sure.
+[09:27] <cwilper> https://github.com/cwilper/fcrepo-store/blob/master/fcrepo-store-util/src/main/conf/commands/copy.xml
+[09:27] <kompewter> [ fcrepo-store/fcrepo-store-util/src/main/conf/commands/copy.xml at master · cwilper/fcrepo-store · GitHub ] - https://github.com/cwilper/fcrepo-store/blob/master/fcrepo-store-util/src/main/conf/commands/copy.xml
+[09:27] <ajs6f> Eddie: Not enough motivation to do anything major.
+[09:28] <ajs6f> Adam: (Shares Eddie's ennui.)
+[09:29] <ajs6f> Chris: This is not fully tested, but it shows migration between Akubra stores.
+[09:29] <ajs6f> Chris: The code uses Spring configuration, and this could be a general pattern.
+[09:30] <ajs6f> Chris: This is also using one approach to pipelining, using filters that are tied together to process.
+[09:31] <ajs6f> Chris: Filters can either transform or accept/reject objects.
+[09:31] <cwilper> http://cwilper.github.com/ttff/apidocs/com/github/cwilper/ttff/Filters.html
+[09:32] <ajs6f> Chris: This is a filters utility class, which can AND/OR/NOT together filters.
+[09:32] <ajs6f> Chris: Was originally written for CloudSync, but the challenge was configuring the workflow.
+[09:33] <ajs6f> Dan: How about Apache Camel?
+[09:33] <ajs6f> Chris: Have taken a look. That's one reason CHris didn't take the filters too far.
+[09:33] <ajs6f> Chris: Lots of alternatives out there.
+[09:34] <barmintor> morning all.  No mic, but on the call.
+[09:34] <ajs6f> Hi, Ben!
+[09:34] <ajs6f> Bye, Eddie!
+[09:34] <ajs6f> Adam/Eddie: Lots of people have been using Camel in the larger community.
+[09:35] <ajs6f> Bill Parod (NW), Chris Beer (WGBH), Adam, Scott PRater, others.
+[09:37] <ajs6f> Chris: How about some Camel examples?
+[09:38] <ajs6f> Adam: Can look at Camel website for good examples, and we can get some from the community (Bill P. and Adam, for example).
+[09:38] <ajs6f> Adam: Camel is very strong, very widely used, great DSL, good place to build business logic for pipelining or message-passing workflows.
+[09:39] <ajs6f> Chris: The fcrepo-store-util goes pretty much right against the filesystem. There are other ways to do it.
+[09:39] <ajs6f> Chris: Please take a look at the utility-- let's get talking about 4.x.
+[09:40] <ajs6f> Chris: Questions raised as to what is a core Fedora component. We've tried to keep that small, as an architectural principle.
+[09:40] <ajs6f> Chris: So where does a utility like this live? In the same category as Fedora client?
+[09:41] <ajs6f> Chris: Until we're ready to recommend and support something, it isn't a core component.
+[09:41] <ajs6f> Adam: How about the GSearch model?
+[09:41] <ajs6f> Chris: Prefers even more independence.
+[09:41] <ajs6f> Chris: Good for these ancillary tools to grow and live outside the core committers group.
+[09:42] <ajs6f> Chris: GSearch has a tighter relationship to Fedora's core.
+[09:42] <ajs6f> Chris: Thinking of projects that are as "far way" as Blacklight.
+[09:43] <ajs6f> Dan: Think of things like tool plugins, maintained by other folks.
+[09:43] <ajs6f> Dan: things that have a cross-presence in DuraSpace/Fedora, ala Atlassian's Confluence/Jira plugin libraries.
+[09:44] <ajs6f> Dan: They have a clear line as to what they support, but they still foster community and development outside that line.
+[09:44] <ajs6f> Dan: Just drawing that line.
+[09:45] <ajs6f> Adam: Not as easy for Fedora to offer plugin space.
+[09:45] <ajs6f> Dan: Two good places to offer plugin-- at the code level, at the level of shareable objects...
+[09:45] <ajs6f> and at the level of the framework.
+[09:45] <ajs6f> Bye, Frank!
+[09:46] <ajs6f> Chris: Attlassian's plugin ecosystem is quite rich. Just having a central registry would be a good deal.
+[09:46] <ajs6f> Chris: How much are we (committers) maintaining collectively?
+[09:47] <ajs6f> Chris: We should be empowered to support good things that don't come out of the core development effort.
+[09:47] <ajs6f> Chris: E.g. MediaShelf-sourced client.
+[09:47] <ajs6f> Chris: Is there an official line we can draw?
+[09:48] <ajs6f> Adam: Doesn't think we have one now, but we could create one.
+[09:48] <ajs6f> Dan: Atlassian is a good role model.
+[09:49] <ajs6f> Dan: People do their own thing, and if it is badly needed, then you might want to take it on.
+[09:49] <ajs6f> Adam: We want to be precise about "badly needed".
+[09:50] <ajs6f> Chris: This utility is aimed at Rebecca's problem, but if it becomes the official upgrade path for legacy storage -> Akubra, then other committers should be involved.
+[09:50] <ajs6f> Dan: Chris has laid out some of the guiding elements for the Fedora committers.
+[09:50] <ajs6f> Dan: For 4.x and onwards, how do we make a vibrant community easy?
+[09:51] == elschlomo [~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de] has quit [Quit: [BX] Automatically bored away]
+[09:51] <ajs6f> Dan: Sometimes it's surprisingly easy to get mindshare by finishing out key extension points.
+[09:51] <ajs6f> Dan: E.g. OSGi support, things that provide a framework for extensions.
+[09:52] <ajs6f> Dan: Provide shareability for content modeling.
+[09:52] <ajs6f> Adam: That's been on the horizon for a long time.
+[09:52] <ajs6f> Dan: Hasn't been any motivation because the work has been mature enough.
+[09:52] <ajs6f> has -> hasn't
+[09:53] <ajs6f> Dan: This utility can be a point at which people can add on their own functionality.
+[09:53] <ajs6f> Adam: So it's really important to have a good framework for utilities.
+[09:53] <ajs6f> Chris: No urgent Jira issues.
+[09:54] <ajs6f> Chris: Let's take a look at Jira.
+[09:54] <ajs6f> https://jira.duraspace.org/browse/FCREPO-1057
+[09:54] <kompewter> [ [#FCREPO-1057] ECM validation of MIMEType does not allow objects to specify charset if none is specified in the CModel - DuraSpace JIRA ] - https://jira.duraspace.org/browse/FCREPO-1057
+[09:56] <ajs6f> Chris: Some things need to be resolved, at least it should be specified down to inner syntax for MIMEtypes.
+[09:56] <ajs6f> Chris: Let's open it.
+[09:57] <ajs6f> Chris: Frank pointed out some cleanup in the use of collections that shold be done.
+[09:57] <ajs6f> https://jira.duraspace.org/browse/FCREPO-1056
+[09:57] <kompewter> [ [#FCREPO-1056] Unsafe usage of Lists in some classes - DuraSpace JIRA ] - https://jira.duraspace.org/browse/FCREPO-1056
+[09:58] <ajs6f> Adam: Just some pregenerics baggage.
+[09:58] <ajs6f> Chris: Let's open it!
+[10:00] <ajs6f> https://jira.duraspace.org/browse/FCREPO-1055
+[10:00] <kompewter> [ [#FCREPO-1055] Shared resource for XML operations - DuraSpace JIRA ] - https://jira.duraspace.org/browse/FCREPO-1055
+[10:01] <barmintor> what will be the impact on implementation time to use osgi there?
+[10:01] <barmintor> as opposed to just sharing a compiled xsl?
+[10:02] <ajs6f> Adam: Steve and I had a long conversation about this-- good place to put the camel's nose under the tent for reworking resource provisioning for better architecture.
+[10:02] <ajs6f> Adam: Could be a place to introduce OSGi micro-services.
+[10:02] <ajs6f> Chris and Dan: Yeah, maybe...
+[10:03] <ajs6f> Dan: Let's re-own the term "microservices".
+[10:03] <ajs6f> Fin.
+
+</pre>
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:26]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[9:42]</span> <span class="irc-brown">-calvino.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[9:42]</span> <span class="irc-brown">-calvino.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[9:42]</span> <span class="irc-brown">-calvino.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[9:42]</span> <span class="irc-brown">-calvino.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-brown">-niven.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-brown">-niven.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-brown">-niven.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-brown">-niven.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[14:18]</span> <span class="irc-green">* cwilper (ad579d7c@gateway/web/freenode/ip.173.87.157.124) has joined #duraspace</span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-black">&lt;cwilper&gt; Hmm..looks like DuraLogBot got disconnected as a result of the ec2 outage this morning.  Anyone got today's chat in their scrollback buffer? If so can you send to my nick @duraspace.org please?</span><br />
+<span class="irc-date">[14:22]</span> <span class="irc-black">&lt;cwilper&gt; oh, ajs6f already did...thanks</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-navy">* ajs6f (89361d33@gateway/web/freenode/ip.137.54.29.51) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[14:29]</span> <span class="irc-navy">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[14:40]</span> <span class="irc-navy">* ed____ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[14:44]</span> <span class="irc-navy">* cwilper (ad579d7c@gateway/web/freenode/ip.173.87.157.124) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[19:15]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[19:20]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Client Quit)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

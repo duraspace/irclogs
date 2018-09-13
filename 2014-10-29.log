@@ -1,0 +1,181 @@
+<span class="irc-date">[2:02]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:c49:792f:15d1:24ef) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sinisalo.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sinisalo.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sinisalo.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sinisalo.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[11:35]</span> <span class="irc-navy">* helix84 (~ctenar@195.178.95.132) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[11:43]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[11:43]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has left #duraspace</span><br />
+<span class="irc-date">[11:43]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[12:19]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:27]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-green">* hpottinger (~hpottinge@161.130.188.162) has joined #duraspace</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-green">* hpottinger_ (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-navy">* hpottinger (~hpottinge@161.130.188.162) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-green">* hpottinger_ is now known as hpottinger</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[19:28]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d5153D041.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for our weekly DSpace Developers meeting</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-10-29">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-10-29</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-10-29 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-10-29">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-10-29</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; The primary topic for today is obviously 5.0.  As noted in the agenda, the "freeze" still hasn't fully occurred.  Currently there are two outstanding feature tickets</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;peterdietz&gt; We've also been able to add additional hands to the release team. Thanks everyone</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; yes, does the RT have anything else they'd like to mention before we "jump in"? peterdietz / hpottinger?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;peterdietz&gt; #best-release-ever</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://github.com/DSpace/DSpace/milestones/5.0-feature-freeze">https://github.com/DSpace/DSpace/milestones/5.0-feature-freeze</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ Issues · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/milestones/5.0-feature-freeze">https://github.com/DSpace/DSpace/milestones/5.0-feature-freeze</a></span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status</a></span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 5.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status</a></span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; So, peterdietz / hpottinger: Would it be better to review the two tickets on the agenda, or just start with that "5.0-feature-freeze" milestone in GitHub?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; We've actually added 3 members</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;peterdietz&gt; start with the DevMtg agenda</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good. OK, so the first ticket on our agenda is DS-1227</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a> ] - [DS-1227] Tag cloud for any browse index in the home page of DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; hmm..this looks to be merged already? Just awaiting docs?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; my mistake then :)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;peterdietz&gt; yeah, DSPR#701 got it</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/701">https://github.com/DSpace/DSpace/pull/701</a> ] - DS-1227: Tag cloud for any browse index or Discovery facet (JSPUI only) by helix84</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; OK, so then the one major outstanding feature is DS-2167 / DSPR#686</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2167">https://jira.duraspace.org/browse/DS-2167</a> ] - [DS-2167] Automate database upgrades - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/686">https://github.com/DSpace/DSpace/pull/686</a> ] - DS-2167: Add Flyway automatic database upgrades to DSpace by tdonohue</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;peterdietz&gt; flyway demonstrates how much a pain Oracle is?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; As the RT is aware, I've been working to get this ready for 5.0 behind the scenes.  With a ton of testing help from helix84, mhwood, hpottinger, and more, it's now seemingly "stable" on PostgreSQL. Though, there are still some (seemingly minor) outstanding Oracle issues</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; "has been" it's a stroll down memory lane for all the old upgrade SQL scripts</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; As I'm a bit "biased" about whether this one gets into 5.0 or not, I think I might hand this discussion over to peterdietz (or hpottinger).</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; I'm pretty biassed, too, I really want this feature to make it in</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;peterdietz&gt; Everyone wants to see easier upgrades, and flyways gives that, by figuring out whats going on in your database, and ensure it gets upgraded</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; so, I'm all for merging it, I'd just like to ensure that the webapps spin up as normal on Oracle</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, as a summary point...this feature is using FlywayDB (<a href="http://flywaydb.org/)">http://flywaydb.org/)</a> to automatically upgrade you to DSpace 5.0.  Currently, with PostgreSQL, we've had successful tests of upgrading old DSpace 1.7/1.8/3/4 databases automatically to 5.0 just by pointing DSpace at them</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; which is just so cool it makes my head tingle</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; But, with Oracle, we're having some small issues still...the DB migrations work fine, but spinning up the webapps is hitting a small snag (which I think we can get around, to be honest)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;peterdietz&gt; I cannot figure out how to spin up an Oracle DB.. Completely un-simple, compared to mysql / postgresql</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+with+Oracle+DB+test+instance">https://wiki.duraspace.org/display/DSPACE/DSpace+with+Oracle+DB+test+instance</a></span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace with Oracle DB test instance - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+with+Oracle+DB+test+instance">https://wiki.duraspace.org/display/DSPACE/DSpace+with+Oracle+DB+test+instance</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; just download the Vbox image and boot it up, pretend it's an app in your user space if you have to, it's just the same, still on localhost, just a different port</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; So, again,  I'm biased here (I think Flyway is ready, but it does need more help to fix the last few bugs in Oracle...likely I just need to spin up Oracle myself as well using hpottinger's tips)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; I guess the question in my mind is do we want this in 5.0 (in which case I'm very willing to spend more time fixing the last few bugs)?  Or does anyone see a reason why it shouldn't be in 5.0?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; WANT</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;peterdietz&gt; I would say we're still planing on going for flyway.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; I'd be +1 for merging it now, but the webapps won't load... which turns it into a blocker for me</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;peterdietz&gt; Not to be devil's advocate, but could flyway say: if(ORACLE), die. i.e. flyway gets out of the way, and oracle people are on their own? Obviously not what we want to do... But an escape hatch</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: I think the escape hatch is harder to code at this point than fixing the last few bugs for Oracle.   I have a suspicion as to what *might* be happening with Oracle...I think it's might be somewhat related to how Oracle schemas != Postgres schemas...and it might be in my own code</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. I think Oracle is 95% of the way there..but we obviously need to get it to a point where the webapps actually spin up :)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;peterdietz&gt; ok. so what are our options now. Merge flyway as-is. Create a new PR tracking the remaining oracle bugs?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; if we do that we knowingly break master for Oracle</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;peterdietz&gt; we'll find people eager to test the fixes then?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; I think the options are: (1) merge now (but yes, we break Oracle on master), or (2) ensure me that Flyway IS *IN* pending the final Oracle webapp fix...then we work to fix that ASAP and merge once fixed</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; I have an environment where it's not too difficult to test on Oracle.  If it gets the Flyway code into master, I'm in.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;hpottinger&gt; there are a few Oracle testers (almost all present, and none of us I'd describe as "eager") :-)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Somewhat related to all this is that we are now "behind" on our 5.0 schedule, which has 5.0RC1 on FRIDAY, and 5.0 TESTATHON on MONDAY. <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 5.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; oi, I forget RC day</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; While we might be ready for an RC1 by Friday (pending these Oracle fixes).  It seems like we should give folks some advanced notice on Testathon.  Monday seems too soon at this point, unfortunately</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; thoughts?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; if we can actually cut an RC on Friday, that's still the schedule</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-brick">* tdonohue worries that the later we announce Testathon, the more likely we won't get many community testers (not to mention we need time to update demo.dspace.org)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;peterdietz&gt; I can likely spin up an instance on longsight.com</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;peterdietz&gt; We have our dspace4 instance: trydspace.longsight.com</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;hpottinger&gt; demo.dspace.org will run into AIP loading failures</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; DS-2195</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2195">https://jira.duraspace.org/browse/DS-2195</a> ] - [DS-2195] importing AIPs with DSpace:master throws an NPE - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; Do we have a simple case to reproduce that NPE?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding 5.0 schedule:  There is still some "wiggle room" in the schedule, if we want it.  We *could* delay Testathon until Nov 10-24.  That'd also push back RC2 though and the final release.  So, 5.0 would more likely be released in mid-Dec instead of early Dec</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* robint (5eaf588c@gateway/web/freenode/ip.94.175.88.140) has joined #duraspace</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;robint&gt; Belated hi</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I've been trying to get time myself to help on 2195 / investigate. But, I'm deep into getting flyway fixed first</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; Sure: 1) download Vagrant and Virtualbox, 2) git clone Vagrant-DSpace 3) copy the AIPs from demo.dspace.org to the content folder of Vagrant-DSpace, vagrant up, wait for the NPE</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; Hi robint. Hopefully you can read the logs to catch up</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; vagrant is required, to make this happen?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; no, it's the quickest path to loading the AIPs from demo</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; vagrant shouldn't be required. Seems like if vagrant is throwing that error, you *should* see the same error by simply trying to load the AIPs from demo.dspace.org into *any* "master" install</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; OK, that shouldn't be hard to arrange.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; Just be sure to set your handle to be the same as demo, or the AIPs won't load</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; I think we need to stuff the code full of debug logging and find out more detail about what it is doing at the time.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; Thanks for tip.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; OK, sorry to bail early, I have an appointment I have to run off to</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; I give my proxy to peterdietz</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like we have both Flyway (DSPR#686) and DS-2195 standing in the way of a Testathon, right?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2195">https://jira.duraspace.org/browse/DS-2195</a> ] - [DS-2195] importing AIPs with DSpace:master throws an NPE - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/686">https://github.com/DSpace/DSpace/pull/686</a> ] - DS-2167: Add Flyway automatic database upgrades to DSpace by tdonohue</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; AIPs to test with on demo are in ~/AIP-restore?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; Duh, read README, Mark!</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Given that, again, wondering what others think about upcoming schedule now...do we need to delay Testathon a week (move to Nov 10-24)?  Or are we still trying to push for Testathon starting Monday? (in which case we really need to get the word out *now* to the community)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-brick">* tdonohue (crickets...)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; IMO people will set aside time once for testing, so better to have the product as ready as possible</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; even if that means dealying a week</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; delaying</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I also hate going into Testathon with at least one major known bug (especially a bug which gets in the way of trying to load test AIP content in Ds-2195)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;robint&gt; But I confess I don't have much feel for how ready we are</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz, you still around? just curious your thoughts as RT Lead</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; (though anyone else is also welcome to chime in with thoughts)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;peterdietz&gt; I'm happy with having test-a-thon next week.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;peterdietz&gt; mid-end December is way too hectic..</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;peterdietz&gt; (or atleast was, when I was at university)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;peterdietz&gt; how much lead time will testers need?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;peterdietz&gt; i mean, if we're 95% confident that we'll be on schedule now</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: I'm worried we don't know whether we'll be on schedule. I *think* Flyway (DSPR#686) will be ready by Friday (pending help on the Oracle side).  But, I don't know how close we are to fixing DS-2195</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2195">https://jira.duraspace.org/browse/DS-2195</a> ] - [DS-2195] importing AIPs with DSpace:master throws an NPE - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/686">https://github.com/DSpace/DSpace/pull/686</a> ] - DS-2167: Add Flyway automatic database upgrades to DSpace by tdonohue</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; as for lead time..I think the more lead time we can give folks, the more likely we can convince them to "block off" an hour or two.  I'm specifically thinking about getting Repository Mgrs to help test...as they tend to have a lot of meeting filled days</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; So, if we are serious about keeping Testathon on schedule for Monday, I feel we really should be announcing today (or tomorrow at the latest)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;peterdietz&gt; most user facing things will be okay even if we're still working on AIPs and flyway. Those mostly affect sysadmin</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;robint&gt; Very true, most testers will test UI or installation/upgrade</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; So, if we want to make this happen for next week, we need: (1) an announcement to lists about Testathon (we can grab text from old announcements), (2) concentrated work to get Flyway / AIP bug done ASAP, (3) someone to do RC1 on Friday, and (4) someone to get demo.dspace.org updated to RC1</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; robint: yep, but install/upgrade testing requires the new Flyway work (PR#686) &amp; updated docs for it (both are on my plate)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;peterdietz&gt; I can (1) Announce, and SamOttenhoff and I can spin up (3b) trydspace5.longsight.com</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;robint&gt; tdonohue Yep that one is essential</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'll be swamped likely getting Flyway + updated documentation. I likely won't have time to help with anything else before Monday</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;peterdietz&gt; So, if we just delay by one week, then maybe we'll have more breathing room to concentrate on AIPs/flyway</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;peterdietz&gt; (sorry to potentially waffle)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;robint&gt; If I were cutting the RC1 release I would ideally want to do it on Thursday because its not unusual for there to be an unforeseen problem</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: yea, delaying would give more breathing room.  It also gives us time to actually *bang on* master (with Flyway in place) ourselves...I feel like all we've really done is "merge stuff"...no one has actually done some initial testing for obvious bugs</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;aschweer&gt; it sounds like delaying might be best, both to give more time to sort out the two remaining issues and to give people more advance notice</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer++</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;peterdietz&gt; ok, so announce today, that testathon is week+half away, We cut next thurs?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;peterdietz&gt; fine with me</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;peterdietz&gt; I might be able to still set-up a preRC version</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: If testathon is a week+half away, we can even wait to announce until next week... don't need an immediate announcement, but sometime early next week would be good</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: having a pre-RC version to bang on still might be nice. It'd let us hopefully fine the obvious bugs before opening things up to the entire community</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;aschweer&gt; maybe give DCAT an early heads-up, if we expect significant testing from them</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; Confirmed:  I can reproduce the NPE from Ds-2195 using latest master and AIPs from demo, on PostgreSQL.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;peterdietz&gt; okay, then there's still numerous bugs, in the PR queue. So, it would be good to have a balance of running current master for some time,</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to giving DCAT advanced notice. RT could even send out an updated schedule to everyone if we want...and then just *remind* folks next week about Testathon starting Nov 10</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so to summarize here (since we are at time)....</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; oops, DST is over...</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; Testathon will be Nov 10-21.  RC2 would be delayed (maybe Dec 1?).  Final release hopefully in first few weeks of December.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;robint&gt; helix84: I remembered half way through the meeting :)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; In the meantime, we'll get DSPR#686 fixed up for Oracle &amp; merged, DS-2195 fixed...and we'll all bang on "master"</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;peterdietz&gt; US DST changes this sunday at 2am</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2195">https://jira.duraspace.org/browse/DS-2195</a> ] - [DS-2195] importing AIPs with DSpace:master throws an NPE - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/686">https://github.com/DSpace/DSpace/pull/686</a> ] - DS-2167: Add Flyway automatic database upgrades to DSpace by tdonohue</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; oh, that's right, our DST schedules are different again. Sorry helix84 &amp; robint</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; USA doesn't change till this weekend</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; It'd be soo much easier if the whole world obeyed the same rules with regards to time changes ;)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; don't worry, we're here to beta-test for you</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; :-)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;peterdietz&gt; There are still outstanding Pulls, so feel free to test the small improvement / bug-fixes. And then, if you can, look at flyway/AIP</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz++  Anyone who has time to help out with reviewing bug fixes, please do so!</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; And also feel free to give feedback on Flyway #686 ;)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; and when you're donr, we'll get plenty more during the testathon, yay!</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; we've even helpfully categorized the PRs which relate to bugs: <a href="https://github.com/DSpace/DSpace/labels/bug">https://github.com/DSpace/DSpace/labels/bug</a></span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Issues · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/labels/bug">https://github.com/DSpace/DSpace/labels/bug</a></span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;robint&gt; Got to run. Cheers</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; I have to go.  I'll be looking into Ds-2195.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-navy">* robint (5eaf588c@gateway/web/freenode/ip.94.175.88.140) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; Sorry, got pulled away for a moment.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;KevinVdV&gt; Needs to run, until next time</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;aschweer&gt; I have to go too. I'll try to find some time for PR testing etc. Bye all.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d5153D041.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; That's really all I have for today. So, the official meeting is closed!</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-green">* peterdietz (~peterdiet@server112.longsightgroup.com) has left #duraspace</span><br />
+<span class="irc-date">[22:17]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:44]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />

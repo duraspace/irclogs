@@ -1,0 +1,263 @@
+<span class="irc-date">[0:57]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[0:57]</span> <span class="irc-brown">-wolfe.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[0:57]</span> <span class="irc-brown">-wolfe.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[0:57]</span> <span class="irc-brown">-wolfe.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[0:57]</span> <span class="irc-brown">-wolfe.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-asimov.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-asimov.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-asimov.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-asimov.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-asimov.freenode.net- [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: <a href="http://freenode.net/faq.shtml#gettinghelp">http://freenode.net/faq.shtml#gettinghelp</a></span><br />
+<span class="irc-date">[12:03]</span> <span class="irc-green">* jonathangee (~jonathang@blk-222-249-31.eastlink.ca) has joined #duraspace</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:37]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-green">* eddies (~eddies@cm209.epsilon173.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-navy">* eddies (~eddies@cm209.epsilon173.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-green">* eddies (~eddies@cm209.epsilon173.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-navy">* eddies (~eddies@cm209.epsilon173.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-green">* eddies (~eddies@cm209.epsilon173.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-navy">* eddies (~eddies@cm209.epsilon173.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[18:55]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* bollini (~chatzilla@host119-68-dynamic.11-87-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* kstamatis (5e42133c@gateway/web/freenode/ip.94.66.19.60) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi DSpace Developers.  It's time for our weekly developers meeting.  Today's agenda : <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-08-14">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-08-14</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2013-08-14 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-08-14">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-08-14</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; we'll get started with a few Pull Request reviews. <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Today we start up at #210 : <a href="https://github.com/DSpace/DSpace/pull/210">https://github.com/DSpace/DSpace/pull/210</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1269] EmailService to encapsulate the sending of mail by mwoodiupui · Pull Request #210 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/210">https://github.com/DSpace/DSpace/pull/210</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; related to DS-1269</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1269">https://jira.duraspace.org/browse/DS-1269</a> ] - [#DS-1269] EmailService to encapsulate the sending of mail - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* pbecker (5cce51d9@gateway/web/freenode/ip.92.206.81.217) has joined #duraspace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mhwood&gt; Looks like I need to update this a bit.  It's not auto-merge-able at the moment.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; looks like unfortunately this work (PR#210) is unmergeable / outdated.  The idea seems reasonable to me though</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;pbecker&gt; hello</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; So, mhwood, you plan to do a (hopefully quick) rebase of this?   I like the idea here..would be good to integrate more things in as services in general</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I will do that.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; ok, sounds good. Let us know when it's ready for more eyes again.  We'll move along then for now. (If anyone has additional comments, feel free to add to DS-1269</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1269">https://jira.duraspace.org/browse/DS-1269</a> ] - [#DS-1269] EmailService to encapsulate the sending of mail - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; next PR to review today, #212 <a href="https://github.com/DSpace/DSpace/pull/212">https://github.com/DSpace/DSpace/pull/212</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1360 Porting advanced embargo function to JSPUI by helix84 · Pull Request #212 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/212">https://github.com/DSpace/DSpace/pull/212</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; related to DS-1360</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1360">https://jira.duraspace.org/browse/DS-1360</a> ] - [#DS-1360] A porting advanced embargo function to JSPUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;bollini&gt; I'm going to finalize the review</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; ok, sounds good, bollini.  I see you have already done a good review here</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;bollini&gt; just to be clear... I want move on two steps here</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;bollini&gt; get the pull request merged to establish parity between jspui and xmlui</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; bollini: feel free to fork that branch and work on it</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;bollini&gt; and after review the private item meaning</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; sounds great</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: yea, that seems good to me too.  It would be good to establish parity first</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; So, let us know if there's anything else you need us to help review, bollini.  Otherwise, we can try and find a meeting to talk more about "private items" again, as needed.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-green">* robint (522a6b02@gateway/web/freenode/ip.82.42.107.2) has joined #duraspace</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;robint&gt; Hi all</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; ok. I'm gonna move on to one more PR review for today.  #213 : <a href="https://github.com/DSpace/DSpace/pull/213">https://github.com/DSpace/DSpace/pull/213</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1390] stage 1: move license, email texts, news out of ConfigurationManager by mwoodiupui · Pull Request #213 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/213">https://github.com/DSpace/DSpace/pull/213</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; related to DS-1390</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1390">https://jira.duraspace.org/browse/DS-1390</a> ] - [#DS-1390] DSpace has too many configurations - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; I think I addressed the only comment, and since then there's been no discussion.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-green">* richardrodgers (~richardro@18.189.38.181) has joined #duraspace</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; having to refresh my memory here...Ah, this is the one about moving from using ConfigurationManager -&gt; ConfigurationService</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-brick">* tdonohue wow, folks coming out of the woodwork today. Good to see richardrodgers &amp; robint ;)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;richardrodgers&gt; hi all</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I'm trying to make them more similar so that we can get down to one configuration instead of two.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: Love the idea.  I'm glad you resolved that one "deprecated" comment.  I'd be +1 getting this first step in for 4.0 to work towards testing it broadly, etc.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; Sorry, bit distracted, Scotland are playing England at football on the tv</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;bollini&gt; I'm +1 with this refactoring too</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; If there are no objections, I'll push the button.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; I'd be in favor of getting #213 in sooner rather than later, as it may affect other pull requests coming in the pipe for 4.0</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;aschweer&gt; I'm happy for mhwood to push the button on this one :)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;bollini&gt; I will prefer to squash</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;bollini&gt; but it is not absolutely necessary</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; speaking of configuration manager/service, is it necessary to have those 4 lines written to stderr every time a command is launched from the command line?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; 213 is merged.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;aschweer&gt; helix84: it has saved me a few times to know that a job started at a specific point. but it might be more useful to write 1 line along the lines of "command X is being launched".</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: probably not.  Might be worth opening a ticket on that.  It is worth knowing though what configs it's loading up...but probably should go to stdout not stderr</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; I too am annoyed by the log messages.  It just needs someone to figure out how to quiet them.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;richardrodgers&gt; Wanted to lobby for a PR: <a href="https://github.com/DSpace/DSpace/pull/265">https://github.com/DSpace/DSpace/pull/265</a></span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1613] Porting curation task administrative UI to JSPUI by zuki · Pull Request #265 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/265">https://github.com/DSpace/DSpace/pull/265</a></span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: surely not stdout, stderr is the right place. but 4 lines is too verbose.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; ticket it. Someone will grab it (hopefully). I also don't like our aggressive logging at times.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; I would say they should be subject to a -verbose option or some such.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;bollini&gt; just a general note: it will be nice to have a special section in the release note about deprecation and configuration changes</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;helix84&gt; sorry for distracting again, but our old friend DCValue came up again today on the lists. Are we going to do something with that one?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;bollini&gt; it could be useful if we can agree about label to use to mark the jira issue to pick them fastly at the release time</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: I agree.  We don't tend to note deprecations as well, but we should likely.  Config changes though usually are noted minimally in the Upgrade instructions</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers: will get to that...just noting I saw your request :)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: care to suggest a JIRA label for that?  It seems like a reasonable way to "flag" which tickets cause config changes.  I'll also note that we already have a 4.0 Docs area open, so folks are encouraged to update docs immediately as needed as well</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;bollini&gt; tdonohue: I'm not the right people to make suggestion for word... or you like mispelling ? :-)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; changes-config</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; introduces-config-change</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;bollini&gt; changes-config +1 (it is shortly)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; I like "changes-config". Nice and brief.  Just need to remember to use it</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;bollini&gt; ok, I'm trying... and "deprecation"</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. I want to step back briefly here and review one more PR (by request of richardrodgers):  #265 <a href="https://github.com/DSpace/DSpace/pull/265">https://github.com/DSpace/DSpace/pull/265</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1613] Porting curation task administrative UI to JSPUI by zuki · Pull Request #265 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/265">https://github.com/DSpace/DSpace/pull/265</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: sounds fine to me. We just need to all try to remember to "label" JIRA tickets appropriately as "deprecation" or "changes-config"</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;bollini&gt; I have this on my todo but if there are any other ready to test now feel free to jump in</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;richardrodgers&gt; Pitch: we are doing a lot to restore parity of XMLUI &amp; JSPUI in this release, &amp; Keiji kindly undertook this. Low risk, as all code in JSPUI</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Glad to see this work. I probably won't have time to review it myself, but I'd support getting it into 4.0.  Good work by Keiji.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;robint&gt; This is great for us so i'll definitelt review</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;richardrodgers&gt; Cool, thanks - I don't have any JSPUIs to work with...</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, sounds like we have robint and/or bollini looking at this. Good to hear.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; Be sure to post +1 on the PR if you approve, please.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; +1, I agree...best to make that vote public as much as we can</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; BTW...before we get to our one agenda item.  I just wanted to say, I'm LOVING the activity on GitHub recently. It's been great seeing folks working together to quickly review/approve PRs and get them merged rapidly</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; So, just want to encourage that to continue.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  So, on to our one main agenda item:  4.0 Schedule (and planning in general)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; So, bollini has suggested a 4.0 Release schedule (on the dspace-release list)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; It's been copied into the agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-08-14">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-08-14</a></span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2013-08-14 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-08-14">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-08-14</a></span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; I just wanted to get us to work towards finalizing a schedule, so that we can notify everyone what the plan is (especially developers who may be working on Pull Requests / new features)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; sorry I'm late, just got back from an all-staff meeting</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;pbecker&gt; For us it would be good to know how much time we have until you need our PR for DOI support.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; We had one comment on -release from pbecker (who is here today too) about trying to also set a date for "Last date to create a Pull Request" (or something similar), since we've talked about the "Feature Freeze" as the "Last day to merge code"</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;bollini&gt; related to this... we should try to be more relaxed with voting procedure. I think that most of us are often too worried to push the merge button without a general review. If the pull request has a sense and don't introduce big changes or architectural changes it is better to have something in the master to refine that lot of things staging on the pull queue (and making difficult the merge...</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;bollini&gt; ...when approaching the feature freeze)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; +1 bollini</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; +1 bollini.  I really like the process that has been going on over the last week (or so). There's been a TON of good activity in GitHub, where essentially after two Committers say "+1", someone immediately merges the PR.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; I would say submit a PR as soon as you have something testable.  Make the changes visible early.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; pbecker: basically if you can get 2 other people to review your PR, it's ready to go</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; It's also worth noting that now that we have Travis CI auto-building all PRs,  you'll be warned (with a yellow button in GitHub) if something actually would significantly break the build process</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; I think pbecker is asking how long do we need to generally review a PR.  For example, if the Feature Freeze is Oct 20, should a PR be in by Oct 13? Oct 6? in order to ensure it gets a review before the Freeze deadline.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;bollini&gt; pbecker: the other important thing is: start to talk about the changes that you want make *soon*, also before to write any code</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; Depends on how complex it is, and how much change it introduces.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: the answer unfortunately is "it depends on the size of the PR".  For a large PR (lots of changes/files affected), the earlier the better.  Really large PRs should really be submitted several weeks before the Freeze (ideally even before that), as they can take some time to review.  Small PRs may just take a few days to review.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; the point is Pascal has already been working on this and asking for comments for several months, maybe a year</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; I would suggest thinking:  "how soon can we show something" rather than:  "how late is too late".</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; Yes, and I need to respond to him.  Soon.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;bollini&gt; tdonohue_ ...and how much interest *we* have in it... we should be honest, remember the review work is voluntary</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; there are some hard questions we need to answer (because handles are currently so hardwired)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;pbecker&gt; I try to get it done as fast as possible, but I think a deadline would help to get it ready for the release. ;-) Even today I don't know if we get it ready in time for the release.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; yes, that is very true. As bollini mentions, all the PR reviews are done by volunteers.  I don't even have specific time set aside for PR reviews, I just review them as they grab my attention.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: is there anything you can share early to everyone (on GitHub) that we can potentially comment &amp; help on?  It also might be worth sharing to dspace-devel as other collaborators may pop up</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: tried this several times. Did you got my mail from last frieday f.e.?</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;pbecker&gt; the code i released some month ago on github is not actual any more, but we will release new one as soon as it is ready.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: yea, I got your email. But I noticed you sent it to a small group (3 committers).  The probably with a small subgroup is that if none of us have time to help (which I don't have time right now), it's hard to keep it moving along</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; pbecker: BTW I think you should be posting to dspace-devel, even if the same people would be answering. It's easier to find things posted there and link to them.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; as far as PR review goes, I find it helpful if I can get people here to "buy in" to the PR, say "yes, we want that" then it makes is much easier to justify (to my boss) me spending time on reviewing the PR</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: in my opinion, you are more likely to get broader attention by emailing dspace-devel, or creating a JIRA ticket &amp; linking to public code somewhere (in GitHub or similar).</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;pbecker&gt; <a href="https://jira.duraspace.org/browse/DS-1535">https://jira.duraspace.org/browse/DS-1535</a></span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1535] DOI support for dspace-api - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1535">https://jira.duraspace.org/browse/DS-1535</a></span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1535">https://jira.duraspace.org/browse/DS-1535</a> ] - [#DS-1535] DOI support for dspace-api - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;pbecker&gt; I don't want to take the attention away from the release schedule. I'll send the mail from frieday to dspace-devel tomorrow.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; pbecker: I think the asynchronous registering as you suggested is the way to go</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: Thanks. I admit I forgot about Ds-1535, cause it hasn't gotten any recent updates (and when a ticket is updated, an auto-email is sent to dspace-devel -- which is usually what grabs my attention)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; pbecker: also, if we want to be independent of particular external identifiers, we need a REAL internal unique object identifier. The combined id+resourcetype columns could serve this purpose.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. going back to the 4.0 schedule.  Are there any suggestions / counter-proposals / comments on bollini's recommended deadlines?  Is this the schedule we'd like to adopt?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; no objections from me</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; (My only tweak, which I mentioned...is that I think the Testathon should be 1-2 weeks.  I think it was only Nov 5-6 in the original proposal)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;richardrodgers&gt; Testathon window seems a little small...</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; +1 1-2 week testathon</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;bollini&gt; helix84: we are thinking about UUID... we have started to use it in dspace-cris</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; And, we need to make sure everyone is clear that "Feature Freeze" = "Last day to accept/merge a Pull Request" (and that PRs really need to come in weeks before that, especially large ones)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; bollini: anything's good with me, as far as we have _something_</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;bollini&gt; have you read my last reply to the scheduling?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;hpottinger&gt; was there a discussion of last date for PRs?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: yea, I saw your last email...did I misunderstand something there?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; I think the idea of the short "official" Testathon was to focus attention on it, and that activity will taper off naturally anyway after a few days.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: that was the same question pbecker asked.  There has not been a date set that is "last date for PRs" (yet)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;bollini&gt; we can have a 1-2 week testathon but we should indicate 1-2 days where we (committer or at least RT can assure hight involvement)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: andrea said that we need to be able to provide concentrated support effort in a short time period, by being always present on IRC.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue, I think last time around, at your suggestion, we added such a date to the schedule for 3.0</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: my only issue with a two day testathon is that we are normally asking repository managers (DCAT folks, etc) to help with testathon. In doing so, we really cannot tell them they have to do all their testing in 2 days.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Last date for *feature* PRs is the feature freeze date.  Last date for bugfix PRs is when the RT says "no more".</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: is feature freeze really the same thing as PR freeze? I thought feature freeze was "last day to merge new code"</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; No.."Feature Freeze" = "Last date to MERGE 'feature' PRs",  which is different from "Last date to submit feature PRs"</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: you are correct, I suggested having a "Last date to submit feature PRs" (even if it's a "soft deadline" / recommendation).  But, I'm letting the Release Team decide whether you all think that's worth doing</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; back in the days of Subversion, that was pretty much the same thing... but with Git, we have split code changes and code merges</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; Isn't the period between Feature Freeze and RC1 the final feature merging period?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue, I thought it was a good idea for 3.0, I still think it's a good idea for 4.0</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;pbecker&gt; above we said that the deadline for a pr depends on the pr as the size of a pr is crucial to the time needed for the review.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, worth noting that even with 3.0, we had several folks (committers even) who assumed "Feature Freeze" wrongly meant "last day to submit their PR".  That caused big delays in the 3.0 release, as we suddenly received a lot of massive PRs at the last moment which were "incompatible" with one another.  It caused everything to be unstable for a period and pushed back all our initial planned deadlines</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; (Others on the 3.0 team can verify that...maybe I'm exaggerating slightly...but I recall a large number of last minute PRs right at the Feature Freeze, which caused RC1 to be delayed by several weeks)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;helix84&gt; yes, it was probably the biggest reason for delay</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; So, my point with 4.0 is that, if we let "Feature Freeze" = "Last date to submit a PR", it may not be very reasonable to expect RC1 to be ready in just 11 days</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; It more of us seeing an oncoming wave of PRs and less of an actual manifestation of that wave, declaring the due date I think helped</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;robint&gt; Always better to set tough deadlines and then relax them rather than plan for last minut contributions</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; +1 robint</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; +1 robint</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; it will also help very much if we have people merging their own code, or coordinating the review and merge amongst a few committers, so we don't have one big merge event like we did last year (which was fun, I'll give you that)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; I've been suggesting that feature deadlines be negotiated individually so the review work can be scheduled.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; So, if it were me, I'd want to play things a little "safe" with 4.0.  Either set a "rough" / "soft" deadline of Oct 7 or 13 for "Last day to submit PRs" (and make some exceptions for specific folks if needed).  OR, increase the time between Feature Freeze and RC1 to allow for "unexpected" last-minute PRs.   I lean towards the former...but I'll let the Release Team decide what you want to try.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-brick">* helix84 remembers the fun, and remembers we were then fixing bugs in 3.1 that shouldn't have been in 3.0</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: I think that's a great idea. But, It assumes that the Release Team knows about everything that will come in as a PR...and I've found that there's usually always a few surprises (and it's best to try and avoid having those be "last minute surprises")</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: So, it could be a combo of both.  Have the RT try and negotiate feature deadlines individually...but also set a public deadline as a "just in case" scenario for things we may not know about yet</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;bollini&gt; I'm not convinced</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; The public deadline would be "for certain nothing will go into 4.0 after this date, but if your work is big we'd like to see it sooner."</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;bollini&gt; we will give a deadline for PR and we can assure that we will review them</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, those are my recommendations. But I am going to step back now.  I would like the RT to decide what you want to do. If you want to try it another way, feel free. I'll support you either way.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, that's exactly what I meant.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;bollini&gt; it should be more a suggestion against a "prize"</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;bollini&gt; if you send your PR before the deadline we assure that we will do an IRC meeting where all the PR will have 5 minutes of review</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; bollini what are you not convinced by?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; bollini: interesting.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; honestly, RT, just already throw some dates out there officially, please, and everyone will have to respect them</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; I'm OK with the schedule as suggested by bollini, with the addition of a PR due date, and the one suggested by tdonohue sounds fine: Oct 7.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: if you'd like to recommend we have a public PR IRC meeting, I'd support that.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;bollini&gt; tdonohue: yes, I want a public PR IRC meeting if we introduce a deadline for PR submission</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;hpottinger&gt; our current PR review *is* public, yes? the first few minutes of the dev meeting</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;helix84&gt; yes, we'll just need more time to do the reviews after the freeze</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mhwood&gt; This would be a *guarantee* that submissions by the deadline would be discussed in time for inclusion in 4.0.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; oh, yeah, I think that's only fair</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; let's plan on that part of the dev meeting to "scale out" after the PR due date</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;robint&gt; Got to go, cheers all</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-navy">* robint (522a6b02@gateway/web/freenode/ip.82.42.107.2) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; Can we hash this out on -release and commit to producing a schedule by the end of Friday?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; yea, either we "scale" out the PR review portion of the meeting, or we devote an entire meeting to PR reviews</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; essentially saying: "If you give us your PR by this date...we promise that you can hear our live 5-min feedback in an IRC meeting at this date/time".</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; though, maybe that's tough..depending on how many PRs we get ;)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: I don't know if we can really expect all the committers to be able to coordinate another meeting time, I think we can afford to devote one or two dev meetings to this task, what does everyone else think?</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; I assumed that it would be the dev meeting.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; I'm fine with bringing this to -release , as long as the RT makes it a goal to final this week / early next.  It'd be best to get a public announcement sent sometime next week to give folks time to prepare (especially developers)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; Is there anything else we need to discuss in realtime right now?</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yea, I agree. Didn't mean it to be a *separate* meeting.  I meant it to be a particular week's devel. meeting would be 100% devoted to PR reviews.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; (and we'd do our best to get through as many as we could)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; I don't have anything else to discuss in realtime right now.  Finalizing 4.0 Schedule was our main topic for today. No other agenda items</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; Are we enough in agreement that we can close on a schedule on -release?</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;bollini&gt; I think so. Good time. Thanks to all I leave now.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: what would be a good wiki page to describe the meanings of our Jira labels?</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-green">* bollini (~chatzilla@host119-68-dynamic.11-87-r.retail.telecomitalia.it) has left #duraspace</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;richardrodgers&gt; got to go - bye all</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-navy">* richardrodgers (~richardro@18.189.38.181) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: I can respond to bollini's note on -release, but I'm in agreement with his schedule, with the addition of a PR due date</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; I also must depart.  I'll give close attention to -release until we can get a schedule out.  'bye!</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-navy">* kstamatis (5e42133c@gateway/web/freenode/ip.94.66.19.60) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: Since JIRA labels are likely something the Committers will mostly need to manage, perhaps create a new wiki page: "JIRA Usage" or "JIRA Tips" off of: <a href="https://wiki.duraspace.org/display/DSPACE/Committer+Guidelines">https://wiki.duraspace.org/display/DSPACE/Committer+Guidelines</a> ?  That's the best place I can think of right now</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Committer Guidelines - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Committer+Guidelines">https://wiki.duraspace.org/display/DSPACE/Committer+Guidelines</a></span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: we already have <a href="https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements">https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements</a></span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;kompewter&gt; [ JIRA Workflow Improvements - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements">https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements</a></span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: which has been implemented, so it could be part of the "official" page, too</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: maybe I should just move that page</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; yep, true.  that JIRA workflow could be part of an "official" page on how we use JIRA.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; so should I move and edit it or create a new one and copy parts of the old one?</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; Either way is fine by me.  I'm not sure that old proposal page really needs keeping around as-is. It's more important to document our existing JIRA workflow &amp; what labels we encourage using, etc.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'm OK with you just moving that page / renaming if it's easiest.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-green">* pbecker (5cce51d9@gateway/web/freenode/ip.92.206.81.217) has left #duraspace</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;helix84&gt; I created a new one because I didn't want to delete the comments:</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://wiki.duraspace.org/display/DSPACE/JIRA+Usage">https://wiki.duraspace.org/display/DSPACE/JIRA+Usage</a></span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;kompewter&gt; [ JIRA Usage - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/JIRA+Usage">https://wiki.duraspace.org/display/DSPACE/JIRA+Usage</a></span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;helix84&gt; Could you please correct the diagram? I don't want to struggle with WYSIWIG again.</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;helix84&gt; for me it's never what I see is what I get</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;tdonohue&gt; haha :) ok. will do. Thanks for getting it started</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;helix84&gt; just fininshing some minor changes</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;tdonohue&gt; let me know when you are done. I basically have to copy &amp; paste the diagram over...not hard, just don't want to overwrite your work</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;helix84&gt; i'm done</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;helix84&gt; we may want to remove the "ready for test" and "ready for release" states - i don't think we're using them</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;tdonohue&gt; ok, added the diagram.</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has left #duraspace</span><br />

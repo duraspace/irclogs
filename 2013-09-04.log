@@ -1,0 +1,194 @@
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:08]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[14:23]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:04]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has joined #duraspace</span><br />
+<span class="irc-date">[19:35]</span> <span class="irc-navy">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) Quit (Ping timeout: 268 seconds)</span><br />
+<span class="irc-date">[19:39]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has joined #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* bollini (~chatzilla@host241-193-dynamic.116-80-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* l_a_p (~chatzilla@95.234.209.84) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;helix84&gt; hello everyone, it's time for today's Developer Meeting</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;helix84&gt; Tim is away today, so I'll try to moderate instead</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;helix84&gt; we don't have any particular agenda for today, so we could make the PR review longer - unless there is anything we still need to discuss regarding the 4.0 release</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;helix84&gt; any topics?</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;helix84&gt; if something occurs to you, feel free to shout</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;helix84&gt; let's start with PRs now: <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pull/235">https://github.com/DSpace/DSpace/pull/235</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Porting advanced embargo function to JSPUI by helix84 · Pull Request #235 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/235">https://github.com/DSpace/DSpace/pull/235</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; Needs another rebase.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;helix84&gt; btw this belongs to DS-1360</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;bollini&gt; it is on my todo. I need to find some time but I plan to test make any appropriate change required and ask for merge</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1360">https://jira.duraspace.org/browse/DS-1360</a> ] - [#DS-1360] A porting advanced embargo function to JSPUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;mhwood&gt; Thank you bollini.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; bollini: the ticket is assigned, so we can move on</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pull/241">https://github.com/DSpace/DSpace/pull/241</a></span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1489] Back button in Discovery broken in Firefox by KevinVdV · Pull Request #241 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/241">https://github.com/DSpace/DSpace/pull/241</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; DS-1489</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1489">https://jira.duraspace.org/browse/DS-1489</a> ] - [#DS-1489] SOLRJ-3.3.0 dependency in OAI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;helix84&gt; hmm, the issue seems mismatched, i'll find the correct one</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;bollini&gt; <a href="https://jira.duraspace.org/browse/DS-1432">https://jira.duraspace.org/browse/DS-1432</a></span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1432] back button in Discovery broken in Firefox - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1432">https://jira.duraspace.org/browse/DS-1432</a></span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;helix84&gt; DS-1432</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1432">https://jira.duraspace.org/browse/DS-1432</a> ] - [#DS-1432] back button in Discovery broken in Firefox - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1432">https://jira.duraspace.org/browse/DS-1432</a> ] - [#DS-1432] back button in Discovery broken in Firefox - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; anyone here available to test this?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; hardy?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; or hardly? :)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; still reading...</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; this looks like two committers have tested and confirmed it's working...</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;l_a_p&gt; sorry, back to #235, there is another PR on porting advanced embargo function to JSPUI <a href="https://github.com/DSpace/DSpace/pull/212">https://github.com/DSpace/DSpace/pull/212</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1360 Porting advanced embargo function to JSPUI by helix84 · Pull Request #212 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/212">https://github.com/DSpace/DSpace/pull/212</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: sorry, where do you see that?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; hélix, comments on DS-1432</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1432">https://jira.duraspace.org/browse/DS-1432</a> ] - [#DS-1432] back button in Discovery broken in Firefox - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I reviewed an older PR (180) which fixed the issue but broke logging</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: 235 is a new one I didn't test</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;bollini&gt; helix84: do you mean 241</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; bollini: that's correct, thanks</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; Hmm... I don't run discovery in production, but I would like to see this bug fixed before I do start running it in production...</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I don't care much about Solr logging now and won't have time to review it</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;bollini&gt; l_a_p: #235 should be an update of #212 I will take care to check that all our comments as been take in consideration and I will close the old one</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;bollini&gt; ok #241 looks trivial... I will test it tomorrow and if work I will push the green button</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; bollini: thank you, I assigned you as reviewer to Ds-1432</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pull/244">https://github.com/DSpace/DSpace/pull/244</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ 1)Dspace enhancement, mapping author names to registered users with UI options.2)Keeping UI option to chose autor-user wise Collections where the item can be mapped. by alapchari · Pull Request #244 [...] ] - <a href="https://github.com/DSpace/DSpace/pull/244">https://github.com/DSpace/DSpace/pull/244</a></span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; thanks, bollini!</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; i'm trying to find if there's a relevant Jira issue</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; There is much discussion yet to be resolved.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; It looks like good, productive discussion.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;bollini&gt; yes, I think that a major refactoring is required to make this feature enough general</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;helix84&gt; if there are things to be decided by other commtiers, this would benefit from a short summary, the discussion is goes into details but it's hard to see the bird-eye perspective</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; would someone be willing to create a jira issue, describe the problem, the solution and what needs to be improved?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;bollini&gt; my final comment(s) already say much of the work that is required (use the authority framework)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; ok, I'll just create a dummy issue so that we don't lose track of this. moving on:</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pull/246">https://github.com/DSpace/DSpace/pull/246</a></span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1212] Export all collections of a community recursively in ItemExport by zuki · Pull Request #246 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/246">https://github.com/DSpace/DSpace/pull/246</a></span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; actually we just discussed this in Jira review</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;bollini&gt; already review in the JIRA backlog</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pull/248">https://github.com/DSpace/DSpace/pull/248</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1597] Browse subjects by collection count bug by KevinVdV · Pull Request #248 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/248">https://github.com/DSpace/DSpace/pull/248</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; well, gosh, this has my name all over it, doesn't it</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; i dind't want to be the one to call you out on it ;)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; will sign up as a reviewer, it's up on my big ol' white board now</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; thanks, hardy. moving on: <a href="https://github.com/DSpace/DSpace/pull/251">https://github.com/DSpace/DSpace/pull/251</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1399] Adding supervisor order bug by zuki · Pull Request #251 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/251">https://github.com/DSpace/DSpace/pull/251</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; DS-1399</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1399">https://jira.duraspace.org/browse/DS-1399</a> ] - [#DS-1399] Adding supervisor order bug  - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;bollini&gt; it is on jspui so it's mine</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; thanks, i'll add you as reviewer</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pull/253">https://github.com/DSpace/DSpace/pull/253</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1599] I18nUtil.getMessage() does not return the intended language's message by zuki · Pull Request #253 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/253">https://github.com/DSpace/DSpace/pull/253</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; DS-1599</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1599">https://jira.duraspace.org/browse/DS-1599</a> ] - [#DS-1599] I18nUtil.getMessage() does not return the intended language&amp;#39;s message - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;bollini&gt; I will take this too</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;bollini&gt; and the next one DS-1600 #254</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1600">https://jira.duraspace.org/browse/DS-1600</a> ] - [#DS-1600] Variable &amp;quot;style&amp;quot; is defined twice in ItemTag.java and are used by error in its render() method - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; thank you. next up: <a href="https://github.com/DSpace/DSpace/pull/254">https://github.com/DSpace/DSpace/pull/254</a></span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1600] Variable "style" is defined twice in ItemTag.java and are used by error in its render() method by zuki · Pull Request #254 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/254">https://github.com/DSpace/DSpace/pull/254</a></span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; DS-1600</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1600">https://jira.duraspace.org/browse/DS-1600</a> ] - [#DS-1600] Variable &amp;quot;style&amp;quot; is defined twice in ItemTag.java and are used by error in its render() method - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;bollini&gt; it is mine too...</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; andrea is on a spree :) <a href="https://github.com/DSpace/DSpace/pull/255">https://github.com/DSpace/DSpace/pull/255</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1235 IP authentication configuration does not apply netmask and CIDR ranges correctly by rradillen · Pull Request #255 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/255">https://github.com/DSpace/DSpace/pull/255</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; DS-1235</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1235">https://jira.duraspace.org/browse/DS-1235</a> ] - [#DS-1235] IP authentication configuration does not apply netmask and CIDR ranges correctly - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; this one comes with tests, too</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; should need only a quick verification</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; code is co-written by a committer</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;helix84&gt; so do we just push the button?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; actually mhwood added his +1</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; I'll push it</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; next up: <a href="https://github.com/DSpace/DSpace/pull/258">https://github.com/DSpace/DSpace/pull/258</a> / DS-1602</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1602 fix by rivaldi8 · Pull Request #258 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/258">https://github.com/DSpace/DSpace/pull/258</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1602">https://jira.duraspace.org/browse/DS-1602</a> ] - [#DS-1602] Some metadata is not exported through OAI with oai_dc - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; So is this one waiting on an opinion from DCAT?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;helix84&gt; i think that would be prudent</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;helix84&gt; i'll mark it as such, let's move on</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pull/260">https://github.com/DSpace/DSpace/pull/260</a> / DS-824</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-824 Request copy of item for XMLUI by muelle · Pull Request #260 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/260">https://github.com/DSpace/DSpace/pull/260</a></span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-824">https://jira.duraspace.org/browse/DS-824</a> ] - [#DS-824] Request Copy function for XMLUI; would allow author of item to give viewing privs to restricted item - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; It looks like all concerns have been addressed, but it needs rebasing.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; mhwood: btw I assigned Ds-1235 (the one I just merged) to you because you reviewed it</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; helix84: OK.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; any takers for Ds-824?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; ok, i'll take it. moving on: <a href="https://github.com/DSpace/DSpace/pull/266">https://github.com/DSpace/DSpace/pull/266</a> / DS-1188</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1188] Collection view doesn't show content by default by KevinVdV · Pull Request #266 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/266">https://github.com/DSpace/DSpace/pull/266</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1188">https://jira.duraspace.org/browse/DS-1188</a> ] - [#DS-1188] collection view doesn&amp;#39;t show content by default - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; * Reminder to finish DS-1586 before merging PR#266.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1586">https://jira.duraspace.org/browse/DS-1586</a> ] - [#DS-1586] SLF4J and JCL Bridge version incompatibility - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; we discussed this and Ds-1586 is now closed, so I think I'll just merge this</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; actually it looks like it needs a rebase, too</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; it was my idea so I'll do it</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;bollini&gt; it cannot be automatically merged mostly due to the SolrServiceImpl change (I think that we already have fixed in a different way the same issue)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; pull 269</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; next up: <a href="https://github.com/DSpace/DSpace/pull/270">https://github.com/DSpace/DSpace/pull/270</a> / DS-1086</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1086] Changed confidence value is not set when only the confidence is changed by zuki · Pull Request #270 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/270">https://github.com/DSpace/DSpace/pull/270</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1086">https://jira.duraspace.org/browse/DS-1086</a> ] - [#DS-1086] Changed confidence value is not set when only the confidence is changed - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; It looks like this needs some more examination?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;bollini&gt; I'm one of the author of the authority framework. This behavior was by design, confidence has sense only when an authority has been set</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Keiji seems now to agree with you.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;bollini&gt; it could be useful to provide a confidence level also for value without authority so to say that this value is reasonable not in the authority but it is a deeper change than the PR</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; bollini: should we close this or do you want to assign this to yourself and discuss it more?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; Close the PR, note your suggestion on the JIRA and leave the issue open?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;bollini&gt; I will add a comment to the jira and PR tomorrow and will close the pr</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; ok, assigning to bollini</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; last one today: <a href="https://github.com/DSpace/DSpace/pull/274">https://github.com/DSpace/DSpace/pull/274</a> / DS-1620</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1620 Facet date range is sometimes incorrect by abollini · Pull Request #274 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/274">https://github.com/DSpace/DSpace/pull/274</a></span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1620">https://jira.duraspace.org/browse/DS-1620</a> ] - [#DS-1620] Facet date range is sometimes incorrect - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;bollini&gt; I have tested it on jspui and xmlui, I only need a fast review with a +1 from someone else</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;bollini&gt; I'm sorry I need to leave in time today... feel free to go ahead I will read the irclogs tomorrow</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-navy">* bollini (~chatzilla@host241-193-dynamic.116-80-r.retail.telecomitalia.it) Quit (Quit: ChatZilla 0.9.90.1 [Firefox 23.0.1/20130814063812])</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; I marked it as Code review requested</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; perhaps Kevin would be interested in reviewing it if he reads irclogs</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; that will be it for today, we reviewed more than half of the remaining PRs, good job everyone!</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Yay, us!</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;snail&gt; I opened <a href="https://jira.duraspace.org/browse/DS-1645">https://jira.duraspace.org/browse/DS-1645</a> which is based on the IR day held last week in Wellington, NZ. The full notes of the meeting are at <a href="https://etherpad.mozilla.org/dzBIrj24XY">https://etherpad.mozilla.org/dzBIrj24XY</a> ; Sympletic and Open Access got a lot of coverage and the new OAI stuff was greatly admired</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1645] support for connecting to institutional reporting tools - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1645">https://jira.duraspace.org/browse/DS-1645</a></span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ MoPad: dzBIrj24XY ] - <a href="https://etherpad.mozilla.org/dzBIrj24XY">https://etherpad.mozilla.org/dzBIrj24XY</a></span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1645">https://jira.duraspace.org/browse/DS-1645</a> ] - [#DS-1645] support for connecting to institutional reporting tools - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; snail: yes, I noticed it, too. First of all, thanks for reasearching and writing up all the queries.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;snail&gt; helix84: the queries are mainly cut-and-pasted from our internal wiki</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; snail: there already are _some_ workflow statistics, I didn't check what the overlap here is</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; snail: but as for (a) and (b), the way we currently do thing is that DSpace doesn't create DB users, our installation documentation describes how to do that</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; hey, DS-1645, that's a nice collection of work there</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1645">https://jira.duraspace.org/browse/DS-1645</a> ] - [#DS-1645] support for connecting to institutional reporting tools - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; snail: Mark noted the same</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;snail&gt; oh, there's lots of overlap, but the key point is where the locus of control over building, running and interpreting the query is</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; so my suggestion here is to create a wiki page documenting this and link to it as an optional step from the installation documentation</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;snail&gt; that sounds sensible</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;snail&gt; do we have a place where people could potentially share jasperreports reports? or whatever format oracle uses?</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; would you be willing to create such wiki page? you can have edit access to the official docs, too, if you just ask Tim and send him your Jira username</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;hpottinger&gt; we actually have a read-only user we give out the credentials to people who want to write their own reports, a wiki article with sample reports would be a wonderful resource</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;snail&gt; my jira name is on the ticket as creator</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; Ew.  Suggest a group with read access as needed, and grant/revoke membership as necessary.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;helix84&gt; snail: obviously, but Tim is the only one who can add you and he's not here, so please send him an email :)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;snail&gt; oh, ok</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;snail&gt; mhwood++</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;helix84&gt; can you tell me more about the kinds of reports people would want to share?</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;snail&gt; i'm anticipating ones similar to those examples in the ticket</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;snail&gt; except bundled in a propretery format, with formatting and stuff</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; Probably we need to get more eyes on this issue and see what people come up with that none of us has anticipated.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; I think there's a similar ticket soliciting suggestions for content analysis queries, I'll try to find it and link it to this one</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; And, as usual, I throw down a suggestion just as I have to depart.  Thanks, everybody!</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;helix84&gt; DS-1453</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1453">https://jira.duraspace.org/browse/DS-1453</a> ] - [#DS-1453] repository content analysis - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-navy">* l_a_p (~chatzilla@95.234.209.84) Quit (Quit: ChatZilla 0.9.90.1 [Firefox 23.0.1/20130814063812])</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;helix84&gt; I'll need to go now, too</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;helix84&gt; snail: so I guess we'll leave it up to you to do the wiki page?</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; Confluence even has syntax highlighting for SQL</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;hpottinger&gt; I was thinking that ad-hoc reporting would be a decent use case for using a scripting language such as Jython or Groovy</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;snail&gt; helix84: yep, i'll do the wiki page</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; good night</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has left #duraspace</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:40]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Remote host closed the connection)</span><br />

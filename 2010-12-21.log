@@ -1,0 +1,71 @@
+<span class="irc-date">[0:19]</span> <span class="irc-green">* bradmc_ (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[0:19]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[0:19]</span> <span class="irc-green">* bradmc_ is now known as bradmc</span><br />
+<span class="irc-date">[1:12]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[3:44]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[4:23]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[4:37]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-235-136-109.clt.bellsouth.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[4:39]</span> <span class="irc-green">* ksclarke (~kevin@adsl-235-136-109.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[4:40]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-235-136-109.clt.bellsouth.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[4:42]</span> <span class="irc-green">* ksclarke (~kevin@adsl-235-136-109.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[6:04]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-235-136-109.clt.bellsouth.net) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:40]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:40]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:40]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:40]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:15]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:55]</span> <span class="irc-green">* bradmc_ (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:55]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[12:55]</span> <span class="irc-green">* bradmc_ is now known as bradmc</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-green">* ksclarke (~kevin@adsl-235-136-109.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-green">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) has joined #duraspace</span><br />
+<span class="irc-date">[14:39]</span> <span class="irc-green">* thafreak (~thafreak@technologix.xen.prgmr.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-green">* mrl (42d03d41@gateway/web/freenode/ip.66.208.61.65) has joined #duraspace</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-navy">* mrl (42d03d41@gateway/web/freenode/ip.66.208.61.65) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) Quit (Quit: Heading out...talk to you later.)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-green">* gwadholm (481820f3@gateway/web/freenode/ip.72.24.32.243) has joined #duraspace</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-green">* Dan_Davis (183ae85b@gateway/web/freenode/ip.24.58.232.91) has joined #duraspace</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-green">* zacho (~zacho@blk-212-83-239.eastlink.ca) has joined #duraspace</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-green">* EdatTheADR (811398fe@gateway/web/freenode/ip.129.19.152.254) has joined #duraspace</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-green">* cwilper (ad579d86@gateway/web/freenode/ip.173.87.157.134) has joined #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-green">* sbayliss (~IceChat7@188-222-88-173.zone13.bethere.co.uk) has joined #duraspace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-green">* anarchivist (~anarchivi@unaffiliated/anarchivist) has joined #duraspace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-green">* Asger (82e11a21@gateway/web/freenode/ip.130.225.26.33) has joined #duraspace</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-green">* ben__ (8b673c55@gateway/web/freenode/ip.139.103.60.85) has joined #duraspace</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-navy">* gwadholm (481820f3@gateway/web/freenode/ip.72.24.32.243) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-green">* anarchivist (~anarchivi@unaffiliated/anarchivist) has left #duraspace</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://jira.duraspace.org/secure/attachment/10417/fcrepo-776.patch">https://jira.duraspace.org/secure/attachment/10417/fcrepo-776.patch</a></span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-green">* anarchivist (~anarchivi@unaffiliated/anarchivist) has joined #duraspace</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;barmintor&gt; afk a moment, sorry</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;barmintor&gt; criminy, the line is like a modem ca 1992</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;alxp&gt; We have a FeSL module in Islandora that queries some properties about an object. We will endeavour to document it.</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;alxp&gt; Someone who knows something about SEO should try and make sure latest version of the documentation shows up on google searches</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-green">* anarchivist (~anarchivi@unaffiliated/anarchivist) has left #duraspace</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-navy">* barmintor (barmintor@specdl11.cul.columbia.edu) Quit ()</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-green">* ben__ (8b673c55@gateway/web/freenode/ip.139.103.60.85) has left #duraspace</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-navy">* EdatTheADR (811398fe@gateway/web/freenode/ip.129.19.152.254) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-green">* dpcolar (98172b37@gateway/web/freenode/ip.152.23.43.55) has joined #duraspace</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-navy">* sbayliss (~IceChat7@188-222-88-173.zone13.bethere.co.uk) Quit (Quit: bye!)</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-navy">* cwilper (ad579d86@gateway/web/freenode/ip.173.87.157.134) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-navy">* Dan_Davis (183ae85b@gateway/web/freenode/ip.24.58.232.91) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-navy">* dpcolar (98172b37@gateway/web/freenode/ip.152.23.43.55) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[18:04]</span> <span class="irc-navy">* Asger (82e11a21@gateway/web/freenode/ip.130.225.26.33) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-navy">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) Quit (Quit: alxp)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* granitize (~Adium@137.149.66.159) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-green">* granitize (~Adium@137.149.66.159) has joined #duraspace</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-green">* thafreak (~thafreak@technologix.xen.prgmr.com) has left #duraspace</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-green">* bradmc (~bradmc@c-66-30-9-86.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:46]</span> <span class="irc-navy">* bradmc (~bradmc@c-66-30-9-86.hsd1.ma.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:47]</span> <span class="irc-green">* bradmc (~bradmc@c-66-30-9-86.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:50]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp136.evans.tamu.edu) Quit (Quit: scottatm)</span><br />
+<span class="irc-date">[23:06]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:37]</span> <span class="irc-navy">* bradmc (~bradmc@c-66-30-9-86.hsd1.ma.comcast.net) Quit (Quit: bradmc)</span><br />

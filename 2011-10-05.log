@@ -1,0 +1,215 @@
+<span class="irc-date">[3:37]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[4:37]</span> <span class="irc-navy">* bradmc (~bradmc@c-67-186-181-238.hsd1.nh.comcast.net) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:53]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:44]</span> <span class="irc-green">* bradmc (~bradmc@c-67-186-181-238.hsd1.nh.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:13]</span> <span class="irc-navy">* bradmc (~bradmc@c-67-186-181-238.hsd1.nh.comcast.net) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[12:13]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-green">* bradmc (~bradmc@c-67-186-181-238.hsd1.nh.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-navy">* bradmc (~bradmc@c-67-186-181-238.hsd1.nh.comcast.net) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-green">* robint (5229fe9f@gateway/web/freenode/ip.82.41.254.159) has joined #duraspace</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-green">* grahamtriggs (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-green">* JRhoads (~jrhoads@160.10.15.21) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;robint&gt; Hi all, Tim isn't here this week so I'm standing in. Developers meeting kicks off in 5 mins.</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* hpottinger (80ce6c12@gateway/web/freenode/ip.128.206.108.18) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C156FD.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;robint&gt; Ok, time for the meeting. Apologies for not posting an agenda, I only have one item and thats 1.8 progress.</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;robint&gt; Great progress this week, thanks to all.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;robint&gt; Here is a list of outstanding items...<a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+fixVersion+%3D+%221.8.0%22+ORDER+BY+key+DESC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+fixVersion+%3D+%221.8.0%22+ORDER+BY+key+DESC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+fixVersion+%3D+%221.8.0%22+ORDER+BY+key+DESC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+fixVersion+%3D+%221.8.0%22+ORDER+BY+key+DESC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;robint&gt; Actually most of these are now complete but just need a little documentation so we should be able to whiz through the remainder</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;robint&gt; Looking at who is here...</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;robint&gt; KevinVdV: do you have anything you want to say about DS-599 ?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-599">https://jira.duraspace.org/browse/DS-599</a> ] - [#DS-599] SOLR statistics file download displays all files and not only those in the Bundle Original - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;KevinVdV&gt; Yes indeed I do, I was awaiting my time :)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;robint&gt; Go for it!</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;KevinVdV&gt; I finished coding on DS 599 &amp; would like some people to test my code. I was only able to test on my local PC &amp; with one solr stats database (a large one at that but still)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;KevinVdV&gt; So I would like to ask that if anybody has the time they quickly apply the patch &amp; test it</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;KevinVdV&gt; Really don't wanna any small bugs in this one breaking indexes</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;robint&gt; Does anyone out there have a decent Solr database that they could test against ?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;aschweer&gt; I've already kicked all non-Original bundle files out of my solr stats -- I'll check if I still have old copies with the data</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; Thanks aschweer</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;KevinVdV&gt; I tested the code myself with a db that has 200 000 bitstream hits</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; updated all those records in about 5 minutes</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;robint&gt; kevinVdV: I would vote for you commiting it to make testing easier</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;robint&gt; We could even run the update script on the demo server</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; KevinVdV: I'm willing to give it a whirl with the solr stats on my testathon site, and I agree with robint, testing would be easier after a commit</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;KevinVdV&gt; Then I will commit somewhere after this meeting</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;KevinVdV&gt; If that is ok for everybody ?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;KevinVdV&gt; I will leave the task open should any issues arise</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;robint&gt; Good plan. Leave it open to remind the rest of us to test.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;robint&gt; Ok, moving on</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;KevinVdV&gt; But t.b.h. I probably won't have to update the documentation before the weekend (I will try but cannot promise anything)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;robint&gt; Don't worry. We have plenty time to catch up on documentation.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; KevinVdV do you have draft documentation on this?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;robint&gt; Is kshepherd lurking ?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;aschweer&gt; he may not be at work yet, it's only 9am here</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;KevinVdV&gt; Well at the moment I don't the only documentation I have is in my last post (the class already existed I just added 1 extra option)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;robint&gt; ok thanks aschweer</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;robint&gt; I was testing DS-768 today</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-768">https://jira.duraspace.org/browse/DS-768</a> ] - [#DS-768] All XMLUI Error Pages respond with 200 OK, instead of 404 Not Found - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;robint&gt; Kim has commited his code so I updated the dependency to pick up the newly released cocoon substitute jar, but I still see status codes of 200</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;robint&gt; I'll pester Kim and Mark D offline</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; The only other issue that is not just documentation is DS-135</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-135">https://jira.duraspace.org/browse/DS-135</a> ] - [#DS-135] Withdrawn items displayed as &amp;quot;restricted&amp;quot; rather than withdrawn - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; robint: I've a keen interest that 768 makes it in for 1.8, so am happy to keep testing, as well</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;robint&gt; Ok thanks hpottinger. I'm sure the work has been done but maybe something has got lost during commiting</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;robint&gt; hpottinger: I'll copy you in on any emails</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;robint&gt; I think Mark D was hoping to provide a patch for DS-135 so I'll follow up with him</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-135">https://jira.duraspace.org/browse/DS-135</a> ] - [#DS-135] Withdrawn items displayed as &amp;quot;restricted&amp;quot; rather than withdrawn - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;robint&gt; Oh, there is actually one other untouched issue, DS-612</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-612">https://jira.duraspace.org/browse/DS-612</a> ] - [#DS-612] Unfinished submissions see cc-rdf file instead of their uploaded PDF in the uploads step. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;robint&gt; This was kind of ignored until all the CC rewrite work was done, which I think is now the case</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;robint&gt; So I'll pick up Ds-612</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kshepherd&gt; hi all</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kshepherd&gt; i'm lurking now ;)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;robint&gt; Ah! Hi kshepherd :)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kshepherd&gt; trying to finish some stuff and get ready for a lecture ;)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kshepherd&gt; i'll be chasing up your failed testing on 768 after that</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;robint&gt; Great stuff. I'm probably doing something daft. Cheers</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kshepherd&gt; can't see why/what's going wrong, but i'll try with the old and the new cocoon servlet service impl</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kshepherd&gt; robint: i think we can safely blame Cocoon ;)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;robint&gt; kshepherd: Always !</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;robint&gt; So, all the other issues are effectively complete minus documentation. Big pat on the back for all!</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;robint&gt; I'll delay doing the RC2 release until we have tidied up these last few minor issues</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kshepherd&gt; big kudos to robint for his hard work as release coordinator!</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-brick">* hpottinger agrees</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;robint&gt; Coordinating beats actually doing work :)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; robint: I'm working on testing your patches for ds-1025 (thanks for that, btw), hope to be able to post results/confirmation that the COinS still work with citation managers, hopefully by this afternoon/evening</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/ds-1025">https://jira.duraspace.org/browse/ds-1025</a> ] - [#DS-1025] Mouseover any title in XMLUI displays COINS info (see Advanced Search or Browse by Title - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;robint&gt; Thanks hpottinger</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;robint&gt; I installed the OCLC Firefox addon but nothing displayed when I looked at any pages</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; Don't know if I am doing something wrong</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kshepherd&gt; i usually use Zotero, i'll test that later</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; hpottinger: I think I my have moven the COINS span elements to '</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; sorry, typo</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; ... the wrong places on some pages</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; I've got Zotero installed, will try as soon as I get trunk working on this crazy notebok</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; So it should work, but may need tidied up</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kshepherd&gt; hpottinger: if you can double-check the 200/404 responses in your trunk build that'd be a big help, too</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; Hello everyone.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;robint&gt; Hi mdiggory</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; kshepherd, happy to, and it's on the list</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kshepherd&gt; hi mdiggory</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;robint&gt; hpottinger: Note that you just need to change the dependency for the jar to be 1.0.2</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kshepherd&gt; yeah, and if testing the new jar, i'd recommend clean then package, maybe clear tomcat cache.. .all that good stuff</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kshepherd&gt; i found a neat trick yesterday</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; kshepherd: That could be where I have gone rong</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; wrong</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kshepherd&gt; built dspace, fired it up, logged in to XMLUI, then trashed dspace, rebuilt, did a *fresh install* from ant, started tomcat back up</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kshepherd&gt; (this is with a new db too btw, so no administrator account)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kshepherd&gt; i was still logged in as admin!</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kshepherd&gt; now *that's* session persistence :P</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;robint&gt; Superb !</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; so, kshephered and robint, I thought the dependency on the new jar was already commited to trunk?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kshepherd&gt; no, my patch was committed to trunk, and the new jar was released</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;robint&gt; hpottinger: Not yet. Its released to Maven Central</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kshepherd&gt; but the pom which handles dependency to cocoon-servlet-service-impl isn't updated yet</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;robint&gt; You can pick it up just by updating the version number in the pom</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: i changed the new transformer exceptions to ProcessingExceptions as you recommended (but page not found still throws ResourceNotFoundException explicitly)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; It should, shouldn't it?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kshepherd&gt; yep</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kshepherd&gt; it's all good, i was just giving you an update ;)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;robint&gt; mdiggory: Could I pester you about the Tombstone stuff ?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://search.maven.org/#artifactdetails%7Corg.dspace.dependencies.cocoon%7Cdspace-cocoon-servlet-service-impl%7C1.0.2%7Cjar">http://search.maven.org/#artifactdetails%7Corg.dspace.dependencies.cocoon%7Cdspace-cocoon-servlet-service-impl%7C1.0.2%7Cjar</a></span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kompewter&gt; [ Maven Central Search Engine ] - <a href="http://search.maven.org/#artifactdetails%7Corg.dspace.dependencies.cocoon%7Cdspace-cocoon-servlet-service-impl%7C1.0.2%7Cjar">http://search.maven.org/#artifactdetails%7Corg.dspace.dependencies.cocoon%7Cdspace-cocoon-servlet-service-impl%7C1.0.2%7Cjar</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-green">* bradmc (~bradmc@c-67-186-181-238.hsd1.nh.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; robint: is that some sort of threat involving grave yards?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;robint&gt; :)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;robint&gt; Or a reference to some dodgy western</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; Not pizza?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; Yes, I know I know... Life is very busy of late. Seems my kids keep getting sent home sick from school every other day this last week</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;robint&gt; Kids germs, there is no defence</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kshepherd&gt; mm, flickr has now hit 200 million CC-licensed photos</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; 's part of being that age, it seems.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: that association may not transmit across the pond.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; Possibly not.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;robint&gt; I suspect I'm missing something</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mdiggory&gt; Tombstone Pizza</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;robint&gt; Ah!</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-brick">* kshepherd makes a note to avoid pizza in Indiana</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; whata you want on your tombstone</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://www.youtube.com/watch?v=Lj5AyxMaqvo">http://www.youtube.com/watch?v=Lj5AyxMaqvo</a></span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kompewter&gt; [ Tombstone Pizza - YouTube ] - <a href="http://www.youtube.com/watch?v=Lj5AyxMaqvo">http://www.youtube.com/watch?v=Lj5AyxMaqvo</a></span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;robint&gt; Anyway, mdiggory: I could pick up the tombstone stuff if you have your hands full at the moment ?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kshepherd&gt; i know what i want on my tombstone: "301 Moved Permanently"</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; hmm,  thats intersting...</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; so if deleted 404 but if withdrawn 301?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kshepherd&gt; err, i was mostly making a joke. on serious matters, i have gone back and forth thinking about withdrawn response codes</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kshepherd&gt; it should be something that causes google decache, at least</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; Thinking that we need to get Ds 768  fixed first so we can actually send error codes...</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kshepherd&gt; i've used 301s to fix up broken URL paths though</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; whats  in the JSPUI for this?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kshepherd&gt; yeah, indeed... and it seems that 768 needs more testing today so i'll get onto it</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;robint&gt; mdiggory; fot the tombstone pages ?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;robint&gt; fot/for</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; yes</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;robint&gt; I don't know what status code it returns</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;robint&gt; Can't check on this crappy laptop</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kshepherd&gt; i can check on a 1.7.x instance</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;robint&gt; My money says its 200 OK</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-navy">* bradmc (~bradmc@c-67-186-181-238.hsd1.nh.comcast.net) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-brick">* hpottinger thinks robint's money is safe</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; I see nothing in the code to suggest it would return anything other than 200</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kshepherd&gt; it seems oworse than that</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kshepherd&gt; but i'm not sure if i'm doing something silly</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-brick">* kshepherd starts to sweat</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;robint&gt; I think it just directs to tombstone.jsp which pops up the 'This item is withdrawn' message</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kshepherd&gt; ok all good</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mdiggory&gt; is there still an ETA of friday for release?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kshepherd&gt; for me, withdrawn item handles redirect to login page</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kshepherd&gt; (xmlui)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mdiggory&gt; kshepherd: yes XMLUI does that</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; does that return a 403 when it does that?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; (it should)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kshepherd&gt; jspui JSPIU is 403 Forbidden</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;robint&gt; Doh! I've lost my money.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kshepherd&gt; XMLUI is 302 moved temporarily</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; and login page as well?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kshepherd&gt; please don't take this as gospel</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; robint: you can payup at OR12</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kshepherd&gt; we have weird loadbalancing / central signon / firewall rules that might be impacting my quick testing :P</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;robint&gt; In beer !</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;robint&gt; mdiggory: Officially I was still thinking about RC2 this Friday, but...</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kshepherd&gt; have to run off to a lecture now</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kshepherd&gt; i'd rather be testing http response codes than implementing java quicksort algorithms in 4 different ways, but such is life</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kshepherd&gt; cheers all</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;robint&gt; I think it might be sensible to delay a few days to allow us to tidy up these last issues, particularly the tombstone one if possible</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;robint&gt; Cheers kshepherd</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mdiggory&gt; I will work to get it resolved by friday...</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;robint&gt; Thanks mdiggory</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: just one last comment about xmlui response codes</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kshepherd&gt; 404s were the only thing that was busted (and which we've hopefully fixed)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kshepherd&gt; so even ignoring my patch, stuff like 302 Moved Temporarily should be good to go right now</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-brick">* kshepherd runs</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;robint&gt; TBH I think we can be really confident that we will make our original deadline of an October release</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;robint&gt; Which is a notable achievement by all. So a few days delay for the RC2 release is not a big issue.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; kshepherd: thanks</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;robint&gt; We are nearing the end of our time. Anyone got anything else they want to bring up ?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;KevinVdV&gt; I just committed DS-599 so feel free to test</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-599">https://jira.duraspace.org/browse/DS-599</a> ] - [#DS-599] SOLR statistics file download displays all files and not only those in the Bundle Original - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;robint&gt; Thanks KevinVdV. Might be worth emailing the devel and commit lists to try and find volunteers.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;PeterDietz&gt; KevinVdV: Thanks for building optimizations for it</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;KevinVdV&gt; OK I will do that after I found the time to write the documentation</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;KevinVdV&gt; Thank you for suggesting a better fix then the one I had in store Peter Dietz ;-)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-green">* JRhoads (~jrhoads@160.10.15.21) has left #duraspace</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;robint&gt; Ok, I think our meeting is officially over, but in Tim type fashion I'll hang around for a while in case anyone wants to chat. Thanks all.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Must go.  'bye all.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;KevinVdV&gt; Need to get some sleep bye all</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C156FD.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; bye</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kompewter&gt; bye</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-navy">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) Quit (Quit: shutdown)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* robint (5229fe9f@gateway/web/freenode/ip.82.41.254.159) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-navy">* hpottinger (80ce6c12@gateway/web/freenode/ip.128.206.108.18) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has left #duraspace</span><br />

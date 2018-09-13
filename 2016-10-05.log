@@ -1,0 +1,206 @@
+<span class="irc-date">[6:32]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[10:05]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:56]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* dyelar (~dyelar@129.237.45.105) has joined #duraspace</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-green">* PhilipV (~philip@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:38]</span> <span class="irc-navy">* PhilipV (~philip@85.234.195.109.static.edpnet.net) Quit (*.net *.split)</span><br />
+<span class="irc-date">[14:38]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[14:38]</span> <span class="irc-navy">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[14:39]</span> <span class="irc-green">* PhilipV (~philip@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:39]</span> <span class="irc-green">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:39]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-green">* terry-b (~chrome@covis2.georgetown.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-navy">* PhilipV (~philip@85.234.195.109.static.edpnet.net) Quit (Quit: PhilipV)</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.45.105) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-green">* dyelar (~dyelar@129.237.108.10) has joined #duraspace</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.108.10) Quit (Ping timeout: 244 seconds)</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-green">* dyelar (~dyelar@129.237.45.105) has joined #duraspace</span><br />
+<span class="irc-date">[18:56]</span> <span class="irc-green">* hpottinger (~hpottinge@162.104.218.179) has joined #duraspace</span><br />
+<span class="irc-date">[18:57]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.45.105) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[18:58]</span> <span class="irc-green">* pbecker (~anonymous@55d4393c.access.ecotel.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:06]</span> <span class="irc-green">* lap82 (570ad2f6@gateway/web/freenode/ip.87.10.210.246) has joined #duraspace</span><br />
+<span class="irc-date">[19:11]</span> <span class="irc-green">* rfazio (972f7976@gateway/web/freenode/ip.151.47.121.118) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-brick">* tdonohue reminds everyone we have a DSpace DevMtg starting shortly here. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-10-05">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-10-05</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome to our weekly DSpace DevMtg.  Already linked the agenda above</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; One other item to note (not explicitly on the agenda).  Committers should check your email (if you haven't already).  As noted there, cause of limited funding for the rest of 2016, my upcoming time to devote to DSpace will be limited.  But, that budget will 'restart' in 2017</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; In the meantime, I will be in these meetings (and other important DSpace meeting) to help with facilitation.  I just won't be able to take on much work myself.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; And, as I note, DSpace Steering is aware and, in the coming months, will be looking at ways to help DSpace find more funding for 2017 (to avoid this in the future)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;hpottinger&gt; sounds like we need an RC?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;hpottinger&gt; or, wait, 6 has an RC, doesn't it?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; If there are any major concerns/questions, I'm glad to take a few here (or via email / elsewhere).  I'm still around obviously and willing to consult on things.  But, I won't be able to have time to code or anything (unless I work in off hours from home, which is unlikely with two young ones)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker already has volunteered to "cut" the 6.0 release.  We have release notes already drafted.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; I'm glad to be the "friendly reminder" in these meetings... but outside of these meetings, I won't have time to actually drive specific issues forward (like an RC would do).</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; pbecker: besides cutting the release, would you have time to coordinate it?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger: what coordination do you expect?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; sounds like yes to me :-)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;pbecker&gt; looking out for new blockers after rc4 is out? yes, I can do that.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;pbecker&gt; honestly I don’t see much coming and I hope that all committers will be helping.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;pbecker&gt; What makes me more worries is security support for DSpace 4.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; I do suspect the coordination at this point should be minimal (assuming no major blockers pop up).  Yes, I agree that everyone should be helping</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;hpottinger&gt; the "coordinator" job is mostly "nag in chief"</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;pbecker&gt; I can do that.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; thanks pbecker!</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;pbecker&gt; no problem.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-brick">* hpottinger bows to pbecker, thanks!</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;pbecker&gt; starting nagging: can we talk about DSpace 4.7 before we go to the 6.0 release?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; I can help</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;pbecker&gt; I feel some urge there.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: sure, if you'd like to talk 4.7 first, that sounds fine to me</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;pbecker&gt; When I helped preparing release notes, I noticed 5.6 closes 4 security related issues, while 4.6 closes one. From the other three one does not concerne DSpace 4.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;pbecker&gt; so two left: I backported one which needs testing (<a href="https://github.com/DSpace/DSpace/pull/1549)">https://github.com/DSpace/DSpace/pull/1549)</a></span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;pbecker&gt; It is just a backport of DSpace 5, most of the time I needed was spended in a damn unit test.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;pbecker&gt; So I don’t expect any problems.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;pbecker&gt; The other issue still looks for a volunteer.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;pbecker&gt; DS-3097 to name it.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3097">https://jira.duraspace.org/browse/DS-3097</a> ] - ('Unexpected error:', &lt;type 'exceptions.AttributeError'&gt;)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone have a 4.x instance around they could test PR 1549 on?  Or someone willing to spin up a new test one off the dspace-4x branch?</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; I can do that, if I can figure out how to test for the problem.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;pbecker&gt; great, thanks!</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;pbecker&gt; I hope that there is some description within the ticket or the DSpace 5 PR</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: The test itself should be pretty self explanatory based on the description in DS-2895 (the ticket associated with this issue)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2895">https://jira.duraspace.org/browse/DS-2895</a> ] - ('Unexpected error:', &lt;type 'exceptions.AttributeError'&gt;)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; I assigned the PR to myself.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; And, as pbecker notes...that just leaves needing to find someone to help backport ticket 3097 to 4.x alongside this. Anyone interested?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; with 3097, the original versions of the patches were built by bollini...who isn't here today</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; This one *again*?  The bug that wouldn't die!  4_x does not have Flyway, right?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;pbecker&gt; right</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; correct, the 4.x backport would involve just pulling out a SQL script that we'd document folks to run manually when upgrading to 4.7</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; That should not be too difficult.  Does anybody want it?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; The SQL itself should be likely mostly the same (as the 5.x one).  You'd just put it over in /etc/postgres (where these SQL scripts used to live in 4.x days)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;hpottinger&gt; wait... do we need to cut a release for an SQL-only fix?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; [src]/dspace/etc/postgres/ that is</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; it's not SQL only. but SQL is *part* of the fix</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; ok</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;lap82&gt; I try to do that</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;pbecker&gt; great, thanks!</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; thanks lap82!</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; Thank you!</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;pbecker&gt; then we’ll need someone to cut 4.7, but I would discuss this when both issues are closed.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;pbecker&gt; Do we wait to further communicate 5.6 or to we send out notices now?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; I will jump in and mention here, I drafted release announcements (emails) for 4.7 / 5.6 last week... I can send those out once both are ready.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: I'd wait till *both* are ready...as it's the same issues in both 4.x and 5.x.  It'd be odd to publicly announce the issues in 5.x first...then wait a while to release them for 4.7</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;pbecker&gt; sounds like a plan.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; So, once these two issues are fix..someone can cut 4.7, and I can send out the (previously drafted) announcements</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; *fixed</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;pbecker&gt; I think we have a good chance to get this of our plates till next week.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;pbecker&gt; That was all I head regarding DSpace 4.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;pbecker&gt; s/head/had</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: That was all I had regarding DSpace 4.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds good then...so, we'll move along to DSpace 6</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: if it’s fine for you I go right on with that.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;pbecker&gt; We have two issues left. One is awaiting documentation and one is DS-3345.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3345">https://jira.duraspace.org/browse/DS-3345</a> ] - [DS-3345] &amp;quot;Missing&amp;quot; migration when upgrading 5.6 -&amp;gt; 6.0 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; (thanks pbecker...go ahead, you are welcome to take the lead here)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;pbecker&gt; We wanted to cut RC4 and then 6.0 final.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;pbecker&gt; does anyone heared anything from abolini who volunteered for DS-3345?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3345">https://jira.duraspace.org/browse/DS-3345</a> ] - [DS-3345] &amp;quot;Missing&amp;quot; migration when upgrading 5.6 -&amp;gt; 6.0 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; lap82 and rfazio both work with Andrea Bollini...I imagine they could give him a friendly reminder for us :)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;lap82&gt; No, I try to ping it</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;lap82&gt; tdonohue: yes of course :-)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;pbecker&gt; thank you. It is the last ticket that is hindering us from pushing out RC4.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; 3345 shouldn't be *hard* to fix.  As mhwood notes (and I agree) in the ticket, it may just be a matter of removing the (duplicative) 6.x migration...and retesting that everything works</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; thanks lap82</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; Well...we picked up a new ticket today that seems rather significant, since the problem breaks searching in DE locales.  DS-3354</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3354">https://jira.duraspace.org/browse/DS-3354</a> ] - [DS-3354] <a href="http://demo.dspace.org/jspui/simple-search?locale=de">http://demo.dspace.org/jspui/simple-search?locale=de</a> has Sytem error - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; yes, I see that 3354 is now appearing in our automated search in the agenda</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; It's a one-character fix.  I can do that.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;pbecker&gt; great, thanks!</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; 3354 seems like a tiny, easy, important fix.  Thanks mhwood</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;pbecker&gt; I can test it (my browsers prefer German by default ;-))</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; Very good.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;pbecker&gt; I just encountered another problem, but I don’t think that is a blocker. Batch import didn’t worked in JSPUI. I fixed the jsps in the last hours. Now all works fine, but the new items never gets indexed into SOLR.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;pbecker&gt; In the logs some LazyInitializationExceptions appear.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;pbecker&gt; I will try to reproduce it tomorrow and create a proper issue.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; The other ticket that still appears in our agenda under 6.0 is DS-2604.  If I recall correctly, this was merged for 5.x but still open for 6.x</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2604">https://jira.duraspace.org/browse/DS-2604</a> ] - [DS-2604] Creative Commons license assignment silently fails in JSPUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; the PR is DSPR#1526</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1526">https://github.com/DSpace/DSpace/pull/1526</a> ] - DS-2604 port - DSpace 6.x - from XMLUI to JSPUI the approach to queries Creative Commons service (via REST API) by lap82</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: sounds good on creating a proper issue for what you are seeing</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;pbecker&gt; would you agree that this doesn’t sound like a blocker to you too?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;pbecker&gt; I can test DS-2604 for DSpace 6.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2604">https://jira.duraspace.org/browse/DS-2604</a> ] - [DS-2604] Creative Commons license assignment silently fails in JSPUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;pbecker&gt; I already tested it for DSpace 5.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;pbecker&gt; If all is fine, I’ll merge it without waiting another +1 as we already have more or less the same patch in DSpace 5.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: maybe not a blocker...but if the batch import issue you see is something that turns into a very quick fix, still may be good to take care of.  The fact things are indexed into Solr doesn't sound ideal</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: to be more precise it just appears over JSPUI. command line doesn’t seem to be affected.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;pbecker&gt; I’m not very confident to find a quick fix for that.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;pbecker&gt; I don’t know that part of the code very good.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, well, get it logged. It doesn't sound like a blocker still, but once logged, maybe there is someone who can figure it out quickly</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;pbecker&gt; and LazyInitaliziation is some kind of hiberante magic.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;pbecker&gt; great.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;pbecker&gt; So I think we have a plan for 6.0: 2604-&gt;pbecker, 3315-&gt;is awaiting documentation, I’ll ping art another time, 3345 -&gt; lap kindly asks abollini, 3345-&gt;mhwood is looking to fix this, pbecker will test.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-brick">* mhwood fears that we will be combing LazyInitializationException out of 6_x through several minor releases.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: do you still volunteer to cut rc4?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; I do.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;pbecker&gt; great.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like a plan. :)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;pbecker&gt; :-)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; does this plan have dates? :-)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger: we had dates and we missed them.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;pbecker&gt; I just assume everyone tries to get this done asap.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; RC4 should get another public announcement.  Likely could be similar to the RC3 one.  This time though, perhaps we set an approximate date for 6.0 final (assuming no blockers post-RC4) as part of that announcement.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;pbecker&gt; We wanted to push out RC4 last Monday.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; My recommendation... RC4 ASAP...then 6.0 Final ~1-2 weeks later (depending on schedule of person cutting final release)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: can you send those out? I will send you a concrete date for cutting DSpace 6.0 as soon as RC4 is out.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; I think it's best to leave at least a week between the two releases...but hopefully not go more than two weeks between</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; OK, so, RC4: ASAP, 6.0: ASAP + 2 weeks</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; yes, I should be able to send the RC4 announcement out. I'll base it on the RC3 one</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;pbecker&gt; exactly. But for example I won’t be able to cut the final release on Thursdays… ;-)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger: yes.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;pbecker&gt; I think that is all we can do now for 6.0.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like we have a good plan then. :)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; only reason I'm stuck on this is I have been reporting in my standups that "a date will be selected for 6.0 soon, probably mid October"</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; That was everything "official" on our agenda. Any other topics/discussions/questions to bring up today?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;pbecker&gt; I do feel the same. I was promising dates for final release in July.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;pbecker&gt; the plan was to cut RC4 on last Monday, but there is still one issue we need to resolve bevore.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;pbecker&gt; s/bevore/before</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: the plan was to cut RC4 on last Monday, but there is still one issue we need to resolve before.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; my only feeling on it is that I don't want to say the same thing in the middle of October :-)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: be honest.  We have one ticket open before RC4.  6.0 Final is planned for approx. one to two weeks after that.  We currently think that means mid-to-late Oct</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; but, ASAP and ASAP + 2 weeks is fine, I will pitch in with 3097/1549 if mhwood needs the help</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; Thanks, I'll keep in touch.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; I realize 6.0 has been a pain to get out the door...but I feel we really needed more time to stabilize (and we are now starting to seem well "stabilized")</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;pbecker&gt; We can talk about dates, but it depends if we really get the issues closed.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;pbecker&gt; currently I hope to cut 6.0 on 21st, so official release date would be Monday 24th.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;pbecker&gt; but that would mean, RC4 has to be cut till next Monday.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; to be clear, I'm not complaining, just prodding on the off chance dates can be chosen, but work remains</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; those seem like good dates to aim for...but as you said, it depends on hitting that RC4 date :)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; so, there is one PR to be tested and then RC4 can go out?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; Any other topics to bring up or discuss today?  We have about 10 minutes left here... we can end early if nothing else, but I don't mind more chit chat / discussion :)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Wait, I mixed up my versions.  Never mind.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;pbecker&gt; jira.duraspace.org/browse/DS-3354?jql=project%20%3D%20DS%20AND%20status%20in%20(Received%2C%20%22More%20Details%20Needed%22%2C%20%22Volunteer%20Needed%22%2C%20%22Code%20Review%20Needed%22%2C%20Accepted%2C%20%22Awaiting%20Documentation%22)%20AND%20priority%20in%20(Blocker%2C%20Critical%2C%20Major)%20AND%20fixVersion%20%3D%206.0</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3354">https://jira.duraspace.org/browse/DS-3354</a> ] - [DS-3354] <a href="http://demo.dspace.org/jspui/simple-search?locale=de">http://demo.dspace.org/jspui/simple-search?locale=de</a> has Sytem error - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: +1 :-)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;pbecker&gt; I have to go back to my talk for tomorrow unless we missed something really important?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; DS-3345 is the RC4 blocker?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3345">https://jira.duraspace.org/browse/DS-3345</a> ] - [DS-3345] &amp;quot;Missing&amp;quot; migration when upgrading 5.6 -&amp;gt; 6.0 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; It's sounding like we hit all the important topics for today.  But, I'll hang around here a bit longer in case something comes up</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; On a positive note:  6.0 has taken so long that there may be some Angular 2 books available not long after we begin 7 in earnest.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; yes, hpottinger... 3345 involves touching DB migrations. Ideally, we really don't like doing that in bug-fix releases (unless necessary). So, it needs to be resolved in 6.0</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; (plus it affects some upgrade paths)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;hpottinger&gt; OK, so... Friday I'm going to devote to DSpace bug smashing, I'll head to #dspace people point me at a bug, I'm smashing it</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;pbecker&gt; great offer!</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; sounds great!</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Are we done for today, then?</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks all, honestly!  Also, please do let me know if there's any ways you want to restructure these meetings in the coming months (feedback welcome!)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; yes, we are finished for today. See you all next week</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;lap82&gt; thank you all! bye</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; 'bye all!</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;pbecker&gt; bye, thanks!</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-navy">* lap82 (570ad2f6@gateway/web/freenode/ip.87.10.210.246) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-navy">* rfazio (972f7976@gateway/web/freenode/ip.151.47.121.118) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-navy">* hpottinger (~hpottinge@162.104.218.179) Quit (Quit: later, taterz!)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-navy">* pbecker (~anonymous@55d4393c.access.ecotel.net) Quit (Quit: pbecker)</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has left #duraspace</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-navy">* terry-b (~chrome@covis2.georgetown.edu) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[23:55]</span> <span class="irc-green">* PhilipV (~philip@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />

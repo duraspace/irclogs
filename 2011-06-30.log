@@ -1,0 +1,38 @@
+<span class="irc-date">[6:48]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-184-73-131-253.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:39]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:54]</span> <span class="irc-navy">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[10:57]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:223:dfff:fefe:ac7d) has joined #duraspace</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-black">&lt;tdonohue&gt; testing 1 2 3 (feel free to ignore this message -- trying to see if our Logging bot is working today, as it wasn't working yesterday)</span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-green">* cwilper (4a2e47b5@gateway/web/freenode/ip.74.46.71.181) has joined #duraspace</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-black">&lt;cwilper&gt; I'm bringing DuraLogBot down for a couple mins. Yesterday and today's logs will become available at irclogs.duraspace.org, then DuraLogBot will come back.</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-brown">-pratchett.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-brown">-pratchett.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-brown">-pratchett.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-brown">-pratchett.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;cwilper&gt; Hmmm...duralogbot's back, but I don't think I was able to recover yesterday's logs. If anybody has 'em in their scrollback buffer or otherwise, I'd be glad to insert them in the log html page for yesterday.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; I have local IRC logs from yesterday (at least until about 22:10 UTC)...passing them on to Chris</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;cwilper&gt; Ok, yesterday's logs are resurrected, thanks to Tim! <a href="http://irclogs.duraspace.org/index.php?date=2011-06-29">http://irclogs.duraspace.org/index.php?date=2011-06-29</a></span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;kompewter&gt; [ IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot ] - <a href="http://irclogs.duraspace.org/index.php?date=2011-06-29">http://irclogs.duraspace.org/index.php?date=2011-06-29</a></span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-navy">* cwilper (4a2e47b5@gateway/web/freenode/ip.74.46.71.181) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:10ab:218:8bff:fe2a:56a4) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-green">* ethan1991 (~ethan.tho@rrcs-24-123-28-218.central.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;ethan1991&gt; hello</span><br />
+<span class="irc-date">[18:21]</span> <span class="irc-green">* mhwood1 (~mhwood@2001:18e8:3:10ab:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[18:22]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[18:29]</span> <span class="irc-green">* ethan1991 (~ethan.tho@rrcs-24-123-28-218.central.biz.rr.com) has left #duraspace</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* mhwood1 (~mhwood@2001:18e8:3:10ab:218:8bff:fe2a:56a4) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:33]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:223:dfff:fefe:ac7d) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[22:33]</span> <span class="irc-green">* eddies (~eddies@46.115.114.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:33]</span> <span class="irc-navy">* eddies (~eddies@46.115.114.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[22:33]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />

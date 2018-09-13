@@ -1,0 +1,352 @@
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-green">* bram-atmire (~bram@94-224-134-252.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all..reminder that we have our DSpace Devel Mtg starting in just a few minutes.  <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-05">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-05</a></span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-12-05 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-05">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-05</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hello all...welcome.  It's now time for our weekly DSpace Developers Mtg.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; The agenda is up at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-05">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-05</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-12-05 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-05">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-05</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; I also just realized that we should have reinstated our "JIRA reviews" this week...but, as I didn't come prepared for that...I guess we'll wait till next week</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; So...first off -- Congrats to everyone on 3.0!  Great to get it out the door last week!</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; A huge kudos to the 3.0 Release Team (hpottinger, sands, helix84, robint), as I think they did a great job</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mhwood&gt; Seconded.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;bram-atmire&gt; cheers!</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;hpottinger&gt; Thanks, I think it all worked out really well, and back at ya tdonohue.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;hpottinger&gt; likewise, thanks to mhwood for making us a maintenance branch</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-brick">* tdonohue wants to take a brief moment to remind everyone that if you have any ideas/brainstorms on how to make future releases go even better, feel free to start jotting them down or sending our way.  This is not just for Release Team members, but anyone</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; oh, yea..and definitely thanks to mhwood -- even though he wasn't "officially" on RT, it seemed like he stepped in to help a lot</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-brick">* hpottinger thinks we should add mhwood to the team via time machine</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; and thanks to bram-atmire for his great Release Notes...basically, thanks to all.  Good to have 3.0 out there :)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, the first topic really on this agenda was just to touch back on 3.0.  Anyone started any upgrades yet, or notice anything yet requiring attention/feedback?  Or anything else to tidy up, post-3.0?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; I'm still working on getting 3.0 running on Oracle...</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; let's not forget Kevin, the bug slayer</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; (and also working on IT to get us *away* from running on Oracle at all)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; yep...KevinVdV was the bug-slayer :)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; so, hpottinger -- you are still having issues with 3.0 on Oracle then?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue, yes, it's still complaining about missing column_id</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; ok, good to note (but bad to hear, obviously).  I'm hoping we can get some other Oracle-folks to let us know of their success or failure as well...</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone else trying upgrades to 3.0 or have it scheduled?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; yes, i've been running a staging server on master for a long time, but i'm planning to upgrade a production server in the following days</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; we're planning on upgrading to 3.0 asap, over the holidays, as soon as I can figure out the Oracle stuff</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; cool.  Definitely would be interested to hear how it goes for both of you.  (Sidenote: DuraSpace also sometimes likes to feature sights who are early-upgraders in a blog post or similar...so, anyone who does upgrade soon can feel free to get in touch if you want it publicized.)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; s/sights/sites/</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; tdonohue meant to say: cool.  Definitely would be interested to hear how it goes for both of you.  (Sidenote: DuraSpace also sometimes likes to feature sites who are early-upgraders in a blog post or similar...so, anyone who does upgrade soon can feel free to get in touch if you want it publicized.)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; Ian Boston from Cambridge also seems to feel adventurous</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; one interesing tidbit is that they're dropping their dark archive patches and will do with just embargo</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; that *is* interesting...</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; yes it is.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; which reminds me that making a part of DSpace into a dark archive has been a FAQ on -tech, but I always tell them to make 2 instances and hide one into the intranet</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. I think the next part of this topic is just to touch base on 3.1 thoughts. It seems like 3.1 will definitely happen, since we already have some minor bugs to resolve...just a matter of *when* we feel we have important-enough fixes to push out.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; I think that's the best way to go, until we've pulled authorization down into the business logic layer that we haven't done yet.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; I still didn't notice almost any patches or commits for 3.1 :)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; Don't we already have one important to-be-fixed that was deferred to 3.1 due to time constraints?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; But there is one patch for CC licenses in submission forms that is liiking for a reviewer. Anyone here using CC &amp; submission workflow?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; mhwood: note that I didn't say open issues, I said patches :)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; OK, CSV library replacement is awaiting patch.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; speaking of CSV library, I think Richard Rodgers has played around with newer libraries in MDS</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- we did have bigger Item Versioning + AIP compatibility issues which were differed to 3.1.  That's the one I can think of.  But, admittedly, that work may take a while (month or so)...it's possible it also could be differed to 3.2/4.0, depending on how quick we need to push out 3.1.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: do you have any proposals on how to change the AIP format, that we can discuss here? or do you plan to work it out just with mdiggory?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, yea, and the CSV library issue (GPL license) was important for 3.1</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I have no proposals, yet.  Haven't gotten to it.  I had some ideas bouncing around, but need time to put them to a wiki page &amp; actually determine whether those ideas are *doable* in METS</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; so, essentially, it's on my to-do list</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; Is there anyone who is taking the lead on the CSV issue?  DS-1407    I think that's one that would be very nice to ensure gets into 3.1</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1407">https://jira.duraspace.org/browse/DS-1407</a> ] - [#DS-1407] Refactor SOLR Statistics to use OpenCSV or Apache Commons CSV - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-1407 is the issue about us having a GPL dependency that we really shouldn't have in SOLR Stats</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;KevinVdV&gt; I will take that one !</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;KevinVdV&gt; Unless anbody objects ?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; No objection here; thanks!</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks KevinVdV -- feel free to claim it :)  No objections from me, Mr. Bug-Slayer</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; KevinVdV: have you decided for one of those two suggested libraries?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;KevinVdV&gt; Haven't yet I will take a look at both soon</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; Of those two libraries, I'd recommend OpenCSV if possible, as it's also used in our DSpace Batch Metadata Processing.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; (i.e. it'd be good to use one CSV library in DSpace, if we can...rather than multiple)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;KevinVdV&gt; Allright I will attempt to do OpenCSV first (no need in using new libs if old ones are present)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;KevinVdV&gt; Logging this in the ticket so I don't forget ;-)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; Anything else folks want to talk about with regards to 3.1?   Right now, I'm assuming our schedule is still a bit flexible -- i.e. 3.1 isn't coming until we have something important enough to release.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; anyone here using Shibboleth?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; I am</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: DS-1410</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1410">https://jira.duraspace.org/browse/DS-1410</a> ] - [#DS-1410] ShibbolethAuthentication has multiple NPE and Findbugs issues - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; and really nobody uses CC licenses + submission forms? There's a patch and it's really simple, it just needs confirmation.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; ah, we're not using Shib consortially, we have total control of what attributes are released</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; but I can see where 1410 would be a problem</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: could you "emulate" the missing headers just by ignoring them in the SP's Apache httpd?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; A general 3.1 reminder.  We do have a 'dspace-3_x' branch now in GitHub (<a href="https://github.com/DSpace/DSpace/tree/dspace-3_x).">https://github.com/DSpace/DSpace/tree/dspace-3_x).</a>  So, 3.1 Fixes need to be committed to that branch *AND* merged to master.  "master" is now 4.0-SNAPSHOT</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: yep, can do that</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; tip: it's easy to do by commiting to either branch, then weitching to the other and doing "git cherry-pick [commit-hash]"</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: can you take the ticket, then?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; s/weitching/switching/</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: tip: it's easy to do by commiting to either branch, then switching to the other and doing "git cherry-pick [commit-hash]"</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-brick">* tdonohue notes we should be putting these Git tips into our docs somewhere - I know I'm very good at forgetting such useful tips when I actually want to use them :)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;bram-atmire&gt; @tdonohue on this page? <a href="https://wiki.duraspace.org/display/DSPACE/Development+with+Git">https://wiki.duraspace.org/display/DSPACE/Development+with+Git</a></span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;kompewter&gt; [ Development with Git - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Development+with+Git">https://wiki.duraspace.org/display/DSPACE/Development+with+Git</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; i'll add it there</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; yea, likely that's the best place.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; helix84, I've assigned 1410 to myself</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; you continue to push hardy to assign the bug ;)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; One final note about 3.1 :  We already have some bugs getting scheduled for 3.1.  So, if you get some extra time in coming weeks/months, feel free to claim one and squash it: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+fixVersion+%3D+%223.1%22+ORDER+BY+priority+DESC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+fixVersion+%3D+%223.1%22+ORDER+BY+priority+DESC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+fixVersion+%3D+%223.1%22+ORDER+BY+priority+DESC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+fixVersion+%3D+%223.1%22+ORDER+BY+priority+DESC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; and if you're working on one (staring at myself right now) that doesn't have a Jira issue, and that starts to "bug" you at all, make a Jira issue for it :-)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; +1 hpottinger</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; I thought Java has the incrementing operator</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; hpottinger++</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I think that's all I have for 3.0 &amp; 3.1 stuff for today.  Looking forward to hearing about everyone's experiences in your upgrades in coming weeks/months</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; though if that increments hpottingers by one, I'm happy for that, too</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; as long as he works for me...</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; I think *one* hpottinger is plenty :)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; Although...more hpottingers could mean more commits...hmmmm :)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; not necessarily</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; true true</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; 2 more and I'd have a quorum</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  The last topic on the agenda is just to bring up the "DSpace Future Directions" meetings with DCAT &amp; Committers from the last few weeks.  I honestly think they went well, and thanks to all who were able to join</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; the notes are available publicly at: <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=33238592">https://wiki.duraspace.org/pages/viewpage.action?pageId=33238592</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ DCAT/Committer Meeting Notes - DSpace Futures (Nov 2012) - Community Groups - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=33238592">https://wiki.duraspace.org/pages/viewpage.action?pageId=33238592</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; &amp; DuraSpace will be sending out a more "formal" summary of topics discussed (likely in the next week or so)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; wish I could have made it to meeting 2</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; But, a few big things that stuck out in my mind were...</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; 1. It seems like we have a lot of folks really wanting to use a REST API (or some sort of "repository abstraction layer").  This was feedback both from committers &amp; non-committers</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; damn you, wysiwig wiki!</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; 2. There seemed to be a lot of interest (at least in meeting 2) on finding ways to collaborate more.  Sharing code/ideas earlier &amp; working together on projects</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; this "collaborate more" idea was NOT necessarily just limited to Committers...but rather finding ways to encourage *everyone* to share what they are working on more, so we can collaborate on common solutions to common problems</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;helix84&gt; ad 1) I added a proposal to today's agenda</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I've been prodding our local dspace guru to share his developments for a long time, but he keeps complaining that they're not useful to anybody else :)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;bram-atmire&gt; you are not the local dspace guru?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; nah</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; Maybe if more of us knew about them, we would see something to generalize.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; world, spinning...</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; 3. One other thing that actually came up quite a bit -- DSpace needs to NOT try to do everything.  We need to find ways to allow for plugins/modularization, so that we don't try to do too much.  This came again both from Committers and also from DCAT members and non-technical folks.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; Well he keeps piling workarounds, e.g. for storing journals whic don't fit very well into our collection/item/bitstream boxes. So we could put him out of his misery by fixing the design.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; There were plenty of other brainstorms / ideas through the discussions (read those notes...I think we got them all captured there, at least at a higher level), but those were the ones that stuck out the most to me</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;helix84&gt; those notes are actually surprisingly true to what was said, good job, Tim!</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-green">* joaomelo (~DSpace@188.250.33.123) has joined #duraspace</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;helix84&gt; hi Joao</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;joaomelo&gt; hi helix</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; wasn't just me -- I'm not a "super note taker"... I did take notes, but the end result was a combination of what Jonathan, Val &amp; I all captured in our notes :)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; well, just to put it out there, we'll be working on testing REST-API (all the forks, too), we are in the middle of merging two repositories, and the repository we're working with has some itches that REST will help scratch</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, as helix84 noted a while back....in our agenda, it is noted that one "project" we likely need to work heavily on for 4.0 is actually getting a REST-API  of some sorts in place</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; what do you think about my suggestion to merge the Wijiti REST API?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mhwood&gt; Two types of (3):  (a) replace our home-grown pluggable authentication with e.g. Spring Security; (b) make it easy for external streaming servers to read from the assetstore and work closely with the DSpace UIs.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; one note about Wijiti vs. Hedtek.  Hedtek (although read-only), has UNIT TESTS!  That's a very nice bonus.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; But, admittedly, I haven't done a thorough test or review of either Wijiti or Hedtek REST APIs.   I think we should look closely at both though...</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;hpottinger&gt; I like the HedTek forks focus on testing, and mhwood++</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood++ (uh-oh, are there now 3 mhwoods?)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; (c) replace the whole pluggability setup with Spring?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; honestly, i haven't looked at Hedtek, read-only discouraged me.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- there could be a place for read-only though.  It is also possible to implement 2 REST APIs too, if we felt the need.  Read-only (high performance) &amp; Write (secured access)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; that thought scares me</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mhwood&gt; Reads need security too.  (mumble mumble business logic layer mumble)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; read-only: safe for public re-use</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; business logic layer ++</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; It's worth noting that this is parallel to an idea that was talked about in the *first* DCAT/Committer meeting a few weeks back.   We had several folks noting that DSpace has issues with scalability still.  Stuart Lewis, Committer Emeritus, said he's always wondered why we try to do everything in *one* UI -- he wondered why not have an Access-only (high performance) UI and a separate Admin UI.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Admin. probably doesn't need to look or feel exactly like access, but I don't see how we gain speed by splitting them.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;hpottinger&gt; Repository as a Service, like that idea a lot</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not stating that the Read-only/Access-only UI (or REST API) wouldn't still have security...just stating that this is one way to split up the tasks that need to be *highly scalable* (and could be served directly from Solr or similar)  from the tasks that require direct DB writes</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;helix84&gt; Joao? ;)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- the speed gain is that you could make sure the access-only/read-only UI *never* does DB queries...you can have it's content highly-indexed in Solr for quick access</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; This is all a giant brainstorm -- I'm not suggesting we need to jump this route or anything. It was just a very interesting idea from Stuart Lewis</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietz has a pretty cool little Play Framework client for the HedTek REST-API</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;PeterDietz&gt; hi</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: i didn't learn one thing in the conference call - how does Fedora achieve that people from different organizations join to work on a common project?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; hi PeterDietz!</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: I worked with your ES recently and it looks very good</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;PeterDietz&gt; Thank you. Once you get some data in it, then the magic happens</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: needs work, but shows a lot of promise</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; when you have time, see the comments I put under the docs you wrote</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;PeterDietz&gt; heh, time</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; I've been looking at Fedora recently, and I think the answer is that they only talk about the community and you have to ask someone how it works!  (OK, it's better than that, but it took me a while to find technical doco.)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;joaomelo&gt; I need to take a closer look, however REST APIs are always a nice feature</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-navy">* linux4u (~james@employed.library.emory.edu) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: I meant when you can't sleep because of baby crying :)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- Fedora is a smaller community. They actually have similar issues to us around sharing common projects (or have in the past). But recently, several Fedora institutions (&amp; service providers) basically started a grass-roots effort to rebuild Fedora.  They "self organized" and are self-funding the work.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; and by "self-organized &amp; are self-funding the work", I mean that these institutions formed a Fedora Steering Committee, and all promised a certain percentage of development time (or actual money) towards rebuilding Fedora</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not sure if that answer the Fedora question or not :)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; Getting larger things done seems to start with realizing that some sites have common problems they could solve together.  Which depends on realizing that our local problems might be common problems and talking about them.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; I guess. We could use a rolemodel on how to get these things rolling.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-brick">* hpottinger isn't sure what to make of the idea of a Fedora reboot</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; New origin stories and costumes for everyone?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;KevinVdV&gt; *Needs to run*</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- Go on, try it!)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: stop, my head is *really* spinning now :-)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;PeterDietz&gt; helix84: Thanks for the comments on the ES, last I saw it was the first 3 notes. This digs into the "room for improvement"</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- why not? Fedora's also around 10 yrs old.  To be honest though, I don't think it will be a complete "reboot" all at once...from my understanding they are carefully concentrating on reworking specific "parts" little by little</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: will you mind if I do some minor work on it, like i18n? I'd hate to cause conflicts.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. they are breaking Fedora into parts...reworking one part...then reworking the next...etc etc</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: it's their project, run by their community, they have to do what they have to do, I get that... just, there's a lot of projects that use Fedora as a backbone...</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; Eh, as long as the contracts are honored, it still works.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- but, that's my point...the fact that they are reworking it piece by piece means they are *trying* to honor their contracts...so, stuff on top of Fedora may not need to change too much</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; (or at least, that's the *idea* that I've heard for what Fedora is doing...whether they achieve that is yet to be decided)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;hpottinger&gt; I understand the theory... :-) The practice is where the fun really begins</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: another thing I want to make is make it respect the authorization.admin.* options</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; yep, I agree, hpottinger</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; Ok..in any case here. We don't have any more topics for today.  I'm willing to stick around if anyone has anything else to discuss.  But the "formal meeting" is over for today</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; besides REST-API, I think we're edging around the idea that AuthZ/AuthN needs some work</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; yea...I'd agree with that. AuthZ/AuthN would be nice to do some work on</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; Maybe we need to start a "4.0 Wishlist" :)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: the idea to "outsource" AuthZ/N doesn't sound bad. Assuming what the outsourcee provides is better than what we have.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; May go hand-in-hand with REST-API anyway</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; In general, I'd rather "find a library" than "build it ourselves".  So, I fully agree we should look to find an AuthZ/N solution out there that will work for us.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; The "build it ourselves" just ends up leading to "support it ourselves" and "fix it ourselves" and "blame ourselves for doing it wrong the first time"....much rather "outsource" much of that. ;)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mhwood&gt; Something else to push out might be the workflow logic.  It might get pushed right out of DSpace altogether and live on its own.  I think that a lot of products need "people workflow management" but I never saw a general-purpose library for that stuff -- all the "workflow" libraries are for making machines talk to each other.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;helix84&gt; how about making what we have a library? the XmlWorkflow stuff?</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; Actually we ought to start by looking at DSpace and asking what is our contribution to information management vs. what bits are something that others could do (possibly better).</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, I agree with that statement</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; The workflow *UI* belongs with DSpace.  It's the modelling of objects and steps and signoffs and whatnot that could be exportable.</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;helix84&gt; like packagers/crosswalks</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; Also, I think that's something Richard Rodgers has been "toying with" some in his "Modernized DSpace" (MDS) work....he's been looking at stuff to yank out of DSpace in favor of another's library/tool</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;hpottinger&gt; sounds like rules engine stuff</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; I think there would be quite a lot of interest in a library that can convert between metadata formats and has quite good standards compliance, like we have</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; does Fedora do something in that area?</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; there's bibblio</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://code.google.com/p/biblio-transformation-engine/">https://code.google.com/p/biblio-transformation-engine/</a></span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; this? <a href="http://drupal.org/project/biblio">http://drupal.org/project/biblio</a></span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;kompewter&gt; [ biblio-transformation-engine - A Java library for applying transformation workflows to bibliographic metadata - Google Project Hosting ] - <a href="https://code.google.com/p/biblio-transformation-engine/">https://code.google.com/p/biblio-transformation-engine/</a></span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;kompewter&gt; [ Bibliography Module | drupal.org ] - <a href="http://drupal.org/project/biblio">http://drupal.org/project/biblio</a></span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; ah, that</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; I think that's what EKT used</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;hpottinger&gt; yep, it's in DSpace 3.0</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; correction: developed :)</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-navy">* bram-atmire (~bram@94-224-134-252.access.telenet.be) Quit (Quit: bram-atmire)</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;hpottinger&gt; jumping back to AuthZ/N, Fedora uses JAAS (<a href="http://en.wikipedia.org/wiki/Java_Authentication_and_Authorization_Service)">http://en.wikipedia.org/wiki/Java_Authentication_and_Authorization_Service)</a></span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; that could be worth looking at</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;hpottinger&gt; and possibly helpful in the workflow abstraction: <a href="http://java-source.net/open-source/rule-engines">http://java-source.net/open-source/rule-engines</a></span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;kompewter&gt; [ Open Source Rule Engines in Java ] - <a href="http://java-source.net/open-source/rule-engines">http://java-source.net/open-source/rule-engines</a></span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;helix84&gt; One thing that we're not doing as well as we could and for which there might be a library is AuthZ with proper ACLs. The stuff we have is rather simplistic.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;mhwood&gt; helix84++</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;hpottinger&gt; simplistic, and it breaks a lot</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; another FAQ: collection permissions are inherited only during submission. facepalm.</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;mhwood&gt; Yes!  People expect dynamic inheritance, but we don't do that.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;hpottinger&gt; ah, yes, and we have a tool that looks like it might help</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;hpottinger&gt; but it doesn't</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;helix84&gt; The longer I'm in DSpace the more I'm aware of it's defficiencies, to such extent that I'm wondering how is it possible that DSpace is so good and liked overall. Am I a one-man club?</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; all a good example of us "building something ourselves" (authn/z &amp; ACLs) that we later "blame ourselves for doing it wrong the first time" :)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: don't let it get to you, this is the way of it</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: hmm, like getting married?</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;hpottinger&gt; DSpace is an amazing tool and does exactly what people who are in a position to make decisions about IRs want, right out of the box</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mhwood&gt; The developer community has gotten fairly good at fixing the superficial problems as they are noticed.</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- the reality here is twofold... (1) DSpace is &amp; has been popular cause it meets a need (out of the box IR) that no other system does that well.  (2) But, DSpace is now 10 years old, and full of a bit of "spaghetti-code"...it needs some extra love to help bring it up to modern standards</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;hpottinger&gt; it's a good box to put stuff in, and gives you tools to noodle around with metadata right away</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;helix84&gt; first of all, I wouldn't personally start wtih Java :D</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;helix84&gt; (hpottinger++)++</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;mhwood&gt; Under-use of OO, nonscalable stuff like pulling giant arrays out of the DBMS....</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- well, that's an argument (non-Java) for us to get a REST API in place...then folks could build non-Java UIs (or tools) on top</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;helix84&gt; a giant metadatavalue table which I both hate and love...</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;hpottinger&gt; relying on DBMS to do heavy lifting</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, I don't get why people think DBMSs are slow.  That usually means badly tuned or improperly indexed.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I do that already. What I meant is I can't fix these "deep" problems because Java isn't my lingua franca</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mhwood&gt; Heh, like Ruby is most definitely not mine....</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I know mine are :)</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;hpottinger&gt; the thing about depending on your DBMS for anything other than holding stuff is, you make it really hard to support more than one DB</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;mhwood&gt; A write-only DBMS?</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: more than one instance or more than one DBMS?</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;hpottinger&gt; more than one DBMS (don't mind me, I'm just the Oracle guy, I'm full of complaints)</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;helix84&gt; i have a suggestion</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;mhwood&gt; Every once in a while I look at whether something like LiquiBase could help with portability across DBMSs but so far I haven't been clever enough.</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;helix84&gt; how about all commiters writing what areas they planned to work on (for their organizations) in the next year and we can find common areas</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;tdonohue&gt; I only think DBMSs are slow when compared to a highly tuned/indexed search engine (e.g. Solr / Elastic Search).  DBMSs are great to store stuff...but when you want to find stuff quickly &amp; filter your results...Solr/Elastic Search seem so much quicker than complex DB queries</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;mhwood&gt; A good idea, but it would require that I know what they are going to ask for next. :-/</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;helix84&gt; mhwood: good point :(</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;helix84&gt; i only ever know what I should have done yesterday</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;hpottinger&gt; sounds good, helix84... and mhwood, are you *really* all caught up?</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;tdonohue&gt; again, we could however create a "4.0 Wishlist" -- i.e. capture much of what we've said here in a Wiki page... and advertise what stuff we'd *like* to see happen</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mhwood&gt; If Solr can do it, Postgres should be able to do it.  I wonder why they haven't.</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- I don't disagree. Just noting from past experience, a finely tuned Solr has often seemed much quicker than a finely-tuned Postgres</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;helix84&gt; mhwood: i don't think so, that sounds very narrow-minded. Like thinking ASCII is all there is.</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;hpottinger&gt; I don't get to tune my DB... le sigh</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;mhwood&gt; Well, there's alternate durable identifiers.  And altmetrics.</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;tdonohue&gt; but, then again, maybe I'm just better at tuning Solr over Postgres...who knows ;)</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;mhwood&gt; I keep feeling that we've turned away from making DSpace do everything to making Solr do everything.</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;helix84&gt; mhwood: solr has many filters and transformers both at indexing and at searching time that are very flexible</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- not really. I think there's a line there.  No one is saying we get rid of Postgres</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;hpottinger&gt; only thing I make Solr do is reboot every night :-)</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;PeterDietz&gt; going back to where some mentioned self-funding. There are organizations that use DSpace that don't have the in-house capabilities to accomplish some big changes they want. They could contract with a Registered-Service-Provide, to build it. I had an idea for an idea-marketplace. Where University-of-Somewhere pledges $500 towards some feature. As ten organizations pledge that amount, a developer can win the bounty by implementing it</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;mhwood&gt; Well, if we're talking about searching *text* then Solr or something like it would be my first choice.  Pg has full-text stuff but it's non-ANSI and I've never looked at it and Oracle probably does it very differently.</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;helix84&gt; hmm, kickstarter?</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;tdonohue&gt; It's more that we are saying "Replace Lucene with Solr"...and finely tune Solr &amp; build the UI against Solr.   Data would still be in Postgres...it'd just be indexed/cached in Solr</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;hpottinger&gt; ooh, PeterDietz++</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;hpottinger&gt; it's like Andrea Schweer's "buy a feature" exercise, but with real money.</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;PeterDietz&gt; great minds think alike then. I'm sure you'd want to have some central/community guidance too.</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;PeterDietz&gt; Maybe like Google Summer of Code, but not limited to students</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-brick">* hpottinger is a financial guy, but thinks there may be value in having DuraSpace hold the money</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;hpottinger&gt; s/is/is NOT/g</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;kompewter&gt; hpottinger is NOT a financial guy, but thinks there may be value in having DuraSpace hold the money</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;PeterDietz&gt; Did hpottinger just mention to us that HE is last weeks Missouri Powerball winner?</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;hpottinger&gt; erm, no</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;PeterDietz&gt; ohh. he "IS NOT"</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;helix84&gt; but he IS LIKE</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;hpottinger&gt; erm, no</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger is most definitely not the powerball winner</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;tdonohue&gt; s/not the/the/</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;kompewter&gt; tdonohue meant to say: hpottinger is most definitely the powerball winner</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;tdonohue&gt; look how quickly that changes!</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;PeterDietz&gt; The artificial intelligence robots that will parse this log in the future will explode</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;hpottinger&gt; kompewter, make me the powerball winner!</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;tdonohue&gt; in any case...this is all an interesting idea.  I worry about some of the risks here though...</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;tdonohue&gt; 1) what happens if someone is "unhappy" with the results of their money?</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;hpottinger&gt; terms of service: read 'em</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;tdonohue&gt; 2) How many institutions are actually able to budget money in this way...by adding "bets" to various projects?</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;mhwood&gt; Yup, that's what documented requirements are for.</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;helix84&gt; 1) well they should be involved from design, through development to implementation! you can't jsut say that at the end, dammit!</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;mhwood&gt; 2 is a very good question.</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;tdonohue&gt; 3) How does a developer get chosen?  what if there are  multiple -- who is the "decider"?</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;hpottinger&gt; developers are self-choosing</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;hpottinger&gt; it's a bounty system, right?</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;hpottinger&gt; don't care if there's another team, my team will beat them</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;tdonohue&gt; right..but, if it's a big project for big money, then you might have 2+ developers all "self-choose" themselves</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;tdonohue&gt; 4) There's also the question of where the money "sits" and how long it sits there (indefinitely?).</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;hpottinger&gt; oh, sure, teams would have to charter and organize, and since the dev talent likely comes from the institutions anyway... likely the institutions would claim the "prize"</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;PeterDietz&gt; maybe you can have the stakeholder/moneyholder choose who to "contract" with. i.e. We like @mire's bid for project X the best. We'll go with them...</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-brick">* tdonohue isn't trying to poke holes here...not trying to tear this idea down...just trying to ask some honest questions.  If there's a way to make it work, I'd love it to happen</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;helix84&gt; i don't think this is doable, I agree share tim's concern in points 2-4</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;helix84&gt; s/doable/viable/</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: i don't think this is viable, I agree share tim's concern in points 2-4</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;PeterDietz&gt; none-the-less. I'd be more than happy to not be using XMLUI next year. ;) I'd like to push on an idea of a frontend-UI that is a pleasure to develop in</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;hpottinger&gt; wait.... why does it have to be real money?</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;mhwood&gt; I worry that we might get more solutions that only solve one site's problem, and miss out on generalizing to solutions that would benefit many sites.</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: Joao is already working on that</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietz++</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;tdonohue&gt; Out of the various "DSpace Futures" meeting there were several folks who gave the *impression* that they'd like to develop a new UI...but, they are waiting on a stable REST API to do so</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, I think there are a lot of sites thinking "we would do X if only we had the resources", sitting on tasty ideas that others would like to make and use too.</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;hpottinger&gt; tasty ideas are the currency I want to trade</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;tdonohue&gt; At least a few institutions mentioned they were dissatisfied with the current UIs, but that they didn't have a way to build their own without an enormous amount of complexity....they all were asking for a "common repository interface" or REST API of some sort</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;helix84&gt; joao is lurking here, so try asking him</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-green">* linux4u (~james@employed.library.emory.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger will trade his tasty idea for a implementation to be named later</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;hpottinger&gt; Tuesday</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;mhwood&gt; You only have to pay people to do things they don't want to do.</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;tdonohue&gt; haha..yea, tuesday.. I forgot that part</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;mhwood&gt; ...or can't afford to do.</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-brick">* hpottinger also has a shortage of tasty ideas...</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-black">&lt;hpottinger&gt; but, maybe "buy a feature" is a useful exercise, anyway, even if the money isn't real</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;tdonohue&gt; "buy a feature" is a willingness to put resources (money, developer time, feedback) toward something.</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;tdonohue&gt; and resources are what we need to make common projects happen</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;mhwood&gt; REST:  yes, we keep coming back to the point that, although DSpace should continue to be useful out-of-the-box, it would be considerably more useful if it also provided a platform for other stuff.</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-black">&lt;hpottinger&gt; give each sponsor a "budget" based on the dev hours they pony up, and let everyone put "money" behind what they think is most important</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-black">&lt;hpottinger&gt; we did that here, the winner was "streaming"</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;tdonohue&gt; giving each sponsor a "budget" is an interesting idea...</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-black">&lt;tdonohue&gt; not sure how that'd work, and it'd likely involve having to raise sponsorship amounts (or ask for additional money in some other way), since this is budgeting for extra stuff to happen</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-black">&lt;tdonohue&gt; but, it's a nice brainstorm</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: ask Andrea about her buy a feature exercise, she got the script from some place online</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;hpottinger&gt; oh, well, there it is, top hit on Google: <a href="http://innovationgames.com/buy-a-feature/">http://innovationgames.com/buy-a-feature/</a></span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;kompewter&gt; [ Buy a Feature | Innovation Games ] - <a href="http://innovationgames.com/buy-a-feature/">http://innovationgames.com/buy-a-feature/</a></span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-black">&lt;tdonohue&gt; huh...cool</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, got to go.</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:18]</span> <span class="irc-black">&lt;hpottinger&gt; but, really, if we want to see a new UI, it sounds like the best way to "buy" that is to finish up REST-API</span><br />
+<span class="irc-date">[22:25]</span> <span class="irc-black">&lt;hpottinger&gt; have to go...</span><br />
+<span class="irc-date">[22:25]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:50]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:53]</span> <span class="irc-navy">* linux4u (~james@employed.library.emory.edu) Quit (Ping timeout: 260 seconds)</span><br />

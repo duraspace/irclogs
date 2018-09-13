@@ -1,0 +1,240 @@
+<span class="irc-date">[2:43]</span> <span class="irc-navy">* lyncodev (02de6f12@gateway/web/cgi-irc/kiwiirc.com/ip.2.222.111.18) Quit (Quit: <a href="http://www.kiwiirc.com/">http://www.kiwiirc.com/</a> - A hand crafted IRC client)</span><br />
+<span class="irc-date">[4:39]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-iuywlxlhzmdhotoq) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-asimov.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-asimov.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-asimov.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-asimov.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:47]</span> <span class="irc-green">* kostasp (5e44f33c@gateway/web/freenode/ip.94.68.243.60) has joined #duraspace</span><br />
+<span class="irc-date">[10:01]</span> <span class="irc-green">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) has joined #duraspace</span><br />
+<span class="irc-date">[10:19]</span> <span class="irc-navy">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) Quit (Quit: <a href="http://www.kiwiirc.com/">http://www.kiwiirc.com/</a> - A hand crafted IRC client)</span><br />
+<span class="irc-date">[11:26]</span> <span class="irc-green">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) has joined #duraspace</span><br />
+<span class="irc-date">[11:32]</span> <span class="irc-navy">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) Quit (Quit: <a href="http://www.kiwiirc.com/">http://www.kiwiirc.com/</a> - A hand crafted IRC client)</span><br />
+<span class="irc-date">[12:11]</span> <span class="irc-green">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) has joined #duraspace</span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-navy">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) Quit (Client Quit)</span><br />
+<span class="irc-date">[12:15]</span> <span class="irc-navy">* kostasp (5e44f33c@gateway/web/freenode/ip.94.68.243.60) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:34]</span> <span class="irc-green">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) has joined #duraspace</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:18]</span> <span class="irc-navy">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) Quit (Quit: <a href="http://www.kiwiirc.com/">http://www.kiwiirc.com/</a> - A hand crafted IRC client)</span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-green">* Andy_____ (266cf8e2@gateway/web/freenode/ip.38.108.248.226) has joined #duraspace</span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-black">&lt;Andy_____&gt; hELLO</span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-navy">* Andy_____ (266cf8e2@gateway/web/freenode/ip.38.108.248.226) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:3d2d:5fad:f56b:9625) has joined #duraspace</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-green">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) has joined #duraspace</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-navy">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) Quit (Quit: <a href="http://www.kiwiirc.com/">http://www.kiwiirc.com/</a> - A hand crafted IRC client)</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-green">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) has joined #duraspace</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-navy">* lyncodev (c24b26fa@gateway/web/cgi-irc/kiwiirc.com/ip.194.75.38.250) Quit (Client Quit)</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[18:46]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-doznzsvhfhbncmfp) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome! It's time for our weekly DSpace Developers Meeting.  Today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-01-21">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-01-21</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-01-21 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-01-21">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-01-21</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; So, first off, obviously a huge congratulations to everyone on the release of DSpace 5.0! <a href="https://wiki.duraspace.org/display/DSDOC5x/Release+Notes">https://wiki.duraspace.org/display/DSDOC5x/Release+Notes</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Notes - DSpace 5.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC5x/Release+Notes">https://wiki.duraspace.org/display/DSDOC5x/Release+Notes</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks especially to our 5.0 Release Team.... peterdietz, mhwood, hpottinger, robint, pbecker, helix84 (I think that's all of you?)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;hpottinger&gt; Indeed, thanks, everyone, DSpace 5.0 is a huge release, I'm very much looking forward to upgrading to it.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; What worked well or not?  We need a way to get impending features out in the open sooner, so we have time to resolve conflicts.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to getting impending features sooner. Any ideas/brainstorms how best to do that?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;mhwood&gt; Earlier feature freeze.  Much earlier.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; Anything that refactors the database needs to go in really early :-)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; I know that pbecker had made suggestions about possibly moving up the PR deadline to put more time between PR deadline &amp; feature freeze</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;peterdietz&gt; Ohh, is this a post-mortum? Having a plan of what we want IN, earlier.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; A plan.  Now there's an idea.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; :-)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; yes, post-mortum on 5.0 now... what went well, or could be improved for next time?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;peterdietz&gt; Could also use some weighing on features from some friendly DCAT folks. i.e. Do you want Metadata 4 All. Do you want Author Profiles, ...</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; well... we can either move up the PR deadline, or go all-Agile</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; There's a specific suggestion:  feature freeze just before OR.  Pro:  we can say at OR what the major features will be.  Con:  can't do anything about features we hear of at OR until next year.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; So, regarding a *plan*, I do agree.  I also should add here that the new DSpace Steering Group wants to see an *actual* Roadmap (i.e. Plan) created for the use cases that DCAT has been giving input on</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;peterdietz&gt; Yikes. Yeah, CRUD REST API was vaporware until OR, then I ran into CTU Czech group, who had been working on a CRUD enhancement</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; DCAT Use Cases: <a href="https://wiki.duraspace.org/display/DSPACE/Use+Cases">https://wiki.duraspace.org/display/DSPACE/Use+Cases</a></span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; yeah, post-OR is an interesting time where we get to harness collaborations that occur there (like, oh, the ORCID integration)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ Use Cases - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Use+Cases">https://wiki.duraspace.org/display/DSPACE/Use+Cases</a></span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; I think feature freeze needs to be *post-OR*... otherwise, I'd worry I'd never get anything into a release, as there's so much else to do prior to OR most years</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mhwood&gt; That does sound more useful than just being able to answer "so, what's coming in DSpace.next?"</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;peterdietz&gt; So OR + 1 quarter to shut the door</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; which is pretty much what we have now, right?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, that's around October.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; OR+1 month, no more.  2 weeks?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; 2 weeks is too tight</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; with OR travel creating backlogs</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; OK.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;peterdietz&gt; With some of the under-the-hood upgrade enhancements. Quicker upgrade iteration could be possible. i.e. git pull origin master &amp;&amp; mvn &amp;&amp; ant &amp;&amp; service tomcat restart.... Technically feasible (due to flyway)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; maybe mid-September PR deadline?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;peterdietz&gt; I didn't back to USA until 2 weeks after OR. (In Denmark)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; before we jump to a schedule, let me backtrack a second</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; DSpace Steering Group wants to see DSpace features more "scheduled out" (as much as it possibly can be), so that users can better understand the direction of DSpace, and *hopefully* we can get collaboration on features that become higher priorities overall</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, didn't see that schedule was separate.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; This relates to our schedule, because this may affect how we approach 6.0</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; That sounds good.  How?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; DSpace Steering Group is currently looking into potentially *hiring* a part-time consultant person who can help us to "distill" the DCAT generated Use Cases into a high level "plan" of priorities...</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; this is sounding a lot like Agile to me...</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; I already have one daily Scrum standup....</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; They *hope* to hire someone to help with this in the coming months...that person would work with Steering, DCAT &amp; Committers to try to build out a Plan based on high priority use cases</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;peterdietz&gt; Yeah, the brain trust would be helpful to identify the 10 juiciest next features. People can grab one of this to crank out. But, the way development time goes locally, is that we have to solve local problems, before I can volunteer to solve external projects.. Coordinating schedules / development effort, chews up some resources...</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; not necessarily "scrum" just story-oriented development</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; The *hope* is also that this actual *Plan* would be in a rough-draft state in time for OR15, so that we could start to gage how we can get enough buy in to implement it, and *how* to go about implementing it, etc</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;peterdietz&gt; But, I would be happy to know that each year, the 10 highest demand things go tackled... So DSpace becomes an easier sell</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-green">* srobbins (~Adium@mobile-130-126-255-111.near.illinois.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; peterdietz is right, though, before I volunteer for development I have to connect those projects to goals or issues that are important to my "local customers"</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; The reason I mention all this is that it *could* have an affect on how we go about implementing 6.0, and/or the 6.0 schedule.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; But, it's worth mentioning so that you all are aware of the DSpace Steering Group discussions that are going on right now (this all was just decided recently)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;peterdietz&gt; We see a lot of debate in terms of which IR/archive is right for me: DSpace, Eprints, BePress, Dora's (Island, Fe, Hydra)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;peterdietz&gt; So, DSpace being the best product is helpful</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;peterdietz&gt; FeDora = Iron Dora</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; In general, the DSpace Steering Group feels that DSpace's lack of a *plan* (longterm roadmap) does sometimes hinder it's acceptance, and also may cause us to lose users as they aren't sure what the direction of DSpace is in the next 3-5 years. So, they want to help correct that.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; But, it also does mean that we also may be diving *headfirst* into some of the "elephants in the room"  (cough cough two UIs cough cough)...to mix metaphors</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; *sigh*  Developers:  what'cha want to do?  Users:  I dunno, what *you* wanna do?  [repeat]</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;peterdietz&gt; I see 2 UI's as an asset</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; The answer to "2 UIs" these days seems to be "5 UIs". :-|</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Well, even if it's unpleasant, we ought to face some of these issues that keep hanging around.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; I don't.  But to be clear, I do see multiple UIs built on a *common backbone* as an asset *as long as they have their own, separate committer teams*.  But, that is not what we currently have.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Good point.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;peterdietz&gt; yeah, good point tdonohue</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; currently we have two UIs which are a mis-mash of stuff...using their own code/ideas, all under one set of committers (who are overwhelmed in supporting both simultaneously)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; :-) well, in practice, we *don't*, not really</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;peterdietz&gt; So. One stray thought. Wire up XMLUI to sit on top of REST API. REST gets beefed up to handle more neccessary services.. Followed by do the same with JSPUI...</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; Pushing more logic out of the UIs back to the core should help, no matter how many teams we have.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; so, in any case, I realize we have gone a bit away from "what'd we learn in 5.0?" onto "where do we go next?".  I mostly wanted to make everyone aware of these Steering Group discussions that are popping up. So far, they are discussions, and not (yet) action / movement forward.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-brick">* hpottinger would love to stop using XSLT as a template language</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-brick">* mhwood does not want to give up the aspect chain.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; My stray thought: any UI that DSpace supports going forward should sit on top of REST API.  (I'm hoping to draft up some ideas to this affect in the near future to get in front of all you for brainstorms)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; Consider the proposition that administrative pages may be a special case.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; yep, there may be some special scenarios...hence "brainstorm" :)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; further, any UI built on the REST-API, if it utilizes a framework, needs to utilize one that has a solid and large-ish community</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; IOW not Cocoon 2.2. :-/</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;peterdietz&gt; Then. When REST+NodeJS (some future UI) wants to add a missing feature of Dynamic Configs. Then the DSpaceAPI gets enhanced, then REST gets enhanced, then NodeJS gets enhanced. To then roll that out to XMLUI (on REST), you've already built your service layer, it should just involve altering XMLUI (on REST)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; so, before we get too far off of 5.0, any other last thoughts on 5.0.  We've identified that one issue is just *having more time to review / approve / enhance / merge* things</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; *cough* Cocoon *cough* *cough*</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Related to time is the size of some of the stuff that came in toward the end.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; very true</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; big stuff goes in first</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; I would like to see large changes sooner even if they are ugly at that point.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; even if it makes the ride bumpy</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; It only has to be believable that they can be spiffed up and tested in time.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;peterdietz&gt; Stuff kept rolling in, for better or for worse. Yeah, Metadata4All, we were skeptical, but mostly in favor of it. But it sat for some time, then we eventually merged it. It could have benefited from getting in sooner, if we knew we were going to go that direction</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; we did have some of that, IIRC with 5.0.   Metadata for All got in fairly early didn't it, for example?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; right: "big stuff in first" involves two parties doing things early</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; But, I do agree... big stuff getting in earlier is a big benefit to us all.  We also know that we need to have more time between "PR deadline" and "feature freeze" (as 2 weeks was not enough)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; and, as a carrot: if you get your PR in before OR, we will all be talking about *your code* at OR</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; Put it this way:  we would like to offer the next release as a test-bed and attract more helpers, if you would get your rough ideas into Github early.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; But then we need to be more decisive:  is this for 6.0? 7.0? or not at all.  Decide within (say) 2 weeks.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-brick">* hpottinger pulls a rough idea out of the air as an example, like, say ORM?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; with regards to 6.0, I'm a bit hesitant to lay out a schedule for it yet...as I'm still trying to feel out the direction of the Steering Group (around developing a longer term roadmap). I'm hoping that I'll have a better idea on this very soon.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; I was speaking of a hypothetical Big Feature.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; FYI next Steering Group meeting is in two weeks</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; yep, I understand we're talking hypotheticals...just wanted to loop back to the 6.0 "freeze" discussions from earlier</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; You brought us this rough code early.  Thanks.  Now we need to get you a decision early.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; OK</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; I *do* think we need to have earlier deadlines for 6.0...just hesitant to set them yet, until I get a sense of Steering Group's ideas on establishing a roadmap, and how that would effect our "normal" release schedule</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; so: maybe schedule more specific backlog reviews prior to the deadlines</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;peterdietz&gt; Other projects that I contribute a minor fix to, I'm always pleased when they get a chance to review or merge it within a day. Not sure how they do it.. But somehow I've had that experience</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; So then put discussion of scheduling on the agenda for 3 weeks hence?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger ++  Yea, I think specific backlog reviews or taking time from backlog to review features is a good idea as we near deadlines</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; we do that now, but it's really more of a "boy, there's a lot of things to talk about.... when? Oh, maybe backlog hour?"</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;peterdietz&gt; Another post-mortum. I would like to see PR's that contain screenshots, and a full description... Especially if its something that is potentially pretty cool. The contributer's guide to selling your PR</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: actually, we could discuss scheduling again on Feb 4 meeting (two weeks).  The DSpace Steering Group meeting is earlier that day...so I should be able to say something more on Feb 4, if not earlier</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; Even better.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; OK, that works</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; prior to that, obviously it'd be good to already begin brainstorming ideas for 6.0 (or later).  I do want to draft up some ideas on UIs going forward. I'd encourage others to draft up (or revisit) ideas you may have too</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; I think if we want to focus on specific packages of work and deliver on those particular features, we may need to change our focus from time-based releases to feature-based releases</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; Features can be scheduled several releases out, if there is more to do than can be done in one cycle.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: that could be. Or something that is a feature-based release but we still try to nail down a deadline... i.e. 6.0 will have [these features] and be out in Quarter #1 of 2016</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; But we have to prioritize, which means some pet features get prioritized out of .next.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; and mhwood ++ on scheduling things out</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; we have a process that prioritizes the release on a certain date, which does a good job of ensuring there's a release on a certain date</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; Of course, anyone who wants feature X is welcome to take on some of the work, and there are a lot of experienced people to help you get started.  That gets more features in sooner.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; mixing in another focus (a set of features) may or may not fit into that schedule, however, if the goal is to improve communication on the specific feature timeline...</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;peterdietz&gt; I'm thinking that a steering committee will have a lot of steering to do, but no resources to steer</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; Well, if we're gonna talk Agile, it's a lot like making up a sprint.  The available workers size tasks and decide how much work they can get done by next deadline.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: Steering Group definitely realizes we lack "centralized" resources...but many on Steering have DSpace Developers (or even Committers) who work for them</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: So, it may be that we get things done in a more "collaborative" and less "centralized" fashion</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; Steering Group includes @mire, MIT, IUPUI, Texas Digital Libraries, Edinburgh, Minho, etc... <a href="http://dspace.org/steering-group">http://dspace.org/steering-group</a>   So, they all have developers, mostly ;)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Steering Group | DSpace ] - <a href="http://dspace.org/steering-group">http://dspace.org/steering-group</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, looking at the time...it might be best to step back to DSpace 5 stuff again</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;peterdietz&gt; okay, yeah, looks like they've got some horsepower in their own stables</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; Any other last thoughts on DSpace 5 stuff?  Do we want to talk about 5.1 yet?</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; (Although 5.1 schedule seems highly dependent on bugs reported in coming days/weeks)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; at the very least, I'd "guess" we may want to think about a 5.1 in the next month or two...sooner if we stumble on major issues</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; I always hate to say "no" to working code, but we let it dribble in for too long.  We should be firmer about deadlines.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I do agree, we often have trouble saying "no" nearing deadlines</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; We could make certain that there is a branch for version.next, and merge with it after release, so that late submissions have somewhere to go *today*.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; I think I find myself sometimes being OK with "late, last minute additions" *as long as* they come with good verification tests (unit / integration tests)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; +1 automated testing</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; It's amazing how much less fearsome changes are when you have a machine to look them over.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: exactly</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; We probably need a written notion of what "good tests" looks like.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; yes, though we also (as we know) need to likely clean up our unit / integration test framework some too...and then correct the notion of what good tests look like</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; and, erm, acceptance tests...</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; We don't have any tests that drive the UIs, for example.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; DS-2288</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2288">https://jira.duraspace.org/browse/DS-2288</a> ] - [DS-2288] Acceptance test suite - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; yes, that'd be nice</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; and DS-2397</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2397">https://jira.duraspace.org/browse/DS-2397</a> ] - [DS-2397] Sort out Unit vs. Integration tests, and run them separately - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; You can't really "unit test" something that depends on a Servlet container, a web server....</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood is correct, that's a "functional" or "acceptance" test</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; both 2288 and 2397 sound like great ideas in my book</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Now we just have to do the work.  Simple! :-)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="http://blog.csanchez.org/2008/06/25/functional-testing-with-maven-carg/">http://blog.csanchez.org/2008/06/25/functional-testing-with-maven-carg/</a></span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kompewter&gt; [ Functional testing with Maven, Cargo and Selenium | Carlos Sanchez's Weblog ] - <a href="http://blog.csanchez.org/2008/06/25/functional-testing-with-maven-carg/">http://blog.csanchez.org/2008/06/25/functional-testing-with-maven-carg/</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; It's really just a matter of yes, making them a priority. In many ways, the hardest part is *getting started* and then showing others some examples. After that, we can consider requiring or highly recommending them for PRs</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-brick">* tdonohue notes we are running a bit short on time here</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; I recall thinking 5.1 had some hot-ish issues already, but that may be only the two we closed today.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;hpottinger&gt; so, reading the tea leaves, 6.0 may end up being the "great testing release"</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; If anyone does have a chance to dabble in 2288 or 2397, please feel free to get things rolling...</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; 5.1 does have a status page with some tickets already...but they were all moved from 5.0 to 5.1, I think: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.1+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.1+Status</a></span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 5.1 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.1+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.1+Status</a></span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; yes, DS-2415 and DS-2417 are both "committer-specific" issues, one of the pitfalls of working on the bleeding edge</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2415">https://jira.duraspace.org/browse/DS-2415</a> ] - [DS-2415] cannot add new metadata field to an existing item with Oracle back-end database - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2417">https://jira.duraspace.org/browse/DS-2417</a> ] - [DS-2417] Metadata value table still contains foreign key reference to item_id - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; well, except for 2415 and 2417 which seem to actually not be issues, unless you adopted unstable code from "master" branch</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; (prior to 5.0 stable)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-brick">* hpottinger bristles at being called unstable, but it's probably true.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mhwood&gt; Nice, we have seven issues already in code review.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; (it highly depends on *when* you adopted code from "master"....there *was* some unstable code on master at times prior to release...even though we try not to do that)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; Thou shalt not break "master" unless it's really necessary.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; So, looking at the 5.1 page, nothing is high enough priority to push a release ASAP (yet). But, we likely do have plenty for a 5.1 in the near future</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; before we run out of time today...I *did* want to also mention again that I plan to "rebuild" <a href="http://demo.dspace.org/">http://demo.dspace.org/</a> in the near future (on Ubuntu 14.04).  If anyone has special requests, please let me know</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 5.0 Demonstration Repository ] - <a href="http://demo.dspace.org/">http://demo.dspace.org/</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;hpottinger&gt; I think pbecker requested a reverse proxy to be in front of Tomcat</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; most of this rebuild will likely be "invisible"...I'll just swap the VMs out, once it's ready to go.  But, I hope to fix a couple known issues on current demo server in the process</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; which means we could, in theory, set up Shibboleth on demo</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; yep, I plan to put Apache in front of Tomcat on demo, this time around....that's a much more "standard" setup</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; oh, can we give kompewter it's own little house?</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; (and I plan to get rid of running Jetty on demo, if possible)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; "house"?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-brick">* hpottinger slaps kompewter on the back, clank!</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; it's own VM, so it doesn't have to share a room with demo</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; no, likely not. It's much too "small" for it's own VM.  I, personally, would rather it just sit on demo, so we can all reboot it easily as needed</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; (I just don't see any benefit to having it totally separate)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; OK, I guess it's a nice "canary" letting us know if demo falls over</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; Does it actually crash, or just go comatose?  You could have something like monit watch it and restart it as needed.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; It seems to actually "crash" sometimes...but I have never dug deeply into it, as kompewter is mostly peterdietz's baby</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;hpottinger&gt; every once in a while, Kompewter dies, monit might be enough</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;peterdietz&gt; And I snagged kompewter from the bot we used at Ohio State Univ Open Source Club</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: if you set up monit for kompewter, best do it for demo, too :-)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; so, we can always find ways to clean up kompewter more going forward. I think my highest priority is to just get demo upgraded &amp; give it a good scrub (as it's quite messy these days)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; I'm still learning how to make monit and jsvc play nicely together.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue++</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; And, thank you!</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; (and we can always replace kompewter's insides at some point with a more stable bot software, if we find something else we like)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; it's OK, kompewter, we still love you</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; kompewter will still live on, even if it's insides get replaced ;)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; In any case...we're out of time here. I didn't have any other topics to bring up today, and I think we've had a lot of good brainstorms today (despite the smaller group).  Thanks again though to everyone for the hard work on 5.0!</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; I'm going to close out today's meeting. I will be mostly around for the next few hours though, so I'm glad to discuss whatever pops up</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; Thanks, everyone!</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-navy">* srobbins (~Adium@mobile-130-126-255-111.near.illinois.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-green">* lyncodev (02de6f12@gateway/web/cgi-irc/kiwiirc.com/ip.2.222.111.18) has joined #duraspace</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:25]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[22:50]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:57]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[23:01]</span> <span class="irc-navy">* lyncodev (02de6f12@gateway/web/cgi-irc/kiwiirc.com/ip.2.222.111.18) Quit (Quit: <a href="http://www.kiwiirc.com/">http://www.kiwiirc.com/</a> - A hand crafted IRC client)</span><br />
+<span class="irc-date">[23:29]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />

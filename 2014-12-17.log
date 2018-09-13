@@ -1,0 +1,175 @@
+<span class="irc-date">[6:25]</span> <span class="irc-brown">-tepper.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:25]</span> <span class="irc-brown">-tepper.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:25]</span> <span class="irc-brown">-tepper.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:25]</span> <span class="irc-brown">-tepper.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:25]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:25]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:25]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:15]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:04]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-green">* hpottinger (~hpottinge@161.130.253.162) has joined #duraspace</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-navy">* hpottinger (~hpottinge@161.130.253.162) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-green">* hpottinger (~hpottinge@161.130.253.162) has joined #duraspace</span><br />
+<span class="irc-date">[14:52]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-green">* robint (81d7ec36@gateway/web/freenode/ip.129.215.236.54) has joined #duraspace</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-green">* KevinVdV (~KevinVdV@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@85.234.195.109.static.edpnet.net) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-green">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-green">* pnbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-navy">* pnbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Client Quit)</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's 15UTC and now time for our DSpace Dev Mtg. Today's agenda is at <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-12-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-12-17</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-12-17 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-12-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-12-17</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Today is obviously all about DSpace 5.0 and working to get that "out the door"</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: we should add, in addition to RC3 planning, we ought to also pick a date to actually cut this release :-)</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-green">* roeland_atmire (~roeland_a@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; You probably already saw my email to -release list asking about the 5.0 release next steps...and trying to move us towards narrowing down a final schedule (not just for RC3, but also more importantly for 5.0 final)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;hpottinger&gt; I recently started filtering e-mail into mailboxes... checking my -release inbox now</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; I'll admit, I've been slightly out-of-the-loop in recent weeks (with my paternity leave, and some minor illness).  But, first and foremost, where do we feel we are "at" with 5.0?  It seems like there's still a *large* number of "fix for 5.0" tickets out there (70+)... I'm guessing most may need rescheduling.  Fix for 5.0: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0</a></span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0</a></span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; whoops, wrong link there</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the "Fix for 5.0" which are still "unresolved": <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; I had made some attempts to narrow down our scope a little yesterday (and in that email to -release)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like in reality, we have *one* blocker left: DS-2294</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2294">https://jira.duraspace.org/browse/DS-2294</a> ] - [DS-2294] JSPUI: unable to edit item (with Java 8) - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; and some possible "low hanging fruit" (which we can get to after the blocker)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;hpottinger&gt; I'd also like to see DSPR#803 make it in</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; Any status updates on DS-2294</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/803">https://github.com/DSpace/DSpace/pull/803</a> ] - [DS-1775] Increase robustness of SolrServiceImpl date format guessing by mwoodiupui</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2294">https://jira.duraspace.org/browse/DS-2294</a> ] - [DS-2294] JSPUI: unable to edit item (with Java 8) - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; helix84, are you around? Looks like kstamatis is not today...but not sure if you know of any updates to 2294?</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;hpottinger&gt; last I heard on 2294, <a href="http://irclogs.duraspace.org/index.php?date=2014-12-10">http://irclogs.duraspace.org/index.php?date=2014-12-10</a> kstamatis volunteered to work it</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot ] - <a href="http://irclogs.duraspace.org/index.php?date=2014-12-10">http://irclogs.duraspace.org/index.php?date=2014-12-10</a></span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; right, I guess my point here is that obviously 2294 is high priority (since it's blocking our ability to release as a "blocker").  So, we need to hopefully move quickly on it</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;hpottinger&gt; so, it looks like Tomcat is grabbing the wrong JDK?</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; ok, since kstamatis and helix84 are both not here, can we get an RT member to followup with them on 2294, and see if they need additional support?  We probably should get a discussion thread going on 2294 on -release (or similar) so we can work together to get this fixed ASAP</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; (and it also may be good to see if others can verify this problem with Java 8 and JSPUI, just to ensure it isn't a misconfiguration issue)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;hpottinger&gt; yes, if 2294 is a "local configuration issue" we can figure it out and document it</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; Any volunteers to start up a thread on -release to get 2294 verified/fixed?</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;hpottinger&gt; I'll do it now</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, thanks, hpottinger!  I'll also try and help do some verification testing on my end with Java 8 and JSPUI</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; OK, so that's the next steps on the main "blocker"</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like the next steps here are to:</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; 1) Figure out when is reasonable to get 2294 "fixed" by, so that we can set a final 5.0 release date</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; 2) Begin to analyze what other "low hanging fruit" (bug fixes only) is still waiting out there that we really should try to get into 5.0 prior to that release date</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding the 5.0 release date, it seems like this release has really slid back significantly.... initially we were aiming for an RC3 on Dec 1 with Final in "Mid December".   We're now well into mid-December, and we still don't even have an RC3</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;hpottinger&gt; message re 2294 sent to -release</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; In my opinion, this leaves us with a few choices.... we either rush RC3 and Final into the next week (since holiday breaks in USA, at least, likely start next week around the 24th)... Or we are forced to push Final back into early 2015.   Thoughts?</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;hpottinger&gt; I've had to step back a bit, sorry about that, we've had a significant "fire" I've been working to put out, it's taking most of my time right now</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;pbecker&gt; same here: to much local work to give any help for the release currently. sorry about that.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: sorry, I have no status updates in DS-2294</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; yep, I understand. Things come up or happen. Just trying to figure out our best route forward (so that we can also let the community know the final schedule...currently they are likely expecting 5.0 "any day")</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2294">https://jira.duraspace.org/browse/DS-2294</a> ] - [DS-2294] JSPUI: unable to edit item (with Java 8) - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue is right, I don't think we want to cut the final release over the holidays</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mhwood&gt; We have 19 issues in Code Review alone, and a blocker with uncertain status.  Next week sounds too tight.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;hpottinger&gt; I know I don't want to do that work over the holidays, and we have a shortage of people who will cut releases</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: thanks for the update. One last question: are you actively working with kstamatis on 2294? Or is it mostly just "waiting on him to analyze" at this point?</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yep, I agree.  Just wanting to talk through all this</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I wrote all ideas I had in issue comments. Currently, I'm not able to help any more. And I haven't been in touch with Kostas since.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:e527:c82e:dd98:4786) has joined #duraspace</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: ok, thanks. Just wanted to understand where it sits :)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;helix84&gt; BTW anyone with access to demo can replicate the issue</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;hpottinger&gt; for backlog hour today, maybe we sort the code review list and find volunteers for them all?</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: has it ever been replicated on a server that is *not* demo.dspace.org?  The only reason I ask is that I've noticed other oddities that are specific to demo.dspace.org. I think demo may have deeper issues</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;helix84&gt; another reminder besides the blocker - we (RT) should review whether all new features/improvements really have docs. The docs may either still not be in the DSDOC5x space or not written yet (e.g. REST CRUD).</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;hpottinger&gt; we should probably also look at the new PRs, there seems to be quite a few coming in right now</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 ++ on the docs. That's a definite TODO</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: Not that I know of. I actually wanted to take a copy of the exact binary code of demo and run it locally, but I didn't get to it.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I did my own PR review yesterday...I tried to flag their corresponding tickets as "Needs Code Review" + "5.0" if they look reasonable for 5.0</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;hpottinger&gt; demo is one of the few servers I know that runs jsvc</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; but, I'd agree it'd be nice to get others to look at recent PRs, etc</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;hpottinger&gt; I wonder if we can take jsvc out of the picture?</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mhwood&gt; Ah, yes, and IIRC jsvc on demo was built with Java 8.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-brick">* tdonohue has thoughts to try and rebuild demo.dspace.org *entirely* in the near future. It's turned into frankenstein's monster recently</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: good catch - it's a possible cause. I couldn't replicate the issue in my env and I'm not using jsvc.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; jsvc isn't really necessary to run Tomcat on a lower port any more</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; It's a lot easier to get rid of root using JSVC though.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;helix84&gt; It's possible I updated jsvc when updating demo to DSpace 5. But I think I also tested with the older version after I found the Java 8 bug.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; RE: Backlog Hour, I agree we should review the "Needs Code Review" tickets (and other low hanging fruit) to see what could still get into 5.0 and what to leave out</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;helix84&gt; As a last-resort option, we could also declare that DSpace 5.0 is not yet supported on Java 8.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;hpottinger&gt; that's fine, to unsupport 8, we just need to tell Demo about it :-)</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: I'd only "declare" that if we can replicate this problem elsewhere. If it's specific to demo, I'd suspect it's simply a configuration problem...and it might be unreproduceable (at least in any reasonable fashion)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I think I tried running tomcat with the necessary capability, but binding the low port didn't work.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: there's a trick to it, let me see if I can remember it</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;helix84&gt; (I tried a lot of things there but it was more than a month ago and my memory is not very good, sorry)</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; So, back to the main topic at hand.  We know we have 2294 left to analyze/resolve, and we have some "low hanging fruit" (19 tickets in the "Needs Code Review" for 5.0 status).  What is a reasonable date to set for 5.0 Final, so that we can let the community know when to expect it?</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; Some 5.0 Final possibilities may be:   Thurs, Jan 8.... Thurs,  Jan 15.... Thurs, Jan 22</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;hpottinger&gt; found it: AUTHBIND</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: Yeah, I'm using that locally. I thought you meant without kludges.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; Do Release Team members have any preferences (based on your schedules) on the new 5.0 Final Release date?   (Noticing that peterdietz, our RT lead isn't here today, so looking to the rest of you to help decide)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="http://www.java-notes.com/">http://www.java-notes.com/</a></span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;kompewter&gt; [ Running Tomcat on port 80 on Linux ] - <a href="http://www.java-notes.com/">http://www.java-notes.com/</a></span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;hpottinger&gt; well... without knowing a timeframe on 2294, can we really pick a date?</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;hpottinger&gt; for an "aspirational" date, I suppose Jan 15 looks as good as anything</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; we can pick a *tentative* date.  What I really don't want to happen is for everyone to just leave for the holidays without any movement forward.  Currently the entire DSpace Community is again expecting 5.0 "any day". We need to let them know a new tentative date so that we don't get a large number of emails asking "where is 5.0?"</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;hpottinger&gt; one thing to keep in mind, we're all overloaded now... and the beginning of the new year brings that special time I like to think of as "everyone brings their fire to IT"</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; So, we need to (a) pick a new date, (b) update our wiki schedule, (c) send an email update to -general / -tech, etc</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;pbecker&gt; I'm out of office till January, 6th (including). But I have a lot of work to do, directly when I'm back...</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; So, is January usually extremely busy?  This is why I'm asking what seems like a reasonable date...I honestly don't know if "Jan 15" is unreasonable (cause of lots to do in Jan), or if it's "probably doable, assuming things go well"</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;hpottinger&gt; I think we need to be clear with our bosses, if we pick Jan 15, we're committing to that time frame, and new work is going to have to make way (that said, I know fires come up)</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;helix84&gt; mhwood: what do you think? you're the other person here capable of cutting the release?</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: everyone here is capable of cutting a release :-)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; What I'm hoping we can set is a date that is "probably doable".  So, if that is Jan 15, great...but if it's really more like Jan 22, then it'd be good to know too</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-brick">* helix84 would have to dig out his private key :/</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;mhwood&gt; I have unknown availability 7-9 Jan, but other than that the first two weeks look normal.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mhwood&gt; I think I could be available for the 15th if needed.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;hpottinger&gt; shall we vote? (look at your calendars before you vote, thanks! :-)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;helix84&gt; 15th is OK for me</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; 15th is good for me too (and I'll be around to help chip in then)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; Wed the 15th is a Dev Mtg day</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; no, 1/15 is a Thurs</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-brick">* hpottinger grumbles about OWA</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;hpottinger&gt; yep, 1/15/15 is a Thursday</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; OK, calendar is currently clear for that entire month, but, mark my words, somebody has plans for that time, they're just not telling me yet</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; Well, this gives you some time to also warn your bosses that 5.0 is likely being released around then, and that you'd like to have some time to help make that successful ;)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so it sounds like we have a new 5.0 Final date of 1/15.  I'll go ahead and send an email off to the community (i.e. all lists) about this later today/tomorrow.</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;hpottinger&gt; will do, our next upgrade is closely tied to the 5.0 release, so this helps me move that project deadline, too</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;hpottinger&gt; with 5.0 time set, who wants to talk about RC3? :-)</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; One thing that would be good from the RT here.... Could we get up a "ToDo" checklist on our 5.0 page somewhere?  We've mentioned several things here already (1) RC3 release,  (2) Ds-2294, (3) Review &amp; get in "low hanging fruit", (4) Ensure all New Features have 5.0 Documentation</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: One is linked in the Agenda. Should be extended.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; right, I'm asking *who* will be willing to extend this :)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: maybe it is a good idea to wait with the mail for 24 or 48h so that there is time for anybody to answer to the last mail on dspace-release regarding the blocking bug?</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;hpottinger&gt; I was just going to mention helix84 did a great job with the chekclist for DSpace 4.0</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: makes sense. I'm fine with that</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;helix84&gt; sure, I can do the TODO list</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; Can / Will someone volunteer to cut the RC3 release? Since that seems first on our list</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: thanks!</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;hpottinger&gt; thanks, helix84!</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;hpottinger&gt; so, before someone volunteers to cut RC3, when would that work be done?</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;hpottinger&gt; and what are we waiting on to get into RC3?</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; RC3 seems like something we'd want to possibly release prior to the holidays, if possible (just to get another RC out there to show progress).  I.e. maybe 22nd or 23rd? Or even this Fri?</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; I'd almost rather do an RC3 ASAP (just to show progress on 5.0...it's been a while since RC2)....rather than waiting for too much longer. But, I'm open to suggestions too</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; comments? agree or disagree?</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;helix84&gt; tdonohue++</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;pbecker&gt; +1</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;mhwood&gt; Sounds reasonable.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-ReleaseTODOlist">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-ReleaseTODOlist</a></span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 5.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-ReleaseTODOlist">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-ReleaseTODOlist</a></span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: thanks!</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so if we want RC3 ASAP, anyone willing to take that on either this week, or early next week?</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;hpottinger&gt; I've got a fire I'm putting out for work, don't have slack time to cut RC3, hope to have that resolved soon</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; anyone else?</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-brick">* tdonohue notices we are overtime here...would like to get RC3 finalized though before we end the mtg today</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;hpottinger&gt; tell ya what, *I* volunteer to cut the final release on 1/15/15</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-brick">* helix84 cheers for hpottinger </span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; OK, if there are no volunteers. I'll just do 5.0 RC3.  I'll cut it Friday morning (well, morning for me)...likely starting around 15:00 UTC</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-brick">* helix84 starts a mexican wave</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; thanks, hpottinger for volunteering to do 5.0 final!</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, with that, I say we close up the meeting for today and move over to #dspace to discuss the final "low hanging fruit" 5.0 tickets during JIRA backlog hour</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mhwood&gt; OK</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; thanks all! And by the way, no meeting next week! It's Christmas Eve (and a holiday for many) here in the USA</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;hpottinger&gt; see you all next year?</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;tdonohue&gt; I hope you all have a great holiday &amp; end of the year!  Yes, our next official meeting will be Weds, Jan 7, 2015!  See you next year!</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;hpottinger&gt; I'm going to tack a reminder on the end of this transcript, be thinking about OR15 presentation ideas, the deadline is coming up.</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-navy">* robint (81d7ec36@gateway/web/freenode/ip.129.215.236.54) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-navy">* roeland_atmire (~roeland_a@85.234.195.109.static.edpnet.net) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-navy">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[18:53]</span> <span class="irc-navy">* hpottinger (~hpottinge@161.130.253.162) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[19:42]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) Quit (Ping timeout: 244 seconds)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:19]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:e527:c82e:dd98:4786) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[22:19]</span> <span class="irc-green">* roeland_atmire (~roeland_a@50.23.115.120) has joined #duraspace</span><br />
+<span class="irc-date">[22:19]</span> <span class="irc-green">* roeland_atmire (~roeland_a@50.23.115.120) has left #duraspace</span><br />
+<span class="irc-date">[22:50]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />

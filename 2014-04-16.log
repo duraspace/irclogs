@@ -1,0 +1,179 @@
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-verne.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-verne.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-verne.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-verne.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:15]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[11:46]</span> <span class="irc-green">* kshepherd2 (~kim@121-99-35-254.bng1.nct.orcon.net.nz) has joined #duraspace</span><br />
+<span class="irc-date">[12:27]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-navy">* kshepherd2 (~kim@121-99-35-254.bng1.nct.orcon.net.nz) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[12:58]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-brown">-wilhelm.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-brown">-wilhelm.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-brown">-wilhelm.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-brown">-wilhelm.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-green">* edInCo (~smuxi@seta.coalliance.org) has joined #duraspace</span><br />
+<span class="irc-date">[19:06]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;mhwood&gt; Coming up in about one minute:  DSpace developer meeting.</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;mhwood&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-16</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-04-16 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-16</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;mhwood&gt; Come one, come all.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;hpottinger&gt; howdy</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mhwood&gt; Well, that's two of us.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;hpottinger&gt; two committers, we don't have quorum</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-brick">* hpottinger elbows helix84 and kshepherd </span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; well, how are YOU mhwood?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; Doing alright.  Got myself a bigger teacup.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; oh, thanks for the reminder, I should reload on tea and perhaps guests will arrive in the mean time?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; brb</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; Go for it.  I'll be here.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;PeterDietz&gt; hi all</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; Welcome!  Now we are three (as soon as hpottinger returns).</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-16</a></span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-04-16 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-16</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, we're a bit disorganized today.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; I'm back</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; now we can make some decisions!</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-brick">* hpottinger cracks his knuckles.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; OK, first item:  3.3 and 4.2 status.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;PeterDietz&gt; Perhaps related to business services, I've been toying with an idea related to that for some time. Get REST to support whatever business logic you need, then yank that code out of UI. Then wire up UI to call REST to make it happen</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; 3.3:  I need to follow up a couple of tickets and get this rolling.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; That deserves some thought.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; re 4.2: I'd like to test DS-1906, it would be a good bug fix</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1906">https://jira.duraspace.org/browse/DS-1906</a> ] - [DS-1906] Shibboleth attributes may need to be reconverted - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mhwood&gt; Yes, if we can have that one in a reasonable amount of time, it would be good to get it in.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mhwood&gt; Anything else on minor releases?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; I have a self-appointed deadline of "1 sprint" to finish up some hardware migration stuff, can try to work in testing 1906 as part of my "kicking the tires"</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; Great!</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; Item 2:  maven enforcer plugin</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; The initial use would be to warn us of transitive SNAPSHOT dependencies.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; aka "The loving iron fist of Maven" +1</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; I like this idea</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; Related:  DS-1971</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1971">https://jira.duraspace.org/browse/DS-1971</a> ] - [DS-1971] &amp;#39;bte-io&amp;#39; (v 0.9.2.3) dependency from EKT has an invalid SNAPSHOT dependency in its POM - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; (And an issue to come back to:  EKT has a fix for 1971 but wants a ruling on Java version used to build the artifact.)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Any other comments on m-enforcer-p?  Who will write the ticket?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;hpottinger&gt; I think the ruling is clear: we're OK with 1.7 for 4.0... the knot that needs untying is, will that break deploying DSpace 3.x?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; Good point.  Problem is being too new to link with classes built for 3.x.  3.x documentation says we support Java 1.6 or 1.7, so I'd say it's better to build BTE with 1.6.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; I will so reply to the query, if there is no objection.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;hpottinger&gt; I"m going to look at the pom for 3.x just to see what version we're asking for</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; BTE was indeed used in 3.x, yes?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Other discussion of having m-enforcer-p check for only transitive SNAPSHOT dependencies?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; I gave my +1 I like the idea a lot</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://github.com/DSpace/DSpace/blob/dspace-3_x/dspace-api/pom.xml#L373">https://github.com/DSpace/DSpace/blob/dspace-3_x/dspace-api/pom.xml#L373</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-api/pom.xml at dspace-3_x · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/dspace-3_x/dspace-api/pom.xml#L373">https://github.com/DSpace/DSpace/blob/dspace-3_x/dspace-api/pom.xml#L373</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; So it was indeed in 3.x.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; Seems to be a different version, though.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; correct, I think building the newer version, targeted at 1.7, should be fine</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-brick">* hpottinger is a bear of very little brain, though</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; I think what I will say is that the issue with BTE 9.0.2.x only affects DSpace 4.x, and for that we could work with either Java 6 or 7, but of course they may have other dependents with more stringent requirements.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://github.com/EKT/Biblio-Transformation-Engine/network">https://github.com/EKT/Biblio-Transformation-Engine/network</a></span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;kompewter&gt; [ Network Graph · EKT/Biblio-Transformation-Engine · GitHub ] - <a href="https://github.com/EKT/Biblio-Transformation-Engine/network">https://github.com/EKT/Biblio-Transformation-Engine/network</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; the "dspace-version" appears to be a few commits ahead, if I'm reading that graph correctly?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, didn't mean to derail anythign with shiny graphics :-)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; It looks as though 0.9.2 is what DSpace is using.  We asked EKT specifically for backport of some fixes or some such to 0.9.2 because 0.9.3 had breaking changes of some sort.  Then there is an 0.10 branch presumably with pretty new work that we haven't seen.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; They've been really nice about this, and IMHO we need to make certain that we come up-to-date with their later branches for 5.0.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; I agree, and this is the heart of some cool features for DSpace</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; so, anyway, for 4.0 on, Java 7 is a-OK</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; They already have one built with 1.6.  I think we can use that one?  Backward compatibility is (usually) a given in Java.  But an artifact compiled by 1.7 could not be linked by a 1.6 JRE.  Is that right?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; correct</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; there's some "weird stuff" in 1.7 that 1.6 wouldn't "get"</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; mostly to do with exception handling</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; So I think the best thing for them would be to deploy their 1.6-compiled artifact to Central.  We should be able to use it on a 1.7 JRE, and if they have dependents still on 1.6 those should not be affected.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; that's conservative, and safe, don't know what we'd lose, but it sounds like it would work</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; I will so comment the ticket then.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; "Thank you for promptly addressing this issue.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; I think that DSpace should work with dependencies that are built by Java 1.6 or 1.7.  You may have other dependents for which 1.7 would be too new.  The conservative thing to do would be to go ahead and deploy your 1.6-built artifact to Central."</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; excellent!</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Posted.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Do we have a volunteer to write the ticket for adding m-enforcer-p?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; I can</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; Thanks.  I think that disposes of all specific agenda items, then.  PeterDietz brought an "other topic":  using REST to migrate business logic out of the UIs.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; +1 business logic layer</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; also, this enforcer ticket I'm going to add, I'm going to accept it and label it as "low-hanging-fruit"</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; OK.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; and "volunteer needed"</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; Any discussion of PeterDietz idea?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger I saw your +1</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; :-)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; Peter, talk us through what you have in mind?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-brick">* hpottinger wishes for a whiteboard.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; Sounds like this would be a step toward detaching the UIs altogether.  Weakening the coupling between frontend and backend might be beneficial.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; I always forget how this thing works, I have to actually mention a handle, right, PeterDietz?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;PeterDietz&gt; hi, yanked away, back</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Sorry to make you wait.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;PeterDietz&gt; no, I feel bad for holding you guys up.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; DS-1972</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1972">https://jira.duraspace.org/browse/DS-1972</a> ] - [DS-1972] add Maven enforcer plugin and configuration to prevent transitive SNAPSHOT dependencies - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Thanks.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;PeterDietz&gt; So. How does one go about making cleanups in DSpace? i.e. what will motivate us/one to clean up everything? Perhaps making an attempt TO break things,</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; Can you break it down into smaller pieces that could be done individually, at least far enough to tease out one non-huge bit of work as a proof-of-concept?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;PeterDietz&gt; The goal here isn't TO break things, but for commonly repeated business logic, build a clean way to do something through a service i.e. REST, one example could be for getting configs</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; so, you're talking about refactoring the UIs</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;PeterDietz&gt; Then, wherever configs are asked for in all the UI's force them to consume that data via REST.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; if REST is going to do configs, REST needs AuthZ</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; Putting it in REST should make it impossible for business logic to live in the UIs anymore, because they would (at some point) lose direct access to the necessary information and instead have to ask for it across a network link.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;PeterDietz&gt; I don't know if others would want to do such a thing. But, I'm not sure I want all these things living in the DSpace tree. i.e. xmlui, jspui, others</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; I hear that.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;PeterDietz&gt; hmm, so maybe there's a few things going on. Business logic, could be things like access to constants, i.e. ITEM=2, or it could be access to Item.findAll</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; The network roundtrip adds a little latency, but it's local or in-house so not bad.  A lot of products are going that way.  You could, for example, put the web services on internal networks and only expose the thinner UI shell to the public.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;PeterDietz&gt; My goal would be that instead of JSPUI implementing Item.delete its own way, and XMLUI doing that its own way, to make some utlitiy in dspace-core that does that</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; I like the idea of doing configs via REST... I especially like the idea that doing so bumps into missing functionality (AuthZ/N) which, if added, will greatly improve REST</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; I like the idea of taking authNZ decisions away from the UIs.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; I espcially like that we get our missing business logic layer :-)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; I would say that the way to approach refactoring would be to gradually make the existing methods all consumers of the API</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; you'd need a "hit list" of methods you want to refactor</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mhwood&gt; I apologize, but I'm going to have to go pretty quickly.  I should note that we've passed the official end-of-meeting time.  I invite continuing discussion.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; I'm not an officially-trained developer, though, and changing the existing methods to consume an API may not be "best practice"</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; oddly enough, I even own Martin Fowler's refactoring book, I should actually read it</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-brick">* mhwood has a tottering stack of books "I should read".</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; I hate to run out on you all, but I've got to dash.  Whatever discussion happens now, perhaps you could bring this up again when we have more in attendance?</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; will do</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; Thanks.  Bye, all!</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;hpottinger&gt; just us and the lurkers now</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;hpottinger&gt; Book: <a href="http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672">http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672</a></span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;kompewter&gt; [ Refactoring: Improving the Design of Existing Code: Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts: 9780201485677: Amazon.com: Books ] - <a href="http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672">http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672</a></span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;hpottinger&gt; Library? <a href="http://www.worldcat.org/search?qt=worldcat_org_all&amp;q=0201485672">http://www.worldcat.org/search?qt=worldcat_org_all&amp;q=0201485672</a></span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;kompewter&gt; [ Results for '0201485672' [WorldCat.org] ] - <a href="http://www.worldcat.org/search?qt=worldcat_org_all&amp;q=0201485672">http://www.worldcat.org/search?qt=worldcat_org_all&amp;q=0201485672</a></span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; so, anyway, PeterDietz, I like this idea, how can we help?</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;PeterDietz&gt; I'll keep thinking about a best approach for cleaning up DSpace. and/or whatever will be valuable projects to tackle</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;hpottinger&gt; I really like the idea of moving config to REST</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;PeterDietz&gt; Part of me thinks to just leave major parts of DSpace alone, build new features into REST. If rest needs utilities that exist tucked away in a UI, I'll duplicate it yet-again, but put it in dspace-api, then yank it out of the UI, but make it use the dspace-api call.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;PeterDietz&gt; Because maybe I don't want to rock the boat too hard at first,</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;hpottinger&gt; we do have this fancy config service based on Spring</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-green">* kshepherd2 (~kim@47.72.154.177) has joined #duraspace</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;PeterDietz&gt; yeah, spring's a lot</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;hpottinger&gt; woah, two kshepherds</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietz is rocking the boat, kshepherd2.</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;PeterDietz&gt; But, a cleaned up DSpace, doesn't neccessarily add value to any end-users, just makes it less mucky for active developers. But, where will you find active developers? Working on the Dspace internals? Or would developers want to focus on consuming a REST api, and building out a new frontend... Or would people just still be focused on doing things with existing UI's.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;PeterDietz&gt; A future might be some rails-UI (running off of REST). But the current is going to have to bring value for your xmlui crew??</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-brick">* hpottinger does not take the bait</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;hpottinger&gt; I will *not* launch into a diatribe against Cocoon.</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;PeterDietz&gt; There is some I would want to save that lives in xmlui, but not in the cocoon/xslt part</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-brick">* PeterDietz read the above as XMLUI saves lives</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;hpottinger&gt; "not the cocoon/xslt part" LOL</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;PeterDietz&gt; The part of the UI's that is super tricky to replicate is how complex submission and workflow is.</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;PeterDietz&gt; Therefore, I'm tempted to promote a hybrid approach. The easy stuff can be built in a client-app, for the hard stuff, redirect to (JSP/XML) UI</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;hpottinger&gt; good enough for a start</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;hpottinger&gt; must wander for a moment, brb</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;hpottinger&gt; back</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;hpottinger&gt; whoops, left the room by accident</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;PeterDietz&gt; thats fine, I gotta commute home. Catch you on jabber later</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;hpottinger&gt; ok</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:12]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:12]</span> <span class="irc-navy">* edInCo (~smuxi@seta.coalliance.org) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[23:07]</span> <span class="irc-green">* PeterDietz (~peterdiet@162-231-20-67.lightspeed.clmboh.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[23:25]</span> <span class="irc-navy">* kshepherd2 (~kim@47.72.154.177) Quit (Ping timeout: 245 seconds)</span><br />

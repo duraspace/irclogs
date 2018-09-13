@@ -1,0 +1,234 @@
+<span class="irc-date">[0:54]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:2c6e:b697:2b79:f318) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-verne.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-verne.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-verne.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-verne.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:41]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[11:46]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[11:47]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has left #duraspace</span><br />
+<span class="irc-date">[11:47]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-navy">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) Quit (Ping timeout: 255 seconds)</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-tapghkicuunxnyac) has joined #duraspace</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-green">* cknowles (~cknowles@192.41.131.254) has joined #duraspace</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:1c71:b989:545e:cb89) has joined #duraspace</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-green">* cknowles (~cknowles@192.41.131.254) has left #duraspace</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160056.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-green">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-navy">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-green">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-green">* dabaker (4b827d02@gateway/web/freenode/ip.75.130.125.2) has joined #duraspace</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-green">* dabaker (4b827d02@gateway/web/freenode/ip.75.130.125.2) has left #duraspace</span><br />
+<span class="irc-date">[18:42]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160056.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[19:19]</span> <span class="irc-green">* hpottinger (~hpottinge@173-20-173-237.client.mchsi.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d5153d041.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome. It's time for our weekly DSpace Developers Meeting. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-04-15">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-04-15</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-04-15 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-04-15">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-04-15</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; We'll kick off today with another "status check" on DSpace 5.2 and high-priority tickets which have been scheduled for that upcoming release</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; I know our *highest* priority ticket to resolve in DSpace 5.2 is Solr issues regarding Statistics, namely DS-2486 and its DSPR#894</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2486">https://jira.duraspace.org/browse/DS-2486</a> ] - [DS-2486] Missing fields in solr statistics data from previous DSpace versions - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/894">https://github.com/DSpace/DSpace/pull/894</a> ] - Ds 2486 reindex solr by aschweer</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; whoops, I mean DSPR#905 (the new version)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/905">https://github.com/DSpace/DSpace/pull/905</a> ] - Ds 2486 reindex solr by aschweer</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; Looks like Andrea is reworking it slightly to address memory issues with large volumes of statistics.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, I know Andrea is working on further improvements for scalability. I think it'd also be good though to find some additional testers out there...again, this issue will affect everyone who upgrades to DSpace 5.x and uses Solr Stats</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, if there's anyone else in that scenario (wanting to upgrade to DSpace 5 + Solr Stats), then if you could chip in on testing, we'd appreciate it.  Thus far, hpottinger has been the primary tester, and aschweer the primary developer</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; But, the more eyes on this, the more stable the upgrade of your Solr Stats data will be in 5.2</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;peterdietz&gt; scouts honor, I'll clone an instance and test it out today</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; At last I have been able to start trying it out.  I built a 5.1 + cherry-picked the PR.  Now I need to work out how I'm going to create the starting point for a test.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks peterdietz...and mhwood!</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; The "starting point for a test" is *any* older Solr Stastistics index.  They all loose their geographic info when you upgrade to DSpace 5</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mhwood&gt; 1.8 is not too old?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; "lose" not "loose"</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; correct, and word of advice, if you're testing this, once you have a stats core upgraded by 5.x, save a copy of that data dir around, for backtracking, no reason to have to wait for ant update to do its thing all over again</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: no, it shouldn't be. If you point DSpace 5 at an index created by DSpace 1.8, then it will upgrade that index to the latest version of Solr. But, your data will be missing all geographic info, as a full "reindex" is required</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; (and that PR above is what does the full "reindex")</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; specifically, you can't change Solr schemas without a reindex</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; But I'll have to 'ant update' to get the index upgraded, so I need something I can update.  I'll work it out.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;peterdietz&gt; Sorry to be out of loop. I should test with a 1.8 instance, or 3, or 4, or all?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: right, you need an old index to update from</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; doesn't matter, any version, whatever is easiest</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; I mean:  I need a copy of an old DSpace (not just the index) to run update against.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: you can test from any old version (&gt;=1.8) of DSpace. Just upgrade it to DSpace 5, and watch the geographic info disappear. Then run the PR to test if it "comes back"</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; right, I don't think the stats core will make much sense unless it lines up with a site's handles</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue's description is a good one, I would add "after you're done, before you test the reindex, save a copy of the stats data dir, it will make your life slightly easier as you re-test newer reindex code</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; Good idea.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; you *might* be able to test with just an index (no old db)....but, you may only see the "geographic" info at the site-wide level (i.e. stats from homepage), since as hpottinger notes your handles won't match up elsewhere</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; Well, I can copy the database too.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; (but that's just a bit speculative...I think the site wide stats though aren't driven by handles, so you may still be able to view them with an empty DB)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, thanks peterdietz &amp; mhwood for offering to help test!</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; Indeed, thank you!</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; Are there any other PRs or tickets we'd like to discuss for inclusion in 5.2?  Anything else needing more eyes / help / discussion?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://github.com/DSpace/DSpace/milestones/5.2">https://github.com/DSpace/DSpace/milestones/5.2</a></span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kompewter&gt; [ Issues · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/milestones/5.2">https://github.com/DSpace/DSpace/milestones/5.2</a></span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; (thanks hpottinger, I was just looking for that link)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; DSPR#888</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/888">https://github.com/DSpace/DSpace/pull/888</a> ] - DS-2418: Incompatible oracle sql method on collection.java by ctu-developers</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; DSPR#850 has been on our list for a long time</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/850">https://github.com/DSpace/DSpace/pull/850</a> ] - [DS-2131] SWORDv2 ingestion fails with NullPointerException when replacing a non archived item by KevinVdV</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; SWORD people? want to test that one?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Do we have SWORD people here today?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;peterdietz&gt; PR888 / 2418 looks good to me</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; that PR #888 (Oracle one) looks like an "obvious fix" to me...we wrote the "DatabaseManager.applyOffestAndLimit()" method specifically for that purpose</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; I haven't tested it (888) though</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: want to give it a +1?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; Just did</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; I agree that that looks like the way to go.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; re: DSPR#850, KevinVdV (the author) is here</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/850">https://github.com/DSpace/DSpace/pull/850</a> ] - [DS-2131] SWORDv2 ingestion fails with NullPointerException when replacing a non archived item by KevinVdV</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;KevinVdV&gt; Would be great if anybody could test it…. it seeems like a sensible fix :)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;hpottinger&gt; KevinVdV: want to maybe see if you can round up a SWORD tester for DSPR#850?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/850">https://github.com/DSpace/DSpace/pull/850</a> ] - [DS-2131] SWORDv2 ingestion fails with NullPointerException when replacing a non archived item by KevinVdV</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;hpottinger&gt; or, you know, anyone want a good excuse to play with this? <a href="https://github.com/CottageLabs/dip">https://github.com/CottageLabs/dip</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ CottageLabs/dip · GitHub ] - <a href="https://github.com/CottageLabs/dip">https://github.com/CottageLabs/dip</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;KevinVdV&gt; Do you have anybody in mind ?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; 850 also looks like a pretty "obvious fix" just reading the code. But, again, haven't had any chance to test it</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-green">* aschweer (~aschweer@2406:e000:518e:1:2d5f:13b3:829d:9efb) has joined #duraspace</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Good morning.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; KevinVdV: there are a few people who are notorious SWORD users, and DSpace commmitters, you can start with them</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;aschweer&gt; hi all, sorry I'm late, dst change</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Hi aschweer, just a note that we found you a few more "testers" for your Solr Stats re-indexing PR (#905), peterdietz &amp; mhwood</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;aschweer&gt; everything said here today about pr 905 testing is correct</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;aschweer&gt; cool thanks peterdietz and mhwood</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; thanks for verifying :)  Anything else you wanted to add around 905, aschweer?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;aschweer&gt; looks like you will need to give your tomcat lots of memory or it will die during export</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;aschweer&gt; ive been deleting all pre 2015 hits before doing reindex while testing, just to have less data to deal with</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;aschweer&gt; sorry about typos and speed, I'm on my tablet while having breakfast</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; aschweer: are you still thinking that sorting is the culprit for the OOM errors?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;aschweer&gt; yes</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer no problem. I will mention that I have heard before that *sorting* in Solr can be very memory intensive. So, your note about the sorting being the cause seems right</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;aschweer&gt; not that Ive had much time to think about it, being asleep much of the time after we last spoke hpottinger ;)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;aschweer&gt; yeah i just couldnt thinmk of a clean way to get a deterministic ordder of the solr docs otherwise</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; For example...this blog post has some Solr "Golden Rules", including "Avoid using sort": <a href="http://blogs.alfresco.com/wp/lcabaceira/2014/06/20/solr-tuning-maximizing-your-solr-performance/">http://blogs.alfresco.com/wp/lcabaceira/2014/06/20/solr-tuning-maximizing-your-solr-performance/</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; if only we could reindex before we reindex...</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;aschweer&gt; so now I'm hoping it will help to add date based filter queries so that it only needs to sort those docvs that match the fileter</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;KevinVdV&gt; Needs to run, until next time (I’ll try to find a tester for my sword stuff)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d5153d041.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;aschweer&gt; i ran eclipse memory analyser on hpottinger's heap dump and it pointed to comparators etc as culprits. so im pretty sure it is the sorting</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; That sounds good.  It should be sorting samples of roughly the same, smaller size.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; Your idea of a workaround sounds reasonable enough...hopefully it helps</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; oh, yeah, thanks for reminding me, I owe mhwood for reminding me that I could ask Tomcat to leave that heap dump on OOM errors</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; so, thanks, mhwood</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;aschweer&gt; abnyway, ive had a success report from someone else in NZ after upping memory. I'll see if i can get him to comment publicly..</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; how many docs in that index?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;aschweer&gt; thanks tdonohue, i just hope i have time soon to put that in code. anyone else wants to jump in, be my guest.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; Good to hear.  Thanks aschweer for your hard work here.  And, thanks hpottinger for your detailed testing &amp; memory reports</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; You're welcome.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;aschweer&gt; 6.5M i believe</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;aschweer&gt; thank you :) Terry Brady deserves some credit too, I built on his approach</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; my test index is 17M, I'm willing to add more memory to the fire, but I'm not exactly hopeful :-)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;aschweer&gt; yeah fair enough! though tbh, the index in question had some extra fields on top of what stock dspace stores</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;aschweer&gt; i think tomcat at 2gb was enough for that index, but I may be misremembering and it may have been 4gb</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; If you can get your colleague to comment publicly, I'll try whatever they suggest.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; Or have them email hpottinger if they are shy ;)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;aschweer&gt; cool, hopefully he will</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; +1 I take suggestions via e-mail, too</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; So, stepping back again to 5.2 in general. Anything else to discuss around tickets needing attention / help / etc. ?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;aschweer&gt; if someone could have a quick look at the im thumbnailing stuff, that'd be great. it's a very mall change</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; again: <a href="https://github.com/DSpace/DSpace/milestones/5.2">https://github.com/DSpace/DSpace/milestones/5.2</a></span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kompewter&gt; [ Issues · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/milestones/5.2">https://github.com/DSpace/DSpace/milestones/5.2</a></span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;aschweer&gt; sorry, not sure i can dig up the link quickly on the tablet</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer: yep, I glanced at it (just haven't had time to spin up my test environment). It looks sane to me, and small. I give it a +1 (though with no testing)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; it's DSPR#917</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/917">https://github.com/DSpace/DSpace/pull/917</a> ] - [DS-2544] Improve temp file handling for IM thumbnailer by aschweer</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;aschweer&gt; thanks :)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; any other tickets/PRs folks want to discuss here?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;aschweer&gt; I've run it on 150 items and kept an eye on /tmp using watch - much improved behaviour for cleaning up after it</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer: that's good to hear. As noted (in the related ticket), I do see this behavior as well...some temp files do end up sticking around seemingly forever, and they just keep eating space</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;aschweer&gt; thanks tdonohue</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so, it sounds like in general DSpace 5.2 still cannot be "scheduled" quite yet. Still more work to do here, and some memory stabilization of the Solr reindex work.  So, seems like the best we can do is touch base again next week</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;aschweer&gt; agreed</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; As the final topic for today, I had added to the Agenda some notes on the kickoff of the "Strategic Planning" / "Technical Roadmap" work that has begun on the Wiki (An email was also sent to Steering Group, Leadership Group, DCAT, and Committers)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Here's a link to that email on the publicly viewable DCAT list: <a href="https://groups.google.com/forum/#!topic/dspacecommunityadvisoryteam/7ZJ9-nJgRFo">https://groups.google.com/forum/#!topic/dspacecommunityadvisoryteam/7ZJ9-nJgRFo</a></span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kompewter&gt; [ Google Groups ] - <a href="https://groups.google.com/forum/#!topic/dspacecommunityadvisoryteam/7ZJ9-nJgRFo">https://groups.google.com/forum/#!topic/dspacecommunityadvisoryteam/7ZJ9-nJgRFo</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; Oh wait, that's not publicly viewable...hmm</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; Well, the jist is that the work has begun here: <a href="https://wiki.duraspace.org/display/DSPACE/Strategic+Planning">https://wiki.duraspace.org/display/DSPACE/Strategic+Planning</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kompewter&gt; [ Strategic Planning - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Strategic+Planning">https://wiki.duraspace.org/display/DSPACE/Strategic+Planning</a></span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; There's a schedule for the coming weeks, and what the "working group" plans to achieve. We've also begun drafting a 3-year "Strategic Plan for Technology" here: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+2015-18+Strategic+Plan+-+Technology">https://wiki.duraspace.org/display/DSPACE/DSpace+2015-18+Strategic+Plan+-+Technology</a></span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 2015-18 Strategic Plan - Technology - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+2015-18+Strategic+Plan+-+Technology">https://wiki.duraspace.org/display/DSPACE/DSpace+2015-18+Strategic+Plan+-+Technology</a></span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;aschweer&gt; i need to go to work, just wanted to say thanks a lot tdonohue for keeping us in the loop</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-navy">* aschweer (~aschweer@2406:e000:518e:1:2d5f:13b3:829d:9efb) Quit (Quit: aschweer)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; All of this is *very much* in flux / work in progress (and it's moving very rapidly). But, I wanted to be sure to point you all to *where this work is happening*, so that you can follow along ("watch" the pages if you wish) and even add your own immediate feedback/comments/questions</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; If there are any questions though or immediate comments, I'd be glad to answer them (here or elsewhere)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, and as a "bonus", in prepping for this work, there has been some *major* Wiki reorganization. If you haven't seen the new sections/categories on the left-hand sidebar, take a look and let me know what you think</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; Not hearing any immediate questions/comments on all this. Mostly, I just wanted to point you all at the ongoing work. If you do have questions/comments or suggestions, please do feel free to comment on any page, or send me a note, etc.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; Thanks.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; Any last thoughts for today? Other discussion topics?</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; Agility is really a whole process, that's just an observation, I like where you're going with the wiki, but you're proposing a big change</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: could you expand on that? Which part do you feel is the "big change"? The wiki reorg?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; (just want to be sure I understand your observation here)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; no, no, making agility/flexibity a priority</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; you have to engineer processes to make that happen</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; You mean "Agile(tm)", or "not fat and stiff"?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; good point, mhwood</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, I see, you're referring to the Strategic Plan for Technology (which is still really rough)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;hpottinger&gt; it really does depend on what we mean when we say "agility and flexibility" in goal 2</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; "agility" there means more "not fat &amp; stiff". We are not guarranteeing "agile" processes by that.  Plus, to be fair, those 5 "goals" are more long term, and the "actions" (some still need full approval) are the things we want to move towards in the next 3-5 years to move towards those goals</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; Another way to look at that is that we are able to make reasonable progress and keep up with user needs, with the available developer cycles.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Which may mean making choices, spinning off some alternatives as separate projects, etc.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; one way to do that is to take the work in smaller chunks, less monolithic releases, but, anyway... a discussion of processes might come along with that word "agile"</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; and I am happy for that</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; Those 5 overaraching "goals" were actually borrowed directly from the 2013 "Vision Document".  They are more the "themes" we want to work towards with regards to DSpace.  The *actions* though are the things we feel might help us move towards those goals in the next 3 years or so</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; (If you notice, the "goals" are not really "achievable" in any real sense...they are more like our "values" with regards to DSpace)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I see.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; and, as noted, one of the "values" is to make DSpace more "agile" and "flexible"...but we didn't necessarily mean "Agile (tm)", though that is obviously also up for discussion as part of that</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; makes sense</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;peterdietz&gt; okay. So then does this get translated at some point to developer action items?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; So "agile" here means being able to provide what people ask for in a reasonable amount of time, unimpeded by unnecessary weight or constraint.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; But, that is good feedback / obvervations.  One thing this makes me realize is that "Goals" may not be the best terminology for these statements</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; one thing I think we might want on the radar screen is the notion of a "business logic" layer</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; "directions"?</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; "values" maybe rewrite like a manifesto? :-)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: Yes, the "Strategic Plan for Technology" is being drafted first...we are also analyzing all the "Use Cases" (and prioritizing/ranking them).  Finally, comes the "Technical Roadmap" which will be *developer action items* (or at least our proposed developer action items)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: the schedule for this work is laid out here: <a href="https://wiki.duraspace.org/display/DSPACE/Strategic+Planning">https://wiki.duraspace.org/display/DSPACE/Strategic+Planning</a></span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;kompewter&gt; [ Strategic Planning - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Strategic+Planning">https://wiki.duraspace.org/display/DSPACE/Strategic+Planning</a></span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; yea, "directions" or "values" may be better than "goals" here</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, must go.  Will check the log.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; I just think that whatever we build, somebody somwhere will have an opinion about a business logic rule, and want it changed. It would be nice if DSpace would let them do that easily.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;peterdietz&gt; I've got a near-term project to crack S3 bitstream storage. Fingers crossed this will be a manageable piece of work</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; Though, to be clear about the "Technical RoadMap", it may not include *all* developer action items, as it'll only span 1-2 years. We are going to suggest the highest priority development projects (and likely timeframes) and then we'll need to find the staffing (from volunteers, service providers, others) to make those development projects happen.  We'll also want to list other things we feel are important, but may not necessarily f</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; Any other thoughts or questions for today? (Noticing we are well "over time" here)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;peterdietz&gt; Not much. Just we'll continue to get ad-hoc enhancements from myself / community. Whatever random feature that solves a use case. It would be helpful to have some document for guidance that says, yeah, that fits in, or no, that is likely outside the scope of dspace, as defined here</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;peterdietz&gt; And something to push more emphasis on portions that do matter, but aren't getting the attention. preservation / curation. Better fixity. Access documents in myriad of dissemination formats...</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;peterdietz&gt; Anyways, I'll wait for this process to continue</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;peterdietz&gt; ...and go test Andrea's SOLR code</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; ad-hoc work would fit in, in my opinion. But, yea, a lot of this has just begun. Thanks though for the comments &amp; observations here</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; it would be useful as a tool for developers, too, so people don't build something just for their own use case, but have the larger used case in mind</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;hpottinger&gt; +1 test that reindex</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; And we definitely are trying to still gather Use Cases....some could very easily be met in a more "ad-hoc" fashion (as they currently are)...others may require more collaboration / group effort.  Feel free to review the Use cases though &amp; enhance or add your own: <a href="https://wiki.duraspace.org/display/DSPACE/Use+Cases">https://wiki.duraspace.org/display/DSPACE/Use+Cases</a></span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Use Cases - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Use+Cases">https://wiki.duraspace.org/display/DSPACE/Use+Cases</a></span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; With that though, I'm going to close up this meeting (as I need to step away shortly anyways).  Please do feel free to keep the comments/observations/questions coming though (on wiki, via email, via future mtgs, etc)!</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; crazy idea: offer a prize for a dev challenge entry that delivers on one of the action items?</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: that is an interesting idea..hmmm</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; maybe, we'll have to see if we have some that seem partially achievable in light of a dev challenge</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;hpottinger&gt; prizes don't have to be money, BTW</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-brick">* hpottinger would code his heart out for a mechanical keyboard.</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;peterdietz&gt; I'd be interested in seeing a designer competition for DSpace. Have UX/UI designers come up with a modernized logo for DSpace. Come up with a 1 paragraph descriptive blurb for DSpace. A one-line motto for DSpace. Even designs/mockups for what you WANT an item page to look like. What you want a submission form to look like</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; right, yea, I agree, hpottinger. More just pondering right now if any of these would be mostly/partially achievable in a few days time (i.e. a dev challenge). Some may be...may just need to wait and see as we work towards finalizing this doc (it's still very rough &amp; in progress as-is)</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: interesting ideas as well... it would be nice to find some UX/UI designers</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;peterdietz&gt; Longsight's hired a marketing/design/odd-job company. They create website graphics, templates, videos, conference boothes and so on. Its expensive, but it gives you a fresh look in people's eyes when you've got a modern coherent message</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;peterdietz&gt; but.. if people came out of the woodwork, similar to metadata / use case / visioning / developers, that would be good too</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;hpottinger&gt; I have a feeling that a new UI might be a few pizzas away from PoC</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;peterdietz&gt; Brazil just built a new ui, for their "open courseware" / lecture capture thing</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;peterdietz&gt; anyways. I'm going to focus on one last batch load, and then syncing an instance to local</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;peterdietz&gt; to #dspace</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;hpottinger&gt; I'm serious about the UI thing, I think it's closer than we collectively think</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;hpottinger&gt; dev challeng is more of a "show your work" and less of a "work here and now" thing anyway, I bet there's some interesting stuff people have been kicking around without talking much about</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;tdonohue&gt; unfortunately, I have to leave now...but, yea, I would love to get a better UI and hire some UX folks to help design it / mock it up.  I'm not sure I'm convinced we are that "close" to it, but I'd love to believe that :)</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;tdonohue&gt; until later though...bye!</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-navy">* hpottinger (~hpottinge@173-20-173-237.client.mchsi.com) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[23:39]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[23:39]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[23:39]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[23:39]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[23:39]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />

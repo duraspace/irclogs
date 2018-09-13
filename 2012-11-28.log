@@ -1,0 +1,202 @@
+<span class="irc-date">[6:24]</span> <span class="irc-black">&lt;cbeer&gt; eddies: for FF,  did we ever make a decision about project management platforms? should we do that before the meeting?</span><br />
+<span class="irc-date">[6:24]</span> <span class="irc-black">&lt;cbeer&gt; and, are there other logistical items that make sense to get out of the way early.. like SCM hosting, CI builds, etc?</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-black">&lt;eddies&gt; cbeer: no decision yet on jira vs tracker vs ???</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-black">&lt;eddies&gt; for scm, we'll use github, under the fcrepo org</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-black">&lt;eddies&gt; for ci, it's either jenkins or bamboo</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-black">&lt;eddies&gt; i'm still on the fence as far as jira vs tracker. i briefly tried using the latest greenhopper on a new project this week</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-black">&lt;eddies&gt; it definitely feels better than before</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-niven.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-niven.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-niven.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-niven.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:47]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[14:48]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp218.evans.tamu.edu) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-green">* scottatm (~scottatm@adhcp218.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Read error: Operation timed out)</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:31]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[19:31]</span> <span class="irc-green">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[19:31]</span> <span class="irc-navy">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[19:31]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-black">&lt;KevinVdV&gt; Hi everybody</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, Reminder we have a DSpace Developers Mtg coming up at the top of the hour.  This will be a slightly shorter meeting (45mins) and will just be about 3.0 final steps.</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;hpottinger&gt; hey, KevinVdV, you guys run some oracle sites, yeah?</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all..just pulled together a (very quick) agenda for today's Dev Mtg.  Very similar to last week, just need to finish the last tasks listed: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-11-28">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-11-28</a></span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-11-28 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-11-28">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-11-28</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. it's that time again.  We'll go ahead and start our Developers Mtg (agenda link above)</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* sands (~sands@66-189-8-168.dhcp.oxfr.ma.charter.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; First..just want to mention, I'm going to be stepping out of the meeting after 45 mins, to get setup for the "DSpace Futures Discussion" (which you all are invited to), one hour from now.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;robint&gt; 45 mins should be plenty</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: can you link connection details here?</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;helix84&gt; my name dominates the list of remaining jira issues... sorry about that. i thought i will find the time while the rest got rescheduled. those are minor issues anyway, so we can reschedule them to 3.1</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; So, this will be a slightly abbreviated meeting...hopefully we can just dig into the last things left to do for 3.0, and get them all assigned/finalized....so that *hopefully* we can release tomorrow or Fri</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;hpottinger&gt; would appreciate if anyone can sanity-check <a href="https://github.com/DSpace/DSpace/pull/146">https://github.com/DSpace/DSpace/pull/146</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1379 revised 18-3 update SQL script with correct Oracle syntax by hardyoyo · Pull Request #146 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/146">https://github.com/DSpace/DSpace/pull/146</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- DSpace Futures Discussion connect details (Dial 1-209-647-1600 , Enter code: 373133)  These were also sent to dspace-commit.  Again, that mtg is in a little less than an hr.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; yes..let's start with the last remaining open issues (which I see hpottinger has kicked us off on)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;helix84&gt; i have a question about that call - i read somewhare that calling via google talk to the US is free of charge. does that apply to this number?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; not sure, helix84, to be honest.  Sorry.  I'd guess that'd be a "yes", as it is a US number. But, I've never tried to call it from Google Talk</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;sands&gt; helix84, are you _in_ the US?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; no</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;sands&gt; sorry, hard to keep track on all these international projects</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;sands&gt; ok.  not entirely sure if it's free unless it's US -&gt; US.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; nothing a proxy can't fix ;-)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, is there anyone here who can help hpottinger sanity check Pull #146 &amp; DS-1379?  We need someone with a little Oracle know-how...  Or we can just assume that hpottinger is awesome &amp; just accept it.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1379">https://jira.duraspace.org/browse/DS-1379</a> ] - [#DS-1379] Invalid update script for oracle db - database_schema_18-3.sql - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; i don't see why source matters with voip but i'll take your word for it and connect via skype. thanks.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;sands&gt; hpottinger:  not an Oracle shop, so not sure how much "sanity" i could offer.  (in general too...)</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;sands&gt; looks "sane" though.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;robint&gt; hpottinger: pull 146 looks ok to me</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;sands&gt; type of change i imagine oracle would kick back on if the syntax wasn't correct.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;sands&gt; i say go for it (said the non-oracle guy)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; yes, Oracle kicks back a lot :-)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;robint&gt; looks like standard sql</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, sounds like a sanity check is done on Pull #146.  To be honest, if something is still amiss, we'll hear about it from Oracle folks, and we can push out a quick 3.1  (Though, I agree, this all looks sane)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;robint&gt; +1 for merging it</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; and I've confirmed that Oracle doesn't kick back on this SQL</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; ok, +1 for merging too then.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; now... running DSpace with the resulting DB...</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-brick">* helix84 thought that was the point ;)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; *that* I can't vouch for</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; i'll be the devil's advocate here and say let's not risk breaking the release with an untested change just to reduce warnings in code that works</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I think you may be talking about something else?  We are talking about DS-1379</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1379">https://jira.duraspace.org/browse/DS-1379</a> ] - [#DS-1379] Invalid update script for oracle db - database_schema_18-3.sql - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; i know</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- it's actually a *broken* DB upgrade script...i.e...it doesn't work</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; right, i might have confused it with the other oracke change after all, sorry</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; to be clear, the SQL in pull 146 has been checked by an Oracle DBA, and it runs cleanly on Oracle</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  So, I'd say we merge #146  in -- push that big green button.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; it's not clear to me that, today at least, I can get DSpace master to run on Oracle...</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; This does bring up the question though -- do we all feel that the 1.8 -&gt; 3.0 upgrade (for either Oracle or Postgres) is working right?  hpottinger, as he notes, is having trouble on DSpace master</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; worked fine for me on postgres (testing server)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;robint&gt; hpottinger: what is not working?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://gist.github.com/4163656">https://gist.github.com/4163656</a></span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ seeing this error when attempting to load JSPUI on a newly-upgraded from 1.8 to 3.0 db, running dspace_master — Gist ] - <a href="https://gist.github.com/4163656">https://gist.github.com/4163656</a></span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; good to know, helix84.  Just wanted to be sure someone has tried this recently...I *thought* at least Postgres was working right</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-118.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; i tried it about a month ago, after the last changes to the upgrade script</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; but latest master still runs fine on it</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- the error you posted still sounds rather fishy to me...it doesn't sound like an upgrade issue...but something else odd in the DSpace -&gt; DB communication</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; right, tdonohue... it has me worried...</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; (but that's just my unknowledgeable guess on the matter -- It still might be nice if someone else was able to try a 1.8-&gt;3.0 upgrade on Oracle)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- perhaps post the error to dspace-release or dspace-devel to try and get more eyes on it?  I know were a little time-constrained today</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;robint&gt; hpottinger: can I jump back to pull request 146 for a moment</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;robint&gt; It has an extra bit that modifies the password column</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; robint, that was suggested on a comment on DS-1379</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1379">https://jira.duraspace.org/browse/DS-1379</a> ] - [#DS-1379] Invalid update script for oracle db - database_schema_18-3.sql - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; Our DBA signed off on that revision</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;robint&gt; Doh! Didn't notice the comment, thanks</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;robint&gt; Shall I merge it while I have it in front of me ?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; Oops, did I miss that?  Sorry.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; i'd say push the button, robint.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;hpottinger&gt; yay!</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; done</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; ok, moving along to other open tickets -- it looks like we have 6 other tickets open (not counting Ds-1379) all assigned to helix84: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution%3DUnresolved+ORDER+BY+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution%3DUnresolved+ORDER+BY+priority+DESC</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution%3DUnresolved+ORDER+BY+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution%3DUnresolved+ORDER+BY+priority+DESC</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- did you say we should reschedule *all* of these?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; Or should we review them first?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; like i said, they're minor issues that can be rescheduled</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; depending on when we want to release</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; no need to review them</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;helix84&gt; do we still release before the weekend?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; I think the hope would be to release tomorrow or Fri, unless there's any reason to delay further.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; then go for it</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; i'll work on them during the weekend, but they're not critical in any way</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; so if dspace is released, i'll also upgrade demo during the weekend</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.. is everyone ok with delaying these last 6 tickets for 3.1?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; if not, the patches should be ready</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;sands&gt; +1</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; one of these is brand new</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; 1401 turned out to be documentation, as I recall.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; (and to be honest...these 6 tickets are really ~4...I think all the CC License ones are essentially the same issue, and we should merge those tickets)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-green">* robint_ (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; there are 3 duplicates, 1 doc task, the OAI validation is probly almost solved but awaits confirmation and 2 are small issues in XMLUI display</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; oh, if DS-1401 is just docs, anyone want to quickly add the needed docs?  Or will it take time?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1401">https://jira.duraspace.org/browse/DS-1401</a> ] - [#DS-1401] &amp;quot;stats-log-converter -m&amp;quot; not working - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; i'll do it</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; +1 punt remainder to 3.1</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good...the rest get punted to 3.1.  If I get to it, I might do a quick verify of DS-1311 tomorrow morning, as that might be closeable as well.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1311">https://jira.duraspace.org/browse/DS-1311</a> ] - [#DS-1311] XOAI validation issues - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; about 1311, there are still some things that were not possible to fix because nobody has the schema</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; i even tried to contact the website claudia used to do the validation, but the email always bounced</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, we may want to keep some sub-tickets still open, but close the generic ticket.... I just know that in general, I think XOAI is doing a "good enough" job at basic validation (at least as good as old OAI-PMH)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; OK.  So, it sounds like we're working to close the last tickets.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; that makes sense from the point of view how much work was done, but otherwise it doesn't make sense, if you know what i mean :)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; The only other things standing in the way of "pressing the release button" are:</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; 1. Finalizing Documentation &amp; exporting PDF &amp; committing it to GitHub</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; 2. Update (as needed) README &amp; LICENSE files (I'm working on LICENSE_THIRD_PARTY file)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;sands&gt; I'm continuing to review the install docs</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; 3. After those, we can officially work to "cut the release"</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; like i wrote to -release today, we also have some open pull requests (without a jira issue), notably Mark Wood's Javadoc cleanup</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; 4. Finally, we need a Release Announcement drafted up (I think Sands volunteered here)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;sands&gt; i did.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; (oh, and for "cutting the release", hpottinger had volunteered)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; So...I think the only thing needing some more help/attention is the final Documentation checks</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;robint_&gt; I'll spend some more time on docs tomorrow</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; If the RT finds PR#125 (javadoc cleanup) acceptable I'd be happy to push the button on it right now.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;sands&gt; tdonohue, if you happen to have any old release annc emails sitting around, send them over, otherwise i'll draw it up from scratch.  didn't find any on a brief search.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; thanks robint_ and sands -- on docs volunteering</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; mhwood: it got a bit out of date but i'm +1</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; sands -- yep, I should be able to dig out the 1.8.0 and 1.7.0 final release announcements.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;robint_&gt; sands: I may also have some</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: +1 on PR#125, speaking as someone who will see plenty of text fly by during the release process</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; I'm fine with PR#125 (as long as it's just comments/javadocs stuff -- haven't had a chance to dig through it all yet)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-brick">* hpottinger is drafting a note to dspace-devel, asking or help testing an Oracle upgrade...</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Ok....so, it *sounds like* we're nearly ready to start the release.  I.e. it may be doable by tomorrow afternoon (USA time), or Fri morning (again USA time)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; do we have both langpacks released?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; yep..langpacks were released yesterday</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; by hpottinger</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; and some help from the unflappable tdonohue</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; oh, I'm flappable -- I just hide it well ;)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; ok...so, I think that wraps everything up for today...we're on our way to a 3.0 tomorrow or Fri.  I'd suggest we send updates to *either* dspace-release or jump into #dspace IRC</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; Will be glad to get 3.0 out the door!  Thanks to all!</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-brick">* hpottinger is ready to pull the lever</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;sands&gt; :)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;sands&gt; thank _you_ tdonohue for all the effort.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; let's shoot for tomorrow</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'm going to close up today's meeting now.  As mentioned, in a little over 15 minutes we have the last "DSpace Futures Discussion" with Committers &amp; DCAT. If you can, join us.  If you cannot, we will post notes afterwards (just like the last meeting)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;sands&gt; cheers all.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: +1 (with a backup of Fri)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-navy">* sands (~sands@66-189-8-168.dhcp.oxfr.ma.charter.com) Quit (Quit: sands)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; So is PR#125 Go or Wait?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;helix84&gt; mhwood: if you rebase, i'll hit the button. i already reviewed it last time.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; Rebase?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; nevermind, then. i'll rebase it on top of master and close te pull request.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; Don't understand.  It's mergeable now.  I fixed that earlier today.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; oh, great. i don't have it in front of me, i looked this morning.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: if the button is green, and you personally approve the code, you're a trusted developer, push that button</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; i just looked again. you did a merge, that will clutter up our history. i'll better rebase.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Oops, 'tis done.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; it only hurts when you do that repeatedly :)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;KevinVdV&gt; Nees to run</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;KevinVdV&gt; *Needs*</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- It'll be on slashdot one day...)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* robint_ (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; alas, my mojo is all tapped out, can't dial long distance from here</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; Google Voice is king</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; have support people trying to help, if I can get it together, will call</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;hpottinger&gt; alas, two different authorization codes have failed... it's not meant to be</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;hpottinger&gt; someone please extend my regrets to the participants of the conference call, I'm going to try to get DSpace:master running on Oracle</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-green">* hpottinger_ (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-green">* hpottinger_ (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:17]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:58]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:03]</span> <span class="irc-green">* joaomelo (~DSpace@144.64.32.106) has joined #duraspace</span><br />
+<span class="irc-date">[23:24]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has left #duraspace</span><br />

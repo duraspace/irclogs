@@ -1,0 +1,316 @@
+<span class="irc-date">[1:02]</span> <span class="irc-green">* neanlos (~neanlos@186.146.231.135) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-navy">* neanlos (~neanlos@186.146.231.135) Quit (Ping timeout: 255 seconds)</span><br />
+<span class="irc-date">[6:03]</span> <span class="irc-green">* neanlos (~neanlos@186.146.231.135) has joined #duraspace</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-calvino.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-calvino.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-calvino.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-calvino.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:05]</span> <span class="irc-green">* Asger (~abr@nat.statsbiblioteket.dk) has joined #duraspace</span><br />
+<span class="irc-date">[12:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:48]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-green">* bram-atmire (~bram@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-navy">* bram-atmire (~bram@85.234.195.109.static.edpnet.net) Quit (Quit: bram-atmire)</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-green">* hpottinger (~hpottinge@216.106.51.181.reverse.socket.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-navy">* Asger (~abr@nat.statsbiblioteket.dk) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[14:39]</span> <span class="irc-green">* Asger (~abr@nat.statsbiblioteket.dk) has joined #duraspace</span><br />
+<span class="irc-date">[14:42]</span> <span class="irc-navy">* neanlos (~neanlos@186.146.231.135) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-navy">* Asger (~abr@nat.statsbiblioteket.dk) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-green">* hpottinger (~hpottinge@216.106.51.181.reverse.socket.net) has left #duraspace</span><br />
+<span class="irc-date">[19:07]</span> <span class="irc-green">* hpottinger (~hpottinge@216.106.51.181.reverse.socket.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:29]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:29]</span> <span class="irc-black">&lt;KevinVdV&gt; Hi everybody</span><br />
+<span class="irc-date">[19:29]</span> <span class="irc-black">&lt;tdonohue&gt; Hi KevinVdV</span><br />
+<span class="irc-date">[19:31]</span> <span class="irc-black">&lt;KevinVdV&gt; Hi Tim, as you might recall I sent an email about the controlled voc issue on the demo (authority control &amp; controlled vocabulary are both enabled for dc.subject at the moment)</span><br />
+<span class="irc-date">[19:32]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; you mentioned putting something about this in the documentation, how do you recommend making it clear ? Putting a warning label in the input forms controlled voc docs that says if you have authority controlled enabled on this field that it will override the setting ?</span><br />
+<span class="irc-date">[19:41]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV...sorry, having multiple discussions at once.   I think that sort of warning is exactly right.  I just want it mentioned somewhere in the code what you shouldn't do in regards to enabling both controlled vocab and authority control.</span><br />
+<span class="irc-date">[19:41]</span> <span class="irc-black">&lt;tdonohue&gt; I mean it should be mentioned somewhere in the *docs* (not the code)</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-black">&lt;KevinVdV&gt; Allright I will take it care of it somewhere this week. Would you mind if I disabled your change with the authority control, so people can test the controlled vocs ?</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-black">&lt;tdonohue&gt; go right ahead.  It was my mistake.</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-black">&lt;KevinVdV&gt; Wasn't really a mistake ;-)</span><br />
+<span class="irc-date">[19:44]</span> <span class="irc-black">&lt;tdonohue&gt; well..it was something I didn't know would cause problems :)  Which is also why I wanted it noted in the docs.  Otherwise, I worry I'm gonna forget myself</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-black">&lt;KevinVdV&gt; I also had another small question for those paying attention which kinda got sidetracked in my email. Quickly added my comment to the Jira so feel free to respond: <a href="https://jira.duraspace.org/browse/DS-1284">https://jira.duraspace.org/browse/DS-1284</a></span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1284] Facet name (research field subject) too long for discovery box - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1284">https://jira.duraspace.org/browse/DS-1284</a></span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1284">https://jira.duraspace.org/browse/DS-1284</a> ] - [#DS-1284] Facet name (research field subject) too long for discovery box - DuraSpace JIRA</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-black">&lt;tdonohue&gt; REMINDER: We have a DSpace Developer Mtg here in ~10mins.  Agenda today will be 3.0 status &amp; upcoming schedule.</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV -- I guess I don't fully understand the options with Ds-1284 to be honest.  If it's a misconfiguration, then it sounds like it should just be resolved by clear documentation (if needed) or marked "not a bug", and we should fix the misconfiguration on the demo server</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;tdonohue&gt; I guess I don't understand what the "misconfiguration" is... (i.e. what part of what config file is misconfigured?)</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;KevinVdV&gt; <a href="https://wiki.duraspace.org/display/DSDOC3x/Discovery#Discovery-Hierarchical(taxonomiesbased)sidebarfacets">https://wiki.duraspace.org/display/DSDOC3x/Discovery#Discovery-Hierarchical(taxonomiesbased)sidebarfacets</a></span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;kompewter&gt; [ Discovery - DSpace 3.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC3x/Discovery#Discovery-Hierarchical(taxonomiesbased)sidebarfacets">https://wiki.duraspace.org/display/DSDOC3x/Discovery#Discovery-Hierarchical(taxonomiesbased)sidebarfacets</a></span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV -- so, that likely needs to be noted somewhere in the 1.8-&gt;3.0 upgrade perhaps?  I wasn't aware of that new feature, so I didn't enable it on demo.dspace.org</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;tdonohue&gt; (essentially, there's so many new features in 3.0, it's been difficult to keep track of them...so I'm not surprised there's misconfigurations on demo.dspace.org.  But, that does mean we need to find a place to let users know about these new features)</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;tdonohue&gt; I guess it's also an option to just add a note about it to the Preface area, where other new features are listed (instead of the upgrade docs): <a href="https://wiki.duraspace.org/display/DSDOC3x/Preface">https://wiki.duraspace.org/display/DSDOC3x/Preface</a></span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;kompewter&gt; [ Preface - DSpace 3.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC3x/Preface">https://wiki.duraspace.org/display/DSDOC3x/Preface</a></span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all -- welcome.  It's time for our DSpace Developers Mtg as usual.  First off, sorry I didn't get around to sending out an agenda today... I've been rather busy &amp; have also been trying to help fix some Maven Release issues we've had in recent days (which is why RC2 isn't yet released)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;KevinVdV&gt; s to be noted somewhere in the 1.8-&gt;3.0 upgrade perhaps?  I wasn't aware of that new feature, so I didn't enable it on demo.dspace.org</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;KevinVdV&gt; [21:57] &lt;tdonohue&gt; (essentially, there's so many new features in 3.0, it's been difficult to keep track of them...</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;KevinVdV&gt; Sorry</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;helix84&gt; good job, tim!</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;KevinVdV&gt; Thx for the tips Tim &amp; I will update the docs</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; But, the general agenda today is just to get updates/status on 3.0, and start to determine whether we need more time for 3.0 bug fixes in general</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;robint&gt; tdonohue: sorry, I didn't get a chance to look at the binary release problem yet</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; (Sidenote -- we *think* that the Maven release issues are now solved, as of a moment ago... but, hpottinger is trying things out, possibly even as we speak)</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;robint&gt; will definitely do so tomorrow</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;helix84&gt; today I realized we didn't send the call for translations</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;hpottinger&gt; I am indeed, tdonohue</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;hpottinger&gt; you all are my net :-)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; robint.  Thanks.  you are talking about DS-1343...should I just assign that to you?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1343">https://jira.duraspace.org/browse/DS-1343</a> ] - [#DS-1343] Non-source zip package of DSpace 3.0-rc1 is broken/invalid - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;robint&gt; I'll assign it</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I'd agree it might be good to send out such a call for translations, if you or the RT want to do so</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; thanks robint</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;helix84&gt; i'll do it</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. So, looking at the 3.0 status in JIRA: <a href="https://jira.duraspace.org/browse/DS/fixforversion/10543">https://jira.duraspace.org/browse/DS/fixforversion/10543</a>  It looks like we still have quite a few issues outstanding (as we all know)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace: 3.0 - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS/fixforversion/10543">https://jira.duraspace.org/browse/DS/fixforversion/10543</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; this seems to be the correct link</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; yep, thanks, helix84.  Though I will note that we've had some tickets come in in the last few days of Testathon that may not be marked as "Fix For: 3.0"</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-118.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;robint&gt; KevinVdV: DS-1081 ?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1081">https://jira.duraspace.org/browse/DS-1081</a> ] - [#DS-1081] Ensure that DSpace can run on java 7 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;KevinVdV&gt; Just need to alter the docs for that one</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;KevinVdV&gt; Everything SHOULD be in order now</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;robint&gt; Sorry, I meant, cant we close DS 1081</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;robint&gt; Good stuff</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;robint&gt; s/cant/can/</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; robint meant to say: Sorry, I meant, can we close DS 1081</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; Yes...I suggest someone update docs &amp; close Ds-1081</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; Shall we review some of the other unassigned 3.0 issues.  Here's the "Unassigned" list: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; that was meant to be a question :)  I can go down this list one-by-one if we feel it'd be of use...see if we can find a volunteer or even determine if it needs to be fixed by 3.0 or not</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; DS-864 is ongoing work, probably not release-specific.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-864">https://jira.duraspace.org/browse/DS-864</a> ] - [#DS-864] Fix/cleanup code to ensure it is well documented - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;KevinVdV&gt; *Will also attempt to update docs for DS 1081 sometime soon &amp; close it down*</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; good catch mhwood -- that's very vague. I suggest we remove the "fix for 3.0" from Ds-864</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;robint&gt; Re DS 1081 - Can we say we support OpenJDK as well as Oracle JDK ?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; demo.dspace.org is running OpenJDK 7.  So far, so good it seems..</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; I haven't had Oracle JDK around here for many months.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; I removed "fix for 3.0" from Ds-864</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; Sounds promising.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; Looking at this list of "unassigned" issues, several of these seem to be "carry-overs" from old releases... (i.e. we just rescheduled them as we never got to them in the past)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; oh, hey, 864 is related to stuff we're seeing during the release process, the "wall of WARN." I am SO signing up for 864</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; i've been running master code on OpenJDK 6</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; without any problems that I could attribute to OpenJDK</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; Do I dare suggest we just reschedule any ticket that is not directly related to 3.0 or Testathon results?  Some of these are old</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: did you really mean 864? that one seems ovely generic to me</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: would probably be a good idea to reschedule them for 4.0</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; By "reschedule", I actually mean, *remove* the fix-for tag altogether, from some of these unassigned old issues, and concentrate on the ones reported *during* 3.0 Testathon</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; missing javadocs, helix84, leads to lots and lots of warnings when you try to release to Maven Central</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: i see</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; We should all pitch in on 864, and you can remind me that I said that. :-)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; btw, [INFO] Release preparation complete.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; mhwood: it would help if you did a few and showed me the diff so that I know what's needed, I may then do some more</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; actually, like I commented on 864, a TODO list would be helpful</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; It's mostly simple stuff:  if a method has no such parameter as "foo" then the doc comment is either mis-spelled or shouldn't be there at all.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-brick">* tdonohue is retagging some of these tickets...give me a minute here</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; mhwood: so where can I see a list of them?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; TBH I recommend that time could be better spent on actual features/bugfixes.  The code is not that bad and this is more of a guideline for when folks write code.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; To generate a TODO list, 'mvn javadoc:javadoc -l todo.txt'</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-brick">* helix84 is writing that down</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; OK, our unassigned list for 3.0 is now down to 6 items.  I've rescheduled anything not directly related to 3.0: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC</a></span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;hpottinger&gt; (btw, running mvn release:perform right now)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger...fyi...not sure the prepare worked right again.  I don't see the necessary release POM commits in GitHub</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: i didn't pay attention recently, have the xoai fixes been merged?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; XOAI fixes are merged</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; thanks</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;KevinVdV&gt; I'll take DS-1291 !</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1291">https://jira.duraspace.org/browse/DS-1291</a> ] - [#DS-1291] Statistics not working in xmlui - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; (or at least the latest pull we had...I think more fixes are still coming)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks KevinVdV</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone want to tackle DS-1329 and DS-1323 (both related to XMLUI display of CC Licenses...and possibly even essentially the same issue)?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1329">https://jira.duraspace.org/browse/DS-1329</a> ] - [#DS-1329] CC License &amp;amp; Collection metadata on item pages Layout issues - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1323">https://jira.duraspace.org/browse/DS-1323</a> ] - [#DS-1323] CC Licenses on items link to nothing when displayed in XMLUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; One more release topic: we wanted to fix the EOLs for good using gitattributes. I wanted to discuss when would be a good time to do this. I think just before releasing actual 3.0.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;KevinVdV&gt; Also taking DS-1248</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1248">https://jira.duraspace.org/browse/DS-1248</a> ] - [#DS-1248] Remove unused SolrLogger code for unsupported &amp;quot;metadata.item.&amp;quot; settings - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I'd suggest we fix EOLs sooner rather than later. But, obviously doing so could cause merge issues with any open pull requests</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: that's why I was suggesting a point when we should theoretically have the least pull requests in the whole cycle</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; sure, I agree helix84.  Just don't want it to be "last minute" before release :)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: do you think a whitespace change could cause problems?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; doubtful, but I'd rather not be surprised at the last possible moment by some sort of issue caused by the commit.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; also, at the same time, we might want to do a code reindentation (e.g. using the Eclipse plugin). It always bothers me when tabs and spaces are mixed, breaking indentation.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; I'll shut up now and let us concentrate on actual bugs O:-)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; yea..the bugs are what we need to fix here.  That and the actual release process.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-brick">* hpottinger grumbles and stares at mvn, hard.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- I can give "mvn release:prepare" a try myself, since it looks like your try failed again (not sure why)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; that'd be good, thanks tdonohue</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  So, the big question here...how are we feeling about this release schedule?  Do we want to schedule a second Testathon?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; Current 3.0 schedule is at: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 3.0 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; i'm for a second round. it's not like we're taking demo down, anyway, so it's just an announcement.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; right. I agree, it's just an annoucment.  But, running a second testathon likely does mean we need to push back our dates again slightly.  That being said, I'm in favor of a second Testathon, as we've had a lot of bug reports &amp; a lot of fixes</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; and, really, rc2 is just a way for the community to test the same code that's running on demo right now</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; (plus some xoai fixes)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; What would it mean to have a release candidate that is *not* to be widely tested?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: chaos ;-) mere anarchy</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, likely not recommended.  The testing would fall to us... and it could mean for a less stable final release</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially though, I think we need to let the Community know where things stand...we haven't said much about 3.0 publicly in a while (other than Testathon announcements). I'm wondering if we need to have some sort of followup to let folks know things may be delayed, but it's cause we want to do a secondary testathon &amp; ensure we're more stable.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; it might be a good idea to combine the second testathon announcements and the call for translations</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;robint&gt; tdonohue: My vote would be yes, once we have sorted a few more bugs</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; oops, ignore that last comment</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; robint: i believe they're releasing -rc2 as we speak</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, but the RC2 release isn't working still</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: attempting to release it</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;KevinVdV&gt; Is delaying RC2 an option ?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; Got distracted then accidentally hit enter</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; delaying RC2 is definitely an option</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Need to do release:cleanup between release:prepare -DdryRun and release:prepare?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; done and done :-)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; (as in it's already delayed :-)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; hmm: November 1, 2012 : Release Candidate 2 is released</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;KevinVdV&gt; Because I have 13 issues assigned to me for 3.0 &amp; I would like to fix some of those for RC2 ....</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; actually, on our schedule, RC2 isn't guarranteed till Nov 1.  But, we were trying to get it out early just to stabilize the release process &amp; get out other fixes.  I was anticipating an RC3 potentially later on</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: great, i've been hesitating to ask about rc3 because it's not in our chedule, but I'd prefer one (if there are more than a few bugs fixed after rc2)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. we can do more than 2 Release Candidates...  We don't have to fit everything into RC2.  In fact, at this point, I'd highly recommend we do more than 2 RCs, as our release process has proven to be unstable &amp; we need to stabilize it</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; this release process is gonna go soooo smooth for the next volunteer, I tell ya</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; Can we build a list of bugs that must be fixed before RTM?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: that's what i've been waiting for ;)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; RTM - sounds like Windows, ugh :)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; mhwood: isn't "fix for 3.0" such a list?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- sure, I'd agree.  I was anticipating that list of bugs is the "Fix for 3.0" list. But, if something is *missing* on that list, or needs to be removed/rescheduled, we should do so</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; No, there's "we'd like to get this in" and "we can't ship until this is fixed."</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;helix84&gt; actually "fix for 3.0" with priority "blocker"</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Blocker &amp; Critical issues are "must get in" in my mind.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; (those are the two top levels of bugs)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; Speaking of... I was just looking at this...</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; DS-1205</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1205">https://jira.duraspace.org/browse/DS-1205</a> ] - [#DS-1205] DSpace org.dspace.core.Context caching problem - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; I'm not really sure if our CachingService is currently getting used for more than "request" caching.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; Indeed.  I'm not sure that's a blocker.  There's a workaround:  if it's running out of memory, give it more memory.  We do need to address the appetite for memory, but how urgent is it?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; We can change that to a "major" issue, if we agree.  I'm not fully up to speed with it, to be honest, and from the comment thread it sounds like there's some question whether anything can be fixed reasonably in time for 3.0</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; (i.e. we could even reschedule it)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; I agree, this code has been part of dspace for a couple versions and so I'm not sure this is really blocking</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; not sure it's a blocker, but I'd be inclined to green light any patch that tones down the memory appetite of this application :-)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; +1 hpottinger...agreed, though we shouldn't hold up a release for it</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; (unless it's an extremely bad memory issue that causes true instability...but, I'm not sure this one is)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: a fix was offered (though no pull request yet) and I recommended pulling one now rather than for 3.1, because it will still get testing in testathon, whereas there won't be a testathon for 3.1 (so we should avoid breaking 3.1)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;helix84&gt;  s/will/would/</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- well, if we get a fix in time, great...but, I notice richardrodgers hasn't answered (and I know for a fact he seems swamped these days)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; I'm currently looking at the possibility of overhauling dspace-services for 4.0 so, any fixes come through that touch it, I would like to review them,  per Context's cache, its not really a cache that lives past any request cycle.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;hpottinger&gt; +1 agreed tdonohue, if there was a patch, I'd say let's test it... but on the other hand, I don't think it's worth pulling out all the stops to write the patch. If someone else feels strongly about it, I'm happy to test their code.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-brick">* tdonohue is trying to re-run the RC2 release as we speak</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Issue says it appeared in bin/dspace, which may be hanging around for a long time and handling a great many objects.  It depends on what command was used.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-brick">* hpottinger crosses fingers for tdonohue...</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  So, any thoughts on *when* we run a second Testathon?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: i'll add you as a reviewer of that issue if you don't mind</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; don't mind at all</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; We could aim for second Testathon Nov 5-9?  or Nov 12-16? And push back the final release to something like Nov 26?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; Does any of that sound reasonable?  Just want to make sure everyone feels comfortable with the dates -- in terms of getting stuff fixed in time, etc.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; ??? Doesn't the Testathon begin the moment RC2 drops?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;KevinVdV&gt; Shouldn't we hold of on a final release date (in case we want to do a RC3)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- if we want actual public to help with testing, I've been told in the past it is *BEST* to let them know in advance.  Not just say "start testing now".... that's the feedback we've gotten from DCAT in the past</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV -- final release date is always flexible. It's a goal.  We've already pushed it back 2-3 times for this release, to be honest.  I think initially it was set at late Oct (i.e. now)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; So, there's always the option to push back the final release again, if we hit major issues.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;KevinVdV&gt; Allright</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; I'm just looking for something we can tell the Community.  I'd like to be able to give folks a status update on 3.0...but, we need to try and nail down some 2nd Testathon dates, and then give a general "guess" on the final release.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;helix84&gt; I'm fine with pushing back as necessary. Better bug-free than early.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; WOO HOO.... RC2 "release:prepare" worked for me.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: we should just update the release schedule according to information we have now and give them that</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- agreed</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; yay, tdonohue... I wonder what went wrong on this end of things?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; not sure, hpottinger...sounds like we'll have to look more closely at your environment.  The release went through smoothly on my end though, which is great to see.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;robint&gt; hpottinger: are you at Maven 3 ?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;hpottinger&gt; maven 3.0.3</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;robint&gt; Thats my list exhausted :)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; yea...I don't think it's a maven issue...the part that's failing for hpottinger is the actual commits to GitHub (though strangely the tagging makes it to GitHub)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; in any case, we can figure it out after the mtg</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; off-topic: is anyone else getting an email from GitHub over and over that says "Branch: refs/tags/dspace-3.0-rc2" ? Does that have something to do with the maven release process?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; So, anything else to talk about today with regard to 3.0 schedule &amp; such.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yes, those were all the failed releases &amp; then removal of the tag cause it was wrong</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: so, the testathon announcement and call for translations: a) ok to merge them? b) if rc2 is released, can we do it now?</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; sorry for the GitHub commit spam.  hpottinger &amp; I have been trying to get a successful release of RC2 for several days now.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; since last week, I think...</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; no problem, i was just wondering. good job, on that guys.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, we can merge those calls.  As for Testathon, I'd again suggest we *schedule* it (DCAT continues to tell us that it's difficult for repo mgrs to take part unless they can schedule it on their calendar)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; So, even though RC2 is about to be "out there", &amp; we can announce RC2, I'd still say we schedule dates for Testathon</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; (and it's possible by the time we get to Testathon, we'd already be on RC3 or RC4)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; does that make sense? or do others disagree?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; well, what's the point of saying start N days in the future if the end date is the same?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: in this case, any advanced notice is going to be small...</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; it's less of a new testathon and more of a continuation of testathon, with a new version...</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; though we still need to update demo to -rc2 and I'd like to enable the mobile theme there ("mobile." subdomain), just can't seem to find the time to do it</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; ok...well, I guess my question is when do you want testathon to start/end then?  I'm fine with doing this differently, if we want...but we still should set some dates</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; plus, as helix84 noted, we need time to update demo server, etc.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;KevinVdV&gt; Needs to run, until next week guys ...</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- Would you like to know more?)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;hpottinger&gt; as in "thanks for testing 3.0-rc1, your input has been really helpful, and we've been hard at work fixing the bugs you've found. Please consider continuing to help us test the next release candidate of DSpace 3.0 -RC2."</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;helix84&gt; we're actually ahead of schedule at this point, considering -rc2, so we may still squeeze -rc3 in and delay only slightly</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; So, if we want to announce testathon starts next Mon (29th) we could...but, we need someone to get demo.dspace.org updated before then (I'm out on Fri &amp; have a full plate tomorrow).  I'm just looking at my schedule &amp; I don't have any more time this week...but if RT wants to move things forward, I'm OK with it.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: wanna do the honors with demo again?</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;robint&gt; tdonohue: I would prefer Mon 5th Nov as start date to give us a little more time</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I don't want to make promises, but if I do it, I'll send a notice to -devel that I'm working on it to avoid conflicts.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; probably tomorrow</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; OK, if helix84 can't do it, I will</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; robint -- that was my initial thought too (which is why I initially said those dates)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; I'm not so comfortable with Nov 5: we have rc2 now, so what's the point in delaying? we may have rc3 ready by then</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;helix84&gt; just saying it doesn't make sense to test rc2 at a time when we have rc2+N bugfixes ready</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; I was more delaying cause of my schedule. But, if others can pick up tasks, we could start earlier.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; I don't really see this as much of a change from the old testathon, just a continuation with new code... I know I'd happily deploy new code, if I were already testing, especially if I'd found a bug.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;robint&gt; My worry i that people get tired of testing and gradually stop</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; +1 robint</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;robint&gt; so we wnat to get as many fixes in as possible before announcing a second phase of testing</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;helix84&gt; So let's schedule rc3 for Nov 5 and prepare a testathon announcement starting Nov 5. Sounds good?</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; I think we have two options:  (1) Do immediate testathon starting Mon on RC2 (I won't be available as a resource, as I'm out Fri &amp; Mon), OR (2) Schedule Testathon for Nov 5-9...if we have RC3 ready by then then we test on RC3 rather than RC2</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; what I said is Tim's option 2, so I agree</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; (small fyi -- cannot schedule a release and testathon for the same day.  You need time for the release to propagate out to Maven Central.  You could do RC3 on Nov 1 or 2 &amp; Testathon on Nov 5</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; I'm OK with option 2, though in the announcement we can say RC2 is already out, and invite people to test with that version, if they so wish...</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: right, I realized that just after I hit Enter</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- yep, makes sense</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; so, does someone want to start drafting the announcement? (looking towards release team).   I'd be glad to help with tweaks (could help a little tomorrow possibly)..but I may not get to it till next Tues otherwise.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; does anyone want to do the release on, say, Nov 2nd? (I still don't feel comfortable doing the release)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; s/release/release myself/</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: does anyone want to do the release myself on, say, Nov 2nd? (I still don't feel comfortable doing the release)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; s/release)/release myself)/</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kompewter&gt; error: unbalanced parenthesis (file "/usr/lib/python2.7/re.py", line 242, in _compile)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-brick">* tdonohue wonders how we plan to release helix84 on Nov 2.  That sounds difficult</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; O:-)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mhwood&gt; That's for him to figure out.</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; I like the sound of this: we've tested and have made revisions, we plan to go through another internal phase of testing (which anyone is welcome to join), we'll have another release candidate ready for testing on Nov. 5, for those who need to plan for another round of testing, please do plan to help starting Nov. 5.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, I think that's the general theme.  We could even throw in a reminder of the new features in 3.0 that we're looking for help on testing (i.e. grab some text from Sands initial email too)</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;robint&gt; Sorry guys, I've got to go. Cheers</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; Me, too.  'bye.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; and we may send the announcement about that schedule just after we drop rc2 on demo, also saying that they can test at any time</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- you want to take a stab at the announcement? Or pull it together amongst the RT?  Again...glad to help provide some tweaks or review if you want it.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; Sounds good. I'll tentatively try to update demo tomorrow and prepare the announcement with hpottinger as a backup ;)</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; ok, sounds good.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;hpottinger&gt; least I could do after not running the prepare step correctly :-\</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; should we use -devel or -release for coordination about that?</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; I think that's it for today then, unless anyone else has something to add?</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;hpottinger&gt; -release for release-oriented mail</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; to coordinate the announcement, use -release.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; ok</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; but, send the announcement to -general, -tech &amp; -devel</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;helix84&gt; yep, and DCAT</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; yep, them too :)</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-brick">* hpottinger remembers he meant to sign up for the DCAT list...</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-brick">* tdonohue is running our "release:perform" to get this RC2 release actually heading out to Sonatype, and then to Maven Central</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; Ok...I think that's it for today then!  This is all sounding great all!  Honestly, I think 3.0 is coming along great, and hopefully the 2nd Testathon will show that things are much more stable &amp; nearing final release!</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: we might want to try releasing also the -lang projects, just to see if they're still working. I'll prepare a translation update and let you know.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I can pretty much guarrantee that the -lang projects are *not* working yet.  But, I think they should be easy to fix, now that we've got the main project working right.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;hpottinger&gt; :-)</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;tdonohue&gt; But, I agree, we should do a -lang project release soon to get things fixed &amp; working right</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; I haven't started with the translation update yet, so there's still time to do that.</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; (I've just been waiting for someone to commit code to the -lang projects)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; (cause currently, there's nothing new to release)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; we have a minor correction for spanish, though, i can commit that tomorrow</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;helix84&gt; thanks guys and good night!</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; good night to you too!</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-brick">* tdonohue heads into "semi-lurking" mode as I watch this release do it's thing</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: anything I can help with release, or do you have all that covered now?</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- I have it covered...but if you want, you can take a look at what things look at in Sonatype (once this gets finished...still chugging away), just so you know what it looks like.  But, if you have other stuff to do right now, no worries, we can do that later</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has left #duraspace</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;hpottinger&gt; will do, switching to #dspace</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-118.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp218.evans.tamu.edu) Quit (Quit: scottatm)</span><br />
+<span class="irc-date">[22:14]</span> <span class="irc-green">* hpottinger (~hpottinge@216.106.51.181.reverse.socket.net) has left #duraspace</span><br />
+<span class="irc-date">[22:15]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:21]</span> <span class="irc-navy">* linux4u (~james@employed.library.emory.edu) Quit (Ping timeout: 240 seconds)</span><br />

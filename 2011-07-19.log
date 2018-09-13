@@ -1,0 +1,99 @@
+<span class="irc-date">[4:59]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-kornbluth.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:22]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:49]</span> <span class="irc-green">* eddies (~eddies@208.38.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:49]</span> <span class="irc-navy">* eddies (~eddies@208.38.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[12:49]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[12:51]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-green">* ajs6f (89361140@gateway/web/freenode/ip.137.54.17.64) has joined #duraspace</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-navy">* ajs6f (89361140@gateway/web/freenode/ip.137.54.17.64) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-green">* elschlomo (d5a553b6@gateway/web/freenode/ip.213.165.83.182) has joined #duraspace</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;elschlomo&gt; hola</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-green">* JiriKremser (~JiriKrems@ip-62-245-97-152.net.upcbroadband.cz) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;eddies&gt; Fedora Committers Meeting: <a href="https://wiki.duraspace.org/display/FCREPO/2011-07-19+-+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-07-19+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kompewter&gt; [ 2011-07-19 - Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2011-07-19+-+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-07-19+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-green">* ajs6f (89369bfc@gateway/web/freenode/ip.137.54.155.252) has joined #duraspace</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;JiriKremser&gt; <a href="https://jira.duraspace.org/browse/FCREPO-52">https://jira.duraspace.org/browse/FCREPO-52</a></span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-52] WSDL should declare faults - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-52">https://jira.duraspace.org/browse/FCREPO-52</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-green">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) has joined #duraspace</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://github.com/Jiri-Kremser/fcrepo">https://github.com/Jiri-Kremser/fcrepo</a></span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;kompewter&gt; [ Jiri-Kremser/fcrepo - GitHub ] - <a href="https://github.com/Jiri-Kremser/fcrepo">https://github.com/Jiri-Kremser/fcrepo</a></span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://github.com/Jiri-Kremser/fcrepo/tree/fcrepo-452">https://github.com/Jiri-Kremser/fcrepo/tree/fcrepo-452</a></span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;kompewter&gt; [ Jiri-Kremser/fcrepo at fcrepo-452 - GitHub ] - <a href="https://github.com/Jiri-Kremser/fcrepo/tree/fcrepo-452">https://github.com/Jiri-Kremser/fcrepo/tree/fcrepo-452</a></span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;eddies&gt; ajs6f: Questions from servlet filter refactoring effort</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;eddies&gt; q: can we deprecate legacy XMLUsers filter (just like the other two)?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jira.duraspace.org/browse/FCREPO-893">https://jira.duraspace.org/browse/FCREPO-893</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-893] Refactor authN/authZ servlet filters. - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-893">https://jira.duraspace.org/browse/FCREPO-893</a></span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://wiki.duraspace.org/display/FCREPO/Fedora+3.5+Testing">https://wiki.duraspace.org/display/FCREPO/Fedora+3.5+Testing</a></span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora 3.5 Testing - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/Fedora+3.5+Testing">https://wiki.duraspace.org/display/FCREPO/Fedora+3.5+Testing</a></span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;eddies&gt; conf/Catalina/localhost/fedora.xml</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;eddies&gt; &lt;context-param&gt;</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;eddies&gt; &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;eddies&gt; &lt;param-value&gt;</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;eddies&gt; classpath:*Context.xml</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;eddies&gt; &lt;/param-value&gt;</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;eddies&gt; &lt;/context-param&gt;</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt; &lt;?xml version="1.0" encoding="UTF-8"?&gt;</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt; &lt;Context&gt;</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;    &lt;!-- Spring config location --&gt;</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;    &lt;Parameter</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;         name="contextConfigLocation"</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;         value="/WEB-INF/applicationContext.xml,file:/opt/fedora/current/server/config/spring/web/*.xml" /&gt;</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;    &lt;Parameter</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;         name="propertyConfigLocation"</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;         value="file:/opt/fedora/current/server/config/spring/web/web.properties" /&gt;</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;    &lt;Parameter</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;         name="fedora.home"</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;         value="/opt/fedora/current" /&gt;</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt;         </span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;eddies&gt; &lt;/Context&gt;</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://static.springsource.org/spring/docs/3.0.x/reference/resources.html">http://static.springsource.org/spring/docs/3.0.x/reference/resources.html</a></span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;kompewter&gt; [ 4. Resources ] - <a href="http://static.springsource.org/spring/docs/3.0.x/reference/resources.html">http://static.springsource.org/spring/docs/3.0.x/reference/resources.html</a></span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;elschlomo&gt; argg skype problems now..</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;eddies&gt; org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/fedora/default/server/config/spring/web/web.properties]</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;eddies&gt; 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:78)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;elschlomo&gt; cant you just tell the classloader to use FEDORA_HOME as a classpath?</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;eddies&gt; i think we could, but there seemed to be some concern about this approach</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-navy">* elschlomo (d5a553b6@gateway/web/freenode/ip.213.165.83.182) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-green">* elschlomo (d5a553b6@gateway/web/freenode/ip.213.165.83.182) has joined #duraspace</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;elschlomo&gt; i can email a proposal for the spring config on the list tommorow after i looked a bit into it</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;elschlomo&gt; ok</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;elschlomo&gt; yes</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;barmintor&gt; that would be very helpful, thanks!</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-green">* JiriKremser (~JiriKrems@ip-62-245-97-152.net.upcbroadband.cz) has left #duraspace</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-green">* sandsfish (~sandsfish@18.111.93.65) has joined #duraspace</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-navy">* krnl_ (Andrius@193.219.34.106) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-green">* sandsfish_ (~sandsfish@18.111.93.65) has joined #duraspace</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-navy">* sandsfish (~sandsfish@18.111.93.65) Quit (*.net *.split)</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-green">* sandsfish_ is now known as sandsfish</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-navy">* ajs6f (89369bfc@gateway/web/freenode/ip.137.54.155.252) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-navy">* krnl_ (Andrius@193.219.34.106) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-navy">* barmintor (barmintor@specdl11.cul.columbia.edu) Quit ()</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-green">* eddies1 (~eddies@208.38.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-navy">* eddies1 (~eddies@208.38.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-green">* eddies1 (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) Quit (Quit: Heading out...talk to you later.)</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-navy">* krnl_ (Andrius@193.219.34.106) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:12]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[18:37]</span> <span class="irc-navy">* barmintor (barmintor@specdl11.cul.columbia.edu) Quit ()</span><br />
+<span class="irc-date">[18:39]</span> <span class="irc-navy">* elschlomo (d5a553b6@gateway/web/freenode/ip.213.165.83.182) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[19:36]</span> <span class="irc-navy">* eddies1 (~eddies@unaffiliated/eddies) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-navy">* sandsfish (~sandsfish@18.111.93.65) Quit (Quit: sandsfish)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-navy">* mhwood (~mhwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:28]</span> <span class="irc-navy">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) Quit (Ping timeout: 252 seconds)</span><br />

@@ -1,0 +1,290 @@
+<span class="irc-date">[2:41]</span> <span class="irc-navy">* elschlomo (~ruckus@HSI-KBW-085-216-105-023.hsi.kabelbw.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:40]</span> <span class="irc-green">* blob_ (81d746b9@gateway/web/freenode/ip.129.215.70.185) has joined #duraspace</span><br />
+<span class="irc-date">[10:41]</span> <span class="irc-navy">* blob_ (81d746b9@gateway/web/freenode/ip.129.215.70.185) Quit (Client Quit)</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-green">* robint (81d746b9@gateway/web/freenode/ip.129.215.70.185) has joined #duraspace</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-green">* robint (81d746b9@gateway/web/freenode/ip.129.215.70.185) has left #duraspace</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-navy">* snail (~yeatesst@130.195.179.39) Quit (Ping timeout: 268 seconds)</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-green">* snail (~yeatesst@130.195.179.39) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;KevinVdV&gt; HI all</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;robint&gt; Hi KevinVdV</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;robint&gt; Its time for our weekly developers meeting</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;robint&gt; Looks like we are a small gang tonight :)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;mhwood&gt; Attendance seems light today.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;robint&gt; Everyone winding down for Xmas already !</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;robint&gt; What about we have a quick look at the 1.8.1 issues and then we could do a normal Jira review ?</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;mode=hide&amp;jqlQuery=fixVersion+%3D+%221.8.1%22+AND+project+%3D+DS">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;mode=hide&amp;jqlQuery=fixVersion+%3D+%221.8.1%22+AND+project+%3D+DS</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;robint&gt; Thats the complete list assigned to 1.8.1. Quite a good number really.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;robint&gt; Lets whiz through the few that are still unresolved</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;robint&gt; DS-1090</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;robint&gt; Ah, no kompewter</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/browse/DS-1090">https://jira.duraspace.org/browse/DS-1090</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; There is a patch.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;mhwood&gt; assignee is not here to discuss.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;robint&gt; Yes, actually Peter has committed it for 1.8.1</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;robint&gt; DS-1082</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/browse/DS-1082">https://jira.duraspace.org/browse/DS-1082</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; Invalid embargo causes item archival to crash.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; This was discussed at length last week</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;KevinVdV&gt; Well I am assigned to that one, we talked about it a lot last meeting but no conclusion came out of it ........ so I am still unsure on how to proceed</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; Me too.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; Hi hpottinger</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; hi, all</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; Discussing DS-1082</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;robint&gt; I reread last weeks discussion and it seemed we still didn't have a clear path</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;KevinVdV&gt; Hence my confusion on how to proceed</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;robint&gt; Just looking at the attached patch</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; Still leaning toward "just catch the exception and say 'fix your embargo data'".</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;robint&gt; I note that the patch logs the error, but doesn't email anyone</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;robint&gt; mhwood: How were you thinking we would notify someone ?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-green">* mdiggory (~mdiggory@64.134.233.79) has joined #duraspace</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;robint&gt; hi mdiggory</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;KevinVdV&gt; Well at moment of writing I didn't have that in mind but Richard Rodgers did bring it up &amp; quite like the idea of adding an alert email</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; perhaps a default embargo</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; is there ever any situation where DSpace e-mails an admin with a warning?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;KevinVdV&gt; (configurable)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;robint&gt; Just discussing again <a href="https://jira.duraspace.org/browse/DS-1082">https://jira.duraspace.org/browse/DS-1082</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mdiggory&gt; robint: hi</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; Argh, I don't know the submission process as well as I should.  Redisplay the final-submission page with a red error message, go to an error page with a way back into submission -- something less disastrous than a stack trace.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mdiggory&gt; small crowd...</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; small but perfectly formed !</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mdiggory&gt; ba boom boom</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;KevinVdV&gt; True mhwood, but if the item install isn't called from a UI ?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; Anything that calls it needs to catch the exception and turn it into something meaningful to the user.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;robint&gt; I'm leaning towards postponing this one for 1.8.2</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;KevinVdV&gt; So am I at the moment (since I am low on time)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; That makes sense, given continuing uncertainty and the lateness of the hour.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;robint&gt; Its 9.15pm in KevinVdV land</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; seems like if its not the UI an email should go to the original submitter (IE SWORD user)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; or CLI user</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; Surely SWORD can pass back something that the client would recognize as an error indication.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;robint&gt; SWORD doesn't know if the collection has workflow attached</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;robint&gt; so the item may be SWORD deposited but sit in workflow afterwards</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; But wouldn't InstallItem execute at the end of the sword request and fail?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; Why does SWORD need to know what happens to the item?  It deposited successfully, or it didn't succeed and here's why.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;robint&gt; But InstallItem runs when the item is archived not when it is deposited</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, no, InstallItem only happens at the end of workflow, yes?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; robint: or more specifically, if there was not a workflow attached, it would be a sword error, if there was a workflow attached, it would be the workflow role...</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;KevinVdV&gt; mhwood: yes</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;robint&gt; mdiggory: yep, I think so</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; robint: But InstallItem runs when the item is archived not when it is deposited  &lt;---- depends, see above</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;KevinVdV&gt; At the end of the workflow, but with the configurable workflow anything could be the end of the workflow</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;KevinVdV&gt; Even a Command Line script could trigger the item install</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Explainer:  I think of ingestion as always being a workflow, even if there are 0 steps between Submit and Install.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; KevinVdV: yep...</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;KevinVdV&gt; Hence my reluctance to just show something in the UI</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; "embargo data are silly" is just a special case of "can't advance this submission, please fix it."</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; at least its good for the submitter (CLI, SWORD or XMLUI) to know (but only if they are the user in the InstallItem context)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; Maybe its more (IS there someone in "Context" during the InstallItem, they should be alerted... otherwsie, its the admin.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;robint&gt; Happy to keep discussing, but I don't think we are going to get anything done for tomorrow.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;KevinVdV&gt; Indeed I suggest to postpone it</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;robint&gt; Which is not a problem, I should add.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;robint&gt; Ok lets move on</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; Note, we are very close to starting a project to improve embargo system as a contribution to the community.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;KevinVdV&gt; I will log this discussion &amp; previous weeks discussion in the task</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/browse/DS-1081">https://jira.duraspace.org/browse/DS-1081</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; Java 7</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; Thanks KevinVdV for investigating</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; Looks like no action required other than us all confirming that there is no longer a problem</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;KevinVdV&gt; But again haven't found much time ..........</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; and then updaating the documentation</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;KevinVdV&gt; Why aren't there more then 24 hours in a day :(</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; No problem KevinVdV. Its one for us all to do in time.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; I blame standards</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/browse/DS-1076">https://jira.duraspace.org/browse/DS-1076</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;robint&gt; "Visualisation of static pages is broken in 1.8"</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;robint&gt; Peter has attached a patch</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; patch looks good, am testing today</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;robint&gt; Great stuff hpottinger !</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; I notice Peter hasn't committed it yet</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; I'm guessing he wanted some feedback first</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; I'll post results to the ticket, but I like the looks of the patch</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; Patch looks like it will work.  I had really hoped for something that would read an external file.  I may do that approach anyway but that won't be ready today.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;robint&gt; We can always put something different into trunk</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;robint&gt; If anyone has any comment, positive or negative, could they update the ticket ?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;robint&gt; Hopefully Peter will commit it for tomorrow</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;robint&gt; If there are no further comments then that the end of our 1.8.1 review :)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; I think there is a ticket for adding help pages to XMLUI that 1076 would make possible</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;robint&gt; hpottinger: I'll have a dig around and mark it for 1.8.1 if that is the case, thanks</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;robint&gt; Shall we do a quick Jira review ?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;KevinVdV&gt; Go right ahead</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-910+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-910+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; found the ticket for help pages: 894</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;robint&gt; Thanks hpottinger</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/browse/DS-910">https://jira.duraspace.org/browse/DS-910</a></span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;robint&gt; "Encoding of discovery facet urls"</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;KevinVdV&gt; Interesting I think this one may be fixed for 1.8.x but not sure, so if nobody minds I will claim it &amp; investigate</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;robint&gt; Certainly don't mind ! Thanks KevinVdV</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;KevinVdV&gt; *Claimed*</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/browse/DS-911">https://jira.duraspace.org/browse/DS-911</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;robint&gt; "Double facets on item pages"</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;robint&gt; Another issue from the same person also on Discovery</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;KevinVdV&gt; This has changed in DSpace 1.8.x so facets can't be enabled for item pages (since these are useless)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;KevinVdV&gt; So problem doesn't matter anymore</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; Would you mind adding a comment to that effect in the ticket ?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;KevinVdV&gt; Not at all</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; Sorry KevinVdV, everything is falling on you !</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;KevinVdV&gt; Do we "Reject &amp; close" ?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;KevinVdV&gt; No problem ;) the night is still young !</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;robint&gt; Yes reject, and put in a comment. Thanks.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/browse/DS-912">https://jira.duraspace.org/browse/DS-912</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;robint&gt; "Authorization policy"</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;robint&gt; That covers a multitude of sins !</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mhwood&gt; User wants DSpace permissions to work like Windows filesystem.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;robint&gt; Looks like mdiggory and Stuart Lewis have both made good comments</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; i.e. just inherit dynamically from parent until child is altered.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; Mapping makes this...interesting.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; I have an internal ticket on changing the wildcard policy admin tool to work similarly to what is requested here</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; I like the curation task idea</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;robint&gt; hpottinger: Feel free to claim it and run with it if you like :)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;robint&gt; It might turn out to be a can of worms</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; It looks like concerns over zapping explicit policies set on the item would require saving whether a policy was copied.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; nothing new with that, robint ;-)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; I'd suggest two tasks: one for overwriting existing policies, one for retaining</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;robint&gt; Ok, I'll cut and paste this conversation into the task</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;robint&gt; One more...</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; or, I think tasks can go back for more feedback from an admin if run interactively</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;robint&gt; <a href="https://jira.duraspace.org/browse/DS-913">https://jira.duraspace.org/browse/DS-913</a></span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-brick">* hpottinger is a curation task newbie</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; TBH, I've been moody about ResourcePolices and the way we use them for some time now...</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;robint&gt; mdiggory: It would be nice to abstract all that code behind some service</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;robint&gt; so that we could plugin an alternative authorisation solution</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Ds-913 is for 1.6.2 so would need updating.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;robint&gt; Ah yes, thanks mhwood</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; A ResourcePolicy is a detail concerning the state of the Item, for instance, "Embargo" is a Policy. But we hard code that policy in proceedural code rather than objectifying it in our Policy framework.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mdiggory&gt; what would be an alternative authorization system?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;robint&gt; Don't know :)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mdiggory&gt; JAAS?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;robint&gt; But I sort of feel I don't need to know</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;robint&gt; I should just be able to ask - am I authorised to do something to something</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm.  IIRC, *testing* policy is concentrated in one place.  So the problem is in composing policies and attaching them to objects?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mdiggory&gt; well, that was the DSpace 2.0 initiative.... <a href="http://scm.dspace.org/svn/repo/dspace2/core/trunk/api/src/main/java/org/dspace/services/mixins/UserAuthorizationService.java">http://scm.dspace.org/svn/repo/dspace2/core/trunk/api/src/main/java/org/dspace/services/mixins/UserAuthorizationService.java</a></span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;robint&gt; Thats the sort of thing I had in mind</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; Don't we have that now, in a non-Service way?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: even the setting of polices was abstracted away...</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/dspace2/core/trunk/impl/src/main/java/org/dspace/services/user/MemoryUserAuthzProvider.java">http://scm.dspace.org/svn/repo/dspace2/core/trunk/impl/src/main/java/org/dspace/services/user/MemoryUserAuthzProvider.java</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Thinking of AuthorizeManager.authorizeAction</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; AuthorizeManager.addPolicies</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;robint&gt; mhwood: yes'ish. Although we have other authorisation solution for metadata types, and for the devolved admin functions</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;robint&gt; Its all got a bit messy</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; The root, then, is that we need more kinds of DSOs.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/dspace2/core/trunk/api/src/main/java/org/dspace/providers/UserAuthorizationProvider.java">http://scm.dspace.org/svn/repo/dspace2/core/trunk/api/src/main/java/org/dspace/providers/UserAuthorizationProvider.java</a></span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/dspace2/core/trunk/api/src/main/java/org/dspace/providers/AuthzManager.java">http://scm.dspace.org/svn/repo/dspace2/core/trunk/api/src/main/java/org/dspace/providers/AuthzManager.java</a></span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; More DSO subtypes and more operation codes.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mdiggory&gt; not so sure, what types do you need?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; why do they need to be DSO?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; So policies can be attached.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; Why does an object need to be of type DSO to have a policy attached?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mdiggory&gt; sorry, I'm baiting you</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Because I need to go back and look at the code again?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;robint&gt; mhwood: I was about to agree with you :)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;robint&gt; I notice that its past the hour</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mdiggory&gt; Ok, so generally, we have a DSpaceObject and because the method parameters are types and the DB has fkeys, we need to extend DSo to make more types in a way that we can attach resource policies</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;robint&gt; So thanks to all for contributions</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;KevinVdV&gt; I need to run, cya all</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;robint&gt; Cheers KevinVdV</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mdiggory&gt; But, what I'm trying to get at is actually the ResourcePolicies, they are what should be extended...</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;robint&gt; mdiggory: tell more</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; But our model is not extensible without  great deal of work because we do not use JAVA Inheritance for typing in DSO or in ResourcePolicies</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; robint: are you sure you want to put DS-894 in for 1.8.1? I can try to get it done by deadline, but I'm not sure how doable that will be, realistically</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; We putt "typing" into fields in DSO</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; and into properties of the ResourcePolicy</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; ppppttttbbbbhhhhhhhh.....</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;robint&gt; hpottinger: I wouldn't rush into it</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; I think that's spelled, ":-P"</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; thanks</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;robint&gt; I could just add a note to it that the other issue (whose number I forget) may have enabled a solution</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; robint: I have existing DRI for help files, patterned after the JSPUI help files, but it's full of MOspace-isms, that will have to be carefully excised/replaced</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mdiggory&gt; In a more extensible world.... ResourcePolicy would be a base type and you would have, ReadPolicy, WritePolicy, MyPolicy, RestrictPolicy, EmbargoPolicy....</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;robint&gt; hopttinger: No probs. Sounds good but maybe for trunk rather than 1.8.1. Cheers</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mdiggory&gt; and you wouldn't remove an EmbargoPolicy to release the object from embargo, it would have a date range enforced within it.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mdiggory&gt; in which it was valid</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mdiggory&gt; and it would have its own behavior which could be tested against to validate if the user can access the resource</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; We could actually use the date ranges we already define....</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mdiggory&gt; correct, but they can have different meaning in RestrictPolicy vs AccessPolicy</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;robint&gt; I'm going to hace to duck out. Cheers all.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; Thanks, robint!</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-brick">* mhwood wonders if we should first deal with not having *any* kind of policy applied to things people want to protect.  (Metadata....)</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mdiggory&gt; depends on which is considered default</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mdiggory&gt; access or no access</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mdiggory&gt; If Policies were inherited on the hierarchy: Site &gt; Community &gt; Collection &gt; Item &gt; Bundle &gt; Bitstream ....</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mdiggory&gt; then it could be entirely configurable</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; Subclassing ResourcePolicy *does* make it easier to modularize policies.  A policy instance in the backing store would be a BLOB of serialized goop which has attached behavior (when deserialized) to interpret itself, so e.g. an Embargo package could define policy subclasses only relevant to itself.  They just drop in.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mdiggory&gt; DefaultAccessPolicy attached to Site.... used to define Access below it</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mhwood&gt; We seem to have left behind the original issue:  policies are inherited at object creation time and can't be made to track the parent's policies.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mdiggory&gt; This takes me back to MIT... Pledge was an attempt to define the Policies that would be in force in a Repository.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://pledge.mit.edu/index.php/Main_Page">http://pledge.mit.edu/index.php/Main_Page</a></span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mdiggory&gt; the objective was to express real world policies in a descriptive actionable language (RDF)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://pledge.mit.edu/images/c/cd/Cu0002rei.n3">http://pledge.mit.edu/images/c/cd/Cu0002rei.n3</a></span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mhwood&gt; I just realized we're all talking about two quite different meanings of "inheritance".</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mhwood&gt; Must be careful.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;mhwood&gt; Anyway, the problem in the issue is a familiar one:  people don't find it natural that a child object inherits policies at creation.  They want the policy aspect of objects to be translucent:  use the nearest un-obscured relevant policy of the object or any of its ancestors.</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;mdiggory&gt; Yes, one is about policy enforcement, the other is about extensibility of the logic and persistence of policy capabilities.</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mhwood&gt; Or, at least, they want to be able to push policy changes down to child objects.  But you correctly point out that we don't want to do that to explicit policies on the child, only to previously-inherited policies.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mhwood&gt; We can do that whether we use the Java type hierarchy or invent our own.</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;mhwood&gt; Letting Java take care of it for us has intriguing possibilities, but isn't that orthogonal to the problem that users keep pointing to?</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;mdiggory&gt; right</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;mdiggory&gt; I'm not so sure I let java take care of it...</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;mdiggory&gt; I'd just give a little more freedom to the developers to create new types of policies...</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;mhwood&gt; It sounded like we would deserialize a string of policies and ask each one:  may I do this? until we get a positive answer or run off the end of the string.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mdiggory&gt; to a degree... We might have a InheritedPolicy and SimplePolicy.... Inherited would contain the logic to step up the graph/hierarchy</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mhwood&gt; Oh, I was back on type inheritance.  Sorry....</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mdiggory&gt; Simple would just have an evaluate interface</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;mdiggory&gt; I think that would be too spooky for folks to wrap their heads around...</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;mdiggory&gt; though you would get a great deal of freedom if you just serialized the object hierarchy to a blob... true... I just wouldn't want to be around when it broke for the end users ;-)</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;mhwood&gt; No worse than ASN-1:  you just have to provide tools to interpret the data.</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;mdiggory&gt; its that latter part...</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;mhwood&gt; Anyway, you were discussing just two types of policies:  Inherited and Simple.</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mhwood&gt; Are we talking about dynamic inheritance from containers, or "push-down" modification of a contained object's policies from the container on demand?</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;mhwood&gt; Does this need to move to dspace-devel?</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;mdiggory&gt; probibly....</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;mdiggory&gt; I almost assume that the default AuthorizationManager logic would be dynamic inheritance.</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;mhwood&gt; I think that's what people really seem to want.</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;mdiggory&gt; so that a change in dynamic collection level policies does not require pushing lots of changes into a DB...</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;mhwood&gt; That's a trade-off:  do we do lots more UPDATEs or lots more SELECTs?</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;mdiggory&gt; however, policies can impact indexing among other things... some sort of eventing might be required to keep everything in sync</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;mhwood&gt; Ugh, policy would have to travel with the index record, or be reconstituted on reference.</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;mhwood&gt; No, it can't travel with the record.</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;mdiggory&gt; we do need to maintain Item state now in our solr indexes... wish Kevin were still here... we worked on this a bit</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;mhwood&gt; Would indexing really be affected? or would policy only shape what you can see from the index.</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;mdiggory&gt; we are indexing Submission, Workflow, Archived and Withdrawn now...</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;mdiggory&gt; and providing views on each in Discovery... to extend an ability to manage large numbers of items into the Submission and Workflow Administrative UI</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;mdiggory&gt; thus why I said to Sands... don't rely on the solr webapp being able to be made public for json querying etc</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;mdiggory&gt; because we plan to pack it with a great deal more detail about items...</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;mhwood&gt; Yup, *every* interface needs to go through a policy filter.</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-green">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;mhwood&gt; I'm going to have to go.  Interesting discussion!</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-green">* kompewter (~kompewter@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;PeterDietz&gt; sorry to have missed today's meeting, OSU had holiday events. I'll commit DS-1076 as is. Anyone who follows this issue will need to improve upon it.</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-black">&lt;mdiggory&gt; sorry, have to go as well... enjoy</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-navy">* mdiggory (~mdiggory@64.134.233.79) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-black">&lt;PeterDietz&gt; I'll also commit DS-1090 (CC license negative size array) to trunk</span><br />
+<span class="irc-date">[22:13]</span> <span class="irc-navy">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:13]</span> <span class="irc-navy">* kompewter (~kompewter@peterdietz.lib.ohio-state.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:29]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:30]</span> <span class="irc-green">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:33]</span> <span class="irc-navy">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:44]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:50]</span> <span class="irc-green">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:53]</span> <span class="irc-navy">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:10]</span> <span class="irc-green">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[23:29]</span> <span class="irc-navy">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:41]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[23:46]</span> <span class="irc-green">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[23:59]</span> <span class="irc-navy">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) Quit (Read error: Connection reset by peer)</span><br />

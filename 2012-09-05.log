@@ -1,0 +1,345 @@
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-adams.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-adams.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-adams.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-adams.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:40]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[8:38]</span> <span class="irc-green">* Asger (~abr@130.246.254.222) has joined #duraspace</span><br />
+<span class="irc-date">[11:41]</span> <span class="irc-navy">* Asger (~abr@130.246.254.222) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[12:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, as usual, I'm available to chat about DSpace from now until the Developer Mtg.  Feel free to ping me if you have something you'd like help/advice on: <a href="https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours">https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours</a></span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Office Hours - Tim Donohue - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours">https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours</a></span><br />
+<span class="irc-date">[18:34]</span> <span class="irc-green">* bram-atmire (~bram@94-225-98-6.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:38]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;bram-atmire&gt; I just came here for the cake</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;bram-atmire&gt; Happy birthday hardy</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;hpottinger&gt; ty ty</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;hpottinger&gt; the cake is possibly a lie, though, sorry :-)</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;bram-atmire&gt; fair enough, settling for an ASCII cake</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, as usual, DSpace Devel mtg starts at the top of the hour: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-05">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-05</a></span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-09-05 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-05">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-05</a></span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;helix84&gt; happy bday!</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;tdonohue&gt; happy birthday, hardy!</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;hpottinger&gt; bram-atmire: there are a few ASCII cake options, however, I don't want to unleash them on the crowd gathered here...</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;hpottinger&gt; thanks, everyone!</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;mhwood&gt; Happy birthday!</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;hpottinger&gt; aw, shucks, thx</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;hpottinger&gt; I remember my last birthday, we celebrated with a testathon...</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-green">* sarah_molloy (56b4593b@gateway/web/freenode/ip.86.180.89.59) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;bram-atmire&gt; Hi Sarah</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* sands (~sandsfish@18.189.31.239) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;sarah_molloy&gt; Hi Bram</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's that time again.  Our DSpace Developers Mtg is starting now.  Here's today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-05">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-05</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-09-05 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-05">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-05</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;helix84&gt; welcome DCAT! first agenda point: I think DCAT can help very much by testing out open pull requests. Especially now before the Friday deadline more than ever! Anyone who has managed to install DSpace can do it, if you have doubts, just contact me, I'll help.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;sands&gt; Cheers DCAT!</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-green">* vhollister (440e1fe6@gateway/web/freenode/ip.68.14.31.230) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;bram-atmire&gt; @helix Are there any particular ones that can be tested without actually diving into the code?</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* kstamatis (2ebe5a0f@gateway/web/freenode/ip.46.190.90.15) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;helix84&gt; bram-atmire: I really don't think so. Not at this time.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kstamatis&gt; hi everyone</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Today is our first (of many) DCAT + Developers cross-conversation (or whatever we want to call it).  So, the first 15 minutes of today's meeting are devoted to topics/discussions with DCAT folks in attendance</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; (I see we've already gotten started anyhow)</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;helix84&gt; bram-atmire: that is, if by diving into the code you mean installing</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;robint&gt; Hi Kostas</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;helix84&gt; bram-atmire: testing out a pull request is about as easy as installing DSpace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, we'll be having these DCAT + Developers cross-conversations once per month, on the week of the DCAT meeting (as described previously).  I see quite a few DCAT folks in attendance here today...so, I welcome you to bring up topics or ask questions that may be of interest</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-green">* nhoussos (5548dbdc@gateway/web/freenode/ip.85.72.219.220) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;bram-atmire&gt; right</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; I know from talking with vhollister that DCAT in general was looking at ways they can help with the 3.0 Release process as we go forward...so, if developers have suggestions for them, we can also talk about that too (which is what helix84 already brought up)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;bram-atmire&gt; I guess this might be a bit of an unfortunate time to do this very first cross discussion, because everyone's so wrapped up in the feature freeze</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; ok, my previous comments may have been confusing. let me rephrase:  DCAT can help by testing code, which is as easy as installing DSpace</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* bollini (~chatzilla@87.19.199.128) has joined #duraspace</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;bram-atmire&gt; But I think I can speak for all of DCAT if I say that we really want to jump on the bandwagon for the testathon &amp; any documentation work</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; bram-atmire: yea, the feature freeze is a big topic right now, obviously. But, I think it's good to at least get this cross-discussion started with DCAT (even if this week is busy for us with feature freeze)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;bram-atmire&gt; One topic we've been looking at in DCAT is the change in the JIRA Workflow/statusses</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; let me ask this, is there anything in the list of tasks left for 3.0 discussion which is particular interest to DCAT? (list of tasks here: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks)">https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks)</a></span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;bram-atmire&gt; and it would be really great to have the current proposal in place</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; bram-atmire: in regards to JIRA workflow stuff (<a href="https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements).">https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements).</a>  I've admittedly been waiting to do this until a time that it'd be less disruptive.  I've been worried about making such large changes in the midst of a Feature Freeze</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;bram-atmire&gt; @hardy: wow, it looks there's already a lot more on "merged" compared to when we looked at it yesterday</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;bram-atmire&gt; @tdonohue: of course &amp; agree</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; the tasks marked with bold text are not yet merged, which means if they don't get merged by Friday, they won't get into 3.0</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;vhollister&gt; DS-1127 has been our or list for awhile - but we know that Robin has committed the code already.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1127">https://jira.duraspace.org/browse/DS-1127</a> ] - [#DS-1127] Submission improvements: document type-based submission - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;bollini&gt; I could have missed something but I'm waiting for a vote on issues before merging...</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;vhollister&gt; are there any not-yet-merged that DCAT feedback would be helpful?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; vhollister: any of them</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;bram-atmire&gt; Let's say that some of these contributions don't make the merge, how can the folks who contributed this be motivated to continue work or get it in (I'm just unclear on what happens afterwards with these things)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;bram-atmire&gt; Or is that mainly looked at on a case by case basis?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; bram-atmire: they will be scheduled for 4.0, which is due in one year</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;bram-atmire&gt; ok - so no new functional features in the point releases, only bug fixes?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; bram-atmire: exactly</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; that's why you can make a difference by choosing any unmerged feature and test it by Friday</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; in the interim, it's possible to release new features as a module, I believe Discovery started out that way...</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; Correct.  Any new feature code that misses 3.0 will be rescheduled for 4.0 (or contributors can choose to release the code on their own as a separately installed "add-on")</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; of course, even merged features will benefit from testing, even after Friday</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;bram-atmire&gt; ok, maybe after this dev meeting, can you send out a call for reviews for those that nobody has yet volunteered for?</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; bram-atmire: it's any of the unmerged ones, really</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; I believe the release team is working on a "call for reviews" message?  Though, I know that will be part of the agenda later in this meeting</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-brick">* tdonohue notes that we are almost at 15minutes, and the time has gone *quickly*</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;robint&gt; bram-atmire: I note Andrea would welcome any reviewing or comment</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;bram-atmire&gt; Thanks for the time &amp; allowing us to join/intrude your meeting ;) Now that we tested the water hope we can bring more to the table in future meetings</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;robint&gt; on the contributions he has waiting to be merged</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; re: "call for reviews" don't know anything about that, but I prepared the multivote draft</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;sands&gt; tdonohue yes that is drafted.  lots of work by helix was it?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; one more question for DCAT: can anyone who has ever installed DSpace raise their hand?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;sands&gt; yes</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;vhollister&gt; helix84: i think i joined when you were going over this w/bram-atmire, but DCAT will likely need some references/guidance on how/where testing should take place and where feedback should be provided. would this all be via Github? or on the demo we may need to step back a bit and give some guidance to DCAT members on testing. would testing</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;bollini&gt; DCAT could also answers the question about discovery as default</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;bram-atmire&gt; *raises* (in a long distant past in the pre maven era)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;vhollister&gt; sorry, fat fingers -- just trying to clarify where testing is for DCAT -- demo server or Github</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; vhollister: I'll contact you on your mailing list after DevMtg with instructions.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;sands&gt; vhollister, demo now has a feedback feature that will allow issues to be reported directly to JIRA, so for testing that occurs there, that should be a clear path.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;sands&gt; (thanks tddonohue for that)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; DCAT Folks : definitely thanks for dropping by.  I think this will be worthwhile discussion to have on a monthly basis -- though I'd also encourage us all to find ways to also have discussions via email &amp; other tools (as there is so limited time in these meetings)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; and DCAT folks are more than welcome to stick around &amp; take part in the rest of the meeting (obviously)!</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; to clarify what helix84 was saying about testing --  Currently the demo.dspace.org server is still running 1.8.2 (I believe).  So, I think he's talking about downloading &amp; installing pre-3.0 separately from GitHub</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; A clear howto for testing pull requests would be a great thing to have, not just for DCAT members, can you distribute your document more widely than the DCAT list, helix84?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to what hpottinger says!</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; While more testers are always welcome, one thing I feel that we may not have a good grasp of is:  what's important to the Installed Base?  I think that DCAT may be able to help us understand that, so we can prioritize.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; it's not what I had in mind, but yes, I can do that, too.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  Should we move along to 3.0 topics &amp; Feature Freeze specifically?  (Sorry to rush things along, just looking at the time)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: will there be an official server running the master branch during testathon?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;sarah_molloy&gt; Catch you next time folks, thanks for letting us drop in for the first part!</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;sands&gt; tdonohue: sounds good.  was an agenda discussed?  should we track bold items on this:  <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks">https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 3.0 Tasks - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks">https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-navy">* sarah_molloy (56b4593b@gateway/web/freenode/ip.86.180.89.59) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yes, we tend to use demo.dspace.org for the Testathon.  But, someone will need to set up demo.dspace.org with the latest 3.0 code (as stated, it's running 1.8.2 right now)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; sands: No specific agenda.  I'm glad to hand the floor over to you &amp; the Release Team.  Obviously of highest priority is discussing those outstanding tasks &amp; feature freeze</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;sands&gt; I agree, we are tight on time and it would be great to ensure the unmerged items are discussed.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;sands&gt; (time to freeze that is)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; I'd just like to say one thing regarding the "multivote draft" we were talking about last DevMtg. I think it failed because of lack of time before freeze, it just doesn't make sense at this time. What we need now is review each other's pull requests and be bold in merging them. But preparing my draft had one nice side-product - the 3.0 Tasks page (already linked before)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;sands&gt; Let's go through the bold items then, unless someone would like to do otherwise.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;sands&gt; The first we can skip, as it is post-freeze.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; good plan</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds good, sands (though I'll mention we likely could skip bug fixes in the essence of time)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;sands&gt; tdonohue, agreed.  though mdiggory, can we clarify, will you be doing the work for the maven consolidation?  is there a patch for that already?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;sands&gt; <a href="https://jira.duraspace.org/browse/DS-1144">https://jira.duraspace.org/browse/DS-1144</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1144] Maven Project Consolidation - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1144">https://jira.duraspace.org/browse/DS-1144</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1144">https://jira.duraspace.org/browse/DS-1144</a> ] - [#DS-1144] Maven Project Consolidation - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Maven consolidation is here: <a href="https://github.com/DSpace/DSpace/pull/5">https://github.com/DSpace/DSpace/pull/5</a>  (But it cannot be merged as so much has changed since it was created...so some rework will be needed to finish the consolidation)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Request #5: [IN-PROCESS] [DS-1144] Maven Project Consolidation by mdiggory · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/5">https://github.com/DSpace/DSpace/pull/5</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; you can see both Jira taska and pull requests (if they exist) in that table</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: yes... but I can't participate in this dialog right now.... I will followup on the details later... my appologies...</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;sands&gt; no problem mdiggory.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;sands&gt; next on the list for non-bug fixes would be <a href="https://jira.duraspace.org/browse/DS-1226">https://jira.duraspace.org/browse/DS-1226</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1226] Batch import from basic bibliographic formats (Endnote, BibTex, RIS, TSV, CSV) - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1226">https://jira.duraspace.org/browse/DS-1226</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1226">https://jira.duraspace.org/browse/DS-1226</a> ] - [#DS-1226] Batch import from basic bibliographic formats (Endnote, BibTex, RIS, TSV, CSV) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; I've been trying to push this along on behalf ok Kostas</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; seems robin gave it some testing - I think if he doesn't have serious concerns he should just merge</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; 1226 and 1224 are on my list to test, soon, I hope</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; One question...</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;nhoussos&gt; Regarding 1226, thanks Tim for your help on licensing issues - relicensing has been done (BSD New) so I think it is OK now (in terms of license)...</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: re Ds-1224 - we're skipping it for 3.0 because of licensing issues</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;robint&gt; It makes use of Spring but does so directly ie. doesn't use dspace-services</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; nhoussos -- yep, licensing issues look fine with 1226.  Thanks for your work on that as well!</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;robint&gt; Is this an issue ?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;sands&gt; i don't see it as an issue, as i don't believe we are requiring use of dspace-services for contributions at this time.  anyone else have a problem with this?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; robint: I wouldn't think it should be.  Though I haven't had a chance to look at the code.  You could ping mdiggory about it later on...but, I'd be OK with just accepting it and cleaning it up to use dspace-services later if we felt it necessary</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;sands&gt; tdonohue: agreed</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;robint&gt; tdonohue: will do</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;sands&gt; ok robint, sounds like this is on track?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;sands&gt; do we have a merge agreement unless there are any outstanding issues?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; I see a lot of consensus for putting this in and continue testing after merging. No objections?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; I do see we need to resolve the issue around BTE dependency not being in Maven.  But, we could release it under 'org.dspace.' initially if we needed to do so, and clean that up later as well (once EKT has released it to Maven themselves)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; I'm OK with it. no objection</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;sands&gt; +1</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; robint: can you hit the merge button?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;robint&gt; helix84: couple of wee things to tidy first, but yes</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; robint: and assign the issue to yourself</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; thanks. next up is DS-1225</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1225">https://jira.duraspace.org/browse/DS-1225</a> ] - [#DS-1225] Show display values for controlled vocabularies in Item Page - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;sands&gt; Great!  Thanks robint</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kstamatis&gt; Actually, we are in action to import BTE in Maven Central</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kstamatis&gt; Hope we can do it on time</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;robint&gt; kstamatis: I'm sure we will get there, I will email you tomorrow. Thanks</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;sands&gt; kstamatis: if that is on track, i'm sure we can make it work.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; Plenty of time to tidy up such details between Feature Freeze and release, I think.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;sands&gt; helix, skipping <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a> and the others there?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1227] Tag cloud for any browse index in the home page of DSpace - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a> ] - [#DS-1227] Tag cloud for any browse index in the home page of DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; crap, sorry, let's do Ds-1227</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;sands&gt; :)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;sands&gt; i can review the code on this one, but as far as merging if there are no issues, i'm fine with it.  i'm assuming we default to "off" on this one for the release.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;sands&gt; unless someone else has reviewed it already?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;helix84&gt; seems like sands is a taker, may I assign it to you?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;sands&gt; just assigned</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;sands&gt; :)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;bollini&gt; sorry, I'm against DS-1227</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a> ] - [#DS-1227] Tag cloud for any browse index in the home page of DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;nhoussos&gt; Just to let you know that tag cloud has been a feature will very good acceptance among our (EKT) users - many (at least non-technical people) seem to be impressed by this capability</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; bollini: acknowledged. can could you pls voice your concerns in Jira comments and we'll skip it for now, ok?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: is there a reason why you are against it?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;bollini&gt; sorry... I have take the wrong jira issue</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;sands&gt; ah, no problem.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;sands&gt; i'll review it.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;robint&gt; Re DS-1227 - I note the new classes are not in org.dspace packages</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a> ] - [#DS-1227] Tag cloud for any browse index in the home page of DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; Would be interested to hear, offline, what people *do* with tag clouds.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;robint&gt; They are in gr.ekt.utils.*</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;nhoussos&gt; Moving classes to org.dspace. is, of course, not a problem for us - should not be an issue</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;robint&gt; Would they need to be refactored ?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;sands&gt; nhoussos, thanks.  would you update the pull request?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; yes, all classes must be org.dspace   -- so, they'd need refactoring</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; (this is the same for all the EKT pull requests -- I think most/all need refactoring to have org.dspace package)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;helix84&gt; the pull requests come from the EKT repository, so they can just refactor in their respective branches and the pull requests will be updated automatically</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;robint&gt; Other than that its looks fine to me.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;nhoussos&gt; sands - no problem, we will update the pull requests</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; I'm ok with it assuming it comes with some JSPUI documentation</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kstamatis&gt; We will update the packages to org.dspace for DS-1227. Tommorow the pull request will be updates as well!</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; robint: are you interested in taking Ds-1227?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a> ] - [#DS-1227] Tag cloud for any browse index in the home page of DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;robint&gt; I won't have the time unfortunately</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; I think sands already said he'd do Ds-1227?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;sands&gt; yup</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;sands&gt; already assigned</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;sands&gt; Next on the list is <a href="https://jira.duraspace.org/browse/DS-1228">https://jira.duraspace.org/browse/DS-1228</a></span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1228] Concatenate values of multi-value fields in item display - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1228">https://jira.duraspace.org/browse/DS-1228</a></span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1228">https://jira.duraspace.org/browse/DS-1228</a> ] - [#DS-1228] Concatenate values of multi-value fields in item display - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;nhoussos&gt; tdonohue - JSPUI documentation is available for DS-1227</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a> ] - [#DS-1227] Tag cloud for any browse index in the home page of DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;sands&gt; This is JSPUI</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;sands&gt; Any opposition?  Seems straightforward.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;bollini&gt; this was the issue that I'm against</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;bollini&gt; I can comment in jira</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;helix84&gt; yes, in the sake of time, let's move on to issues that don't have opposition</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;bollini&gt; but essentially the problem is that itemtag is already messy and we are putting more and more if statement (DS-1227, DS-1225)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a> ] - [#DS-1227] Tag cloud for any browse index in the home page of DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1225">https://jira.duraspace.org/browse/DS-1225</a> ] - [#DS-1225] Show display values for controlled vocabularies in Item Page - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;bollini&gt; we can refactor the code to use "plugin", I can supply a patch in this way but not in time for the feature freaze</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-navy">* bram-atmire (~bram@94-225-98-6.access.telenet.be) Quit (Quit: need to go, was a pleasure)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;sands&gt; Next:  <a href="https://jira.duraspace.org/browse/DS-1236">https://jira.duraspace.org/browse/DS-1236</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1236] Auto update advance search drop down lists from configuration file - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1236">https://jira.duraspace.org/browse/DS-1236</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1236">https://jira.duraspace.org/browse/DS-1236</a> ] - [#DS-1236] Auto update advance search drop down lists from configuration file - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;bollini&gt; sorry, still referring to DS-1227 instead of DS-1228... go ahead</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1227">https://jira.duraspace.org/browse/DS-1227</a> ] - [#DS-1227] Tag cloud for any browse index in the home page of DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1228">https://jira.duraspace.org/browse/DS-1228</a> ] - [#DS-1228] Concatenate values of multi-value fields in item display - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;sands&gt; This is another JSPUI modification.  Seems pretty cool.  Interested in how performant it is with large sets of values.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;sands&gt; Anyone interested in testing this one?  There has been no discussion on the JIRA ticket.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-brick">* tdonohue notes I'm starting to get worried about the number of new JSPUI-specific configs we are generating in dspace.cfg (in all of these recent issues).  Beginning to point to the need for a jspui.cfg?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kstamatis&gt; sands: it refers only to the search indices drop down lists</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;bollini&gt; we have 3 improvements for the "legacy" JSPUI search (DS-1236, DS-1237 and DS-1238) we need to think about how to test these (or the JSPUI discovery porting)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1236">https://jira.duraspace.org/browse/DS-1236</a> ] - [#DS-1236] Auto update advance search drop down lists from configuration file - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kstamatis&gt; search indices lists are hardcoded to jsp files... need to be automatically updates according to the search indices from dspace.cfg</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1237">https://jira.duraspace.org/browse/DS-1237</a> ] - [#DS-1237] Support date ranges in advance search - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1238">https://jira.duraspace.org/browse/DS-1238</a> ] - [#DS-1238] Display advance search form after an advance search  - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Ah, "too much code in JSPs."  Yes.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;bollini&gt; I can review (and merge) DS-1236</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1236">https://jira.duraspace.org/browse/DS-1236</a> ] - [#DS-1236] Auto update advance search drop down lists from configuration file - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; I'm OK with Ds-1236 if we rename those new configs to be something like "jspui.search.index.display" or "webui.search.index.display", and move them to the section of the dspace.cfg file that is marked "JSPUI Only Configurations"</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; thanks, andrea, I assigned 1236 to you</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; My worry here is that we are starting to put JSPUI-specific configs *all over* the dspace.cfg file....they need to *ONLY* be in the "JSPUI Specific Configurations" section</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: do you think this is an issue we have time adressing in time for 3.0?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kstamatis&gt; tdonohue: no problem,,, I am going to update the pull request</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; Maybe a few words in the wiki on "how to name configuration properties"?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; yep -- it's fixable easily, just noting it's an issue.  Thanks kstamatis</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, probably a good idea, I just don't have time to get to it in near future. But, if someone else does, feel free</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; sorry...we can move on now, if others are OK with Ds-1236</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; next up: DS-1237</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1237">https://jira.duraspace.org/browse/DS-1237</a> ] - [#DS-1237] Support date ranges in advance search - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; no comments from reviewers so far, no assignee</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kstamatis&gt; for ds-1237 you can see a demo here <a href="http://phdtheses.ekt.gr/eadd/advanced-search">http://phdtheses.ekt.gr/eadd/advanced-search</a></span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kompewter&gt; [ National Archive of PhD Theses: Advanced Search ] - <a href="http://phdtheses.ekt.gr/eadd/advanced-search">http://phdtheses.ekt.gr/eadd/advanced-search</a></span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/ds-1237">https://jira.duraspace.org/browse/ds-1237</a> ] - [#DS-1237] Support date ranges in advance search - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; Same comments on Ds-1237 -- configs need to be named differently (prefixed with "webui" or "jspui") and moved to the "JSPUI Specific Configurations" section of dspace.cfg.  Beyond that, I have no objections</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; kstamatis: it's great that there's a demo, I'll mention this to DCAT</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; kstamatis: do yo have a demo for any other features?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kstamatis&gt; helix84: most of our jira tickets have demo url (working in production, however)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;bollini&gt; I can add comments tomorrow (as it is now, -1)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;nhoussos&gt; helix84 - all features are in public production installations of DSpace</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-green">* robint_ (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;bollini&gt; my concerns are related to the jspui-api code - not backward compatible</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; OK, I think it's rather obvious we're not going to get through all of these (unfortunately) -- there's a good 15-20 bolded items left...    How do we want to move forward here?  Are we still "freezing" on Fri?  Do we want to call a vote on email &amp; push back the freeze (and all other dates)?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kstamatis&gt; bollini: add your comments please to the jira issues and we will try to see the problems and, why not, fix them</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;nhoussos&gt; Andrea - many thanks for your feedback, we would welcome more details on JIRA</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;bollini&gt; ok, I will review the DS-1237 and hopefully merge if all issues will be resolved</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1237">https://jira.duraspace.org/browse/DS-1237</a> ] - [#DS-1237] Support date ranges in advance search - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; Email, and do as many as get voted on?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;sands&gt; Is anyone concerned with a particular pull request that has not been discussed yet?  Do we have reason to push the schedule back to provide more room for discussion?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; personally, i'd be glad to see another week for review, since we have so much great new stuff ready, it would be pity to delay it for a yea</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; *yaer</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; *year</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;sands&gt; helix i'd be ok with that personally.  we did get many more submissions in the past couple weeks.  anyone else?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; seems like Andrea is really interested in the EKT issues. Andrea: would another week allow you to address them?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;robint_&gt; sands: As long as you are ok with a delay thats fine by me</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;bollini&gt; Ok, I can take also DS-1238</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1238">https://jira.duraspace.org/browse/DS-1238</a> ] - [#DS-1238] Display advance search form after an advance search  - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; I'm fine with pushing back..BUT, we need to call a public vote (either via Email or by using the JIRA "vote" feature).  Pushing back a week doesn't do any good if we just wait till next week to discuss these tickets again :)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-navy">* vhollister (440e1fe6@gateway/web/freenode/ip.68.14.31.230) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Maybe the thing to freeze is new 3.0 submissions, then let the list dwindle as votes are held.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I have the multivote draft ready, I'll just update it</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood +1 pull request freeze :-)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; mhwood: those have been frozen for almost 2 weeks now</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; Someone said we got more?</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; we already are under 3.0 Submission freeze...that was the "Code Submission Freeze" on Aug 24 <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing</a></span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 3.0 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing</a></span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; my table contains just pull requests we got until the Feature/Code Submission Deadline</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; Anything that has been posted since Aug 24 is automatically "out" for 3.0, unless we want to make an exception for it.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; we did get some after, but they're not in the table and not in consideration for 3.0</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; (Or unless it's a bug fix -- obviously we are still accepting bug-fixes)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; OK, reading that, we need to get votes out and tallied by Friday.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; is everyone fine with finishing voting by Friday?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; yea, votes need to get out &amp; tallied ASAP -- cause even after the votes, we'll still likely need to gather some volunteers to commit the code</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; exactly</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; can we do voting and volunteering concurrently?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: sure</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; I'll update my draft and call the multivote tonight</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; finish voting by say 23:59UTC on Fri. (i.e. end of day Fri)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; yep, I think we can ask for volunteers at the same time...just not sure that we'll end up with all the volunteers we may need (though hopefully we will!)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;sands&gt; helix: thanks for all your work on that page!</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;sands&gt; very helpful.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-brick">* tdonohue NOTE: I'm out-of-office next week -- bad timing, I know.  We have a DuraSpace All Staff Meeting from Sept 10-13.  I'll be on Email occasionally, but will miss next week's Devel Mtg</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; sands: yea, seems very helpful, I'd like to make it autogenerated somehow for 4.0</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; fair warning, RT will come looking for volunteers if there are any blank slots on the tasks list</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-brick">* tdonohue NOTE #2: We need a volunteer to lead next week's mtg :)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-brick">* helix84 points finger at sands</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger +1  Yep, that is to be expected.  Do your thing, RT!</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;sands&gt; NOTE 2: I'm out of the office the 13th and 14th.  (very bad timing, unavoidable, apologies)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;sands&gt; Might be able to make the meeting and lead depending on internet availability</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;robint_&gt; I'm also unavailable next week, sorry</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;helix84&gt; I'll most likely be there so I can be a backup</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, sounds like we need a "backup" for sands then, or an alternate?  Anyone care to lead next weeks meeting?  Obviously it's 3.0 specific</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; ok. cool, thanks helix84 :)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-brick">* hpottinger observes that the only requirement for being on the RT is volunteering, and doing the work... and thus, helix84 should be recognized as a member</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;sands&gt; If possibly, I'd be happy to.  Helix, looks like you're it if I'm not able to get online.  Thank you very much.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; +1 hpottinger.  add helix84 to the list of RT members!</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;robint_&gt; +1</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;sands&gt; +1 if he wants that.  ;)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;robint_&gt; Too late to back out now :)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; want it, not want it, he's doing the job :-)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; thanks. i humbly accept.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-brick">* helix84 rolls up his sleeves</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; If anyone else finds that they have some extra time to volunteer, honestly please speak up now or contact the RT....  They won't try and rope you into the RT though, but I'm sure we can all use the help if you have a few extra cycles</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; (that message also goes the same for folks who may not be committers but are listening in -- you are more than welcome to help in the review / testing / voting process, etc. of these various features.  You will get recognized for your contributions!)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: +1, especially if there's a pull request you feel strongly about... in the old days, people would just pick these things up and commit them... Git seems to have made us more wary...</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;sands&gt; Thanks everyone for all the great work on this!  I have to bow out now.  See you out there on the net!</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-brick">* hpottinger has to go to, bye all!</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-navy">* sands (~sandsfish@18.189.31.239) Quit (Quit: sands)</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; Likewise, I have to leave.  'bye!</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; BTW I'm looking for volunteers to review my simple pull requests -  	DS-1193, DS-1078 - it's not much work, I promise!</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1193">https://jira.duraspace.org/browse/DS-1193</a> ] - [#DS-1193] display bitstream read access permissions on item page - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1078">https://jira.duraspace.org/browse/DS-1078</a> ] - [#DS-1078] Assign users in LDAP group to DSpace group on login - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks all...I think that's the end of the "formal meeting" for today.  Feel free to stick around if you have more to discussion, but also you are more than welcome to head out if need be.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; a minute too late! damn you, I'll just merge them! :D</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;robint_&gt; helix84: drop me an email to remind me and I'll have a look tomorrow, cheers</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;helix84&gt; robint_: thanks a bunch</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;robint_&gt; Time to duck out, cheers all</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-navy">* robint_ (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;nhoussos&gt; Bye all!</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-green">* kstamatis (2ebe5a0f@gateway/web/freenode/ip.46.190.90.15) has left #duraspace</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;bollini&gt; need to leave, bye</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-green">* nhoussos (5548dbdc@gateway/web/freenode/ip.85.72.219.220) has left #duraspace</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-navy">* bollini (~chatzilla@87.19.199.128) Quit (Quit: ChatZilla 0.9.88.2 [Firefox 15.0/20120824154833])</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: which mailing list should I send the multivote to? I'd say -commit, because not everyone might be watching all -devel emails.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; I'd say -devel to be honest. I think this should be more public vote than -commit.  You are welcome to post a brief note to -commit telling people to go vote on -devel.</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

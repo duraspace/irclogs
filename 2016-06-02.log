@@ -1,0 +1,54 @@
+<span class="irc-date">[0:19]</span> <span class="irc-navy">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[2:19]</span> <span class="irc-green">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[2:25]</span> <span class="irc-navy">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[2:44]</span> <span class="irc-navy">* dyelar (~dyelar@31.158.45.66.cm.sunflower.com) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:21]</span> <span class="irc-green">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-navy">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) Quit (Ping timeout: 244 seconds)</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-hitchcock.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:44]</span> <span class="irc-green">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[8:11]</span> <span class="irc-green">* tmmguimaraes (~tmg@193.137.88.100) has joined #duraspace</span><br />
+<span class="irc-date">[8:28]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: bbl)</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: aren't you the person that loves to correct indentation in JSPs? ;-)</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;pbecker&gt; dspace/config/input-forms.xml</span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-black">&lt;pbecker&gt; wow, I wanted to post <a href="https://github.com/DSpace/DSpace/pull/1429">https://github.com/DSpace/DSpace/pull/1429</a></span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-3229: JSPUI: Submission verify step ignores type binding by pnbecker · Pull Request #1429 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1429">https://github.com/DSpace/DSpace/pull/1429</a></span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-black">&lt;mhwood&gt; :-)  Yes.  I have difficulty when trying to read code that has mixed-p</span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-black">&lt;mhwood&gt; Ahem.  mixed-up indentation.</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-black">&lt;pbecker&gt; As the changes seems to be so much I created a separate commit just with indentations and I dedicate this commit to you! :-)</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-brick">* mhwood humbly acknowledges the honor.</span><br />
+<span class="irc-date">[13:11]</span> <span class="irc-black">&lt;pbecker&gt; what IDE/editor are you using?</span><br />
+<span class="irc-date">[13:11]</span> <span class="irc-black">&lt;mhwood&gt; NetBeans</span><br />
+<span class="irc-date">[13:12]</span> <span class="irc-black">&lt;pbecker&gt; ah :-) me too. And is there some nice plugin that shows out spaces at line ends or even correct indentation for you?</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-black">&lt;mhwood&gt; I think that code formatting is part of the JSP support.  But mostly I just fix it by hand with a little help from tab and shift-tab.</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;pbecker&gt; I often overlook spaces right before line endings and saw that you corrected such often. So I thought you maybe have some configuration that explicitly shows you line endings.</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;mhwood&gt; I'm trying to recall how I find that.  I think that 'git diff' shows mixed space/tab and perhaps trailing space.</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;pbecker&gt; will you be at OR16?</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-220-55-31.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;pbecker&gt; will you join the face to face dev meeting on Monday?</span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-black">&lt;pbecker&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-06-13+-+OR16+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-06-13+-+OR16+Meeting</a></span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2016-06-13 - OR16 Meeting - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-06-13+-+OR16+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-06-13+-+OR16+Meeting</a></span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-black">&lt;pbecker&gt; great!</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-navy">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-navy">* tmmguimaraes (~tmg@193.137.88.100) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[17:55]</span> <span class="irc-green">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-navy">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) Quit (Ping timeout: 272 seconds)</span><br />
+<span class="irc-date">[18:13]</span> <span class="irc-green">* dyelar (~dyelar@31.158.45.66.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-green">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-navy">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* dyelar (~dyelar@31.158.45.66.cm.sunflower.com) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-220-55-31.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:58]</span> <span class="irc-green">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[23:59]</span> <span class="irc-navy">* Dylan_ (~Insanity@85.234.195.109.static.edpnet.net) Quit (Remote host closed the connection)</span><br />

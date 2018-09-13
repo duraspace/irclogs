@@ -1,0 +1,178 @@
+<span class="irc-date">[6:37]</span> <span class="irc-brown">-cameron.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-brown">-cameron.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-brown">-cameron.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-cameron.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:18]</span> <span class="irc-green">* cknowles_ (uid98028@gateway/web/irccloud.com/x-jpfcidrujepqpxle) has joined #duraspace</span><br />
+<span class="irc-date">[7:42]</span> <span class="irc-green">* jm_ (57c568d1@gateway/web/freenode/ip.87.197.104.209) has joined #duraspace</span><br />
+<span class="irc-date">[8:53]</span> <span class="irc-green">* cknowles_ is now known as cknowles</span><br />
+<span class="irc-date">[12:29]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:10]</span> <span class="irc-green">* tdonohue (~tdonohue@c-73-45-154-218.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160110.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:4db:caa1:461:a8e5) has joined #duraspace</span><br />
+<span class="irc-date">[19:34]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:4db:caa1:461:a8e5) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for the DSpace DevMtg.  Today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-08</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-07-08 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-08</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; First thing up is 5.3...which we are closing in on. We mostly just need a few good testers for PRs: <a href="https://jira.duraspace.org/browse/DS/fixforversion/12840">https://jira.duraspace.org/browse/DS/fixforversion/12840</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace: 5.3 - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS/fixforversion/12840">https://jira.duraspace.org/browse/DS/fixforversion/12840</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Most of these PRs have at least one +1...they just need another. Over the last few days I've been testing most myself, and added in my own +1s</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; argh, wrong link. Here is the PR list: <a href="https://github.com/DSpace/DSpace/milestones/5.3">https://github.com/DSpace/DSpace/milestones/5.3</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ Issues · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/milestones/5.3">https://github.com/DSpace/DSpace/milestones/5.3</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; we have 7 open PRs ready for 5.3.  The highest priority ones are DSPR#982, DSPR#981 and DSPR#975.  But, others would be good additions too</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/982">https://github.com/DSpace/DSpace/pull/982</a> ] - DS-2593 : Ensure a &amp;quot;tombstone&amp;quot; is left for withdrawn items in OAI-PMH. Fix other minor, obvious OAI bugs. by tdonohue</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/981">https://github.com/DSpace/DSpace/pull/981</a> ] - DS-2602 : Fix Title/Date browsing, also properly escape special characters in Solr by tdonohue</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/975">https://github.com/DSpace/DSpace/pull/975</a> ] - DS-2614: Ignore custom resource policies for unfinished items by pnbecker</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone willing to volunteer to give a secondary review of any of these?  All three of these high priority ones have one Committer +1 already</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; It's easy to test PRs in Vagrant-DSpace, hint hint</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-brick">* kshepherd will test 982 and 981 tonight (work desktop not powerful enough for VMs / vagrant testing etc)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially this is the only thing standing between now and a 5.3 release. These three high priority PRs must get into 5.3.  The others are "nice to have" but not really required.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; No volunteers? Well, do we review these today then in this meeting?  I'd just hate for these three PRs to sit around another week at this point.  Seems like we are almost to 5.3</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue, i'm volunteering to test the priority ones but have to wait for tonight when i'm at home</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;cknowles&gt; I can test 943 (a nice to have) testing 982 my vagrant DSpace had memory issues</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd: sounds good, I'd appreciate it! Tonight is honestly fine...I was just wanting to get reviewers for these this week</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; cknowles: thanks!  Just as a warning, 943 kinda requires 981 (as Title/Date browsing is broken). So, you'd need to test it with 981 in place as well, unfortunately</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;cknowles&gt; I have 981 as tested that one already :)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; just wanted to be sure :) Thanks</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; So, considering we are narrowing in on a 5.3 release, I wonder if we should set some goals here. For instance, it might be nice to schedule a tentative release date (say, Thurs, July 23?) and let the Committers know as well.  Oh, and we'd need someone to cut the release</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; any volunteers to cut the release?  Or any thoughts on a tentative release date? (Does July 23 sound reasonable?)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kshepherd&gt; *tumbleweed*</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kshepherd&gt; (date sounds reasonable ;))</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; Yep, lots of quiet here today :)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. We'll go with a tentative July 23(ish) then.  It'd be nice to get these PRs tested before next week's meeting, if possible. That way we can finalize release plans next week</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; I'm going on vacation for a bit, so I'll be even less dependable than usual :-\</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; Any other bugs folks think we need to fix in 5.3 that I'm missing? If so, let me know</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; I'll be back on Monday July 20, so, if you don't have a conscript lined up by then, you can try your luck asking me, but I'm not volunteering now :-)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; TODO July 20, convince hpottinger to cut the release after returning on a "vacation high"</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; :)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;cknowles&gt; :)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, nothing else on 5.3 I'm hearing, so we'll move along</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; 6.0 Topics.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; is DS-2527's proposed fix (DSPR#941) a "feature" or a "bugfix"?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/941">https://github.com/DSpace/DSpace/pull/941</a> ] - [DS-2527] Disable collection authorisation enumeration optimisation by default by rradillen</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2527">https://jira.duraspace.org/browse/DS-2527</a> ] - [DS-2527] Shibboleth Authentication don&amp;#39;t read collections of special groups - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: to me, that PR seems like a bug fix.  It's turning off a "feature" which has been proven to be quite buggy (as we noticed in our JIRA backlog review prior to this meeting)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Just changing a setting is not a new feature.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; 941 is slated for 6, but, maybe it ought to be in 5.3?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; The PR itself is tiny, and just switches the default value of an existing setting</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; 941 is slated for 5.3: DSPR#941</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/941">https://github.com/DSpace/DSpace/pull/941</a> ] - [DS-2527] Disable collection authorisation enumeration optimisation by default by rradillen</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; well... hmm... (looks at scribbly notes, crosses some out)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; is 941 "ok to merge" now?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like it's tiny/obvious.  I'd give my +1, but I've only looked at the code (haven't tested)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; If someone is willing to give it a quick sanity check, I'd say it's "ok to merge"</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; (I.e. I'd prefer someone test the PR, make sure it does disable the feature by default).. It should looking at the code)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;hpottinger&gt; will do, 941 is immediately applicable in our environment, though I have to say I have not yet seen evidence of DS-2527</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2527">https://jira.duraspace.org/browse/DS-2527</a> ] - [DS-2527] Shibboleth Authentication don&amp;#39;t read collections of special groups - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks hpottinger</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; So, back to 6.0 topics</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; First, I just got word from @mire on a "tentative" date for the DSpace Service API webinar/meeting.  They are suggesting Thurs, July 23 @ 15:00 UTC  (which I now release is the release date I said for 5.3, but oh well)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; Does that Day/Time seem reasonable.  (Sorry, kshepherd, I know it isn't reasonable for you, but I'm working on recording the session)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kshepherd&gt; yeah, that time is about as unreasonable as possible for me ;)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, the next steps are for me to finalize the date with the folks who run our DuraSpace webinars... Then we can send out announcements and get it on everyone's schedules.  So, if anyone is aware of immediate conflicts with that date/time, let me know</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;hpottinger&gt; besides the 5.3 release date, no known conflicts</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; We can switch that 5.3 release date by a day one way or the other.  It's my fault for not realizing that ;)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, that's really the only "new" news I have for 6.0.  We still need folks to volunteer time for the Release Team. We still need to start to gather features together, and also need help in getting Lucene-support refactored out</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-brick">* kshepherd is pretty nervous about trying any dev on master until he knows what will break / needs loads of refactoring / future learning curve re: the Big Service API Changes</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; Any other thoughts, ideas, topics to discuss with regards to 6.0?  I have to admit, it's moving veeery sloooow thus far, and I'm hoping we can get it ramped up soon (perhaps the Service API change will kickstart us)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; so there's a record of it somewhere, I've heard from Ryan Scherle at Dryad that they're willing to contribute the oath login work for 6.0</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kshepherd&gt; oath login - is that where a user makes a solemn promise that they *are* the eperson they claim to be? ;)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: can you add that to the 6.0 Wish list? <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 6.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-brick">* hpottinger scowls at the U key</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; s/oath/oauth/</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; hpottinger meant to say: so there's a record of it somewhere, I've heard from Ryan Scherle at Dryad that they're willing to contribute the oauth login work for 6.0</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; haha. I missed the lack of a "u" there...good catch, kshepherd</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; "oath login" is when you swear at the screen until it lets you in anyway.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;kshepherd&gt; with my recent work on ORCiD, i miiight be able to build off / collaborate with Ryan's OAuth work and do some cool ORCiD OAuth (read profile, populate eperson metadata)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;kshepherd&gt; but that's an idea i had literally 15 seconds ago</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds like an interesting idea though :)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; btw, kshepherd, if there is specific other work you are thinking about (but waiting on Service API stuff for), it might be good to at least add it to the "wish list" as well as possible features for 6.0</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kshepherd&gt; well, i think we already know it - but extending coverage of REST API is going to be pretty necessary for supporting some potential prototypes in 7.0, and would just be a cool thing to do anyway</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kshepherd&gt; that's been my main "thing"</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; wishlist for 6 amended with Oauth plugin</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd: to be honest, that doesn't seem like anything you'd need to wait on.  REST will need some general updates for the Service API (if it is accepted), but that doesn't mean you couldn't still get the extensions built out nowish...and then we just swap out for the necessary new API calls later</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; and I do like that idea...it'd be good to enhance REST</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kshepherd&gt; ok</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; my understanding of the Service API stuff thus far (and I don't have a full understanding yet), is that it will just require swapping out some API calls for new ones in our various webapps.  "Just" is probably the wrong word, as that could be a lot of work for some webapps though</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; so... what is this "service API" of which you speak?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; haha. It's the thing being presented on July 23.  It's kinda Hibernate + the beginnings of a Business Logic layer (in some ways).  I've downloaded KevinVdVs code to play with it some, but I don't know it well enough to fully describe yet (but that's what July 23 webinar is about)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; code is at: <a href="https://github.com/KevinVdV/DSpace/tree/dspace-service-api">https://github.com/KevinVdV/DSpace/tree/dspace-service-api</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ KevinVdV/DSpace at dspace-service-api · GitHub ] - <a href="https://github.com/KevinVdV/DSpace/tree/dspace-service-api">https://github.com/KevinVdV/DSpace/tree/dspace-service-api</a></span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kshepherd&gt; would it make sense to see about a new release of xoai with some fixes/improvements for use with dspace 6?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; It's got a lot of new stuff in there though...I was just starting to browse it myself when I had a free hour or so</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; Good question, kshepherd.  Yep, regarding XOAI, I'd *hope* we'd be ready for fixes/improvements with DSpace 6.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Unfortunately though, the XOAI news is, I haven't heard back from, Joao / Lyncode yet about XOAI. He previously agreed that it'd be good to move to the DSpace GitHub project. But, he's not responded when I asked him to do so.  Hopefully to hear back soon</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; did we ever figure out where/how we'd manage releasing xoai?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yes, it'll be moved to "DSpace/XOAI" (assuming Joao is agreeable to it &amp; responds).  The Committers will then get control and we will release it under "org.dspace" for now.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-brick">* kshepherd gets out his trusty Fork</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kshepherd&gt; ah, open source! :)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; I will keep pestering Joao. If I still don't hear much for a while, we may need to rethink "forking" (though I'd rather not do that)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kshepherd&gt; (i'm sure we'll here back from joao in time, just pointing out we don't really need anyone to move it, right? we can just take a copy and run with it :))</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; The reality of the situation though is that we need more control over XOAI, as it has bugs we cannot fix and they are affecting DSpace's OAI interface, and no one else is fixing them</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd: yes, that's true. We could just fork it now</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; I just didn't want to jump to forking it, if we can just become the maintainers of the main codebase (since no one else is actively maintaining it, and it was created by Joao for DSpace)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kshepherd&gt; the big change of package names etc. makes it feel a little bit like a fork anyway. but engagement with everyone is pretty ideal</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kshepherd&gt; yeah true</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Forking doesn't copy *everything*.  Better to have a hand-over.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; No, I don't recall what isn't copied.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; So, that's the latest on XOAI. I'm hoping to hear back from Joao soon, so we can work on getting some fixes for 6.0 ready.  I'll keep you all posted though</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-green">* aschwer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; Anything else to discuss around 6.0 or possible features?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;aschwer&gt; morning all, sorry I'm late</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; Hi aschwer, are you related to aschweer?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; :)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;cknowles&gt; Hi aschwer</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;aschwer&gt; see I'm clearly not even awake enough to type my own name ;)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; obviously not :)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-green">* aschwer is now known as aschweer</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;aschweer&gt; better? ;)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Much.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; I've gotta run soon</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; So, not hearing anything else around 6.0 for now (But, please if you are interested in helping this release along, let me know!)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kshepherd&gt; i wouldn't even manage to connect to IRC if i didn't already idle 24/7 ;)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; Final topic for today is a small update on the RoadMap work / UI Prototyping.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; Jonathan Markow &amp; I will be starting up a "UI Working Group" (which anyone can attend the first meeting of) sometime in the next week.  First meeting is not yet scheduled, but likely late July.  From that, we'll establish a more formal Working Group (of volunteers) to help us establish the prototyping process and the decision making process, etc</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'll let you all know once we have a date ready.  Jonathan will be sending out an initial email to folks who already expressed interest in taking part soon...and a broader email to mailing lists will be likely in the next week or so</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; As noted (last week as well), I've also started doing a (very rough) brain dump of what the Prototyping process may look like: <a href="https://wiki.duraspace.org/display/DSPACE/Prototyping+a+Future+UI">https://wiki.duraspace.org/display/DSPACE/Prototyping+a+Future+UI</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kompewter&gt; [ Prototyping a Future UI - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Prototyping+a+Future+UI">https://wiki.duraspace.org/display/DSPACE/Prototyping+a+Future+UI</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; That whole process though would be finalized by the Working Group. In the meantime, feedback is welcome</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; I also did list my "experiment" with Spring Boot as a possible DSpace UI (something I've played with for a few days last week) as a possible Prototyping platform</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;cknowles&gt; <a href="https://drive.google.com/open?id=1fyiL5X_YXy6Kpj8u5eb4IG1uwXkOnVVAIPbOsf-MPaE">https://drive.google.com/open?id=1fyiL5X_YXy6Kpj8u5eb4IG1uwXkOnVVAIPbOsf-MPaE</a> the UI document kshepherd and I have been working on</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Functionality Mapping - Google Sheets ] - <a href="https://drive.google.com/open?id=1fyiL5X_YXy6Kpj8u5eb4IG1uwXkOnVVAIPbOsf-MPaE">https://drive.google.com/open?id=1fyiL5X_YXy6Kpj8u5eb4IG1uwXkOnVVAIPbOsf-MPaE</a></span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; That's all the latest updates I have</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;cknowles&gt; Still a work in progress</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kshepherd&gt; yeh, our 'mapping' didn't turn out as clean and easy as we wanted, no real references to specific API calls, etc. yet</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kshepherd&gt; but references to existing REST coverage / gaps, for future planning</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; thanks cknowles &amp; kshepherd! I'll have to dig into this a bit more</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kshepherd&gt; and functional notes</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; It looks pretty detailed already at a glance. Nice.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; Any objections to me finding a place to link this up on the Wiki? Maybe from <a href="https://wiki.duraspace.org/display/DSPACE/Design+-+Single+UI+Project">https://wiki.duraspace.org/display/DSPACE/Design+-+Single+UI+Project</a> as a resource?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;cknowles&gt; Not all columns are complete for all rows etc etc</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Design - Single UI Project - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Design+-+Single+UI+Project">https://wiki.duraspace.org/display/DSPACE/Design+-+Single+UI+Project</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; Yep, I see that. But, it is a good start</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; that's a pretty handy list</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kshepherd&gt; yep link it up</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; ok, will do!</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; Nice.  Thanks.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Got to run.  'bye, all.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; Any other thoughts or questions for today? (realizing we're a bit overtime, and I have to run soon too)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kshepherd&gt; possible that special attention needed for those special classes liek AbstractDSpaceTransformer (JSPUI) and... all that XMLUI stuff</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: do you have 2min in #dspace before you run?</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; sure. I do</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, not hearing anything else here, we'll go ahead and close up today's meeting then.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;cknowles&gt; Bye</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;aschweer&gt; bye all</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has left #duraspace</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160110.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-green">* awoods (~awoods@c-67-174-123-122.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-green">* tdonohue (~tdonohue@c-73-45-154-218.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-green">* awoods_ (~awoods@c-67-174-123-122.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-navy">* awoods (~awoods@c-67-174-123-122.hsd1.co.comcast.net) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-green">* awoods_ is now known as awoods</span><br />
+<span class="irc-date">[23:30]</span> <span class="irc-green">* awoods_ (~awoods@c-67-174-123-122.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[23:33]</span> <span class="irc-navy">* awoods (~awoods@c-67-174-123-122.hsd1.co.comcast.net) Quit (Ping timeout: 256 seconds)</span><br />

@@ -1,0 +1,230 @@
+<span class="irc-date">[2:07]</span> <span class="irc-navy">* ablemann (~alexleman@lemanal.new.xen.prgmr.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[2:07]</span> <span class="irc-navy">* kompewter (~kompewter@sul272sandbox.lib.ohio-state.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[2:08]</span> <span class="irc-green">* kompewter (~kompewter@sul272sandbox.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[2:08]</span> <span class="irc-green">* ablemann (~alexleman@lemanal.new.xen.prgmr.com) has joined #duraspace</span><br />
+<span class="irc-date">[2:16]</span> <span class="irc-navy">* scottatm (~scottatm@voyager108.evans.tamu.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[2:16]</span> <span class="irc-green">* scottatm (~scottatm@voyager108.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-barjavel.freenode.net- [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: <a href="http://freenode.net/faq.shtml#gettinghelp">http://freenode.net/faq.shtml#gettinghelp</a></span><br />
+<span class="irc-date">[12:57]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection timed out)</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:21]</span> <span class="irc-green">* kshepherd (kim@ec2-184-73-177-234.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:32]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder that we have our weekly DSpace Devel Mtg here in about 10 mins. Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08</a></span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-02-08 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;PeterDietz&gt; hi kshepherd</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome.  Today's agenda up at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-02-08 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; we'll kick things off as usual with some JIRA review time. <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-943+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-943+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-943">https://jira.duraspace.org/browse/DS-943</a> ] - [#DS-943] Login cache problem, login does not stick. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-943+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-943+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; starting with DS-943</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-943">https://jira.duraspace.org/browse/DS-943</a> ] - [#DS-943] Login cache problem, login does not stick. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; oh wait...looks the the reporter said this one can be closed now</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; (see last comment)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; so, I guess we might as well move on to DS-944</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-944">https://jira.duraspace.org/browse/DS-944</a> ] - [#DS-944] Authority Control Bug - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mhwood&gt; He "fixed" it by dropping back to Tomcat 6.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;PeterDietz&gt; We rock tomcat5 on production, tomcat6 on development.. no issues on either</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; hmm..ok, anyone try DSpace + Tomcat 7?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;PeterDietz&gt; I think Kevin was looking at java7</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;KevinVdV&gt; Yep</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;KevinVdV&gt; Once I find the time I will take a closer look @ java 7</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; wait, is DS-943 the same as DS-959 then?  The latter of which was fixed in 1.8.0</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;PeterDietz&gt; ...and possibly when java7 is available on osx</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-943">https://jira.duraspace.org/browse/DS-943</a> ] - [#DS-943] Login cache problem, login does not stick. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-959">https://jira.duraspace.org/browse/DS-959</a> ] - [#DS-959] XMLUI login failure when using Tomcat 7.0.16 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; I suspect that Ds-943 can be closed, as it sounds similar to Ds-959.  Any objections?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; hearing none, we should close Ds-943 and link it to Ds-959</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; moving on to DS-944 now</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-944">https://jira.duraspace.org/browse/DS-944</a> ] - [#DS-944] Authority Control Bug - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; hmm..looks like all the screenshot/proof links are broken on this issue.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; anyone familiar enough with the Authority Control work to investigate this?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; (or interested in learning more about the Authority Control feature)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kshepherd&gt; hi all, i'm here today</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-green">* [1]KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; no volunteers for Ds-944?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kshepherd&gt; re DS-943 -- tomcat 7 != java 7</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-943">https://jira.duraspace.org/browse/DS-943</a> ] - [#DS-943] Login cache problem, login does not stick. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kshepherd&gt; and i have no issues on tomcat 7</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kshepherd&gt; so i'll try to reproduce</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; yep, kshepherd, I think Ds-943 is actually related to Ds-959 (latter was fixed in 1.8)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kshepherd&gt; ok</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-green">* [1]KevinVdV is now known as KevinVdV</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kshepherd&gt; i've recently demo'd authority control to some students using chrome.. don't often use IE or Firefox but i'll at least try to reproduce</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; ok, so we have no volunteers to investigate DS-944 then.  I'll just add a comment to issue to see if reporter can attach the screenshots directly to that issue (as links are broken)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-944">https://jira.duraspace.org/browse/DS-944</a> ] - [#DS-944] Authority Control Bug - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kshepherd&gt; seems odd</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- yea, if you can try to reproduce that'd be great.  Just report back to Ds-944 (or claim it if you figure out a fix or find it works perfectly)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kshepherd&gt; np</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; one last one for today: DS-945</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-945">https://jira.duraspace.org/browse/DS-945</a> ] - [#DS-945] Browse by author&amp;#39;s &amp;quot;enter first few letters&amp;quot; sometimes broken - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kshepherd&gt; mm, i tend to agree with Ben here</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kshepherd&gt; that doesn't make much sense</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kshepherd&gt; if you type letters in, it'll jump to a title starting with those letters, and keep scope to current author</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kshepherd&gt; if you *click* a letter, it'll give you a list of authors to choose from starting with that letter</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kshepherd&gt; two completely different behaviours</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; oh, I see. I didn't quite understand at first</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; so, what's the expected behaviour?  I'd assume both should browse to a *title* within this author list?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; or do others disagree?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kshepherd&gt; i think the jspui is more of a pure 'browse authors' behaviour</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kshepherd&gt; let me double check</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; The context is "browse by author", so I would expect typein or click-a-letter to further filter by title.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-green">* hpottinger_ (~hpottinge@128.206.162.198) has joined #duraspace</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood +1 - I agree</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kshepherd&gt; well, we'll need to change jspui then, too</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kshepherd&gt; check how Browse By Title/Subject/AUthor works in JSPUI</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kshepherd&gt; the top-level browse is always for subjects, authors, etc.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kshepherd&gt; 2nd level is scoped *to* that subject or author..</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kshepherd&gt; hmm.. maybe i'm confused ;)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; Anyway, the text widget or the letter-links should do the same thing, whatever that is.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kshepherd&gt; +1</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; on demo.dspace.org JSPUI  both the "Jump to" links and the textbox seem to filter on *title* once you are browsing by a specific author/subject (unless I'm mistaken)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kshepherd&gt; yep</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kshepherd&gt; and they both filter the list of authors/subjects before you select one (or if you go 'back')</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; I would find it surprising to be bounced out of the single-author context that I'd just carefully selected.  OTOH I would expect to find a link or button or whatever to take me back to the author list, and I haven't seen it yet.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; on demo.dspace.org XMLUI only the *textbox* filters appropriately on *title* once you are browsing by a specific author/subject</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd, correct.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; Oh, there it is in the box on the right:  browse by...authors.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; I think the only part that is broken is that the XMLUI "Jump to" links filter by *author or subject* when you are already browsing by a specific author/subject</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kshepherd&gt; so sounds like we all think xmlui should behave like jspui? just make sure the clickylinks keep scope in 2nd level?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; I agree:  like JSPUI.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; +1 kshepherd -- I think JSPUI is acting appropriately.  XMLUI is not</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; any volunteer to dig into this &amp; try to find a fix?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-brick">* kshepherd notes it was reported by a committer... ;)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-945 summary:  Needs a volunteer.  All in attendance agree that JSPUI acts right, and only XMLUI is broken.  Tim will add this discussion as a comment to ticket</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; ok. we'll stop JIRA review there for today, as we have a rather packed agenda :)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; next topic.  Just a quick notice that <a href="https://bamboo.duraspace.org">https://bamboo.duraspace.org</a> (Bamboo) may be unavailable off &amp; on Thurs &amp; Fri. We're working on upgrading to latest &amp; greatest version.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ Dashboard - DuraSpace Bamboo ] - <a href="https://bamboo.duraspace.org">https://bamboo.duraspace.org</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; Next up, I personally would like to propose that we do a 1.8.2 release.  I've run into several minor but annoying bugs in the AIP Backup &amp; Restore feature in both 1.8.0 and 1.8.1.  I'd hate for them to sit waiting until fall to fix</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; specifically, DS-1120 and DS-1108</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1120">https://jira.duraspace.org/browse/DS-1120</a> ] - [#DS-1120] AIP Backup &amp;amp; Restore : SITE AIP has a different checksum everytime when orphaned Collection/Community groups exist - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1108">https://jira.duraspace.org/browse/DS-1108</a> ] - [#DS-1108] AIP Backup &amp;amp; Restore doesn&amp;#39;t restore a Bitstream&amp;#39;s &amp;quot;Sequence ID&amp;quot; - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; there may be other issues we may want to fix in a 1.8.2 release as well (if so, feel free to suggest some, if you know of any)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; in any case, this could be a very small release.  Just wanting to hear others opinions on this?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; While you're in there:  I noticed that exporting AIPs for all objects since yesterday seems to always produce packages for all containers (site, community, collection).  Haven't investigated much yet.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;KevinVdV&gt; I fixed <a href="https://jira.duraspace.org/browse/DS-910">https://jira.duraspace.org/browse/DS-910</a> a while ago</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-910">https://jira.duraspace.org/browse/DS-910</a> ] - [#DS-910] Encoding of discovery facet urls - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-910] Encoding of discovery facet urls - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-910">https://jira.duraspace.org/browse/DS-910</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: that's a known issue. The problem is that there's no way to tell when a container is updated in DSpace (there's no last-updated date)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; 1108 at least seems worth a point release.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; OK, containers are small objects, I'll live with it.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, it's an unfortunate reality. I've tried ways to get around re-generating container AIPs.  but, DSpace is more of the issue here.  So far, I just "live with it" as well</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV -- is Ds-910 fix on Trunk currently?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; or is it already in 1.8.x branch too?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;KevinVdV&gt; Only trunk @ the moment</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;KevinVdV&gt; Since it was unclear if there would be a DSpace 1.8.2</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; ok. yea, it sounds like Ds-910 could also be a candidate to backport to 1.8.x</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;PeterDietz&gt; re:sequenceID.... Does the AIP get the bundle2bitstream.bitstream_order? Because, I think we've switched to using bitstream_order to represent order (instead of sequenceID)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: Just noticed that *exact* issue today. I think that's also a problem in AIPs currently, as sorting by "bitstream_order" essentially sometimes leaves the order as "random" (as most Bitstreams have a bitstream_order=-1, unless specified)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: But, I'm still trying to debug that issue. It's another one that may need to be in a 1.8.2 release</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; AIPs currently have issues with bitstream ordering, as currently default DSpace is configured to use "bitstream_order" field for ordering, but by default "bitstream_order" always is -1  (unless I'm mistaken)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; (or unless I failed to upgrade my DSpace properly -- if so, let me know)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; actually wait -- I now see the upgrade script is supposed to set 'bitstream_order = sequence_id"  Maybe this is a mistake on my end</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; in any case, AIPs have a bug here as well, which needs to be fixed for 1.8.2</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; So, do others generally agree that a 1.8.2 is warranted?  It sounds like we all do?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger_&gt; +1 agree</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;KevinVdV&gt; +1 (plus I might also have another issue not mentioned yet but needs more investigating)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; I'd be fine with "cutting" the 1.8.2 release myself. But, I'm wondering what folks think would be a good timeline?  1.8.2 on Feb 17?  Feb 24?</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; ok. I'll just say 1.8.2 release on Feb 24 -- deadline for bugfixes by end of day Feb 20.  I can post this to dspace-commit &amp; dspace-devel as well, so that others know they can get in bug fixes before then.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; I'll also ping robint on this</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, next topic:  "DSpace Developers Virtual Summit".  Most of you likely already read some about this from my brainstorms to dspace-commit.  More brainstorms on the agenda topic: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08</a></span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-02-08 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-02-08</a></span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Generally, I just wanted to see if others felt this is a good idea, and whether you'd try to attend or not?  Or if you had suggestions on *where* it be held (currently thinking about a Google+ Video Hangout, but that requires Google+)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; I take it that Skype wouldn't serve?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm "+1" to Google+ hangout</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kshepherd&gt; Google+ hangouts have a max capacity, right?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kshepherd&gt; isn't it 10 or so?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; 10</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- for some reason I thought Skype Video Chat required a pay acct?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, G+ hangouts has a limit of 10.  The idea is that this summit would be *every day* for a week.  So, if you couldn't get in one day, you could join the next instead</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-brick">* kshepherd has more of a "radio face" anyway</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kshepherd&gt; (why do we need video?)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kshepherd&gt; but hangouts are cool :)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; we don't need video..just a thought.  we could do just voice (and G+ hangouts also works for just voice)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;PeterDietz&gt; if you have a piece of tape over your camera, or no camera plugged in, then you show up as your icon</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; Dunno, I'm just being stick-in-the-mud -- I finally had to install Skype, used it *once*, and I hate accumulating "kitchen gadgets" that only get used once a year....</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger_&gt; +1 to G+ I'm unsure we'd hit the max, I *can* do skype, but have only used it once</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;KevinVdV&gt; Does anybody know if google+ will work on IPad ?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; essentially, the idea here is to find a way to get a group of us *together* virtually and brainstorm out next steps for Dspace.  Currently the only time we manage to do this is at OR most years.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; not sure, KevinVdV</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; It's a worthwhile experiment.  Now I need to ask the boss for a microphone at least....</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;hpottinger_&gt; mhwood, if you need one in a pinch, most headphones work as microphones, too</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; if Skype ends up being the "lowest common denominator" I'm fine with that as well.  I was more wanting to poll all of you to see if you'd tried G+ and are willing to experiment with a Hangout</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; First time I would have had a reason to use it.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;aschweer&gt; I have skype but I'm happy to try out a G+ Hangout</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;PeterDietz&gt; <a href="http://blogs.adobe.com/penguin.swf/penguin-paparazzi-small.jpg">http://blogs.adobe.com/penguin.swf/penguin-paparazzi-small.jpg</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; We've tried G+ hangouts internally for DuraSpace and they seem to work well. The one limitation I can think of is that sometimes the video is not as good from a Linux OS (unfortunately). But, as mentioned, you can also do just audio</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;PeterDietz&gt; you can say hangouts on linux are bad... I would say skype call's on linux are terrible..</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I've heard that Skype is bad on Linux too</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; (or at least, very outdated)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. I'm going to assume G+ Hangout is fine, unless I hear otherwise :)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietz&gt; so.. hangout it is.. It would be good to get some virtual-face-to-face time.. Because at real-life meetings, I think the first thing we do is start talking about how much we should be talking more.. so video-conf is a good idea.. With kshepherd's face for radio, he'll keep the tape over the camera. ;)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; +1 PeterDietz</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; Also, as a sidenote: I am not going to make OR12 this year (unfortunately, I have a family conflict -- my brother is getting married).  So, this will be the only time I may see many of your "shining faces" this year.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; and, if this idea pans out, we could have several of these "Virtual Summits" each year (e.g. every 3-6 months, as we feel they are needed)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; if it doesn't pan out, then we will never speak of it again (a joke) :)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; Family comes first.  Congratulations to your brother and his bride.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; At this point, I'm leaning towards holding this Virtual Summit the week of Feb 27 - Mar 2, unless anyone is aware of major conflicts (big conferences/events) that week?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; OK, I'm signed up to Google+</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm still looking at our budget and I'm not sure it'll fit in the budget... (the big expense is all the scotch I was planning to buy/consume)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger_&gt; vote on GitHub is 2/29, yes?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; oh, yea. vote on GitHub is 2/29.  Hmmm...</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;hpottinger_&gt; PeterDietz: OR12, budget woes, yes.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-brick">* hpottinger_ crossing his fingers for a July budget miracle.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; I'd say we run GitHub vote virtually, on dspace-devel?  I'm hesitant to do this Summit the week before (Feb 20-24) as I've now just scheduled 1.8.2 for that week :)  I cannot do the Mar 5 week as I have several conflicts</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; Unless we just swap Summit to Feb 20-24 and do 1.8.2 on Mar 2</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; any thoughts/preferences here?  Otherwise I'll just make a decision and send it out to dspace-commit</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger_&gt; may be a good way to hash out any lingering concerns re: GitHub; and it would be nice to have 1.8.2 out the door, instead of tempting ourselves with "one last fix" idea from the summit</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;PeterDietz&gt; github vote can run on the mailing list. I don't think that cutting the release should impact the summit. You can go into busy mode while you're having maven churn for its 20 minute process</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; good thinking hpottinger_</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; So, 1.8.2 will be Feb 24.  Summit will be Feb 27-Mar 2.  GitHub vote will be virtual (but concerns can be brought up in Summit as needed)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; Last topic (more of just an announcement):  DuraSpace will be applying for Google Summer of Code 2012 again.  So, please start brainstorming any GSoC Student project ideas, and start to think about whether you'd be interested in mentoring a project of your choice</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; I'll be updating our GSoC wiki area in the next few days: <a href="https://wiki.duraspace.org/display/GSOC/">https://wiki.duraspace.org/display/GSOC/</a>  I'll make sure to send out a notice once it is ready for folks to start entering in some project ideas, etc</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;kompewter&gt; [ Google Summer of Code (GSOC) - Google Summer of Code - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/GSOC/">https://wiki.duraspace.org/display/GSOC/</a></span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; Any last thoughts from anyone?  (I realize we are running over here, so if you need to head out, feel free)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;PeterDietz&gt; I noticed richard rodgers made another commit to MDS.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;PeterDietz&gt; I forked it, and started going in a different direction. I haven't tried "running" his most recent changes.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; (for any out of the loop, MDS = <a href="https://github.com/richardrodgers/mds">https://github.com/richardrodgers/mds</a> )</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;KevinVdV&gt; Need to run see you all</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- Would you like to know more?)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- so is your direction in conflict with what he started?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;PeterDietz&gt; no, he's got some grander visions, and he's doing good in implementing them. I took more of a "something broke", "lets revert to fix"..</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;PeterDietz&gt; for instance he's changing command launcher to be able to be configurable from the DB.. without having to push new code</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; oh, i see.  Yea, from chatting with richardrodgers, I think he's taking a change things "radically" approach, and fix things later as he goes.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; but, maybe this all means we need to try and bring MDS ideas/visions into a more public area or something?</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; (admittedly, I don't know richardrodgers' larger ideas either -- just have been excited to actually see someone going in and cleaning up those areas that we sometimes haven't touched in a while)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;PeterDietz&gt; I think mds being small makes for an easier playground. It is interesting.. you could rachet up some bigger changes with less overhead.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;PeterDietz&gt; ...or in richards case, get to a working prototype of &lt;insert-new-change&gt;</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;hpottinger_&gt; I wonder if Richard would consider blogging the process (or is he already?)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;PeterDietz&gt; but good meeting. I imagine we'll need to advertise that there will be a developer summit in about 1.5 weeks time</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; you could always ask?  I think he's really currently just logging/detailing everything in MDS in the README on this page: <a href="https://github.com/richardrodgers/mds">https://github.com/richardrodgers/mds</a></span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;kompewter&gt; [ richardrodgers/mds - GitHub ] - <a href="https://github.com/richardrodgers/mds">https://github.com/richardrodgers/mds</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz : yes, I'll be advertising the developer summit.  And it'll be week of Feb 27-Mar 2 (which is 2.5 weeks away)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; also, I will be looking for possible larger topics or questions to "seed" the developer summit discussion with (agendas will be "open" though and we'll talk about whatever attendees want to).</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; So, if anyone has some topics they'd like to see, feel free to send my way (I'll also post this to dspace-commit and folks can respond there)</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;PeterDietz&gt; sidenote: having your DSpace database connected to solid state hard drive makes for wicked fast queries. I usually would never do something like "select * from metadatavalue;" in pgadmin...  because it would take several seconds.. it can finish in less than one second now.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; But it still takes an hour to read it....</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm usually pretty lazy, so I'll use graphical query builder to spit out the "select * ..." portion, and then edit that to do something like where text_value like '% - %'</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-brick">* hpottinger_ can't type "WHERE clause" without thinking "bear claws"</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;PeterDietz&gt; so, not paying the cost of hitting the pretty green play button, even though I don't want the result, is nice</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-green">* HumanSky (~humansky@dynamic-oit-vapornet-d-402.Princeton.EDU) has joined #duraspace</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-brick">* tdonohue is going to head into "lurking" mode now &amp; see what talks are streaming from code4lib</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;kshepherd&gt; just a quick note from me: i don't have any time for dspace devel until after February at the earliest.. just letting you all know</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;tdonohue&gt; thanks for the fyi, kshepherd.</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-navy">* HumanSky (~humansky@dynamic-oit-vapornet-d-402.Princeton.EDU) Quit (Quit: zzZZzzZZzz)</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:32]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[22:35]</span> <span class="irc-green">* hpottinger_ (~hpottinge@128.206.162.198) has left #duraspace</span><br />
+<span class="irc-date">[23:04]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

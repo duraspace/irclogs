@@ -1,0 +1,75 @@
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-verne.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-verne.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-verne.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-verne.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-verne.freenode.net- [freenode-info] why register and identify? your IRC nick is how people know you. <a href="http://freenode.net/faq.shtml#nicksetup">http://freenode.net/faq.shtml#nicksetup</a></span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:7a2b:cbff:feb4:89a9) has joined #duraspace</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:37]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-green">* elschlomo (4e2a62d3@gateway/web/freenode/ip.78.42.98.211) has joined #duraspace</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-green">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) has joined #duraspace</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-green">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-green">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) has joined #duraspace</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://jira.duraspace.org/browse/FCREPO-435">https://jira.duraspace.org/browse/FCREPO-435</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-435] Atomic way of submitting multiple API-M requests - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-435">https://jira.duraspace.org/browse/FCREPO-435</a></span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-green">* cwilper (4a2e4456@gateway/web/freenode/ip.74.46.68.86) has joined #duraspace</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://wiki.duraspace.org/display/FCREPO/2011-10-25+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-10-25+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;kompewter&gt; [ 2011-10-25 - Fedora Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2011-10-25+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-10-25+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan will reluctantly do notes.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;Dan_Davis&gt; Last weeks action item.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;Dan_Davis&gt; Eddies will migration actions to Greenhopper style.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;eddies&gt; (done)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris got Yourkit licenses.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;Dan_Davis&gt; For all committers for stuff related to Fedora (liberally).</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;Dan_Davis&gt; Not everyone update availability.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan talked to Andrew about JMeter/Testing work for Fedora.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;Dan_Davis&gt; Its not a binding commitment recognizing that folks have to ask their bosses.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;Dan_Davis&gt; Or their spouses and children.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;Dan_Davis&gt; Individual status.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;eddies&gt; Update your 3.6.0 Availability! <a href="https://wiki.duraspace.org/display/FCREPO/Fedora+3.6.0+Release+Availability">https://wiki.duraspace.org/display/FCREPO/Fedora+3.6.0+Release+Availability</a></span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora 3.6.0 Release Availability - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/Fedora+3.6.0+Release+Availability">https://wiki.duraspace.org/display/FCREPO/Fedora+3.6.0+Release+Availability</a></span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris not much beyond Wiki.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;Dan_Davis&gt; Jumping to 15 minutes of newly submitted items.</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben passed note that FCREPO-1020 gets his vote.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;Dan_Davis&gt; Possible fix posted.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;Dan_Davis&gt; General agreement to open, and is likely Major.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris, out of cycle, brought up synching to Maven central.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris fixed some requirements but appears they have relaxed them.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;Dan_Davis&gt; Seems there is some leeway in putting third party libraries in POMs.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;Dan_Davis&gt; Post Snapshots to Sonatype.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;Dan_Davis&gt; Fedora artifacts in Maven Central thanks to Greg.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;Dan_Davis&gt; We need to make a decision about each third party library, upload or stop using.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;Dan_Davis&gt; FCREPO-1012</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;Dan_Davis&gt; JMS Client Dependencies.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;Dan_Davis&gt; Discussion of substituting Media shelf messaging client.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;Dan_Davis&gt; Move towards deprecating Fedora messaging and split out Media Shelf messaging client?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;Dan_Davis&gt; Frank, Should check to see you is using before deprecating it.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;Dan_Davis&gt; Action: Rework in description but general deprecation my make sense in favor of MediaShelf client (in Central).</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;Dan_Davis&gt; Eddies starts to talk about 3.6</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://jira.duraspace.org/secure/RapidBoard.jspa?rapidView=10000">https://jira.duraspace.org/secure/RapidBoard.jspa?rapidView=10000</a></span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;kompewter&gt; [ Rapid Board - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/RapidBoard.jspa?rapidView=10000">https://jira.duraspace.org/secure/RapidBoard.jspa?rapidView=10000</a></span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;Dan_Davis&gt; Long debate about Scrum/Agile notification where Dan forgot to take notes.</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;Dan_Davis&gt; But likely 15 minutes reserved per meeting.  Much socialization of process.</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;Dan_Davis&gt; Went over planning board.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; One week Sprints, considering two weeks.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Some sort of RSS via Jira.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-navy">* elschlomo (4e2a62d3@gateway/web/freenode/ip.78.42.98.211) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;cwilper&gt; Action: Any/All - Do an ad-hoc call timing measurement of Fedora in YourKit, just to start getting comfortable how it works.</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-navy">* cwilper (4a2e4456@gateway/web/freenode/ip.74.46.68.86) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-navy">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-green">* eddies (~eddies@194.154.214.238) has joined #duraspace</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-navy">* eddies (~eddies@194.154.214.238) Quit (Changing host)</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-navy">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[18:16]</span> <span class="irc-navy">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[19:41]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:10ab:7a2b:cbff:feb4:89a9) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

@@ -1,0 +1,241 @@
+<span class="irc-date">[0:09]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[0:23]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[0:24]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[0:31]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[2:39]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[3:44]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[3:55]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[3:56]</span> <span class="irc-navy">* krnl_ (Andrius@193.219.34.106) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[4:02]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[5:15]</span> <span class="irc-green">* mdiggory (~mdiggory@72.199.216.7) has joined #duraspace</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-zelazny.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-zelazny.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-zelazny.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-zelazny.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:35]</span> <span class="irc-green">* grahamtriggs (~grahamtri@62.189.56.2) has joined #duraspace</span><br />
+<span class="irc-date">[12:22]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[13:42]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-navy">* mdiggory (~mdiggory@72.199.216.7) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:04]</span> <span class="irc-green">* grahamtriggs_ (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:07]</span> <span class="irc-green">* PeterDietz (~PeterDiet@sul272peter.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:20]</span> <span class="irc-navy">* grahamtriggs_ (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[19:22]</span> <span class="irc-green">* grahamtriggs__ (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:22]</span> <span class="irc-navy">* grahamtriggs__ (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Client Quit)</span><br />
+<span class="irc-date">[19:24]</span> <span class="irc-green">* grahamtriggs_ (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all -- reminder, we have a DSpace Developers meeting here in ~5 minutes. Here's today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-04-20">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-04-20</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C15567.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* richardrodgers (~richardro@18.111.27.200) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Well it's that time again.  DSpace Developers Mtg starts now. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-04-20">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-04-20</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; We'll kick off with our normal JIRA Quick Review.  Here are the issues that still need our review: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-781+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-781+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Today, we'll start with DS-781</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-brick">* tdonohue hmm..no komputer today</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Controlled vocabularies not shown when editing an item : <a href="https://jira.duraspace.org/browse/DS-781">https://jira.duraspace.org/browse/DS-781</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mdiggory&gt; wierd</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; any volunteers to look into this, to see if you can duplicate DS-781? seems odd to me too</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mhwood&gt; Two problems, really.  It shouldn't throw an NPE if it can't open a file.  And the probelm actually reported, to do with weird paths.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;richardrodgers&gt; I assume it's OK in later releases?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mdiggory&gt; is this just jspui?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/dspace/trunk/dspace-jspui/dspace-jspui-webapp/src/main/webapp/controlledvocabulary/vocabulary2html.xsl">http://scm.dspace.org/svn/repo/dspace/trunk/dspace-jspui/dspace-jspui-webapp/src/main/webapp/controlledvocabulary/vocabulary2html.xsl</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; I think so. Component = JSPUI</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; volunteer for DS-781?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;mhwood&gt; I can look into it.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; DS-781 : assign to mhwood for investigation (thanks Mark!)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; Next up..             Add a resumption tokens support to ListIdentifiers verb in OAI-PMH : <a href="https://jira.duraspace.org/browse/DS-787">https://jira.duraspace.org/browse/DS-787</a></span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; another OAI-PMH issue.  any volunteers to test out?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;aschweer&gt; I should have some time today to test it</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; thanks aschweer. If you can report back via a comment, that'd be great.  We can get kshepherd or stuartlewis to commit it, if you all are satisfied</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-green">* grahamtriggs1 (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;aschweer&gt; will do</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; DS-781 : aschweer will investigate and report back on patch</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;stuartlewis&gt; Sure - no problem.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; DSpace 1.7.0 only builds properly for Maven 2.2.0 or above : DS-788</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;stuartlewis&gt; But not, IIRC, 3.0+ ?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;stuartlewis&gt; So currently only 2.2.x?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; Right -- actually that is the case, I think there are some issues with Maven 3 as well</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; 2.2 minimum is documented for the reported version.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; so, currently we are supporting a very minimal range of 2.2.x only</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;stuartlewis&gt; I think I updated the doco recently to mention not 3.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;richardrodgers&gt; I believe this was an issue for some one who wanted a strict Debian dist that hadn't  got there</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Yep: <a href="https://wiki.duraspace.org/display/DSDOC/Installation#Installation-ApacheMaven2.2.x%28Javabuildtool%29">https://wiki.duraspace.org/display/DSDOC/Installation#Installation-ApacheMaven2.2.x%28Javabuildtool%29</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Known issue with Maven 2.0.x and Maven 3.x and DSpace 1.7.0</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;stuartlewis&gt; DSpace 1.7.0 does not build properly when using Maven 2.0.x or Maven 3.x. This is a known issue. The quick fix is to use Maven 2.2.x. More information on this issue can be found in the following JIRA issue: DS-788.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; Yes, currently only 2.2.x</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;stuartlewis&gt; Apple Mac's now default to 3.0 out the box, so support for 3 would be great</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; We need to clean up  a few poms</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; Right. I guess my questions are: (1) Are we all OK with requiring 2.2.x or above.   (2) Is someone working on fixes to Maven 3, so that it will work?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mdiggory&gt; I expect we should do 3.0 for DSpace 1.8.0</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs has captured the requirements already</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; Any volunteers for 3.0 support?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;richardrodgers&gt; I'm OK - with limited resources we should look at 3.0 over 2.0x issues</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mdiggory&gt; some "module" inclusion conventions changed</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; OK.  I recommend we close DS-788, and then create a new issue around Maven 3.0 issues (and find a volunteer to tackle in time for 1.8.0)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mdiggory&gt; we know what the issue is, but the solution is dependent on decisions we make about where and how we will manage dspace modules and the dspace-parent pom</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mdiggory&gt; the problem is that dspace-parent and dspace poms duplicate the includion of dspace-xxxx modules</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mdiggory&gt; and that doesn't work in 3.0</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. makes sense. don't want to dig into this too deeply now.  mdiggory or grahamtriggs would one of you be willing to create a new ticket around 3.0 issues and schedule for 1.8.0?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;grahamtriggs1&gt; as we essentially know what needs to be done for 3.0 (and it does work with a few minor modifications to the poms), I would suggest assigning to Robin (as release co-ordinator), just as it needs someone to ensure that it's followed up for 1.8</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; an interim solution may be  to disable the "all" profile when building dspace.pom</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; and visavi</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; I'm gonna move on, in essence of time. I'll create a ticket placeholder for 3.0 then (if no one else beats me to it) and close DS-788</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;stuartlewis&gt; While we're JIRA-reviewing, do we need to look at DS-875?  New issue affecting 1.7.1, which seems to affect the [dspace]/bin/dspace script quite badly.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; SOLR - Spider detection to match on hostname or useragent : <a href="https://jira.duraspace.org/browse/DS-790">https://jira.duraspace.org/browse/DS-790</a></span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; Its a warning more than an error</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; referring to DS-875</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; 790:  sounds reasonable, needs code.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis -- let's wait till after this part of meeting. we're still playing "catchup" on our large backlog.  We can skip to DS-875 during main discussion</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;stuartlewis&gt; Sure - no problem.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;stuartlewis&gt; mhwood: +1</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood +1 on DS-790</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; DS-790  also why not add the known bingbots to a custom txt file for future releases?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; bingbots = dingbats</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; Probably should, but it's another entry in the Red Queen's Race.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- PeterDietz is suggesting that it's difficult to maintain listing of bots by IP addresses, and rather than filtering on IP, we should be filtering on user-agent. (or at least that's how I read it)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; I think we avoided doing dns lookups for efficiency</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; Filtering on both was once an original requirement</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; # UA "msnbot/1.0 (+<a href="http://search.msn.com/msnbot.htm)"">http://search.msn.com/msnbot.htm)"</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; and they are in the files</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;PeterDietz&gt; hi all, sorry, got distracted</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; right, I know the user-agents are in the files, but does Solr actually filter based on user-agents? or just by IP?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-brick">* mhwood wishes for a standard "I am a bot" header for well-behaved spiders to use.  But, short of that, if they are giving us useful agent strings then we should use them.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;stuartlewis&gt; Just IP at present?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; I think it's *just IP* at present.  But, I'd agree with DS-790, that we should also allow filtering by user-agent string</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; Its mostly just enhancing <a href="http://scm.dspace.org/svn/repo/dspace/trunk//dspace-stats/src/main/java/org/dspace/statistics/util/SpiderDetector.java">http://scm.dspace.org/svn/repo/dspace/trunk//dspace-stats/src/main/java/org/dspace/statistics/util/SpiderDetector.java</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; OK.  DS-790 summary: +3 vote.  Needs code (enhance SpiderDetector) &amp; volunteer</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; +1 for enhancing</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;richardrodgers&gt; Does someone want to have a go at it, is the question</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; We'll stop the "official" JIRA review there for today.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; Put my name on 790.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; But, stuartlewis wanted use to also take a quick look at DS-875.  So, I'd like to glance at that together right now.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-875">https://jira.duraspace.org/browse/DS-875</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; Do we have a field "needs volunteer" that we can put on issues?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; DS-790 - assign to mhwood (thanks Mark!)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- no we do not.  a lack of an "assignee" essentially is equal to "needs volunteer".  When you volunteer for something, you should assign yourself to it</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; but "needs volunteer" != unassigned</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; why doesn't it? I feel "needs volunteer" = "unassigned".  As once something has a volunteer, we assign it to that person</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; well, an unreviewed issue that is rejected does not need an assignee</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; right.  but, if it's rejected, then we close or resolve it. It's no longer in our inbox</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; so, I guess to be more correct:   "needs volunteer" = "unassigned" + "open"</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mdiggory&gt; someone hit me on the side of the head and say stop being so damn picky</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; :)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mdiggory&gt; DS-875?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; OK. back to DS-875, which stuartlewis wanted us to look at briefly: <a href="https://jira.duraspace.org/browse/DS-875">https://jira.duraspace.org/browse/DS-875</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-green">* kompewter (~kompewter@sul272peter.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;stuartlewis&gt; I just wondered if we needed to do anything about it, as it is listed as a Mjor bug against 1.7.1.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;stuartlewis&gt; As Mark says, all it does it prints out stack traces - it still works.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;stuartlewis&gt; But at first glance you see stack traces and gulp.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; so the analysis here is that your not supposed to place files ass classpath entires</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;stuartlewis&gt; And our monitoring scripts get upset.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; unless they are jars</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; and the shell scripts do</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;stuartlewis&gt; What 'files</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;richardrodgers&gt; no resrouces in classpath?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;stuartlewis&gt; What 'files' are you referring to?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; directories, yes, non-jar files... no</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-navy">* kompewter (~kompewter@sul272peter.lib.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; directories of "non-jar files" yes</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;KevinVdV&gt; Ps: just so everybody knows, the printing isn't a major problem the issue is that this way it will never load in config files from jar files when using the dspace script as oposed to the webapp where it will work</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mdiggory&gt; ok, so there is a deeper problem.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; any volunteers to investigate this further?  It sounds like there is an issue here...</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;KevinVdV&gt; Well I looked into it and the thing it is quite easy to fix</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;KevinVdV&gt; Only put jars in the classpath and everything will work properly</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mdiggory&gt; KevinVdV: do you know how the bin/dspace script gets into the CLASSPATH above?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV would you be willing to post a patch or the fix then?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;stuartlewis&gt; Do we need to consider how this happened, and see if we can learn from that.  A brief look at the commit logs suggest it was introduced from a change in dspace-services module, which presumably is in trunk development whilst we were in branch.  Do we need to consider branching modules too?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;KevinVdV&gt; I am willing to post a patch</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; stuartlewis: we try to limit branching in favor of new version releases</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;KevinVdV&gt; The thing is at the moment the classpaths given are the following:</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;KevinVdV&gt; FULLPATH=$CLASSPATH:$JARS:$DSPACEDIR/config</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;KevinVdV&gt; Leave out the $CLASSPATH (== {dspace.dir}/bin/dspace) and it will work</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; t.b.h. I don't think that this dspace script belongs in the classpath</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;stuartlewis&gt; mdiggory: But would it be better to branch, so that we're all on branches and fixing bugs, rather than mixing 1.7.1 branch and services trunk with new features?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; stuartlewis: I get what your saying... the strategy I recommned then is that dspace trunk be on dspace-services-SNAPSHOT</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;stuartlewis&gt; Or can we do as some have suggested and bring services into main trunk, at least for a little while whilst we all get comfortable with it?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis &amp; mdiggory -- I suggest leaving discussions around 'branching' of dspace-services for larger discussion of *what belongs in Trunk* / Asynch release processes (as whatever you decide now may or may not be affected by that much larger discussion)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; I hope that by the time we resolve the async / modularity issues... there will be less need to adjust branches.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;richardrodgers&gt; but the issue is the branch (presumably stable), not trunk, yes?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mdiggory&gt; stuartlewis I am very very very against that</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; because the goal is currently the opposite, to work on eliminating the need to merge all code into one svn project</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; poicies about upgrading versioins of modules in branches would be more appropriate</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; Maybe we have a "special topics meeting" sometime in next 2 weeks on Asych Release Processes / What belongs in Trunk?  This seems like something we need to come to an agreement on soon.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue++</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;stuartlewis&gt; Yeah - either way, but I guess my main thought is that does this issue need to make us consider how we manage the interplay of releases a bit more, so that a 1.x.y release is really only bug fixes, and no new untested features creep in from module trunks?  But yes, can be discussed another week.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; so the enhancements that happened in the branch / dspace-services were to provide backward compatable parity with the ConfigurationManager.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; which was basically a bugfix</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; I'd prefer scheduling that Special Topics Mtg for May 4.  Unfortunately, I may not be available for next weeks' mtg, and I really would want to be a part of that Special Topic Mtg</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;richardrodgers&gt; but even bug fixes can destabilize..</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; TBH we should be using something like classworlds in the CLI</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; So, if others are OK with May 4, then I'll schedule this bigger discussion for then</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;stuartlewis&gt; OK :)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; richardrodgers: no-doubt it will occasionally happen</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: go for it</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; OK. May 4 = Special Topics Meeting on Async Releases + What belongs in Trunk</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Anything else to say about DS-875?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; Patch would be appreciated.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; So, for clarification</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;richardrodgers&gt; I guess we probably think it does *not* warrant a 1.7.2, right?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;KevinVdV&gt; Just give a me a second &amp; I will have a patch :)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; It sounds like the only problem is ugly stuff in the logs.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; DS-875 does not cause a problem unless you are loading dspace modules cfg's out of the addon jars</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;stuartlewis&gt; Nope - ugly stuff whenever you run [dspace]/bin/dspace foobar</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; it seems like it'd be fine to schedule for 1.8.0?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; oh really?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; (stuartlewis, are you saying we need a 1.7.2 then?)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: I think that is fine, I would attach it to 1.7.x though I doubt we will be doing a 17.2 release</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-brick">* kshepherd predicts many dspace-tech emails</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mdiggory&gt; it would be good to get in there if there was a chance that it did happen</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;stuartlewis&gt; Dunno - that was why I raised it.  I wonder if we do?  However, not seen many reports about it yet on dspace-tech, so maybe wait and see for a while?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; the correction is to remove "$CLASSPATH:" from the bin/dspace script</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; OK, I suggest we tentatively schedule for 1.8.0 then.  Push forward to a 1.7.2 only if we end up with a stream of complaints, etc.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;KevinVdV&gt; Attached a patch to the JIRA</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; KevinVdV:  thanks!</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;KevinVdV&gt; Well about the complaints is just a display bug, it has no effect on the execution</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I don't think this alone warrants a point release.  It's easy enough to just edit the wrapper if you have problems.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;PeterDietz&gt; patch is fine for now, you're always free to patch (or cherry-pick) your system. A release should have something more I think</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; DS-875 summary: KevinVdV posted a patch.  Needs broader review.  Schedule to fix tentatively for 1.8.0, but may require a 1.7.2 if we find many are significantly inconvenienced</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; More robust classloading would utilize the following</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://classworlds.codehaus.org/launchusage.html">http://classworlds.codehaus.org/launchusage.html</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes for scripts that provide output, but for some (e.g. itemcounter) with no output, all we saw was a stacktrace, and assumed that it hadn't worked.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mdiggory&gt; do we have anything else warranting a 1.7.2 release yet?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; not as far as I know...this is the first thing that has come up</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;stuartlewis&gt; KevinVdV: Thanks for the patch. Do we also need to patch dspace.bat in the same way?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;PeterDietz&gt; caching is annoying in 1.7.x (I've changed us to noncaching)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;KevinVdV&gt; T.b.h. haven't tested dspace.bat</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;KevinVdV&gt; Can do that tomorrow don't have a windows pc operational at the moment</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- did you post a patch for that XMLUI caching / non-caching to JIRA?  (If so, i must have missed it)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;aschweer&gt; <a href="https://jira.duraspace.org/browse/DS-866">https://jira.duraspace.org/browse/DS-866</a> is annoying for 'my' repositories</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mdiggory&gt; I'm running out of time today.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;richardrodgers&gt; quick GSOC update before we close?</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;PeterDietz&gt; <a href="https://jira.duraspace.org/browse/DS-871">https://jira.duraspace.org/browse/DS-871</a> XMLUI caches community / collection page which doesn't show a recently submitted item immediately</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; we need to be careful, cannot comment about students in the public channel</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;stuartlewis&gt; GSoC sounds like a great story - it had us all passionately involved, and ended happily ever after with the outcomes we wanted :)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; sure.  GSoC Update.  We got that extra slot we wanted.  So, we'll have 4 projects (cannot comment on them specifically right now, as they will only be public on Monday)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;richardrodgers&gt; agreed, just want to know where we are in the process</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; DS-871 I think we may take this one</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-brick">* stuartlewis gotta run - off to a meeting to discuss DSpace &amp; Vivo + other fun stuff.  Thanks, bye.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietz&gt; mdiggory: I'm working on defaulting all to non-caching, then building browseArtifacts and browseArtifactsCached (ditto for viewArtifacts, searchArtifacts), where one does many things using the default non-caching, and the cached is for heavier things that can be cached</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; there are some general caching improvements that need to happen to the XMLUI including Larrys recent additions to the stiemap and general cocoon validity analysis</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; Feel free to claim DS-871 then, mdiggory.  Unless PeterDietz wants to claim it and post his "fix" of switching to non-caching</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. Any other questions / comments on GSoC?  As I mentioned via email, DuraSpace is open to feedback around the GSoC project selection process this year.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;PeterDietz&gt; I don't know how to have two pipelines in the same sitemap pipelines - (pipeline type-"caching" ....), (pipeline type="noncaching" .....) /pipelines, so that it accumulates both, so I'm splitting off to multiple aspects for each aspect, a cached and non-cached. mostly just barely working prototype thus far</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; This was the first time DuraSpace (as a whole, with all three technologies involved) took a lead on that, so I'm sure there's more we can "smooth out" in the future.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: all good ideas, need to run, lets convers in the task</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;PeterDietz&gt; ok, later</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;richardrodgers&gt; gotta run, bye all</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* richardrodgers (~richardro@18.111.27.200) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; I must go too.  Thanks all!</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. sounds like folks need to head out...discussion is waning :)   We'll close the meeting then</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; Have a good rest of the week all!</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C15567.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: heading to work)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-green">* grahamtriggs1 (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has left #duraspace</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-navy">* grahamtriggs_ (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:49]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[23:58]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />

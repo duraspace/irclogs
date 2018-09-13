@@ -1,0 +1,326 @@
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-niven.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-niven.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-niven.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-niven.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:59]</span> <span class="irc-navy">* elschlomo_ (4e2a62d3@gateway/web/freenode/ip.78.42.98.211) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[12:58]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:7a2b:cbff:feb4:89a9) has joined #duraspace</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:01]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:10ab:7a2b:cbff:feb4:89a9) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[14:03]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:7a2b:cbff:feb4:89a9) has joined #duraspace</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:10ab:7a2b:cbff:feb4:89a9) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:19]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (Read error: Operation timed out)</span><br />
+<span class="irc-date">[18:26]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[18:26]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (Max SendQ exceeded)</span><br />
+<span class="irc-date">[18:28]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[18:28]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (Max SendQ exceeded)</span><br />
+<span class="irc-date">[18:29]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[18:29]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (Max SendQ exceeded)</span><br />
+<span class="irc-date">[18:30]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[18:30]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (Max SendQ exceeded)</span><br />
+<span class="irc-date">[18:32]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[18:32]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (Max SendQ exceeded)</span><br />
+<span class="irc-date">[18:32]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[18:33]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (Max SendQ exceeded)</span><br />
+<span class="irc-date">[18:34]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[18:34]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (Max SendQ exceeded)</span><br />
+<span class="irc-date">[18:35]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[19:35]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder that at the top of the hour the DSpace Developers Mtg starts here. (Yes, it's an hour earlier now in USA/Canada after DST ended). <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-09</a></span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-green">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; welcome all, it's time for the weekly DSpace Developers Mtg.  Today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-09</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; we'll start things off by returning to our JIRA Quick Reviews for the first 10-15mins.  Here's our list of to-be-reviewed items: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-886+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-886+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kshepherd&gt; morning *</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; hmm...is kompewter on vacation today, PeterDietz? :)</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;PeterDietz&gt; lemme kick it.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; cool, thanks! (it's just so very useful for these Jira reviews)</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* kompewter (~kompewter@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; well, first up on our JIRA quick review, DS-886</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-886">https://jira.duraspace.org/browse/DS-886</a> ] - [#DS-886] DSpaceControlledVocabulary always returns an emtpy list - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kshepherd&gt; i havne't tested the controlledvocab authority plugin since i first committed it (note: i didn't write it, but i did test and commit it)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; looks like this one already has a patch -- anyone want to volunteer to review it &amp; report back?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kshepherd&gt; yep</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kshepherd&gt; i'll assign to me now</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; cool, sounds great, kshepherd!  thanks.  Ds-886 should be assigned to kshepherd</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-887</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-887">https://jira.duraspace.org/browse/DS-887</a> ] - [#DS-887] Move DSpace &amp;quot;Library&amp;quot; Dependencies to new module. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; oh, this looks like an mdiggory "placeholder"...we'll skip it for now (as he's not here)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-888</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-888">https://jira.duraspace.org/browse/DS-888</a> ] - [#DS-888] file description at UploadStep - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;PeterDietz&gt; hmm, is this a bug? There's no description</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kshepherd&gt; i think "fileDescription will never fill with the request parameter description" is hte symptom</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I think that's the full description, as kshepherd says.  Looks like this could use a quick investigation. Any volunteer?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kshepherd&gt; and the code looks bad</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; Sure enough, if we got nothing, it fetches a different parameter and drops the result in the garbage.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kshepherd&gt; request.getParameter() returns a value</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kshepherd&gt; yeah, like mhwood said, that value gets dropped in the garbage ;)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kshepherd&gt; needs to be assigned to fileDescription!</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kshepherd&gt; looks simple enough</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; yep, anyone want to claim and fix then?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; I can take that one.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood!  Ds-888 claimed by mhwood</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; (Oh, sidenote -- remember, bug fixes should now be applied to both Trunk &amp; the 1.8.x branch -- just in case we decide to do a 1.8.1)</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-889</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-889">https://jira.duraspace.org/browse/DS-889</a> ] - [#DS-889] file upload via url. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kshepherd&gt; interesting</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-green">* hpottinger (80cea2c6@gateway/web/freenode/ip.128.206.162.198) has joined #duraspace</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; We need to look at a long list of dependency versions anyway.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kshepherd&gt; yeh..</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; this is definitely a 'new feature'.  Do folks think this would be interesting to add (in post-18.x)?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kshepherd&gt; it'd get a +1 from me, but would we want an extra "confirm" step so the user doesn't blindly assume that the get-by-http returned the right bitstream?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;PeterDietz&gt; I don't have a direct use-case in mind for the upload-from-url, but I do like the idea of it.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; that sounds logical, kshepherd (I admit, I haven't looked at the implementation here yet -- so it surely could use eyes)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kshepherd&gt;  seems like picking a file from your local disk and uploading it is an action where you can feel safe you've got "the right file"</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;PeterDietz&gt; i.e. if you entered entered a pre-metadata such as entering a pubmedID, and then it figures out how to fetch the object from there</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kshepherd&gt; whereas pasting a URL in a box... a little more abstract, might get the wrong thing uploaded in your name</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kshepherd&gt; PeterDietz: yes, that'd be extra-nice too</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; I'd be +1 this idea as well. any volunteer to look at the code, etc?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kshepherd&gt; *crickets*</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;PeterDietz&gt; I think I'm interested in this upload via url code. So I'll look in to it</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; cool. thanks.  PeterDietz will claim Ds-889 and investigate.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;PeterDietz&gt; I'd probably want some feedback from some UI type of people to say when we should present uploadURL, and how to enable/disable</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; yep, makes sense PeterDietz.  I'm sure we'd all be willing to help test things, etc. if you can get the ball rolling</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; ok, we'll stop JIRA review there for today, as we are now ~15mins into the meeting.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; Next up is just a big congrats to us all on 1.8.0!  (I see robint isn't here right now, but he deserves major kudos!)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kshepherd&gt; robint++</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; What he said.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;PeterDietz&gt; robint++, I wonder if he's taken vacation from all his hard work.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; yea, it looks like 1.8 has been quite popular so far.  we've been averaging around 150 downloads per day from SourceForge since the announcement on Monday.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; It'll be interesting to hear once the first institution has upgraded to 1.8</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kshepherd&gt; we (auckland) will be doing so very shortly</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kshepherd&gt; we tend to upgrade early :)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; cool. let us know. I know DuraSpace always likes to announce who is (seemingly) "first" ;)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; we have a stated target of December, but I'm shooting for earlier</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;PeterDietz&gt; also I have a thanks/shout-out to kshepherd for testing solr bundleNames, and for Kevin Van de Velde for lots of work building that feature. I was impressed by his quick iterations</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; I've begun pulling together an upgrade here but I'm not sure when it will be ready.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; ok, guess we'll move along here...you'll notice I've changed the format of our Agenda slightly (at least you may have noticed). <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-09</a></span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-11-09 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-09</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; There's a new section for "Individual Status Updates".  If you have *anything* you'd like to report to us all prior to a meeting, please feel free to edit this section &amp; add it in.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; I've restructured this slightly to match how we now run our DuraSpace internal meetings -- we try to avoid too much "status updates" which can be reported more easily offline, and leave more meeting time for discussion &amp; Q&amp;A, etc.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; newFormat++</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;PeterDietz&gt; one thing I learned from DLF 2011 Fall Forum in Baltimore was that lots of people "have been meaning to do TDD Test Driven Development but ...".. So they (Stanford Library Web Team) recommended just requiring Tests along with all new code.. and sure enough, all of your code will eventually be nice and tested</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; so, this isn't a drastic change for us, but hopefully it will make our meetings more "productive".  If anyone has other ideas they'd like to try out, please feel free to suggest them (either now or later on offline)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- is this a separate topic here? Are you suggesting we push for TDD in our patches?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood has been trailblazing that a bit, I think</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; aha. ok</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Next thing to just mention -- I've started a new "Discussion List" page of topics we really just need to tackle.  Please add to this.  Currently it's just what I can "remember" and my memory may have overlooked something: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Developers+Discussion+List">https://wiki.duraspace.org/display/DSPACE/DSpace+Developers+Discussion+List</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Developers Discussion List - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Developers+Discussion+List">https://wiki.duraspace.org/display/DSPACE/DSpace+Developers+Discussion+List</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Trying to.  I need to get back to porting the test framework out of dspace-api so that it can be used throughout.  Then I can go back to several JIRAs that stalled awaiting test classes that can work....</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to that work mhwood. It's much needed, thanks</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: this is an area I'd be interested in helping with, not sure where I'd fit in, but just holler if you need eyes on something</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; Thanks, will remember that.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; Last topic I have on the agenda. It's a big question, and we are a smallish group today, but I'd still like to discuss/brainstorm it out.  "What do we want to call the next version of DSpace?"</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; For those who were at the OR11 Developers Meeting, we came up with several brainstorms -- calling it "3.0", "2012", "12" (short year), or even "9" (drop the "1." in 1.9).  Just curious if anyone has thoughts here</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; 3.0.0 if it has breaking architectural changes.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kshepherd&gt; on this topic, has anyone noticed the backlash against firefox's new versioning/release strategy?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; Besides my own backlash? :-)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kshepherd&gt; i'm seeing a lot of people complain about the constant major version jumps... possibly because FF releases so often, and because we were used to seeing X.y.z for so long</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; I like 3.0, gets the job done, leaps past all the 2.0 baggage</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I've heard that too -- but I always attributed it to the rapid release cycle + major version jumps combined</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kshepherd&gt; we don't release every month or two so i don't think we are at quite the same risk, but it was interesting for me to see these reactions</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kshepherd&gt; (since we'd discussed their potential at OR11..)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; Eh, FF 7.0.1 -&gt; 8.0.0 looks unchanged, but I've been trained to expect it to mean things like "major rearrangement of the UI" and "your third-party plugins  WILL break".</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kshepherd&gt; yeh, FF seems pretty loosey-goosey with their major version jumps</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; personally, my current thoughts for DSpace are to think about a *new major release each year* strategy.  So, in 2012, we'd do a "3.0" (possible bug fix releases 3.1, 3.2, etc), 2013 would bring 4.0, etc etc.  But, I'm curious if others think this is a good idea or not.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kshepherd&gt; and that was one of the topics we discussed at OR11, right? whether we can just go to 3.0 without actually making the huge architectural changes people expect in a major version jump</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;PeterDietz&gt; for dspace name, I'd prefer sticking with 1.X and more or less ignore that there is a 1 at the front. Thus in my head, the next three versions are 9, 10, 11</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;kshepherd&gt; but i think we got over that in a one-off dose of pragmatism</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;stuartlewis&gt; If we go for 3, would people expect something big?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; yes, it was kshepherd.  My view is we go to 3.0 no matter what (doesn't require major architectural changes, but it does free us up to make major changes if we want to)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; Well, maybe it's time to bite the bullet and pull in some of those major changes.  There are certainly enough proposals written up.  And many of those are now sized about right.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;aschweer&gt; I think "my" librarians just care about "there's been a new DSpace release", I don't think they mind what the version number is</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; anybody sitting on something big that would warrant a major version jump? :-)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: yeah i'm +1 on that too</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: just rehashing for everyone's benefit ;)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; End users don't care but developers expect versions to mean something.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;PeterDietz&gt; bitstream level metadata would be big enough in my head, bitstream versioning, bitstream relationships</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-green">* robint (522925f2@gateway/web/freenode/ip.82.41.37.242) has joined #duraspace</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis -- could be.  My point is that we are stagnating at "1.x.x" cause we seem to be scared of major changes. I wonder if we moved to a "we will do a major version each year" model, if that frees us up more to make major changes each year.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;robint&gt; Hi all, apologies for being late</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kshepherd&gt; i think it was Jonathan (Markow) who reminded us that we as programmers might be attaching too much significance to the numbers</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; hi robint -- we are discussing "what do we call the next version of DSpace"</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kshepherd&gt; that it's ok to go to 3.0 without a good reason</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; I think we've been clearing off the workbench for those major changes.  Have we done enough now to make one or two big breaks?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- yes, you have a good memory. that's what I recall as well</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; kshepherd: my notes agree with your recollection</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;PeterDietz&gt; Linus Torvalds said whats the point of being dictator if I can't even choose which color to paint the bike shed. (when he jumped linux kernel to 3.x, with no major new feature)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kshepherd&gt; and richard jones made the good "bike shed" argument as to why we were supposed to stop talking about version numbers and get back to dspace dev ;)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kshepherd&gt; PeterDietz: heh, exactly</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; OTOH if we're going to do a major release then let it be a *major release*.  There are breaking changes we've been wanting to do (sort of) for some time but haven't done.  Pick one?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;aschweer&gt; we could just go to year-based -- no confusion around major changes or not...</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Slaying DCValue alone might be worth a major release.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood++</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; Heh, we might be entering a period of frequent major releases because we have that many things we've been needing to break.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; so, do we want to do a quick poll here.  Where do we all stand here?  Do we stay at 1.x.x until a major change happens?  Do we just say we are going to 3.0 no matter what (and hope a major change or two happens)?  Something else?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;stuartlewis&gt; 3.0 +1</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kshepherd&gt; i'm +1 on 3.0 no matter what, but i'm also fine if that happens to be a major release (dcvalue, etc)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;aschweer&gt; 3.0 +1</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;aschweer&gt; and kshepherd +1</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; 3.0, would prefer that it earn the label but we need to move on in any case.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; 3.0 +1 - I'm in agreement with kshepherd</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; 3.0 +1, kshepherd +1, mhwood +1</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;stuartlewis&gt; *properly* deprecating DCValue would be enough to warrant a 3.0 in my eyes.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;PeterDietz&gt; +0 I'm fine with either way, no personal preference</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;stuartlewis&gt; s/deprecating/removing</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;kompewter&gt; stuartlewis meant to say: *properly* removing DCValue would be enough to warrant a 3.0 in my eyes.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; +1 stuartlewis</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kshepherd&gt; it's been a long time coming ;)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kshepherd&gt; and will probably break plugins, curation tasks, addons, etc</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kshepherd&gt; which makes it "major" imho</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; agreed</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; And if done the right way, should move us along the architectural path on which most seem to generally agree.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; I think if we made any decisions ways to more easily install third-party plugins (whether that goes towards the 'async releases' concept or not), that could also warrant a 3.0 as it'd be a significant change as well -- this is something I'm quite interested in.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; ugh -- I worded that oddly, but hopefully you get the idea ;)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; So one of those is v3 and the other v4, perhaps.  Now we just need to schedule 'em.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; yep.  In my mind, I'd like to just say:  We will do 3.0 in 2012 (likely again Oct 2012? or sometime in fall/winter).  4.0 would be in 2013 (one year after 3.0)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue +1</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;aschweer&gt; (sorry, I need to run off to another meeting -- bye all)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue +1</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; Well, I meant "schedule big change X for 3.0 and big change Y for 4.0".</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I agree with that too mhwood :)  Just pointing out that first we may want to know approx when 3.0 and 4.0 will appear.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; A year to accomplish massive breakage and recover seems reasonable.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; I'd likely vote for DCValue changes for 3.0.   Better Third party-plugin support may be more like 4.0 (unless we find it's easy to fit in quickly into 3.0)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;PeterDietz&gt; 3.1.0 is also allowed to add new features, but 3.1.1 is not?</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; That schedule, combined with our current general release scheduling, means one minor release between major releases.  Okay?</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; PeterDietz:  that's traditional and what I would hope to see.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- I'm actually implying that we move away from 'a.b.c' versioning, and instead just do 'a.b'.  So, it would be *3.0* and not 3.0.0.  And bug fix releases would be 3.1, 3.2 (rather than 3.0.1 and 3.0.2)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; but, that's just my personal opinion. if others disagree, I'm ok with 3.0.0</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; I just think that a versioning sequence of *major.minor* is easier than *major.minor.subminor*  -- the latter is what got us into trouble in the past as nothing ever seemed "major" enough</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; what do others think here?  major.minor (e.g. 3.0) or major.minor.subminor (3.0.0)?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kshepherd&gt; i like x.y</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;robint&gt; me too</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kshepherd&gt; don't see a need for .z</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;robint&gt; It reflects evolutionary approach to development, we don't do total rewrites</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;kshepherd&gt; as tdonohue says, we really only use two of those numbers anyway</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mhwood&gt; Not I, but in the interest of getting out of the bike shed I'm trying to let go.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; I'm +0 on minor vs minor.subminor</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Just as long as it's something numeric that Maven can cope with.  If we want to call the next one Jovial Jaguar we'd have to have a number anyway.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; so, it sounds like we have a few +1 and a few +0 (if I understood mhwood).  I'm +1 going to major.minor, as I feel it allows us to make more rapid changes between versions (obviously we'll still need to build upgrade/migration paths though).</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Yes, +0</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-green">* robint_ (522925f2@gateway/web/freenode/ip.82.41.37.242) has joined #duraspace</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-navy">* robint (522925f2@gateway/web/freenode/ip.82.41.37.242) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, well at this point, we have come to a consensus that we want to do 3.0 in 2012.  The only outstanding question is whether it's 3.0 or 3.0.0 (though more are leaning towards the former).  I  will bring this decision/discussion to dspace-commit so others can take part as well</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; At that, we'll go ahead and close up today's meeting, mostly "on-time".  I'll stick around though if anyone has anything else to bring up</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kshepherd&gt; cheers all</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;robint_&gt; tdonohue: I haave a wee question</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-green">* richardrodgers (~richardro@pool-173-76-20-234.bstnma.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kshepherd&gt; i'll be committing a quick'n'easy google geocode curation task to my github curation project soon</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; go ahead, robint_</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;robint_&gt; Just rereading the log</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers -- you are an hour late :)  Just closing up the meeting</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;richardrodgers&gt; damn! sorry</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;robint_&gt; You mentioned that you thought an x.x scheme would help rapid development</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;robint_&gt; I'm a bit confused</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers: no prob. it's hard to remember that 20:00UTC is now one hour earlier after DST ended.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;robint_&gt; In an x.y scheme would a y release be more than bug fixes ?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; in my mind, if we went to "major.minor" versioning (e.g. 3.0), then it'd act similar to this...</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; 3.0 would be a major version (new features, improvements, potentially major architectural changes, bug fixes)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kshepherd&gt; again, i think we effectively already use x.y, so it doesn't have to be a big shift in how we work</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; 3.1 would be a bug fix release to fix bugs in 3.0 (no new features)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kshepherd&gt; but we currently prepend a static "major" number, "1", at the front</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kshepherd&gt; so we don't use x.y.z right now, we use 1.x.y :P</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; 3.2 would also be bug-fixes only</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; 4.0 would be the next major release (new features again, etc.)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd &amp; I are saying the same thing, just in a slightly different way</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; does that make more sense, robint_?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory forgot about DST as well. :)  meeting just ended.  20:00UTC is now one hour earlier in USA</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* robint_ (522925f2@gateway/web/freenode/ip.82.41.37.242) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; Gahhhh</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-green">* robint (522925f2@gateway/web/freenode/ip.82.41.37.242) has joined #duraspace</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; Speaking of versions, I'd like to see developers look over 'mvn versions:display-dependency-updates' and consider whether we can freshen some of those dependencies.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; ok, I'll just have to read up in the logs ;-)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;robint&gt; Sorry, suffering laptop woes</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;PeterDietz&gt; good thing we just assigned lots of things to mdiggory</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; robint : did you get those earlier messages from kshepherd &amp; I?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; To be expected</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kshepherd&gt; also, now that robint is here, and more of us are here than at the beginning of the meeting....</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kshepherd&gt; robint++     # thanks for 1.8!</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;robint&gt; tdonohue: yes thanks. I jusstn't wasn't clear if we were now planning on doing more than bug fix releases during the year</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; yes, robint++</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;stuartlewis&gt; +1 - thanks Robin :)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;robint&gt; I'm blushing</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;stuartlewis&gt; +99 :)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; +1.8.0</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; yup yup robint++</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-brick">* stuartlewis is wondering who the next RC is going to be? :)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;robint&gt; Now would be the moment to say "so do you fancy doing the next one too ?"</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;robint&gt; sync</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; robint: in my view, we'd still just do *one* major release per year (no matter what numbering scheme we use) -- the others would all be bug-fix only releases</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;robint&gt; tdonohue: thanks, thats clear</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;richardrodgers&gt; Cheers Robin - a pint in Edinburgh with your name on it next year!</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; aye, pint++</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;robint&gt; I'll happily coordinate that richardrodgers :)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-brick">* tdonohue wonders if we should stop having an "RC" -- i.e. whether we need to move to RTs (Release Teams).  The RC job is getting too "large", even though robint still managed it marvelously with 1.8</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; pint --&gt; robint</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; Maybe the RT is convened by the RC by asking for deputies or something.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; (but that topic -- RC vs. RT we can decide upon next week )</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;robint&gt; In hindsight I didn't take enough aadvantage of PeterDietz's early offer to be a deputy RC</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, could be.  Just pointing out that one RC is getting too be a "demanding job"</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;robint&gt; We live and learn</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;kshepherd&gt; afk, cheers all</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;PeterDietz&gt; I don't know how helpful I actually freely volunteered myself though. I originally was thinking I'd be able to help tackle the smaller issues before the release, but life became busy, and it showed just how good you were at managing it Robin.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mdiggory&gt; Sounds like a firm reason to hold the next RT planning meeting in the closest pub in Edinburgh</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;robint&gt; Stop me if I am drifting into next weeks topic, but I think we may need to look at staggering the development a bit more throughout the year</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; +1 mdiggory</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;robint&gt; mdiggory: I have some venues in mind already :)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;richardrodgers&gt; how do you mean? robint</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; +1 robint. that would also be helpful.  the reason the RC job is so hard is that everything comes in at once... :)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;robint&gt; Many of the major features were 'ready' well in advance but not commited until the last moment</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;robint&gt; I include my Sword Client work</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; Like:  set 3-4 "milestones" and ask contributors to commit to having *something* go in at a specific milestone?</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; RC job goes like this -- wait. wait. wait. wait. oh my, there's the flood of stuff. catchup catchup catchup catchup</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood ++</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;robint&gt; We could try and identify major features and make periodic efforts to get them commited througout the year</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-brick">* tdonohue is noticing we are having a post-meeting adhoc meeting of sorts (which is fine...we actually have more people here now than an hour ago)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;robint&gt; I realise this may be wishful thinking though</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;richardrodgers&gt; I agree with all this - but we have to counterbalance the demands we put on an RC (if it becomes a year-long ordeal!)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; robint ++ assumes we can convince ourselves to commit to a deadline &amp; actually meet that deadline though ;)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mhwood&gt; The RC can but ask.  The RC can also refuse something that comes in too late and put it off to "next time".</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;richardrodgers&gt; maybe that's further fuel for the RT idea....</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; this sounds a bit like the beta milestones idea</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mdiggory&gt; smells like integration builds</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;robint&gt; tdonohue: yep that is probably the biggest problem. Without the finaal deadline it can be difficult to prioritise</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers: exactly. you posed why I feel the RT is necessary.  RC has too much to do now -- it was a bit easier when there were only 5-10 committers. Now, with 23, it's hard to expect one person to manage it all</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mdiggory&gt; with some automated interim releases, these test candidates would reduce the breakage that can happen in the release process.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mdiggory&gt; It would also help us achieve a more automated release process that could reduce the effort on the RC's part</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mhwood&gt; Automated?</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mdiggory&gt; As in using Bamboo and a single account to release periodic builds into sonatype</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; this would allow us to review the interim releases and catch issues like missing files in jars etc</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mhwood&gt; Not a bad idea, but a different issue?  We need features to land a few at a time rather than mostly near the end.</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- interesting idea, but it still requires us to actually commit our code earlier (and not wait to commit at the last minute)</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;robint&gt; tdonohue: yes I think getting the code visible and commited needs to be the focus</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-brick">* tdonohue remembers we had this same discussion after 1.7, which made us decide to try "beta releases" with 1.8. But no code ever got committed in time for those "beta releases", so we didn't do them.  it's all one big circle :)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;hpottinger&gt; maybe a review of patches ready for commit as part of the meeting, kind of like Jira review, but with an eye towards encouraging folks to commit earlier?</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://www.eclipse.org/epp/download.php">http://www.eclipse.org/epp/download.php</a></span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;kompewter&gt; [ EPP Nightly Package Builds ] - <a href="http://www.eclipse.org/epp/download.php">http://www.eclipse.org/epp/download.php</a></span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;robint&gt; I think its requires the RC/RT to engage with major contributions early and help/push the commit process</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;robint&gt; Although as tdonohue points out I am sure evry RC thinks this just after release :)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mhwood&gt; Exactly.  One needs developers to sign up to contribute by specific points in the release process.  The only way that's going to happen is to ask them to.</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue:  I understand, but if you have the opportunity to show off your work a little earlier and not get bit at the end, milestone builds are an interesting opportunity to get real community feedback... especially if they can be tested on a demo system</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; Just to be clear, my point about this same discussion after 1.7 isn't meant to discourage more ideas :)  Just pointing out that we tried something in 1.8 that didn't end up working...so we may want to try something else this time around</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mdiggory&gt; so the process promotes getting your stuff out earlier because the work will be less later and theres more room for feedback</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;robint&gt; mdiggory: agreed. I think it can be a two pronged attack, the 'soft' side and the technological approach</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory +1 I agree with the idea completely. Just pointing out that we need to figure out a way to encourage folks to actually get code in before those milestones.  Just setting the milestones (as we did with "beta releases" this past year) didn't seem to be enough</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;hpottinger&gt; sorry guys, this is really interesting, but da boss just wandered in and wants to talk, gotta go</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-navy">* hpottinger (80cea2c6@gateway/web/freenode/ip.128.206.162.198) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;mhwood&gt; I most go too.</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;mhwood&gt; Or, perhaps, *must* go. :-/</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; I like robint's idea of a possible two-pronged approach.  But, obviously we can all think on this more and discuss it again more @ next week's meeting</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;robint&gt; Time to head off myself. Cheers all.</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-navy">* robint (522925f2@gateway/web/freenode/ip.82.41.37.242) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;richardrodgers&gt; Bye all!</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-navy">* richardrodgers (~richardro@pool-173-76-20-234.bstnma.fios.verizon.net) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[22:57]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[22:59]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

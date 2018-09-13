@@ -1,0 +1,176 @@
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-asimov.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-asimov.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-asimov.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-asimov.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Ping timeout: 248 seconds)</span><br />
+<span class="irc-date">[19:17]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[19:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:21]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[19:22]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:37]</span> <span class="irc-green">* grahamtriggs (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-black">&lt;KevinVdV&gt; Hi all</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* richardrodgers (~richardro@18.111.90.114) has joined #duraspace</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* tdonohue (~Adium@64.150.65.235) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all.. as noted to the committers list, running a bit late today.  Technology is working against me today, so I'm sitting in the local public library now</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; I'm attempting to determine where we left off at in JIRA last week — as we may as well do a short JIRA review to kick things off</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;richardrodgers&gt; webinar go ok tdonohue ?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers — ok enough for the fact that I suddenly had to do it on a different computer (laptop) from a different location (public library) than initially planned.  I'm told it still went well, but I was unable to do the live demo I wanted to do</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: everyone in the room I was sitting in agreed that you handled the webinar quite well, demo or no demo</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;richardrodgers&gt; Well, glad at least you could get connected to present!</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; thanks ;)  I tried.  it's been an interesting morning for me.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; they appreciated that you made replication suite understandable to them (an audience of repository managers)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, as for JIRA review, it looks like we left off at Ds-894.  So, today we start at DS-895</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-895">https://jira.duraspace.org/browse/DS-895</a></span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; oh, this looks to be a placeholder for brainstorms.  Anyone want to add any immediate feedback to this idea?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;richardrodgers&gt; looks like future work placeholder</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-green">* kompewter (~kompewter@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; ok, we'll just move along — this is a big topic on second glance.  feel free to add thoughts on this work to Ds-895 directly</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-green">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; next open issue up for review, DS-899</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-899">https://jira.duraspace.org/browse/DS-899</a> ] - [#DS-899] Last modified timestamp doesn&amp;#39;t trigger on bitstream delete - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; (yea, kompewter is back!  thanks PeterDietz)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; thoughts on Ds-899?  It sounds like a bug to me — it'd be nice to make sure the last modified date is actually accurate.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;richardrodgers&gt; Agree it should update last modified - someone put up a patch?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; anyone want to volunteer to investigate this and perhaps even do a patch?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;KevinVdV&gt; I am willing to take a peek</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;KevinVdV&gt; If nobody else is volenteering</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; thanks KevinVdV.  Feel free to claim it and assign to yourself</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;KevinVdV&gt; Will do !</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; We'll do one last one for today.  This one is really just looking for a volunteer to enhance our documentation: DS-900</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-900">https://jira.duraspace.org/browse/DS-900</a> ] - [#DS-900] Create documentation for Updating a DSpace installation from source - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone excited to take this on and start pulling together some docs?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; I'll note we have a "shell" started at: <a href="https://wiki.duraspace.org/display/DSDOC18/Advanced+Customisation">https://wiki.duraspace.org/display/DSDOC18/Advanced+Customisation</a>  We'd just need to try and document some better examples of how you can use 'ant update', etc.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Advanced Customisation - DSpace 1.8 Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC18/Advanced+Customisation">https://wiki.duraspace.org/display/DSDOC18/Advanced+Customisation</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; ok. hearing no volunteers.  We'll just leave this one be for now.  If anyone in coming months wants to help in areas of documentation, there are a few such documentation enhancement requests in JIRA</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; we'll stop the JIRA review there for today.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; would it be a good idea to link to the "shell" docs in a comment on Ds-900?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger : definitely.  feel free, otherwise I'll try and get back to this after the meeting</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;hpottinger&gt; will do</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; only other topic I was thinking about today was discussion/updates on 1.8.1</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; I'm noticing robintaylor isn't here though, but we still can do our own updates on 1.8.1, etc</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; Linking shell doc:  already done.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; anyone have anything else they want scheduled for 1.8.1?  Here's what we have so far: <a href="https://jira.duraspace.org/browse/DS/fixforversion/10787">https://jira.duraspace.org/browse/DS/fixforversion/10787</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace: 1.8.1 - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS/fixforversion/10787">https://jira.duraspace.org/browse/DS/fixforversion/10787</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;richardrodgers&gt; I guess the first (but hard to answer) question is: do we have enough uptake on 1.8 to know if we found all the nasty bugs?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers — probably not. But, I still suspect 1.8.1 is better to happen sooner rather than later (cause there are several extremely annoying bugs that need an immediate fix)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; we can always do a 1.8.2 if there's something else we still miss</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;richardrodgers&gt; true</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; It looks like we still have 2 unassigned issues for 1.8.1  Anyone interested in either? <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%221.8.1%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%221.8.1%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%221.8.1%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%221.8.1%22+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+ORDER+BY+priority+DESC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-green">* sandsfish (~sandsfish@dhcp-18-111-27-15.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;KevinVdV&gt; Well I do plan to start testing for java 7 but need to find the time</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;richardrodgers&gt; Guess I'm not sure about the java 7 one - isn't this a test/doc issue?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;KevinVdV&gt; Mostly running some quick tests</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;richardrodgers&gt; Ah ok</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; yea, DS-1081 is likely more of a test/docs issue (i.e. it may even be able to be completed after 1.8.1 if no one gets to it)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1081">https://jira.duraspace.org/browse/DS-1081</a> ] - [#DS-1081] Ensure that DSpace 1.8.1 can run on java 7 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; it looks like DS-1076 is an actual bug though that needs a volunteer / patch.  any takers?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1076">https://jira.duraspace.org/browse/DS-1076</a> ] - [#DS-1076] Visualisation of static pages is broken in 1.8 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; Comment on 1076 notes that code exists but hasn't been contributed.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; yea, mdiggory is there a known fix for DS-1076 that @mire has?  Or is what you mentioned in the comments a different feature/enhancement to this idea?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1076">https://jira.duraspace.org/browse/DS-1076</a> ] - [#DS-1076] Visualisation of static pages is broken in 1.8 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mdiggory&gt; ?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; 1076 non-contributed code sounds pretty cool, though</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory — look at your comment attached to DS-1076</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1076">https://jira.duraspace.org/browse/DS-1076</a> ] - [#DS-1076] Visualisation of static pages is broken in 1.8 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;PeterDietz&gt; I think I was involved in helping to create static pages</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; yes PeterDietz you did some help, Kevin Clark was also involved when he was at NESCent</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;PeterDietz&gt; My recommendation was to add a controller (AboutPage.java) to your xmlui artifact browser. I don't recommend the PageNotFound override hacks</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; Ok, well, I'll just say, what we have done is a bit more robust and aspect driven than the previous approach</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; It also liberates the user to use xhtml to create static pages rather than dri</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; ok. so, any thoughts on how we try and fix Ds-1076 for Dspace 1.8.1?  Or do we need to reschedule this for 3.0 next year (and enhance it somehow)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; TBH, with tools like JTidy, I'm sure we could even get it to the point that it would be viable for htnl5 as well</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; "About" may not be the only static we have to deal with.  One of our instances has a whole list of static pages added.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; correct mhwood</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; thus the aspect driven approach</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; its more like a transform that looks for the files in the directory and makes appropriate pseudo dri references to the files in dri so that theme can include them into the processing.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; we have quite a few static pages, all expressed as DRI right now, but could easily (and happily) convert it all to xhtml</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; Yes the benefit being that you can use plain old html editors to manage your static content again</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-brick">* hpottinger swoons</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mdiggory&gt; chuckle</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to moving towards XHTML static pages in the future.   (But, admittedly, I think this should be a different ticket than the Ds-1076 reported bug, which just says that 1.8 actually breaks how you could do this in 1.7)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; so, I'd suggest: (1) we try to find a simple fix for Ds-1076 in 1.8.1, and then (2) we work towards XHTML static pages in next year's 3.0 release</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kshepherd&gt; hi all, half here (at LODLAM-NZ)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;sandsfish&gt; +1 to mdiggory's eye toward HTML5, if it ends up within the realm of possibility (and people's time)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;PeterDietz&gt; 1076 mentions that it broke one of the methods to add static pages, but it didn't specify which was was broken</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;PeterDietz&gt; I think adding a AboutUs.java controller will definitely work, and no way that method broke. I think the XSL PageNotFound override hack broke</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz — It says that the XSL-method on this page is broken: <a href="https://wiki.duraspace.org/display/DSPACE/Manakin+theme+tutorial#Manakinthemetutorial-Addingstaticpages">https://wiki.duraspace.org/display/DSPACE/Manakin+theme+tutorial#Manakinthemetutorial-Addingstaticpages</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ Manakin theme tutorial - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Manakin+theme+tutorial#Manakinthemetutorial-Addingstaticpages">https://wiki.duraspace.org/display/DSPACE/Manakin+theme+tutorial#Manakinthemetutorial-Addingstaticpages</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;PeterDietz&gt; Since I already have my hands in this issue, I'll resolve it for 1.8.1</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;PeterDietz&gt; mdiggory gets the fun part of DSpace+CMS</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; ok, thanks PeterDietz — feel free to claim it and assign to yourself</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; ok, it does sound like a smaller bug.... we may introduce the xhtml enhancements for next season...</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mdiggory.  I'd wait for the larger enhancements for 2012</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: My recommendation was to add a controller (AboutPage.java) to your xmlui artifact browser. I don't recommend the PageNotFound override hacks</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; exactly</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; but also... this can be a separate aspect added</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone have updates or need feedback on any open 1.8.1 issues?  Or anyone find any new issues we should think about putting into 1.8.1?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;KevinVdV&gt; I do have something (just assigned to fix for 1.8.1 a few minutes ago)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; We do need a simple, supported method of adding static pages, not just a way to wedge them in.  Call it StaticPage instead of AboutPage and parameterize it somehow?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz.... why, if you know the path of the dri file to be included, do you not create a Navigation.java that adds it to the options without needing xslt?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: thats basically what we've done</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;sandsfish&gt; mhwood: agreed to generalizing the name (if the approach is already generalized)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; I think mhwood doesn't like the name "AboutPage.java" (which sounds like it's *only* for a static "About" page). Rather, it should be more generically named — as it should be for *any* static page (not just an "About" page)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood and mdiggory +1 to both of ya</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; (mhwood should correct me if I just put words into his mouth!)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; Yes, otherwise we'd need to write half a dozen of these.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to a generically named controller (StaticPage.java or something) that generically supports any type of static page</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV did you say you had something to schedule for 1.8.1?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;KevinVdV&gt; Yes indeed <a href="https://jira.duraspace.org/browse/DS-1064">https://jira.duraspace.org/browse/DS-1064</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1064">https://jira.duraspace.org/browse/DS-1064</a> ] - [#DS-1064] Authentication error with external login in JSPUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1064] Authentication error with external login in JSPUI - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1064">https://jira.duraspace.org/browse/DS-1064</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; correct.  Likewise... The directory hierarchy where they are stored becomes the a sitemap displayed as an options section hierarchy. or a static dri may be used to encode the options navigation for the static pages. Allowing for some i18n</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;KevinVdV&gt; I have a patch but I would like somebody else to take a look so I didn't miss anything</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; thoughts on Ds-1064? or anyone willing to help test/verify patch for KevinVdV?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV — this sounds like a bug to me. But, it would be good to have more eyes on the code or testers</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; Agreed, the current behavior is poor.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;KevinVdV&gt; Well I do believe it is a bug I'm just not 100% sure that my fix handles all posibilities</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;KevinVdV&gt; Since my JSPUI is quite rusty</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I'm not sure if the fix is right either KevinVdV (I'm also rusty on JSPUI, and don't have full access to my codebase to see the context of patch)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;KevinVdV&gt; Well if nobody is tempted to test I am inclined to commit my patch since it will fix the issue</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; lots of silence. I guess others aren't sure about Ds-1064 either.  If someone has a chance to test or give a closer look it'd be much appreciated</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV — if you are confident it works, that's OK by me.  You could always give folks a few more days to test / look at it , and commit it early next week if you don't hear any complaints</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;KevinVdV&gt; Will do tdonohue</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; thanks KevinVdV!</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;KevinVdV&gt; I will commit sunday or monday</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Is there anybody here who *does* use JSPUI regularly?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; not i.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kshepherd&gt; sorta</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; what does "sorta" mean? ;)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;sandsfish&gt; not at all.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;PeterDietz&gt; not here</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kshepherd&gt; as an admin interface, not for end users</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; thanks for clarifying kshepherd</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; KevinVdV you may need to ask -devel or -tech to find someone who can review this.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;kshepherd&gt; can try to find some testing time</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; anyone else use JSPUI? (good question, mhwood).  grahamtriggs?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; ok. guess he's not around then :)  he's the only other one I know *used* to use JSPUI heavily (not sure if that's the case at his new job though)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; dare I say it — JSPUI obviously is falling behind in terms of support (though I think we've known that informally for a while — most new features seem to be XMLUI these days)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; Michigan is a JSPUI shop, still, I think</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-brick">* tdonohue notes we are over time. I really don't have any other topics, but will hang around if anyone wants to chat. Otherwise feel free to head out as you need to</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger — yea, they are. but, Jose Blanco has been learning XMLUI recently, so I'm guessing Michigan has been thinking of switching</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-brick">* hpottinger nods</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; One last thing.  From what robintaylor sent to dspace-commit list, it sounds like he'd prefer to release 1.8.1 before mid-December.  Just wanted to make sure you all caught that general timeline</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;sandsfish&gt; thanks tdonohue</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;sandsfish&gt; bye all</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* sandsfish (~sandsfish@dhcp-18-111-27-15.dyn.mit.edu) Quit (Quit: sandsfish)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-brick">* tdonohue is heading offline for a bit — going to go see if my internet is finally back on at home.  bye all!</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-navy">* tdonohue (~Adium@64.150.65.235) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;KevinVdV&gt; Need to run cya all</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-navy">* richardrodgers (~richardro@18.111.90.114) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-brick">* hpottinger cheers for tdonohue's internet at home</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;tdonohue&gt; yes! it is back ;)</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:13]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has left #duraspace</span><br />
+<span class="irc-date">[22:56]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

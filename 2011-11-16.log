@@ -1,0 +1,253 @@
+<span class="irc-date">[0:07]</span> <span class="irc-navy">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-kornbluth.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:34]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:34]</span> <span class="irc-navy">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[11:34]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* kshepherd (kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* kompewter (~kompewter@peterdietz.lib.ohio-state.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* scottatm (~scottatm@voyager108.evans.tamu.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* elschlomo (8d421324@gateway/web/freenode/ip.141.66.19.36) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* ChanServ (ChanServ@services.) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* ablemann (~alexleman@lemanal.xen.prgmr.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* cbeer (~cbeer@198.147.175.203) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-navy">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* scottatm (~scottatm@voyager108.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* ablemann (~alexleman@lemanal.xen.prgmr.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* cbeer (~cbeer@198.147.175.203) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* ChanServ (ChanServ@services.) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* elschlomo (8d421324@gateway/web/freenode/ip.141.66.19.36) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* kompewter (~kompewter@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* PeterDietz (~PeterDiet@peterdietz.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* kshepherd (kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (*.net *.split)</span><br />
+<span class="irc-date">[13:48]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:48]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[14:33]</span> <span class="irc-navy">* GargantuaSauce (~Gargantua@142.176.125.39) Quit (*.net *.split)</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-green">* GargantuaSauce (~Gargantua@142.176.125.39) has joined #duraspace</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:13]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;tdonohue&gt; hi all, reminder that our DSpace Devel meeting starts here in a few minutes (at top of hour): <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16</a></span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-11-16 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16</a></span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;KevinVdV&gt; Hi everybody</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all. Seems like a smaller group today for our DSpace Developers meeting. But, maybe folks are running a bit late today.  Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-11-16 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; First up today is our normal JIRA catch-up. <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-892+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-892+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-892">https://jira.duraspace.org/browse/DS-892</a> ] - [#DS-892] Performance issues in update enabling the StatisticsLoggingConsumer - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-892+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-892+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; we kick off JIRA review with DS-892</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-892">https://jira.duraspace.org/browse/DS-892</a> ] - [#DS-892] Performance issues in update enabling the StatisticsLoggingConsumer - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kshepherd&gt; morning!</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mhwood&gt; Afternoon!</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;PeterDietz&gt; hi</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kshepherd&gt; ok, 892 looks like a discussion more than a patch ;)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kshepherd&gt; but it sounds like a useful discussion</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; true, now that I read it I see it is more a discussion (even though it's marked as a "bug")</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; It's both?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kshepherd&gt; maybe ask the folks with the biggest stats indexes to chip in with their experiences in the comments (experiences of autocommit impact, how long bactch updates take, etc)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;KevinVdV&gt; Well my experience is the fastest way to update is how it is done in DS-599</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-599">https://jira.duraspace.org/browse/DS-599</a> ] - [#DS-599] SOLR statistics file download displays all files and not only those in the Bundle Original - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kshepherd&gt; KevinVdV's patch to remove non-original bitstream entries will help get some index sizes down</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;PeterDietz&gt; What does StatsLogConsumer not enabled by default mean?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- actually you are right. It is  a "bug" cause it is a problem in existing code (even though it's not enabled by default).</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; If it was just slow, I'd say:  find out why it's slow.  But if auto-commit interferes, then we need to step back and look at the whole process.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kshepherd&gt; hm, well, ok</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;KevinVdV&gt; @ PeterDietz: if an item moves from the collection the stats records would NOT be updated, the consumer takes care of this</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;KevinVdV&gt; Updating all the records indivualy</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;KevinVdV&gt; Which can take a long time</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; Pull it out into another thread.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kshepherd&gt; stuartlewis: DS-892</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-892">https://jira.duraspace.org/browse/DS-892</a> ] - [#DS-892] Performance issues in update enabling the StatisticsLoggingConsumer - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;PeterDietz&gt; so if you didn't want to pay penalty during changes, you'd need a way to invoke statslogConsumer by cron</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kshepherd&gt; PeterDietz: i think the suggestion is to do batch updates from logs rather than use consumer at all</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kshepherd&gt; or did i mistunderstand?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;KevinVdV&gt; That could be doable...</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;PeterDietz&gt; and then the other issue is stat activity that occurs when I might be restarting tomcat to change in input-form or something.. the last entries, are not committed to solr</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; So we need a listener to catch container shutdown and flush?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;PeterDietz&gt; hmm. okay, well then if you want to disable the real-time stat logger, then everything is already built</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;PeterDietz&gt; stats-log-converter, stats-log-importer</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;PeterDietz&gt; no loss</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;PeterDietz&gt; mhwood: Right, mdiggory had hinted at something like that, I haven't seen any traction</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; So it sounds like there's a couple things to investigate further here?  Anyone want to pull these ideas back over to comments of Ds-892, or even volunteer to do some more investigation of options here?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; (admittedly, this is an area that I'm not as familiar with yet -- so, if someone else would like to summarize some of these brainstorms over on Ds-892, that'd be helpful)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;KevinVdV&gt; I would be willing to look into it</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;KevinVdV&gt; *assigning to me unless somebody objects ?*</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; go for it, KevinVdV</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; thanks!</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;PeterDietz&gt; go for it.. I'm sure I've misread this issue</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; moving on then to DS-893</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-893">https://jira.duraspace.org/browse/DS-893</a> ] - [#DS-893] suggestion for a re-implementation of Bundles in the DSpace data model - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; this is a larger "conceptual" discussion.  Any quick comments here, or should we set this aside for later (i.e. a full discussion in a future meeting)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;PeterDietz&gt; I kind of hate bundles</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; Seems to be related to discussion of spreading metadata to all objects.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;PeterDietz&gt; I would prefer something more akin to tagging the bitstream with some characteristics (i.e. bitstream metadata).</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; also, PeterDietz -- I think we all agree.  Many of us are not fans of Bundles, but we just need to work to fix it :)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; +1 PeterDietz</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; ok, I'll move on for now.  One last one for today, DS-894</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-894">https://jira.duraspace.org/browse/DS-894</a> ] - [#DS-894] Context Sensitive help for the XMLUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; Yes, adding bitstream metadata will make bundles go away.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; I like the idea behind Ds-894.  Would just need a volunteer or two to start chipping away at it little by little</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; any other thoughts on this? Do others at least agree with this conceptually?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; I agree.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  Ds-894 Summary: has some general support, just needs to have volunteer or two.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; It might be worth a little time to look at this more abstractly and see if there are ways to consolidate the texts, for example.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;PeterDietz&gt; I think jspui help still refers to netscape</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, we'll stop Jira review there for today.  Anything left unassigned will be immediately assigned to latecomers like mdiggory (kidding)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kshepherd&gt; lol</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;KevinVdV&gt; lol</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; I wonder if there's any way to extract from the full doco. automatically.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; yea, JSPUI help needs updates too I'm sure.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; thank you, as if I don't already have enough to do ;-)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, in essence of time, I suggest we move along to Discussion topics: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16</a>   (Feel free to add any other comments to Ds-894 directly)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-11-16 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-11-16</a></span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; per full text indexing.... Solr already supports full text indexing of many formats, text extract is really not needed.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; The main discussion topic for today is Release Coordination.  Essentially, do we want to stay with the current "Release Coordinator" model, or move to a "Release Team" model?  (This discussion already began on dspace-commit list late last week)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; We just need to stuff the text *into* Solr then, annotated with targets that can be indexed and called up by the UIs.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone want to express opinions/thoughts/questions on Release Coordination and the idea of RC vs. RT?   (I don't want to go into a whole summary here again, unless people need it -- I'm assuming you are all mostly up-to-speed though)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: Solr Cell... <a href="http://wiki.apache.org/solr/ExtractingRequestHandler">http://wiki.apache.org/solr/ExtractingRequestHandler</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ ExtractingRequestHandler - Solr Wiki ] - <a href="http://wiki.apache.org/solr/ExtractingRequestHandler">http://wiki.apache.org/solr/ExtractingRequestHandler</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;PeterDietz&gt; Tim, you don't like being the de facto Backup RC?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-brick">* tdonohue recommends Solr discussion move to JIRA or #dspace -- it's a worthy discussion, but it's hard having two discussions here at once</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; uses Tika... <a href="http://tika.apache.org/">http://tika.apache.org/</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ Apache Tika - Apache Tika ] - <a href="http://tika.apache.org/">http://tika.apache.org/</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- I'm always glad to be a *resource*.  But, no, I'd rather not be the "de facto" Backup RC  (as it essentially means I'm able to do less programming for that given release, and less of other things in general)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kshepherd&gt; re RC vs RT, i see the idea, sounds good.. just not sure how it'd be organised</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; If several who have done it agree that the job is becoming too large, then it probably is.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kshepherd&gt; who organises it? how is that different from RC organising committers (who have volunteered) to help</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; I imagine that there is still an RC, now assisted by his trusty lieutenants.  Would the RC ask for volunteers?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;PeterDietz&gt; It somewhat makes sense to have one person be the maven-release doer, one person for ensuring the docs get updated, another person for pestering people to make their code public for big-features-in-progress (and potentially having jenkins/hudson do automated builds of some feature branches on the demo server)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kshepherd&gt; split some roles up? new features vs bugfixes vs doco vs scheduling vs updates to/from DCAT and dspace-tech</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kshepherd&gt; PeterDietz: right</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; my view here is the RT would be slightly more "formalized" than just "committers who have volunteered".  It would be essentially the same concept, but the RT is a way for the RC to feel more comfortable with delegating to these folks various tasks</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-brick">* kshepherd feels disappointed he never got a chance at a release :(</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd +1 -- yea, RT folks would share various tasks (or volunteer for specific ones).  The RC (or co-RC) would likely still delegate tasks to RT members</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;PeterDietz&gt; I vote kshephed as RC for a simultaneous 1.9 and 3.0 release</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kshepherd&gt; (not *too* disappointed, mind, hehe)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kshepherd&gt; lol</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; Maybe the RC decides (with others' advice) how to build the team.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; And how to distribute the work.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; so, in my mind, the RT is rather similar to a "group of committers who have volunteered to help" -- but, becoming a member of the RT actually means you are setting aside a small amount of time (1-2hrs a week, if that) to chip in on the release (in whatever way is needed)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kshepherd&gt; yep that sounds good</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; that's what I mean by it's a bit more "formalized".  You are a known resource for release tasks, and not just someone who said "sure, I can help if you need it, let me know!"</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; sounds fine with me</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: and you can use your role at duraspace to support that RT instead of being the general dogs body in the frantic last few weeks ;)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; A specific commitment, IOW, negotiated with the RC.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;PeterDietz&gt; dogs body?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kshepherd&gt; maybe that's a british phrase</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; *exactly* kshepherd.  I'd still be a resource, but hopefully we'd have more people who could share the tasks of that last few frantic weeks</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; Dogsbody:  something like assistant, henchman, minion?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, I'd agree with that too.  The specific commitment could be worked out with the RC.  Different RCs could also decide how they want to manage their Release Team (there's flexibility there too)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; So, it's sounding like we are approaching a consensus to at least attempt the idea of an RT?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; (obviously the first time around I'm sure we'll find things we can improve upon or tweak as we go)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; I imagine an RC posting a preliminary sketch of the way the work will be organized and asking for volunteers for pieces of it.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- I think that's a good general idea, but that also assumes that the RC is well organized themselves :)  I guess I'm willing to allow for flexibility here based on working styles.  But, I like the idea of at least putting up a general sketch of how a release *normally* works</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; (that "general sketch" could even be done now by myself &amp; recent RCs -- and then the upcoming 3.0 RC can use or adapt it as he/she sees fit)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; Isn't there already some material on the wiki about release coordination?  Could it be fleshed out a bit?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; +1 yea, there's some older material there that we could build from</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://wiki.duraspace.org/display/DSPACE/ReleaseCoordinating">https://wiki.duraspace.org/display/DSPACE/ReleaseCoordinating</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ ReleaseCoordinating - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/ReleaseCoordinating">https://wiki.duraspace.org/display/DSPACE/ReleaseCoordinating</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; Checklist item.last:  "update this document with lessons learned"</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; good idea :)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;PeterDietz&gt; Do we want to cover some of the other "Developer Discussions" today? Since next week is a skip-week. I imagine that the details of next RC/RT will flesh itself out over time.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;KevinVdV&gt; Is next week a skip week ?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Actually the topic of skipping next week is still to discuss.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;PeterDietz&gt; next week is US holiday, for eating turkey</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; yea, "possibly canceling next week" was the next topic to discuss</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;PeterDietz&gt; so non-US will have to take it over</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like we are done with the RC/RT discussion for today.  Dare I ask: Is anyone potentially interested in RC or RT-member for next release?  You need to say right now, but you can email me if you are even "thinking about it"</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kshepherd&gt; we've been waiting for this since the 40s</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kshepherd&gt; WORLD DOMINATION IS IN OUR GRASP, COMRADES</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kshepherd&gt; THE AMERICANS WILL BE BUSY EATING TURKEY</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; Well, some of us aren't travelling.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;PeterDietz&gt; hmm, maybe thats why Obama is in Oceana (Australia) right now... to sabotage military pre-empters</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; ok, so, as PeterDietz mentions -- in the USA, next Thurs is Thanksgiving holiday (where we all become slow &amp; sleepy &amp; weak after eating too much turkey).  Many of us will also be traveling on Weds.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; I cannot attend next week's meeting, myself.  But, if others *can* still attend, you are obviously welcome to still have a meeting</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;KevinVdV&gt; I will also not be able to attend next week since I have a futsal game</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;PeterDietz&gt; I somewhat dispise this holiday. You do become sleepy by about 4pm, and then have to carry on the rest of the day while wearing an itchy wool sweater, and drinking profusely with relatives.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; so, I guess the questions are:  Do others want to meet next week?  Or should we cancel next week?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;aschweer&gt; I'm fine either way -- I would be able to attend next week</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kshepherd&gt; we could have a quick jira review instead of meeting?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; if several of you want to meet, you need not even have an agenda -- you can just chat DSpace or look at some JIRA issues, or just joke around :)  It's all up to you. (just remember all that you say is logged)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; Unless we definitively cancel, I'll look in whether I have any issues or not.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; yep, feel free to meet to just have a quick JIRA review.  This week we left off at Ds-894.  So, you'd start next week at Ds-895 (or just throw out specific issues if there are specific ones you want to bring to the discussion)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; If there are enough present, it would be good to keep slogging through JIRA.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; It sounds like there will be sort-of a meeting next week.  Other issues?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so it sounds like:  There will be a meeting next week for all who can make it.  It will likely just involve a quick JIRA review</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;aschweer&gt; <a href="https://jira.duraspace.org/browse/DS-1070">https://jira.duraspace.org/browse/DS-1070</a> would be good to get some eyes on</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1070">https://jira.duraspace.org/browse/DS-1070</a> ] - [#DS-1070] DSpaceObjectManager unnecessarily keeps references to DSpace objects - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1070] DSpaceObjectManager unnecessarily keeps references to DSpace objects - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1070">https://jira.duraspace.org/browse/DS-1070</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; I had no other topics, so discussion of Ds-1070 sounds good to me</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;aschweer&gt; it seems to have fixed the problem for us, but we've been having some other issues (most likely unrelated), so it'd be great to have others look at it</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;aschweer&gt; essentially, Ds-1070 made 1.7.2 pretty much unuseable for us. the problem is still in trunk, so it's in 1.8 as well</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer -- I admit I haven't looked at this in much detail, but it looks reasonable to me at a glance (as long as it doesn't cause major performance areas elsewhere?).   Though I personally don't understand why that ArrayList was there in the first place</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;KevinVdV&gt; *Adds Ds-1070 to his long TODO list*</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue: I don't understand it either, which is why I think it's fine to just kick it out</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; I meant to say "major performance issues elsewhere"</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;PeterDietz&gt; is there any reason why these objects get added to an arrayList?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;aschweer&gt; I think it's probably left over from refactoring</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;aschweer&gt; or something</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kshepherd&gt; +1 to this patch, it's beautiful</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;aschweer&gt; it's been in the code ever since xmlui was released as a standard dspace module</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kshepherd&gt; we have only tested for a few days so far</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kshepherd&gt; but results are looking *very* good, in terms of memory footprint</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; no idea, PeterDietz.  Anyone know why this is?  Maybe someone who helped build XMLUI in the first place (ahem, scottatm) would know or have an idea?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;aschweer&gt; I have some scary before/after heap usage graphs if anyone is interested...</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;scottatm&gt; What's the question?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; So what does DSpaceObjectManager *do*, after the patch?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;aschweer&gt; thanks kshepherd</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; scottatm: DS-1070 -- any idea why all these objects are cached in an ArrayList?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1070">https://jira.duraspace.org/browse/DS-1070</a> ] - [#DS-1070] DSpaceObjectManager unnecessarily keeps references to DSpace objects - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; scottam -- as noted in ticket &amp; discussion above, this seems to cause XMLUI to have a large memory footprint, and aschweer &amp; others wonder if we can just remove that caching altogether</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;scottatm&gt; I believe that array is left over from previous version of DRI where objects were included inline with the document.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;KevinVdV&gt; +1 to the patch after looking into it</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; aha. thanks scottatm!  So, it likely is an artifact of some refactoring/reworking</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;aschweer&gt; scottatm: I suspected something like that. So you think my patch is fine?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;scottatm&gt; Yes, it's definitaly left over after refactoring.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;scottatm&gt; yes.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; I'd say assuming this is been well tested, then +1 to the patch (and it may be a good reason to release a 1.8.1 in near future)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; Eww, in the copy I am looking at I see a bug:  "handel.prefix"</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;scottatm&gt; It quite litteraly dosn't do anything with the array.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietz&gt; you can also remove the throws WingException</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue: yes, I'd wondered about a 1.8.1 for this</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I think this would be a good reason for a 1.8.1</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;aschweer&gt; ok so I'll apply the patch to trunk and the 1.8 branch, and also look at the things mhwood and PeterDietz mentioned just now while I'm at it?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; +1</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; getRepositoryURL calls ConfigurationManager to get the prefix, while getAllManagedRepositories callse HandleManager.getPrefix() which is probably better.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;aschweer&gt; great, thanks everyone who had a look, and especially scottatm for your comments</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; I'll add a "1.8.1" version to JIRA shortly and schedule this for 1.8.1.  I personally wouldn't want to wait for a year to get this big fix out</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue: thanks. yeah there's at least one discussion on dspace-tech where this patch would probably fix their problem</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-green">* joseB (8dd32b9d@gateway/web/freenode/ip.141.211.43.157) has joined #duraspace</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  we're now at time &amp; we just finished up that discussion.  So, we might as well close up the meeting now.  I'll hang around though if anyone has anything else they really want to discuss</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* joseB (8dd32b9d@gateway/web/freenode/ip.141.211.43.157) Quit (Client Quit)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;KevinVdV&gt; I just wanted to quickly add a small comment, I noticed the other day that oracle released a java update for java 7 &amp; now solr &amp; lucene should be operational with java 7 (<a href="http://lucene.apache.org/solr/#26+October+2011+-+Java+7u1+fixes+index+corruption+and+crash+bugs+in+Apache+Lucene+Core+and+Apache+Solr)">http://lucene.apache.org/solr/#26+October+2011+-+Java+7u1+fixes+index+corruption+and+crash+bugs+in+Apache+Lucene+Core+and+Apache+Solr)</a> So I am willing to test &amp; see if DSpace is compatible with java 7.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Welcome to Solr ] - <a href="http://lucene.apache.org/solr/#26+October+2011+-+Java+7u1+fixes+index+corruption+and+crash+bugs+in+Apache+Lucene+Core+and+Apache+Solr)">http://lucene.apache.org/solr/#26+October+2011+-+Java+7u1+fixes+index+corruption+and+crash+bugs+in+Apache+Lucene+Core+and+Apache+Solr)</a></span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV - excellent. Yeah, that'd be good to test.  If it is Java 7 compatible, we can change our docs.  If there are small fixes required to be Java 7 compatible, we may be able to schedule those for 1.8.1 as well</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-navy">* elschlomo (8d421324@gateway/web/freenode/ip.141.66.19.36) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;KevinVdV&gt; I will look into it in the near future (will attempt to create a JIRA placeholder for this tomorrow)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; +1 sounds good. thanks!</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;KevinVdV&gt; Need to go now, cya all</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-green">* hghghg (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-navy">* hghghg (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has left #duraspace</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:57]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[23:04]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:55]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />

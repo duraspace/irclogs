@@ -1,0 +1,242 @@
+<span class="irc-date">[0:14]</span> <span class="irc-green">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[0:14]</span> <span class="irc-navy">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) Quit (Changing host)</span><br />
+<span class="irc-date">[0:14]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[0:26]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[3:27]</span> <span class="irc-green">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[3:27]</span> <span class="irc-navy">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) Quit (Changing host)</span><br />
+<span class="irc-date">[3:27]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[3:30]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Client Quit)</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-verne.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-verne.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-verne.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-verne.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[11:29]</span> <span class="irc-green">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:29]</span> <span class="irc-navy">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) Quit (Changing host)</span><br />
+<span class="irc-date">[11:29]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[12:11]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[12:12]</span> <span class="irc-green">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:12]</span> <span class="irc-navy">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) Quit (Changing host)</span><br />
+<span class="irc-date">[12:12]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[12:32]</span> <span class="irc-navy">* fasseg (~fas@HSI-KBW-078-043-007-220.hsi4.kabel-badenwuerttemberg.de) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[12:53]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-green">* ksclarke (~kevin@pdpc/supporter/active/ksclarke) has joined #duraspace</span><br />
+<span class="irc-date">[13:43]</span> <span class="irc-green">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:43]</span> <span class="irc-navy">* eddies (~eddies@c-107-3-66-87.hsd1.ma.comcast.net) Quit (Changing host)</span><br />
+<span class="irc-date">[13:43]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[14:10]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-green">* linux4u (~james@employed.library.emory.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-green">* fasseg (~fas@HSI-KBW-078-043-007-220.hsi4.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;linux4u&gt; I have a question about fcsu, what the best way to convert a live 7tb system to akubra? can i just make it read only and start the conversion? or will I have to shut down the system.</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-navy">* fasseg (~fas@HSI-KBW-078-043-007-220.hsi4.kabel-badenwuerttemberg.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[18:23]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has joined #duraspace</span><br />
+<span class="irc-date">[19:36]</span> <span class="irc-green">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:41]</span> <span class="irc-green">* l_a_p (~chatzilla@176.206.48.184) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* robint (522a6b02@gateway/web/freenode/ip.82.42.107.2) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;robint&gt; hi all</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi All, welcome.  It's time for our DSpace Developers Mtg.  Agenda (cobbled together at last minute): <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-04-24">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-04-24</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2013-04-24 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-04-24">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-04-24</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; As we've decided, we're going to start by doing some Pull Request reviews (to stay on top of those): <a href="https://github.com/DSpace/DSpace/pulls">https://github.com/DSpace/DSpace/pulls</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls">https://github.com/DSpace/DSpace/pulls</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; wrong link.  We want *oldest* first: <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; and we last reviewed Pull 51</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; so, we'll start with Pull # 61</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://github.com/DSpace/DSpace/pull/61">https://github.com/DSpace/DSpace/pull/61</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Enabling Dynamic DSpace Configuration Manager by lyncodev · Pull Request #61 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/61">https://github.com/DSpace/DSpace/pull/61</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; looks like this one has had a lot of discussion (ending 8 mos back)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;helix84&gt; that was a "conversation starter"</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory looks to be arguing for a "Configs in the DB" solution (so that they can be configured by non-developers / non-sysadmins)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; joao (if I'm skimming right) was recommending starting with a file-based config approach (since configs are currently in files)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* bollini (~chatzilla@host106-110-dynamic.16-87-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; and joao argues that storage doesn't matter that much, but file-based approach has some benefits</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; the point is dynamic configuration (as opposed to restart to change), not XY-based</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; One "compromise" option is to go an "EPrints-route" (from what I've seen of EPrints).  Many of their configs are also in files...but they allow ways to configure from Admin UI (which just writes to those config files for you)...this is similar to many other tools out there -- IDEs, web browsers, etc. many have config files which are auto-managed by the App</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; that was joao's original idea, before the conversation</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, well, I think I'd support that idea, personally. I don't really care where the configs are stored (files are fine), as long as they are manageable from the UI (eventually)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; but, that doesn't really answer what we do with this Pull #61.  Is joao still looking for feedback here / still working on this?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;helix84&gt; about the pull request, i think it wasn't meant to be pulled, just discussed. and i'm fairly sure lyncode has been working on this idea since then.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; I need to see how this fits with my little project to turn ConfigurationManager into a wrapper around ConfigurationService.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. So do we leave this Pull open for now? try to continue the discussion until Joao/Lyncode has more to show us?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; +1 leave open, continue discussion</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; I think so.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; it probably doesn't matter what we do with it, but keeping it open may keep it "on the radar"</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; ok.. we'll keep open &amp; on radar.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; one more for today: <a href="https://github.com/DSpace/DSpace/pull/78">https://github.com/DSpace/DSpace/pull/78</a></span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1226 Initial contribution: (JSP)UI Import from bibliographics database/formats by abollini · Pull Request #78 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/78">https://github.com/DSpace/DSpace/pull/78</a></span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;robint&gt; PS could we add a comment that we discussed it and decided to leave it opn?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;robint&gt; Just to remind us that we reviewed it?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; robint: was going to momentarily</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; (sorry I didn't make that clear, obviously)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;robint&gt; One step ahead of me :)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; With regards to pull/78, did the contribution from the Athens crowd sneak in ahead of this one?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;bollini&gt; I'm not able to work on pull/78 now... I can resume/update later (some months, we are now working on a new version of dspace-cris)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;robint&gt; Hi Andrea</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;bollini&gt; coming back (sometime) :-)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; bollini: would it be usable as-is?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; I'm confused... Pull #78 says it refers to DS-1226 (which is closed &amp; added to 3.0)?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1226">https://jira.duraspace.org/browse/DS-1226</a> ] - [#DS-1226] Batch import from basic bibliographic formats (Endnote, BibTex, RIS, TSV, CSV) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;bollini&gt; mmm... my fault it is a different jira issue</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; that doesn't sound right, Ds-1226 was from EKT, #78 is from Andrea</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;robint&gt; tdonohue: I think they covered some of the same functions</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; ok... hence my confusion here.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pull/46">https://github.com/DSpace/DSpace/pull/46</a></span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1226] Batch import from major bibliographic formats by EKT · Pull Request #46 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/46">https://github.com/DSpace/DSpace/pull/46</a></span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;robint&gt; and the code for DS-1226 was committed for 3.0</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1226">https://jira.duraspace.org/browse/DS-1226</a> ] - [#DS-1226] Batch import from basic bibliographic formats (Endnote, BibTex, RIS, TSV, CSV) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; so, do we leave Pull #78 open and create a new JIRA ticket for it?  Or do we close it and wait for a new JIRA ticket + new Pull?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; DS-1252</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1252">https://jira.duraspace.org/browse/DS-1252</a> ] - [#DS-1252] (JSP)UI Import from bibliographics database/formats - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; i'll change the PR title</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;bollini&gt; thanks helix</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, thanks helix84.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  So, leave Pull #78 open for now? (and correct its title obviously)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;bollini&gt; I will add a comment to alert users that work is now "stopped" and will be resumed later</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good, bollini.  thanks</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. we'll stop the Pull Request review there for today.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; The rest of today's agenda is really relatively "open".  I stuck in some placeholders on 3.2 updates and 4.0 Planning (and getting more volunteers for the 4.0 Release Team).  But, we can talk about either one first</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; hearing nothing, i guess we'll start with 3.2 updates</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; it looks like we still have 3 tickets open which we've talked about as warranting a 3.2 -- DS-1469, DS-1525 and DS-1528</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-green">* helix84_ (~a@ip4-95-82-147-170.cust.nbox.cz) has joined #duraspace</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1469">https://jira.duraspace.org/browse/DS-1469</a> ] - [#DS-1469] Repository name with the accent (dspace.cfg with UTF-8 encoding show incorrect) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1525">https://jira.duraspace.org/browse/DS-1525</a> ] - [#DS-1525] build.properties not interpolated properly when building with Maven 3 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1528">https://jira.duraspace.org/browse/DS-1528</a> ] - [#DS-1528] build.properties doesn&amp;#39;t support UTF-8 encoding - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-navy">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) Quit (Ping timeout: 255 seconds)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-green">* helix84_ is now known as helix84</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; oh, I see.. DS-1469 is waiting for input from us: robint &amp; helix84 had a discussion there</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1469">https://jira.duraspace.org/browse/DS-1469</a> ] - [#DS-1469] Repository name with the accent (dspace.cfg with UTF-8 encoding show incorrect) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; No I think its is resolved</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; It is committed</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; Sorry!</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; taling rubbish</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; yep. it's committed to "master" (4.0).</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; yep</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; So, I guess the plan is to wait on 4.0 for that one...so it wouldn't be in a 3.2</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; I left it open in case anyone felt strongly it hould go in 3.2</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;robint&gt; But nobody has commented to that effect yet</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; is there any harm in back porting it?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; my counter argument is that we don't want it into 3.2 because it doesn't really bring any benefit without also fixing the related ticket, OTOH it can break stuff</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; it looks like the concern in "backporting" is that it's a decent amount of code changes -- with no testathon in sight: <a href="https://github.com/DSpace/DSpace/pull/199/files">https://github.com/DSpace/DSpace/pull/199/files</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ Read config, email and license files UTF-8 encoded, fixes DS-1469 partly by tuub · Pull Request #199 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/199/files">https://github.com/DSpace/DSpace/pull/199/files</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; (and those code changes are all in ConfigurationManager, which is obviously central to DSpace in general)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; That seems a reasonable argument to me so someone would need to argue that they really need it in 3.2</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; I'm fine with it waiting for 4.0.  It'd be nice to release sooner, but I'm not sure it'll get enough testing sooner</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; code exists, if someone needed it, they could back port it themeselves</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; very true</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;bollini&gt; mmm... just a note, are you reproduced this bug with the -Dfile.encoding=UTF8 settings?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; bollini: no, i personally haven't tried that</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;bollini&gt; I have see a very similar problem in a custom code for one our customer last week and I have realized that we have missed this configuration in the tomcat startup</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;bollini&gt; the dspace manual say that it is required (I'm seeking the reference)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; bollini: is there a way to make it default? or is that a problem?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;robint&gt; I tried that but FileReader doesn't seem to respect that</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;robint&gt; FileReader seems to have a mind of its own and decides what endoing it fancies using</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;bollini&gt; helix84: I think that default is better as it is required, but if the effect to force is the same of -Dfile.encoding we should be safe to include the change immediatly</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://wiki.duraspace.org/display/DSDOC3x/Installation#Installation-ServletEngine(ApacheTomcat5.5orlater,Jetty,CauchoResinorequivalent)">https://wiki.duraspace.org/display/DSDOC3x/Installation#Installation-ServletEngine(ApacheTomcat5.5orlater,Jetty,CauchoResinorequivalent)</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kompewter&gt; [ Installation - DSpace 3.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC3x/Installation#Installation-ServletEngine(ApacheTomcat5.5orlater,Jetty,CauchoResinorequivalent)">https://wiki.duraspace.org/display/DSDOC3x/Installation#Installation-ServletEngine(ApacheTomcat5.5orlater,Jetty,CauchoResinorequivalent)</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; second bullet point here ^^^</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; ok, well, it sounds like Ds-1469 can be closed (and switched to be "4.0" instead of "3.2"), since it's associated Pull Request (#199) is committed to master?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: yes, that's what i meant</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;robint&gt; Ok, I'll close it, thanks</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; thanks robint</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;bollini&gt; ok, just put a note in the jira issue that add -Dfile.encoding could be a workaround for "old" release</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;robint&gt; bollini: actually that doesn't work</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; btw i just checked and none of my instances (including demo) are configured with -Dfile.encoding</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;robint&gt; Don't know why but FileReader doesn't pick it up</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;bollini&gt; robint: ah ok, I was missed that!</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;robint&gt; It seems to be a known problem but not well documented</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;robint&gt; The fix is is to use an InputStream and specify the encoding in the constructor, which is what the pull request does</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;robint&gt; I will not this in the Jira issue. Thanks</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;robint&gt; not/note</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  So, the other two tickets that we had possibly scheduled for a 3.2 release were build.properties issues:  DS-1525 and DS-1528</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1525">https://jira.duraspace.org/browse/DS-1525</a> ] - [#DS-1525] build.properties not interpolated properly when building with Maven 3 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1528">https://jira.duraspace.org/browse/DS-1528</a> ] - [#DS-1528] build.properties doesn&amp;#39;t support UTF-8 encoding - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; currently, both are unassigned...whoops.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood - do you  know how to fix Ds-1525 in our code (as you mention the workaround)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; oh, wait...looks like a simple Maven config change perhaps?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; It awaits a release of the resources plugin that uses a sufficiently recent version of Plexus.  I haven't tried this for a while, but the problem appeared in Resources 2.4 and 2.6 is out.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  So, did you actually run into a problem here?  I'm just surprised I hadn't seen this yet in filtering of email addresses</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; (wondering specifically how to "reproduce" this in DSpace)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; I should have written more, because I don't recall exactly how I tripped over this.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; I've been using build.properties and Maven 3.05 for a while now, and haven't noticed any problems with e-mail addresses, though perhaps it's a problem of me not noticing :-)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; do we dare "close" this then?  Do we leave open and write a note that we haven't been able to reproduce it recently?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; (I'm in the same boat as hpottinger...have been running Maven 3 + DSpace 3 and haven't noticed email address issues at all so far)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; Maybe Resources 2.5 or 2.6 fixed it, and I didn't notice.  I'd say, leave it open and bug mhwood to explain.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; sez mhwood</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; oh, Resources 2.5 fixed it: <a href="http://jira.codehaus.org/browse/MRESOURCES-104">http://jira.codehaus.org/browse/MRESOURCES-104</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kompewter&gt; [ [#MRESOURCES-104] while filtering resources the token replacement stops at the character @ - jira.codehaus.org ] - <a href="http://jira.codehaus.org/browse/MRESOURCES-104">http://jira.codehaus.org/browse/MRESOURCES-104</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; so, it's fixed</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; I'm gonna close &amp; note that the fix is to ensure you have maven-resources-plugin v. 2.5 or above (latest is 2.6) by running "mvn -U clean package"</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Yay!  And we're actually *using* 2.5 or later?  IIRC Maven pins down a set of standard plugin releases with each Maven release.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; I don't think we specify the version of maven-resources-plugin.  But if you run "mvn -U" then Maven will go get the latest version for you</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; OK, if it works, it works.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; closed &amp; commented</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-navy">* ksclarke (~kevin@pdpc/supporter/active/ksclarke) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; Thanks.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; ok...might as well look at DS-1528 too then (the now "lone" ticket marked as 3.2)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1528">https://jira.duraspace.org/browse/DS-1528</a> ] - [#DS-1528] build.properties doesn&amp;#39;t support UTF-8 encoding - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Ds-1528:  so, if we ship with the Resources encoding configured we can close this one too?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; re: Ds-1528:  Surprisingly, I tried setting "maven-resources-plugin" to UTF-8 encoding, and I couldn't get it to work right.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; But, now I wonder if maybe *I* had a bad version of the maven-resources-plugin as well</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; (i.e. maybe this is another bug they fixed?)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; hmmm... searching Maven Resource plugin bug tracker.  Found this (it sounds like the same issue): <a href="https://jira.codehaus.org/browse/MRESOURCES-175">https://jira.codehaus.org/browse/MRESOURCES-175</a></span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kompewter&gt; [ [#MRESOURCES-175] Bad encoding in filtering - jira.codehaus.org ] - <a href="https://jira.codehaus.org/browse/MRESOURCES-175">https://jira.codehaus.org/browse/MRESOURCES-175</a></span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; (though that ticket is brand new &amp; unverified)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mhwood&gt; The encoding may apply only to the resources being copied.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; The plugin doesn't read the properties it interpolates; that's some other part of maven or some other plugin.  That is the place where the encoding of properties would matter.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; where do you see that note, mhwood?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Actually I say that because I *don't* see that Resources reads in properties.  It uses the properties already defined.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Not so?</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; So build.properties would have to be loaded using the proper encoding.  Let's see, which plugin reads it....</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; hmmm... I thought it read in the files.  The Resources "encoding scheme" docs say that you can set "a character encoding scheme ... for the reading and writing of files": <a href="http://maven.apache.org/plugins/maven-resources-plugin/examples/encoding.html">http://maven.apache.org/plugins/maven-resources-plugin/examples/encoding.html</a></span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kompewter&gt; [ Maven Resources plugin - Specifying a character encoding scheme ] - <a href="http://maven.apache.org/plugins/maven-resources-plugin/examples/encoding.html">http://maven.apache.org/plugins/maven-resources-plugin/examples/encoding.html</a></span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; but, it's possible I'm confused here too (been a while since I looked at this closely... I may be missing something)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;robint&gt; Sorry but I have to run, cheers all</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* robint (522a6b02@gateway/web/freenode/ip.82.42.107.2) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-brick">* tdonohue notes that we are in "overtime".  If you need to head out, feel free.  I'll be around for a bit longer though</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; That's the resource files.  build.properties isn't a resource file; it's a source of properties to filter in.  Waitaminute...&lt;filters.file&gt;....</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-green">* l_a_p_ (~chatzilla@176.206.48.184) has joined #duraspace</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; OK, build.properties is read because it's specified in &lt;build&gt;&lt;filters&gt;&lt;filter&gt;${filters.file}&lt;/filter&gt;&lt;/filters&gt;....</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; yes, that is correct</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;bollini&gt; good night (11pm in Italy), see you next week</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; What reads in the "filter resources"?</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* l_a_p (~chatzilla@176.206.48.184) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-green">* l_a_p_ is now known as l_a_p</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-navy">* bollini (~chatzilla@host106-110-dynamic.16-87-r.retail.telecomitalia.it) Quit (Quit: ChatZilla 0.9.90 [Firefox 20.0.1/20130409194949])</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood - I thought it was the maven-resources-plugin which reads those filter resources.  See: <a href="http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html">http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html</a></span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Maven Resources plugin - Filtering ] - <a href="http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html">http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html</a></span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; &lt;filters&gt; is part of the BaseBuild.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; The example doesn't say what reads the &lt;filter&gt; resources.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I'm realizing that.  I had assumed it was that plugin..maybe I'm wrong though</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; The example could be more clear.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; agreed.  One thing about maven &amp; it's plugins...sometimes the documentation is unclear/vague</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-brick">* hpottinger just discovered all the free Maven-related ebooks on the Sonatype site</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mhwood&gt; I can't prove it but it looks to me as though Resources just asks something else for filter stuff.  The something else would have to be configured to force Properties to load as other than 8859-1.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mhwood&gt; Good luck with those.  The _Complete Reference_ is not quite as incomplete as the _Definitive Guide_ was.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; noted, thanks mhwood. I was mostly looking for Nexus documentation when I found them.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; hmm... this sounds somewhat similar: <a href="http://www.coderanch.com/t/487058/tools/UTF-Maven-build-ISO-property">http://www.coderanch.com/t/487058/tools/UTF-Maven-build-ISO-property</a></span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;kompewter&gt; [ An UTF-8 Maven build with n ISO-8859-1 property files [Solved] (Ant, Maven and Build Tools forum at JavaRanch) ] - <a href="http://www.coderanch.com/t/487058/tools/UTF-Maven-build-ISO-property">http://www.coderanch.com/t/487058/tools/UTF-Maven-build-ISO-property</a></span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; (not sure if that is the same problem we are having or not though)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; Perhaps not.  It sounds like the problem there was with the files being copied, not with properties being interpolated.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; i'm going to bunk down, bye!</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has left #duraspace</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mhwood&gt; And I'm going to have to leave -- expected elsewhere.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; ok. yea. I need to dig more into this. I'm still a bit confused as to what is going wrong... But, this discussion has helped</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mhwood&gt; Happy to be of service.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-green">* l_a_p (~chatzilla@176.206.48.184) has left #duraspace</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-green">* ksclarke (~kevin@pdpc/supporter/active/ksclarke) has joined #duraspace</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-navy">* ksclarke (~kevin@pdpc/supporter/active/ksclarke) Quit (Ping timeout: 256 seconds)</span><br />

@@ -1,0 +1,262 @@
+<span class="irc-date">[0:58]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp218.evans.tamu.edu) Quit (Quit: scottatm)</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-brooks.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-brooks.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-brooks.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-brooks.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:39]</span> <span class="irc-green">* Asger (~abr@nat.statsbiblioteket.dk) has joined #duraspace</span><br />
+<span class="irc-date">[9:30]</span> <span class="irc-navy">* Asger (~abr@nat.statsbiblioteket.dk) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[9:31]</span> <span class="irc-green">* Asger (~abr@nat.statsbiblioteket.dk) has joined #duraspace</span><br />
+<span class="irc-date">[11:45]</span> <span class="irc-navy">* Asger (~abr@nat.statsbiblioteket.dk) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:47]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-green">* scottatm (~scottatm@adhcp218.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[18:26]</span> <span class="irc-green">* renec (598ee8be@gateway/web/freenode/ip.89.142.232.190) has joined #duraspace</span><br />
+<span class="irc-date">[18:28]</span> <span class="irc-navy">* renec (598ee8be@gateway/web/freenode/ip.89.142.232.190) Quit (Client Quit)</span><br />
+<span class="irc-date">[19:04]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:07]</span> <span class="irc-black">&lt;KevinVdV&gt; Hello everybody</span><br />
+<span class="irc-date">[19:09]</span> <span class="irc-black">&lt;KevinVdV&gt; Is there anybody in here who has access to a DSpace 3.0 release candidate that is NOT the DSpace demo site ?</span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-black">&lt;mhwood&gt; KevinVdV:  I have a 3.0 here.  So far I've done very little with it other than get it running.</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;KevinVdV&gt; mhwood could you perhaps attempt to submit an item &amp; go to the second page &amp; see if the controlled vocs are working (<a href="https://jira.duraspace.org/secure/attachment/12369/Controlled%20vocabulary%202012-02-19.png.jpg)">https://jira.duraspace.org/secure/attachment/12369/Controlled%20vocabulary%202012-02-19.png.jpg)</a></span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;KevinVdV&gt; This stuff appears broken on the demo but I cannot reproduce locally :(</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder that we have our weekly DSpace developers mtg in about 5 mins here.  Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17</a></span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-10-17 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17</a></span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;KevinVdV&gt; mhwood: this is what I see on the dev: <a href="https://jira.duraspace.org/secure/attachment/12728/Screen%20Shot%202012-10-16%20at%2008.51.36.png">https://jira.duraspace.org/secure/attachment/12728/Screen%20Shot%202012-10-16%20at%2008.51.36.png</a></span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;KevinVdV&gt; dev == demo</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV -- if it's any help, we can give you commandline access to demo server (any committer can request it).  (It's possible that something could be misconfigured there, or maybe the upgrade to 3.0 didn't work right)</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;tdonohue&gt; actually, wait. I see you already have access KevinVdV ;)</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;KevinVdV&gt; I have &amp; I already checked the input forms they appear to be in order</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;mhwood&gt; Mine behaves a lot like yours:  when I select "Subject Categories", I get a popup with a tree of subjects.  I can expand and collapse tree nodes, and when I select a leaf it gets set into the Subject: field.</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; ok, it's time for our weekly DSpace Devel Mtg.  Today's agenda is at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-10-17 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;KevinVdV&gt; Ok thx mhwood this is all I needed to know (y)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdv -- just a brief note... I wonder if it's a Theme issue on demo server?  Maybe something got messed up in the upgrade?</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* sands (~sandsfish@18.189.25.238) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;robint&gt; hi all</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; in any case, I'm moving along to our main topics for today.  First up is Testathon discussions</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; I wanted to leave some space here to talk about anything Testathon specific in case we need it.  But, we could also move on to Hardy's #2 he added to the agenda (which is Testathon related, in that we're trying to fix those test failures)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; So, let's talk about the current Unit Testing failure stuff first, and we can loop back around to other issues that we've noticed</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;helix84&gt; regarding demo.dspace.org, I have 2 TODO items which I didn't get to: 1) enable the mobile theme</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; I've been following the discussion between robint &amp; KevinVdV about the Unit Testing failure -- it sounds like they've come to the conclusion that the test itself is "flawed" in some way?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; 2) feeding in some more test data <a href="https://wiki.duraspace.org/display/DSPACE/Redistributable+Repositories">https://wiki.duraspace.org/display/DSPACE/Redistributable+Repositories</a></span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ Redistributable Repositories - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Redistributable+Repositories">https://wiki.duraspace.org/display/DSPACE/Redistributable+Repositories</a></span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; I'd appreciate any help with that, since the official testathon is coming to an end</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;robint&gt; Am I correct in saying the only test failure is the Services one ?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; Ah, sorry tdonohue, typing too slowly</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; yes, robint, as far as I know.  It's the DSpaceServiceManagerTest failure</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; Yes</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; (that's the only failure being reported by Bamboo)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; I don't think we can say that the test is flawed</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; helix84, did you have to turn off any other tests than the one robint just mentioned? when you re-pulled master for deploying on demo?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: i didn't turn off any tests in master. i did it only in my working copy.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;robint&gt; But I think we are reasonably confident that any underlying problem highlighted by the test won't manifest itself in real code at the moment</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;helix84&gt; on demo, i just didn't run them</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;robint&gt; The truth is we can't explain the failure at the moment</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; hmm...which is slightly disconcerting, obviously :)</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;hpottinger&gt; oh, sorry, helix84, I keep thinking in terms of maven releases, which make tests mandatory...</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;robint&gt; tdonohue: definitely</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;robint&gt; but the alternative is to go back to an earlier release of Spring which breaks the XMLWorkflow code</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; so, what is the proposed resolution here?  Have we come down to "just disable it for now"?  Or is there anyone else who may have ideas? (I know our major Services expert is mdiggory obviously, but he's not here)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; from the conversation, I gleaned that there's a difference between how beans are created (programatically vs. from an xml file)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; if we disable it, we should file the problem in jira so that it's not forgotten</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;robint&gt; hpottinger: correct</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;robint&gt; helix84: agreed</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;KevinVdV&gt; I agree</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;KevinVdV&gt; I do find it strange however that you CAN retrieve the bean by name but just not by type</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; so, robint, that would seem to point to something "a little off" in Spring itself... maybe if we change the way the test creates the beans it needs?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; I'm still puzzled as to how the test ever succeeded.  If the thing's a singleton there should be only zero or one of them, yes?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;robint&gt; mhwood: actually no, Spring uses the term Singleton differently from our historical use</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; Ah.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;robint&gt; Just to confuse</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;robint&gt; Coincidentally, or not, this release os Spring contains a bug fix to improve the way getBeansByType() works</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;robint&gt; it *might* be related</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;KevinVdV&gt; Could you give me a url for that robint?</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; Yes I'll dig it out</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-brick">* tdonohue was gonna ask the same thing... would be nice to gather all the info that we have figured out / may be related (perhaps in a JIRA ticket?)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; if it requires work, it oughta be a ticket, I agree tdonohue</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;robint&gt; Anyway, given that we haven't seen any 'real' related bugs so far my vote would be to stick with this version of Spring but continue investigating around a Jira ticket</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;KevinVdV&gt; The code that is tested isn't used in DSpace at the current time (I checked)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; That sounds reasonable to me.  So, would you be willing to create a JIRA ticket on this robint? &amp; add everything that you've figured out or may be related?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; In that case I agree:  turn the test off for now and study it, but don't hold up the release process.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;robint&gt; Will do</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood  -- let's disable this for now, track it, but not hold things up</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;KevinVdV&gt; I will fill in any blanks robint</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; (and if we figure out a resolution before 3.0, great...if not, as long as things are well tested, we should be OK, and hopefully we can figure it out after 3.0)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;robint&gt; Sounds good, cheers</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; +1 mhwood, if the test is for code that isn't actually used, as KevinVdV says... no harm, might as well get on with cutting a new release and all that...</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; so, once we get this test disabled &amp; tracked in JIRA, do we have someone ready to cut 3.0-rc2 (as we may as well do a new RC, since we've already gotten quite a few bug fixes in)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-brick">* hpottinger raises his hand, but looks a tad nervous about it.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;robint&gt; Well done hpottinger :)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; go for it hpottinger.  You'll do fine.  It's actually good practice as there's no specific timeline on this RC2, so if you need extra time or things go odd, no worries :)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;sands&gt; yes, you'll do fine hpottinger.  i can lend advice if you let me know when you're cutting it.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;helix84&gt; i'd like to ask for a little brainstorming here. I hit an issue with master HEAD on my local machine today - "SolrException: Internal Server Error" on any Solr query, including update-discovery-index. I tried deleting the search core data and I made sure my schema.xml is up-to-date. I also deleted [dspace]/solr let ant update comletely recreate it. so the brainstorming question: what are some possible causes Solr could be throwing HTTP error</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;helix84&gt; 500?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; I presume that it logged nothing revealing.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; mhwood: exactly, but let me pastebin it just to make sure i'm not losing sight</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I'd also agree that a check of logs may be necessary.  Also may want to ensure you have the right port configured for Solr, etc. (though it sounds like it is finding Solr, and something else is going wrong after that)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; sands: thanks, I will take you up on that offer, and will rely on your help to ensure there's a proper soundtrack, too. :-) AND on robint to disable that test.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: my solr address is correct</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so, looping back around on our agenda.  Any big things to discuss in testing / Testathon?  Any things folks have noticed or need help on?  (Also, we have a TON of new JIRA bugs we could dig through and assign to volunteers today if we get to it)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;robint&gt; Should we extend the Testathon ?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; it's a good question... I'm not against it.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; More like deploy an RC2 instance and declare a new Testathon?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; i'd say yes</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; robint: I think we should, I would like to ensure rc2 gets a fair shake</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; <a href="http://pastebin.com/unadJyfA">http://pastebin.com/unadJyfA</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ Spam Detection For Paste ID: unadJyfA ] - <a href="http://pastebin.com/unadJyfA">http://pastebin.com/unadJyfA</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-brick">* tdonohue is checking Google Analytics on demo.dspace.org to see what sort of activity we've had</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; helix84: actually I wondered if *Solr* logged anything useful.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; mhwood: ah, yes, let me check again</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; mhwood: nope, not a beep</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;KevinVdV&gt; Ps: if we are going for RC2 could anybody take a quick look @ the following pull requests of mine &amp; accept/comment: <a href="https://github.com/DSpace/DSpace/pull/96,">https://github.com/DSpace/DSpace/pull/96,</a> <a href="https://github.com/DSpace/DSpace/pull/101">https://github.com/DSpace/DSpace/pull/101</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1325] Every Item page has an HTML &lt;title&gt; of "Version History" by KevinVdV · Pull Request #101 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/101">https://github.com/DSpace/DSpace/pull/101</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-brick">* sands passes hpottinger a copy of "Don't Fear The Reaper"</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-brick">* hpottinger faints.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV -- the Pull#101 looked good to me, but it cannot be auto-merged</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdv -- Pull #96 looks good at a glance (haven't tested it, but the fix looks reasonable to me)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; could someone who uses CC licenses in submission workflow in XMLUI please look at <a href="https://github.com/DSpace/DSpace/pull/103">https://github.com/DSpace/DSpace/pull/103</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1336] Creative Commons Locale by helix84 · Pull Request #103 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/103">https://github.com/DSpace/DSpace/pull/103</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;KevinVdV&gt; No ? I see a green "Merge pull request button"</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; so do I :-)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;KevinVdV&gt; So who wants to push the button ?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; oh wait -- that's odd.  I thought I saw the gray button on pull #101 (my eyes are messing with me)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; houston: eagle is cleared for landing</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; I'm feeling "button happy" today...I'll click the button on #96 &amp; #101 ;)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; umm, you're not going to build them? :p</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-brick">* hpottinger cheers for tdonohue.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;helix84&gt; wow, this "testing" is easier than I thought</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; 101 already looked good (I tried it out).  96 looks rather small, and I'm gonna just "trust it".  If it fails, I'll roll it back.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;KevinVdV&gt; Thanks tdonohue</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; "trusted developers" and all that, we used to "just commit" all the time.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; i think i', going to push a lot of buttons today. and throw in a prayer.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; button pressed on both.  We'll wait for Bamboo to complain (currently though it will complain about that one known unit test)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; actually I was going to test #101 today, just spent the rest of my day on the solr issue</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-brick">* mhwood remembers seeing any number of untried patches on the Linux Kernel ML labelled "obviously correct".</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so I've got a topic for you all.   Have any of you tried out our IDE instructions for 3.0 + build.properties?   News flash: They don't entirely work (our old "dspace.config" property that helped you run a webapp from your IDE is gone)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; I emailed dspace-devel about this, but I figured I'd ask to see if I'm just being dumb and overlooking something obvious here?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially, I want to be able to kick off a DSpace WebApp from my IDE so that I can debug it live, etc.  I used to do that via the "dspace.config=[path-to-dspace.cfg]" property, but that's now gone</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; doesn't build.properties give you the same thing that the dspace.config property gave you?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- I cannot get it to work right yet in NetBeans at least.  But, maybe I'm doing something wrong.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially, I've tweaked build.properties, kicked off a webapp from NetBeans, and NetBeans errors out (I think the web.xml isn't getting filtered right or something, and the "dspace.config" property used to do that)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; But, if no one else is seeing this, maybe it's just me</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; I've been re-working my IDEA setup to get me into the new Git era... am right at the point of trying to run Tomcat in IDEA, so I can chime in on the mail list if I also run into trouble... but, if there are tricks we need to know about, I'm all ears.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Is there a way (from the IDE) to get the servlet container to supply that value, as one can in production?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; I just thought I'd ask to see if anyone has tried doing debugging from an IDE with 3.0</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;robint&gt; Ah! I think I know why...</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- I actually don't know the "trick" yet.  I'm just reporting that the old "dspace.config" property trick is now broken</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; robint: I'm all ears ;)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;robint&gt; Pre 3.0 - a normal build didn't filter web.xml</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;robint&gt; but if you specified -Ddspace.config it did</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; correct, robint.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;robint&gt; The original change from Steve Swinburg changed that behaviour so that web.xml was always filtered</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;robint&gt; But that then meant that you couldn't use -Ddspace.config with Ant to filter at that stage</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;robint&gt; because web.xml had already been filtered</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;robint&gt; So I undid the bit that filters web.xml automatically in the Maven build to preserve the old behaviour</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;robint&gt; have a look at any UI pom and you will see that the filtering is turned off by default</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;robint&gt; but you can turn it on if your site preference is to filter at build time</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;robint&gt; Personally I think its all  bit messy</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;robint&gt; Although no more so than it was before</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-brick">* helix84 is hoping that for 4.0, lyncode will save us all with his configuration system rewrite</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; I guess I still don't fully understand what the "new way" is.  It seems like "build.properties" is nice, but I still need to be able to debug webapps from my IDE</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; But, if there "is no new way yet", then at least I know I have freedom to dig around in Maven and see if I can find a way to enable *both* build.properties and possibly the old "dspace.config" option</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, maybe I should take this back to dspace-devel.  I don't want to take up all our time here.  But, I did want to make everyone aware of this problem, so that hopefully we can determine new "best practices"</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Any way to set the Context parameter "dspace-config" from your IDE?  Just override whatever is in web.xml.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- not that I'm aware of.  I could set it perhaps in Tomcat directly.  But, that's a bit of a "messy" development environment to explain to all the other DSpace Developers out there</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;robint&gt; Hi, sorry got kicked out at a bad moment</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; I was hoping to have something easier...but, again, if anyone has ideas or figures it out for *any* IDE (I suspect they all have this issue), let me know</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; i've seen a weak consensus on "extending the testathon" today. does that mean the end date will just move or do we take some time to fix the bugs (a lot of work!) and then announce another testathon round? obviously, the demos erver will continue to run.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; The RT should decide when an RC is ready to test.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;robint&gt; tdonohue: bring it up on dspace-devel and I'll chip in</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: either option is open.  Some years, we don't do a second testathon (as things were "mostly stable"), but other years we have made decisions to run a second "mini-Testathon" (usually just a week), but usually that's *after* we have time to fix bugs</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: as mhwood says -- I delegate the final decision to the RT. But, if they want feedback from all, just ask</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; robint: it's already brought up on dspace-devel (about 1hr ago), so feel free to chip in with ideas</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I just asked :) I strongly recommend the second option. There are a lot of unfixed bugs. And we should announce another round so that we don't lose testers' attention.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;robint&gt; I guess it just depends how quickly we can get through the bugs</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; Well... there's RCs and then there's bugfix releases...</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; from what i've seen here today, it could take as little as 10 minutes :D</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;robint&gt; :)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; Current bug list for 3.0: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution%3DUnresolved+ORDER+BY+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution%3DUnresolved+ORDER+BY+priority+DESC</a></span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution%3DUnresolved+ORDER+BY+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.0%22+AND+resolution%3DUnresolved+ORDER+BY+priority+DESC</a></span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; The idea is that if the RCs are well tested then there won't be any bugfix releases.  (There always are, but one tries....)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; OTOH lots of products ship with known minor bugs to be fixed RSN.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; as best as we can, I think it'd be good to not ship with "known bugs"...but if they are minor it might not be the worst thing.  Just would be good to at least divvy up what is already "known" amongst us</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;helix84&gt; i don't remember any show-stoppers, but there are a lot of minor ones</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; so, we could review the list of bugs and identify any that would be blockers for 3.0</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; Classify:  (1) must be fixed, (2) can be fixed fast, (3) can wait if necessary.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood... or, we do that via the priority levels in JIRA</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; sounds like a job for the RT</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Next RC waits on 1 &amp; 2.  Schedule another RC to take on 3.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;robint&gt; Sorry but got to run, cheers</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Or some 3s will be done post-ship.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; It is worth noting I've found one semi-bad bug: DS-1333 (Not recommending that we talk about this now...just wanted to make folks aware)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1333">https://jira.duraspace.org/browse/DS-1333</a> ] - [#DS-1333] Versioning an Item causes some metadata values to be lost - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; I would recommend that the RT go through &amp; categorize bugs &amp; even perhaps attempt to assign some that don't have designees (post about them to dspace-commit or similar to try and get a volunteer?)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; (I should also note that the current bug list in JIRA may actually have some tickets that can be immediately closed, as their Pull Request was already committed...I've found a few recently &amp; closed them)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; I will try to do a part. But I'd also like to ask every committer to take a look a the pending bugs (Jira link above) and see what they can fix.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-brick">* tdonohue notes that RT should not be expected to *fix* the bugs.  Just help try and get some volunteers by noting which one need volunteers</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;KevinVdV&gt; I'm current spending my lunch breaks on fixing as much as I can</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; The committers just need a poke/prod sometimes :)  Usually though folks will step forward &amp; volunteer -- esp. if they accidentally caused the bug</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; I'ma fix myself a lunch, too</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; :)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;KevinVdV&gt; To the release team, if you want me to take a look at a certain issue, just let me know &amp; I will do my best</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; thanks, kevin</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;sands&gt; Thank you KevinVdV.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  we're out of time here.  I'll note we didn't get to Hardy's other topic about potentially moving a theme or two into a separate maven project.  But, I wonder if that might be better to bring to dspace-devel or similar (it seems too late to do that for 3.0)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;sands&gt; Much appreciated.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; did you do versioning? 1333 sounds like a hot candidate?</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; Yes, to dspace-devel.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; Must go.  'bye all.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: i missed that about themes</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;sands&gt; ditto.  cheers everyone.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-navy">* sands (~sandsfish@18.189.25.238) Quit (Quit: sands)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-brick">* tdonohue does encourage folks to feel free to add topics to the weekly agenda (as hpottinger did this week).  Some weeks I may need some prompting on what topics are important to folks.  I'm glad for anyone to add to agenda</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: It's listed as #3 on today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17</a></span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-10-17 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-10-17</a></span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; oh, yes, I'll bring it up on dspace-devel... I think we really need to consider refactoring themes out of the main repository, to make them easier to trade around</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: sounds like a very good suggestion to me</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;KevinVdV&gt; Takes "DS-1333"</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1333">https://jira.duraspace.org/browse/DS-1333</a> ] - [#DS-1333] Versioning an Item causes some metadata values to be lost - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; is PeterDie_ here today?</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; thanks kevin!</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- yea, I agree it's a very interesting idea.  I just don't exactly know how easy/hard it would be (and whether there may be a way to test it out first, before jumping in head first)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: it's easy to test things like this with git. just clone a repo and experiment away.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; well, then I'd encourage interested folks to test it out / do a proof of concept &amp; let us know if it seems like it'd be a good way forward for themes.  I just don't know enough yet about how git "submodules" work and whether that'd be a better approach for themes</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;helix84&gt; honest'y, i never _created_ a repo with sumbodules, either</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;helix84&gt; but i'd leave it up after the release</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: I'm experimenting with doing a sparse checkout of DSpace/DSpace (just grabbing the Mirage theme folder), and then using a subtree merge into a new bare repository.... but I'm just guessing at this point, it may or may not work.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: there's some admin stuff i just remembered I wanted to talk to you about</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; what sort of admin stuff?</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; something about confluence, but I must remember :)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;helix84&gt; I always find bugs and then forget reporting them</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; well, you can always email me or sysadmin@duraspace.org (our admin list)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; i ought to do it right away when i encounter them. it's always just minor things and then I forget.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; bug list, with new bugs on top: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?sorter/field=created&amp;sorter/order=DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?sorter/field=created&amp;sorter/order=DESC</a></span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?sorter/field=created&amp;sorter/order=DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?sorter/field=created&amp;sorter/order=DESC</a></span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; apropos sysadmin@ - is there just you at the moment or also someone else?</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; and do you prefer using sysadmin@ or your personal email?</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; If it's an admin task (like wiki / jira / etc) that is not DSpace specific, it's best to use sysadmin email. That goes to three people: myself, Bill Branan &amp; Andrew Woods (both work on DuraCloud).  If it's something very Dspace specific, you can just email me if you want</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;hpottinger&gt; and... just the unassigned bugs (12 of them), <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+issuetype+%3D+Bug+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+AND+fixVersion+%3D+10543+ORDER+BY+created+DESC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+issuetype+%3D+Bug+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+AND+fixVersion+%3D+10543+ORDER+BY+created+DESC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+issuetype+%3D+Bug+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+AND+fixVersion+%3D+10543+ORDER+BY+created+DESC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+issuetype+%3D+Bug+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY+AND+fixVersion+%3D+10543+ORDER+BY+created+DESC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; thanks, i'll keep that in mind</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; the obvious bonus for the sysadmin list is that if I'm not around, someone else can take care of it.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: nice.  It's good the unassigned list is so few</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;helix84&gt; i'll head out now. have a nice day!</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has left #duraspace</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;KevinVdV&gt; Needs to run</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- In tests, 0x09 out of 0x0A l33t h4x0rz prefer it :))</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; yep..later all. I'm heading into lurking mode too.</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />

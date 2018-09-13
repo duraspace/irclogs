@@ -1,0 +1,57 @@
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-pratchett.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-pratchett.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-pratchett.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-pratchett.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:37]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:50]</span> <span class="irc-green">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-green">* ajs6f (89369ba4@gateway/web/freenode/ip.137.54.155.164) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-green">* eddies1 (~eddies@245.17.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-navy">* eddies1 (~eddies@245.17.113.78.rev.sfr.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-green">* eddies1 (~eddies@245.17.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://cxf.apache.org/docs/defining-contract-first-webservices-with-wsdl-generation-from-java.html">http://cxf.apache.org/docs/defining-contract-first-webservices-with-wsdl-generation-from-java.html</a></span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;kompewter&gt; [ Apache CXF -- Defining Contract first webservices with wsdl generation from java ] - <a href="http://cxf.apache.org/docs/defining-contract-first-webservices-with-wsdl-generation-from-java.html">http://cxf.apache.org/docs/defining-contract-first-webservices-with-wsdl-generation-from-java.html</a></span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-navy">* eddies1 (~eddies@245.17.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-green">* eddies1 (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-navy">* eddies1 (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-green">* eddies_ (~eddies@245.17.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-navy">* eddies_ (~eddies@245.17.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-green">* eddies_ (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-security/fcrepo-security-jaas/src/main/java/org/fcrepo/server/security/jaas/AuthFilterJAAS.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-security/fcrepo-security-jaas/src/main/java/org/fcrepo/server/security/jaas/AuthFilterJAAS.java</a></span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-green">* birkland (183a31ec@gateway/web/freenode/ip.24.58.49.236) has joined #duraspace</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo-security/fcrepo-security-jaas/src/main/java/org/fcrepo/server/security/jaas/AuthFilterJAAS.java at master from fcrepo/fcrepo - GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-security/fcrepo-security-jaas/src/main/java/org/fcrepo/server/security/jaas/AuthFilterJAAS.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-security/fcrepo-security-jaas/src/main/java/org/fcrepo/server/security/jaas/AuthFilterJAAS.java</a></span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-navy">* eddies_ (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/servletfilters/FilterRestApiAuthn.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/servletfilters/FilterRestApiAuthn.java</a></span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo-server/src/main/java/org/fcrepo/server/security/servletfilters/FilterRestApiAuthn.java at master from fcrepo/fcrepo - GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/servletfilters/FilterRestApiAuthn.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/servletfilters/FilterRestApiAuthn.java</a></span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-green">* cwilper (4a2c986e@gateway/web/freenode/ip.74.44.152.110) has joined #duraspace</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-green">* eddies_ (~eddies@245.17.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-navy">* eddies_ (~eddies@245.17.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-green">* eddies_ (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-navy">* eddies_ (~eddies@unaffiliated/eddies) Quit (Client Quit)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-green">* eddies_ (~eddies@245.17.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-navy">* eddies_ (~eddies@245.17.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-green">* eddies_ (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-navy">* eddies_ (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-green">* eddies_ (~eddies@245.17.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-navy">* eddies_ (~eddies@245.17.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-green">* eddies_ (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-navy">* ajs6f (89369ba4@gateway/web/freenode/ip.137.54.155.164) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-navy">* birkland (183a31ec@gateway/web/freenode/ip.24.58.49.236) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-green">* robertqin (~robertqin@bb220-255-27-45.singnet.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-navy">* robertqin (~robertqin@bb220-255-27-45.singnet.com.sg) Quit ()</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-navy">* cwilper (4a2c986e@gateway/web/freenode/ip.74.44.152.110) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-navy">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[18:16]</span> <span class="irc-green">* eddies_ is now known as eddies</span><br />
+<span class="irc-date">[19:13]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:38]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* vibhaj (0e61d2bc@gateway/web/freenode/ip.14.97.210.188) has joined #duraspace</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-green">* vibhaj (0e61d2bc@gateway/web/freenode/ip.14.97.210.188) has left #duraspace</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has left #duraspace</span><br />

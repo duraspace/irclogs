@@ -1,0 +1,311 @@
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-lindbohm.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:03]</span> <span class="irc-green">* kshepherd (kim@ec2-184-73-177-234.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[9:04]</span> <span class="irc-navy">* kshepher1 (kim@ec2-184-73-177-234.compute-1.amazonaws.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[11:21]</span> <span class="irc-green">* eddies (~eddies@c-98-206-13-6.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:21]</span> <span class="irc-navy">* eddies (~eddies@c-98-206-13-6.hsd1.il.comcast.net) Quit (Changing host)</span><br />
+<span class="irc-date">[11:21]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[12:15]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:46]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[13:00]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:26]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-navy">* ruebot (~ruebot@LB-SC-S1B4DB.library.yorku.ca) Quit (Ping timeout: 268 seconds)</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-green">* ruebot (~ruebot@LB-SC-S1B4DB.library.yorku.ca) has joined #duraspace</span><br />
+<span class="irc-date">[19:03]</span> <span class="irc-green">* hpottinger (~hpottinge@216.106.51.181.reverse.socket.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, just a reminder we have a DSpace Devel mtg coming up in ~10mins here: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-19</a></span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-09-19 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-19</a></span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-green">* kstamatis (25067e1d@gateway/web/freenode/ip.37.6.126.29) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all..it's that time again.   DSpace Developers Mtg is starting now: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-19</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-09-19 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-09-19</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-green">* nhoussos (5548ce9a@gateway/web/freenode/ip.85.72.206.154) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Today's agenda is really all about 3.0 schedule updates.  I'm admittedly a bit hazy on where we stand now, and whether we need to tweak the schedule further.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone from the Release Team care to update us all / kick off the discussion on 3.0 next steps?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;robint&gt; Erm I confess I'm a bit hazy myself</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  Well, here's the current 3.0 Task list: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks">https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 3.0 Tasks - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks">https://wiki.duraspace.org/display/DSPACE/DSpace+3.0+Tasks</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mdiggory&gt; Hello everyone... I may be a little slow in responding due to using iPad</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; On that list, it looks like most of the features/improvements have been already merged.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; Though, I know there are a few outstanding things...one being the Maven Project Consolidation work (which was specifically scheduled for "post-freeze")....hi mdiggory good timing!</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;mdiggory&gt; The versioning and workflow contributions @mire is working on will need to be caught up to master before they can be merged</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- how long will that take?  I think we're already "post-freeze" officially, which means you need an exception from the Release Team</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Client Quit)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; I will just blurt out here that things appear to be moving along quite well.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- how long will that (versioning &amp; workflow) take?  I think we're already "post-freeze" officially, which means you need an exception from the Release Team</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; (that is, if you haven't already gotten one)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; I'm pretty sure that can be worked out</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mdiggory&gt; we already voted these contributions in, i don't understand how we can vote something to officially added to 3.0, and then limit including those we agreed to because the commit deluge made merging them more difficult.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mdiggory&gt; the policy/approach to the second freeze is a bit wonky...</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I recall they were voted in, we should get them in if delay is not *too* great.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yes we voted them in. But, we still have deadlines obviously :)  So, we cannot postpone indefinitely</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mdiggory&gt; ok.... I'm not going to stoke the fire here...</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; I think what tdonohue is after is a commitment to a timeframe, yes?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; I'll note that currently the 3.0 Schedule still says Testathon is *next week*.  Obviously, that's not happening, but we should try and determine when exactly Testathon will be, so we can advertise it: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 3.0 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-TimelineandProcessing</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; [I should mention that I very much want some of the stuff in versioning for something I'm working on, so perhaps not completely objective.]</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; yes...I'm just looking for a timeframe for when we can expect the last tasks to get done, so we can sschedule testathon</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; I think we need to understand that freeze should mean that we are not accepting any new features that were not already voted on.  Are we seeing a number of new features slipping through this at this time?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; (I'd also love to see versioning &amp; workflow stuff get in..but we just need to work to get them in soon, so we aren't delaying Testathon &amp; 3.0 for too long)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- that's what the freeze means.  We are not adding new features at this time.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; TBH... if these "features" are getting commited before the ones that were officially voted on... these are the ones that are stalling the final official features getting in.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; If there's something with which I could help out on versioning without creating a Regenerative Scheduling Disaster, I could lend a hand.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mdiggory&gt; because every commit generally forces us to go back and rebase just to get back to the point we can merge the pull request</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- I'm assuming it could just be the case that folks *thought* there's nothing else big to be committed, so they started adding more small stuff.  Obviously it's complicated things.  But, the end question is, what time is needed?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; I'm going to rework the DS-1182 patch to put off EmailService for 4.0 but hope to have an acceptable bugfix-only version soon.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1182">https://jira.duraspace.org/browse/DS-1182</a> ] - [#DS-1182] Javamail: Getting Session object with getDefaultInstace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mdiggory&gt; That table in the wiki seems very long,  itd be better if we move the stuff not commited up into a separate table....</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; maybe next year we prioritize the merge schedule, and try to get the big commits in first?</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger++</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; We could/should delay any bug fixes to allow the remaining new features to be committed</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;robint&gt; hpottinger: way ahead of me</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; robint++</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; robint:  yes, will just get my work ready.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-brick">* tdonohue notes it would be good for everyone (release team especially) to start to think about how we can improve things in the future.  Obviously this is our first time doing the Release Team &amp; GitHub-based release...so, I'm sure there's tons we can tweak in future.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; What are the list of remaining pull requests that were voted in</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;robint&gt; noted</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; looking down the page of tasks...looks like the "outstanding pulls" include...</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;robint&gt; Other than the @Mire stuff I think possibly just Elastic Search stuff and the batch import stuff from the EKT guys (hi Kostas!)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Maven Project Consolidation (post-freeze): <a href="https://github.com/DSpace/DSpace/pull/5">https://github.com/DSpace/DSpace/pull/5</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ [IN-PROCESS] [DS-1144] Maven Project Consolidation by mdiggory · Pull Request #5 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/5">https://github.com/DSpace/DSpace/pull/5</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; anyhow, My intention today is to see what I can clear immediately and schedule out anything that will require additional effort to rebase.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kstamatis&gt; robint: hi</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; I recommend we focus on MPC last</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kstamatis&gt; robint: I will try to see tomorrow any new comments reagrding <a href="https://github.com/DSpace/DSpace/pull/46">https://github.com/DSpace/DSpace/pull/46</a> add update the code</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1226] Batch import from major bibliographic formats by EKT · Pull Request #46 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/46">https://github.com/DSpace/DSpace/pull/46</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kstamatis&gt; hope it can be included in 3.0</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;robint&gt; Thanks for all your hard work kstamatis</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; I am happy to see the servicemanager support.  I'm still seeing use of package names that are not org.dspace</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; indeed, pull #63 needs merging, it is approved</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; what's the best way to go through this list of outstanding stuff?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kstamatis&gt; robint: you are welcome, just trying to conform our work to your needs - first time contributors here :)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; just for clarification on #46 I am happy with it, I would like to see the package naming and some of the recommendations I made for how to use a service addressed, but after the package naming is address, you can consider my -1 vote reversed</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; thanks mdiggory</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/DSpace/DSpace/pull/63">https://github.com/DSpace/DSpace/pull/63</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1241 Statistics implementation in Elastic Search by peterdietz · Pull Request #63 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/63">https://github.com/DSpace/DSpace/pull/63</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kstamatis&gt; mdiggory: I will see the issues first thing in the morning and I will commit, thanks a lot</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; 63 can be automatically merged</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; likewise</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/DSpace/DSpace/pull/71">https://github.com/DSpace/DSpace/pull/71</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1130] Controlled vocabulary support for the XMLUI by KevinVdV · Pull Request #71 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/71">https://github.com/DSpace/DSpace/pull/71</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; 71 can be automatically merged</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/DSpace/DSpace/pull/75">https://github.com/DSpace/DSpace/pull/75</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1249] Configurable Workflow Improvements by mdiggory · Pull Request #75 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/75">https://github.com/DSpace/DSpace/pull/75</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; 71 can be automatically merged</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; sorry... I meant 75 can be automatically merged</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/DSpace/DSpace/pull/72">https://github.com/DSpace/DSpace/pull/72</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1194] Atmire dspace 3.0 versioning contribution by KevinVdV · Pull Request #72 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/72">https://github.com/DSpace/DSpace/pull/72</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; 72 cannot be automatically merged and needs to have conflicts resolved</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/DSpace/DSpace/pull/69">https://github.com/DSpace/DSpace/pull/69</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1243] @mire solr statistics contribution by KevinVdV · Pull Request #69 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/69">https://github.com/DSpace/DSpace/pull/69</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; 69 cannot be automatically merged</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; "automatically merged" = no conflicts, any committer can push the button?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; and needs to have conflicts resolved</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; correct</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/DSpace/DSpace/pull/58">https://github.com/DSpace/DSpace/pull/58</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1240] Sword V2 doesn't support the configurable workflow by KevinVdV · Pull Request #58 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/58">https://github.com/DSpace/DSpace/pull/58</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; 58 can be automatically merged</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-brick">* hpottinger can push buttons just fine...</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/DSpace/DSpace/pull/34">https://github.com/DSpace/DSpace/pull/34</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1061] Filenames and BitstreamFormat detection break on filenames with equal signs in them by KevinVdV · Pull Request #34 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/34">https://github.com/DSpace/DSpace/pull/34</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; 34 can be automatically merged</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;robint&gt; Push hpottinger ! (I feel like a midwife)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-brick">* tdonohue wonders outloud whether automatically merging some will cause more conflicts to emerge (just something to be aware of)...hopefully not too many more though</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mdiggory&gt; outside of the Maven Consolidation... these are the remaining PR that my group invested work into</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; Do the largest ones first?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: you are correct....</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; So, do we need to schedule or assign these to specific folks?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; just want to try and find a way to get this done relatively soon, etc.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; I'm ok with trying 75, 71 58 and 34 now to see if theres any further problems after these</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; then I will be available to debug issues if theres breakage</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; OK, from mdiggory's list: 63, 71, 75, 58, 34 are OK to go</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; I will probibly need more time for 72 and 69</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; and, conversely, 72 and 69 need more care</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: any "guesstimate" on how much time 72 &amp; 69 may take?  are we talking days? week? multiple weeks?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; (just trying to plot out when we think "maven consolidation" can also start -- and then when we think it'd be reasonable to do RC1 &amp; Testathon)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; since 69 cannot be merged at them moment, I suggest we do attempt 63 now and just add any conflict that would arise from it into the work that will already need to happen on 69</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; sorry.  I assume any outsider is currently completely lost...</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: days</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; I'm ready to go all crazy with "merging" this afternoon</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-brick">* tdonohue notes that many of these major features do not seem to have much in the way of docs yet.  We need docs in order to test them in Testathon.  (Looking specifically at PeterDietz &amp; ElasticSearch plus various @mire things, esp. versioning)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mdiggory&gt; hpottinger: pull the trigger on 63...</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; we have a draft ready to go into DOCS</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; "push the button, max!"</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;PeterDietz&gt; I'll docify elastic search</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; MAX...!</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; sorry to be a stickler on the "docs" -- just trying to remind everyone that it's important to have soon!  Best place to put your docs is right into the 3.x area: <a href="https://wiki.duraspace.org/display/DSDOC3x/DSpace+3.x+Documentation">https://wiki.duraspace.org/display/DSDOC3x/DSpace+3.x+Documentation</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 3.x Documentation - DSpace 3.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC3x/DSpace+3.x+Documentation">https://wiki.duraspace.org/display/DSDOC3x/DSpace+3.x+Documentation</a></span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; oh, look, GitHub even eggs you on when it's an automatic merge... cool</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;robint&gt; tdonohue: I'll do some chasing up on docs</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so it sounds like we have many pulls about to be merged....@mire/mdiggory needs a few more days for #72 &amp; #69.  Does that mean it could be reasonable to *start* Maven Consolidation work early next week (Mon or Tues)?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; Or is next Weds/Thurs more reasonable as a start time for Maven Consolidation work?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; beginning of the week....</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  mdiggory, are you still planning/willing to take the lead on Maven Consolidation work?  Just want to verify you are still willing &amp; have time</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; yes I am</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; Cool, thanks a ton, mdiggory</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; did Max push the button yet?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;robint&gt; I'll start a conversation within the RT about actually doing the release for RC1</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; Ok..that all being said, it sounds like our schedule is mapping out to be the following:</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; Today/Tomorrow -- merge stuff that can be merged automatically (hope nothing big breaks)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; Tomorrow/Fri/Mon -- @mire will clean up #69 &amp; #72 and merge</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; Early next week (Mon/Tues/Weds) -- mdiggory will do Maven Consolidation (I'll be in IRC if you need help, Mark)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; 63-button pressed</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; Hopefully by next Fri (Sept 28) we could be stable enough to potentially release RC1.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; 71 checked and is still auto.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: I've got KevinVdV back from his Honeymoon next Monday... so maybe shift it one day</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; but there can be some overlap</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; yep.  makes sense, mdiggory.  These are "loose" timelines</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; if anyone is interested, here's my list of buttons in order: 75, 71, 58, 34</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; ok, 75 is still good... MAX, push the button!</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; 71 still good too...</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; as is 58</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; and 34</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; I think the final question is "When is Testathon?"  It sounds like if we rush things (and nothing goes wrong), we *might* be ready for Testathon starting Mon, Oct 1 (assuming RC1 can be released next Fri, Sept 28).  But, I'm wondering if we need more of a buffer?  Should Testathon start Mon, Oct 8?  Or mid-week the week of Oct 1?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; 75-button pressed</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;PeterDietz&gt; max is pressing buttons on #75.. it live updates the page as your looking at it.. wether others comment, or if commits come in</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;robint&gt; tdonohue: how much in advance do you think we need to tell people ?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; Max what did you do?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; I've got a pink Unicorn with a rainbow for hair in my browser window...</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; robint -- for Testathon, I'd recommend we try to advertise it at least a week or two in advance.  Likely not more than two weeks is necessary.  That's why I'm trying to nail down dates ;)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;robint&gt; Could we schedule for 1Oct but delaying telling people for a few days to see how commits go ?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Well, that's me, but I'm only watching....</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; 71-button pressed</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;PeterDietz&gt; Isn't that whats supposed to happen when max presses the button? (something to go wrong)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; robint -- we could do that.  Tentatively schedule Testathon for Oct 1, and then the Release Team can make final decision Tomorrow/Fri (based on merges) as to whether to push it back.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; you guys are cracking me up, don't want me LOLing when I'm pressing these buttons, do you? ;-)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;robint&gt; tdonohue: Oct 1 keeps the pressure on, no bad thing :)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; +1 -- feel the pressure everyone ;)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; two left: 58 and 34</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-brick">* mdiggory has seen too many unicorns with rainbow hair now that his daughter started watching my little pony cartoons every time she gets the tv remote...</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, then Testathon is tentative for Oct1.  RC1 is tentative for Fri, Sept 28 (next friday).  If anything starts to go wrong or schedules need to change, let the Release Team know!</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; who will cut RC1?</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;robint&gt; mdiggory: to be discussed</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; I'm assuming Release Team will cut RC1, or assign it to someone if they are willing</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; <a href="http://unicornify.appspot.com/">http://unicornify.appspot.com/</a></span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kompewter&gt; [ Unicornify! ] - <a href="http://unicornify.appspot.com/">http://unicornify.appspot.com/</a></span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;robint&gt; I'll raise it with Sands on dspace-release</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; I'm also assuming Release Team will announce Testathon, or assign it to someone if they are willing/volunteer  (FYI -- I can pass along old announcements if you cannot locate them from 1.8/1.7 testathons)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-brick">* mdiggory imagines RT sitting around a handfull of straws, trying not to choose the short one.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;robint&gt; ... take one step back...</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; virtual straws!</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;hpottinger&gt; phew, man, this merging stuff is nerve-wracking</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mdiggory&gt; hpottinger: did you break a nail?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger is doing the hard work while we all talk about virtual straws and unicorns</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; "hard work"</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; s/hard work/"hard work"/</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; tdonohue meant to say: hpottinger is doing the "hard work" while we all talk about virtual straws and unicorns</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  Anything else to tackle today around 3.0?  It sounds like the schedule is shaping up, and we have a plan!</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; OK, unless we want to really get crazy, I think that's all the "auto merges" on the table</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; kompewter is cool.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; 58 and 34?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; oh, I forgot: 58 and 34: buttons pressed (I think)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; and 3.0 is shaping up to be a massive release!  Kudos to everyone (contributors, committers, RT) for that!</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; "We can Melt, we can Blast, we can Rise Above...."</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-brick">* hpottinger looks around nervously</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; Thanks for all the hard work hpottinger!</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; wow..those automerges all worked!  No cross-conflicts...that's awesome</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-brick">* hpottinger flexes.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; we'll see... now for the Bamboo build ;-)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks for all the "hard work" "hpottinger"!</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietz&gt; So, do we want to assign the remainders a status of post-3.0 milestone, (except for the approved but not auto)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-brick">* hpottinger kicks the ground, aw shucks.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; I'm not sure... what do we have left that should go into 3.0?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-green">* lyncode (~Lyncode@188.250.34.172) has joined #duraspace</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/DSpace/DSpace/pull/53">https://github.com/DSpace/DSpace/pull/53</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1224] Export items in various bibliographic formats by EKT · Pull Request #53 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/53">https://github.com/DSpace/DSpace/pull/53</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; We have a "4.0" milestone (in JIRA that is) already...so, anything that missed 3.0 could be scheduled in JIRA for 4.0</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;robint&gt; Need to review the bug fixes</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; Bug fixes obviously can still get in...but, we may want to merge in the last features first</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;robint&gt; yep</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mdiggory&gt; This can be merged.... <a href="https://github.com/DSpace/DSpace/pull/81">https://github.com/DSpace/DSpace/pull/81</a></span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1023] Patch to allow linebreaks in &lt;textarea&gt; boxes by nesovi · Pull Request #81 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/81">https://github.com/DSpace/DSpace/pull/81</a></span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; Somebody made Bamboo cry (cause of a missing license header): <a href="https://bamboo.duraspace.org/browse/DST-TRUNK-98">https://bamboo.duraspace.org/browse/DST-TRUNK-98</a></span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace - Master Test 98: Build Result Summary - DuraSpace Bamboo ] - <a href="https://bamboo.duraspace.org/browse/DST-TRUNK-98">https://bamboo.duraspace.org/browse/DST-TRUNK-98</a></span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mdiggory&gt; hpottinger!!!!!!!</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-brick">* hpottinger pouts.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;PeterDietz&gt; crap!! It was me</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; Yep..ElasticSearch made Bamboo cry</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mdiggory&gt; hehe...</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;PeterDietz&gt; a javascript and a css file...</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; This is why I put &lt;maven.test.skip&gt;false&lt;/maven.test.skip&gt; in ~/.m2/settings.xml</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;PeterDietz&gt; I did check my Java files</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;PeterDietz&gt; Should I commit directly to master with the fix, or make a PR?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mdiggory&gt; this is not too bad...</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz --if either of those is not actually "owned" by DSpace/DuraSpace, then we can add in an exception (to not check the header).  Otherwise, they need the proper header obviously</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; You can commit directly to master for something this small (IMHO).  It's just a few headers.  Though, I'd recommend determining that those are the *only* ones missing before doing the commit...otherwise Bamboo may just throw later failures</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;robint&gt; Got to run, cheers all</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-brick">* hpottinger thinks GitHub needs a bit of work, if it missed the license headers...</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mdiggory&gt; You could even do it in the web browser if your really lazy</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-navy">* ruebot (~ruebot@LB-SC-S1B4DB.library.yorku.ca) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-brick">* tdonohue notes that we don't have anything else on the agenda today.  So, if you need to head out feel free obviously... Or stick around and continue our discussions of Bamboo &amp; unicorns</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; GitHub doesn't run CI tests; it just checks for text change collisions between commits.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood.  The license check only happens when Bamboo runs "mvn clean package license:check -Dmaven.test.skip=false"</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; You too can verify licenses on your own machine just by running "mvn license:check"</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; s/licenses/license headers/</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;kompewter&gt; tdonohue meant to say: You too can verify license headers on your own machine just by running "mvn license:check"</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;PeterDietz&gt; We don't stamp our license on top of some jQuery UI (datepicker accessible library)  files I believe</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; correct. You should *never* steal someone else's license.  Instead, add an exclusion to the appropriate POM...in this case the dspace-xmlui-webapp POM...let me find it.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; Right about here: <a href="https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/dspace-xmlui-webapp/pom.xml#L52">https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/dspace-xmlui-webapp/pom.xml#L52</a></span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-xmlui/dspace-xmlui-webapp/pom.xml at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/dspace-xmlui-webapp/pom.xml#L52">https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/dspace-xmlui-webapp/pom.xml#L52</a></span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; Those are the files that are *excluded* from a license header check.  it looks like any file starting with "jquery*" should already be excluded from a check</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-brick">* hpottinger makes a note to add license:check to all mvn command aliases</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-brick">* tdonohue also notes that running "mvn install" automatically kicks off "license:check" as well.  It's just that a normal "mvn package" doesn't do the license header check...so you need to run "mvn package license:check"</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;PeterDietz&gt; I've fixed the affect files, got a license:check pass locally, and committed it. Hopefully baboon will re-run itself, and we pass</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; yep, bamboo (not baboon ;) will see the commit &amp; rerun shortly.  It should pass since you got it to pass locally (bamboo isn't doing anything fancy...just running maven to do the same check automatically)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; Got to go, thanks all!</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;lyncode&gt; is there any checklist to be used before merging?</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; There's a contribution checklist (semi-oldish &amp; possibly slightly outdated) at: <a href="https://wiki.duraspace.org/display/DSPACE/Code+Contribution+Guidelines#CodeContributionGuidelines-CodeContributionStandards">https://wiki.duraspace.org/display/DSPACE/Code+Contribution+Guidelines#CodeContributionGuidelines-CodeContributionStandards</a></span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Code Contribution Guidelines - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Code+Contribution+Guidelines#CodeContributionGuidelines-CodeContributionStandards">https://wiki.duraspace.org/display/DSPACE/Code+Contribution+Guidelines#CodeContributionGuidelines-CodeContributionStandards</a></span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; Is that what you mean, lyncode?</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;lyncode&gt; this is very verbose checklist</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; Lyncode: today's round of committing was a shot from the hip, it is not quite what I would call "standard procedure"</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;lyncode&gt; a checklist to ensure that bamboo doesn't cry</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mdiggory&gt; hpottinger: thats how we do things out here in the wild west</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mdiggory&gt; shoot first, ask questions later</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;hpottinger&gt; mdiggory: make Bamboo cry?</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mdiggory&gt; yep... CI is meant to be broken.... and fixed.... and broken..... and fixed</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;PeterDietz&gt; ideally, you should ensure mvn package is successful, that the tests pass, the license header passes (I didn't have that enabled)... I would add, I probably should have some docs too.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; If you just want to ensure "Bamboo doesn't cry", then you can look at our Bamboo settings here: <a href="https://wiki.duraspace.org/display/DSPACE/ContinuousIntegration">https://wiki.duraspace.org/display/DSPACE/ContinuousIntegration</a></span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;kompewter&gt; [ ContinuousIntegration - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/ContinuousIntegration">https://wiki.duraspace.org/display/DSPACE/ContinuousIntegration</a></span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; (Note specifically the exact Maven Command that Bamboo will run -- if you can run this command locally, then your code should "pass" Bamboo's inspection)</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;hpottinger&gt; "I probably should have some docs too." words to live by...</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;lyncode&gt; nice, one comand to rule them all</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;PeterDietz&gt; build #100 is successful</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;PeterDietz&gt; go Peter Dietz ;)</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;mdiggory&gt; #100?! really, thats it?</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;PeterDietz&gt; There must have been a reset</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; #100 is only since we became "DuraSpace" I believe.  and even then, I think DSpace used to use a Bamboo @ Johns Hopkins for a while (IIRC)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; so, it's not only the 100th time we've ever had CI happen</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-brick">* hpottinger high fives PeterDietz.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; thanks PeterDietz for your quick fix!</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;PeterDietz&gt; np, I'm even quicker at breaking thing..</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;hpottinger&gt; not one of us will ask you to prove that :-)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm gonna head out, good work today, especially max</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; don't even think about it or I'll send Baboon after you</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; s/Baboon/Bamboo/ (obviously)</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;kompewter&gt; tdonohue meant to say: don't even think about it or I'll send Bamboo after you</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-brick">* hpottinger takes a bow.</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; have a good one all...I'm gonna move into "lurking" as well</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;mdiggory&gt; thanks hpottinger and PeterDietz</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;PeterDietz&gt; I'll pack some slippery banana peels to dodge them</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-brick">* mdiggory returns to reviewing merge conflicts....</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;hpottinger&gt; suggested soundtrack for today's dev meeting: <a href="http://www.youtube.com/watch?v=b4rAUt1jNZY">http://www.youtube.com/watch?v=b4rAUt1jNZY</a></span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;kompewter&gt; [ Push the Button Max! - YouTube ] - <a href="http://www.youtube.com/watch?v=b4rAUt1jNZY">http://www.youtube.com/watch?v=b4rAUt1jNZY</a></span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-green">* nhoussos (5548ce9a@gateway/web/freenode/ip.85.72.206.154) has left #duraspace</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://www.youtube.com/watch?v=R3Igz5SfBCE">http://www.youtube.com/watch?v=R3Igz5SfBCE</a></span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;kompewter&gt; [ The Great Race - Push the Button Max - YouTube ] - <a href="http://www.youtube.com/watch?v=R3Igz5SfBCE">http://www.youtube.com/watch?v=R3Igz5SfBCE</a></span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-navy">* kstamatis (25067e1d@gateway/web/freenode/ip.37.6.126.29) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-navy">* hpottinger (~hpottinge@216.106.51.181.reverse.socket.net) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[22:46]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[23:07]</span> <span class="irc-green">* mdiggory (~mdiggory@ip-64-134-233-135.public.wayport.net) has joined #duraspace</span><br />
+<span class="irc-date">[23:39]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip-64-134-233-135.public.wayport.net) Quit (Quit: mdiggory)</span><br />

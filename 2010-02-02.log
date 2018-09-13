@@ -1,0 +1,41 @@
+<span class="irc-date">[4:05]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-brown">-lindbohm.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* DuraLogBot (~PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[6:04]</span> <span class="irc-green">* grahamtriggs (~trig01@80.169.130.178) has joined #duraspace</span><br />
+<span class="irc-date">[8:01]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[9:21]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[10:33]</span> <span class="irc-green">* sbayliss (~IceChat7@188-222-88-173.zone13.bethere.co.uk) has joined #duraspace</span><br />
+<span class="irc-date">[10:39]</span> <span class="irc-green">* kstrnad (~8d42131f@gateway/web/freenode/x-sbsyrxjmvtlitjam) has joined #duraspace</span><br />
+<span class="irc-date">[10:44]</span> <span class="irc-green">* cwilper (~cwilper@74-44-155-90.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[10:55]</span> <span class="irc-green">* asger (~55519939@gateway/web/freenode/x-widzdallenuqwbne) has joined #duraspace</span><br />
+<span class="irc-date">[10:56]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[11:00]</span> <span class="irc-black">&lt;cwilper&gt; <a href="http://fedora-commons.org/confluence/display/FCREPO/2010-02-02+-+Committer+Meeting">http://fedora-commons.org/confluence/display/FCREPO/2010-02-02+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[11:02]</span> <span class="irc-green">* birkland (~80544512@gateway/web/freenode/x-utcgvjbeeinbulht) has joined #duraspace</span><br />
+<span class="irc-date">[11:18]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[11:18]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[11:43]</span> <span class="irc-black">&lt;cwilper&gt; Asger report: Made Datastream disseminator proposal to list, looking at Aaron's proposal, looking at Spring, starting up work on Fedora-Planets integration</span><br />
+<span class="irc-date">[11:48]</span> <span class="irc-black">&lt;cwilper&gt; Ben: compiled correspondence re:Owl ontology and system properties, put up page on dev forum, wants to get some feedback.  Ran into curious situation w/Mulgara.  WIth large searches, running out of swap space and dying.  Another old item: Been thinking about JSR-170...(Dan points out that Northwestern is working on it)</span><br />
+<span class="irc-date">[11:48]</span> <span class="irc-black">&lt;cwilper&gt; <a href="http://jcr-connect.at.northwestern.edu/en/JCR_for_Fedora_-_Discussion">http://jcr-connect.at.northwestern.edu/en/JCR_for_Fedora_-_Discussion</a></span><br />
+<span class="irc-date">[11:50]</span> <span class="irc-black">&lt;cwilper&gt; Eddie report: Been doing weblogic compatibility tests w/3.3...will be checking it in, starting to sort out proposal for SOW on FESL 2, Special Topic on FESL next week: code review</span><br />
+<span class="irc-date">[11:53]</span> <span class="irc-black">&lt;cwilper&gt; Kai report: working on internal project. possibly doing a webinar in a couple weeks.</span><br />
+<span class="irc-date">[11:54]</span> <span class="irc-black">&lt;cwilper&gt; Steve report: doing some work on a project related to fesl, have a few FESL tickets, poking around in FESL code.  fixed a build issue</span><br />
+<span class="irc-date">[11:55]</span> <span class="irc-black">&lt;cwilper&gt; Aaron report: quiet on Fedora front, will probably have more time this week.  Looking at Asger's proposal.  Looking at code and thinking about where lowlevel (blob-based) assumptions can be removed.</span><br />
+<span class="irc-date">[11:57]</span> <span class="irc-black">&lt;cwilper&gt; Dan report: next week going to UNC chapel hill to meet w/DICE org (iRODS folks).  Working on policy enforcement within/between repositories.  DICE wants to update their plugin for iRODs storage.  Also interested in increasing ability to plugin microservices to Fedora.</span><br />
+<span class="irc-date">[11:57]</span> <span class="irc-black">&lt;cwilper&gt; ...and confluence is acting flaky as of last night.  Will probably restart it tonight when traffic is low (10min downtime).</span><br />
+<span class="irc-date">[12:00]</span> <span class="irc-navy">* birkland (~80544512@gateway/web/freenode/x-utcgvjbeeinbulht) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[12:00]</span> <span class="irc-black">&lt;cwilper&gt; Chris report: mostly worked on DuraCloud-Akubra this week.  Now doing Fedora integration test.</span><br />
+<span class="irc-date">[12:01]</span> <span class="irc-black">&lt;cwilper&gt; Meeting's over...thanks all</span><br />
+<span class="irc-date">[12:01]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[12:02]</span> <span class="irc-navy">* kstrnad (~8d42131f@gateway/web/freenode/x-sbsyrxjmvtlitjam) Quit (Ping timeout: 248 seconds)</span><br />
+<span class="irc-date">[12:11]</span> <span class="irc-navy">* asger (~55519939@gateway/web/freenode/x-widzdallenuqwbne) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[12:11]</span> <span class="irc-navy">* sbayliss (~IceChat7@188-222-88-173.zone13.bethere.co.uk) Quit (Quit: bye!)</span><br />
+<span class="irc-date">[12:31]</span> <span class="irc-navy">* cwilper (~cwilper@74-44-155-90.dsl1-erie.roch.ny.frontiernet.net) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[12:50]</span> <span class="irc-green">* grahamtriggs (~trig01@80.169.130.178) has left #duraspace</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[18:09]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:56]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />

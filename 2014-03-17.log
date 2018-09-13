@@ -1,0 +1,89 @@
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-orwell.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-orwell.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-orwell.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-orwell.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:24]</span> <span class="irc-green">* aawoods_ (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[8:28]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[10:44]</span> <span class="irc-green">* kshepherd2 (~kim@121-99-157-35.bng1.nct.orcon.net.nz) has joined #duraspace</span><br />
+<span class="irc-date">[12:00]</span> <span class="irc-navy">* ruebot_ (~ruebot@192.241.253.49) Quit (Quit: Please, sir, I want some more.)</span><br />
+<span class="irc-date">[12:00]</span> <span class="irc-green">* ruebot (~ruebot@pdpc/supporter/professional/ruebot) has joined #duraspace</span><br />
+<span class="irc-date">[12:01]</span> <span class="irc-navy">* kshepherd2 (~kim@121-99-157-35.bng1.nct.orcon.net.nz) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:58]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-green">* aawoods_ is now known as awoods</span><br />
+<span class="irc-date">[14:32]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160123.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-green">* richardrodgers (~richardro@18.189.115.43) has joined #duraspace</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;richardrodgers&gt; Hey all - got Hardy's email</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;hpottinger&gt; oh, hey, richardrodgers!</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;richardrodgers&gt; In a funny coincidence, I was just going to reach out to tdonohue and others over a service question I've been thinking about (related to packages)</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue and I were just chatting privately about both a possible intersection with RTS and MDS work, and also the potential for pulling out parts of the MDS work for inclusion in DSpace 5.0</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; hi richardrodgers</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;richardrodgers&gt; Hey tdonohue , want to hear my pitch?</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;hpottinger&gt; Missouri is looking at using RTS to back up our IR, and I'd be willing to pitch in to help the BagIt package format reach parity withe the METS package format</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; sure, pitch away.  Please note though that we are in the publicly "logged" channel (not that it should make a difference)</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;hpottinger&gt; move to #dspace?</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;richardrodgers&gt; I've been working on a REST API, and have been struck by the fact that we (DSpace, mds, etc) have a package-oriented ingest (SWORD), but no real package-oriented dissemination.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;hpottinger&gt; we were just talking about that :-)</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;richardrodgers&gt; I can move to #dspace, but this is OK for me also</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;richardrodgers&gt; So I was thinking that I'd extend the REST api to allow a new resource type for packaged content.</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;hpottinger&gt; keep it logged, maybe someone will find the conversation interesting (maybe even volunteer to help out? A guy can hope, right?)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; Fine with continuing here. Keeping it logged has its advantages...but I just wanted to note which room we were in</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;richardrodgers&gt; E.g. (using mds URIs) /content/123456789/1 is an item, and /content/123456789/1/package/foo is a package of the item</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; right, makes sense (as long as the items are public, of course)</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;hpottinger&gt; aha, I was just about to ask if you were talking about MDS REST or DSpace REST</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;richardrodgers&gt; A given repo could configure one or more package types (the 'foo'), maybe even different package types for different content types. For example,</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;richardrodgers&gt; we at MIT disseminate IMS-CP packages for course material, but not any other types</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;hpottinger&gt; there might be a potential overlap with ResourceSync</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; overlap is probably OK.  ResourceSync can always take advantage of this functionality if it's made available elsewhere as well.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;richardrodgers&gt; tdonohue: yes, public, but one could even imagine a packager that is sensitive to resource policies (e.g. put one bundle's stuff in, but not anothers)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; +1 REST-API that's aware of resource policies :-)</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;richardrodgers&gt; hpottinger: yes, I see a clear relation to ResourceSync - one could imagine publishing different 'sets' based on package types..</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I think this sounds good.  I suspect the package types would need options to enable them for commandline (local) vs. REST API (remote).  Some folks may want some package types enabled for local &amp; remote, and others just locally</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;richardrodgers&gt; So anyway, what I was going to do (as a prototype in mds) is provide a 'reference implementation' of this idea with Bagit packages, then lean on TIm to provide a METs one ;)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;hpottinger&gt; the direction I came at this idea from is that I was recently asked to share the test content I use to populate my Vagrant-DSpace repository</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;richardrodgers&gt; hpottinger: exactly, if one was running a REST API, it would be a simple http GET of on an item</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; If you need something "timely", leaning on me these days is not recommend ;)   My plate is overflowing and I don't get to much coding these days.  But, I still like the idea, even if it's initially BagIt (until someone can get to METS AIPs).</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;hpottinger&gt; that would be so cool, to be able to just pull the most recent collection &amp; community structure</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;hpottinger&gt; my brain is trying to tell me that earlier today I was just reading an article about relying upon "the network" as a package</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;richardrodgers&gt; OK - sounds good. What I'm working on now is a bit of refactoring to move a lot of the packaging logic/code from Curation Task Suite Replication to a more central area, since this REST service isn't about curation...</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-brick">* mhwood butts in:  whenever you think of access, don't think options.  DSpace config. is overflowing with options, and they don't model access decisions very well.  Think rights (i.e. resource policies).</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;hpottinger&gt; found it: <a href="https://www.domenkozar.com/2014/03/11/why-puppet-chef-ansible-arent-good-enough-and-we-can-do-better/">https://www.domenkozar.com/2014/03/11/why-puppet-chef-ansible-arent-good-enough-and-we-can-do-better/</a></span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;kompewter&gt; [ Domen Kožar ] - <a href="https://www.domenkozar.com/2014/03/11/why-puppet-chef-ansible-arent-good-enough-and-we-can-do-better/">https://www.domenkozar.com/2014/03/11/why-puppet-chef-ansible-arent-good-enough-and-we-can-do-better/</a></span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;hpottinger&gt; +1 resource policies</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;richardrodgers&gt; mhwood: yes, the approach I'm using doesn't overload config properties at all</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers: is this work you are doing in MDS then?  Or do you plan to try and do some of this for the main DSpace-API?  Just not clear which codebase you are working with</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;mhwood&gt; Good.  If we need more "special groups" (like one for "local user" = commandline) we can make them.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;richardrodgers&gt; tdonohue: The POC will be in mds - if we like the results, it should be (with effort of course) portable to DSpace-API</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;hpottinger&gt; we have two members of the RT present now, so I hope I can safely speak for us when I say: we want this stuff for 5.0</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;hpottinger&gt; we want ALL THE STUFF for 5.0 :-)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mhwood&gt; Do we *have* a 5.0 RT?</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;hpottinger&gt; OK, details schmetails :0)</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;richardrodgers&gt; mhwood: yes, that's news to me also</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;hpottinger&gt; I'm on autopilot, we don't have a 5.0 RT, just me assuming that the same folks who show up will continue to show up</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;hpottinger&gt; so, I'm kind of a zombie RT member, careful, I bite</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;richardrodgers&gt; I think some of the problems (which SWORD has, by the way) revolve around a decent standardized way to identify packages …(http X- Header, mimeType, etc)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; we don't have a 5.0 RT yet.  We can start to form one whenever we want to put out the call.  I just hadn't done so yet, as I was waiting for 4.x to settle down (and it seems to be doing so)</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, I've been "shaking the trees" for features for a few weeks, I get carried away</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mhwood&gt; I do think this work should be represented in any 5.0 features discussion.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; Out of curiosity, are there any other MDS "features" / refactors that we could aim towards "porting" over to DSpace 5.0?</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;hpottinger&gt; one potential would be to look at any "easy wins" of dependency modernization, mhwood is already doing that, but MDS is really exploring the potential from that kind of modernization work...</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;richardrodgers&gt; I've got to run now, but I'm hearing some interest in pursuing package-based content delivery, so I'll proceed with a Bagit POC in mds</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;richardrodgers&gt; bye all</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;hpottinger&gt; bye!</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;kompewter&gt; see ya</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-green">* richardrodgers (~richardro@18.189.115.43) has left #duraspace</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-green">* edInCo (~smuxi@seta.coalliance.org) has joined #duraspace</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-green">* PeterDie_ (~peterdiet@dhcp-164-107-232-38.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-navy">* PeterDie_ (~peterdiet@dhcp-164-107-232-38.osuwireless.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-green">* PeterDietz (~peterdiet@dhcp-164-107-232-38.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:12]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dhcp-164-107-232-38.osuwireless.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[19:16]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160123.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:47]</span> <span class="irc-navy">* edInCo (~smuxi@seta.coalliance.org) Quit (Read error: Connection reset by peer)</span><br />

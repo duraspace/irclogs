@@ -1,0 +1,218 @@
+<span class="irc-date">[0:00]</span> <span class="irc-navy">* stuartlewis (n=stuartle@gendig21.lbr.auckland.ac.nz) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[7:26]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[7:35]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit ()</span><br />
+<span class="irc-date">[7:37]</span> <span class="irc-green">* bradmc (n=bradmc@207.172.69.79) has joined #duraspace</span><br />
+<span class="irc-date">[8:33]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[8:34]</span> <span class="irc-green">* awoods (n=awoods@pool-71-178-169-217.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[10:21]</span> <span class="irc-green">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:37]</span> <span class="irc-navy">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) Quit ()</span><br />
+<span class="irc-date">[10:41]</span> <span class="irc-green">* michaeldb (n=michaeld@99.254.62.125) has joined #duraspace</span><br />
+<span class="irc-date">[12:19]</span> <span class="irc-green">* cwilper (n=cwilper@74-44-155-90.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:27]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-162-15-133.clt.bellsouth.net) Quit ("Leaving.")</span><br />
+<span class="irc-date">[12:29]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-162-15-133.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:43]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-162-15-133.clt.bellsouth.net) Quit ("Leaving.")</span><br />
+<span class="irc-date">[12:46]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-162-15-133.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:48]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-162-15-133.clt.bellsouth.net) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[12:49]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-162-15-133.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:33]</span> <span class="irc-navy">* cwilper (n=cwilper@74-44-155-90.dsl1-erie.roch.ny.frontiernet.net) Quit ()</span><br />
+<span class="irc-date">[13:34]</span> <span class="irc-green">* cwilper (n=cwilper@74.44.155.90) has joined #duraspace</span><br />
+<span class="irc-date">[14:06]</span> <span class="irc-navy">* cwilper (n=cwilper@74.44.155.90) Quit ()</span><br />
+<span class="irc-date">[14:06]</span> <span class="irc-green">* cwilper (n=cwilper@74-44-155-90.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-green">* tdonohue (i=80ae241d@gateway/web/freenode/x-oyaxqgaztlnhrfym) has joined #duraspace</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-green">* bollini (n=chatzill@host127-23-dynamic.10-87-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;bollini&gt; hi all, am I in time for the meeting?</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-green">* stuartlewis (n=stuartle@gendig21.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes - I think so</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;bollini&gt; Hi Stuart, please check your mailbox I have just send you a message</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes - just reading it. Sounds like you've been doing some interesting work.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;stuartlewis&gt; Would be a powerful set of features to add.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;stuartlewis&gt; My only worry is the same as yours - lack of consensus on the way it should all work - but ultimately we'll have to choose one solution and roll with it.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;bradmc&gt; Hi folks, let's get started in a few minutes.  Topics?</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;bollini&gt; authority control ;-)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;bollini&gt; 1.6 roadmap</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;bradmc&gt; (Foundation is now ready with admin support for walking through back bugs, so maybe we can discuss that process)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;bollini&gt; community admin</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;stuartlewis&gt; Yep - talk about the JIRA triage would be good.</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-green">* ben_atmire (n=ben_atmi@62.235.129.4) has joined #duraspace</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-green">* rrodgers (n=rrodgers@dhcp-18-111-15-222.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;bradmc&gt; I think we should lump together 1.6 status, roadmap, Jira triage; shall we do authority control, then comm admin first, then the 1.6 block, then progress?</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;stuartlewis&gt; Sounds good</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;bradmc&gt; Authority control then:  Andrea?</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;bollini&gt; we have a proposal from Larry</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;bollini&gt; I'm working on it and it sounds really good</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;bollini&gt; I have almost completed the JSPUI/postgres porting</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;bollini&gt; we have received many comments from Dupriez and documentation about a different approach</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;bollini&gt; but we have not received any codes and (as far as I know) the Dupriez code works on an old dspace 1.4 or less</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;bollini&gt; with the Larry model and few changes that I have made we can cover the functional requirements of Dupriez</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Excellent - sounds good. Are you going to liaise with Christophe to check that his functional requirements are met?</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;bollini&gt; the only think that remains out is the out-of-box SKOS "integration" of the Dupriez model</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;bollini&gt; no Stuart, I haven't</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;bollini&gt; I have check it by myself because there are the same requirements that I need for an us customer</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;stuartlewis&gt; Do you think it can all be integrated in time for 1.6? (would be another great feature to be able to have)</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;bollini&gt; I can prepare a patch for the 14th September</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;stuartlewis&gt; Excellent :)</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;bollini&gt; we need to test it and make some changes also to the xmlui</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;bollini&gt; I'm working only on JSPUI and postgres</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;stuartlewis&gt; And Larry is working on Oracle and xmlui?</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;bollini&gt; yes</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;bradmc&gt; Anyone disagree with that path?</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;bradmc&gt; All of that sounds good; are we ready to move on to community admin?</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;bollini&gt; I'm expect some comments after that the IRC transcription will be post to the list</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;bollini&gt; about community admin: I have planned to complete the <a href="http://jira.dspace.org/jira/browse/DS-270">http://jira.dspace.org/jira/browse/DS-270</a> before the 21th September</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;bollini&gt; I will appreciate if anyone can confirm the functionality list to make configurable</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;tdonohue&gt; the authority control patch sounds fine to me...and hopefully it can be stable for 1.6</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;tdonohue&gt; wow...bollini, you've got a lot on your plate :)</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;bollini&gt; :-)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;stuartlewis&gt; Sounds great Andrea - thanks :)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;bollini&gt; I have also another big toast in progress... but I need comments by RichardR</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;rrodgers&gt; the policy stuff?</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;bollini&gt; I'm searching the jira number... is about thesis</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;bollini&gt; yes</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;bollini&gt; <a href="http://jira.dspace.org/jira/browse/DS-270">http://jira.dspace.org/jira/browse/DS-270</a></span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;bollini&gt; have you had the time to look to the patch?</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;rrodgers&gt; Yes, I will add some commentary. But the short answer is that I have no issues with moving when the policy is first assigned, but am concerned about having submitters set policies...</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;rrodgers&gt; It's not a technical issue, it's more about usability</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;bollini&gt; the big deal is that if we go ahead with this patch we will require a lot of update sql to fire</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;bollini&gt; for the submitter we can make the UI simple as possible</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;bollini&gt; anyway, It is only another opportunities to use or not</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;rrodgers&gt; I'd like to see a design for that submitter UI....</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;rrodgers&gt; bollini: true, we do not have to immediately expose</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;bollini&gt; ok,  I will wait for your comments... anyway if we decide to include this in 1.6 we need a lot of test</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;bollini&gt; especially using live installation</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;bradmc&gt; Speaking of 1.6, shall we move towards 1.6 status / roadmap?</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;bollini&gt; yes we are arriving to it</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - did everyone see my email with the proposed roadmap to an RC in October at the DSUG?</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;rrodgers&gt; yes</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;bollini&gt; yes</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;bradmc&gt; yep</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;stuartlewis&gt; Any thoughts about it?</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mhwood&gt; yes</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;stuartlewis&gt; The two big things missing that we have promised to deliver are stats and embargoes.</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;stuartlewis&gt; Can these be added in the next 5 weeks?</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;rrodgers&gt; Emargo is coming along fairly well - I see no reason why not</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;stuartlewis&gt; rrodgers: Great. Thanks.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mhwood&gt; mdiggory is not here to comment on his stat. work</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;rrodgers&gt; Also, do you want the OpenSearch stuff?</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;bradmc&gt; mdiggory will be out this and next week.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;stuartlewis&gt; Nor unfortunately is Kim - I think he's tried out the solr stats.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mhwood&gt; Yes please, OpenSearch.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;bollini&gt; what about the documentation?</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;rrodgers&gt; mhwood: want to check it in? ;)</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;stuartlewis&gt; Jeff has been doing brilliant work with documentation :)  Keep firing updates to him, and in return I hope we're fulfilling his requests for clarification.</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;mhwood&gt; I think I don't have current sources.</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;mhwood&gt; Your test site looks good, to the (very limited) extent that I know how to test OpenSearch.</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;rrodgers&gt; I can supply, but I was just ribbing you</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;mhwood&gt; /\/\/\</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;rrodgers&gt; yes, one can see it at dspace-test.mit.edu</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;stuartlewis&gt; Ok - so as well as the 'big new features' we agreed a month or so ago to have a community JIRA cleanup meeting. We need to arrange that, and get it advertised.</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;bradmc&gt; Yes, I'm happy to do that.  Which day next week, and are we happy with the 6pm GMT proposed time?</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;bradmc&gt; Tuesday?</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;stuartlewis&gt; We agreed to dedicate 60 seconds per issue, and either discard it (to be done offline by a committer or DSpace intern), keep it, and if we keep it, decide if anyone has the effort to address if for 1.6.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;stuartlewis&gt; It will give us a work plan for 1.6 that will give us an indication of our progress over time.</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;bollini&gt; Tuesday is fine for me.. better if 8pm GMT (as today)</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;rrodgers&gt; I can do Tuesday as well</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;bradmc&gt; Anything we decide to discard, I'll have our intern close the issue and try to contact the interested parties.</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;stuartlewis&gt; Would a week on Tuesday be better 1st September to give people time to read through the issues, get any new issues in there, and make a date in their diary?</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;bradmc&gt; I think we'll want to do this periodically.</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;bradmc&gt; Fedora does it weekly as part of their committer meeting, but they only have to deal with 2-3 reports.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mhwood&gt; Next two Tuesdays are currently open for me.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;stuartlewis&gt; I think it would be great if we can open the event to everyone, and ask for people to come along and volunteer to take on an open bug/feature etc.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-navy">* bradmc (n=bradmc@207.172.69.79) Quit (Read error: 131 (Connection reset by peer))</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;bradmc&gt; So I propose making a start of it next Tuesday, and see how far we get.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;rrodgers&gt; what time?</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;bollini&gt; starting from September 8pm GMT is needed... I can try to be present also at the 6gmt but I'm not sure</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - shall I draft an email in the next 30 mins, and get it sent to -commit for your approval?</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;bollini&gt; ok</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;stuartlewis&gt; 6pm GMT seemed better, as it is easier for the Europeans I hope, and easier on us folks the other side of the world (6am is better than 4am!)</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mhwood&gt; Thank you.</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;bradmc&gt; Sounds fine.    Who will we lose by moving from 6 to 8,  (or who would we gain vice-versa;  maybe Claudia?)</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;stuartlewis&gt; Just to check - is everyone still happy for an end-of-September informal feature freeze, and the release of an RC in mid October?</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;mhwood&gt; Yes</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;bradmc&gt; Proposal:  Tuesday 6PM GMT.  If subsequent meeting needed, Following Tuesday 8PM GMT.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;bradmc&gt; stuartlewis: +1</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;rrodgers&gt; Yep - we can obviously make small adjustments if needed</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;stuartlewis&gt; bradmc: Sounds great.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;bollini&gt; bradmc: ok</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis: +1</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;tdonohue&gt; bradmc: +1</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;stuartlewis&gt; My plan is to try and distribute DSpace LiveCDs (1.6 RC) at the DSUG and perhaps hold an informal testathon there.</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;rrodgers&gt; bradmc: +1</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mhwood&gt; bradmc: +1</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;stuartlewis&gt; Great - thanks.</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;bradmc&gt; I think that's all the topics thrown out at the top; anyone care to add any?</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;stuartlewis&gt; PMC?</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;bradmc&gt; Sure, although I always find it a little weird having discussions without their proponent present.</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;stuartlewis&gt; True. Maybe best leave it a week or two.</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;bradmc&gt; Or do it now, and then again then ;-)</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;stuartlewis&gt; My own worry is it adds another level of perceived hierarchy.</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;stuartlewis&gt; And presumably we want to be flattening the hierarchies, and enabling more involvement from community members?</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis: i'd definitely agree to avoid a hierarchy and keep things flat to encourage involvement</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mhwood&gt; (From the proposal)  "My idea is to see this entity be separate and orthogonal conceptually from those developers who have commit rights...."</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;stuartlewis&gt; It will be interesting to see the community reaction to 1.6 - see whether they remember the fact that they had a voice in its development aims when they either talk/blog about loving it or hating it.</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;tdonohue&gt; though to me, i wasn't thinking of the PMC as adding a hierarchy....just trying to gather together folks who have a current commitment to be active developers, and plan/manage releases over time as a group</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;stuartlewis&gt; Because one of the main arguments has been the direction of the platform - being set by devs not users / librarians.</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;mhwood&gt; I'm not entirely clear on its purpose, but it seems to me to be a group charged with making sure that important things happen, not as a checkpoint of any sort.</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;tdonohue&gt; but, i can definitely agree, if done incorrectly, it could be perceived as a hierarchy</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes - I'm the same. It sounds a good idea, but I have worries about it.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;bradmc&gt; I read it similarly to tdonohue, although it's not clear to be whether it's a private club for developers, or if it's open to any community member willing to put the time in.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;stuartlewis&gt; I assumed it was for anyone? Not just devs.</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;mhwood&gt; (From the proposal)  "This committee would be comprised of a subset of the developers with commit rights on the DSpace SVN repository...."</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis: i see the PMC as helping that problem....it should involve both devs and non-devs..   My hope is that PMC could help ensure the direction is not being set *just* by devs</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mhwood&gt; Perhaps that's just to start?</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;bradmc&gt; If it's the former, I think it assumes an ideal separation of developers vs. users vs. managers which doesn't map well to the practical world.  If it's the latter, I think it needs to be immediately discussed in that context, including some of the thought leaders from the users side.</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;bradmc&gt; Most DSpace developers are beholden to a particular set (or sets) of users and institutions, and thus have their agenda set in that fashion.  A PMC for DSpace would seem to me best structured to explicitly acknowledge and use those agendas, as opposed to some separate developer only viewpoint.</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;stuartlewis&gt; Agreed.</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;mhwood&gt; I think such a PMC needs both folks who know what it will cost to develop something and those who are keenly aware of what it costs *not* to develop that. :-)</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;bradmc&gt; yes.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;stuartlewis&gt; Should we try and talk about this face2face (with IRC for those not present) at the DSUG (Friday afternoon - separate to a committers meeting, and open to anyone) and work out a way forward for post-1.6?</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;stuartlewis&gt; (or Skype conf call etc)</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;bollini&gt; I'm agree... we need no-dev folks involved in project management... I have proposed a no-devel people for the committer group some time ago</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mhwood&gt; I know that, without explicit user requirements, I tend to create stuff that is more interesting than useful. :-(</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;bradmc&gt; stuartlewis:  +1</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis: +1</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;bollini&gt; stuartlewis: +1</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;stuartlewis&gt; Maybe it would be good to try and find some new roles in the community - we have been lucky to have Jeff volunteer to look at the documentation - a job he is excellent at. Perhaps we need to do the same with project management etc? Maybe release co-ordinator should be a split job with a committer and a dedicated non-dev project manager etc?</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;bollini&gt; goooood!</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;mhwood&gt; A good idea.</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;bollini&gt; we need a QA</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;bradmc&gt; Interesting idea.  It may also be that we just need to focus on the pre-conditions that enable that to emerge.  Which is to say, make it possible for someone to self-nominate in the fashion that Jeff did.</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;bollini&gt; we have already some name that jump to the eyes... see the testhaton partecipation</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;bradmc&gt; One step in that direction may be how and where we call for the next release coordinator.</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;bradmc&gt; That could happen out at -general, as an extreme change from -committ</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;tdonohue&gt; as a small side note...We should make sure to really highlight what Jeff's done, when 1.6 is released (i.e. in the 1.6 announcements)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;stuartlewis&gt; Radical idea? Perhaps have a PMC in overall charge, scrap the committers group, and have 'developers' (who have svn commit perms), documenters, dedicated support people, project management people, graphic design / UI people - play to people's strengths, and let them be acknowledged for those strengths. Lower the bar for active participation and recognition.</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;bradmc&gt; tdonohue:  Definitely.  He's already in a mention in the next newsletter.</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;stuartlewis&gt; tdonohue: YES! (And everyone else too - there has been a lot of great work put in by a lot of individuals, and sometime we're not good at giving recognition where it is due).</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;tdonohue&gt; yea...not only the newsletter though (though that's also due)...I was talking about highlighting some key people in the 1.6 release announcement</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;bradmc&gt; stuartlewis:  Now there's some fodder for that discussion at DSUG!</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;bradmc&gt; tdononue:  Oh, I agree, early and often was where I was going with that.</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;bradmc&gt; We are at the nominal one hour mark.  Close to wrapping up?</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis:  yea, I'd actual be interested in considering the radical idea as well...</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;stuartlewis&gt; tdonohue: Yes - we'll make sure that is done in all the announcements etc.</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;bollini&gt; yes, I need to go in 5 minutes...</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mhwood&gt; Unless there are other topics, I think we've wound down to "these are all good ideas".  (And they are.)</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;stuartlewis&gt; Ok - I'll write the email about the JIRA event now (do we have a funky name for it?) - if you could all reply within 12 hours, I'll get it posted in 12 hours time so as to give maximum notice.</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;mhwood&gt; It sounds like Minute Madness again....</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt; stuartlewis: ok</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bradmc&gt; Will do.</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;mhwood&gt; Yes, will look at it tonight.</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bradmc&gt; See you folks on Tuesday.  Thanks all!</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;tdonohue&gt; bye all...good discussion</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;bollini&gt; bye</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;mhwood&gt; 'bye all</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;rrodgers&gt; bye all thanks</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-navy">* rrodgers (n=rrodgers@dhcp-18-111-15-222.dyn.mit.edu) Quit ()</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;stuartlewis&gt; Bye!</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-navy">* bollini (n=chatzill@host127-23-dynamic.10-87-r.retail.telecomitalia.it) Quit ("ChatZilla 0.9.85 [Firefox 3.0.13/2009073022]")</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-navy">* tdonohue (i=80ae241d@gateway/web/freenode/x-oyaxqgaztlnhrfym) Quit ("Page closed")</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-navy">* ben_atmire (n=ben_atmi@62.235.129.4) Quit ()</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit ()</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-navy">* michaeldb (n=michaeld@99.254.62.125) Quit ()</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-navy">* cwilper (n=cwilper@74-44-155-90.dsl1-erie.roch.ny.frontiernet.net) Quit ()</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-green">* cwilper (n=cwilper@74-44-155-90.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[23:01]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit ()</span><br />

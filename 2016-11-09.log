@@ -1,0 +1,156 @@
+<span class="irc-date">[6:37]</span> <span class="irc-brown">-wolfe.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-brown">-wolfe.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-brown">-wolfe.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-brown">-wolfe.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[13:12]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:29]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-green">* hpottinger (~hpottinge@vpn-128-97-245-147.host.ucla.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-green">* dyelar (~dyelar@120.121.124.24.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-green">* terry-b (~chrome@97-126-114-110.tukw.qwest.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[18:42]</span> <span class="irc-green">* th5 (~th5@unaffiliated/th5) has joined #duraspace</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-black">&lt;tdonohue&gt;  notes we have a DSpace DevMtg coming up in about 10mins.  Rough agenda at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-09</a>  (But, feel free to bring other topics to discuss, if there are any)</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2016-11-09 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-09</a></span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-green">* luizsan (~luizsan@209.120.171.227) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome, it's time for our weekly DSpace DevMtg.  Agenda at <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-09</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2016-11-09 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-09</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Today's meeting is a bit light on actual topics, so if we end up with extra time we can always dig into some JIRA/PR reviews</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; First up, just wanted to note that the next DSpace 7 UI meetings will be next Tues (Nov 15) at 15UTC (Angular2 team) and 16UTC (REST API team).  Any/all are welcome.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; Email art@atmire.com (Art Lowel of Atmire) if you want an invite.  Once these teams get "established" (this is their first meeting), we'll also be putting out a call on DSpace mailing lists for additional contributors.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; Beyond that reminder, I wanted to give an opportunity to talk DSpace 6, if anyone has issues (or successes) they wish to report on the new release.  Anyone have comments to share?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; not hearing any comments yet.  Keep in mind that we definitely want to share feedback on 6.0 as folks upgrade &amp; try it out. So, feel free to bring notes/comments to future meetings</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; Will do.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; Does anyone have other topics / questions they wish to bring up for today's meeting?  We do have time for general discussion, if there are topics of importance (or issues needing more eyes/suggestions)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; not hearing anything here either. ok :)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; In that case, I suggest we make the most of our time and do some JIRA backlog reviews (i.e. ticket categorization)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; OK</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; Here's our existing backlog: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+status+%3D+Received+ORDER+BY+key+ASC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+status+%3D+Received+ORDER+BY+key+ASC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+status+%3D+Received+ORDER+BY+key+ASC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+status+%3D+Received+ORDER+BY+key+ASC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; starting from the top of that list... DS-2707</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2707">https://jira.duraspace.org/browse/DS-2707</a> ] - [DS-2707] Poor messaging when batch upload directory cannot be created - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; I'm assuming this still exists in the refactored API (DSpace 6)?  If so, sounds like we need a volunteer to clean up the error messaging, etc</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; I haven't tried this on 6.  I should check it out.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; OK, I found it, I'll take it to fix.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; ok, sounds good. thanks, mhwood!</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-2708</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2708">https://jira.duraspace.org/browse/DS-2708</a> ] - [DS-2708] Policies assigned to EPeople are not visible in XMLUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; this seems like an obvious "needs volunteer".  Could be fixed in a minor release, if someone wants to volunteer for it</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; Needs volunteer.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2709</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2709">https://jira.duraspace.org/browse/DS-2709</a> ] - [DS-2709] Policies can not be directly assigned to EPeople in the UI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; related to 2708 it seems.  Also needs volunteer</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; Agreed on both counts.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; updated</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2710</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2710">https://jira.duraspace.org/browse/DS-2710</a> ] - [DS-2710] Support mathematical formulas/equations in descriptions - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; good idea for future UI, etc. As noted, already some support in Mirage (v1) though.  Needs Volunteer likely</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; Needs volunteer.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; beware of DS-3087</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3087">https://jira.duraspace.org/browse/DS-3087</a> ] - [DS-3087] Mirage2 uses single dolar sign delimiters for MathJax - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; that's the sort of thing that antagonizes economics professors</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; :-) Better link them then.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; linked them up... also linked to DS-635 (added this support in Miragev1).  marked needs volunteer</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-635">https://jira.duraspace.org/browse/DS-635</a> ] - [DS-635] Rendering MathML code in abstracts using MathJax - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2717</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2717">https://jira.duraspace.org/browse/DS-2717</a> ] - [DS-2717] Discovery Solr indexer throws ERROR with a stack trace for every non-public item - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; this seems to be assigned to hpottinger?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, assigned but still Received.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 notes it also may be a duplicate of DS-2887</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2887">https://jira.duraspace.org/browse/DS-2887</a> ] - [DS-2887] AuthorizeException stacktrace shown instead of restricted access page - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; (which was fixed in 6.0)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like this minimally needs more analysis...and possibly needs volunteer (unless hpottinger is still working on this one)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;hpottinger&gt; I'd not complain if someone else takes it, perhaps I need to unassign myself?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; done, moved 2717 to "needs volunteer"</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; yes, please proactively unassign yourself and put things back to "needs volunteer" if there are tickets you no longer are working on (or planning to work on soonish)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; thanks</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2720</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2720">https://jira.duraspace.org/browse/DS-2720</a> ] - [DS-2720] NullPointerException when accessing non existing bitstream via sequence - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; Now THAT is interesting.  hpottinger and I have been chasing a similar NPE all day.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; This probably should be retested in 6.0.  It's an NPE in DatabaseManager, and that doesn't exist anymore (replaced by code using Hibernate)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; if one of you want to claim it and retest, please feel free.  Or did you already find this on 6.0?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; I don't think the cause is anywhere near DatabaseManager.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; No, but it is still present in 5.6.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; oh, the NPE may be from something else</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; dspace.cfg:alert.recipient</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; true. it is worth still fixing in 5.x. I'm just noting we should be checking such issues in 6.x too...this seems like an area of the code that received (or was affected by) major refactoring in 6</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;hpottinger&gt; I'm hopeful my struggles with setting up the virus scanning curation task step will resolve with an upgrade to 6</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; In general, I think it's important to start to note 5.x bugs that were "accidentally" fixed in the 6.0 refactor. I suspect there are some (perhaps many)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; DatabaseManager.queryTable was not very defensive....</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; exactly.  Hibernate is extremely defensive...and therefore 5.x bugs which are relating to (or affect) DatabaseManager, are prime candidates for "accidentally" being fixed in 6.0</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; That list will need people who re-test in 6.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; I suspect that things like this are not so much fixed as "now we can at least see what it didn't like."</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; I guess I'm hoping that folks who "claim" tickets (like this) to fix in 5.x will also take the time to check if this still exists in 6.0.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; Anyway, needs a volunteer to (a) re-test in 6, and (b) fix the durn thing.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; +1</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; We should note the need to re-test in each such ticket -- it may help.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; agreed, it's at least a reminder</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; marked as such and noted it should be re-tested in 6.0</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2721</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2721">https://jira.duraspace.org/browse/DS-2721</a> ] - [DS-2721] Link element is missing in xml rest response - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; huh... needs volunteer.  Already flagged as related to REST API (which is good, as we should look at these in upcoming REST API work for DSpace 7)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; Yup, needs volunteer.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; It's possible this is something specific to demo too...as it sounds slightly "fishy" to me, but either way needs volunteer to investigate</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; REST needs an acceptance test suite to bang on these endpoints for us.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; +1</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-2726</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2726">https://jira.duraspace.org/browse/DS-2726</a> ] - [DS-2726] Migrating pre DSpace 3 embargos on Oracle: Nullpointer without stacktrace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Needs volunteer.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; May be different on 6.0</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; +1. Another that needs re-verification in 6.0</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; noted. next up, DS-2727</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2727">https://jira.duraspace.org/browse/DS-2727</a> ] - [DS-2727] Message string containing apostrophe isn&amp;#39;t parameterised - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; not sure I fully understand this one</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; Fairly simple, needs volunteer.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, I see...that's a message in Messages.properties that is parameterized, and the message includes an apostrophe.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the message: <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/Messages.properties#L784">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/Messages.properties#L784</a></span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/Messages.properties at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/Messages.properties#L784">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/Messages.properties#L784</a></span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; Yes, looks like something thinks it's an open quote.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; noted that line in Messages.properties. Flagged as needs volunteer</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-2735</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2735">https://jira.duraspace.org/browse/DS-2735</a> ] - [DS-2735] Mirage 2: Dealing with large lists of authors on item pages, search and browse results - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; This seems like a good idea for the new UI</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; Added an "AngularUI" component to this.  Needs volunteer</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2742</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2742">https://jira.duraspace.org/browse/DS-2742</a> ] - [DS-2742] Type-binding functionality only considers first entry of dc.type  - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; Sounds like a bug.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; yes, seems like it</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; marked needs volunteer</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2743</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2743">https://jira.duraspace.org/browse/DS-2743</a> ] - [DS-2743] UploadWithEmbargo Step seems disabled on demo.dspace.org/xmlui - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; Not a bug in the software.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Is this a demo configuration issue?</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; that's what it sounds like.  It sounds like a request to configure this on demo. Not sure how demo is currently configured based on embargo though</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; this is currently enabled on demo.  just checked</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; I'll close this</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mhwood&gt; Cool</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2745</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2745">https://jira.duraspace.org/browse/DS-2745</a> ] - [DS-2745] Mirage 2 w/out local dependies no longer builds - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; claims (in the comments) that this was fixed in 5.4</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; I guess we should close as fixed in 5.4 then</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; done</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2746</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2746">https://jira.duraspace.org/browse/DS-2746</a> ] - [DS-2746] Batch zip ingest fails - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; this sounds like a question that should have been asked on dspace-tech</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; not sure if it's a bug, or a user mistake</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; That's just what I was wondering.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; maybe I'll flag this as "needs more info" and ask the user to provide an update or email dspace-tech</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; it *might* be a bug, but I cannot tell from the limited info here</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; flagged as such</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; We'll stop  there for today.  Made it through a nice list!</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; Yes indeedy.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-green">* luizsan_ (~luizsan@199.79.165.2) has joined #duraspace</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; I don't have any other topics/notes for the day, so we'll call that a meeting.  Please feel free to bring (or add in the wiki) topics for next week, if you remember (or stumble on) any.  Thanks all!  That's it for today</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; Thank you.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-navy">* luizsan (~luizsan@209.120.171.227) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, I had to wander off to greet returning family</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-navy">* luizsan_ (~luizsan@199.79.165.2) Quit (Quit: Leaving...)</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-navy">* th5 (~th5@unaffiliated/th5) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-navy">* hpottinger (~hpottinge@vpn-128-97-245-147.host.ucla.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:53]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has left #duraspace</span><br />

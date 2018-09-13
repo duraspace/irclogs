@@ -1,0 +1,353 @@
+<span class="irc-date">[0:34]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[0:34]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Client Quit)</span><br />
+<span class="irc-date">[0:46]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[1:04]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[1:04]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[1:05]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Client Quit)</span><br />
+<span class="irc-date">[1:29]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[2:01]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[2:02]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[2:51]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-hitchcock.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:56]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[10:36]</span> <span class="irc-green">* eddies_ (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[10:36]</span> <span class="irc-navy">* eddies_ (~eddies@unaffiliated/eddies) Quit (Client Quit)</span><br />
+<span class="irc-date">[10:36]</span> <span class="irc-green">* eddies (~eddies@245.17.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[10:36]</span> <span class="irc-navy">* eddies (~eddies@245.17.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[10:36]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[12:04]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) Quit (Quit: Heading out...talk to you later.)</span><br />
+<span class="irc-date">[14:54]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-navy">* grahamtriggs (~trig01@62.189.56.2) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[18:17]</span> <span class="irc-green">* vibhaj (7376e151@gateway/web/freenode/ip.115.118.225.81) has joined #duraspace</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-green">* grahamtriggs (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:04]</span> <span class="irc-green">* hpottinger (80cea2c6@gateway/web/freenode/ip.128.206.162.198) has joined #duraspace</span><br />
+<span class="irc-date">[19:29]</span> <span class="irc-green">* cccharles (~chris@131.104.62.48) has joined #duraspace</span><br />
+<span class="irc-date">[19:33]</span> <span class="irc-green">* robint (522921b0@gateway/web/freenode/ip.82.41.33.176) has joined #duraspace</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-green">* PeterDietz (~PeterDiet@sul272peter.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C15567.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder that at the top of the hour is our DSpace Developers Mtg.  Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-18</a></span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-05-18 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-18</a></span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-black">&lt;robint&gt; If anyone cant wait could they tell me if they object to <a href="https://jira.duraspace.org/browse/DS-852">https://jira.duraspace.org/browse/DS-852</a> ?</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-852">https://jira.duraspace.org/browse/DS-852</a> ] - [#DS-852] Split the Creative Commons and Licence steps into two seperate steps. - DuraSpace JIRA</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-852] Split the Creative Commons and Licence steps into two seperate steps. - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-852">https://jira.duraspace.org/browse/DS-852</a></span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-green">* vibhaj (7376e151@gateway/web/freenode/ip.115.118.225.81) has left #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-green">* vibhaj (7376e151@gateway/web/freenode/ip.115.118.225.81) has joined #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;tdonohue&gt; robint -- I approve of the idea of Ds-852, haven't had a chance to look at the code though.  Assuming it's well tested &amp; working, I wouldn't have any objections</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;mdiggory&gt; +1 ideal as well</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;robint&gt; thanks both. Didn't have to change any code, just seperated it.</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;mdiggory&gt; +! on no code change ;-)</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;tdonohue&gt; cool, in that case, i'd approve :)</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;mdiggory&gt; what gets committed if no code changed?</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;mdiggory&gt; that was a joke...</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;mdiggory&gt; chirp chrip chrip</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;KevinVdV&gt; ....</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;robint&gt; :)</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;mdiggory&gt; might check with MIT... Think they were rewriting CC portion of step, verify theres no duplication/conflict</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;robint&gt; mdiggory: I checked with Wendy and Richard, cheers</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;KevinVdV&gt; There is also an issue with the creative commons &amp; the embargo feature: <a href="https://jira.duraspace.org/browse/DS-873">https://jira.duraspace.org/browse/DS-873</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-873">https://jira.duraspace.org/browse/DS-873</a> ] - [#DS-873] Creative commons license bundle on embargoed item will cause internal system errors on item pages - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-873] Creative commons license bundle on embargoed item will cause internal system errors on item pages - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-873">https://jira.duraspace.org/browse/DS-873</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, about time to start the "official" meeting.  Welcome.  We'll kick things off with a JIRA quick review.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the list of issues we are starting from today, beginning with Ds-803: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-803+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-803+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-803">https://jira.duraspace.org/browse/DS-803</a> ] - [#DS-803] 'dspace harvest -g' (ping) doesn't - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-803+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-803+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;mdiggory&gt; can we backup to the one KevinVdV just posted first?</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;KevinVdV&gt; <a href="https://jira.duraspace.org/browse/DS-873">https://jira.duraspace.org/browse/DS-873</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-873] Creative commons license bundle on embargoed item will cause internal system errors on item pages - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-873">https://jira.duraspace.org/browse/DS-873</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-873">https://jira.duraspace.org/browse/DS-873</a> ] - [#DS-873] Creative commons license bundle on embargoed item will cause internal system errors on item pages - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;robint&gt; KevinVdV: I'll check there are no conflicts with 873, cheers</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- I thought KevinVdV's post was "informational" for robint?</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;KevinVdV&gt; That also but don't know if it conflicts</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;KevinVdV&gt; I think it is just a pretty serieus issy</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;KevinVdV&gt; issue</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;mdiggory&gt; just wanted to make sure it wasn't missed in the onslaught, thats all...</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mdiggory&gt; it relates to all the JIRA noise I posted this morning... but ok to leave that for later...</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; ok. fine. We can step back for a moment then.  We'll start with DS-873 and then go back to my list afterwards</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-873">https://jira.duraspace.org/browse/DS-873</a> ] - [#DS-873] Creative commons license bundle on embargoed item will cause internal system errors on item pages - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mdiggory&gt; I will add this to the related issues on the task I just created....</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mdiggory&gt; Ds-908</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;grahamtriggs&gt; isn't it a bit odd to have Creative Commons on an embargoed item?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-873 looks like a rather simple fix to me, and seems to make sense</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;KevinVdV&gt; Strange though it may be it occurs</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- perhaps a bit odd, but we probably shouldn't assume it's "impossible" :)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; This one may conflict with the MIT work, worth checking with Wendy Bossons</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mdiggory&gt; This reflects the need for a more all encompassing view on how resource policies are managed in embargo, moving items and or movement of items into Archive from Workflow, etc</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  Sounds like we need (a) a volunteer, (b) talk to MIT, and (c) link back to robint's Ds-852 work</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;grahamtriggs&gt; well, depending on the embargo reason, it might be feasible. and if you have multiple files, some may be CC, whilst one is embargoed / restricted</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;grahamtriggs&gt; but generally, it is at odds to say something is both restricted access,, and freely (re-)usable</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mdiggory&gt; DS-908 would resolve issues allowing embargo at multiple levels (Item or Bitstream) and more than likely be customizable.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-908">https://jira.duraspace.org/browse/DS-908</a> ] - [#DS-908] Embargo Overhaul: Utilize ResourcePolicy Start and Stop datestamps for enforcing embargo in DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; Notes we're doing "quick" reviews here -- probably should wrap this issue discussion up.  Any volunteers to tackle this or investigate issues further?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mdiggory&gt; a.) no matter how much we say "Embargo is Item level" right now, the Policies are set at the Bitstream Level.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mdiggory&gt; so, having differing policies on licenses etc is feasable</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-873 summary:  Seems relatively minor. Needs a volunteer.  Also should be run past MIT folks.  Link up with Ds-852 work as well?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mdiggory&gt; anyhow... leaving it tdonohue to decide... I'm not trying to shanghi the JIRA review and suggest this is probibly a topic for a special meeting</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; patch is small, I push it</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea, not enough time to discuss this in a "quick review" -- this part of our meeting is about quick decisions and assigning volunteers, not about larger discussions (i.e. we need special topic mtg for your topic)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; moving on for now...next up</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; DS-803</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-803">https://jira.duraspace.org/browse/DS-803</a> ] - [#DS-803] 'dspace harvest -g' (ping) doesn't - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;grahamtriggs&gt; I'm happy to push embargo issues to a special topic - I was just flagging up that there are probably bigger issues to think about than have been covered so far</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: "bring it" in my JIRA ticket.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; any comments on Ds-803, or volunteers to implement 'ping', since it doesn't seem to exist?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mdiggory&gt; seems someone needs to create a patch first?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; yep..hence my request for "volunteers to implement" ;)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;grahamtriggs&gt; is it documented?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; not sure, but it sounds like the option exists, from what mhwood says, but it doesn't work</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. we'll just move on for now.  Ds-803 Summary:  Needs more information, e.g. is it documented?  Needs a volunteer to implement.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; Next up: DS-804</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-804">https://jira.duraspace.org/browse/DS-804</a> ] - [#DS-804] Spelling errors in Russian language pack/ - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; oh, err. looks like a Claudia item (and she's already started conversation in the comments)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; perhaps see if she will complete the commit?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-804 Summary:  Assign to Claudia?  Waiting on response to Claudia's last comment</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-brick">* mdiggory ponders that one could actually commit such a change from the github UI itself without needing local svn checkout and commit knowledge...)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- it looks like it's "in limbo"  Claudia's last comment is requesting fixes to the patch</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;grahamtriggs&gt; looks like DS-803 just needs to call harvester.verifyOAIharvester if the options passed are valid.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-803">https://jira.duraspace.org/browse/DS-803</a> ] - [#DS-803] 'dspace harvest -g' (ping) doesn't - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; thanks grahamtriggs!  Would you be willling to add a comment to Ds-803 around that?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; k... maybe "PING" Ivan in the comments again</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Moving on to next one: DS-805</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-805">https://jira.duraspace.org/browse/DS-805</a> ] - [#DS-805] QDC schema registry needs to be brought into conformity with the current DCMI standards - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;robint&gt; Couldn't disagree but its not a 5 minute job</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; this is a larger issue, obviously.  Metadata schemas is in our "Topics in Waiting" list for Special Topics meeting</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; It could also be something we could bring up for some discussion at our OR11 Dev Mtg, if others are interested</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; (as the topic of Metadata support may also be of great interest to folks from DCAT, some of whom will be at the OR11 Dev Mtg)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; harking back to CC license + embargo:  license means it *will be* freely usable once the embargo is lifted.  Embargo is a temporary overlay on rights.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;robint&gt; tdonohue +1</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue:  I agree.. Of strong interest to me was well</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; looking forward to any dialog</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  we'll stop there. Seems like agreement that Ds-805 (and idea of ongoing Metadata support) be "tabled" for some initial discussions at OR11 Dev Mtg along with DCAT and others.  May also warrant a future Special Topic Mtg after OR11, we'll see</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; yep</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. moving on to other topics on agenda.  Next up is 1.7.2 Updates</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;PeterDietz&gt; Hi</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;PeterDietz&gt; I was on the fence about one of the caching issues making it in</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: could be that instead of alter embargo ResourcePolices... maybe the UI's should check for permissions prior to attempting to show?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;PeterDietz&gt; I ended up deciding that if 1.7 didn't break it, then 1.7.x+1 doesn't need to fix it. 1.8 should</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; Maybe.  Sorry, I just got back from moving servers.  Must look more deeply into this.  Meanwhile, conversation moved on.  Just wanted to capture a thought.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; why does the UI need to access the License? To try to embed licensing detail (a http link embeeded in bitstream)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;PeterDietz&gt; Its weird logic, and I'm typically of the mind, that if we can fix things now, then we should, to encourage adoption of latest release</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; seems goofy</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; yep.  Plus, another point on 1.7.2 is that we likely want to keep it "small" and avoid anything that we are not certain about (so as to avoid needing a 1.7.3)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;robint&gt; PeterDietz: Agreed. Leave until 1.8</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; sorry that last comment was about cc licesnse and embargo</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; not 1.7.2</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; So, it looks like 1.7.2 will fix, Ds-841 (has a code fix, uncommitted yet), Ds-871 (already committed), and hopefully Ds-875 (seems to not have a "valid" fix yet?)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS/fixforversion/10464">https://jira.duraspace.org/browse/DS/fixforversion/10464</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace: 1.7.2 - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS/fixforversion/10464">https://jira.duraspace.org/browse/DS/fixforversion/10464</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; I rather think that yes we want it small, but if the behavior is greatly improved by getting what is a small patch into place, it might be a wise exception</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;PeterDietz&gt; hopefully we can have all of our fixes to have nice clean patches in the attachments. So that X-University who wants to have a patch, can just patch their system with their important fix. Sounds like several years old advice, but its still a usable route for affects-me bugfixes</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; for my little addition to this, I can confirm that the revised patch for DS-898 is working smashingly on our repository</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-898">https://jira.duraspace.org/browse/DS-898</a> ] - [#DS-898] Caching error in browse, search and discovery results - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;PeterDietz&gt; Ds-898 came in 2 parts. A fix to trunk, that caused NPE, followed by an additional fix</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;PeterDietz&gt; r6369 and r6379</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; Any updates or comments on DS-875 proposed fix, which seems to be the one issue already scheduled for 1.7.2 that doesn't have 'wide agreement' (or at least stuartlewis, who isn't here, had some comments)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-875">https://jira.duraspace.org/browse/DS-875</a> ] - [#DS-875] DSpace Configuration service error when using &amp;quot;dspace&amp;quot; script. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-brick">* mdiggory enjoys the use of the word "smashingly"</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;PeterDietz&gt; smashingly kind of sounds like the bug fix caused more problems. ... unless it was said by Austin Powers, then it made your repository even more groovy</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;KevinVdV&gt; I just commented on DS-875 before this meeting</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-875">https://jira.duraspace.org/browse/DS-875</a> ] - [#DS-875] DSpace Configuration service error when using &amp;quot;dspace&amp;quot; script. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;KevinVdV&gt; T.b.h. the thing is I don't know what the "best" way to fix it is...</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; yea, thanks KevinVdV.  I was also curious to see others opinions on this.  Do we remove 'CLASSPATH' altogether (like current patch does) or see if we can find another way around it.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-brick">* mdiggory rofl'ing</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; any other ideas on Ds-875 from anyone?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mdiggory&gt; I was trying to comment... basically, I think if your going to pass in a CLASSPATH... the problems that it causes are upto you to manage</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;PeterDietz&gt; could we remove the e.printStacktrace ?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mdiggory&gt; I think we should protect the command with at least a warning</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;KevinVdV&gt; We could but that will not fix the issue</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; and use if conditionals to configure the commandline to have CLASPATH only if it is set</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; conditional example provided needs work... theres a better way in bash</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-brick">* hpottinger has to run, sorry folks</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-navy">* hpottinger (80cea2c6@gateway/web/freenode/ip.128.206.162.198) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- so, something similar to what stuartlewis suggested then?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;KevinVdV&gt; But I think it should also be clear IF it crashes the user should be aware of this</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; But we may not have bash.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;KevinVdV&gt; Perhaps a cleaner error could be thrown...</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; But more explict, check for CLASSSPATH present in environment, set it only if it is present, right now what it dumps onto the executable is not correct with CLASSPATH is not set</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; its a bash script</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV - yea, I can see a cleaner error perhaps.   But, I do like the idea of keeping the CLASSPATH in there, if it is set.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; mwood@mhw ~/servers/johncock/build/dspace/dspace-1.7.0/dspace/bin $ head dspace</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; #!/bin/sh</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;KevinVdV&gt; I agree with you on the fact that the CLASSPATH should stay in (if explicitly set)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; Agreed, do not want to lose CLASSPATH if we can deal with odd values.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. it sounds like we have several of us in agreement that "preserving the inclusion of CLASSPATH" is a good thing.  So, sounds like we need a few of us to revisit Ds-875 then, and see if we can throw better errors if they should occur.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mdiggory&gt; A warning clarifying that if your CLASSPATH is "dirty" you may break DSpace would be good to toss in there</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mdiggory&gt; and like KevinVdV suggested, maybe a light/quick review of that path might help...</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; yea, a cleaner warning or error would be best -- either one</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; likewise, I would still research use of classworlds in this case as a possible means to let a third party open source tool dedictated to managing classpaths on commandline execution of java deal with such problems instead of us</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; because then one solution would apply to both *nix and Windblows</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;KevinVdV&gt; Using a third party tool might also work if it does a propper job</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. any volunteers to continue work on this? Obviously need to prioritize Ds-875 if we want to "make the deadline" for 1.7.2</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;KevinVdV&gt; Well I can create a patch for a clean error pretty swiftly</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; I think thats best for 1.7.2</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV -- that'd be great.  If we can combine that with an updated patch that preserves the CLASSPATH, that seems like a good solution for 1.7.2</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; save the classworlds overhaul for 1.8</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mdiggory</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;KevinVdV&gt; I will indeed save the classworlds until 1.8</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;KevinVdV&gt; I can also attempt to look into the "optional" CLASSPATH</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  any other 1.7.2 topics? (noticing we're running shorter on time, and it might be good to talk briefly about GSoC today)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; I think we need to dedicate a meeting to it</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; but I know that timezones make it impossible to get everyone in one room</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; "it" -- using that term always confuses me in IRC, you talking about GSoC?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;PeterDietz&gt; 1.7.2 will have Oracle bug fixes, the bug we just discussed about services classpath, and xmlui caching of recent items list (caused by 1.7 reshuffle of aspects artifactBrowser)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; it = GSoC rampup</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. let's move on to GSoC rampup then now... since at many of the mentors are here currently</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; I mean it would be good to have meetings where we have an agenda of some sort</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-navy">* robint (522921b0@gateway/web/freenode/ip.82.41.33.176) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- can you clarify.  You want just one meeting on 'rampup', or are you talking about multiple check-in meetings on GSoC (which I actually thought we'd do mini-checkins during this Dev Mtg each week)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;PeterDietz&gt; as far as GSoC goes, webmvc has still kept discussion private. I'll fork the thread to the gsoc list</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; Originally, meetings would be held where students and mentors delivered status and entertained feedback from thos interested.... I'm suggesting scheduling would help in this area</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-green">* robint (522921b0@gateway/web/freenode/ip.82.41.33.176) has joined #duraspace</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; Projects need to get into the WIKI (pointing finger at self too) into the great pages you created</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; Adjustments to proposed solutions....</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; requirements...</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; engagement with students....</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; setup of accoutns and verifying access...</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; So, how about similar to last year, we do 10-15 mins of "GSoC Updates" as part of our weekly Dev Meeting.  We could also encourage every project to give more detailed updates at 21UTC or 19UTC (either just before or just after our normal Dev mtg)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mdiggory&gt; true tru</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; would everyone agree to that sort of meeting structure?  Other mentors have thoughts on this?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm free for the after dspace meeting</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; Or alternatively, how would the other mentors out there prefer to manage GSoC this year?  I'm looking at grahamtriggs, PeterDietz, scottatm, mdiggory (and all those others not in attendance)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good PeterDietz</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; (As mdiggory noted above)  All mentors should also work with their students to start to populate their Project's Wiki page, linked off here: <a href="https://wiki.duraspace.org/display/GSOC/GSoC+2011+Projects">https://wiki.duraspace.org/display/GSOC/GSoC+2011+Projects</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;kompewter&gt; [ GSoC 2011 Projects - Google Summer of Code - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/GSOC/GSoC+2011+Projects">https://wiki.duraspace.org/display/GSOC/GSoC+2011+Projects</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;PeterDietz&gt; The webmvc project still needs to get the ball rolling. i.e. choosing svn or github. making sure the students got an editor, can install dspace, understands the technology. And also we need to sort out exactly what the scope of the project it</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; sending reminder to Duraspace GSoC list now to get into the WIKI</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C15567.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: thats an issue across the board...</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; Any others have thoughts about a weekly all-GSoC meeting either just before or just after our Dev Mtg?  I noticed stuartlewis just joined as well.  So far, it sounds like PeterDietz prefers an "after Dev Mtg" all-GSoC meeting</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz how can we shepard getting this setup sooner.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;stuartlewis&gt; after++</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;grahamtriggs&gt; PeterDietz: we're still looking for a little clarification on the GitHub setup - in particular with the svn syncing. I'm ready to just agree to do stuff on GitHub, but I don't want to start committing code there only for an attempted svn-&gt;github sync to screw things up</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; lets say... choose Git and have an expert organize forks for us?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; after ++</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, the "afters" have it.  We'll have an all-GSoC meeting weekly on Weds at approx 21:00 UTC (or right after this normal mtg) and encourage everyone who can to stick around to provide feedback, etc</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;PeterDietz&gt; I'll arrange any project in github that is wanted to be organized there. However, the syncing between git &lt;--&gt; svn works, but you eventually would want to choose one or the other. So that you know which repository is canonical</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; I'd say for GSoC, if it simplifies things, we could consider Github as "canonical".   Later on (after GSoC ends) we could always move it to SVN if we really wanted to, or just keep it in Github</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;stuartlewis&gt; But for now presumably syncs will be turned off?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; hmm... well, actually, I was more thinking that the primary sync svn -&gt; git that PeterDietz does could be "on".  But, that each GSoC project would just do their own code in Github and not worry about syncing it back to SVN (or does that not work for each project?)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;robint&gt; Got to run unfortunately. Cheers all.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I need to go too.  'bye!</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;stuartlewis&gt; Yep - sounds sensible (I was thinking about the other way round, thinking we didn't want git-&gt;svn)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;PeterDietz&gt; yep, my recommendation is what tdonohue just said. maintain the current dspace-trunk sync so that we've got that big project "mirrored". Then have modules that want to leap (i.e. webmvc), to do all development in github, no more svn commits</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; +1 - PeterDietz may have said it better than I did :)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;grahamtriggs&gt; tdonohue: I'm concerned about that - what if someone inadvertantly committed something to svn, and then it's trying to sync out of date stuff to github?</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: what if project infove changes to dspace directly?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mdiggory&gt; infove = involve</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- wouldn't you just "fork" it?  (similar to how you'd branch it or create a new 'prototype' in SVN)?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; Will forking and being in git make getting those changes into dspace at the end more difficult?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; meaning back to the dspace svn repository</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;PeterDietz&gt; once a project becomes abandoned on svn, then we should take it down / board it up, and leave a note to go check out github/your-project-name</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- but, shouldn't that hopefully be mostly avoided if you are managing your WebMVC code entirely in GitHub (i.e. everyone moves development from SVN to Git for that project, to avoid sync problems)?   I admit, I don't know for sure, just thinking outloud</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;PeterDietz&gt; since we've got one foot in both camps. Then you'll have to make your dspace/trunk commits in svn (since we're just using github/dspace repo as a mirror)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;grahamtriggs&gt; tdonohue: I realise nobody would be doing it normally - but what if someone else doesn't realise? What if a command forces the tree to think there are changes, and sync across old code?</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: yea, it could. But if there's a one-way sync from SVN to Git, then hopefully your "fork" would pick up most of those changes in SVN little by little.  In which case, maybe you could more easily merge back to SVN if necessary.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs - i don't know to be honest. I'm not a Git expert yet, admittedly.  Just offering some ideas for how you could start to "test out" Git/Github as part of GSoC, in the hopes that we can make the switch entirely some day in the future</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;PeterDietz&gt; @mdiggory, the github repo + forked by someone who sends in pull request that gets merged into main github repo, will squash all changes to say that whoever performs the sync (peterdietz) made the commit, and he made it just now. As opposed to attributing it to whoever did it in git / 2 weeks ago</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;PeterDietz&gt; my last statement means that if you tried to sync github stuff down to svn, you'll lose author attribution of changes. No big loss, but I'm hoping we don't sync from github down to svn</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; All in all here, I'd really leave it up to the Mentors of each project.  Although it seems like a good opportunity to try out Github for GSoC, I'll admit there may be some "pain points", so there's no requirement to do so</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;PeterDietz&gt; @grahamtriggs: If we don't want stuff going into svn/modules/webmvc, then we ought to disable the sync task, and possibly delete the svn/module/webmvc</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: I view those author attributions as very important...</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;grahamtriggs&gt; So, I'm still not clear about how GitHub and the svn sync has been setup. So, simple question - if we move WebMVC development to GitHub, can we disable syncing for just WebMVC, and leave it in place for everything else?</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mdiggory&gt; I'm rather for get your project off the svn modules / sandbox space entirely and into git if you want to use git...</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; seems the safest and if its the case that git sucks and the whole experiment is a failure... put the code in the svn again...</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- pretty sure the answer is "yes", but PeterDietz can verify.  Sync processes are separate for 'dspace-trunk' and 'webmvc' (for example)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; this may help with our classifying modules...</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mdiggory&gt; experimental in git.... supported mirrored off svn?</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mdiggory&gt; then whole "modules" directory becomes dedicated to supported modules....</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mdiggory&gt; I'm even willing to sort through all my work there to attain this...</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-brick">* tdonohue notes we are way over time here, but we should continue to hash out this Github discussion for GSoC next week, as needed.  (But others are free to head out if you need to)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;PeterDietz&gt; (sorry, ran out for office pizza party)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- could be worth trying out.  The big question though still becomes how to 'transition' an "experimental module" (in Git) to a "supported module" (in SVN /modules). it could be worth thinking about though</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;PeterDietz&gt; sync per module / project is completely seperate cron job.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; thanks PeterDietz -- that's what I thought :)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mdiggory&gt; Are you volunteering to support those corns Peter?</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;PeterDietz&gt; so even though in svn, its one really big repo, with many subfolders. They get converted into seperate git repositories (according to whatever breakdown we want)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;PeterDietz&gt; corn?</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mdiggory&gt; sorry "crons"</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; I too was wondering why mdiggory was talking about corn ;)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm volunteering to migrate any projects to/fro svn and github</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mdiggory&gt; what happens to trunk/tag/branches in the git world?</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;PeterDietz&gt; I can run the cron too, but I'm thinking of those as temporary</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;PeterDietz&gt; so.. git svn clone <a href="http://path-to-svn/dspace/trunk">http://path-to-svn/dspace/trunk</a> looks around for standard layout of tags and branches folders</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;PeterDietz&gt; it says that each directory in branches become a branch in git. and I'm not sure if it bothers with the tags. You might have to re-tag things.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-navy">* vibhaj (7376e151@gateway/web/freenode/ip.115.118.225.81) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; So, does everyone feel "ready" for GSoC to begin next week?  Anything else pressing to discuss, please bring it up  (either now or in coming days over duraspace-gsoc email)</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;PeterDietz&gt; then you've got one big git repo with a bunch of branches/tags. And you can see them all in action at github: <a href="https://github.com/DSpace/DSpace">https://github.com/DSpace/DSpace</a></span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/DSpace - GitHub ] - <a href="https://github.com/DSpace/DSpace">https://github.com/DSpace/DSpace</a></span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-brick">* tdonohue is not trying to stop this Github discussion -- just want to make sure we stay "on topic" with things related to GSoC, as GSoC starts on May 24, next week</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-brick">* PeterDietz prefers to continue other important discussion. github seems like distraction from actually dialogging with students</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;grahamtriggs&gt; PeterDietz  (/ stuartlewis ): there's not been any commits to WebMVC - can we simply agree now to use GitHub, and stop the syncing cron?</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mdiggory&gt; I tend to think getting this ironed out is important...</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-green">* vibhaj (0e61cfa0@gateway/web/freenode/ip.14.97.207.160) has joined #duraspace</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; the majority of the work I anticipate happening in module projects.</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- ironing out how Github handles tags/branches, though important, doesn't seem as necessary to decide for GSoC.  But, ironing out whether or not you are using GitHub is important for GSoC :)</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; moving a modules project to github and having it blow away all your tags would suck</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;stuartlewis&gt; Yep - so for webmvc, github with (for now) no syncs, sounds sensible.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;mdiggory&gt; likewise, for other projects as well...  we will need a Git primer for all mentors and students however...</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;PeterDietz&gt; grahamtriggs: sure, webmvc will now use github solely. I'll stop the syncing (can be revived later I suppose). In meantime, no svn commits (for the foreseeable future).</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;grahamtriggs&gt; PeterDietz: done</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; Git Primer (built by Fedora folks): <a href="https://wiki.duraspace.org/display/FCREPO/Working+with+Git">https://wiki.duraspace.org/display/FCREPO/Working+with+Git</a></span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;kompewter&gt; [ Working with Git - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/Working+with+Git">https://wiki.duraspace.org/display/FCREPO/Working+with+Git</a></span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;grahamtriggs&gt; PeterDietz: can you ping me / stuartlewis when the syncing has been stopped?</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; (Note -- some of that primer is obviously Fedora specific -- but, there's lots of "how tos" for Git in there as well)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;mdiggory&gt; most excellent</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mdiggory&gt; we need an announcement to duraspace-gsoc list about all this...</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; I can send an announcement today/tomorrow to duraspace-gsoc about Using GitHub for DSpace GSoC  + All-DSpace-GSoC meeting schedule   (anything else I need to add to that?)</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;mdiggory&gt; no that sounds good...</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;grahamtriggs&gt; errmm... Peter, Stuart and I are happy to make this decision for WebMVC - but shouldn't this be a per-project decision for the mentors and students involved?</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;mdiggory&gt; so.. the second question that is Git related.... when using maven-release-plugin.... how will it treat Git? forking/tagging?</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, anything else GSoC related?  Does everyone feel "ready" enough to get started next week (obviously first few weeks may still need time to figure out exact scope for some projects)?</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- oh, sorry, I misstated that.  "Using Github for DSpace GSoC" part actually is *recommended*, but not required :)</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;scottatm&gt; Sorry, comming a bit late :)</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mdiggory&gt; well, in this current chatroom... thats sorta me in three other cases...and scottatm in one... I'll clarify it with the other students...</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;tdonohue&gt; so, grahamtriggs, you are correct, Github is a per-project decision for the mentors &amp; students involved</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;mdiggory&gt; gosh, lets just use the email in the duraspace-gsoc list to elicit viewpoint/feedback</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;PeterDietz&gt; I've got an idea for what we've gotta do for webmvc project. Share the workflow with the student, and give them a few primer tasks to get started</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;tdonohue&gt; yep. I'm fine with bringing stuff to duraspace-gsoc email.   Anything else to decide now? or should we "close up" this extended meeting and move discussion to duraspace-gsoc?</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: can we make that dialog in the duraspace-gsoc list so that others can ride on your coat-tails..</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;tdonohue&gt; hearing nothing, I'm going to assume we are done here.   Please bring final preparation comments &amp; discussions to duraspace-gsoc.  I'll also send a brief summary of this discussion to that list today/tomorrow to bring others in the loop</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mdiggory&gt; groovy man!</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;PeterDietz&gt; yep, I'll post in the gsoc list/group.. cheers all.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;tdonohue&gt; cheers! have a good one</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;PeterDietz&gt; grahamtriggs / stuartlewis: I've commented out the webmvc svn --&gt; github sync task, thus svn is not being synced.</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-navy">* robint (522921b0@gateway/web/freenode/ip.82.41.33.176) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;stuartlewis&gt; PeterDietz: Excellent, thanks</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;PeterDietz&gt; mdiggory: If you have any modules projects that you want converted to github project, then let me know and I can perform the conversion</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;grahamtriggs&gt; btw - IntelliJ 10.5 is out</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;PeterDietz&gt; I think the process to do it is documented somewhere</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;mdiggory&gt; thanks PeterDietz I'll get you a list...</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;PeterDietz&gt; by documented, i mean that the process for converting is in a dspace-devel email: <a href="http://www.mail-archive.com/dspace-devel@lists.sourceforge.net/msg05813.html">http://www.mail-archive.com/dspace-devel@lists.sourceforge.net/msg05813.html</a></span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;kompewter&gt; [ Re: [Dspace-devel] [Dspace-commit] DSpace Development Practices	[was: Co ] - <a href="http://www.mail-archive.com/dspace-devel@lists.sourceforge.net/msg05813.html">http://www.mail-archive.com/dspace-devel@lists.sourceforge.net/msg05813.html</a></span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;grahamtriggs&gt; IntelliJ tip for GitHub - if you want to use the GitHub version control option, you need to go to GitHub and 'watch' the public repositories first</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-green">* vibhaj (0e61cfa0@gateway/web/freenode/ip.14.97.207.160) has left #duraspace</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;grahamtriggs&gt; except it won't clone the watched repository, as Intellij doesn't support https. So you have to fork it. :(</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Client Quit)</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: that sucks</span><br />
+<span class="irc-date">[22:23]</span> <span class="irc-green">* PeterDietz (~PeterDiet@sul272peter.lib.ohio-state.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:28]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has left #duraspace</span><br />
+<span class="irc-date">[22:42]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[23:42]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[23:42]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[23:42]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[23:42]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[23:42]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />

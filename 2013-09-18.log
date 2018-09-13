@@ -1,0 +1,283 @@
+<span class="irc-date">[0:41]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Quit: Ex-Chat)</span><br />
+<span class="irc-date">[3:13]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[3:13]</span> <span class="irc-brown">-asimov.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[3:13]</span> <span class="irc-brown">-asimov.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[3:13]</span> <span class="irc-brown">-asimov.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[3:13]</span> <span class="irc-brown">-asimov.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:43]</span> <span class="irc-brown">-brooks.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:43]</span> <span class="irc-brown">-brooks.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:43]</span> <span class="irc-brown">-brooks.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:43]</span> <span class="irc-brown">-brooks.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:43]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:43]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:43]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:35]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:56]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:27]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has joined #duraspace</span><br />
+<span class="irc-date">[18:41]</span> <span class="irc-green">* barmintor (~ba2213@franklin.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:41]</span> <span class="irc-black">&lt;barmintor&gt; is there anyone in the room that has project admin rights for FCRepo in the Duraspace JIRA?</span><br />
+<span class="irc-date">[18:44]</span> <span class="irc-black">&lt;tdonohue&gt; barmintor: I've got full admin rights across JIRA, as do the other DuraSpace tech folks</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;barmintor&gt; tdonohue: Can I beg you to either give me admin on the FCRepo project, or do a little version-name maintenance?</span><br />
+<span class="irc-date">[18:47]</span> <span class="irc-black">&lt;tdonohue&gt; barmintor: Hmm... according to the FCREPO project, you should already have Admin permissions on that project, since you are a fedora committer</span><br />
+<span class="irc-date">[18:48]</span> <span class="irc-black">&lt;barmintor&gt; Hmm. I don't think it let's me admin anything except Aubra</span><br />
+<span class="irc-date">[18:48]</span> <span class="irc-black">&lt;barmintor&gt; Akubra</span><br />
+<span class="irc-date">[18:49]</span> <span class="irc-black">&lt;tdonohue&gt; Akubra is setup the same way. Since you are an akubra committer, you have Admin rights to that JIRA project.</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-black">&lt;barmintor&gt; Hmm. Well… I, err...</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-black">&lt;barmintor&gt; JIRA hates me?</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-black">&lt;tdonohue&gt; this is through your "barmintor" JIRA username...I'm assuming that's the one you are using since I don't see you under any other login</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-black">&lt;barmintor&gt; yes, that's right</span><br />
+<span class="irc-date">[18:51]</span> <span class="irc-black">&lt;barmintor&gt; well, this seems like a poor use of our time- could you do me afavor, and add a version called 'Fedora 3.7.1'?</span><br />
+<span class="irc-date">[18:51]</span> <span class="irc-black">&lt;tdonohue&gt; done</span><br />
+<span class="irc-date">[18:52]</span> <span class="irc-black">&lt;barmintor&gt; tdonohue++, thanks much</span><br />
+<span class="irc-date">[18:53]</span> <span class="irc-black">&lt;tdonohue&gt; no problem. you might want to ping andrew on the fcrepo JIRA permissions if there are ongoing issues.  I'm not sure why it isn't working, as it seems to be setup correctly</span><br />
+<span class="irc-date">[19:05]</span> <span class="irc-black">&lt;helix84&gt; my favourite pet peeve</span><br />
+<span class="irc-date">[19:06]</span> <span class="irc-black">&lt;helix84&gt; (wrong channel)</span><br />
+<span class="irc-date">[19:23]</span> <span class="irc-green">* bollini (~chatzilla@93-35-50-190.ip53.fastwebnet.it) has joined #duraspace</span><br />
+<span class="irc-date">[19:27]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* kstamatis (5b8c1906@gateway/web/freenode/ip.91.140.25.6) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all DSpace folks, it's time for our weekly DSpace Developers Meeting.  Today's agenda is at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-09-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-09-18</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2013-09-18 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-09-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-09-18</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; we'll start off with a few Pull Request reviews (as usual): <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; today we start off at #287 / DS-1106 : <a href="https://github.com/DSpace/DSpace/pull/287">https://github.com/DSpace/DSpace/pull/287</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1106 Solr search accent insensitive (ICU Transliteration) by abollini · Pull Request #287 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/287">https://github.com/DSpace/DSpace/pull/287</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1106">https://jira.duraspace.org/browse/DS-1106</a> ] - [#DS-1106] Solr search accent insensitive - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; #287 seems reasonable to me, assuming it doesn't conflict with the upgrade to Solr 4</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;helix84&gt; bollini: does this still return both Cortés and Cortes when you search for Cortés?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;bollini&gt; the only "particular" thing about this PR is that we add some extra library to the solr webapp</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;bollini&gt; helix84: yes</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;bollini&gt; official solr documentation support adding of these libraries in a special extra folder that is added to the classloader during solr startup</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;bollini&gt; as we have a custom solr this solution look to me as more easy and out-of-box ready than the official path</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; i'm all for the idea, it could just use a second set of eyes to test it</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; this all seems fine to me</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;bollini&gt; any progress on the ElasticSearch "not break" test for the solr4 upgrade?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; just shouting out here that I'll sign on for testing PR287</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; though I will say that the big green button looks awfully tempting :-)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; ok. So, sounds like we have general approval for #287. Might be good to have a test of it..but then seems good to merge</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;bollini&gt; no please</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;bollini&gt; it should be merged after the solr4 upgrade</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; ok. Good to note. PR#287 needs to wait on #289</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;bollini&gt; it is very likely to make conflict and this will make more difficult to test the upgrade</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; i'll add a comment to wait for solr4</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; thanks helix84.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; Moving on...since it is next in our PR review list: what is the status of #289? <a href="https://github.com/DSpace/DSpace/pull/289">https://github.com/DSpace/DSpace/pull/289</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1623] Upgrade DSpace-SOLR to SOLR 4 by lap82 · Pull Request #289 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/289">https://github.com/DSpace/DSpace/pull/289</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; I see on my whiteboard that I volunteered to review PR289</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;bollini&gt; still two missing "no break" test are required: workflow statistics and elastic search</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; thanks bollini</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone able to chip in &amp; help get those tests done in the very near future?  We should try to get #289 in very soon...there is a lot waiting on it</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; I don't remember if we have a green light from Joao about the oai Solr core</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;bollini&gt; helix84: yes, you are right also oai need test (but this is likely one that I can do in the next days)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; I see no response from him, I'll remind him again.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; of course if you can do it, the better</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; we happen to have a very nice new testing environment, would be a fun experiment</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: was wondering about that ;)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so sounds like bollini can help test OAI... hpottinger said he may be able to help chip in too</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; Is that enough to move this forward?  Just hoping  this doesn't sit around much longer (And I wish I had the time myself, but I'm out most of next week, as you'll see on the agenda)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, hearing no more opinions..so, we'll go with that for now.  I would suggest though that we think about merging this soon no matter what (if worst comes to worst, we can do more heavy testing in coming weeks and during testathon)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; We'll close up the PR reviews there for today.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; I'm on board for testing #289, and if that looks good, following up with #287</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;bollini&gt; hpottinger: thanks</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; Next on agenda.  I'm gonna be out most of next week (Mon-Thurs) at meetings. So, I'm not going to be around for next week's Developer meeting.  Anyone care to lead the meeting next week?  I think the only agenda items are 4.0 status updates and doing more PR / JIRA reviews.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; I should be here. The last review seemed to be successful, so we can continue that if nothing else comes up.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: thanks!  yea, that seems reasonable to do again, unless there's more pressing 4.0 stuff that comes up.  Might be good to check in on #289 again (if it's not merged by then)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; moving right along on the agenda.  I don't necessarily want to spend a ton of time on this (unless there are a lot of questions).  But, hpottinger &amp; I just wanted to formally announce our "vagrant-dspace" work here: <a href="https://github.com/tdonohue/vagrant-dspace">https://github.com/tdonohue/vagrant-dspace</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ tdonohue/vagrant-dspace · GitHub ] - <a href="https://github.com/tdonohue/vagrant-dspace">https://github.com/tdonohue/vagrant-dspace</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-brick">* helix84 gives them a thumbs up</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially, you can use this tool to spin up a VM with DSpace ("master" branch) auto-installed.  It's a great quick development/test/demo environment</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; there's much much more details on the GitHub repo (in the README).  Feedback is more than welcome.  Contributors are more than welcome.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;bollini&gt; I haven't tried it but it looks as a good candidate to move under the DSpace github organization</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: yes, I was going to ask that too.  I'd be completely willing to move this project to "DSpace/vagrant-dspace" in GitHub, if others want to help out.  It mostly started as a bit of a sideproject/experiment...but, now that it's WORKING, we could make it more 'official'</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; it's been a while since I looked at it, I only vaguely remember something about SSH keys that I didn't like... any idea if that was resolved?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yep, that was cleaned up a bit better.  No more copying your all your local SSH keys to the VM.  But, if your local machine is Windows, you do need to create a custom SSH key (details are all in that README)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; and my second concern was with vagrant version, the Vagrantfile syntax wasn't compatible with 1.1</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;hpottinger&gt; Vagrant is an active project, I suggest keeping up with the current version</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; anyway, +1 to moving it under DSpace</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; the version I'm using right now is Vagrant version 1.2.2</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: the VagrantFile version hasn't been changed...mostly we were trying to get something to work. Now that it works, we can go in and clean things up more and add more options/configurations if we really need them</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, this is all something everyone else can chip in on more easily if we move it to DSpace GitHub.  I'd actually rather not be the sole "decider" of good PRs for this project :)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-brick">* hpottinger notices 1.3.2 is available and downloads it</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; and I have a question - is there any place on the host where you can set options, e.g. the administrator email/password?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: the DSpace Administrator password?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; yes</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; Some of that stuff is still not as configurable as it should be.  Again, we were working to get it to "WORK", and then hoped others would chip in with suggestions/PRs to make it more configurable/better</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://github.com/tdonohue/vagrant-dspace/blob/master/modules/dspace/manifests/install.pp#L26">https://github.com/tdonohue/vagrant-dspace/blob/master/modules/dspace/manifests/install.pp#L26</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ vagrant-dspace/modules/dspace/manifests/install.pp at master · tdonohue/vagrant-dspace · GitHub ] - <a href="https://github.com/tdonohue/vagrant-dspace/blob/master/modules/dspace/manifests/install.pp#L26">https://github.com/tdonohue/vagrant-dspace/blob/master/modules/dspace/manifests/install.pp#L26</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; So, the answer is generally:  It works as-is, but a lot of it is not as configurable as some developers may want it to be.  We'd like you all to help us make it better, if you are willing &amp; want to use it yourself</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: thanks, that was the answer to my question :)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; you can modify that script to always add your own admin if you want, but I'd only bother if you're planning on jumping in and using Vagrant for your own repository development</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; So, do folks think we should move this over to "DSpace/vagrant-dspace"?  Just want to ask this explicitly, since it's not clear to me if anyone has concerns about that?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; +1 move to DSpace/vagrant-dspace</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;snail&gt; +1</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; +1</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;bollini&gt; +1 to move</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, just got here, +1</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; so big thing I'd like to see added soon is auto-loading AIPs</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, sounds pretty unanimous (from those here).  I'll move it to DSpace/vagrant-dspace after this meeting ends</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; Where shall we record PRs for that project? Simply to DSpace Jira?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; sorry, not PRs, I meant issues</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;bollini&gt; ah yes, we need a new component</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: good question :) Hadn't thought that far ahead yet.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; oh, good point, we'll need a wiki space</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; GitHub gives us wiki for free, but I was thinking of issue tracker</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; we probably don't need an entire Wiki space...just a page (though the README is pretty detailed too)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; because I have a feature request I'd like to file ;)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-brick">* hpottinger is, of course, working on an Oracle-based version, if anyone wants to help.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; GitHub has free issue tracking too.  But, we probably should just create a 'vagrant-dspace' component in JIRA (to keep the issues all in one place).</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;bollini&gt; I want to suggest to use the dspace wiki, the development area is a good candidate not a separated space</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; ok. Well, I can add a new component for it into JIRA.  Not sure I'll get to a new Wiki page this week, but we can work towards that as well</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; if you all haven't yet played with it, it's worth tinkering a bit</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; Any last comments on 'vagrant-dspace'?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; We'll move along then to 4.0 Topics / Discussions.  Anything that anyone specifically wants to bring up?  (I will note that our 4.0 "initial submissions" PR deadline is now just ~2.5 weeks away)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; Is there still any hope for REST API in 4.0? REST API team? RT?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; that's not really a RT decision :-)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; good question.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I meant - are you bugging someone about it? Or is someone bugging you about it?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; there is no PR for a REST-API that I know of</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; I haven't heard anything lately.  Time for us to see if we can facilitate.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; correct, there is currently no PR for REST-API.  The question is whether anyone is going to work on one? Or are we skipping it (again) for 4.0?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; In my opinion, it'd be nice to have a REST-API, even if we slap "beta" (or other warnings) on it.  But, I realize we're getting down to the last few weeks and may have run short on time.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; Are we even any closer to consensus on *which* API?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; well, there was the option of choosing one of the existing implementations, commiting ourselves to the API and later rewriting the implementation if we don't like it.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; there are two versions "in the wild" and "in production" with varying levels of feature sets</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; I do know that the Wijiti folks are "slightly more interested in supporting" their version, my scare quotes, not an actual quote, and this is strictly rumor-speak</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; I haven't heard anything else more specific about the REST API than what is already mentioned (and others like PeterDietz and hpottinger probably know more than I)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; It's the classic chicken and egg problem. We seem to be waiting for users to start preferring one, but neither version gets many users since it's not official.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mhwood&gt; Anybody got a coin?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;PeterDietz&gt; hi, I have tested PR#289, and commented that ElasticSearch upgrade worked fine. Thus, I'm casting my approval on that.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;hpottinger&gt; :-) OK, it's not an easy decision because none of them are feature-complete</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; In my opinion, if the "REST API Team" (or a set of developers) came and said "we very slightly prefer this one", I'd trust it and go with it.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;PeterDietz&gt; Yeah, the REST-API, I'd be plenty happy to have "A REST API" available</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;bollini&gt; PeterDietz: thanks! this help</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; Hedtek is read-only, Wijiti is read/write but doesn't do authZ</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; I don't think we are going to get to feature complete without picking one, releasing, and having people start clamoring for features,</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: guess what, you might be the most qualified person here today to make a suggestion!</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; are either a bit more "complete" in the API specification?  Features/implementation can always be added/tweaked later on</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;PeterDietz&gt; We don't need to hold dspace-rest hostage to dspace-super-awesome-rest-that-I've-always-dreamed-of</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; well.... I'd have reservations about an "out of the box" web app that doesn't do AuthZ</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; based on "hpottinger: Hedtek is read-only, Wijiti is read/write but doesn't do authZ", that'd immediately make me lean slightly towards Hedtek (for security reasons)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; plus hedtek has tests</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; IIRC, both were ported to 3.0, right?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-brick">* hpottinger is pretty sure we've had this exact discussion...</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;PeterDietz&gt; It would be helpful to have the rest cohort around. But, some recommendations are to enforce a versioned API. i.e. Perhaps have 4.0 come out with a dspace.example.edu/rest/v1/communities/</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-brick">* tdonohue agrees with hpottinger, but still we need to keep having this discussion until we make a decision ;)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietz&gt; How useful is an API that is ReadOnly, vs an API that is CRUD?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://wiki.duraspace.org/display/DSPACE/Review+of+Existing+Dspace+REST+API+Frameworks">https://wiki.duraspace.org/display/DSPACE/Review+of+Existing+Dspace+REST+API+Frameworks</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kompewter&gt; [ Review of Existing Dspace REST API Frameworks - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Review+of+Existing+Dspace+REST+API+Frameworks">https://wiki.duraspace.org/display/DSPACE/Review+of+Existing+Dspace+REST+API+Frameworks</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; I'm sure there are good uses for write, but I don't have any myself yet.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; A ReadOnly API is actually very useful for some use cases (namely javascript widgets /embedding content in websites, pulling content from Dspace into an external system)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;helix84&gt; I'd also be happy with read-only for now</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; hmmm, Hedtek is PostgresQL-only</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; The big question in my mind is: Are we gonna have enough time to get something ready for 4.0?  We'd need someone to concentrate on moving this forward rapidly...we're only 2.5 weeks away from our "Initial PR" deadline (Oct 7)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; Even if REST doesn't make the 4.0 cutoff, I would like to see a decision sooner than later.  Before 4.0 releases, if not in time to include it.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; I do know the Wijiti folks were "very interested" in getting it into DSpace, maybe if someone would invite them to make a PR?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; Like the RT?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; They both are. But have we decided we want Wijiti?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; this RT member was not approached by Wijiti</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;hpottinger&gt; I think the word on Hedtek is they aren't interested in supporting their REST-API, though, sure, we can reach out to them, too</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; Either way, once it's in, we can study the other for additional features/coverage.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: not Hedtek, but Jorum had it custom-made by Hedtek and Jorum continues to be invested in it</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; I do think that a PostgreSQL-only version of the REST-API just gets you into a whole other discussion that we don't want to be in</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; I don't know about Jorum's continued investment in Hedtek's fork</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; Choose Wijiti if: (1) they submit a PR, (2) they (or we can help) provide an option to either disable "write access" altogether OR add basic AuthZ (I'm worried about Write + no AuthZ as a default setting)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; How hard to port it to Oracle?  (How hard to push the portability layer down to org.dspace.storage.rdbms so we don't keep having vendor-specific code popping up here and there?)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; Choose HedTek if: (1) they/we submit a PR, (2) someone can fix it for Oracle.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: unknown</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; As I feared.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: there are "kind of nutty" ways to turn off write access, that will work, but probably won't be something we'd want to release</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; "Basic AuthZ" can mean "refuse if write" and we extend it later.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood++</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; the "slap-dash" method is to just rewrite the URL endpoints for write operations so they're never hit</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; or the write endpoints can be made accessible only for whitelisted IPs</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; essentially, I think a read-only API is better than a Read/Write with no AuthZ.  So, I'd rather Wijiti give us a "read-only" API (or one where "write" is just disabled by default)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; all of which sounds simpler to do than dspace-api-level authZ</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; yep, we can either whitewash the endpoints away, or delete them</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; If we do that, we may as well just call boolean accessOK(Request req) { return ! ("PUT".equals(req.verb | "POST".equals(req.verb); }</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; "That" = "rewrite the endpoints"</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;hpottinger&gt; OR, leave them in and add a filter to the web app for localhost</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: even that is slightly dangerous. If you host is compromised (even for a non-admin acct), DSpace is potentially compromised.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; s/you/your/</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;kompewter&gt; tdonohue meant to say: hpottinger: even that is slightly dangerous. If your host is compromised (even for a non-admin acct), DSpace is potentially compromised.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; Sorry again, I have to go.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, it sounds like we need: (1) Someone to contact Wijiti about this discussion to see if they are willing to work with us, (2) a PR to get submitted &amp; us to start figuring out if we can make it work.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; so... I think I'm hearing: reach out to Wijiti for a PR, bus urge them to change to read-only?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm wondering if a quick-and-dirty basic authentication, on the PUT, POST, DELETE operations would be enough.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I'm already talking to Michael</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;PeterDietz&gt; ...can GET do anything to get you in trouble? i.e. expose provenance, restricted items</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: welcome back to the RT! ;-)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;bollini&gt; hpottinger++</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: sorry, not this year, too busy</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: act like an RT member, you become one :-) 'tis the way of it. One of us! One of us!</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;bollini&gt; one of us! one of us!</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;hpottinger&gt; In all seriousness, thanks, Helix84, for taking that on, even if you don't officially join up.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz brings up a good point about the GET access too.  There may be issues here</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;hpottinger&gt; I'd say we're very interested, and would like to see a PR so we can really dig into the discussion with code in hand.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; If we make REST API a *default* webapp in DSpace (i.e. it's gonna be installed by default), then we don't want it to be an accidental security hole into DSpace systems worldwide.   So, we don't want folks to be able to see restricted items (GET) or write content without secure AuthN/AuthZ (PUT/POST/DELETE)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger++  We need to see code and do an analysis.  Wijiti would get the "lead" if they can work with us on getting it ready.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; oh, yeah, duh, we do supposedly offer restricted items and embargo... AuthZ makes that go</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; yep. AuthZ is needed on GET to</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; So, of course they're busy, too, so they probably won't have time to work on it now, but they have been notified. Fact remains that the code is out there ready for some of us to do the last step (actually the same goes for Hedtek API).</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;helix84&gt; here's what they're working on (based on their API): <a href="http://bora-sandbox.wijiti.net/">http://bora-sandbox.wijiti.net/</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;kompewter&gt; [ Bergen Open Research Archive - HiB ] - <a href="http://bora-sandbox.wijiti.net/">http://bora-sandbox.wijiti.net/</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;hpottinger&gt; anyone interested in making a PR for either of these forks?</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; maybe we need to offer a bounty on this project?</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;hpottinger&gt; maybe a kickstarted campaign?</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: honestly, no, I believe we need to make a decision</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;hpottinger&gt; erm... that's kickstarter</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;hpottinger&gt; well, it's not just a decision, it's a developer taking on the project... a PR doesn't exist</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; Kickstarter tends to work the other way around... someone says "I want to do this project..will you pay me / support it?" , not "we want someone to do this, will you do it for $$?"</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;hpottinger&gt; well, you just need an estimate for the work required from a friendly third party vendor, and then you ask people to fund that project</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;hpottinger&gt; then you pay the third party to write it</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;hpottinger&gt; I wonder what the "perks" would be</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; I think we've come extremely close to a decision here (closer than we ever have).  We need a "beta-level" API that: (1) has AuthZ for READ (restricted/embargoed items), (2) Optionally, has WRITE access (with AuthN/Z obviously), (3) Meets all current DSpace submission requirements (e.g. PostgreSQL &amp; Oracle support)</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;tdonohue&gt; So, it's no longer really a HedTek vs. Wijiiti comparison (both fail to meet all 3 of those points).  It's more about *who can work with us* to make something we can actually accept into DSpace.</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;hpottinger&gt; Indeed</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;helix84&gt; ok, let's make this official and send it out as a call to both developers</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;PeterDietz&gt; ...or another simplification. A simpler READ api that doesn't expose problems?</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;hpottinger&gt; how about a call to all developers?</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;hpottinger&gt; If anyone feels strongly enough to bring a PR to the table, I say let 'em</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;hpottinger&gt; does this need to come from the Committers, or from the RT?</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;helix84&gt; I volunteer to send the call with the requirements, to both of them and everyone else on -devel, if we can agree that's what we need</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; good questions... it might just be an email to dspace-devel?</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; yes, I think an email to dspace-devel might be a good starting point.</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;tdonohue&gt; We may also want to capture these requirements over on the Wiki page  as well</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;hpottinger&gt; +1, especially the part where helix84 sends the e-mail :-)</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;tdonohue&gt; (so they don't get lost in these meeting notes forever"</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I'd be glad to have helix84 send the email. I'm swamped these next few days &amp; out next week.  I'm here if you need me to review something (e.g. a draft), but I likely won't have time to write up anything myself</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;helix84&gt; so do we agree it's a competition and whoever can fulfill those requirements goes into 4.0?</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;hpottinger&gt; and tdonohue is busy moving vagrant-dspace to a new home :-)</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;hpottinger&gt; hmm... competition implies a prize</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;PeterDietz&gt; Maybe I'll dust off my jersey and join the race</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;tdonohue&gt; well, I agree it's a "competition".  I'm not sure if anyone will be able to fulfill those requirements *in time for* 4.0, but at least we've clarified the Committers position here.</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;helix84&gt; yeah, me neither, but the commiters need to finally make a decision</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;bollini&gt; I'm fine too with an email send to the devel list. We have already make some comments on the current implementations also without a PR</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially, the "Committer's Position" is that we don't have a REST API that yet can meet our needs.  HedTek and Wijiti are close, but fail in certain areas.  We cannot choose either one as neither can be added to DSpace "as-is".</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;hpottinger&gt; I still don't see this as a committer responsibility, we can't make a decision because we don't have a PR</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;hpottinger&gt; if it were a Jira issue, it'd be "needs volunteer"</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;helix84&gt; ok, I see a consensus, so I'm sending the call tonight</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;PeterDietz&gt; sounds like we reached a good decision milestone. See you all</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;tdonohue&gt; I agree with hpottinger.  We cannot make a decision right now, as there are no "valid candidates" on the table that meet the three points we outlined above.</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;tdonohue&gt; So the email is all about clarifying what constitutes a "valid candidate" REST API, and then seeing who can step forward to meet those requirements.  If multiple folks do, then we have a decision to make.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-green">* PeterDie_ (~peterdiet@dhcp-164-107-232-128.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;tdonohue&gt; and this also does open the doors for others to write a completely new REST API that meets those needs...it's no longer HedTek v. Wijiti  (so join the race PeterDietz!)</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;hpottinger&gt; there's plenty of opportunity for a hungry developer to step up here, there's three possible forks, all sakai-based, and PeterDietz has a Jeresy-based version</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-navy">* kstamatis (5b8c1906@gateway/web/freenode/ip.91.140.25.6) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;bollini&gt; I need to go. Bye all</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-navy">* bollini (~chatzilla@93-35-50-190.ip53.fastwebnet.it) Quit (Quit: ChatZilla 0.9.90.1 [Firefox 23.0.1/20130814063812])</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;tdonohue&gt; obviously we're well into "overtime". I don't need to tell you all that.  There's no more official topics here, but I think we did make some great headway here on the REST API stuff (even though it means we don't have "valid candidate" REST APIs to decide between)</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: let me know if you want help on this email.  If you want, I could even try and find some time to draft it later this week, or on the plane next week (realizing this is a lot to process now)</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;hpottinger&gt; gotta go, bye!</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-navy">* PeterDie_ (~peterdiet@dhcp-164-107-232-128.osuwireless.ohio-state.edu) Quit (Ping timeout: 268 seconds)</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;tdonohue&gt; Just for the record, as decided above (by vote) the 'vagrant-dspace' project has been moved to: <a href="https://github.com/DSpace/vagrant-dspace">https://github.com/DSpace/vagrant-dspace</a></span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/vagrant-dspace · GitHub ] - <a href="https://github.com/DSpace/vagrant-dspace">https://github.com/DSpace/vagrant-dspace</a></span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-navy">* barmintor (~ba2213@franklin.cul.columbia.edu) Quit (Quit: barmintor)</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: you may want to re-send the announcement about DSpace/vagrant-dspace to dspace-devel</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-black">&lt;tdonohue&gt; yea, will do..need to formalize it slightly more</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;helix84&gt; I just sent out the REST API email and now I'm going to REST, too</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;helix84&gt; good night</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has left #duraspace</span><br />
+<span class="irc-date">[22:22]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

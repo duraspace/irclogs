@@ -1,0 +1,158 @@
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[12:15]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:26]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-green">* dyelar (~dyelar@biolinux.mrb.ku.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[13:43]</span> <span class="irc-green">* wild_oscar (~malmeida@webservices.itclinical.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:45]</span> <span class="irc-black">&lt;wild_oscar&gt; tdonohue, mhwood: ping</span><br />
+<span class="irc-date">[13:47]</span> <span class="irc-black">&lt;wild_oscar&gt; hpottinger is not here to ping :P</span><br />
+<span class="irc-date">[13:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; :P I’m here</span><br />
+<span class="irc-date">[13:56]</span> <span class="irc-black">&lt;wild_oscar&gt; aha! :)</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, I had just left for a standup meeting.</span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-black">&lt;wild_oscar&gt; no worries. I just wanted to tell you that the XOAI is ready for release! :D</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-black">&lt;wild_oscar&gt; I finished updating the README's changelog a few minutes ago</span><br />
+<span class="irc-date">[14:01]</span> <span class="irc-black">&lt;wild_oscar&gt; our team follows semantic versioning, and since we added a new constructor to a class (that adds a feature), this would be a minor upgrade - i.e 4.2.0</span><br />
+<span class="irc-date">[14:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; OK, so, you now require someone to pull the crank on a 4.2.0 release of XOAI?</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I see one open PR on XOAI, I assume that’s fine?</span><br />
+<span class="irc-date">[14:29]</span> <span class="irc-black">&lt;wild_oscar&gt; yeah, I didn't get feedback from the requester, so it stayed opened</span><br />
+<span class="irc-date">[14:30]</span> <span class="irc-black">&lt;wild_oscar&gt; hpottinger - yes, now it's time to set the wheels in motion for the release :)</span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; @tdonohue says it’s the same as this: <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MakinganOfficialRelease%28e.g.%27dspace-x.y%27or%27dspace-x.y-rc1%27%29">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MakinganOfficialRelease%28e.g.%27dspace-x.y%27or%27dspace-x.y-rc1%27%29</a></span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; we’ll just see about that…</span><br />
+<span class="irc-date">[14:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Good luck, @hpottinger ... and thanks.  I'm around today if needed, but I have a busy day ahead as well, so I'll check in off &amp; on</span><br />
+<span class="irc-date">[14:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; `mvn install` ran fine for a clean checkout of dspace/xoai master branch</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;wild_oscar&gt; btw, which channel is this connected to on slack? I tried "irc", but doesn't seem to be the same</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;mhwood&gt; #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, wrong direction...</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; dev-mtg</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mmalmeida&gt; aha! :slightly_smiling_face:</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-green">* kompewter (~kompewter@50.17.201.82) has joined #duraspace</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; ok, `mvn release:prepare -DdryRun=true` returned `[INFO] BUILD SUCCESS`</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; ready to tag and increment the version….</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; running `mvn release:prepare -Dresume=false` now….</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mmalmeida&gt; fingers crossed :slightly_smiling_face:</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; `[INFO] BUILD SUCCESS`</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; now, usually, someone besides me checks the tagging results</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; checking myself, I see the tag exists, and the pom.xml file looks right</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; well… it all looks right….</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; unless I hear an objection, I’m going to run this in about 5 minutes `mvn release:perform`</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mhwood&gt; We're releasing 4.2.1?</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; 4.2.0</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I think?</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; does that count as an objection?</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;mhwood&gt; At Github the pom says     &lt;version&gt;4.2.1-SNAPSHOT&lt;/version&gt;</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; in master? that’s correct, the next snapshot should be 4.2.1</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, thought that didn't come until after release:perform.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;mhwood&gt; No objections, then.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I’m going by what it says here: <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-VerifyandReleaseStagedArtifactsinSonatype">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-VerifyandReleaseStagedArtifactsinSonatype</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Procedure - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-VerifyandReleaseStagedArtifactsinSonatype">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-VerifyandReleaseStagedArtifactsinSonatype</a></span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; whoops, wrong verify step</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;mhwood&gt; Yup, sorry for the noise.</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; this one: <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-Whatdosuccessfultaggingresultslooklike?">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-Whatdosuccessfultaggingresultslooklike?</a></span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Procedure - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-Whatdosuccessfultaggingresultslooklike?">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-Whatdosuccessfultaggingresultslooklike?</a></span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; no worries, glad someone else is checking my work :slightly_smiling_face:</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; OK, running `mvn release:perform`</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; `[INFO] BUILD FAILURE` argh, wat?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; ```    [ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project xoai: Failed to deploy artifacts: Could not transfer artifact org.dspace:xoai:pom:4.2.0 from/to sonatype-nexus-staging (<a href="https://oss.sonatype.org/service/local/staging/deploy/maven2/):">https://oss.sonatype.org/service/local/staging/deploy/maven2/):</a> Failed to transfer file: <a href="https://oss.sonatype.org/service/local/staging/deploy/maven2/org/dspace/xoai/4">https://oss.sonatype.org/service/local/staging/deploy/maven2/org/dspace/xoai/4</a></span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; 401, ReasonPhrase: Unauthorized. -&gt; [Help 1] ```</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; sad trombone</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mmalmeida&gt; missing credentials to upload to sonatype?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I suspect the transfer of ownership to DSpace may not have included Sonatype</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; @tdonohue or @mwood might have an idea of how to check that</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; There is an org.dspace:xoai:3.2.10, which suggests that it was done.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @hpottinger : Sonatype should just be checking *your* permissions. Sounds like your Maven settings.xml file isn't setup correctly?</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I.e. login info to Sonatype is stored in your Maven setting.xml under the &lt;server&gt; settings</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; XOAI looks to be using Sonatype's "oss-parent" version 7 (which is rather old): <a href="https://github.com/DSpace/xoai/blob/master/pom.xml#L22">https://github.com/DSpace/xoai/blob/master/pom.xml#L22</a>  I think that likely means you need these settings for Sonatype in your settings.xml: <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MavensettingstoreleaseDSpace&lt;6">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MavensettingstoreleaseDSpace&lt;6</a></span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kompewter&gt; [ xoai/pom.xml at master · DSpace/xoai · GitHub ] - <a href="https://github.com/DSpace/xoai/blob/master/pom.xml#L22">https://github.com/DSpace/xoai/blob/master/pom.xml#L22</a></span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Procedure - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MavensettingstoreleaseDSpace&lt;6">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MavensettingstoreleaseDSpace&lt;6</a></span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; ah, OK, I’m on my macbook air, I’ll move back to my main computer</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; brb</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-green">* dyelar1 (~dyelar@129.237.146.129) has joined #duraspace</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-navy">* dyelar (~dyelar@biolinux.mrb.ku.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; OK, I'm back.... and am confused about how to set up a release on a notebook *after* successful tagging on another computer</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I'm thinking `mvn release:rollback`</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; and then deleting the old tag</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-WhattodoifyougettaggingErrors?">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-WhattodoifyougettaggingErrors?</a></span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Procedure - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-WhattodoifyougettaggingErrors?">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-WhattodoifyougettaggingErrors?</a></span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mhwood&gt; "This requires that the previous release descriptor release.properties is still available in the local working copy."</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mhwood&gt; There's some reason you couldn't just copy the appropriate credentials to the Macbook?</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I wonder if I can just re-run `mvn release:prepare`</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; oh, well, there's that, too</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; Action: hpottinger roots around for a USB stick</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;mhwood&gt; scp is our friend.</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I have soooo many USB sticks</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-navy">* dyelar1 (~dyelar@129.237.146.129) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; and I don't want this file "somewhere out there"</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-green">* dyelar (~dyelar@129.237.146.129) has joined #duraspace</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; ah, that’s better</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; stuff going over to Sonatype now</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; `[INFO] BUILD SUCCESS`</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; hey, @mwood, look at the pink paragraph directly above: <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-VerifyandReleaseStagedArtifactsinSonatype">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-VerifyandReleaseStagedArtifactsinSonatype</a></span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Procedure - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-VerifyandReleaseStagedArtifactsinSonatype">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-VerifyandReleaseStagedArtifactsinSonatype</a></span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mhwood&gt; "Once released, there is no undo option"?</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; no, sorry, above the pink one</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; grrr, just search for “If you run into issues, or need to perform the mvn release:perform from a different machine”</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mhwood&gt; Cool, someone thought of everything.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; mental note for the future, the above scenario is already documented</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; however, I can now run releases from this tiny macbook air</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; hmm…. no staging repository, is this still on the new default of “deploy everything, skip staging?”</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;mhwood&gt; I see two, actually, from you, out of different machines.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I see them now, I had to search for “dspace” and not “xoai”</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I suspect the first one (1090) is “incorrect”</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I dropped 1090, looking at 1091 now</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; this looks OK to me….</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;mhwood&gt; It has JARs and POMs as one would expect.</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; checksums match</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I’m calling this done</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mhwood&gt; OK</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; someday we need to automate this part, because it feels too hand-wavey to me</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mhwood&gt; Yes.  I started looking at the Nexus REST interface, but got distracted.</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; that is the way of it</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; OK, I’ve pressed “release” on xoia 4.2.0, it’ll be about an hour before it gets loaded into Central, go about your business</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;mhwood&gt; Yay, lunchtime...</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Thanks @hpottinger!</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mmalmeida&gt; thanks @hpottinger !</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I’m clicking refresh on the Maven Central search page</span><br />
+<span class="irc-date">[17:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I’ve re-signed up for artifact listener, because I’m tired of hitting refresh :slightly_smiling_face:</span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; <a href="https://www.artifact-listener.org/">https://www.artifact-listener.org/</a></span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-black">&lt;kompewter&gt; [ artifact listener ] - <a href="https://www.artifact-listener.org/">https://www.artifact-listener.org/</a></span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mmalmeida&gt; haha, nice service! didn't know that one</span><br />
+<span class="irc-date">[18:21]</span> <span class="irc-green">* wild_oscar (~malmeida@webservices.itclinical.com) has left #duraspace</span><br />
+<span class="irc-date">[18:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; looks like “refresh all dang day” beats the free service. 4.2.0 of xoai is in Maven Central: <a href="https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.dspace%22%20AND%20a%3A%22xoai%22">https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.dspace%22%20AND%20a%3A%22xoai%22</a></span><br />
+<span class="irc-date">[18:32]</span> <span class="irc-black">&lt;kompewter&gt; [ The Central Repository Search Engine ] - <a href="https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.dspace%22%20AND%20a%3A%22xoai%22">https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.dspace%22%20AND%20a%3A%22xoai%22</a></span><br />
+<span class="irc-date">[18:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; And now we’ve ensured there will be a 6.2</span><br />
+<span class="irc-date">[18:44]</span> <span class="irc-black">&lt;mhwood&gt; Oh?</span><br />
+<span class="irc-date">[18:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; 4.2.0 of XOAI is out! :slightly_smiling_face: And, yes, recompiling DSpace gets you a version of DSpace with the latest XOAI as a dependency, and that’s how *I* deploy DSpace is via a SNAPSHOT… however…. some people don’t build that way</span><br />
+<span class="irc-date">[18:49]</span> <span class="irc-black">&lt;mhwood&gt; ???  From dspace-oai/pom.xml:  &lt;xoai.version&gt;3.2.10&lt;/xoai.version&gt;</span><br />
+<span class="irc-date">[18:49]</span> <span class="irc-black">&lt;mhwood&gt; That's from the dspace-6_x branch.</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-black">&lt;mhwood&gt; Upgrading DSpace to XOAI 4 would be a Good Thing.</span><br />
+<span class="irc-date">[18:51]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; now, see… after I typed that above, I went to look at our pom.xml, and you beat me to it</span><br />
+<span class="irc-date">[18:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; time to super-charge my fork of DSpace</span><br />
+<span class="irc-date">[18:52]</span> <span class="irc-black">&lt;mhwood&gt; I just happened to recall some discussion from several months back, about how the upgrade would take more than just changing the version.  Dunno how much more.</span><br />
+<span class="irc-date">[18:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; cue screeching tire noise</span><br />
+<span class="irc-date">[18:53]</span> <span class="irc-black">&lt;mhwood&gt; DS-2595</span><br />
+<span class="irc-date">[18:53]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2595">https://jira.duraspace.org/browse/DS-2595</a> ] - [DS-2595] Upgrade DSpace to use XOAI 4.x - DuraSpace JIRA</span><br />
+<span class="irc-date">[18:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Note, IIRC, XOAI 4.x is nearly a complete rewrite. So an upgrade will involve code changes to DSpace's OAI interface</span><br />
+<span class="irc-date">[18:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Still would be nice to look into and/or do</span><br />
+<span class="irc-date">[18:57]</span> <span class="irc-black">&lt;mhwood&gt; Yes.  IIRC the latest XOAI 3.x exists because DSpace needed some stuff backported from 4.x.</span><br />
+<span class="irc-date">[19:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; ```[ERROR] Failed to execute goal on project dspace-oai: Could not resolve dependencies for project org.dspace:dspace-oai:war:6.2-SNAPSHOT: Could not find artifact org.dspace:xoai:jar:4.2.0 in central (<a href="https://repo.maven.apache.org/maven2)```">https://repo.maven.apache.org/maven2)```</a></span><br />
+<span class="irc-date">[19:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; ^^^ probably can exclude our way out of that mess</span><br />
+<span class="irc-date">[19:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; wait…. hmmm…</span><br />
+<span class="irc-date">[19:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; that error is just Maven Central being weird</span><br />
+<span class="irc-date">[19:09]</span> <span class="irc-black">&lt;mhwood&gt; Yes.  search.maven.org finds it.</span><br />
+<span class="irc-date">[19:10]</span> <span class="irc-black">&lt;mhwood&gt; Oh, no, it finds only a POM.  I think that that POM just pulls in the other artifacts.</span><br />
+<span class="irc-date">[19:11]</span> <span class="irc-black">&lt;mhwood&gt; So change the dependency to type POM and you'll then see what breaks next.</span><br />
+<span class="irc-date">[19:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; There is very little code similarity between 3.x and master (4.x). So, I'd venture to guess that a lot of the OAI interface is likely to break after bumping up to 4.x.  That said, it's a useful experiment, it just looks like the effort here may be larger, albeit very worthwhile</span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; `mvn -U clean package` was required….</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;mhwood&gt; Got an adventure ahead:  DSpace 1.7.2 -&gt; DSpace 6.1 upgrade.</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;mhwood&gt; And I shouldn't clutter the logged channel with chit-chat...</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; oh, yes, doh!</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.146.129) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-navy">* mhwood (~mhwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-navy">* tdonohue (~tdonohue@dspace/tdonohue) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:17]</span> <span class="irc-brown">-christel- [Global Notice] We are delighted to announce the first of the keynote speakers for the freenode #live conference taking place in Bristol, UK this October. Please see <a href="http://freenode.net/news/opening-keynote">http://freenode.net/news/opening-keynote</a> for more information, and don't forget to get your tickets and submit a talk! See you in October!</span><br />

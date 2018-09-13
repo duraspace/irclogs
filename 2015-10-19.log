@@ -1,0 +1,48 @@
+<span class="irc-date">[5:27]</span> <span class="irc-green">* airborn (~airborn@unaffiliated/airborn) has joined #duraspace</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* airborn_ (~airborn@unaffiliated/airborn) has joined #duraspace</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-navy">* airborn (~airborn@unaffiliated/airborn) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[6:52]</span> <span class="irc-brown">-cameron.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:52]</span> <span class="irc-brown">-cameron.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:52]</span> <span class="irc-brown">-cameron.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:52]</span> <span class="irc-brown">-cameron.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:52]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:52]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:52]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:06]</span> <span class="irc-green">* cknowles (uid98028@gateway/web/irccloud.com/x-dkmgabwlzggjmwdx) has joined #duraspace</span><br />
+<span class="irc-date">[8:58]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[9:15]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[9:15]</span> <span class="irc-brown">-hobana.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[9:15]</span> <span class="irc-brown">-hobana.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[9:15]</span> <span class="irc-brown">-hobana.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[9:15]</span> <span class="irc-brown">-hobana.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-brown">-leguin.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-brown">-leguin.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-brown">-leguin.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-brown">-leguin.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-brown">-leguin.freenode.net- [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: <a href="http://freenode.net/faq.shtml#nicksetup">http://freenode.net/faq.shtml#nicksetup</a></span><br />
+<span class="irc-date">[13:04]</span> <span class="irc-black">&lt;mhwood&gt; I thought there were some other pairs under consideration.</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-black">&lt;mhwood&gt; EXPLAIN also shows you where the estimated time is going, in a query plan, and can hint at where a new index might help.</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-black">&lt;helix84&gt; no, just the DELETE FROM which I know is much more efficient, I just wanted to double-check what the original intent was</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-black">&lt;mhwood&gt; OK.</span><br />
+<span class="irc-date">[13:47]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-qucupkmvlpsafzre) has joined #duraspace</span><br />
+<span class="irc-date">[14:03]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[14:06]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) Quit (Ping timeout: 255 seconds)</span><br />
+<span class="irc-date">[14:35]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-green">* dyelar (~dyelar@129.237.45.105) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-navy">* airborn_ (~airborn@unaffiliated/airborn) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-green">* airborn_ (~airborn@unaffiliated/airborn) has joined #duraspace</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-navy">* airborn_ (~airborn@unaffiliated/airborn) Quit (Ping timeout: 255 seconds)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-green">* airborn_ (~airborn@unaffiliated/airborn) has joined #duraspace</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-navy">* airborn_ (~airborn@unaffiliated/airborn) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[19:16]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160190.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.45.105) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:18]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160190.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />

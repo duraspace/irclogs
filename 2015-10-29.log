@@ -1,0 +1,28 @@
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-adams.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-adams.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-adams.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-adams.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[11:36]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-black">&lt;pbecker&gt; And another DSpace 6.0 blocker: DS-2851.</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2851">https://jira.duraspace.org/browse/DS-2851</a> ] - [DS-2851] Administrators cannot create a new user through JSPUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-black">&lt;pbecker&gt; We will need extensive testing!</span><br />
+<span class="irc-date">[12:46]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:47]</span> <span class="irc-black">&lt;pbecker&gt; hi mhwood.</span><br />
+<span class="irc-date">[12:47]</span> <span class="irc-black">&lt;pbecker&gt; Coul You take a look on DSPR#1089 and please give it a +1?</span><br />
+<span class="irc-date">[12:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1089">https://github.com/DSpace/DSpace/pull/1089</a> ] - [DS-2779] Fix versioning due to service api by KevinVdV</span><br />
+<span class="irc-date">[12:47]</span> <span class="irc-black">&lt;pbecker&gt; Would help us (especially me) if we could merge this asap.</span><br />
+<span class="irc-date">[12:48]</span> <span class="irc-black">&lt;mhwood&gt; Reading...</span><br />
+<span class="irc-date">[12:49]</span> <span class="irc-black">&lt;pbecker&gt; thanks!</span><br />
+<span class="irc-date">[12:51]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:51]</span> <span class="irc-brick">* pbecker moves over to #dspace</span><br />
+<span class="irc-date">[13:12]</span> <span class="irc-green">* ccordova (~ccordovas@pc-22-11-239-201.cm.vtr.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-navy">* ccordova (~ccordovas@pc-22-11-239-201.cm.vtr.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-green">* dyelar (~dyelar@129.237.45.105) has joined #duraspace</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-navy">* terry-b3 (~chrome@71-35-103-116.tukw.qwest.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.45.105) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has left #duraspace</span><br />

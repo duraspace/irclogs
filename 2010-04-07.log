@@ -1,0 +1,363 @@
+<span class="irc-date">[1:47]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-green">* DuraLogBot (~PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[5:02]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[5:03]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:11]</span> <span class="irc-green">* grahamtriggs (~trig01@80.169.130.178) has joined #duraspace</span><br />
+<span class="irc-date">[8:00]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[8:01]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[8:13]</span> <span class="irc-green">* ksclarke (~kevin@184.39.7.249) has joined #duraspace</span><br />
+<span class="irc-date">[8:15]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[9:27]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[9:31]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:56]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[11:57]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-green">* grahamtriggs (~trig01@80.169.130.178) has left #duraspace</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-green">* kstrnad (~kstrnad@HSI-KBW-109-192-160-151.hsi6.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:01]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:01]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[14:01]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-navy">* scottatm (~scottatm@peat.evans.tamu.edu) Quit (Quit: scottatm)</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-green">* scottatm (~scottatm@peat.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:30]</span> <span class="irc-navy">* kstrnad (~kstrnad@HSI-KBW-109-192-160-151.hsi6.kabel-badenwuerttemberg.de) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-green">* PeterDietz (~PeterDiet@ACK5859s3.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-green">* mdiggory (~mdiggory@99-10-127-11.lightspeed.sndgca.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-green">* grahamtriggs (~grahamtri@cpc1-stev6-2-0-cust340.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-green">* robintaylor (~52292565@gateway/web/freenode/x-pnkkpdrfsturvexx) has joined #duraspace</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-green">* carynn (~80c8e115@gateway/web/freenode/x-huxukvdxohecmdcp) has joined #duraspace</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-green">* cccharles (~cccharles@131.104.62.47) has joined #duraspace</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-green">* anj (~anj@cpc1-leed16-0-0-cust983.leed.cable.ntl.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-green">* keithg (~keith-noa@lib-kgilbertson.library.gatech.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, we'll be starting the DSpace Developers Meeting here shortly.  Today is a Special Topics meeting to begin to discuss the DSpace RoadMap (1.7 &amp; Beyond).  Very general agenda was sent to dspace-devel: <a href="http://sourceforge.net/mailarchive/message.php?msg_name=4BBB9CBC.9080302%40duraspace.org">http://sourceforge.net/mailarchive/message.php?msg_name=4BBB9CBC.9080302%40duraspace.org</a></span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-green">* richardrodgers (~richardro@dhcp-18-111-9-121.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;carynn&gt; hello, all~  just an fyi... i have to head out early today.  so, when i abruptly exit, it's just so i can get to my next meeting. :-D</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. we're at the top of the hour, so we may as well start the meeting.  First off, I'm under a 'severe thunderstorm warning' right now, so if I suddenly go offline or become very quiet, it's likely that my power has gone out (but I'll cross my fingers and hope this blows over quickly)</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; I don't have a real agenda for today -- this is more of a brainstorming meeting to get us to all discuss upcoming RoadMap</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; the main thing I'd like to start with is to begin some basic planning for 1.7 -- what features do we already "have ready" or will have ready by December that could go into 1.7</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;richardrodgers&gt; Well just from a planning point of view, I can share some stuff we are working on in a 1.7 time frame</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; go for it richardrodgers</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;mhwood&gt; Personalization and crowd-sourced enhancements to content have been a hot topic today.</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;richardrodgers&gt; <a href="http://fedora-commons.org/confluence/display/DSPACE/CGIProposal">http://fedora-commons.org/confluence/display/DSPACE/CGIProposal</a></span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;richardrodgers&gt; <a href="http://fedora-commons.org/confluence/display/DSPACE/CurationTaskProposal">http://fedora-commons.org/confluence/display/DSPACE/CurationTaskProposal</a></span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;richardrodgers&gt; those would be the bigger ones, we have a few smaller as well</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; How does the CGI (context guided ingest) mesh with robintaylor's work?</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;richardrodgers&gt; it resues some code and generalizes the approach</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; very cool -- those all look interesting -- would be good to get into JIRA to track for 1.7</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt;  I'll also note that I'm working on <a href="http://jira.dspace.org/jira/browse/DS-466">http://jira.dspace.org/jira/browse/DS-466</a> to be ready for 1.7</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;richardrodgers&gt; OK will do</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; Is there other work out there that people feel could be ready for 1.7?   All of these items mentioned are "potentials" -- obviously, we'll need to do further planning/vetting later on -- but, just want to get these ideas on table now</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;richardrodgers&gt; on a smaller scale, we rewrote Creative Commons to:</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;robintaylor&gt; I am working on a Sword client for Dspace. I hope to have it ready fairly soon.</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;richardrodgers&gt; (1) use web service, so no UI lock-in</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; robintaylor:  So, this would be to allow DSpace to send items to another location via SWORD?</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;richardrodgers&gt; (2) express in RDFa in page, per current best practices</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-navy">* anj (~anj@cpc1-leed16-0-0-cust983.leed.cable.ntl.com) Quit (Quit: anj)</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;richardrodgers&gt; (3) store CC info in metadata, so searchable, etc</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;robintaylor&gt; tdonohue: yes</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; robintaylor: cool</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;carynn&gt; with the cc stuff - is there a way to allow users to pick *only* a cc?  i.e. as the system is now, you have to pick a cc license *and* agree to a standard license, right?</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mhwood&gt; I have a little gadget to return an XML document containing basic repository size statistics (how many items/collections/communities, how much storage used by bitstreams) in support of our library's "dashboard".</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;carynn&gt; any way to de-couple?</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;richardrodgers&gt; mhwood: those are independently configurable, if I understand your question</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mhwood&gt; I think that was to carynn?</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;richardrodgers&gt; yes, sorry</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mdiggory&gt; hi sorry, I was distracted</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;carynn&gt; thnx - that is something i would definitely like to implement!</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: sounds very interesting.  could you put in a note about it in JIRA or somewhere so we can "see in action" or look at in more detail</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;mhwood&gt; Will do.</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  right now we're just putting things on the table for 1.7 -- discussing what we all are working on that could be potentially be ready for 1.7 in Dec</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;mhwood&gt; It needs some more work, making it more rugged, and some more thought.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: understandable</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;tdonohue&gt; I guess, in my mind, the easiest way to start to pull these various proposals for 1.7 features together may be to add them to JIRA (either as just a description/placeholder, or as real code, if there is real code).</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;tdonohue&gt; I'll add a "1.7" version to Jira after this meeting -- and we can start pulling more ideas together there</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mdiggory&gt; Yes, I gather, that would be a good topic, also want to discuss how we work together to decide what will go in and what ordering.... Likewise, concerned about just pitching ideas here... what is the process for, as one of your points int he wiki suggested... keeping us on track to what 2.0</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;kshepherd&gt; brb, just running from home-&gt;office</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;mdiggory&gt; There are projects which are not "shinny" we need to see worked on to do that...</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;mdiggory&gt; Things like Porting existing codebase in 1.x to use Service framework...</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  agreed, and understood.    So, do you feel the better way at getting at those not "shiny" projects is to talk beyond 1.7 right away, and work backwards?</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;mdiggory&gt; Well, as with any OS community there are alot of ideas, ideas being worked on in isolation/semi-isolation and challenges at integrating them into the roadmap</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;mdiggory&gt; I've seen 3-4 ideas just in this thread that I've not seen before</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;carynn&gt; quick question... do we generally keep a list of "desired features", then assign a release? or do we way "let's do a release" and identify features that way?  just curious...</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;mdiggory&gt; I havn't a clue how they will impact eachother or if they will take into considerationt he changes in services that went into 1.6</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mdiggory&gt; I'm not even sure if the developer community understands what dspace-services are, let alone how to use them</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mhwood&gt; I think that a number of community members [raises hand] need to further cultivate the habit of asking, "would this thing I just did be useful to others?"</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;richardrodgers&gt; carynn: that's a tricky question! We generally work from local requirements and feed to the middle...</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;grahamtriggs&gt; mdiggory: I'm not even convinced the even know dspace-services exists!</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mhwood&gt; I'm sure that "dspace services" is somewhat mysterious to *me*.</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory, how can we work to make "dspace services" an understandable "thing".  I'll even admit, that I'm not 100% up to speed on it</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;mdiggory&gt; So, that is why we need a roadmap that is more than "contribution" feature related.</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;carynn&gt; richardrogers: got it - thnx.</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;richardrodgers&gt; mdiggory: who will implement this roadmap?</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mhwood&gt; So, there's some stuff we'd like to see adopted, or that we think others might like to have.  And then there's a "next objective" and the trajectory to get there.</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mdiggory&gt; We need to choose if we all agree on t he direction and are walking together toward it, or if this is scrimmage and we all go wherever the direction greatest force is</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;mdiggory&gt; richardrodgers: a significant group of us</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;tdonohue&gt; right, in my mind, the roadmap needs to come from "us" (where "us" is the committers or interested/invested other developers)</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;robintaylor&gt; mdiggory: do you mean a kind of sub-group as with DSpace 2.0 ?</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; So, mdiggory, you are looking for a vote/discussion of "where do we all want to go".   So, you are asking if we all agree that dspace-services (and the 2.0 prototype idea) seems like a good tragectory</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mdiggory&gt; I will not defiine that group explicitly because that tends to cause people to stop listening</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;mdiggory&gt; So, I'm hoping to see a mix of discussion, definitely (1) new features, (2) architectural direction</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mdiggory&gt; architectural direction being, what parts of DSpace need or do not need to change to progress towards that 2.0 vision</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mdiggory&gt; and then new features need to be taking that direction into consideration in their design and implementation</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mdiggory&gt; for instance... PluginManager... dspace-services is meant to basically replace significant portions of it</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;tdonohue&gt; ok...so, here's where we get towards the "meat of the matter" (in my mind).    I wonder if we all have the same vision of "2.0" or not  (obviously, there was the 2.0 prototype built last year -- but is that the only vision of what 2.0 means)</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;mhwood&gt; So we need some porting guidance, and prodding to port our plugins.</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;mdiggory&gt; TBH tdonohue I'm hoping thats what your role is supposed to "fix" for us</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;mdiggory&gt; :-)</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  I'll argue that it's not my role to "decide" what 2.0 is, or where we are going....I'm just helping to ensure we keep moving towards whatever it is we *all decide on*</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="http://wiki.dspace.org/confluence/display/DSPACE/Special+Topics#SpecialTopics-Whatis2.0%2Creally%3FHowdowegetthere%3F">http://wiki.dspace.org/confluence/display/DSPACE/Special+Topics#SpecialTopics-Whatis2.0%2Creally%3FHowdowegetthere%3F</a></span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;tdonohue&gt; That wiki link is to a question that has popped up on IRC recently frequently -- "What is 2.0? and how do we get there?"</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mdiggory&gt; I know I'm treading a fine line here... but I challenge that is a choice that is upto you</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mdiggory&gt; Yes, we all need to decide what is relevant to 2.0</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;tdonohue&gt; I know this is potentially opening up a "can of worms" here.  Do we want to dig into this discussion?  what do others think?</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;mdiggory&gt; I certainly have my own viewpoints, both practical and evangelical based upon what was successful and unsuccessful from last year</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;mhwood&gt; Mmmm, we need input from the folks who will have to use it.  There is a candidate answer on the table.  Does it support their needs?  It's a good design but is it the right good design?</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mhwood&gt; I recall that I liked as much as I understood.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; I want to be careful not to start to lead a 2.0 vision discussion</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; Because that will take a great deal of time</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;grahamtriggs&gt; tdonohue: that's getting awfully close to acknowledging that there may be an elephant in the room</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;tdonohue&gt; understood.  I definitely wouldn't expect us to make a final decision in the time alloted -- this is an ongoing discussion</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: don't you start talking about my weight again</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;tdonohue&gt; there is an elephant in the room, and we have named him "2.0"</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;grahamtriggs&gt; the other elephant... you know... the one in the other corner</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;tdonohue&gt; So, a few thoughts to throw out -- feel free to latch on to them or not</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-brick">* mdiggory holds breath</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;tdonohue&gt; (1) we're running out of 1.x numbers : 1.7, 1.8, 1.9 -- we need to go to 2.0 soon or renumber altogether</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;mhwood&gt; The version after 1.9 is 1.10.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;grahamtriggs&gt; 10.12 ... *hides*</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;mhwood&gt; The natural numbers don't "run out".</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;tdonohue&gt; (2) there are various larger features that are often requested (ahem...versioning) which will require us to re-architect eventually</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-brick">* tdonohue stands corrected by mhwood...we'll just make a roadmap towards 1.20000 ;) (kidding)</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;grahamtriggs&gt; Duraspace Press Release - Open Repositories 2986.... Duraspace is proud to announce the release of DSpace 1.infinity</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mdiggory&gt; No matter the version numbering... the natural progression is leading us to an eventual major release, and that pressure is a good thing, not a bad thing</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;tdonohue&gt; (3) Since the creation of DuraSpace, there has been a lot of interest (not just from us -- from outside of us) in seeing whether there could be such a "thing" as DSpace on Fedora</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;richardrodgers&gt; I think the major/minor stuff is muted by timed release</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: we have shown its a possibility</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mdiggory&gt; in both GSoC and in the Funded development</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;tdonohue&gt; (4) There have also been many questions recently about "what happened to the 2.0 work from last year" -- or at least, I've been hearing them</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;richardrodgers&gt; For example, which Ubuntu recently had a major Linux kernel upgrade?</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;mhwood&gt; DSpace on Fedora always sounds like a Camaro with a Mustang welded on top.  What's it do?</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;mdiggory&gt; @mire is still vested in the 2.0 Data Model work.</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: very good question :)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;grahamtriggs&gt; Aha... elephant is standing behind door number 3....</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm +1 on capabilities of being able to add a feature without having to hack apart the core</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; The challenge is that the community got very quiet after funding stopped and time to continue working on 2.0 collaboratively ceased to be available</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;grahamtriggs&gt; It's fair to say that the majority of questions I received at Open Repositories 2009 (although by no means is it a representative sample of the communtiy) was around the possibility / likelihood of DSpace being an 'application of' Fedora</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs: And, I'd agree...that's what I normally hear described as "DSpace on Fedora" -- It's still DSpace, it just happens to be running as a web application on the Fedora data model</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mdiggory&gt; And the predominant workt hat went into 2.0 Storage Services was funded by JISC to CARET to focus not on Fedora alone, but also JCR and other CMS</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mdiggory&gt; So the scope was not just Fedora</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;robintaylor&gt; Any chance of more funding from somewhere to fund 'migration to DSpace 2.0' ?</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;mdiggory&gt; And we need to be very careful here, because Fedora is not a be-all end-all target, it is moving and evolving at the same time we are as both a codebase and a community</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;grahamtriggs&gt; I'm all for "integrating" with other systems - but integrating with a CMS isn't the same thing as "DSpace running on top of the CMS" or vice versa</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;mdiggory&gt; My recent converstations with Chris Wilper centered around their efforts to make Fedora "OSGi friendly"</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; robintaylor:  I think there would be the possibility of funding for that type of migration.  There's also potential initiatives right now that could help with major migrations (e.g. <a href="http://jira.dspace.org/jira/browse/DS-466)">http://jira.dspace.org/jira/browse/DS-466)</a></span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mhwood&gt; I wonder if we shouldn't look at the existing "2.0" as a very thorough proof-of-concept, and stress to the community that we are incorporating that work over time.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; Which really boils down to Fedora adopting SpringDM</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; And Fedora reducing reliance on strict Interfaces for its API</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood:  I like that idea.</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;mdiggory&gt; Which is ultimately pushing Fedora towards the same traectory as dspace-services is dragging DSpace</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mhwood&gt; We can call it "DSpace II" and let "2.0" (or whatever scheme we're using then) be the point at which we burn the bridges and make the first incompatible architectural changes.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;tdonohue&gt; So, in general, do we all feel that the existing 2.0 work is best to strive towards (while also investigating whether there could be future "overlaps" with the trajectory of Fedora)?  feel free to respond +1/0/-1 (though this isn't an official vote, and I won't hold you to it)</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;mdiggory&gt; I am concerned worrying about numbers distracts us from the actual task/work/direction</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;mhwood&gt; We're already using some of that work.  We need to promote the new capabilities that that gives us, and sequence some more.</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: +1 it is obvious</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;mdiggory&gt; there are many many levels that overlap occurs at</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;PeterDietz&gt; +1 from what I understand</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;keithg&gt; +1</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;mhwood&gt; Since there has been no mention of alternative models, I think you are right about the rough consensus on "2.0"</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;robintaylor&gt; +1 albeit from a position of ignorance</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;richardrodgers&gt; 0 too vague for me to vote</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;mdiggory&gt; I think that we are just voting on the adding of that to the list as an important roadmap topic of discussion</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers:  point taken.  what can help "solidify" this more?  A more official proposal on how to begin moving towards the 2.0 work?</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;richardrodgers&gt; ok - I certainly feel it is important to discuss</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;mhwood&gt; Well, what are some portions could we schedule into 1.7?</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;mhwood&gt; Maybe we need a list of what's in "2.0" and what's been adopted already.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: continued migration of  Managers to Services via dspace-services</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;mdiggory&gt; And thinking about the trajectories.... that means more embracing Spring</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mhwood&gt; Time to resume reading that Spring book.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mdiggory&gt; and less creating our own home cooked configuration file formats, loaders etc</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;richardrodgers&gt; tdonohue: yes - since th e2.0 prototype contains many disparate things</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mhwood&gt; Ah, there's something I'd like to see in future versions:  reevaluation and possible redesign of the whole ball of configuration files.</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;mdiggory&gt; I've prototype the first move in this direction by both porting dspace-services ConfigurationService to use dspace.cfg, EventService to replace UsageEvents and prototyped a SearchService within DSpace Discovery</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  so what of that is logical for moving into 1.7 potentially?</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;mdiggory&gt; let me find the slide again....</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;tdonohue&gt; and I'd warn that whatever "services" or 2.0 stuff we want to move into 1.7, we should begin planning/implementing it *now*, so that those of us who aren't as familiar with the 2.0 work can get familiar with it as we work on 1.7 together</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;mhwood&gt; Don't forget documenting.</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;robintaylor&gt; Off at slight tangent before the meeting ends - can we rationalise what is distributed in the source distribution ? Will we have a source distribution ?</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: definitely..."documenting" as well</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://www.slideshare.net/mdiggory/dsug09-services-2255693">http://www.slideshare.net/mdiggory/dsug09-services-2255693</a></span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;richardrodgers&gt; can we also get a quick GSOC update?</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;mhwood&gt; In some way, there *has to be* a source distribution, or it isn't an OSS project anymore and nobody can work on it.</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;tdonohue&gt; GSOC update:  last I checked, we only have 4 applications in (from 3 students).  One other student was asking some questions in #dspace today.  Deadline is Fri.</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;richardrodgers&gt; thanks tdonohue</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;robintaylor&gt; mhwood: I think I agree but at the moment some modules are in and some aren't</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: thats not exactly true... but</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;mdiggory&gt; Allt he source is available and can be checked otu and built</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I keep meaning to ask what-all I have to pull down now in order to have *everything*.  Or even to know what "everything" is.</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-green">* stuartlewis (~stuartlew@121.98.157.79) has joined #duraspace</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;mdiggory&gt; well, you want to build ant, maven, lucene and the postgres jdbc driver source as well?</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;mdiggory&gt; where do you define the boundary</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;mdiggory&gt; why do you define a boundary</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;mhwood&gt; One of the downsides of having Maven magically pull in dependencies is not knowing so well what is in your project.</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  we're at time here.  I know we haven't really decided anything here -- but, I still feel it's worthwhile to get this all out on the table.  To move forward, I'd like to recommend that mdiggory lead a proposal for what to add to 1.7 (from 2.0), assuming mdiggory's ok with that?</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;mhwood&gt; Well, I run Gentoo Linux, so I already build all of those.  Haven't read them...yet.</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mdiggory&gt; I contest that, working with maven it is very clear what I am getting in my project</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mdiggory&gt; and I can genrate dependency reports and make decision about what will or will not be present</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mhwood&gt; P</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, I chose my words poorly.  "knowing" what is inside it, not knowing which components I am using.</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;grahamtriggs&gt; mhwood: that's why you should get maven to generate a project site that exposes a lot of the information in a more digestable way</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I need to get that released.</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-brick">* tdonohue  the meeting is closed, if you need to head out, do so -- but I don't want to interrupt ongoing discussion</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;richardrodgers&gt; thanks everyone, bye</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: when we say "things from 2.0" that should be in 1.7... its things that have not necessarily have been implemented yet in some (possibly many) cases</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-brick">* stuartlewis forgot about our clocks going back. Whoops! Just missed the meeting :(</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-navy">* richardrodgers (~richardro@dhcp-18-111-9-121.dyn.mit.edu) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  so, I'd say include that in the proposal.  I'm more looking for guidance from the 2.0 team on what are logical steps to make in 1.7</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;mdiggory&gt; We ahve interfaces, but not implementations... and specifically not portings of legacy 1.x work to use services</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;grahamtriggs&gt; mhwood's point about pulling down 'everything' shouldn't just be about the compiled depedencies (commons-*, lucene, etc.)... but also all the dspace maintained source that goes into a deployment - because that boundary has been redrawn between 1.5 and 1.6</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;mdiggory&gt; I think I want to volunteer grahamtriggs to also be participating in that.</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;tdonohue&gt; what I need to see from the 2.0 team is  what you all would  recommend to add to 1.7 (whether it is built or not), and then we can work from that list to start to assign tasks to people, or reschedule for 1.8 as needed.</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;mhwood&gt; That's mostly what I'm talking about.  I'm willing to let e.g. log4j be a black box, right now, but if I'm hacking on DSpace then I want all of DSpace, not just the bits that *have* to be rebuilt.  I need to understand some of the other bits.</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;tdonohue&gt; yea...and I'm including grahamtriggs on that, in saying the "2.0 team"</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;grahamtriggs&gt; I'll barter allowing a component to be backported for the release to be called '10.12' :)</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;keithg&gt; I'd like to at least know where to find the source for dependencies that are pulled down automatically by Maven - and I don't know enough about Maven yet to always be able to do that</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: mhwood the point of drawing that division is architectural... to get the painters and decorators from rewiring the electrical outlets and removing important structural timbers by knocking out walls</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;mdiggory&gt; we need to stop willy-nilly hackery in the core of the codebase</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;grahamtriggs&gt; if the painters and decorators don't even know the electrical outlets are there, they'll paper over them and drill screws through the wiring!</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;mdiggory&gt; yes, you can get the code for dspace-services, build it into dspace 1.6, even change it.  But it just shouldn't be something we give as a power to the enduser.</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;mdiggory&gt; or... I mean</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;mdiggory&gt; only if they are "ready" to use it</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- I think we keep running into the same problems here -- not everyone *knows* all this as well as you do ;)   we all need a bit of guidance now and then (like keithg's common question of "where is all the source")</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;mhwood&gt; Well, I was talking about developers, not end users.</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;PeterDietz&gt; agree to a degree. sometimes I find myself digging into code I'll not touch, but somewhat for information as to know what some objects toString will be.</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue:  hear, hear</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;tdonohue&gt; keithg: fyi:  the source that is not in trunk is under 'modules': <a href="http://scm.dspace.org/svn/repo/modules/">http://scm.dspace.org/svn/repo/modules/</a></span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;tdonohue&gt; keithg: but, figuring out which modules are actually included in out-of-the-box DSpace is another issue -- and that requires looking at Maven pom.xml files right now</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;grahamtriggs&gt; I'm sorry, but obscurity is not an option... it's absolutely vital to the health of open source to get as many eyes on as much of the code as possible.</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: it really took a whole year for me to grok what Aaron bestowed upon us to the degree that I could maintain it. So I understand everyone else not even fathoming it.</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, maybe a dab of XSL can extract readable lists from the POMs.</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: no argument there</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  exactly.  So, this is why we (the committers) need more guidance from the 2.0 team -- we just don't understand all this "vision" yet</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;tdonohue&gt; I'm hoping that mdiggory and grahamtriggs can help *me* to even "grok" it all, so that I can start to help everyone else out :)</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: I'm just arguing about the conduit of delivery and modularity of the source.</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;grahamtriggs&gt; yes, that code shouldn't be changed lightly... and as 'custodians', it's our duty to ensure that changes aren't being made to the code that everyone relies on without due care and attention...</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: I would be glad to talk about it with you guys.</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;PeterDietz&gt; sounds like mdiggory can give a webcast of "what is services"</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;mhwood&gt; Well, that's what the committers are for.  We're supposed to look at contributions and ensure that they should go in as-is, or ask for changes, right?</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz:  Interesting idea....hmmm...</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: The tools use the poms to generate maps, you don't need to do things at that low a level</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yes, that's it in a nutshell</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;mdiggory&gt; gulp... ok</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;grahamtriggs&gt; mdiggory: do you mean in terms of upholding the sanctity of dspace-services, or it's location in svn?</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;mdiggory&gt; it scares me when we mix religion and software engineering...</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;mdiggory&gt; but I guess I opened that can of wroms</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  I'm going to email you to set something up (not necessarily a webcast...yet)</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: yes, its sanctity, which is promoted at the moment by its separateness from trunk.</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;mdiggory&gt; but we all need to realize we (committers) all have access and a right to manage this codebase</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: noting that this comes back to the same issue --- this is undocumented and "unrealized" by many -- again, you know it better than us ;)</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;mdiggory&gt; Not to butcher metaphors but.... I liken it to the farmer who continues to hold fast to not selling his land while an entire city is growing up around him, eventually you have to look up from the fields of old "trunk" and realize the community has grown up around you and you are only looking at just part of the whole.</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;mhwood&gt; I don't see why e.g. Services is protected by being just to the left of the trunk.</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;mdiggory&gt; because trunk is too limiting</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;mhwood&gt; That may be the right place for it, but is protection the reason?</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;mdiggory&gt; trunk is a small little place where everything has to grow in lockstep</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;mhwood&gt; So it isn't really to protect it from damage, but to protect it from scheduling.</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;mdiggory&gt; we keep chopping down the trees because we want them to stay the same hight as the corn</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-navy">* stuartlewis (~stuartlew@121.98.157.79) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;mdiggory&gt; sorry, your probably starting to wonder what I'm drinking..</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;mhwood&gt; Coffee, wasn't it? :-)</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;tdonohue&gt; I'd still encourage us to document how we are using SVN better (where things are, etc).  We cannot expect new committers to have to dig around all areas of the SVN to try and find where everything is :)</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I think that's my point.  And not just the newest ones.</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;mdiggory&gt; I'm trying... I'm trying.... the new wiki is a godsend</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, agreed...not just the new committers -- but, actually any committer</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;mdiggory&gt; Need more organization around the pages, more structuring....</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://fedora-commons.org/confluence/display/DSPACE/Modules">http://fedora-commons.org/confluence/display/DSPACE/Modules</a></span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://fedora-commons.org/confluence/display/DSPACE/DSpace+Discovery">http://fedora-commons.org/confluence/display/DSPACE/DSpace+Discovery</a></span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, I saw you created that Modules area in the new wiki</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://fedora-commons.org/confluence/display/DSPACE/DSpace+Services+Framework">http://fedora-commons.org/confluence/display/DSPACE/DSpace+Services+Framework</a></span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory&gt; Need farmers...</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;keithg&gt; tdonohue:  I did get a nice e-mail message explaining where different pieces are located, which was helpful.  It just hadn't sunk in yet.</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory&gt; Not just a gardner....</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;mhwood&gt; Or foresters</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;mdiggory&gt; apparently ;-)</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;mhwood&gt; Will bookmark those and read but I need to go soon.</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;mhwood&gt; Thanks!</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;tdonohue&gt; understood -- now lets link this off of the main Wiki area somewhere, and advertise it to dspace-devel, to help find those farmers/foresters</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;robintaylor&gt; Metaphor overdose. Time to log-off, bye for now.</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;mdiggory&gt; I imagine great discussions about how to organize the various resources were have here....</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;tdonohue&gt; bye mhwood and robintaylor</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;mdiggory&gt; bye</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;grahamtriggs&gt; but you can say it also comes down to what's important - is it more important to establish a new area for modules, or to start splitting up the projects we have into smaller artifacts?</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-navy">* robintaylor (~52292565@gateway/web/freenode/x-pnkkpdrfsturvexx) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: don;t the two go hand in hand?</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;mdiggory&gt; I feel like I've been making the argument for years now</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;grahamtriggs&gt; no, not at all. ultimately, they are both required, but that doesn't mean they both have to happen together</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;mdiggory&gt; trunk/dspace is much different than dspace/trunk</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: FYI, I linked your Modules work off of here for now <a href="http://www.fedora-commons.org/confluence/display/DSPACE/CommitterInfo">http://www.fedora-commons.org/confluence/display/DSPACE/CommitterInfo</a> (for lack of a better place -- we can always move it to a more logical place later)</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: I started modules and realized it overlapped with ...</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://fedora-commons.org/confluence/display/DSPACE/Extensions+and+Addons+Work">http://fedora-commons.org/confluence/display/DSPACE/Extensions+and+Addons+Work</a></span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;mdiggory&gt; and</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://fedora-commons.org/confluence/display/DSPACE/Contributed+Software">http://fedora-commons.org/confluence/display/DSPACE/Contributed+Software</a></span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-navy">* carynn (~80c8e115@gateway/web/freenode/x-huxukvdxohecmdcp) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:36]</span> <span class="irc-black">&lt;mdiggory&gt; and I stopped forward direction on creating the page while considering things like "labels" and "children" as a means to organize the information there</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-black">&lt;mdiggory&gt; Confluence is really powerful in this area... I think we want to try to take advantage of that in our top level pages that aggregate info</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory, I think those other two are a bit outdated right now -- and were only put up because there was *no* place to put this stuff.  I think your "Modules" area should concentrate specifically on what is in SVN -- everything else that is not in SVN can go in one of those other areas</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;mdiggory&gt; which means maybe coming up with some guidelines on their usage</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;tdonohue&gt; well, if you keep your Modules linked off of a developer area, and keep it developer-focused, I think it will be obvious</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;mdiggory&gt; I'm thinking that we need to bring them together in a way that can facilitate an "incubation" workflow</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-black">&lt;mdiggory&gt; It really pains me to see patches and source in zip archives attached to wiki pages</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-black">&lt;tdonohue&gt; Not in all cases...some could be candidates for incubation -- but some are just parallel interesting projects which will never be added into DSpace (e.g. BibApp is listed there)</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;mdiggory&gt; Yes there will certainly be those cases</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: agreed -- it is painful to see that, but that was the model for so long -- and many of these were created a while back</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;mdiggory&gt; I speak more of things like... <a href="http://fedora-commons.org/confluence/display/DSPACE/DSpace+SIP+Toolkit">http://fedora-commons.org/confluence/display/DSPACE/DSpace+SIP+Toolkit</a></span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;tdonohue&gt; essentially, I think the goal should be to move them to an "incubation" page once they've been moved into our SVN.  Until then, they remain "unsupported"</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;mdiggory&gt; Which really wasn't so long ago</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-black">&lt;mdiggory&gt; YES!</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-black">&lt;mdiggory&gt; I'm just hoping for some buyin.... thats all</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;tdonohue&gt; so, really, it's three pages:  (1) Modules = fully supported, in SVN, (2) Incubator = not really supported yet, but in SVN,  (3) External Projects of interest = not supported, not in SVN</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;mdiggory&gt; if the path is defined... the community will walk in it won't they?</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;tdonohue&gt; likely..if we make it clear enough...we need to make it clear though</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;mdiggory&gt; that seems a good start</span><br />
+<span class="irc-date">[17:43]</span> <span class="irc-black">&lt;tdonohue&gt; yea...so, I'd go with that 3 page route for now...we can tweak later as needed, obviously</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;mdiggory&gt; I just am concerned that when new community members that come to  <a href="http://fedora-commons.org/confluence/display/DSPACE/Extensions+and+Addons+Work">http://fedora-commons.org/confluence/display/DSPACE/Extensions+and+Addons+Work</a> are mistakenly thinking this is everything...</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;mdiggory&gt; some of this stuff is just external projects, some code, some rather defunct</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;tdonohue&gt; we can reorganize all that, once we have the other pages set up.  That "Extensions" page was an effort by Val to just get together links to common addons/extensions -- it's now out of date, and likely needs major rework anyways</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;PeterDietz&gt; Perhaps each module should have instructions. Think of them being things to add to your dspace. Almost like buying/installing an app from marketplace on a mobile device. They have the info, and maybe a screenshot of the main features.</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;mdiggory&gt; I commend the effort.... but want to promote more unification and less boundaries between Community outreach and User/Devel when it comes to generating a web presence.</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: understood -- as do we.  Right now, what you are seeing are just artifacts of past efforts to better promote community work.  Now that we are in Confluence, we can start to rethink how this was done in the past, and do the cleanup/reorganization necessary</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: I'd like to get there as well... the move to Confluence allows us to organize this in a collaborative manner. If it were maintained in maven sites in the svn, those creating such content would have to be commiters = bottleneck</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-black">&lt;tdonohue&gt; frankly -- i'm hoping we scrap the entire Wiki homepage structure, and rethink that -- there's much more to work with now in Confluence</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-black">&lt;mdiggory&gt; I'm thinking of... 1.) recommending that maven site be used to generate javadoc and reports of interest, but that content around using and understanding a module be based in a wiki page</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-black">&lt;mdiggory&gt; That we look to projects such at the Atlassian plugins community to derive what those sub-sites should contain</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: how true...</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-navy">* keithg (~keith-noa@lib-kgilbertson.library.gatech.edu) Quit (Quit: keithg)</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-black">&lt;tdonohue&gt; ok...i'm heading out of here now...bye all</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[18:18]</span> <span class="irc-navy">* grahamtriggs (~grahamtri@cpc1-stev6-2-0-cust340.9-2.cable.virginmedia.com) Quit (Quit: grahamtriggs)</span><br />
+<span class="irc-date">[18:26]</span> <span class="irc-navy">* ksclarke (~kevin@184.39.7.249) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-navy">* scottatm (~scottatm@peat.evans.tamu.edu) Quit (Quit: scottatm)</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-green">* mdiggory (~mdiggory@99-10-127-11.lightspeed.sndgca.sbcglobal.net) has left #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-green">* PeterDietz (~PeterDiet@ACK5859s3.lib.ohio-state.edu) has left #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* ksclarke (~kevin@184.39.7.249) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-green">* stuartlewis (~stuartlew@121.98.157.79) has joined #duraspace</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-navy">* stuartlewis (~stuartlew@121.98.157.79) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-green">* bradmc (~bradmc@host215.72.248.50.conversent.net) has joined #duraspace</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-green">* stuartlewis (~stuartlew@121.98.157.79) has joined #duraspace</span><br />
+<span class="irc-date">[22:18]</span> <span class="irc-navy">* bradmc (~bradmc@host215.72.248.50.conversent.net) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[22:25]</span> <span class="irc-green">* bill168 (~ca41f503@gateway/web/freenode/x-zkkmiieanliugayo) has joined #duraspace</span><br />
+<span class="irc-date">[22:53]</span> <span class="irc-navy">* bill168 (~ca41f503@gateway/web/freenode/x-zkkmiieanliugayo) Quit (Ping timeout: 248 seconds)</span><br />
+<span class="irc-date">[23:08]</span> <span class="irc-navy">* ksclarke (~kevin@184.39.7.249) Quit (Quit: Leaving.)</span><br />

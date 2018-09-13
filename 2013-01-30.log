@@ -1,0 +1,300 @@
+<span class="irc-date">[0:05]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[0:07]</span> <span class="irc-green">* eddies (~eddies@cm175.eta98.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[0:07]</span> <span class="irc-navy">* eddies (~eddies@cm175.eta98.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[0:07]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[0:20]</span> <span class="irc-navy">* helix84 (~a@195.113.97.174) Quit (Quit: helix84)</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-sendak.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-sendak.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-sendak.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-sendak.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-sendak.freenode.net- [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: <a href="http://freenode.net/faq.shtml#gettinghelp">http://freenode.net/faq.shtml#gettinghelp</a></span><br />
+<span class="irc-date">[11:01]</span> <span class="irc-green">* bigbrovar (~quassel@83.229.6.19) has joined #duraspace</span><br />
+<span class="irc-date">[11:09]</span> <span class="irc-green">* bigbrovar_ (~quassel@41.206.12.3.vgccl.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:09]</span> <span class="irc-navy">* bigbrovar (~quassel@83.229.6.19) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[11:14]</span> <span class="irc-navy">* bigbrovar_ (~quassel@41.206.12.3.vgccl.net) Quit (Ping timeout: 272 seconds)</span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-green">* helix84 (~a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[18:31]</span> <span class="irc-navy">* helix84 (~a@195.113.97.174) Quit (Quit: helix84)</span><br />
+<span class="irc-date">[18:35]</span> <span class="irc-green">* helix84 (~a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-navy">* PeterDietz (~peterdiet@128.146.173.112) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[18:52]</span> <span class="irc-green">* PeterDietz (~peterdiet@128.146.173.112) has joined #duraspace</span><br />
+<span class="irc-date">[19:25]</span> <span class="irc-green">* linux4u (~james@employed.library.emory.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:27]</span> <span class="irc-black">&lt;linux4u&gt; hi guys. I am getting this on my oaiprovider. any ideas? "java.lang.NoClassDefFoundError: proai/driver/OAIDriver"</span><br />
+<span class="irc-date">[19:31]</span> <span class="irc-black">&lt;helix84&gt; dspace version?</span><br />
+<span class="irc-date">[19:42]</span> <span class="irc-black">&lt;linux4u&gt; fedora 3.4</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-black">&lt;helix84&gt; oh, ok :)</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-black">&lt;helix84&gt; that clears it up for me :)</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-black">&lt;helix84&gt; but the message generally means that the required JAR is not in your classpath</span><br />
+<span class="irc-date">[19:44]</span> <span class="irc-black">&lt;helix84&gt; so if OAI is distributed separately from fedora (I have no idea), double-check the instructions that say where to put the JAR or how to enable dependencies</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-black">&lt;linux4u&gt; the ins I have seen dont mention anything about that.</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-black">&lt;linux4u&gt; but I maybe looking at the wrong ones.</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-black">&lt;helix84&gt; sorry, I have no practical experience with fedora. that is just the general answer for this java error.</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-black">&lt;linux4u&gt; thanks. the fcrepo channel is kinda dead.</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-black">&lt;tdonohue&gt; linux4u -- maybe try the Fedora mailing list?</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder we have our DSpace Developer Mtg starting here in a few minutes: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-01-30">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-01-30</a></span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2013-01-30 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-01-30">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-01-30</a></span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;hpottinger&gt; linux4u, I've dabbled with Fedora a bit, there's a fair amount of "just put that jar file in a lib folder somewhere" the Fedora mail list is a good tip, they should be able to help</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all...it's officially DSpace Devel Mtg time.  Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-01-30">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-01-30</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2013-01-30 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-01-30">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-01-30</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; First &amp; foremost...just wanted to say that hpottinger is cutting our DSpace 3.1 release *as we speak* (or type)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;hpottinger&gt; {flex}</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; sorry...two conversations at once...I'm talking to hpottinger in #dspace too (as he gives status of the 3.1 release)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; the announcements for 3.1 won't go out till everything has propagated though...so, likely sometime tomorrow</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mhwood&gt; I guess item 1 (topics before 3.1 release) is taken care of.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: after which email should I send the announcements?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- announcements need to wait on two things.  1) Everything needs to appear in Maven Central -- sometimes takes 2-4hours, and 2) I need to get dspace.org updated (which I can do after this mtg)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: ok</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; By "appearing in maven central", I mean we have to wait until we see a "3.1" here: <a href="http://repo2.maven.org/maven2/org/dspace/dspace/">http://repo2.maven.org/maven2/org/dspace/dspace/</a></span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ Index of /maven2/org/dspace/dspace/ ] - <a href="http://repo2.maven.org/maven2/org/dspace/dspace/">http://repo2.maven.org/maven2/org/dspace/dspace/</a></span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; (and as I said, that can take hours after hpottinger presses the final button...it becomes a waiting game)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; But, the other option is just to announce tomorrow morning, at which point everything should be in Maven central</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; no problem, i'll check &amp; send</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; I believe that's all that's left on our 3.1 to-do list.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; (other than some minor wiki cleanup...like cleaning up the DSpace Wiki homepage to list 3.1 as latest version, etc.)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;helix84&gt; for anyone who hasn't heard yet, I wrote two new chapters on Git (you asked how to do backports, the other one is a pre-requisite explaining the setup): <a href="https://wiki.duraspace.org/display/DSPACE/Development+with+Git#DevelopmentwithGit-Recommendedsetupofrepositoriesforcommiters">https://wiki.duraspace.org/display/DSPACE/Development+with+Git#DevelopmentwithGit-Recommendedsetupofrepositoriesforcommiters</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kompewter&gt; [ Development with Git - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Development+with+Git#DevelopmentwithGit-Recommendedsetupofrepositoriesforcommiters">https://wiki.duraspace.org/display/DSPACE/Development+with+Git#DevelopmentwithGit-Recommendedsetupofrepositoriesforcommiters</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; Thank you!</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; excellent, helix84.  yea, thanks. I hadn't seen it yet</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; i guess that concludes the agenda, now the drinking part?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; The other set of hints we could use is the "how do I update my outdated pull request"  (i.e. the "rebase" hints).</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; but, that looks like a great start, helix84</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; yea..the agenda is rather light today.  So, the floor is open..  anyone have any topics they'd like to discuss?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; I'll think about it. It's just that so many things can go south when rebasing - it's mostly about learning by doing.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; we were chatting about REST-API earlier...</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: good topic, but I don't think there are any news since last time</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; yea, my favorite topic...REST API :)</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mhwood&gt; Time to pick a REST implementation and groom it for release.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood ++</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; on one hand, we have REST which others should work to prepare for inclusion,</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; on the other hand we have DAO which we can look at right now</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; both! :-) I'm multitasking right now...</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; One thing to note RE: REST-API stuff....  Remember all those "DSpace Futures" discussions we had in late 2012?   We will be having a few followup meetings in late Feb on specific "hot topics" to try and drum up some volunteers &amp; someone to bring it forward.  REST API is one of those "hot topics" up for further discussion and needing some support behind</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; We have multiple REST candidates, and I worry that nothing much will happen until one is selected.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; working group?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; The followup meetings in late Feb will be announced soon...I think the one on getting a DSpace REST API will be on Weds, Feb 27 @ 19:00UTC</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: will someone from both wijiti and jorum attend?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- yea, essentially that's the goal of these followup meetings...to establish a "working group" (if we can) around specific projects</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- anyone from the community will be invited.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; So, as of now, there will be 3 of these "topic meetings" coming out of "DSpace Futures" discussions.  There's no guarantee any of these topics will result in a 'working group' or an actual project.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; 1. REST API  (this has the most support these days, it seems)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; OK, I'll write them both and also invite them to the call</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; 2. DSpace + Hydra ( not sure yet if this means DSpace on Hydra or Hydra on Dspace, but it seemed a hot topic)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; 3. "Enhancing Metadata" in DSpace (which is a very broad topic, I know)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; So, you all are the "first to know".    Questions are welcome...just thought I'd mention this in light of the REST API discussions</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; good news, thanks, tim</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; yep.  That's the basics...you all will get more specific emails in the near future once we have dates/times finalized in late Feb.   (likely emails will go out late this week or early next)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; in any case, we can move on to other topics / question now</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; is anyone interested in discussing metadata for all?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; Sure.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; sure, we can talk about it</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; (though I admittedly have grown to dislike the name "metadata for all"...as it seems to be used to mean different things)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;helix84&gt; so basically, we had this pull request open before 3.0 freeze, but it got no attention: <a href="https://github.com/DSpace/DSpace/pull/12">https://github.com/DSpace/DSpace/pull/12</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ Support Metadata On All DSpaceObjects by mdiggory · Pull Request #12 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/12">https://github.com/DSpace/DSpace/pull/12</a></span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; I reviewed it and love it (save minor details)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; I think it would solve many, even if not all, problems we currently have regarding metadata</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; can we work from there? what do you think about the approach taken?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; So, if I recall correctly (quickly browsing code again), this is where all the metadata storage/maintenance gets moved up to DSpaceObject...and then anything which extends it (Collection, Community, Item, EPerson) then has the options to store metadata</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;KevinVdV&gt; tdonohue: that is correct</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; and the storage mechanism is the same</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; as for current item metadata</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, I recall liking the idea at the time... I just got held up cause is seemed to come in a little "late" for 3.0...it was a massive change that affected everything.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; the only thing I didn't like about it is that the pull requests makes a separate table for metadata of all but items</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;KevinVdV&gt; A bit different there are no "schemas" although the element/qualifier bit does remain</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; it could all be in metadatavalue, distinguished by a resourcetype column</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; but, I'd be interested in re-investigating it for 4.0 and trying to get it in *EARLY*, so that we can ensure everything else being developed for 4.0 uses it</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; So is it close enough that we can work with it, even if there are some differences over internals?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: +1</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; +1</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; So, sounds like we have a consensus that it needs re-investigation.  How do we want to go about this?  Do we need to try and rope in mdiggory one of these weeks for discussion?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; KevinVdV: can you tell us more about "there are no schemas"?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; KevinVdV: if that removes schemas (I don't remember) that might conflict with the parallel DC/QDC/DCMI efforts</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I think it's a semantics thing.  mdiggory doesn't like the name "schema"....but, I think it was initially chosen to parallel the naming of the dublin core schema.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;KevinVdV&gt; It doesn't "remove" anything since it is stored in separate tables. The data is stored in 2 tables.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;KevinVdV&gt; One is the registry (list of available metadata fields)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; I read that schemas include *rules* about what you can put into a field and how they relate.  A namespace just gives you labels for things.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;KevinVdV&gt; The other is the value table</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; ok. i know about namespace/schema dilema and about metadatavalue/metadatafieldsregistry</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood : yea, that's probably the reasoning behind mdiggory's suggestion to rename "schema" to "namespace"</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; i'd support that</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; The ability to consistently label all of our types could be seen as laying the groundwork for a schema layer later.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding "schema" vs. "namespace"... even if "namespace" is more correct, I would point out that it's less understandable to a 'layperson' librarian / repo manager.   So, no matter what we call it underneath, we may need to think about a better word then "namespace" for the actual UI</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; (cause no one is gonna understand what a "metadata namespace registry" is...unless they've heard the term namespace from XML)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; "field labels"</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; mhwood: -1</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; Suggestion?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; we don't need to come up with a better UI term now...just pointing out that "namespace" is not necessarily a widely understood term</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; thinking hard, but getting nothing better than schema or namespace</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; thinking in fields + set direction</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; under certain circumstances it's OK to educate users ;-)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;helix84&gt; fieldgroup? :/</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- yea, it is.. but, I can just anticipate DCAT folks saying...why are you wanting to call this a "namespace" when it's defining my dublin core schema.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; Might be good to clear off "schema" now so we can re-use it later.  A "schema" as I think it is being spoken of would have wide-ranging consequences.  The forms engine could query a schema to find out whether a field is repeatable, for example, and wouldn't have to be configured itself.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; these are information professionals we're discussing... they'll zig if we need 'em to zig, I think</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; Oh wait...disregard my complaints :)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; "Why namespace, when...."  Well, IIRC DC tells you what can go in the field.  What we have doesn't, does it?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; Looked at the XMLUI.....it uses the word "namespace" all over the place in the Metadata Registry</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; from what noticed on the lists in 2 or 3 cases, people frok the difference and even use namespace themselves when they're referring to what we curretly have as schema</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; we already burned that bridge ;)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; err...crossed that bridge</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; s/sfrok/grok/</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; oh, that might be it, I didn't really notice :)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; so, we should just take this the next step.  I'm ok with renaming schema to namespace....as it already is mostly called that in XMLUI</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;helix84&gt; do we need/want to vote on that now?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; honestly, it could just be bundled as part of this Pull #12 as mdiggory already has done.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; So, the next steps here would be:  1) We need a fresh pull request for 3.0 from someone, 2) We may need a (brief) writeup on the wiki on what is changing, so we don't all need to read the code, 3) Then we review, ask questions &amp; vote</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; whoops typo... "pull request for 4.0"</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;KevinVdV&gt; We will also need a UI to edit / create the medata values &amp; fields cause this isn't included in the pull request</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV :  yes, that is also true. Though it could be possible that separate people could work on the UI, assuming we had folks who could put time towards it</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;helix84&gt; KevinVdV: OTOH, there's not much point working on that if the base is not approved for merging</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;KevinVdV&gt; Agreed, just making sure everybody realised this ;)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; it's a big point though...essentially, if we were to "accept" / vote-in, a change like Pull #12, then we'd need to make sure we have the time/resources to tweak/build the necessary UI changes</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; or, we could split up the vote - now for "yes, this is the approach we want to take, the data structures and APIs are approved" and later for "this implementation is approved"</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: not necessarily - it could be just changes in the API and UI changes to come at a later date (in the extreme case)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-brick">* tdonohue wonders out loud if this change could be made "backwards compatible" with regards to the UI...i.e. make Metadata for All available in the APIs, but the UIs (initially) just support metadata on items.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; oh, helix84 &amp; I are thinking alike...we just said about the same thing</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I think almost certainly</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; I like that approach</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; yea, if we can make this initial API change "backwards compatible" with the UI, then we can do this in stages....1) change API, 2) change UIs one by one</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;KevinVdV&gt; Just to be clear the metadata on all lives ALONGSIDE the metadata for items</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; And this means....</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; KevinVdV: I din't quite understand</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV -- that wasn't clear.  This is where I wish there were docs on the wiki</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; ah, right</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;KevinVdV&gt; So ok. The metadata for all getters &amp; setters are calls to something that is called EXTRAMETADATA. This extratametadata lives in separate database tables</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; just in the original proposal they were in a completely new table (duplicating metadatavalue so that it could be implemented as an addon) duplicating metadatavalue</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; the new metadata could live along item metadata just fine as new rows, distinguished by a new metadatavalue.resourcetype column</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; did that make sense to you?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;KevinVdV&gt; So helix, you propose to alter the existing metadata tables &amp; merge those changes with the current pull request ?</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; yes</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; it's simply adding a column</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;KevinVdV&gt; Ok you got me now</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; Does it need a "type", or isn't namespace the type?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;KevinVdV&gt; type would be 0 for bitstream, 2 for item, 3 for collection, ....</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I'd rather have all objects handle their metadata in a similar way...rather than have two separate places that metadata gets stored (based on the type of object)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; no, namespace is something different. this is resourcetype (item, bitstream, collection, ...)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; Ah</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; So, I like the concept that helix84 is proposing...if it's possible.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; but, beyond that, I still like this proposal overall.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;KevinVdV&gt; It should be possible mhwood</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Hrm, yes, we need to add a resource type column to give space for unique IDs, now that we have different types of objects represented and their ID numbers might collide.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; I'd just like to note that the metadatavalue is already our largest table and this will make it grow. but not grow O(n), only O(1). speaking of number of rows.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like we have the following decided:  (1) we like the concept of Pull #12, but we'd like to see it just use metadatavalue if possible &amp; be "backwards compatible" for existing UIs if possible, (2) we need an updated pull,  (3) we need some docs on wiki, (4) then we need to review &amp; vote on it.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; mhwood: it's not really for making unique ids - metadata_value_id already are our unique ids</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: sounds good, but mdiggory could comment on API backward compatibility</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; Not IDs for the values; the unique IDs of the objects carrying these values.  You can have an Item, Collection, Community all with ID 1.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue: yes.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; mhwood: gotcha</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I agree...mdiggory could comment.  But, as mdiggory is hard to get time from these days (he seems really busy), hopefully KevinVdV can get word from him or pass things along :)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; This will affect indexing too.  If we index on resource_id now, we'd need to change that to (resource_type, resource_id).</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; yes, that would be our new "composite primary key", outside the database</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, definitely will affect indexing.  But, it's easy enough to reindex stuff.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Just wanted to capture the thought.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; but regarding that - it might be beneficial to adopt a single, unique ID across all DSOs</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; in general, this will be a major change, and will require some "migration" of data....it won't be simple, but it seems necessary</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; helix84: interesting point.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; this would be a disruptive change, but might be well worth the added complexity in the future</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; look at this</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-brick">* helix84 looking for wiki page</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://wiki.duraspace.org/display/DSPACE/Proposal+For+Metadata+Enhancement">https://wiki.duraspace.org/display/DSPACE/Proposal+For+Metadata+Enhancement</a></span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Proposal For Metadata Enhancement - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Proposal+For+Metadata+Enhancement">https://wiki.duraspace.org/display/DSPACE/Proposal+For+Metadata+Enhancement</a></span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; the comments</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- huh...you're suggesting "Unique ID for All" :)   Seriously though, might be worth considering...moving "id" up to DSO, and making it globally unique.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-brick">* tdonohue notes we're over time here...but, this is a very interesting topic today.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; I need to ponder that a bit.  The comments appear at first glance to be in violent agreement. :-)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; code-wise, this would be much more disrupting than metadata for all, also requiring migration efforts on upgrade</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; yea, it would be very disruptive. but it is interesting to think about.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;helix84&gt; since we're going wild here today, should I turn it one more notch?</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;helix84&gt; *up</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; by all means, yes</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mhwood&gt; I wonder where the handles would come from if you're a site that doesn't use Handles?  Needs more discussion.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; sure, helix84..but, I do want to make a sidenote that obviously our official meeting time is "passed".  So, if folks have to leave, they are obviously welcome to.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; ok, apart from our nice hierarchical DSOs, we could also have DSOs that cannot be "boxed" his way, they would be related to our DSOs (attributes in OOP-speak)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; in particular - author and journal</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; currently there's no way to store their metadata without duplicating it in item metadata</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; Replacing hierarchy with a more general notion of containment is also a perennial topic.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; so, there are two possible approches here as I see it</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- probably best to ignore the idea of handles..and think more about "a globally unique ID per object, which may or may not be 'mapped' to a handle".   So, the internal ID is globally unique, but it need not be the same as the external ID (handle).</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: +1000</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; Sounds right.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; But then, it can be an integer, as now.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood..right, internal id could still be an integer...but it needs to be *globally unique*, which it currently is not</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; Got it.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; 1) [an indirect approach, but should be easy to implement] authorities. the same concept could be applied to journals or whatever. there has even an implementation around for some time: <a href="http://www.askosi.org/dspaceSKOS/DestinSKOS.pdf">http://www.askosi.org/dspaceSKOS/DestinSKOS.pdf</a></span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; 2) [a direct approach, might require even larger changes] implement triplets, like in RDF, of DSO-relation-DSO</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; Yeah.  Instead of a string, "author" is a reference to an Author, etc.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;helix84&gt; (another example of such DSO is grants)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; too wild from where we stand? :)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; I recall that things somewhat like this have been discussed before.  I think you will find advocates.</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;helix84&gt; this can be gradual in the order as I mentioned it - metadata4all, ID4all, authorities4all/triplets4all</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; I think it may have to be phased.  That's a lot of changes.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I'm sure it must have been even before I knew DSpace existed :) It's nothing new, just applying general concepts to DSpace</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mhwood&gt; So assuming for the moment that metadata4all is slotted for 4.0, where do the rest go?</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; yea...i think it's an interesting concept as well.  But, we cannot do everything at once.  We'd have to stage it across several versions of DSpace, likely.</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; ID4all might make sense to go right after metadata4all, still in time for 4.0</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; the rest is too far for now, IMHO</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mhwood&gt; If there is agreement that this is where DSpace should be going, we should assign them to releases now (not today, but RSN).  Things can be adjusted later.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; Something that happens to DSpace a lot is that wishes never become goals.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; also not that I waasn't even talking about larger changes, such as structured (not flat) schema, enforcing field types (schema)</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; s/not/note/</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: also note that I waasn't even talking about larger changes, such as structured (not flat) schema, enforcing field types (schema)</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; yea, mhwood.  we do tend to have a large "wish list".  The problem always tends to be a lack of resources to tackle large projects...but, as suggested, we could try and at least get metadata4all proposal/pull request updated &amp; try to get it into 4.0 as soon as possible</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I know, I should have started with "I have a dream". But I think I've already heard it somewhere :)</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mhwood&gt; :-)</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mhwood&gt; My concern is that big things need to be scheduled or they languish.  They need to move from "I'd sure like to have this, but it's BIG" to "we intend to do this, how do we get it done?"</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;KevinVdV&gt; Needs to run until next week guys !</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- Now with extra fish!)</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;helix84&gt; I think metadata4all is definitely doable for 4.0</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; agreed mhwood.</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;helix84&gt; I could even attempt to port the pull request, but not in the coming week or two</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;helix84&gt; I guess we don't have a roadmap document, do we?</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: if you are willing that'd be great.  Even if it's a few weeks / month from now.  The key is just to try and get this work started/voted in by March or April, preferably (i.e. sometime early in the release cycle)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;mhwood&gt; Notice the pronoun shift.  Putting a big goal on the schedule might be one way to gather collaborations.</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; it wouldn't align with the way DSpace is developed (organically)</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; So, what are we suggesting to do different this time around?  Just throw this up on a "4.0 Release Notes" page and keep picking at it?</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mhwood&gt; Depends on whether the roadmap is inclusive or exclusive.  If things not on the map are Not Allowed, that would be a big change.</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;helix84&gt; mhwood: i think a "not allowed" list is also contrary to how DSpace is developed</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mhwood&gt; I think we just agreed.</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;helix84&gt; right :)</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; I like the idea of "we intend to do this, how do we get it done"...but, we just need to hold ourselves to it.  It's obviously a group thing, as no one has full control of everyone else's time.</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: release notes are fine for metadata4all, but do we have a larger "vision" document?</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;mhwood&gt; The idea is that we commit to a scheduled goal *as a body*, after enough discussion that a working group seems to be coming together.</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 : we do not have an overarching "vision" document, as it seems to change with every release :)  We have tons of overarching "proposals" for things we really need to do (which is our large "wish list")</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood : yea, I agree with the idea.  Just curious if you had thoughts on how to get the "buy in".  In the past, we've scheduled things via JIRA or stuck them on a "release notes" page.  Sometimes that gets them done, sometimes they just get rescheduled again later</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;mhwood&gt; "No plan ever survives contact with the enemy."  Planning is something you do over and over as the situation develops.</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;tdonohue&gt; helix84:  Though we do tend to treat the "release notes" as "vision documents" for the next release...at least early on...so, we probably should create a "4.0 Release Notes" with some ideas around what we'd like to see happen for 4.0 soon</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;helix84&gt; definitely</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;hpottinger&gt; it certainly makes for awesome release notes pages... and a nice high pagerank for them</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;helix84&gt; also, the "we'll cross that bridge when we come to it" approach agrees with setting only goals that are in sight and therefore reachable</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;mhwood&gt; I think we start with people generally agreed that goal X is large enough to need a team, and some discussion of how to parcel it out and who might want to be on the team.</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;helix84&gt; once we are "there" (4.0 or metadat4all), it will make more sense to ponder where to go next</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;helix84&gt; which brings me into agreement with mark again :)</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, that's essentially how we tend to work.  One release at a time.   (As mentioned, we do have some "pie in the sky" proposals / wish lists out there too..but they don't tend to happen until the time is ripe)</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;mhwood&gt; Should we try to e.g. go ahead and schedule authorities4all for DSpace 5, with the understanding that it's not a promise until a team forms that is willing to commit to a schedule?  "Right now, this is where we think we will be going."</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;mhwood&gt; Again, not today, but after a reasonable amount of ML discussion.</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;helix84&gt; we could, but a roadmap would be better than release notes for DSPace 4, 5 and 6 created at this time</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;tdonohue&gt; we could... the only other alternative I can think of is to actually create a high level "Vision" wiki page, and map out possible features for possible future releases.  It's no "promise"..but it could give us something to glance at once we are done with 4.0, to remind us where we might want to go next</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-brick">* tdonohue said the same thing as helix84</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;mhwood&gt; Whatever document works.  I'm trying to figure some way to get from "we should do that someday" to "what would it take to deliver that, and when?"</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-brick">* helix84 detaches from the mind-meld</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mhwood&gt; Thinking about it, these goals individually are details of a vision of how the use of DSpace could evolve.</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood...yea, I agree.  Some of this is also stuff we're trying to "rethink" with the "DSpace Futures" discussions....  so, for example, I mentioned those "topic specific" followup meetings.  Part of that is to also try and feel out whether there are ways to get others involved (or get others to promise additional resources) to help us "deliver features" sooner.</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;helix84&gt; mhwood: could you please look at #dspace?</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;mhwood&gt; Reading....</span><br />
+<span class="irc-date">[22:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:52]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:54]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:08]</span> <span class="irc-navy">* linux4u (~james@employed.library.emory.edu) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[23:47]</span> <span class="irc-navy">* helix84 (~a@195.113.97.174) Quit (Quit: helix84)</span><br />

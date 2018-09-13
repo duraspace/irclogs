@@ -1,0 +1,232 @@
+<span class="irc-date">[1:42]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-tomapjvorkudpzzm) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[7:02]</span> <span class="irc-brown">-sendak.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[7:02]</span> <span class="irc-brown">-sendak.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[7:02]</span> <span class="irc-brown">-sendak.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[7:02]</span> <span class="irc-brown">-sendak.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[7:03]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[7:03]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[7:03]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:49]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:34]</span> <span class="irc-green">* filatko (~filatko@dijkstra.ms.mff.cuni.cz) has joined #duraspace</span><br />
+<span class="irc-date">[14:52]</span> <span class="irc-green">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-green">* KevinVdV_ (~kevin@195.176.9.225) has joined #duraspace</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-navy">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-green">* KevinVdV_ is now known as KevinVdV</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hello all. Welcome to our weekly DSpace Developers meeting. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-01-27">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-01-27</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2016-01-27 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-01-27">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-01-27</a></span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; If you haven't seen the "news" this morning, <a href="http://duraspace.org/node/2775">http://duraspace.org/node/2775</a></span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;kompewter&gt; [ LYRASIS and DuraSpace Boards Approve “Intent to Merge” and Seek Your Input | DuraSpace ] - <a href="http://duraspace.org/node/2775">http://duraspace.org/node/2775</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not going to spend much time on this in today's meeting (as we really want to get 6.0 ready to go), but I'm glad to answer questions publicly or privately (tdonohue@duraspace.org).</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; I will say however, that I don't think this will change things for DSpace much. As far as I can tell, things should move along as normal, and if anything, we might get a few more resources to help us beef up DSpace training or promotion (both things Lyrasis is good at)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; I don't think I'll say much more than that for now, but if we have time at the end of the meeting (or post-meeting), I'm glad to answer more questions, etc.  I do think this merger could be of benefit though to DSpace and DuraSpace as a whole</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162038.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; One last note... as noted in the press release, we are looking for your institution's feedback. So, please do send along any feedback on the possible merger to synergy@duraspace.org</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. Now, on to 6.0 topics, which is what we are really here to discuss :)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; Here's where we stand with our Feature PRs: <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; ack, wrong link</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the *feature* PR link: <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Afeature">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Afeature</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Afeature">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Afeature</a></span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; We're down to just 5 left...which is good, but I'd rather we cull this down to 0 quickly :)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;hpottinger&gt; Let's do it!</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;helix84&gt; um, those are only new features, what about improvements? <a href="https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Aimprovement">https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Aimprovement</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Aimprovement">https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Aimprovement</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; So, let's start with a "quick status" update. I think *I* know where everything currently stands, but let's make sure everyone is updated, and get volunteers where we need them</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: improvements will come next. We really need to get (closer) to a "Feature Freeze"</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;helix84&gt; ok, thanks</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; Status on DSPR#1163?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1163">https://github.com/DSpace/DSpace/pull/1163</a> ] - DS-2880: Pubmed integration into XMLUI submission by rradillen</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;mhwood&gt; +2 but there is a note about merging 1160 first, which may cause collisions.</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; This looks nearly 'ready to go'. It's at +2</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; Yes.  So this is dependent on 1160: DSPR#1160</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1160">https://github.com/DSpace/DSpace/pull/1160</a> ] - DS-2876 Framework for importing external metadata by jonas-atmire</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;hpottinger&gt; sounds like we need to merge 1160 and 1163</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;mhwood&gt; 1160 is, effectively, tested since 1163 is tested.</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;mhwood&gt; And 1163 includes 1160.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;KevinVdV&gt; Indeed we recommend merging 1160 prior to 1163</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;hpottinger&gt; then 1162 needs a final rebase and test</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;helix84&gt; merging 1163 will mean that 1160 doesn't need to be merged (as it's commits are in 1163)</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks KevinVdV.  Just as a warning to your staff... I notice the commit hashes in 1160 are *different* from those in 1163. Hopefully github will be smart about that, but merging 1160 may require a final rebase of 1163</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;helix84&gt; merging 1160 would mean 1163 needs a rebase, but it shouldn't have any conflicts</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; true</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;hpottinger&gt; (and 1162)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;KevinVdV&gt; I believe git(hub) compares files not commits</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;KevinVdV&gt; So it shouldn’t be an issue</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds good then (I wasn't sure)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like we are in agreement?  Merge 1160 today, and (if necessary) do a quick rebase of 1163 and merge it as well?</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; I'm +1 this approach (others?)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mhwood&gt; Shall I just merge 1160 and see what happens?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: sure, go for it. It sounds like no one has objections. That'd let us know where we stand immediately</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;mhwood&gt; Merged</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;helix84&gt; just tested it, rebasing 1160 on 1163 is a NOOP</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;mhwood&gt; 1163 now has conflicts.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;hpottinger&gt; I think git compares hashes first, then falls back to diffing if it has to</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;helix84&gt; and vice versa it's without conflicts (but probably doesn't make sense)</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;helix84&gt; yes, can't be merged, but should rebase without any conflicts</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; ok, so 1163 will need a rebase then. After that, it's ready to go</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;helix84&gt; as the hashes differ, but the contents is the same</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood or KevinVdV, can one of you ping developers on 1163 for a quick rebase today?</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;KevinVdV&gt; I will take care of it</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; thanks KevinVdV!</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;hpottinger&gt; I will rebase 1162 and test using my own API key</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so that covers 1163.  Moving on to DSPR#1162 (which hpottinger just mentioned)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1162">https://github.com/DSpace/DSpace/pull/1162</a> ] - DS-2877 Import of ScienceDirect metadata including embargo and linking to or embedding of the final version by LetitiaMukherjee</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;helix84&gt; I'll test it again now that the issues I found seem to be taken care of</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks hpottinger &amp; helix84 for volunteering. Can you do testing of it today (or tomorrow)?</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;hpottinger&gt; yes, today</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;mhwood&gt; 1162 is also conflicted</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;helix84&gt; yes</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;KevinVdV&gt; I’ll see what I can do about it</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;hpottinger&gt; thanks, KevinVdV!</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks KevinVdV again.  Thanks hpottinger &amp; helix84 for volunteering to test this.  The code changes I requested for 1162 have been made, so it's looking ready once it is tested</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;KevinVdV&gt; Put things in motion, rebase should happen sometime today</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; thanks</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;KevinVdV&gt; 1163 rebased</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so next up is DSPR#1104</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;KevinVdV&gt; So pubmed is ready</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1104">https://github.com/DSpace/DSpace/pull/1104</a> ] - DS-2654: Enhanced Configurations via Apache Commons Configuration by tdonohue</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; Latest status on 1104 is essentially, it's approved &amp; ready to go, but I was holding off on breaking these other "feature" PRs.  I think this should go in immediately *after* the remaining feature PRs (but BEFORE improvements/bug fixes)</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;mhwood&gt; Not conflicted.  Let's get it in.</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; 1104 is *highly likely* to cause conflicts with 1163 and 1162 (at least from my scanning the code).  So, we may want to wait until those are both merged, and I'll do a final rebase &amp; merge 1104</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;mhwood&gt; 1163 is merged.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; oh, ok. Well, then I guess it didn't cause conflicts there. 1162 adds new configs though, which may cause issues</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;hpottinger&gt; OK, so, helix84 and I test 1162 and then ping tdonohue? either way one minght need a rebase, so... spin a bottle, who gets to rebase again?</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; If 1162 can be tested &amp; verified ASAP, I'll wait on 1104, and do the rebase (as I know where the likely conflicts are).</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;filatko&gt; fyi 2659 also adds a new config file</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; filatko: yep, I was just getting to that one.  DSPR#994 is the last of the feature PRs... it also might have small conflicts with 1104</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/994">https://github.com/DSpace/DSpace/pull/994</a> ] - DS-2659 new extensible platform health check reports with emailing by vidiecan</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone willing to give 994 a test run today as well?</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mhwood&gt; This one is +2 modulo some final tweaks</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-navy">* KevinVdV (~kevin@195.176.9.225) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; yep. I notice it has votes...just might need some final tests to verify the recent commits are all working (they should be, but verification is a good thing)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;filatko&gt; fixed those reported by KevinVdV awhile ago</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; filatko: are you kosarko then? (sorry, didn't realize)</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;filatko&gt; yeah, sorry...forgot how to change a nick :)</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; no problem. Thanks for being responsive though &amp; working with us on the code filatko :)</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-green">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; As a reminder to folks, this PR 994 is essentially an improved, Java based replacement for our old "dspace-info.pl" script (which would be nice to finally get rid of!)</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; So, anyone here interested in helping us get 994 merged ASAP? Just needs a final test it seems</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; I'll give 994 a spin</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;helix84&gt; I can test it again if that's all that's needed</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;helix84&gt; already has +1 from me</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; filatko: One other comment.. at some point, we will need some basic Documentation on 994 (how to use it, configure it, etc).  We don't necessarily need it prior to merging the code, but we need it for the official docs</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-green">* dyelar (~dyelar@31.158.45.66.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks hpottinger &amp; helix84.  I think it just deserves a last test...it has the votes, but I'm not certain it's been tested much since the code refactors</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;filatko&gt; tdonohue: I think I've alredy started that docu somewhere</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; filatko: If so, great! If you can find them, please link them to the ticket in JIRA:  DS-2659</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2659">https://jira.duraspace.org/browse/DS-2659</a> ] - [DS-2659] Add configurable &amp;quot;healthcheck&amp;quot; system emailing internals of the repository on regular basis - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;filatko&gt; <a href="https://wiki.duraspace.org/display/DSPACE/Healthcheck+reports">https://wiki.duraspace.org/display/DSPACE/Healthcheck+reports</a></span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ Healthcheck reports - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Healthcheck+reports">https://wiki.duraspace.org/display/DSPACE/Healthcheck+reports</a></span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;filatko&gt; it's in the PR at least</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;helix84&gt; filatko: if you want edit access to official docs, just ask tdonohue and send him your Jira username</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; yep, I can give you edit access to official docs, if needed.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; I added a link to those docs to the JIRA ticket too (as I overlooked them in the PR comments)</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. So, it sounds like the features are ALMOST ready.   Ideally, we get 1162 and 994 tested quickly &amp; merged. Then I'll do a final rebase of 1104 and merge immediately.  After that, we're on to "improvements" and "bug fixes"</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;mhwood&gt; Time to talk about improvements then?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; Yep, improvements time: <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Aimprovement">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Aimprovement</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Aimprovement">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0+label%3Aimprovement</a></span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; There's a lot listed there, but I know that some of these have merge conflicts and would need more work to get ready to go.  More may end up conflicted after 1104 gets in (and I plan to try and flag them all after 1104 is in)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; Do we want to start again from the top (like last time)? Or start from bottom to switch up which we are talking about?</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; Actually, before we do that...are there any SPECIFIC ones folks here want to highlight to talk about?</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; (as this would be a good opportunity to get more eyes on specific important improvements)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: yes, the RTL indexing for PDFs</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; which #?</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;helix84&gt; DSPR#947</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/947">https://github.com/DSpace/DSpace/pull/947</a> ] - DS-1187 Full-text indexing of right-to-left PDF files by saiful-semantic</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; This is a one-liner, and it looks like you found good performance?  It seems like an obvious benefit/win to me</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;helix84&gt; yep, just needs another +1 :)</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; I'd vote +1.  If the performance is comparable, this is a backend process anyhow, so it seems like we just do it.  I'll add my vote</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;helix84&gt; thanks, I'll merge it shortly</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; merge it :)</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;mhwood&gt; DSPR#1044 just had a positive report, and I'm going to have to ask around to get a second +1 as it's quite specialized.</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1044">https://github.com/DSpace/DSpace/pull/1044</a> ] - [DS-1837] Create a separate Maven artifact for the MultiRemoteDSpaceRepositoryHandlePlugin by mwoodiupui</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-brick">* tdonohue needs to catch up on this discussion... is there a summary somewhere of why this should be a separate Maven project?</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;mhwood&gt; DS-1637</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1637">https://jira.duraspace.org/browse/DS-1637</a> ] - [DS-1637] Support running handle server and application container on separate machines - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-qubocszdvejcuewb) has joined #duraspace</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: we need to build a jar, that can be deployed to the handle server.</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; deployed to the server/system that is running the external handle server? (is that what you mean?...sorry there's two meanings of "server" here)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;pbecker&gt; yes, sorry.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mhwood&gt; It's a plugin to the Handle resolver, so we need a way to deliver it there.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;pbecker&gt; the jar contains everything the handle server needs to contact dspace, to ask where to direct handles to. If the handle server runs on the same machine as DSpace, that is simple, if it runs on a remote one, you need this jar.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; I understand now. So, my only comment on this PR is this... Is there a reason why we don't just pull this out into a separate GitHub project (which we release only as updates are needed)?  I wonder if we are "cluttering" the main DSpace/DSpace with a ton of sub-projects</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; Probably because I didn't think of doing that.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; I.e. this seems like a very specific usage of the DSpace handle system...and I worry about making everyone build this new maven sub-project, when most don't need it?  Can we just distribute it via Maven instead of within DSpace?</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;pbecker&gt; the plugin in must correspondent with a servlet, but that is not a reason to have this in DSpace core. We probably could pull it out into a separate project.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;helix84&gt; Sorry, I didn't check, which handle server version does this work with? Is that documented?</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; I like the idea of distributing this as a separate GitHub project (and distribution via Maven dependencies), instead of within DSpace.  Unless there's a good reason to keep it in the DSpace/DSpace GitHub, I'd prefer to see it separate</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;pbecker&gt; helix84: IIRC we're using it with version 7.0</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;hpottinger&gt; it's been a while since I tinkered with it, but I *am* running this plugin in production, I packaged it all up by hand, following peterdietz's docs</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;hpottinger&gt; hsj-7.3.1 on our production box right now</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;mhwood&gt; So hpottinger could test it too, if he has time.  Cool.</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;pbecker&gt; :-)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;helix84&gt; +1 to that :)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;peterdietz&gt; sorry, jumped in late. Hardy, your using the fat-jar HandleExternalAdapter thingy?</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;hpottinger&gt; yup, peterdietz, I am</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;pbecker&gt; peterdietz: do you use it in production?</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; Huh. Nice that this also fixes our issues with using Handle Server 7. That's actually something we should advertise it as doing (in the 6.0 release), as it's been an open issue: DS-1477</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1477">https://jira.duraspace.org/browse/DS-1477</a> ] - [DS-1477] update the handle server (to get IPv6 support) - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;peterdietz&gt; Yeah, We have that in use for our client in Kuwait</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;pbecker&gt; great!</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;peterdietz&gt; I would like to harmonize the endpoints for JSPUI/XMLUI/REST</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;mhwood&gt; I am scheming to remove the Handle resolver from DSpace in favor of running a stock one, someday.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;pbecker&gt; peterdietz: jspui and xmlui are harmonized.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;hpottinger&gt; after our upgrade to 5.4, our handle server situation "became dire" (I forgot to copy the configs over) easiest path out of that mess was to use the stock handle server</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;peterdietz&gt; REST I don't think fully supports this. JSPUI and XMLUI have different endpoints... You can't just point to site.uni.edu/handle-resovler... You have to know if they use xmlui or jspui, because the endpoints are different</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; So, it seems like this DSPR#1044 could also be claimed as an early solution to DS-1477 and even DS-2153 (as it lets you run a "stock" handle server, right)?</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;pbecker&gt; I thought you were thinking about giving back the same json structure.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1044">https://github.com/DSpace/DSpace/pull/1044</a> ] - [DS-1837] Create a separate Maven artifact for the MultiRemoteDSpaceRepositoryHandlePlugin by mwoodiupui</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1477">https://jira.duraspace.org/browse/DS-1477</a> ] - [DS-1477] update the handle server (to get IPv6 support) - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2153">https://jira.duraspace.org/browse/DS-2153</a> ] - [DS-2153] Move to a more stock Handle service, implementing proper separation of concerns - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: yes and no. DS-2153 needs some more than that.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2153">https://jira.duraspace.org/browse/DS-2153</a> ] - [DS-2153] Move to a more stock Handle service, implementing proper separation of concerns - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-brick">* tdonohue is trying to figure out which of these (many) tickets relating to updating the Handle Service could be somewhat "resolved" by this PR</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;peterdietz&gt; I should get into the handle hosting business. Pascal, want that to be our first joint mission? But since handle registration is only $50/year, I don't think there is much money in it</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: thanks for clarifying</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;pbecker&gt; pr1044 solves ds1477</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-brick">* tdonohue is linking up ds1477 to ds1837 then</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;pbecker&gt; peterdietz: working with you is reason enough to say: of course!</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; back to the PR here... mhwood: any objections to splitting this out into a separate GitHub project altogether?  If not, I suggest we just do that.  We can close the PR and just create a new Project for this</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;mhwood&gt; No objection, and it decouples this from the 6.0 schedule.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;mhwood&gt; I.e. the new project can release anytime.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;hpottinger&gt; I'm not sure how we close those tickets if we make a new project?</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;pbecker&gt; If we want to use this to resolve ds1477 it wouldn't decouple it...</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-brick">* tdonohue just wants to move to start to *simplify* our build process (not add more submodules).  I hope to do more of that as we move to the new UI (in Dspace 7)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: it's still a DSpace "feature" though...it'd just be distributed via *Maven* (or direct download of the JAR) instead of its source being packaged in the DSpace build &amp; install</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; why not decouple it pbecker? I guess I don't see what the benefit of distributing it's source in DSpace brings us?</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;hpottinger&gt; I remember bundling up a configuration into this jar, but maybe that's not necessary?</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; There's no config file in the PR itself</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; I guess my point here is that...if the goal is to "create a JAR that is divorced from the main API", why not just divorce it entirely from the DSpace source?  Is there a purpose to keeping it in the DSpace source if it's supposed to be "separate"?</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: it was related to mhwood, who noted that moving it to a separate project would decouples it from the 6.0 schedule.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;KevinVdV&gt; ==&gt; needs to run, until next time</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-navy">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; If we move it into a separate project, I think we still need to keep it on the 6.0 schedule...that way we can advertise it as a "new feature" with 6.0 (even though it's distributed separate)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger: the configuration file can be deployed in the configuration directory of the handle server.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: that was exactly what I meant to say.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;pbecker&gt; s/was/is</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: tdonohue: that is exactly what I meant to say.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; So, it'd be "decoupled" in the source...but we still should aim to release it alongside (or prior to) 6.0</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;pbecker&gt; ++1</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;mhwood&gt; So I know what I'll be working on this afternoon, then. :-)</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: ping me if there is something I can help you with.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;mhwood&gt; Will do.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks mhwood. Sorry I didn't catch this sooner.  Let me know if you need anything from my end as well</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;mhwood&gt; Will do.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;hpottinger&gt; likewise, ping me if you need a test... though I'm a bit worried about "testing in production" :-)</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. So, as we are now "over time", I suggest we close up today's meeting. If there are other improvements or bug fixes that require immediate attention, please do ping us via dspace-devel or IRC so we can work on getting them in as well</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; And, please let me know if any of you need anything with getting the Feature PRs merged ASAP.  It'd be good to get that number to zero, so we can concentrate next week on improvements &amp; bug fixes and stabilize for a "feature freeze"</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks all!  We're getting closer to 6.0....just want to move this forward as rapidly as we can (and get back on a more "predictable" schedule)</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-brick">* tdonohue is moving over to #dspace now</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-navy">* filatko (~filatko@dijkstra.ms.mff.cuni.cz) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-green">* cknowles (uid98028@gateway/web/irccloud.com/x-emryqgmqzwzjvany) has joined #duraspace</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-navy">* dyelar (~dyelar@31.158.45.66.cm.sunflower.com) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-green">* dyelar (~dyelar@31.158.45.66.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[18:16]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[18:47]</span> <span class="irc-navy">* awoods_away (~awoods@c-98-245-50-182.hsd1.co.comcast.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-navy">* cknowles (uid98028@gateway/web/irccloud.com/x-emryqgmqzwzjvany) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-green">* tdonohue is now known as tdonohue_away</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:45]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162038.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[23:52]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-qubocszdvejcuewb) Quit (Quit: Connection closed for inactivity)</span><br />

@@ -1,0 +1,123 @@
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-whedon.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-whedon.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-whedon.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-whedon.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:24]</span> <span class="irc-green">* robint (81d746b9@gateway/web/freenode/ip.129.215.70.185) has joined #duraspace</span><br />
+<span class="irc-date">[9:41]</span> <span class="irc-navy">* robint (81d746b9@gateway/web/freenode/ip.129.215.70.185) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[12:56]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-green">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) has joined #duraspace</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-green">* birkland (80541ff7@gateway/web/freenode/ip.128.84.31.247) has joined #duraspace</span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-green">* ajs6f (893604b1@gateway/web/freenode/ip.137.54.4.177) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-black">&lt;cwilper&gt; <a href="https://wiki.duraspace.org/display/FCREPO/2012-02-09+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-02-09+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-black">&lt;kompewter&gt; [ 2012-02-09 - Fedora Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2012-02-09+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-02-09+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Focus on the hot items today.</span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: GSOC on agenda?</span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Yes.</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam got a high quality T-shirt from GSOC.</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-black">&lt;Dan_Davis&gt; DuraSpace will apply one for each major project.</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;Dan_Davis&gt; Not a shoe-in, need good projects and mentors for each. Need mentor volunteers.</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://github.com/fcrepo/fcrepo/tree/fcrepo-452">https://github.com/fcrepo/fcrepo/tree/fcrepo-452</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo at fcrepo-452 - GitHub ] - <a href="https://github.com/fcrepo/fcrepo/tree/fcrepo-452">https://github.com/fcrepo/fcrepo/tree/fcrepo-452</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Need to discuss SOAP faults and facilitate getting last years code into Fedora.</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jira.duraspace.org/browse/FCREPO-452">https://jira.duraspace.org/browse/FCREPO-452</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-452] Move away from Axis 1.3 - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-452">https://jira.duraspace.org/browse/FCREPO-452</a></span><br />
+<span class="irc-date">[14:17]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Problems in passing tests may be part of text in SOAP faults.</span><br />
+<span class="irc-date">[14:18]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Adam: Human readible messages, code/test brittle, pulling message out of type.</span><br />
+<span class="irc-date">[14:19]</span> <span class="irc-green">* ruckus (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[14:19]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Human version and "reason"</span><br />
+<span class="irc-date">[14:19]</span> <span class="irc-black">&lt;ruckus&gt; Hola guys, sry for being late</span><br />
+<span class="irc-date">[14:19]</span> <span class="irc-green">* ruckus is now known as elschlomo</span><br />
+<span class="irc-date">[14:19]</span> <span class="irc-black">&lt;elschlomo&gt; &lt;- frank</span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://stackoverflow.com/questions/3313328/how-to-get-a-soap-fault-message-to-be-ws-i-compliance">http://stackoverflow.com/questions/3313328/how-to-get-a-soap-fault-message-to-be-ws-i-compliance</a></span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-black">&lt;kompewter&gt; [ soapui - How to get a SOAP fault message to be WS-I compliance - Stack Overflow ] - <a href="http://stackoverflow.com/questions/3313328/how-to-get-a-soap-fault-message-to-be-ws-i-compliance">http://stackoverflow.com/questions/3313328/how-to-get-a-soap-fault-message-to-be-ws-i-compliance</a></span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-black">&lt;Dan_Davis&gt; Group intelligence doubled when Frank joined.</span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://www.xenta.nl/blog/2010/07/17/oracle-service-bus-11g-handling-soap-faults/">http://www.xenta.nl/blog/2010/07/17/oracle-service-bus-11g-handling-soap-faults/</a></span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Oracle Service Bus 11g, handling SOAP Faults | Oracle .. Java .. OpenSource .. SOA ] - <a href="http://www.xenta.nl/blog/2010/07/17/oracle-service-bus-11g-handling-soap-faults/">http://www.xenta.nl/blog/2010/07/17/oracle-service-bus-11g-handling-soap-faults/</a></span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-black">&lt;elschlomo&gt; yes! GI * (-2)</span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: admits he does not want to write more Java code, cannot get free labor from Mo.</span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: What do we really need to pass as faults/exceptions.</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Chris: Compatibility with client libraries.</span><br />
+<span class="irc-date">[14:26]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: set up some "fedora" specified fault codes.</span><br />
+<span class="irc-date">[14:29]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Code may be best kept in "human" readable return.</span><br />
+<span class="irc-date">[14:34]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: Possible include a correlation ID in SOAP fault and server log.</span><br />
+<span class="irc-date">[14:36]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Do not go with fault subcode, Go with Oracle style with consistent code (detail), plus across rest in the HTTP header. And correlate with stack trace/addl details.</span><br />
+<span class="irc-date">[14:38]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Java could serial/de-serial exception but cross client/language may need a better form. Takes it out of the web service to use.</span><br />
+<span class="irc-date">[14:39]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Makes wind.</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Summary, change exceptions to have code, language independent, Detail portion has code/message. Reason, stack trace. Adam: Check to see common approach but close.</span><br />
+<span class="irc-date">[14:42]</span> <span class="irc-black">&lt;ajs6f&gt; whttp://www.w3.org/TR/soap12-part1/#faultstringelement</span><br />
+<span class="irc-date">[14:42]</span> <span class="irc-black">&lt;kompewter&gt; [ SOAP Version 1.2 Part 1: Messaging Framework (Second Edition) ] - <a href="http://www.w3.org/TR/soap12-part1/#faultstringelement">http://www.w3.org/TR/soap12-part1/#faultstringelement</a></span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Impose on API, identifiers</span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Not say exception to make less Java specific</span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Will come with some experience.</span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Not numbers but partially human readable.</span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Switch to newest Bamboo version.</span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Perhaps sometime this week.</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Push snapshots to Sonatype, Fedora is hardest.</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Maybe from an empty Maven repository.</span><br />
+<span class="irc-date">[14:48]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Not a problem on build but on deploy</span><br />
+<span class="irc-date">[14:48]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Cargo</span><br />
+<span class="irc-date">[14:49]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1061">https://jira.duraspace.org/browse/FCREPO-1061</a></span><br />
+<span class="irc-date">[14:49]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-1061] Create examples for Cargo-based integration tests - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-1061">https://jira.duraspace.org/browse/FCREPO-1061</a></span><br />
+<span class="irc-date">[14:49]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://github.com/fcrepo/fcrepo/blob/fcrepo-1061/fcrepo-integrationtest/fcrepo-integrationtest-cargo/pom.xml">https://github.com/fcrepo/fcrepo/blob/fcrepo-1061/fcrepo-integrationtest/fcrepo-integrationtest-cargo/pom.xml</a></span><br />
+<span class="irc-date">[14:49]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo-integrationtest/fcrepo-integrationtest-cargo/pom.xml at fcrepo-1061 from fcrepo/fcrepo - GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/fcrepo-1061/fcrepo-integrationtest/fcrepo-integrationtest-cargo/pom.xml">https://github.com/fcrepo/fcrepo/blob/fcrepo-1061/fcrepo-integrationtest/fcrepo-integrationtest-cargo/pom.xml</a></span><br />
+<span class="irc-date">[14:49]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Config A, B working, Installer not needed.</span><br />
+<span class="irc-date">[14:50]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Cargo provides container.</span><br />
+<span class="irc-date">[14:50]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: IHO, installer not tested as part of ITs</span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Can keep running container.</span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Trivial to switch containers.</span><br />
+<span class="irc-date">[14:52]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Problems with Jetty, may never have been properly tested.</span><br />
+<span class="irc-date">[14:53]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Use profiles, should helping us to change containers easily.</span><br />
+<span class="irc-date">[14:54]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Getting a dissemination that does not exists, Tomcat 404 right, Jetty 500 wrong.</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Ant script gone.</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: What tests run. Adam: Depends on profile, config specific.</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Unfortunately, may not be best, Indicate when test inappropriate to run is better.</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Adam: Can eliminate stuff reduces maintenance cost.</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Would you suggest moving to Cargo, next step to get move done the refactor tests. Adam: Its orthoganal but likely move to Cargo first. Make refactoring faster. You don't lose config.</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Check into Verify with different profiles.</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: How does this play into performance testing.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Add a Jmeter profile.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Or just a performance profile.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;Dan_Davis&gt; Aaron: Current approach defacto tests installer.</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Separate the two. Black box plus testing installer by some other means.</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Still need end-to-end.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: War only goal would be helped.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: (with much chagrin) brings up OSGI.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Installer goes away.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: uses the work "quotidian"</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: word</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Wrap up. Adam is still wrapping up Cargo stuff.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: To make jump, Installer test as a unit. Maybe also end-to-end.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;ajs6f&gt; I'll do one more config in Cargo, and that should be a good point at which to bring in more opinion and make a forward-looking decision.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Recent issues.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Some are major.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;cwilper&gt; most important for now: <a href="https://jira.duraspace.org/browse/FCREPO-1062">https://jira.duraspace.org/browse/FCREPO-1062</a></span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-1062] invalid XML datastream checksums after migration from inline (X) to managed (M) via migration script - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-1062">https://jira.duraspace.org/browse/FCREPO-1062</a></span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-navy">* birkland (80541ff7@gateway/web/freenode/ip.128.84.31.247) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Could add to API.</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: Adam: Maybe a utility, maybe part of rebuilder.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Utility running over Web services. Slow but easy.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Should this be critical.  Consensus yes.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;cwilper&gt; <a href="https://jira.duraspace.org/browse/FCREPO-190">https://jira.duraspace.org/browse/FCREPO-190</a></span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-190] Inline XML Canonicalization (c14n) for SIZE and CHECKSUM - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-190">https://jira.duraspace.org/browse/FCREPO-190</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Checksumming in the future? Its a bytestream operation. For XML, maybe xml signature.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Promises (again) to make the meeting shorter.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-navy">* ajs6f (893604b1@gateway/web/freenode/ip.137.54.4.177) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-navy">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-navy">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-navy">* elschlomo (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) Quit (Quit: Read error: 1.414213562 (Excessive square root of 2))</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:58]</span> <span class="irc-brown">-Martinp23- [Server Notice] Hi, the server you are on (whedon.freenode.net) will shortly be disconnecting from the network. Please reconnect to chat.freenode.net to avoid issues.</span><br />
+<span class="irc-date">[23:04]</span> <span class="irc-brown">-Martinp23- [Server Notice] Hi, a follow up to the earlier message. The server you are on (whedon) will go down in 5 minutes. Please reconnect to chat.freenode.net asap.</span><br />
+<span class="irc-date">[23:04]</span> <span class="irc-navy">* scottatm (~scottatm@voyager108.evans.tamu.edu) Quit (Quit: scottatm)</span><br />
+<span class="irc-date">[23:05]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:09]</span> <span class="irc-brown">-whedon.freenode.net- Server Terminating. Martinp23</span><br />
+<span class="irc-date">[23:09]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[23:09]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[23:09]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[23:09]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[23:09]</span> <span class="irc-brown">-kornbluth.freenode.net- *** No Ident response</span><br />

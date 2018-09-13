@@ -1,0 +1,68 @@
+<span class="irc-date">[2:51]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[3:35]</span> <span class="irc-green">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) has joined #duraspace</span><br />
+<span class="irc-date">[3:36]</span> <span class="irc-navy">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) Quit (Client Quit)</span><br />
+<span class="irc-date">[3:36]</span> <span class="irc-green">* ksclarke1 (~kevin@156-56-58-106.dhcp-bl.indiana.edu) has joined #duraspace</span><br />
+<span class="irc-date">[3:38]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[4:13]</span> <span class="irc-navy">* ksclarke1 (~kevin@156-56-58-106.dhcp-bl.indiana.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[4:13]</span> <span class="irc-green">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) has joined #duraspace</span><br />
+<span class="irc-date">[4:13]</span> <span class="irc-navy">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) Quit (Client Quit)</span><br />
+<span class="irc-date">[5:36]</span> <span class="irc-navy">* alxp (~aoneill@blk-30-155-121.eastlink.ca) Quit (Quit: alxp)</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:28]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[10:05]</span> <span class="irc-green">* grahamtriggs (~grahamtri@62.189.56.2) has joined #duraspace</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-green">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) has joined #duraspace</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-green">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-green">* EdAtTheAlliance (1809e5f3@gateway/web/freenode/ip.24.9.229.243) has joined #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-green">* cwilper (ad579d07@gateway/web/freenode/ip.173.87.157.7) has joined #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;cwilper&gt; Starting in a couple mins: <a href="https://wiki.duraspace.org/display/FCREPO/2011-02-08+-+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-02-08+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-navy">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-green">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-green">* Asger (bcb748c6@gateway/web/freenode/ip.188.183.72.198) has joined #duraspace</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-green">* ajs6f (89369b83@gateway/web/freenode/ip.137.54.155.131) has joined #duraspace</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;eddies&gt; org.fcrepo.server.security.servletfilters.FilterRestApiAuthn</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;eddies&gt; RestApiAuthnFilter</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;ajs6f&gt; Exactly.</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-navy">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-green">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-navy">* cwilper (ad579d07@gateway/web/freenode/ip.173.87.157.7) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-green">* ksclarke1 (~kevin@156-56-58-106.dhcp-bl.indiana.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-navy">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) Quit (Client Quit)</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-green">* ksclarke1 is now known as ksclarke</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;Asger&gt; <a href="http://www.theregister.co.uk/2011/02/07/java_denial_of_service_bug/">http://www.theregister.co.uk/2011/02/07/java_denial_of_service_bug/</a></span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-navy">* grahamtriggs (~grahamtri@62.189.56.2) Quit (Quit: KVIrc 4.0.2 Insomnia <a href="http://www.kvirc.net/)">http://www.kvirc.net/)</a></span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-navy">* Asger (bcb748c6@gateway/web/freenode/ip.188.183.72.198) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-navy">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-navy">* ajs6f (89369b83@gateway/web/freenode/ip.137.54.155.131) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:55]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-navy">* EdAtTheAlliance (1809e5f3@gateway/web/freenode/ip.24.9.229.243) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[18:43]</span> <span class="irc-green">* ksclarke (~kevin@156-56-58-106.dhcp-bl.indiana.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:20]</span> <span class="irc-black">&lt;snail&gt; kshepherd: looks like solr is our weak spot for the java floating point bug?</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-navy">* alxp (~alxp@PC044.ROBLIB.UPEI.CA) Quit (Quit: alxp)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-green">* grahamtriggs (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-green">* neanlos_ (be90a357@gateway/web/freenode/ip.190.144.163.87) has joined #duraspace</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kshepherd&gt; snail: mm.. the solr webapp is restricted to localhost by default, but you can still get a float to solr via a discovery query</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kshepherd&gt; testing now</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kshepherd&gt; nope.. we don't really index anything as a floating point.. it's all strings except for date tokens like 'year' which are ints</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-brick">* kshepherd will keep thinking of any places we might be vulnerable though</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;snail&gt; kshepherd: cool</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;snail&gt; anything that uses the dismax handle is also vulnerable, because it can take a bunch of doubles as weights and stuff, but we're not using dismax</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-navy">* grahamtriggs (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-green">* grahamtriggs (~grahamtri@62.189.56.2) has joined #duraspace</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-navy">* neanlos_ (be90a357@gateway/web/freenode/ip.190.144.163.87) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:19]</span> <span class="irc-green">* grahamtriggs_ (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:22]</span> <span class="irc-navy">* grahamtriggs (~grahamtri@62.189.56.2) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[22:22]</span> <span class="irc-green">* grahamtriggs_ is now known as grahamtriggs</span><br />
+<span class="irc-date">[23:16]</span> <span class="irc-navy">* grahamtriggs (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Quit: grahamtriggs)</span><br />
+<span class="irc-date">[23:38]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[23:58]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />

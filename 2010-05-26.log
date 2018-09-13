@@ -1,0 +1,495 @@
+<span class="irc-date">[0:03]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-162-19-234.clt.bellsouth.net) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[0:47]</span> <span class="irc-navy">* krnl_ (Andrius@193.219.34.106) Quit ()</span><br />
+<span class="irc-date">[0:56]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[1:17]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[1:55]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[3:05]</span> <span class="irc-navy">* Tonny_DK (~Tonny_DK@130.226.36.117) Quit (Quit: Tonny_DK)</span><br />
+<span class="irc-date">[3:06]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-green">* DuraLogBot (~PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[4:07]</span> <span class="irc-brown">-hubbard.freenode.net- [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: <a href="http://freenode.net/faq.shtml#nicksetup">http://freenode.net/faq.shtml#nicksetup</a></span><br />
+<span class="irc-date">[4:13]</span> <span class="irc-green">* pvillega (~pvillega@62.77.170.185) has joined #duraspace</span><br />
+<span class="irc-date">[4:22]</span> <span class="irc-green">* pvillega_ (~pvillega@86.47.50.67) has joined #duraspace</span><br />
+<span class="irc-date">[4:23]</span> <span class="irc-black">&lt;Davetaz&gt; interesting dspace website :S</span><br />
+<span class="irc-date">[4:25]</span> <span class="irc-navy">* pvillega (~pvillega@62.77.170.185) Quit (Read error: Operation timed out)</span><br />
+<span class="irc-date">[4:35]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[4:37]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[8:07]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[9:07]</span> <span class="irc-green">* pvillega__ (~pvillega@62.77.170.185) has joined #duraspace</span><br />
+<span class="irc-date">[9:11]</span> <span class="irc-navy">* pvillega_ (~pvillega@86.47.50.67) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[9:11]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[9:21]</span> <span class="irc-green">* ksclarke (~kevin@adsl-162-19-234.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[9:51]</span> <span class="irc-green">* sandsfish (~sandsfish@dhcp-18-111-28-197.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[11:05]</span> <span class="irc-green">* sandsfish (~sandsfish@dhcp-18-111-28-197.dyn.mit.edu) has left #duraspace</span><br />
+<span class="irc-date">[11:06]</span> <span class="irc-green">* sandsfish (~sandsfish@dhcp-18-111-28-197.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:40]</span> <span class="irc-navy">* pvillega__ (~pvillega@62.77.170.185) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-green">* snail1 (~stuart@130.195.86.37) has joined #duraspace</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-navy">* snail (~stuart@130.195.86.37) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-green">* pvillega (~pvillega@89.100.155.181) has joined #duraspace</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-green">* grahamtriggs (~grahamtri@cpc1-stev6-2-0-cust340.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-green">* mdiggory (~mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-green">* bojans (~Bojmen@91.118.66.139) has joined #duraspace</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-green">* PeterDietz (~PeterDiet@ACK5859s3.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-green">* kgilbertson (~Keith@207.138.47.158) has joined #duraspace</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; Welcome all -- today for the DSpace Dev Mtg, we are having a Special Topic Mtg concentrating on DSpace Services Framework.  mdiggory will be leading the discussion.   <a href="http://wiki.dspace.org/confluence/display/DSPACE/DevMtg+2010-05-26+-+DSpace+Services+Framework">http://wiki.dspace.org/confluence/display/DSPACE/DevMtg+2010-05-26+-+DSpace+Services+Framework</a></span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-green">* richardrodgers (~richardro@pool-173-76-18-245.bstnma.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; take it away, mdiggory (whenever you are ready)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;mdiggory&gt; ok, just getting settled in</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mdiggory&gt; So, I want to caution that this is not a "presentation" so we should decide on the structure of the meeting</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; agreed, it's hard to "present" via IRC</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;sandsfish&gt; Perhaps one item could be the existing use of the Services Framework in 1.6</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;mdiggory&gt; The topic  is how do we use the Service Framework as a tool for future DSpace development.</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; I think we should assume that everyone has read/reviewed the "Homework" on the Agenda -- <a href="http://wiki.dspace.org/confluence/display/DSPACE/DevMtg+2010-05-26+-+DSpace+Services+Framework">http://wiki.dspace.org/confluence/display/DSPACE/DevMtg+2010-05-26+-+DSpace+Services+Framework</a></span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;mdiggory&gt; sandsfish: excellent point</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;mdiggory&gt; Things have changed slightly since this was authored but for the most part it is a good starting point.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; so, perhaps that's a place to start mdiggory?  discussiong of existing use of Services in 1.6 -- and then expand to future development work that we can all think of? (while encouraging questions &amp; discussion throughout)</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;mdiggory&gt; in 1.6.1 DSpace Services are available and provide two capabilities off the shelf</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mdiggory&gt; 1.) Configuration Service</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mdiggory&gt; 2.) Event Service</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mdiggory&gt; The later is used currently for only the UsageEvents being logged into the dspace.log and statistics service</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; and (1) is for the initial load of the dspace.cfg (on startup), correct?</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;mdiggory&gt; The wiki page outlines the "end user / developer" configuration of attaching Event Listeners to the Event Service to be alerted to Usage Events from the JSPUI and XMLUI</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: yes, I'll return to that</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;mdiggory&gt; ToC links/anchors in the wiki would nice here</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;mdiggory&gt; hang on one sec</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://fedora-commons.org/confluence/display/DSPACE/DSpace+Services+Framework#DSpaceServicesFramework-ConfiguringEventListeners">http://fedora-commons.org/confluence/display/DSPACE/DSpace+Services+Framework#DSpaceServicesFramework-ConfiguringEventListeners</a></span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;mhwood&gt; Showing the other somewhat mysterious feature of 1.6:  Spring is spreading.</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;mdiggory&gt; Its important to qualify that The following configuration is happening after the ServiceManager/Kernel has started and is happening outside the intitialization of the service manager itself</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; thus as mhwood points out, we are currently using Spring in two places in dspace 1.6.1</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; (and 1.6.0)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; ther is a Spring Application context available in the webapplication initialization that is specific to that webapplication</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mdiggory&gt; in XMLUI, it is the applicationContext that Cocoon provides</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mdiggory&gt; in JSPUI and other webapps, it is just plain old spring</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mdiggory&gt; These spring application Contexts actually have absolutely nothing to do the with dspace-services</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;mdiggory&gt; but we use them as an opportunity to do configuration.</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;mdiggory&gt; the second place we use spring is within the DSpace Service Manager</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;mdiggory&gt; and that is utilized to provide application configuration to all the core services within the configuration manager</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;mdiggory&gt; (this is where the wiki page could use some improvement)</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/impl/src/main/resources/spring/">http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/impl/src/main/resources/spring/</a></span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;mdiggory&gt; these exemplify the manner in which spring is used int he SpringServiceManager to intitialize the core services that the serivemanager provides</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;mdiggory&gt; most specifically .... <a href="http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/impl/src/main/resources/spring/spring-dspace-core-services.xml">http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/impl/src/main/resources/spring/spring-dspace-core-services.xml</a></span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;mdiggory&gt; which initializes the "Session", "Request". "Caching" and "Event" services</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mdiggory&gt; you do not see any "DSpace" or "ServiceManager" object here because this is deep within the context of intitializing that framework</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;mdiggory&gt; but perhaps this is getting too close, I will back away from this level of detail for this discussion</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; so, here's a quick question -- how are the initialized "Session", "Request" and "Caching" services used in 1.6.x (or are they yet?)</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;mdiggory&gt; They are used in the following manner</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mdiggory&gt; And this is best exemplified a webapplication context</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mdiggory&gt; However, in this context the mapping is not 100%</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mdiggory&gt; A DSpace Request is analogous to the complete servlet request/response cycle</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;mdiggory&gt; it is opened at the beginning of the request, and it is closed at the end</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;mdiggory&gt; so, rather than creating a DSpace "Context" and passing it through all method calls</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;mdiggory&gt; we are instead registering the new request in the RequestService where it can be found at any time by any code able to call new DSpace().getRequestService().getCurrentRequest()</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mdiggory&gt; Conceptually from a coding standpoint what we are doing is creating an "environment" within which all dspace code is executing</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;tdonohue&gt; gotcha -- so does any code actually take advantage of this yet in 1.6.x? I'm assuming it's just mostly there for us to start to build off of?</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mdiggory&gt; In the non-webapp context, the "Request" is currently hardcoded in the CLI as the beginning and end of the Launcher execution</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mdiggory&gt; Currently the UsageEvent code utilizes this</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mhwood&gt; There's a servlet filter that notices an HttpRequest and sets up the DSpace request environment.</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mdiggory&gt; in the Webapplications</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- cool</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mdiggory&gt; thanks mhwood, yes</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/dspace/trunk/dspace-xmlui/dspace-xmlui-webapp/src/main/webapp/WEB-INF/web.xml">http://scm.dspace.org/svn/repo/dspace/trunk/dspace-xmlui/dspace-xmlui-webapp/src/main/webapp/WEB-INF/web.xml</a></span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;sandsfish&gt; mdiggory: as a quick aside, org.dspace.content.service.ItemService has nothing to do with this, is that correct?</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mdiggory&gt; &lt;filter-class&gt;org.dspace.utils.servlet.DSpaceWebappServletFilter&lt;/filter-class&gt;</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mdiggory&gt; sandsfish: correct, this is older code that is not part of dspace-services</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;tdonohue&gt; aha -- this is beginning to make more sense -- thanks mdiggory</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;sandsfish&gt; looks like it's just using the term "service" abstractly.  we should be careful to clarify misleading wording, now that we have a capital S Service.</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;mdiggory&gt; So we started off with Spring configuration examples, but we should be clear, the goal with dspace-services is that it can be interacted with via java code directly</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;mdiggory&gt; you do not need to use the XMLUI/JSPUI Spring applicationContext to register listeneres or new services</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;mdiggory&gt; or providers etc.... the api provides the capability to interact with the ServiceManager to register and deregister Services, Providers, Listeners etc</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mdiggory&gt; in this regard the dspace-services SerivceManager can be a dynamic registry of services.</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- is this the general example (at least how you get the ServiceManager to interact with it):  <a href="http://fedora-commons.org/confluence/display/DSPACE/DSpace+Services+Framework#DSpaceServicesFramework-KernelStartupandAccess">http://fedora-commons.org/confluence/display/DSPACE/DSpace+Services+Framework#DSpaceServicesFramework-KernelStartupandAccess</a></span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;mdiggory&gt; and all a "service" really is in this situation is a JAva object singleton that is referenced by a key, in our practice this key is a Classname / signature</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mdiggory&gt; In a sense, this start to look a little like the OSGi services registered for a bundle...</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mdiggory&gt; but only supervficially as there is no classloader isolation or any of the lifecycle provided by an OSGi container</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: Yes, that is a generic example</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;tdonohue&gt; are others getting this?  comments/questions about usage in 1.6.x?  (it's awfully quiet -- just want to check in)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mdiggory&gt; Its important to recognize that "DSpace" is just a helper class encapsulating the real logic of getting to the ServiceManager</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/utils/src/main/java/org/dspace/utils/DSpace.java">http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/utils/src/main/java/org/dspace/utils/DSpace.java</a></span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-green">* kshepherd (kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;kgilbertson&gt; mdiggory: is the ServiceManager shared by all running DSpace apps?  Or they each get their own ServiceManager?</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;mdiggory&gt; which basically looks like new DSpaceKernelManager().getKernel(null).getServiceManager().getServiceByName(EventService.class.getName(), EventService.class</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;tdonohue&gt; good question, kgilbertson :)</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;mdiggory&gt; kgilbertson: yes good question for which there are two answers :-)</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;mdiggory&gt; in DSpace 2.0 the "Kernel" for a DSpace instance is registered as an MBean in the webapplication container, allowing it to be shared across webapplication Contexts</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mdiggory&gt; Theoretically, One webapplication can register Services while another can use the services without knowing where they came from</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mdiggory&gt; however...</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;grahamtriggs&gt; sharing resources across web applications - particularly ones loaded from within the web applications themselves - is a really good way of shooting yourself in the foot</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;mdiggory&gt; in DSpace 1.x, we stripped this capability in favor of isolating the webapplications and having one Kernel per webapp</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;mdiggory&gt; as grahamtriggs so expressively stats</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;mdiggory&gt; states</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;kgilbertson&gt; ok</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;sandsfish&gt; mdiggory: and following that (when you're ready) what kind of setup (DSpace-specific) in code is necessary to use this.  Just using the DSpace object, grabbing the ServiceManager and starting to interact?</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; So at this time there is still an MBean registered for each webapp, they just are not shared.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mhwood&gt; It looks like something, somewhere, needs to call DSpaceKernelInit.getKernel and then call start() on the DSpaceKernelImpl that comes back, or DSpace.anything will throw IllegalStateException.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; sandsfish: since its already in DSpace 1.6.1, yes, you can just access it in your code</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mdiggory&gt; but</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mdiggory&gt; you need to think about how your code is initialized if you want to register your own services, etc</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;richardrodgers&gt; so in the case of runtime configuration (1.6- based), this means webapp 'A' can change a configuration value, but  webapp 'B'  don't see it?</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;mdiggory&gt; that is where I introduced using the webaplications spring applicationContext as a means to initiate configuration</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-navy">* kgilbertson (~Keith@207.138.47.158) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;mdiggory&gt; richardrodgers: yes they are totally isolated atm</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;mhwood&gt; Webapp config isolation = good.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-green">* Keith__ (~Keith@207.138.47.158) has joined #duraspace</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood:  this is a matter of opinion. if AaronZ were here he would argue otherwise and extole the benefits of the shared Kernel approach</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mhwood&gt; As long as my three XMLUI instances in one Tomcat don't try to share.</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;grahamtriggs&gt; richardrodgers: even if you share configuration between webapps, you can't discount having multiple servers for scalability / reliability</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mdiggory&gt; there are benefits to both strategies... but I don't intend to argue for or against them in this meeting</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;tdonohue&gt; just over 20 mins left -- should we move on towards discussion of future development work around Services?</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;PeterDietz&gt; What does swapped out at runtime / quick hot redeploy of code mean? While working in IDE and hitting the shiny green button, or something dspace command line</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;richardrodgers&gt; grahamtriggs: agreed</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mdiggory&gt; they are isolated in 1.6.1 if we want to talk about future development then it might be a topic to discuss there</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: good point... this is not OSGi</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;sandsfish&gt; mdiggory:  What are the drawbacks / costs of starting to use dspace-services, before we head into where to use them?</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;mdiggory&gt; we are talking about juggling the execution of two  Spring Application Contexts here..</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;mdiggory&gt; once they execute, then the changes have been made.</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;mdiggory&gt; that generally happens at webapplication initialization</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;mdiggory&gt; however... we can write tools that interact directly with the service manager at runtime and alter its configuration if we want to</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; for instance, we might write a user interface that would register/deregister specific classes to be used as specific services</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; or write UI that allow us to alter the ConfigurationService or the configuration of any Service at runtime...</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mdiggory&gt; and that will lead us to a discussion about database driven configuration ....</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mdiggory&gt; sandsfish: not many drawbacks performance wise that I can think of</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mdiggory&gt; just perhaps the cost is really just learning to use them</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mdiggory&gt; but I may be optimistic here ;-)</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mdiggory&gt; So... intermission... tdonohue do we have other topics?</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;richardrodgers&gt; How about a GSOC update?</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;mdiggory&gt; because we can go into ConfigurationService and db driven config as a way to talk about that service</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;mhwood&gt; Needs further documentation, especially, "how *should* we use these?"  The framework is quite flexible, which usually means there are good and bad ways of doing common things.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;richardrodgers&gt; mdiggory: isn't ConfigurationService non-persisting?</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; well, we could open up for general discussion here -- do we like this direction? -- can we all come to an agreement that we should start to figure out ways to take advantage of this Services Framework?</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; richardrodgers: only in its current implementation as a file</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;mhwood&gt; Write a new one and plug it in.  That's what the framework is for, yes?</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;mdiggory&gt; bingo</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;mhwood&gt; Yes, *is* this our direction now?</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;tdonohue&gt; I'd vote +1 to this being our direction, but I'd like to hear others' opinions</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mdiggory&gt; we may need to enhance the existing ConfigurationService api to support a few persistence methods... and there is another design startegy that Aaron employed to do this called "mixins"</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;mdiggory&gt; Where additinal capabilities are mixed into an implementation via separate defined interfaces</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;tdonohue&gt; understood -- there will always be enhancements, changes along the way :)   just curious if people see this concept of a Services Framework as a "good idea" and worth working towards.</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;sandsfish&gt; there certainly seem to be cleanliness / extensibility / etc. wins to be had from it's use.  i'd vote for a cautious step toward using the framework, but i think there are a lot of discussions to be had, depending on how it is used.  for instance, i'd float the idea that some areas, if it is intended that they be retrofitted to use spring, should not be slowly converted, given our new time-based release approach, but that projects sh</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;sandsfish&gt; be formed around these conversions, and the trunk be branched to isolate the work on a sub-system, especially the core ones.</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;mhwood&gt; So, if you want to know how you're configured, you can go ask the ConfigurationService each time, or you can implement a listener interface and be told when stuff changes, right?</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: correct</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;mdiggory&gt; and a best practice would be to make sure you pay good attention to the ConfigurationService and if you hang onto configuration state locally in fields, that you have a listener that will update those if they changes in configuration</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;tdonohue&gt; sandsfish:  agreed -- it's not a giant leap -- and we shouldn't just start breaking things in Trunk (also fyi -- we have new guidelines about how to treat trunk: <a href="http://wiki.dspace.org/confluence/display/DSPACE/Guidelines+for+Committing">http://wiki.dspace.org/confluence/display/DSPACE/Guidelines+for+Committing</a> )</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;mdiggory&gt; and this would also apply to other services as well.  IMO a best practicee is to always go to the service manager for getting at things and avoid changin state locally in an instance class</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;tdonohue&gt; so, yea, we'd have to branch off larger projects and merge them back in later</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;mdiggory&gt; There are some important roadmap milestones we should explore for 1.7</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;mdiggory&gt; and these also involve the GSoC projects</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mdiggory&gt; For instance there is still the "StorageService" that will be ported over.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mdiggory&gt; and We need guidelines on how to replace usage of ConfigurationManager with ConfigurationService.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mhwood&gt; Yes please.</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;mdiggory&gt; and talk about how we might chac things like "Context" and tie it to the "Request" so we can stop having to pass it around</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;mdiggory&gt; chac = cache</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;tdonohue&gt; makes sense to me as well...we need guidelines and good examples of how to use this properly</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;mdiggory&gt; finally, dspace-discovery introduces its own solr dirven "SearchService" and is the example case we currently have in the wild for how modules use and register new services</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;mhwood&gt; *plug* I've been staring at the code trying to understand it well enough to fill out the Javadoc, so there is some more to read there.  I'm sure I've misunderstood some of it.</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;sandsfish&gt; yes, documentation / conventions will be key for any area we choose to start implementing spring in, so we don't end up with a mess of different implementations.</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;mhwood&gt; Spring adoption sounds like another topic?</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;sandsfish&gt; ah, yes.  my mistype.</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;mdiggory&gt; so, what I would recommend is that we need more eyes, like mhwood, looking at the framework and assiting in documentation and examples</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;tdonohue&gt; I've noticed that most of the other devs/committers are silent on my "call" for acceptance of this direction.  Maybe everyone should take some time over the next week or two to dig in further -- so we can make a decision soonish (next few weeks), and work towards best practices as necessary</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;mdiggory&gt; We can agree that we need more guidance and docs... but we are the community that is originating this solution and it is upto us to provide this</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;PeterDietz&gt; would you consider discovery to be the example to at in terms of how to use services?</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;sandsfish&gt; tdonohue:  +1 on time to educate.</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm looking over <a href="http://scm.dspace.org/svn/repo/modules/dspace-discovery/trunk/block/src/main/java/org/dspace/app/xmlui/aspect/discovery/BrowseFacet.java">http://scm.dspace.org/svn/repo/modules/dspace-discovery/trunk/block/src/main/java/org/dspace/app/xmlui/aspect/discovery/BrowseFacet.java</a></span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;mdiggory&gt; (meaning the you cannot leave this to the 2.0 development team, they have used up a lot of their resources to bring it into existence)</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;PeterDietz&gt; s/example to at/example to look at/</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;mdiggory&gt; a lot = 110%</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: yes, what is the best code for us to all dig into (besides the Services API itself)?   Discovery? or 1.6 Stats? or both?</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-green">* gavinh (~root@86-44-107-163-dynamic.b-ras2.bbh.dublin.eircom.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mhwood&gt; I can write lots of doco. but will need correction from those who understand the code better, at least until I understand it better.</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: I've been watching you... its looking good so far... if you have a question its good for listserv topics and I'll answer where I can</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mhwood&gt; Thanks!</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;stuartlewis&gt; Is everyone OK if we start chatting about the GSoC testing project, or does the DSpace dev meeting need a little longer?</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: maybe thats a good example of where I didn't eat my own dog food ;-)</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;tdonohue&gt; so, mdiggory, what is a good example for everyone?</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;tdonohue&gt; (stuartlewis -- closing up very shortly )</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;stuartlewis&gt; tdonohue: Thanks.</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;mdiggory&gt; sometimes wrong examples are more informative.... that is good, I just am (1) not listening to configuration and (2) hanging onto the search service I go in the constructor</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;sandsfish&gt; mdiggory:  when you have time, i'd like to know what you mean by your reference (in the DDSUG 2009 presentation) to "default services" (vs. other services?).</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;mdiggory&gt; So maybe a good project would be to correct this as an example</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;tdonohue&gt; Ok -- Everyone take time to review the Services Framework &amp; code -- we will discuss this again and vote in next few weeks.   If you have discussion topics to bring up, please start thread(s) in dspace-devel, so that we can all learn from your discoveries/questions.</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;mdiggory&gt; sandsfish: <a href="http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/impl/src/main/resources/spring/spring-dspace-core-services.xml">http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/impl/src/main/resources/spring/spring-dspace-core-services.xml</a></span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;mdiggory&gt; these are "default services"</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;mdiggory&gt; or "core services"</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;tdonohue&gt; I'd like to close the Special Topic meeting now -- and hand things over to the GSoC Testing Project (as they wanted to discuss that project for the next hour)</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;mdiggory&gt; I thinkw e should use "core"</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue:  ok</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;sandsfish&gt; thanks tdonohue &amp; mdiggory</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;mhwood&gt; As interested as I am in testing, I've gotta go.  Will read the log.</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;tdonohue&gt; So, if you'd like to stick around for GSoC Testing, please do (as this may effect us all with Unit Testing, etc) -- otherwise, we'll see you next week.</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;stuartlewis&gt; Ok - if it is good with everyone, we'll spend a while talking about the DSoace GSoC testing project: <a href="http://fedora-commons.org/confluence/display/DSPACE/GSOC10+-+Add+Unit+Testing+to+Dspace">http://fedora-commons.org/confluence/display/DSPACE/GSOC10+-+Add+Unit+Testing+to+Dspace</a></span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;kshepherd&gt; thanks mdiggory, i think i need to read the first 1/2 of the meeting in the archives to get some more context ;)</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;mdiggory&gt; many thanks for showing up folsk</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;kshepherd&gt; (thought i was logging :P)</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mdiggory!</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;mdiggory&gt; (I need a new keyboard_</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;gavinh&gt; evening all.</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;richardrodgers&gt; thanks mdiggory !</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;gavinh&gt; glad ye ran late, as i was :)</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;pvillega&gt; evening ;)</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;mdiggory&gt; Hello</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;PeterDietz&gt; thanks mdiggory,  hi gavinh</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;tdonohue&gt; hi all...I'll stick around as much as I can :)</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;stuartlewis&gt; What I'd like to propose is, everyone (if you haven't already), have a quick read over the wiki page so you know the outline of the proposal: <a href="http://fedora-commons.org/confluence/display/DSPACE/GSOC10+-+Add+Unit+Testing+to+Dspace">http://fedora-commons.org/confluence/display/DSPACE/GSOC10+-+Add+Unit+Testing+to+Dspace</a></span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;gavinh&gt; pere - i blame matt and guinness..</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Then if Pere can talk us through his proposed project plan.</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;pvillega&gt; gavinh: all forgiven then ;)</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Then we can go from there, discuss the plan, the scope, the content etc, and hopefully come to a consensus on the a final project plan.</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;pvillega&gt; stuartlewis: whenever you want</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Does that sound OK?</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: please see #dspace for some stuff about ds-584 / dspace 1.6.2 so i don't derail the topic in here</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;gavinh&gt; that page has filled out a lot since i last looked, seems quite comprehensive</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;stuartlewis&gt; The most important bits for us to discuss, are the draft plan, and the 'tools' section.</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;pvillega&gt; while you all are reading the page, I would like to point you to the "project plan" section, speacially the "draft" subsection, as it could be a starting point for today's discussion</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;stuartlewis&gt; This project is hopefully going to form the basis for our ongoing test development efforts for DSpace, so we need to a broad consensus on how we go about this, and what toolsets we use.</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-green">* cwilper (~cwilper@74-44-156-211.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;mdiggory&gt; (reading)</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;mdiggory&gt; Based upon our previous meeting this is another good case for DSpace-Services.</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;pvillega&gt; I'm afraid I did not pay too much attention to the previous meeting, sorry about that, had to finish some homework :(</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;mdiggory&gt; In 2.0 we provided a "DataSource" service that exemplified the database resource used by other services</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;mdiggory&gt; there were a couple implementations of that source to test against</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/dspace2/core/trunk/impl/src/main/java/org/dspace/database/DSpaceDataSource.java">http://scm.dspace.org/svn/repo/dspace2/core/trunk/impl/src/main/java/org/dspace/database/DSpaceDataSource.java</a></span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;pvillega&gt; (checking)</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;mdiggory&gt; we tied in use of c3p0 for pooling / etc</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;mdiggory&gt; (or I should say that Aaron did)</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;mdiggory&gt; this case was derby...</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;stuartlewis&gt; How much work is involved to go that way with DSpace as it is right now (e.g. trunk)?</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;stuartlewis&gt; (in the context of the GSoC timeline)</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;mdiggory&gt; I suspect that pvillega  is going to have to dig around in the guts of DatabaseManager to alter the behavior...</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;mdiggory&gt; And if he is in there... I'm recommending he do it "right"</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;mdiggory&gt; in a manner that is correct for the roadmap / direction (if we have that yet)</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;pvillega&gt; rght now I'm open to ideas, so if you think using dspace services is the way to go, we can follow that path</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;pvillega&gt; you know Dspace code better than me :)</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;gavinh&gt; there does need to be a balance of whats practical within the timeframe, so a complete project can be achieved, and to contribute to the roadmap of dspace.</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;mdiggory&gt; gavinh: I don't think this is asking for anything out of scope.</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;stuartlewis&gt; We also need to look at this in the whole scope of the project. We can do the low level single class unit tests without this, and we can do the high level functional tests without this.</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;mdiggory&gt; in fact, I will say two things about any GSoC project....</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;pvillega&gt; this would be more for integration tests, yes</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;stuartlewis&gt; Where do we get most ROI in this project?</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;gavinh&gt; mdiggory, indeed, scope is one thing, time taken to complete is another</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;mdiggory&gt; (1) The student needs to get upto speed with DSpace and be aware of the development roadmap we are attempting to craft</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;richardrodgers&gt; the field is wide open ATM - they would all be big wins....</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;tdonohue&gt; +1 richardrodgers -- anything would be a huge "win", even if just a functional testing model</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;mdiggory&gt; (2) We spent an entire year developing that direction and not using it means the student will be doing even more work rather than adopting want is there</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;mdiggory&gt; want = what</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;stuartlewis&gt; richardrodgers: That way my thought too, so was wondering if we're better maybe looking at these other types that require less refactoring, as the refactoring could take a large proportion of the project time?</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;gavinh&gt; stuart - interesting point, if there is a certain amount of "hours" you need to max the impact of that time, but still allow a completeness within it.</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;mdiggory&gt; stuartlewis: not following</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;richardrodgers&gt; stuartlewis: yes, I'd try to at least devise the project plan with cut-outs like that...</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;mdiggory&gt; I'd rathe have well fit solutions that will work in 1.7 rather than prototypes that are too far removed</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;gavinh&gt; if a client came to me with this overall plan, we would estimate each part in isolation and see what fits within budget and priorities.</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;pvillega&gt; about the completeness, I think the point here is to create the proper structure more than to create a lot of tests. I mean, having tests for all the code would be great, but (quoting stuart) I'm sure if we create a good scaffolding the tests will come</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;mdiggory&gt; Likewise I want the architectural roadmap to inform the students work</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;gavinh&gt; shouldnt we approach gsoc in same way?</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;pvillega&gt; so maybe is good idea to spend more time creating the right scaffolding</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;mdiggory&gt; gavinh: no</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;gavinh&gt; why not? isnt a project a project?</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;tdonohue&gt; Since, anything is a win, you could approach this from the "top-down" i.e., start at a Functional level, and move more towards Unit Testing -- if Unit Testing doesn't end up 100% complete, then hopefully we at least have a model to work from.</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;richardrodgers&gt; pvillega: I'd say yes, as long as you have at least one proof-of-concept areas (functional, etc) that you know can be delivered</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;mdiggory&gt; This is about pvillega having a successful project in which he learns the "open Source Way"...</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;pvillega&gt; richardrodgers: yes, of course, some tests and samples would ahve to be done</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;mdiggory&gt; and often that runs contradictory to client driven development strategies</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;stuartlewis&gt; Can we get some basics on the table, and agree those, and then look at each one in turn? I'd like to suggest the three levels are 1) single class simple junit tests, 2) integration tests requiring an embedded db, 3) higher level tests (e.g. selenium funcational tests).</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;gavinh&gt; sounds good place to start</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;tdonohue&gt; though sound good to me</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;tdonohue&gt; though --&gt; those</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;mdiggory&gt; Because in a client driven strategy, one may cut corners to meet deadlines rather than keep architecturally pure</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;richardrodgers&gt; ok by me</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;gavinh&gt; mdiggory - point taken.</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - so lets start with #1, then talk about #2, and finally #3?</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;pvillega&gt; stuart: ok</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;richardrodgers&gt; OK for #1 the nice thing is that one can have partial coverage and still have good value...</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;stuartlewis&gt; Or... do we have a preference as to which is most important and should be tackled first?</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;stuartlewis&gt; I think #1 would give us an early win</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;tdonohue&gt; +1</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;stuartlewis&gt; The sooner we can get this sort of scaffolding in, and get some tests written, hopefully other tests will follow from the community, and we can start building an expectation that new code comes with some tests?</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory&gt; ok...</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory&gt; (2) seeems most important to get the design right on...</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;stuartlewis&gt; mdiggory: Yes.</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;stuartlewis&gt; Which perhaps is a good reason to delay it slightly, and do other work first, to give us tie to agree on the best way to go?</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;stuartlewis&gt; s/tie/time</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;richardrodgers&gt; stuartlewis: pvillega if you share the framework early, I can try to have the MIT 1.7 targeted work attempt to comply...</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;stuartlewis&gt; Ok - so is there consensus we start #1 first?</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;stuartlewis&gt; And if so, what scaffolding do we build around this to enable the tests to be run?</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;pvillega&gt; I agree... keep in mind we have 2 phases, 1 month each. We can focus now in one area and leave another for the second half</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;gavinh&gt; indeed pere, and tackling #1 and then #2 is a good path perhaps?</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;pvillega&gt; richardrodgers: I will try :)</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;richardrodgers&gt; how much out of the box support does maven have for this?</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;mdiggory&gt; richardrodgers: for which type of testing?</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;pvillega&gt; to run the unit tests, surefire</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;richardrodgers&gt; sorry I mean just #1 unit test execution</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;pvillega&gt; well, unit testing is easy with maven</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;mdiggory&gt; richardrodgers: we use it in dspace-services... if you check out and run package you will see all the JUnit test execution</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;richardrodgers&gt; exactly, so what additional framework are we talking about?</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;richardrodgers&gt; (for this phase)</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;mdiggory&gt; likewise if you checkout dspace2, you will see the Datasource JUnit test execution if you pacage that</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;stuartlewis&gt; By the sounds of it, we don't need any other frameworks then.</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;stuartlewis&gt; Which is good.</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;richardrodgers&gt; stuartlewis: that's where I was going</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;pvillega&gt; richardrodgers: just add junit dependencies, jmockit or another mock tool and just create tests</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/dspace2/core/trunk/impl/src/test/java/org/dspace/database/DatabaseTest.java">http://scm.dspace.org/svn/repo/dspace2/core/trunk/impl/src/test/java/org/dspace/database/DatabaseTest.java</a></span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-black">&lt;stuartlewis&gt; So it sounds like the first thing is for Pere to get some basic junit tests written, and maven poms edited to allow them to be run?</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-black">&lt;stuartlewis&gt; In which case, what would be some good candidates for Pere to look at first?</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;pvillega&gt; yes, I would like to decide some packages as target</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;stuartlewis&gt; org.dspace.content.* ?</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;stuartlewis&gt; (<a href="http://scm.dspace.org/svn/repo/dspace/trunk/dspace-api/src/main/java/org/dspace/content/)">http://scm.dspace.org/svn/repo/dspace/trunk/dspace-api/src/main/java/org/dspace/content/)</a></span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;pvillega&gt; so once we have that part done, we can move to #2 or #3, and after that, if there is time, go back for more</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes - sounds good.</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;stuartlewis&gt; What would you like as a timescale for this?</span><br />
+<span class="irc-date">[17:35]</span> <span class="irc-black">&lt;stuartlewis&gt; 3 weeks?</span><br />
+<span class="irc-date">[17:36]</span> <span class="irc-black">&lt;mdiggory&gt; So this is just write test against an existing dspace instance or do we have any agreement on where/how the db is getting configured</span><br />
+<span class="irc-date">[17:36]</span> <span class="irc-black">&lt;mdiggory&gt; meaning a postgres db?</span><br />
+<span class="irc-date">[17:36]</span> <span class="irc-black">&lt;richardrodgers&gt; it'd be nice to do without a real instance</span><br />
+<span class="irc-date">[17:36]</span> <span class="irc-black">&lt;pvillega&gt; mdiggory: as far as I understand, unit tests don't use database, they mock it if require it</span><br />
+<span class="irc-date">[17:36]</span> <span class="irc-black">&lt;richardrodgers&gt; (i.e. an existing repo)</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-black">&lt;mdiggory&gt; richardrodgers: I agree, but think that is orthogonal to testing with a embedded db instance like derby</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;richardrodgers&gt; mdiggory: agreed</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;stuartlewis&gt; I was assuming #1 could be done without a db, #2 would require one (preferably something like hsql), and #3 perhaps against a real db?</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;pvillega&gt; yes, I though like that</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-black">&lt;stuartlewis&gt; So testing something like DCDate could be done without a db, and after the problems we've had with that class recently, would really benefit from some decent tests?</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;mdiggory&gt; But to be clear.... your just testing the "interface" and you might not get all the interaction between other resources and database down to the persistence / db tier exemplified by using jmockit.</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;richardrodgers&gt; DCDate is a unit test poster child</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;kshepherd&gt; +1 for testing DCDate! (and other org.dspace.content.* classes)</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;pvillega&gt; mdiggory: yes, but as I understand unit test is that, testing the class in isolation. #2, integration test, goes for the interaction and there is where we need the db</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-black">&lt;mdiggory&gt; pvillega: ok, good stuff</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-black">&lt;stuartlewis&gt; #1 is a quick easy win. Might not give us deep interaction testing, but is a good start for now?</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-black">&lt;mdiggory&gt; just making sure we all know it</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;pvillega&gt; mdiggory: perfect :)</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;stuartlewis&gt; So Pere: How long do you want to get #1 going, with some good exemplar classes tested?</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;pvillega&gt; mm let me see...</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;pvillega&gt; i would say 13th-20th of june, if that seems reasonable</span><br />
+<span class="irc-date">[17:43]</span> <span class="irc-black">&lt;richardrodgers&gt; I have to run - thanks pvillega &amp; all GSOC mentors &amp; participants!</span><br />
+<span class="irc-date">[17:43]</span> <span class="irc-navy">* richardrodgers (~richardro@pool-173-76-18-245.bstnma.fios.verizon.net) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[17:43]</span> <span class="irc-black">&lt;pvillega&gt; thanks richardrodgers!</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;pvillega&gt; that would give 2-3 weeks (not counting this) for this, and leave another 3-4 before the mid term evaluation</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;stuartlewis&gt; SOunds good.</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;gavinh&gt; sounds fair.</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;gavinh&gt; hope the sunshine in evenings we are having wont impact it :)</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;stuartlewis&gt; So the next question - do we plan the rest of the project now, or do so once we've got #1 done?</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;gavinh&gt; ireland is having the next decade of summers this month..</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;pvillega&gt; if everybody agrees, I would like to decide at least the first half</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;stuartlewis&gt; I'm tempted to not plan the rest, as we don't know what will be uncovered during #1?</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;stuartlewis&gt; We can still decide a high level plan though.</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;pvillega&gt; ok</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis -- you could always sketch out a plan -- change later on as needed</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;mdiggory&gt; I would like to explore using the DataSource from DSpace 2.0 as an example of creating a dspace 1.x module that could be added in for database driven uint testing</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;stuartlewis&gt; Would be nice to do a bit of #2 and #3 if we have the time.</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;pvillega&gt; gavinh: no worries, I'm a geek, sun is harmful for my transparent skin ;)</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;stuartlewis&gt; The order of #2 and #3 could depend on when we've agreed how to tackle #2?</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;gavinh&gt; as long as there is weekly? report meetings or something, we should see what is uncovered as it happens?..</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-navy">* cwilper (~cwilper@74-44-156-211.dsl1-erie.roch.ny.frontiernet.net) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;stuartlewis&gt; gavinh: Yes! pvillega: Weekly status reports will be required! :)</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;pvillega&gt; I would say after having #1 done, #2 is the next logical step.</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;pvillega&gt; stuarlewis: no problem on weekly reports :)</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;stuartlewis&gt; #2 next - yes, as long as we're all on the same page, and all have the same understanding by then, which hopefully we will.</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;mdiggory&gt; I will agree to create a modules project that exemplifies how this would be ported. And pvillega  you are welcome to use this later for (2).  I think this would reduce the "uncertainty" that others are feeling about dspace-services</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;gavinh&gt; i think an outline of whats next with a review meeting prior to going onto it, to be sure there is still consensus?</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;gavinh&gt; that sounds a great idea mdiggory.</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;stuartlewis&gt; Pere: OK - can you revise the project, based on a #1 #2 #3 approach? We can then meet up again like this in 2 weeks time to see how #1 is going, and start looking at #2 (or #3)?</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;pvillega&gt; mdiggory: that would help a lot, as for what it's been shown, the services would help a lot in integration testing</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;stuartlewis&gt; mdiggory: Thanks - sounds great. Much appreciated.</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-black">&lt;mdiggory&gt; yep, it will be a good example for the rest of the community as well</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-black">&lt;pvillega&gt; stuartlewis: i will update the wiki after the meeting</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-black">&lt;stuartlewis&gt; Is everyone happy with that as a conclusion? Pere will work on #1 for 3 weeks. Pere will report weekly to gsoc and devel lists. We'll create an svn branch based on trunk for his work.</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-black">&lt;stuartlewis&gt; We can then meet in 2 weeks to work out where next, and look at what has been completed so far?</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-navy">* sandsfish (~sandsfish@dhcp-18-111-28-197.dyn.mit.edu) Quit (Quit: sandsfish)</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-black">&lt;pvillega&gt; it seem fair enough to me</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-black">&lt;mdiggory&gt; pvillega: how much do you need to alter in the codebase itself as opposed to the poms/</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-black">&lt;gavinh&gt; and if he needs to demo his work, we will provide elluminate conferencing room to enable the sharing,etc... and realtime video/voice.</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-black">&lt;mdiggory&gt; I will recommend that I'm concerned about the following branching</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-black">&lt;pvillega&gt; poms, a bit, not too much.  Codebase, for unit testing, there should not be any alterations</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-black">&lt;stuartlewis&gt; gavinh: Thanks :)</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-black">&lt;pvillega&gt; besides adding the tests themselves</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-black">&lt;mdiggory&gt; namely that branching can get too far off if there is not a plan for merging back at stable points</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-black">&lt;stuartlewis&gt; My assumption was we could merge back at the end of each phase? (#1, #2, #3) assuming everyone was happy with the work?</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-black">&lt;mdiggory&gt; is there any way we can introduce the tests in a "disabled by default" state in the trunk intitially?</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-black">&lt;pvillega&gt; stuartlewis: that shoould be easy</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-black">&lt;mdiggory&gt; I assume that testing can be disabled in maven</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-black">&lt;pvillega&gt; mm i will look into that</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;stuartlewis&gt; In the background we can also continue our exploratory discussions over a CI server.</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;pvillega&gt; about merging, should be easy. My question is: should I work with a copy from trunk, or from 1.6.1 tag</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;mdiggory&gt; pvillega: I would use trunk</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;kshepherd&gt; +1 trunk</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;stuartlewis&gt; pvillega: At present, trunk is almost identical to 1.6.1, but trunk will start changing more as we head towards 1.7, so better keep with trunk.</span><br />
+<span class="irc-date">[17:53]</span> <span class="irc-black">&lt;mdiggory&gt; and we need to be mergin backa t those points of stability because others will be integrating as well at the same time</span><br />
+<span class="irc-date">[17:54]</span> <span class="irc-black">&lt;pvillega&gt; ok, trunk then</span><br />
+<span class="irc-date">[17:54]</span> <span class="irc-black">&lt;tdonohue&gt; reminder -- you'll likely need to do two way merging eventually -- trunk will change over time -- so you may need to reload from trunk on occasion as well :)</span><br />
+<span class="irc-date">[17:54]</span> <span class="irc-black">&lt;stuartlewis&gt; Assuming all goes to plan, we'll aim for a first merge in three weeks, so hopefully that won't be too painful.</span><br />
+<span class="irc-date">[17:54]</span> <span class="irc-black">&lt;stuartlewis&gt; Is there much more to discuss, or is the meeting over? (I'll write a summary for the gsoc and devel lists).</span><br />
+<span class="irc-date">[17:55]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: right or if you've merged back to trunk...  throw way your current branch and start again with a new one.</span><br />
+<span class="irc-date">[17:55]</span> <span class="irc-black">&lt;tdonohue&gt; yep -- exactly, mdiggory</span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-black">&lt;pvillega&gt; stuartlewis: I think this is ok, I have lots of notes and my workplan for the next weeks :)</span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-black">&lt;mdiggory&gt; this has been a great meeting... a good example of what the other students need to be doing as well</span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-black">&lt;mdiggory&gt; and mentors as well</span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-black">&lt;stuartlewis&gt; Assuming we're all happy.... I'd like to say THANKS to everyone who came along and got involved. This has (from my point of view anyway) been a really useful meeting, we've got positive outcomes to work on, and things to think about for the medium term.</span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-black">&lt;pvillega&gt; let me say THANKS too, it helped me a lot :)</span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-black">&lt;tdonohue&gt; also, a reminder that merging *into trunk* will require the code being in front of other committers -- so, it's good to keep these discussions as public as possible (and this is a great start)</span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-black">&lt;tdonohue&gt; yes -- great meeting -- glad to have you on board, pvillega!</span><br />
+<span class="irc-date">[17:57]</span> <span class="irc-black">&lt;gavinh&gt; was very interesting, indeed, thanks all</span><br />
+<span class="irc-date">[17:57]</span> <span class="irc-black">&lt;pvillega&gt; thanks tdonohue ;)</span><br />
+<span class="irc-date">[17:57]</span> <span class="irc-black">&lt;kshepherd&gt; cheers all, this project sounds great</span><br />
+<span class="irc-date">[17:57]</span> <span class="irc-black">&lt;stuartlewis&gt; In my writeup, I'll mention our next meeting in 2 weeks time too.</span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-black">&lt;pvillega&gt; stuartlewis: that will be the 9th of June, isn't it?</span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-black">&lt;stuartlewis&gt; (or the 10th, if you're in one of the world leading countries such as NZ ;)  )</span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-black">&lt;kshepherd&gt; ^5</span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-black">&lt;tdonohue&gt; so, that's your spin on it "world leading" :)</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-black">&lt;stuartlewis&gt; :p</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-black">&lt;gavinh&gt; world leading? you mean when you are leaving us all in the past?</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-brick">* stuartlewis didn't decide where the date line went! :)</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-black">&lt;gavinh&gt; also means, you are getting old before the rest of us.</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-black">&lt;kshepherd&gt; you all get our used-up days</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-black">&lt;kshepherd&gt; we get fresh ones</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-black">&lt;gavinh&gt; you are the worlds beta-testers for a day..</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-black">&lt;tdonohue&gt; it's weird that I talk to  future stuartlewis and future kshepherd every day -- I can never keep up, always a day behind</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-black">&lt;pvillega&gt; but you don't get nice vulcanos closing your air space!</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-black">&lt;gavinh&gt; if it is bad, we stay in bed and roll over to sleep more.</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-brick">* stuartlewis didn't intend to open this can of worms, and slinks off quietly into the darkness....</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-black">&lt;kshepherd&gt; heh</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-black">&lt;pvillega&gt; it's been a great meeting people</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-black">&lt;pvillega&gt; thanks for coming</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- i'm heading offline for the night -- good meeting all.  Looking forward to seeing the project progress!</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-navy">* Keith__ (~Keith@207.138.47.158) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-black">&lt;stuartlewis&gt; Bye Tim. Thanks.</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-black">&lt;kshepherd&gt; yep, i'm off too, thanks all</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-black">&lt;gavinh&gt; nn all, may the wind be at your back!</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-green">* bojans (~Bojmen@91.118.66.139) has left #duraspace</span><br />
+<span class="irc-date">[18:04]</span> <span class="irc-black">&lt;stuartlewis&gt; We have the sun on our faces (morning here), but you can have the winds of destiny to carry you aloft to dance with the stars now it's night for you! :) Good night!</span><br />
+<span class="irc-date">[18:04]</span> <span class="irc-black">&lt;gavinh&gt; thanks</span><br />
+<span class="irc-date">[18:04]</span> <span class="irc-black">&lt;pvillega&gt; good night all! :)</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-black">&lt;stuartlewis&gt; pvillega: Create an account int trac, and pinkg me once you have, so I can give you appropriate svn commit rights to the branch I'll create for you.</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-black">&lt;stuartlewis&gt; s/int/in</span><br />
+<span class="irc-date">[18:07]</span> <span class="irc-black">&lt;stuartlewis&gt; s/pinkg/ping</span><br />
+<span class="irc-date">[18:07]</span> <span class="irc-brick">* stuartlewis needs a new keyboard like mdiggory</span><br />
+<span class="irc-date">[18:08]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="https://scm.dspace.org/trac/dspace/register">https://scm.dspace.org/trac/dspace/register</a></span><br />
+<span class="irc-date">[18:08]</span> <span class="irc-black">&lt;gavinh&gt; hehe</span><br />
+<span class="irc-date">[18:08]</span> <span class="irc-black">&lt;gavinh&gt; some keyboards are so evil.</span><br />
+<span class="irc-date">[18:09]</span> <span class="irc-black">&lt;pvillega&gt; doing, sec :)</span><br />
+<span class="irc-date">[18:10]</span> <span class="irc-black">&lt;pvillega&gt; stuartlewis: account pvillega created, waiting for the confirmation token</span><br />
+<span class="irc-date">[18:11]</span> <span class="irc-black">&lt;pvillega&gt; ok, account verified</span><br />
+<span class="irc-date">[18:13]</span> <span class="irc-black">&lt;stuartlewis&gt; Thanks. Will work the magic my end in the next half hour or so.</span><br />
+<span class="irc-date">[18:16]</span> <span class="irc-navy">* gavinh (~root@86-44-107-163-dynamic.b-ras2.bbh.dublin.eircom.net) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[18:27]</span> <span class="irc-black">&lt;pvillega&gt; bye guys, thanks for attending!</span><br />
+<span class="irc-date">[18:27]</span> <span class="irc-navy">* pvillega (~pvillega@89.100.155.181) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[18:28]</span> <span class="irc-green">* PeterDietz (~PeterDiet@ACK5859s3.lib.ohio-state.edu) has left #duraspace</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-navy">* krnl_ (Andrius@193.219.34.106) Quit (*.net *.split)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-navy">* mdiggory (~mdiggory@64.50.88.162.ptr.us.xo.net) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-green">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-green">* mdiggory_ (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-green">* mdiggory_ is now known as mdiggory</span><br />
+<span class="irc-date">[22:51]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[23:10]</span> <span class="irc-green">* mdiggory_ (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[23:13]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[23:13]</span> <span class="irc-green">* mdiggory_ is now known as mdiggory</span><br />
+<span class="irc-date">[23:21]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-162-19-234.clt.bellsouth.net) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[23:49]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Read error: Connection reset by peer)</span><br />

@@ -1,0 +1,156 @@
+<span class="irc-date">[1:25]</span> <span class="irc-green">* bradmc (~bradmc@216.30.189.241) has joined #duraspace</span><br />
+<span class="irc-date">[2:03]</span> <span class="irc-navy">* bradmc (~bradmc@216.30.189.241) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-brown">-hitchcock.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[11:18]</span> <span class="irc-green">* bradmc (~bradmc@216.30.189.241) has joined #duraspace</span><br />
+<span class="irc-date">[11:33]</span> <span class="irc-navy">* bradmc (~bradmc@216.30.189.241) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[11:57]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:47]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:11]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:34]</span> <span class="irc-green">* ryscher (98033b9f@gateway/web/freenode/ip.152.3.59.159) has joined #duraspace</span><br />
+<span class="irc-date">[19:37]</span> <span class="irc-green">* kompewter (~kompewter@sul272sandbox.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:42]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;PeterDietz&gt; (NOTE-TO-ALL) -- DSPACE DEVELOPERS MEETING IN #DURASPACE AT 20:00 UTC</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* cbeer (cbeer@2600:3c03::f03c:91ff:fedf:a498) has left #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* richardrodgers (~richardro@18.111.38.23) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;PeterDietz&gt; Hi All, Tim is out sick today, so I'll jump in to cover the meeting today.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;PeterDietz&gt; Feel free to toss in topics. I've got some things I'd like to cover anyways</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm semi-tempted to say we should have the meeting on one of the voice/video systems, but IRC is fine today.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;richardrodgers&gt; which voice-video systems?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;PeterDietz&gt; Google+ or Skype</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;richardrodgers&gt; ok</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;PeterDietz&gt; if there's interest, we could</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mdiggory&gt; I'm not in a position to go audio today, but int he future I would welcome it</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;richardrodgers&gt; fine with me - but we may want to announce in advance so folks can line up a good audio environment...</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;PeterDietz&gt; ok, so GitHub migration. We've been digging through the svn authors, to make for a clean transfer to github</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;KevinVdV&gt; Ditto to mdiggory on the audio part can't do it today I'm afraid</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;aschweer&gt; same here about the audio</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; I do have my headset all ready, as per Graham's suggestion that it's "only as disruptive as a phone call to coworkers"</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;PeterDietz&gt; (I've officially switched my feelings on what to do with the github/dspace/dspace repository)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;PeterDietz&gt; I think its in our best interest to make a proper author mapping</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;PeterDietz&gt; So, Mark and Tim have been trying to find any emeritus developers to see if they'd like to make github accounts</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;PeterDietz&gt; ..and I found out from GitHub, that even if you don't have a github user account, we'll enter an email address for your svn account, and if/when you make a github account, it will link posts to you</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;PeterDietz&gt; just got an error message from a practice transfer that we didn't map azeckoski</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mdiggory&gt; hes probibly in github</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mdiggory&gt; yep</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/azeckoski">https://github.com/azeckoski</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ azeckoski (Aaron Zeckoski) · GitHub ] - <a href="https://github.com/azeckoski">https://github.com/azeckoski</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;PeterDietz&gt; Any questions as to why its probably best to redo the dspace/dspace github repo? I'm aware it breaks compatibility with anyone who's already forked the "unofficial" one I put up there</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mdiggory&gt; azeckoski@vt.edu</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; does moving the existing DSpace/DSpace repo to a new name disrupt existing forks of that repo?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;PeterDietz&gt; Early adopters hopefully haven't invested too much into the dspace/dspace github repo, and could be able to scoop their commits over to the future.. i.e. cherry-pick your important commits</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;PeterDietz&gt; We could re-name dspace/dspace to dspace/deprecated-dspace-names-are-not-matched</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;PeterDietz&gt; you enter the "Danger Zone".</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mhwood&gt; README:  These are not the commits you're looking for.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;PeterDietz&gt; yep. Think sci-fi, disruption to the space-time continuum</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; Continuing development is over at [link].  So long, and thanks for all the fish!</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;PeterDietz&gt; yep.. I'll probably completely redo my DSpace-OSUKB repo, clean it up. So that it will be a pretty position to potentially give pull-requests etc to future dspace/dspace</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;aschweer&gt; out of the 20 forks of DSpace/DSpace, it looks like most people know what's going on. Like PeterDietz, I'm planning to re-do my fork and the other lconz-irr ones. So that's 4 out of the 20</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;PeterDietz&gt; Claudia asked today if she can begin making changes to dspace-api-lang, and dspace-xmlui-lang that over on github. I told her we are still in the un-official no-man's-land, but that those two are fully migrated, so my personal feeling is that she can begin making commits directly to those</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; We really need to determine our strategy for lang still.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; a.) intesgrate back into dspace-api and dspace-xmlui</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; b.) make separate repo</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; Does that really need to hold up "going live"?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;PeterDietz&gt; So, we're planning to "go live" on Friday, just giving the emeritus a chance to opt-in I guess</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; What goes live on Friday?  Everything?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;PeterDietz&gt; but.. the lang things, they are currently exactly as they were, but migrated to github. If Mark / others figure out a proper strategy for folding that into a better place, then that becomes post-github-go-live tasks</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;richardrodgers&gt; PeterDietz: could those authors be relinked post go-live?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;PeterDietz&gt; go-live, is when we'll git svn clone scm.dspace.org/.../dspace --authors authors.txt</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;PeterDietz&gt; From: Tekkub (GitHub Staff)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;PeterDietz&gt; Subject: Importing Project from Subversion, author mapping</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;PeterDietz&gt; The commits will just show the name used on them if they can't find a matching account.  If the user creates an account using that email in the future the commits will link up, once they've fallen out of the server's cache of course.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;PeterDietz&gt; so, we're mapping legacy authors (lcs = Larry Stone &lt;lcs@users.sourceforge.net&gt;)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;PeterDietz&gt; If he wants to go-github, then he'll have to add an email alias, then the commits will magically link to him</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;PeterDietz&gt; otherwise, they'll be unlinked but say "Larry Stone"</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;richardrodgers&gt; seems pretty good</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;PeterDietz&gt; So.. we have the dspace-*-lang repo's up. By friday we should have dspace/dspace up. Any other /module type things, people should either migrate, or put a tombstone into them</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;PeterDietz&gt; see: <a href="https://wiki.duraspace.org/display/DSPACE/Migration+to+GitHub">https://wiki.duraspace.org/display/DSPACE/Migration+to+GitHub</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ Migration to GitHub - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Migration+to+GitHub">https://wiki.duraspace.org/display/DSPACE/Migration+to+GitHub</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; Sounds good.  I think it's worth a bit of effort to link as many as possible, but my strongest inclination is to get this behind us before much longer.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;PeterDietz&gt; yeah.. its kinda sucky to have an overwhelming positive dspace-developer response, and for us to all say git/github is wicked-sweet-awesome... and then insert a solid month of commit-freeze</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;PeterDietz&gt; So, I'm pretty optimistic about how things will turn out.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;PeterDietz&gt; So.. other things I'm thinking about: gsoc-2012 ---- elastic search</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;PeterDietz&gt; I think Tim already mentioned this.. But we didn't get accepted into GSoC 2012</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-brick">* hpottinger grumbles</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;scottatm&gt; wow... that is alot of projects I heard have not been accepted to GSoC this year.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;richardrodgers&gt; I presume thats final?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;scottatm&gt; WordPress was rejected as well.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;PeterDietz&gt; I imagine we could beg/plead/appeal, but starvation could lead to some innovations.. i.e. I was thinking that at OSU, I could figure out how to get some students in the Computer Science department to do some contract work</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;PeterDietz&gt; Students are pretty eager to get something real-world-ish to work on in their spare time</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; we have CS students in the library labs asking for project work</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mdiggory&gt; there is a meeting on friday where rejected orgs can ask questions.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mdiggory&gt; in IRC</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;richardrodgers&gt; maybe we could learn something</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;PeterDietz&gt; So, to figure out smaller-than-GSoC projects, tasks really, get some specs written, and then farm it out</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;PeterDietz&gt; There is a significant line-change in the orgs accepted, so I'm sure it wasn't anything personal, just spreading the love</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-green">* kimiora (kim@ec2-184-73-177-234.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;PeterDietz&gt; It was a pretty large event (the mentor summit), maybe their paring it back too</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-green">* kimiora is now known as kshepherd</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;PeterDietz&gt; hi kshepherd</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; There was IRC talk the other day about Duraspace doing its own SoC sort of thing, in exchange for formal recognition or T-shirts or something.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kshepherd&gt; morning all, sorry for lateness</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;PeterDietz&gt; mdiggory: Are you going to monitor the GSoC rejectee's meeting?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;ryscher&gt; I still have a DSpace-related project available through my org -- see <a href="http://bit.ly/GED8ZX">http://bit.ly/GED8ZX</a> -- I would love to get some other mentors signed on.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kompewter&gt; [ Phyloinformatics Summer of Code 2012 - NESCent Informatics Wiki ] - <a href="http://bit.ly/GED8ZX">http://bit.ly/GED8ZX</a></span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;PeterDietz&gt; hmm, thanks for the info ryscher.. I'm sure some of us will be available to assist with DSpace related parts</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kshepherd&gt; duraspace didn't get into gsoc this year?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;PeterDietz&gt; correct kshepherd</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; I sent it to Tim, and was hoping he might sit in.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;richardrodgers&gt; ryscher: if its of any help, there is code to serialize/deserialize DSpace objects to Bagit in the Replication Task Suite</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kshepherd&gt; hm</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;PeterDietz&gt; "Unfortunately, we were unable to accept your organization's application at this time. We received many more applications for the program than we are able to accommodate, and we would encourage you to reapply for future instances of the program."</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm thinking its because I added twitter and facebook feeds, but not Google Plus share buttons</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; ryscher: adding a Baggit Package SWORD ingest (based on Replication Task Suite) is on my to do list for this year</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;ryscher&gt; Thanks for the info, hpottinger/richardrodgers. If we find a student, I'll definitely point them towards the existing code. We'll try to keep it as general as possible.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; Actually it's because we picked GitHub over Google Code.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;PeterDietz&gt; In other news, I've been working on integrating Elastic Search into statistics</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;PeterDietz&gt; Its listening to DSpace's UsageEvents, firing off posts.. And I've got a decent statistics view portal from this information.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;PeterDietz&gt; My only downfall is that I haven't yet built a tool to convert old dspace.log files, or solr data into elastic-search data.. So my reports look funny with 27 hits, as opposed to 14M</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;richardrodgers&gt; So no scalability measures yet</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;KevinVdV&gt; PeterDietz is your code for this public ? Since I am interested as I am building an elastic search plugin for discovery.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;PeterDietz&gt; nope, and I imagine that proper a A/B  test between solr and elastic search will be valuable to those making decisions</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;PeterDietz&gt; KevinVdV: yep, <a href="https://github.com/osulibraries/dspace-stats-elasticsearch">https://github.com/osulibraries/dspace-stats-elasticsearch</a> thats the module..</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ osulibraries/dspace-stats-elasticsearch · GitHub ] - <a href="https://github.com/osulibraries/dspace-stats-elasticsearch">https://github.com/osulibraries/dspace-stats-elasticsearch</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;PeterDietz&gt; and, the viewer = <a href="https://github.com/osulibraries/DSpaceOSUKB/blob/rebase-implement-elasticsearch/dspace-xmlui/dspace-xmlui-api/src/main/java/org/dspace/app/xmlui/aspect/dashboard/ElasticSearchStatsViewer.java">https://github.com/osulibraries/DSpaceOSUKB/blob/rebase-implement-elasticsearch/dspace-xmlui/dspace-xmlui-api/src/main/java/org/dspace/app/xmlui/aspect/dashboard/ElasticSearchStatsViewer.java</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpaceOSUKB/dspace-xmlui/dspace-xmlui-api/src/main/java/org/dspace/app/xmlui/aspect/dashboard/ElasticSearchStatsViewer.java at rebase-implement-elasticsearch · osulibraries/DSpaceOSUKB · GitHub ] - <a href="https://github.com/osulibraries/DSpaceOSUKB/blob/rebase-implement-elasticsearch/dspace-xmlui/dspace-xmlui-api/src/main/java/org/dspace/app/xmlui/aspect/dashboard/ElasticSearchStatsViewer.java">https://github.com/osulibraries/DSpaceOSUKB/blob/rebase-implement-elasticsearch/dspace-xmlui/dspace-xmlui-api/src/main/java/org/dspace/app/xmlui/aspect/dashboard/ElasticSearchStatsViewer.java</a></span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;KevinVdV&gt; Thanks PeterDietz I'll be sure to steal some of your code for my own project ;-) (located here <a href="https://github.com/KevinVdV/Discovery-Elastic-Search-Plugin)">https://github.com/KevinVdV/Discovery-Elastic-Search-Plugin)</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;PeterDietz&gt; one problem / question I have.. is how can I generalize statistics, so that the data returned by ElasticSearch, or the data returned by SOLR can be used without having to do lots of work to get there</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;PeterDietz&gt; i.e. make an interface for UsageStatistics, implement some methods, etc...</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;PeterDietz&gt; But.. they work slightly differently.. In solr, I think you make a query for each facet that you want. Where as in elastic search, you can batch all your facets into one big super-query, which has a single cost of client-connection- http transfer, etc</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mhwood&gt; Stay close to the data?  Statistics is basically 1000 different ways of looking at the same big blob of raw data.  You can't cover them all; the stat. module would be bigger than the thing it plugs into.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;PeterDietz&gt; So, I've given up (for now) one how to do "the Right Thing", and instead am focusing on <a href="http://en.wikipedia.org/wiki/Worse_is_better">http://en.wikipedia.org/wiki/Worse_is_better</a></span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kompewter&gt; [ Worse is better - Wikipedia, the free encyclopedia ] - <a href="http://en.wikipedia.org/wiki/Worse_is_better">http://en.wikipedia.org/wiki/Worse_is_better</a></span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; I'm googling around a bit, it looks like there is an ES plugin that gives ES a Solr-like interface, which might help with data migration?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://github.com/mattweber/elasticsearch-mocksolrplugin">https://github.com/mattweber/elasticsearch-mocksolrplugin</a></span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kompewter&gt; [ mattweber/elasticsearch-mocksolrplugin · GitHub ] - <a href="https://github.com/mattweber/elasticsearch-mocksolrplugin">https://github.com/mattweber/elasticsearch-mocksolrplugin</a></span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietz&gt; My student has been building a tool in Clojure to connect to both solr, and elastic-search, and pull the data out of one, and into the other. But OSU's on spring break now, so no progress on that front for a week or two</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;PeterDietz&gt; So... recap: We're destroying/renaming Github/DSpace/DSpace.. Reimporting from SVN with proper author names.. DuraSpace didn't get accepted to this summer's GSoC.. And Peter and Kevin are working on things in Elastic Search</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;PeterDietz&gt; and then in #dspace, scottatm has been discussing image thumbnails from jpeg2000 etc / Java JAI</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;scottatm&gt; (and on the mailing list)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;PeterDietz&gt; ..and ryscher might have a GSoC student to transfer data between repositories (SWORD, BagIT, OAI-ORE)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;PeterDietz&gt; So, meeting is concluded, thank you all. Perhaps we can plan to have a future #dev meeting on skype, or have a G+ Hangout..</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;richardrodgers&gt; good summary. Thanks PeterDietz for leading today. Gotta run</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* richardrodgers (~richardro@18.111.38.23) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; Yes, thanks, and I need to go too.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; would be OK by me, and yes, thanks, PeterDeitz</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; I'm mainly interested in BagIt because our archivist is. He wants to ensure there are good tools to let him gather up the bits he wants to store in a repository, and then ensure that the bits that are in the repository are actually the same as the bits he has gathered</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; The BagIt toolset provides all of that, just DSpace SWORD doesn't speak BagIt (yet)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;ryscher&gt; hpottinger: but BagIt doesn't represent relationships between files, hence the need for ORE</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-brick">* hpottinger makes a note to bug his archivist about this...</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-navy">* ryscher (98033b9f@gateway/web/freenode/ip.152.3.59.159) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-green">* bradmc (~bradmc@va-65-40-217-246.sta.embarqhsd.net) has joined #duraspace</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-green">* cbeer (cbeer@2600:3c03::f03c:91ff:fedf:a498) has joined #duraspace</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[23:07]</span> <span class="irc-navy">* bradmc (~bradmc@va-65-40-217-246.sta.embarqhsd.net) Quit (Quit: bradmc)</span><br />

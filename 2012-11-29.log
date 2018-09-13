@@ -1,0 +1,113 @@
+<span class="irc-date">[0:35]</span> <span class="irc-navy">* joaomelo (~DSpace@144.64.32.106) Quit (Quit: joaomelo)</span><br />
+<span class="irc-date">[1:04]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-118.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[1:53]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[2:24]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:25]</span> <span class="irc-green">* Asger (~abr@nat.statsbiblioteket.dk) has joined #duraspace</span><br />
+<span class="irc-date">[8:41]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[9:56]</span> <span class="irc-green">* joaomelo (~DSpace@bl23-51-221.dsl.telepac.pt) has joined #duraspace</span><br />
+<span class="irc-date">[10:05]</span> <span class="irc-green">* joaomelo_ (~DSpace@144.64.51.221) has joined #duraspace</span><br />
+<span class="irc-date">[10:05]</span> <span class="irc-navy">* joaomelo (~DSpace@bl23-51-221.dsl.telepac.pt) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[10:05]</span> <span class="irc-green">* joaomelo_ is now known as joaomelo</span><br />
+<span class="irc-date">[13:11]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-green">* fasseg (~fas@HSI-KBW-078-043-007-220.hsi4.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:37]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-navy">* joaomelo (~DSpace@144.64.51.221) Quit (Quit: joaomelo)</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-green">* ajs6f (~Adium@137.54.25.88) has joined #duraspace</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-black">&lt;ajs6f&gt; I'm running a little late this morning but should be on the call in a few minutes.</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-green">* Ed__ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) has joined #duraspace</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-green">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-navy">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-black">&lt;ajs6f&gt; Still running late, will be there soon.</span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://wiki.duraspace.org/display/FCREPO/2012-11-29+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-11-29+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-black">&lt;kompewter&gt; [ 2012-11-29 - Fedora Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2012-11-29+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-11-29+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-green">* barmintor (~ba2213@dyn-128-59-158-154.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:14]</span> <span class="irc-black">&lt;barmintor&gt; Grrrr</span><br />
+<span class="irc-date">[14:14]</span> <span class="irc-navy">* Asger (~abr@nat.statsbiblioteket.dk) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[14:14]</span> <span class="irc-black">&lt;barmintor&gt; IS anyone successfully on the call?</span><br />
+<span class="irc-date">[14:14]</span> <span class="irc-black">&lt;ajs6f&gt; I haven't yet been able to try, but will in a few minutes, via phone.</span><br />
+<span class="irc-date">[14:14]</span> <span class="irc-black">&lt;fasseg&gt; yes i am and had no probs via skype</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-black">&lt;barmintor&gt; fasseg: Is Stuart on the call?</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;fasseg&gt; yes he is...</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://jira.duraspace.org/browse/FCREPO-25">https://jira.duraspace.org/browse/FCREPO-25</a> &amp; <a href="https://jira.duraspace.org/browse/FCREPO-1156">https://jira.duraspace.org/browse/FCREPO-1156</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-25] Option to store Audit Trail outside the object - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-25">https://jira.duraspace.org/browse/FCREPO-25</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-1156] Performance degradation when adding a lot of datastreams - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-1156">https://jira.duraspace.org/browse/FCREPO-1156</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/FCREPO-25">https://jira.duraspace.org/browse/FCREPO-25</a> ] - [#FCREPO-25] Option to store Audit Trail outside the object - DuraSpace JIRA</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/FCREPO-1156">https://jira.duraspace.org/browse/FCREPO-1156</a> ] - [#FCREPO-1156] Performance degradation when adding a lot of datastreams - DuraSpace JIRA</span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-navy">* ajs6f (~Adium@137.54.25.88) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-green">* ajs6f (~Adium@137.54.25.88) has joined #duraspace</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-black">&lt;ajs6f&gt; Just joined the call.</span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-black">&lt;eddies&gt; <a href="http://php-java-bridge.sourceforge.net/">http://php-java-bridge.sourceforge.net/</a></span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-black">&lt;kompewter&gt; [ 1 ] - <a href="http://php-java-bridge.sourceforge.net/">http://php-java-bridge.sourceforge.net/</a></span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-black">&lt;eddies&gt; <a href="http://php-java-bridge.sourceforge.net/doc/how_it_works.php">http://php-java-bridge.sourceforge.net/doc/how_it_works.php</a></span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-black">&lt;kompewter&gt; [ PHP/Java Bridge ] - <a href="http://php-java-bridge.sourceforge.net/doc/how_it_works.php">http://php-java-bridge.sourceforge.net/doc/how_it_works.php</a></span><br />
+<span class="irc-date">[14:47]</span> <span class="irc-black">&lt;eddies&gt; <a href="http://en.wikipedia.org/wiki/PHP/Java_Bridge">http://en.wikipedia.org/wiki/PHP/Java_Bridge</a></span><br />
+<span class="irc-date">[14:47]</span> <span class="irc-black">&lt;kompewter&gt; [ PHP/Java Bridge - Wikipedia, the free encyclopedia ] - <a href="http://en.wikipedia.org/wiki/PHP/Java_Bridge">http://en.wikipedia.org/wiki/PHP/Java_Bridge</a></span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://quercus.caucho.com/">http://quercus.caucho.com/</a></span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-black">&lt;kompewter&gt; [ Caucho Resin : Reliable, Open-Source Application Server ] - <a href="http://quercus.caucho.com/">http://quercus.caucho.com/</a></span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-navy">* Ed__ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-green">* joaomelo (~DSpace@144.64.51.221) has joined #duraspace</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-green">* joaomelo_ (~DSpace@bl23-51-221.dsl.telepac.pt) has joined #duraspace</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-navy">* joaomelo (~DSpace@144.64.51.221) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-green">* joaomelo_ is now known as joaomelo</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;cbeer&gt; ok, time to remember how to do this.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-navy">* joaomelo (~DSpace@bl23-51-221.dsl.telepac.pt) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://wiki.duraspace.org/display/REPONEXT/2012-11-29+ff-tech+Meeting">https://wiki.duraspace.org/display/REPONEXT/2012-11-29+ff-tech+Meeting</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;kompewter&gt; [ Log In - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/REPONEXT/2012-11-29+ff-tech+Meeting">https://wiki.duraspace.org/display/REPONEXT/2012-11-29+ff-tech+Meeting</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;eddies&gt; call in info on tht page</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-green">* joaomelo (~DSpace@bl23-41-46.dsl.telepac.pt) has joined #duraspace</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-navy">* fasseg (~fas@HSI-KBW-078-043-007-220.hsi4.kabel-badenwuerttemberg.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://wiki.duraspace.org/display/REPONEXT/Hybrid+Use+Case">https://wiki.duraspace.org/display/REPONEXT/Hybrid+Use+Case</a></span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;kompewter&gt; [ Log In - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/REPONEXT/Hybrid+Use+Case">https://wiki.duraspace.org/display/REPONEXT/Hybrid+Use+Case</a></span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;eddies&gt; <a href="http://en.wikipedia.org/wiki/Scalability#Scale_horizontally_.28scale_out.29">http://en.wikipedia.org/wiki/Scalability#Scale_horizontally_.28scale_out.29</a></span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kompewter&gt; [ Scalability - Wikipedia, the free encyclopedia ] - <a href="http://en.wikipedia.org/wiki/Scalability#Scale_horizontally_.28scale_out.29">http://en.wikipedia.org/wiki/Scalability#Scale_horizontally_.28scale_out.29</a></span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;eddies&gt; grr</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;eddies&gt; dropped</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;barmintor&gt; Eddie, we lost you at "it's like..."</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;barmintor&gt; I definitely like the measurability of that goal</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;barmintor&gt; For the straw poll, A = Policy-based storage, B= Sharding</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;eddies&gt; straw poll</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;eddies&gt; ben: a)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;eddies&gt; jonathan: b)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;eddies&gt; adam: a)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;eddies&gt; chris: a)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;cbeer&gt; dropped.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;eddies&gt; eddie: b)</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://pic.dhe.ibm.com/infocenter/wasinfo/v7r0/topic/com.ibm.websphere.express.doc/info/exp/ae/twbs_jaxwsclientasync.html">http://pic.dhe.ibm.com/infocenter/wasinfo/v7r0/topic/com.ibm.websphere.express.doc/info/exp/ae/twbs_jaxwsclientasync.html</a></span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;kompewter&gt; [ Invoking JAX-WS Web services asynchronously ] - <a href="http://pic.dhe.ibm.com/infocenter/wasinfo/v7r0/topic/com.ibm.websphere.express.doc/info/exp/ae/twbs_jaxwsclientasync.html">http://pic.dhe.ibm.com/infocenter/wasinfo/v7r0/topic/com.ibm.websphere.express.doc/info/exp/ae/twbs_jaxwsclientasync.html</a></span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://wiki.duraspace.org/display/REPONEXT/Oxford+Databank">https://wiki.duraspace.org/display/REPONEXT/Oxford+Databank</a></span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;kompewter&gt; [ Log In - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/REPONEXT/Oxford+Databank">https://wiki.duraspace.org/display/REPONEXT/Oxford+Databank</a></span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-green">* jonathan__ (8eb07d3c@gateway/web/freenode/ip.142.176.125.60) has joined #duraspace</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://wiki.ucop.edu/display/Curation/Namaste">https://wiki.ucop.edu/display/Curation/Namaste</a></span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Namaste - Curation - Confluence ] - <a href="https://wiki.ucop.edu/display/Curation/Namaste">https://wiki.ucop.edu/display/Curation/Namaste</a></span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;barmintor&gt; Benjamin J. Armintor</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;barmintor&gt; "1=Benjamin_J_Arm"</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;barmintor&gt; 0=bagit_0.9.6</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-navy">* barmintor (~ba2213@dyn-128-59-158-154.dyn.columbia.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-green">* barmintor_ (~ba2213@dyn-128-59-158-154.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-green">* barmintor_ is now known as barmintor</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;barmintor&gt; NOOOOOOO</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://www.adayinthelifeof.nl/2011/06/02/asynchronous-operations-in-rest/">http://www.adayinthelifeof.nl/2011/06/02/asynchronous-operations-in-rest/</a></span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;kompewter&gt; [ Asynchronous operations in REST | A day in the life of… ] - <a href="http://www.adayinthelifeof.nl/2011/06/02/asynchronous-operations-in-rest/">http://www.adayinthelifeof.nl/2011/06/02/asynchronous-operations-in-rest/</a></span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;ajs6f&gt; Nice simple design.</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;eddies&gt; thanks all, bye all</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-navy">* jonathan__ (8eb07d3c@gateway/web/freenode/ip.142.176.125.60) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:57]</span> <span class="irc-navy">* ajs6f (~Adium@137.54.25.88) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[18:25]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp218.evans.tamu.edu) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[19:16]</span> <span class="irc-green">* barmintor (~ba2213@dyn-128-59-158-154.dyn.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-green">* scottatm (~scottatm@adhcp218.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-navy">* linux4u (~james@employed.library.emory.edu) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-green">* linux4u (~james@employed.library.emory.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:52]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

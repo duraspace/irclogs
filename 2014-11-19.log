@@ -1,0 +1,131 @@
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-tepper.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-tepper.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-tepper.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-tepper.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-tepper.freenode.net- [freenode-info] why register and identify? your IRC nick is how people know you. <a href="http://freenode.net/faq.shtml#nicksetup">http://freenode.net/faq.shtml#nicksetup</a></span><br />
+<span class="irc-date">[10:43]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-green">* robint (81d7ec36@gateway/web/freenode/ip.129.215.236.54) has joined #duraspace</span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Read error: Connection timed out)</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, sorry I'm running a bit late here. It's DSpace Developers Meeting time though (15UTC)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;robint&gt; tdonohue: thought the call had arrived!</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-11-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-11-19</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-11-19 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-11-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-11-19</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; robint: nope, it's definite for tomorrow though.  Today is just busy with final preparations :)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; So, today's meeting is obviously all about 5.0 &amp; Testathon. helix84 was kind enough to fill out the agenda for me :)</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; As noted in the agenda, we've already come across a few "blockers" in Testing which need quick resolution.  Those being DS-2294 and DS-2248</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2294">https://jira.duraspace.org/browse/DS-2294</a> ] - [DS-2294] JSPUI: unable to edit item - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2248">https://jira.duraspace.org/browse/DS-2248</a> ] - [DS-2248] XMLUI Delete Community doesn&amp;#39;t work - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; So those two tickets seem the highest priority to get volunteers for... anyone interested in claiming one of them?</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;mhwood&gt; Reading....</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; (it's a bit quiet here...pinging all committers who seem "asleep": helix84, kshepherd, peterdietz) :)</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, I'll look into 2248.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood: there's already some related Unit Tests (as noted in comments). Probably we just need a new unit test (which will initially break) &amp; then find the fix :)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Ping timeout: 272 seconds)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mhwood&gt; Oooh, Test Driven Development.  Yes, that's the way to go.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; haha, yep :)</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;helix84&gt; hi, I almost forgot about DevMtg :)</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; anyone out there want to claim DS-2294, or start investigating it?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2294">https://jira.duraspace.org/browse/DS-2294</a> ] - [DS-2294] JSPUI: unable to edit item - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;robint&gt; No JSPUI people here unfortunately</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I'm realizing that now...we're a small crowd</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;helix84&gt; he weird thing is I was only able to reproduce it on demo (on multiple commits, though)</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;peterdietz&gt; hi all, didn't notice this channel</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 this is 2294 that was only reproduceable on demo?</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: yes, I can reproduce it on demo every time. it doesn't occur on my own machine.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: though demo uses Java 8, that's a possible culprit</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; odd. Well, it probably does still warrant a little more testing / verification, either way.  Could you add that Java 8 note as a comment to ticket? might help others too</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I'll do one better - test it with Java 7 on demo after the DevMtg</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; So, with 2294, since we don't have any big JSPUI users here today, we might need someone to send a message to the -commit mailing list to get the attention of JSPUI folks.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;peterdietz&gt; i just tested item edit on jspui. worked fine. (trydspace5</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: that'd be great, thanks!</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;peterdietz&gt; java7, tomcat7</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;peterdietz&gt; <a href="http://trydspace5.longsight.com/jspui/handle/123456789/8">http://trydspace5.longsight.com/jspui/handle/123456789/8</a></span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Try DSpace 5 RC1, from Longsight: Test Embargo EDIT on JSPUI ] - <a href="http://trydspace5.longsight.com/jspui/handle/123456789/8">http://trydspace5.longsight.com/jspui/handle/123456789/8</a></span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; Still would be worth testing on demo with Java 7 too... if this is a Java 8 issue, then at least we've narrowed down the problem</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like we have some sort of plan here for 2294. helix84 will test Java 7 on demo. After that, I suggest making noise about this on the -commit list if we need JSPUI help</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-brick">* helix84 is currently restarting demo on Java 7</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; So, with Testathon, it seems like things are going well. It's been hard to tell though how many testers we've gotten overall</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; Though we've had quite a few feedback JIRA tickets this week, especially... so we do have some testers</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; I do want to remind the RT (peterdietz) and really all the Committers that we need to be tracking the JIRA tickets coming in, and either verifying or rescheduling them. I think we've done a good job of this so far, but I will be *out of office* for the next few weeks (starting tomorrow), so it'll be up to you all to keep track of these tickets</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;helix84&gt; OK, I just confirmed Java 8 is the culprit. Will add a comment.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; We also have a big backlog of tickets currently scheduled for 5.0 (some of these are older, known issues though that could be rescheduled as needed): <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.0+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; but there's 75 tickets there currently...so we need to be digging through that backlog over the coming weeks to narrow down which ones actually NEED FIXING, versus which are older issues that may need to be delayed again.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; thanks helix84 for the testing. I'd suggest sending an email to -commit to get some JSPUI folks looking at this too</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; plus, we may want to test other parts of DSpace with Java 8. I wonder if we need to warn against using Java 8 + DSpace 5 or not</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: well, demo has been running on Java 8 and this is the only issue I noticed</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: good to know. :) Just wanted to be sure.  So, it sounds like if we fix this one, we should be "OK" with DSpace 5 + Java 8</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;peterdietz&gt; I've done some patrolling of JIRA last week, but I'll need to review these tickets as you said</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: definitely don't feel like you need to take on all the JIRA reviews yourself. I'd encourage you (and other RT members) to do it together if it makes sense.... you are still welcome to review some on your own, but it might be even easier if you all can schedule some meetings, or even use the upcoming DevMtgs (over the next few weeks) to review these tickets</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;helix84&gt; mhwood: do you feel confident solving the XMLUI Delete Community bug or should I mention it, too, on -commit along with the JSPUI bug?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; I don't understand it at all yet.  More eyes would be welcome.  Do mention it.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;peterdietz&gt; I've been meaning to test Tim's solr updater</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: yea, that was the other ticket I wanted to talk through today.  DS-2297 / DSPR#749</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2297">https://jira.duraspace.org/browse/DS-2297</a> ] - [DS-2297] Auto upgrade Solr/Lucene indexes during DSpace upgrade process - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/749">https://github.com/DSpace/DSpace/pull/749</a> ] - DS-2297: Auto upgrade Solr indexes by tdonohue</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; This is a followup to the Flyway DB migration scripts (which was requested by a few folks).  With a ton of help from helix84, I've figured out a way to auto-upgrade everyone's Solr/Lucene indexes during the 'ant update' step</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; I've tested the heck out of it on my end, but it needs more testing from others. I think it's working though, and I've fixed what (small) bugs I've found along the way</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;peterdietz&gt; Tim, cheers for the heroic effort to make upgrading DSpace much much easier. There's a chance we'll be able to update our upgrade docs to say you can upgrade from any version of DSpace to the latest version, easily</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; But, as this is my LAST DAY at work for a while (I will officially be offline from Tomorrow, Nov 20 returning on Mon, Dec 8)....either this ticket gets "in" today, or someone else needs to claim it from me to bring it forward.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; I can make minor changes today, but after today I'm not going to be able to work on this ticket again until Dec 8 at the earliest</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; I'm definitely not rushing us into making a decision on this now... I just want to be up-front about the fact that I need someone else to take over this ticket, if we feel it needs more work after today</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;peterdietz&gt; This reminds me of that David Blaine hunger stunt, where people flew drones with hamburgers near him.. We can mail printed code to Illinois</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;helix84&gt; I'm still planning to test the PR, but I tested the concept enough to be confident it works fine</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;mhwood&gt; Is it tested enough to just adopt now, fix as needed?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; I'm 95-99% sure the concept is fine. I think the only outstanding needs are: (1) more testing on real data, just as a safety check (I've done some of this, but mostly with DSpace 4 instances, older instances would be nice), (2) we may wish to test whether we definitely want to upgrade Discovery's index (prior to rebuilding it later). It's done as a safety measure right now to avoid issues with possibly old indexes</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; but, I think the code is ready to go, as-is.  It's more just banging on it some more. I've done a lot of banging on it, but I only have DSpace 4 instances to work from (DSpaceDirect customers).  Would be good to have someone with older Solr indexes to also bang on it some more.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; (But, I have tested upgrading at least one older Solr index, from a DSpace 1.8 instance from peterdietz... so, older indexes should work fine. Just need verification tests)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, I think it *is* ready to adopt and fix as needed later. But, I don't want to be the one to push the button here, unless others approve of that.   So, I'll leave it to you all for the final decision</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; this discussion seems to have slowed, so I'm assuming we don't have a decision on 2297 yet (which is fine).  Are there any other 5.0 topics / tickets we want to bring up in the last 10 minutes here?</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mhwood&gt; So, I'm thinking that merging will further testing.  Comments?</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;peterdietz&gt; I would imagine so. I was going to grab another 1.8.x instance and run that through</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; It will force testing, as running "ant update" will now check your Solr indexes (Discovery, OAI, Statistics) and upgrade them as needed to the latest Solr in DSpace 5</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;helix84&gt; yes, let's merge</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like one +1 (from helix84)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;robint&gt; Merge merge!</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; OK, will do then. It's hard to tell what "silence" means...cannot tell if it's a "I agree" silence, or a "I'm not so sure yet" silence ;)</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;mhwood&gt; I like the idea and trust the source, but I'm not familiar enough with Solr upgrades to say more.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; TBH, helix84 is the master of figuring out the Solr upgrade process. I just figured out how to translate his manual "script" into an automated 'ant' process.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;peterdietz&gt; i agree, +1</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, merging</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;robint&gt; Crucial merge just before going on leave for a few weeks, what can possibly go wrong :)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; robint: no worries, if worst comes to worst, you can easily "turn it off" by removing the new "update_solr_indexes" target from "ant update" ;)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; Any other 5.0 topics or tickets to bring up today (in the last minutes)?</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;robint&gt; tdonohue: just joking on my part :)</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;helix84&gt; who's in for the backlog hour starting now?</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;mhwood&gt; I can do that.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; So, again, as a final note: I will be out &amp; offline from Nov 20 - Dec 7.  Returning on Mon, Dec 8.  I leave 5.0 in your capable hands, until then! ;)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: good luck!</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;mhwood&gt; Best wishes to all of you, tdonohue.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; thanks! I'll send along some early pics to -commit when I get the chance :)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;peterdietz&gt; Yes, congrats / good luck / enjoy your family time</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; RE: JIRA backlog hour, shall we switch over to #dspace, as normal?</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;peterdietz&gt; sure</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-brick">* tdonohue notes our meeting is officially ended...feel free to join us for JIRA backlog hour over in #dspace, starting very shortly!</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-green">* robint (81d7ec36@gateway/web/freenode/ip.129.215.236.54) has left #duraspace</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Ping timeout: 255 seconds)</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Read error: Connection timed out)</span><br />
+<span class="irc-date">[18:19]</span> <span class="irc-green">* roeland_atmire (~roeland_a@64.237.52.133) has joined #duraspace</span><br />
+<span class="irc-date">[18:21]</span> <span class="irc-navy">* roeland_atmire (~roeland_a@64.237.52.133) Quit (Client Quit)</span><br />
+<span class="irc-date">[18:28]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:33]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[18:48]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:04]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Read error: Connection timed out)</span><br />
+<span class="irc-date">[19:38]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:16]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:58]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:31]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />

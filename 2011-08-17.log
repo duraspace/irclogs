@@ -1,0 +1,302 @@
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-calvino.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-calvino.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-calvino.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-calvino.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:13]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:05]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:21e:4fff:feba:a425) has joined #duraspace</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[18:57]</span> <span class="irc-green">* vhollister (48c88f7e@gateway/web/freenode/ip.72.200.143.126) has joined #duraspace</span><br />
+<span class="irc-date">[19:00]</span> <span class="irc-green">* hpottinger (80cea2c6@gateway/web/freenode/ip.128.206.162.198) has joined #duraspace</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C14B16.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-green">* grahamtriggs (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-green">* robint (5229fe9f@gateway/web/freenode/ip.82.41.254.159) has joined #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;tdonohue&gt; hi all, reminder our DSpace Devel meeting starts here at the top of the hour.  Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-08-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-08-17</a></span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-08-17 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-08-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-08-17</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, today's DSpace Developers meeting is going to concentrate entirely on 1.8.0, since our feature freeze is on Friday.</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; So, because of that, I'm going to hand the reigns over to robint, to let him lead</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;robint&gt; I'm officially Tim for one hour.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; haha :) any of you are welcome to lead whenever you want to (no one ever seems to volunteer for that role though)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;robint&gt; Hardy has a change request that he would like to get in so perhaps we could start with a very quick review of DS-994</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-994">https://jira.duraspace.org/browse/DS-994</a> ] - [#DS-994] Add allow/deny rules for self-registration in the simple password authentication module - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* richardrodgers (~richardro@18.111.77.194) has joined #duraspace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; DS-994 sounds reasonable enough to me.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-994">https://jira.duraspace.org/browse/DS-994</a> ] - [#DS-994] Add allow/deny rules for self-registration in the simple password authentication module - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;robint&gt; Any objections ? If not I'll help out with testing and we can try and get it in for Friday.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;robint&gt; Ok lets move on</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;robint&gt; grahamtriggs also contacted about a bug/issue</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;robint&gt; Are you there graham ?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; Seems not</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;robint&gt; Ok well lets move on to Tim's agenda</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; yea, we can always step back to graham, once he gets back :)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;robint&gt; Are there any obvious ommissions or errors in Tim's list for 1.8 ?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; here's the list: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-08-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-08-17</a></span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;robint&gt; The one I notice is the CC rewrite</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-08-17 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-08-17">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-08-17</a></span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;richardrodgers&gt; well, maybe cc rewrite as improvement</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;grahamtriggs&gt; yeah, I'm here</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;robint&gt; Aha grahamtriggs !</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;robint&gt; Do you want to bring up that issue at the moment ?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-green">* sandsfish (~sandsfish@18.111.65.163) has joined #duraspace</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;grahamtriggs&gt; seems to be mid-conversation... maybe wait a few minutes</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;robint&gt; ok we can come back to it later</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;grahamtriggs&gt; If anyone wants to have the source code open, they can play along later :</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;KevinVdV&gt; About the list: An improved discovery search page will be committed tomorrow</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;grahamtriggs&gt; .. :)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;robint&gt; richardrodgers: How close is the CC rewrite to being ready ?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;robint&gt; * thanks KevinVdV *</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;richardrodgers&gt; I think Wendy just emailed you, but isn't it really done, with exception of a small design issue?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;robint&gt; I'll check my email</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; cool, so it should make the Feature Freeze then, richardrodgers?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;richardrodgers&gt; don't see why not</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; excellent</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;robint&gt; Sounds good</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;robint&gt; Perhaps I shouldn't say this but...</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; I think we should be sensible about the feature freeze</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; and if a day or two will allow a significant feature to be included then some flexibility should be allowed</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; sensible? us? (joking) :)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; sounds reasonable to me as well..</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;robint&gt; Bribes gratefully accepted</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;richardrodgers&gt; +1 also</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; +1 (bribes, too)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; Quite reasonable, and anyway the freeze date is up to the RC, yes?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;robint&gt; Anyone got anything that they are struggling with and would like help with ?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;KevinVdV&gt; Well..... since you mention a more flexible deadline robint..... I plan to write a UI without the need of a shell script for <a href="https://jira.duraspace.org/browse/DS-749">https://jira.duraspace.org/browse/DS-749</a> in the weekend (It might be a good feature for Dspace 1.8)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-749">https://jira.duraspace.org/browse/DS-749</a> ] - [#DS-749] allow for bitstream display order to be changed - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-749] allow for bitstream display order to be changed - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-749">https://jira.duraspace.org/browse/DS-749</a></span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;KevinVdV&gt; *Is willing to bribe somebody for it*</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; +1 for that interface, KevinVdV, that's on my list from my community managers</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; oh wow. Ds-749 would be awesome to get into 1.8.0 (in my personal opinion), if it works out.  I know DCAT is very excited about that (see comments in that issue)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;KevinVdV&gt; Well I have nothing scheduled for my weekend &amp; create a UI for XMLUI &amp; JSPUI</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;robint&gt; Yeah there has been lots of Jira activity around it.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; I think that KevinVdV and I could work out getting the api in by the friday cutoff, if no one objected with getting the UI work in afterwards?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;robint&gt; +1 from me</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;richardrodgers&gt; I have not looked at DS-749 - does it alter the semantics of sequenceID?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-749">https://jira.duraspace.org/browse/DS-749</a> ] - [#DS-749] allow for bitstream display order to be changed - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;KevinVdV&gt; It shouldn't</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; no</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; +1 I'd have no objections for Ds-749</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; likewise, with my recommendations, it shifts the api changes away from bitstream and makes them a characteristic of the Bundle Container</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;richardrodgers&gt; ok, cool that is a perennial concern of mine...</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; the provided solution requires adding a "order" property to the Bitstream and sorting on it</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;sandsfish&gt; +1   i see it adds a "display_order" column to accomplish its goal.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;robint&gt; KevinVdV: I hope your boss will give you some time off later if you work the weekend?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; my recommendations are that bundle2bitstream.order would place it into the Bundle and not require Bitstream updates to change ordering</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; ;-)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;KevinVdV&gt; robint: going to do this in my free time so don't think my boss will object</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; reading through mdiggory's approach (described in comments of Ds-749), it sounds right to me as well</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; we do this kinda stuff for the fun of it ;-)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; KevinVdV: &lt;-- geek</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; :)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; :)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; mdiggory: &lt;-- geek</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;KevinVdV&gt; You don't know the half of it ;)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; Anything else ? I'll touch base with the Stuart, Kim, and Andrea to see if they are all happy</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; I've got another patch....</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://jira.duraspace.org/browse/DS-845">https://jira.duraspace.org/browse/DS-845</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-845">https://jira.duraspace.org/browse/DS-845</a> ] - [#DS-845] Support for DSpace Domain Model Interfaces - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-845] Support for DSpace Domain Model Interfaces - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-845">https://jira.duraspace.org/browse/DS-845</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; this one is even more "simplified"</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; API interfaces are just in dspace-services-api</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; only class signatures change in dspace-api</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; all MetadataValue / DCValue enhancements are dropped</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; goal is to just get signatures into place so iterative work on addons can be done against 1.8.x</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; as addons</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; Because we are only talking about adding interfaces to the DSpace class signatures, the behavior of dspace is unchanges</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; I'll admit, this is an area I, personally, start to get a little wary just before a feature freeze.  It *sounds* reasonable enough to me, but I really don't know if it will cause instability issues elsewhere that we haven't foreseen.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; (I know, mdiggory, that's not what you want to hear -- I know this is an area you are definitely passionate about, and have been for a while)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; what do others think here? objections? concerns?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;sandsfish&gt; this is where unit test coverage comes in handy.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mdiggory&gt; Only cases that should encounter any work during migration are those projects that have manipulated the dspace-api classes directly and overriden them on the classpath.  They would be needing to address other changes anyhow.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;grahamtriggs&gt; imho, it doesn't really do anything useful. You are still bounded by whatever is exposed in the interface signatures, and so still have the same 'issues' if you need to change those signatures between releases (which, ultimately, you may well do)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; the unit test coverage is in dspace-api and passes same as always</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;richardrodgers&gt; I haven't looked at the revised patch, but I also have concerns about late-stage changes...</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; IT separates the interface signatures from the release, so that we can write code in addons against dspace-services-api only.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; and an addon can be utilized across releases</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;richardrodgers&gt; only if api doesn't change...</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; perhaps if there is concern about late stage changes we should do the freeze today and not allow further work to go into the trunk?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;sandsfish&gt; i'm thinking that'll trample on quite a few people's plans.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; other changes could possibly be even more destabilizing than this</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;grahamtriggs&gt; I already maintain an addon that works for all versions of DSpace 1.5.0 through DSpace 1.7.2. Zero code modifications to DSpace. Same artifact and pom.xml (with range version dependency).</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; What would allay those concerns about adding a bunch of "implements"es?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; we could always do a quick +1/0/-1 vote on adding DS-845 to 1.8.0, if that helps.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-845">https://jira.duraspace.org/browse/DS-845</a> ] - [#DS-845] Support for DSpace Domain Model Interfaces - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; I'll admit, I'm probably a 0.   I'm not strongly against, but I'm also not strongly for either</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;sandsfish&gt; since it would affect instances where people have overridden dspace-api classes, would it make sense to ask for any quick comments on the dev list?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;sandsfish&gt; and perhaps get a better idea of what its impact might be?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; WE've been over this for about a year or more now, In both the devel list and here</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;robint&gt; This does seem similar to a previous discussion we had</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;richardrodgers&gt; another concern is this - we are now binding to a set of interfaces that isn't even in our trunk code?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; I do not believe we need to rehash the topic int he devel list</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; the dspace-services will be distributed as source with the dspace-release-src for 1.8.0 if the build modifications are worked out</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue, richardrodgers and myself have been through that topic in skype dialogs</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; WE've also worked on cleaning out /svn/repo/modules to be only those modules that are "endorsed" or "dependended" on and discussed limiting commit rights there</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; Depends on how you look at it.  If you're committed to the Services model then Services is the innermost part of DSpace, always there and always considered.  If not, then this might seem like putting them off in a dimly-lit corner.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; you guys got to get your heads out of the trunk</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;robint&gt; The problem is thaat this is a step towards async releases and not all are convinced of the benefit of async releases</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; We have a whole herd of trunks now....</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; To be honest, if we don't have a stream of +1's here, I'm assuming that most folks either (a) don't fully understand this change or (b) don't fully agree with this change.  Either way, I'd unfortunately lean towards waiting -- cause obviously we are not all on the same page here</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;grahamtriggs&gt; This close to a feature freeze, I would be inclined to be -1, because I don't believe the arguments for having these interfaces stand up... it's already possible to do addons that work across multiple versions, and the interfaces don't address any issues of when they might need to change.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-brick">* tdonohue notes the conversation has been sidetracked a bit.  Should we loop back around to other 1.8.0 stuff? </span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://jira.duraspace.org/browse/DS-989">https://jira.duraspace.org/browse/DS-989</a></span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-989">https://jira.duraspace.org/browse/DS-989</a> ] - [#DS-989] Module directory maven property support - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-989] Module directory maven property support - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-989">https://jira.duraspace.org/browse/DS-989</a></span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; We should consider discussing this</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; support is needed for filtering configuration in modules same as it originally was supported on a single dspace.cfg</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;richardrodgers&gt; I might not have understood this originally - this is all just maven-driven filtering?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;KevinVdV&gt; Yes</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;richardrodgers&gt; (because there is also ant filtering, and configManager filtering.....)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;KevinVdV&gt; This is purely maven the thing is the dspace.cfg already supports this</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; config manager is interpolation</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;richardrodgers&gt; So +1 from me</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; seems fine to me</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; +1</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mdiggory&gt; maven filtering is used to build staging profiles and produce builds without requireing separate cfg files for each build. we use this with every client we work with</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mdiggory&gt; +1</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; 1.8 question: what ever happened to those extra Curation Tasks that Kim &amp; Stuart were working on?  The "link checker" and similar? I hadn't heard much since OR11...are they "in" or "out"?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;sandsfish&gt; +1</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;robint&gt; tdonohue: I'll email them</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; (Maven doc.s seem to use "filter" and "interpolate" interchangeably.  Too bad, because it's confusing *and* I don't think "interpolation" really fits what Maven is doing.)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;robint&gt; +1 for 989</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; mdiggory: I'd like to see a writeup of how you're doing that for staging/production , I'm using profiles for that right now</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;robint&gt; hpottinger: me too. I'm looking for better ideas in that area</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; so, anything else people have to discuss for 1.8.0? Or questions/concerns, etc?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;robint&gt; grahamtriggs: if you want to raise your issue now is the time ?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;grahamtriggs&gt; ahh... zee event dispatcher....</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;grahamtriggs&gt; it's all a bit... well....</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;grahamtriggs&gt; anyone got their IDEs fired up to play along? (not entirely sure how up to date the code I'm looking at is, my line numbers may be teeny bit off)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;grahamtriggs&gt; (note, this is just because I'm using a different machine to the one I was looking at the issue earlier)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mdiggory&gt; another issue <a href="https://jira.duraspace.org/browse/DS-680">https://jira.duraspace.org/browse/DS-680</a></span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-680">https://jira.duraspace.org/browse/DS-680</a> ] - [#DS-680] invalid input syntax for type timestamp in db query for stat-initial utility - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-680] invalid input syntax for type timestamp in db query for stat-initial utility - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-680">https://jira.duraspace.org/browse/DS-680</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; have needed to patch this a couple times now for clients</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;grahamtriggs&gt; So, Context.... in commit() (line 319 ish), if there are events, it gets the dispatcher (BasicDispatcher), commits the current connection, and then calls dispatch() with the current context.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;robint&gt; (mdiggory: bug fixes are allowed after the feature freeze so we have some room there)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; ok</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;grahamtriggs&gt; So, BasicDispatcher.... dispatch() (line 71 ish onwards). First of all, it gets the event list from the context, and passes it to Collections.synchronizedList(). Anyone want to take a stab at what the effect of this is?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; Ds680...grrr, testing...got bogged down...will take another look.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;richardrodgers&gt; grahamtriggs: is there a threading issue?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;grahamtriggs&gt; Ooo.... richardrodgers is getting warm</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;robint&gt; Hi stuartlewis. Graham is in the middle of explaining something but I'll pester you in a moment if I may</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs -- we're running short of time here, might just want to give us a hint, or the answer :)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs isn't in the middle, he still seems to be at the beginning</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;grahamtriggs&gt; Ok, here's a hint.... Collections.synchronizedList().... the net effect in this context, is.... naff all</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;robint&gt; Explain</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;richardrodgers&gt; Ah, it's Mr Efficiency!</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;grahamtriggs&gt; Thing is, the list that is taken from the Context, is the actual, modifiable list.... and although synchronizedList creates a wrapper, it's still backed by that modifiable list of Context.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;grahamtriggs&gt; So, within that method, the synchronization wrapper makes no difference. But if any of the events fired by the dispatcher causes an event to be created, then it is added to the event list of the Context, which you are iterating via a wrapper (as it's backed to the same list), and hence causes a ConcurrentModificationException</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;grahamtriggs&gt; That's not all that's a bit screwed up though.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;richardrodgers&gt; but grahamtriggs: it is a violation for dispatcher to fire new events</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; oh here we go again...</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; infinite loop paranoia</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; running over time here folks...we probably should try "wrap this up" and perhaps bring this to JIRA?  It sounds like this wouldn't be constrained by the Feature Freeze anyways, as it'd be considered a bug?  so, we should have plenty more time to figure this out?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; oh no, I'm having a flashback to the little office in cubespace.... sandsfish, richardrodgers and LCS.....  aaaggghhhhhhh</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;grahamtriggs&gt; richardrodgers: technically, it isn't. It just isn't recommended. Partly because, as mdiggory points out, it could end up in an infinite loop - but that can be avoided, and could even be guarded against in the dispatcher</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;robint&gt; Aside: for those who have no interest in this particular issue, thanks for attending</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;robint&gt; tdonohue: Whilst I have enjoyed being Tim for an hour I'll hand the microphone back to you, cheers</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mdiggory&gt; robint: great work being tdonohue</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mdiggory&gt; next week you can steal is IRC handle</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; ok, i'll stick around for more of this.  As robint says, you all are free to filter out as you need to (If you have anything else about 1.8.0 to discuss, bring it to dspace-devel or RobinT directly)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; haha...nope, you cannot steal my IRC handle, unless you have the proper password ;)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;richardrodgers&gt; I can stay for a little bit more..</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;robint&gt; Darn!</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;robint&gt; I'll hang around too</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; sticking around a bit</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;robint&gt; grahamtriggs: Could you document some of this in Jira ?</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;PeterDietz&gt; robint: any hot issues in jira that your looking at, and need to politely poke the assigned-to person?</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;sandsfish&gt; i've got to run.  thanks everyone.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-navy">* sandsfish (~sandsfish@18.111.65.163) Quit (Quit: sandsfish)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;robint&gt; Thanks PeterDietz but I don't think so</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mdiggory&gt; didn't we make it so that the dbconnection was released by the time you got into EventManager?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;richardrodgers&gt; grahamtriggs: one could copy the event list to avoid this, but 'well-behaved' consumers don't do it - and there is (albeit) small overhead in the copy...</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;robint&gt; I'm wondering if stuartlewis is listening in ?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mdiggory&gt; so that the Context was basically useless at that point</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;stuartlewis&gt; robint: Hello! :)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mdiggory&gt; welll accept for delivering the events and user details</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;richardrodgers&gt; not useless mdiggory - the cache is still there, so consumers don't need to hit the DB again....</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mdiggory&gt; ok, well, almost useless ;-)</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;robint&gt; stuartlewis: Got any 1.8 concerns etc ?</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;stuartlewis&gt; Not really.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;stuartlewis&gt; Should I&gt; ;)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;stuartlewis&gt; Should I? ;)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;robint&gt; Hope not :)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;KevinVdV&gt; Got to run cya</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;robint&gt; tdonohue asked earlier about some curation tasks you hoped to get in ?</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C14B16.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;stuartlewis&gt; To be completely honest I've not been able to dedicate so much time to DSpace over the past few months.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis: I was asking about the new curation tasks that you &amp; Kim were developing (link checker, etc).  Are those still coming in 1.8?  (Just curious)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mhwood&gt; Must go.  'bye all.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:21e:4fff:feba:a425) has left #duraspace</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;stuartlewis&gt; kshepherd is our curation guru - he'd have a better idea about what general tasks we have that we might want to donate.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;grahamtriggs&gt; richardrodgers: yes, you can copy the list. ideally, you would flatten it in the context, allow new events to build up, and loop back over them if necessary. There is an interesting discussion about 'well-behaved' consumers though....</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes - I have a half written link checker - works fine, but ideally requires a small bit of re-engineering.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;richardrodgers&gt; stuartlewis: if not Dspace, anything fun?</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;robint&gt; Ok thanks, I'll maybe drop you both an email just to get an update</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;stuartlewis&gt; define: fun! :)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;robint&gt; fun = well paid</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;stuartlewis&gt; Mainly preparing our systems (Symplectic + DSpace) for our up-coming national research assessment exercise (equivalent of RAE / REF in the UK)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;grahamtriggs&gt; my consumer does (or rather can, if necessary) make changes to the item, if it detects that it is in a certain state. The way I now have it is both safe in terms of infinite loop, and with respect to the concurrentmodificationexception.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;stuartlewis&gt; The main feature I have waiting for a bit of TLC before comitting it is the enhancements to batch metadata editing to i) improve error messages, and ii) add 'actions' such as withdraw / reinstate / delete.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs: are you planning to post that up to JIRA as a patch? so we can get a closer look at what you have done?</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;richardrodgers&gt; grahamtriggs: I don't deny one can do it - but there is also the interesting question of transactional closure - you are creating a new tx</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;grahamtriggs&gt; tdonohue: I haven't done anything to DSpace (yet). I've worked around the known issues in the consumer, I'm just pointing out the problems exist.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs: sorry, misunderstood. I realized that right after I posted that last message.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;richardrodgers&gt; Our initial hope was that documentation would keep consumer writers out of trouble - but I'd also be interested in programmatic solutions (and examining their costs....)</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;grahamtriggs&gt; richardrodgers: I'm not particularly bothered about transactional windows in this instance (as in, I can live with this happening in a separate transaction). What's more important is being able to hang code off of things happening within the repository without modifying the core code.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;richardrodgers&gt; So then you would accept if an event-triggered tx is rolled back, but the preceding tx commits? That bothers me a bit</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;richardrodgers&gt; since one logically depends on the other....</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;richardrodgers&gt; but I completely agree with the importance of staying out of core code.</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;grahamtriggs&gt; in this case, yes, it's ok. in some cases, it may not be... but then I've long advocated 'immediate', or pre-commit, events</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;grahamtriggs&gt; (as an additional feature, alongside the post-commit events)</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;richardrodgers&gt; One line of development that we never had time to pursue in this area is 'in-process/in memory' but asynchronous event handling  - it might have allowed more flexibility in this area without sacrificing performance (like a real JMS-type solution might)</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;kshepherd&gt; to whoever is still around: sorry i keep missing meetings, too early for me! would love some feedback on the latest DS-768 stuff if anyone has time to check before Friday</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-768">https://jira.duraspace.org/browse/DS-768</a> ] - [#DS-768] All XMLUI Error Pages respond with 200 OK, instead of 404 Not Found - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;richardrodgers&gt; the idea is that your consumer could post to some queue or other that lived in a different DB context - so no infinite loops, etc</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;hpottinger&gt; kshepherd I plan to play around with the Ds-768 patch, as soon as I've got Ds-994 confirmed working</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;grahamtriggs&gt; richardrodgers: in itself, that wouldn't stop infinite loops - if the consumer causes an event, which the consumer responds to and then causes an event, etc..... that cycle still goes on forever without a little engineering to stop it.</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd: note, Ds-768 is a bug -- so, it can also be fixed after Feature Freeze on Friday.  Feature Freeze is only the deadline for new features &amp; new improvements.  Bugs can be fixed all the way up to the final release (though, obviously the sooner the better).</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;grahamtriggs&gt; in essence, what we have is already asynchronous... all that it's really missing is to 'snapshot' the current events before iterating them, and at the end re-iterate over any newly generated events, until there are no events left.</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;richardrodgers&gt; but even that is no cure for loops, right?</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;grahamtriggs&gt; btw, I already stop 'infinite loops' quite effectively. How? In my consumer, I record the identity of the context object. I 'fail quick' on a consume if I've already logged that context identity, and the end removes the context identity.</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has left #duraspace</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;richardrodgers&gt; well, then you are burdening the consumer with being stateful, which we tried to avoid...</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;grahamtriggs&gt; the simplest solution would be to have a base consumer class that all consumers extend (to hold the identity logging), or it could go into the dispatcher (probably more accurately, the consumerprofile)</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: true..</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- I would be willing to help test.  Not sure if I'll get to it before Friday though (I may, we'll see).</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd : I had asked stuart about this as well. I recall mention at OR11 that you might be submitting some new Curation Tasks for 1.8.0?  I was just curious if that's still the plan, or if it's not as likely after all (I hadn't heard anything since then).</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;kshepherd&gt; robint: i'll get some curation tasks together incase you want to include some more examples in org.dspace.curate... I still haven't had any really good ideas for alternative distribution of curation tasks but it feels slightly odd to have them sitting where they are. Perhaps we could at least move them to org.dspace.curate.examples or org.dspace.curate.tasks for 1.8</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: snap :)</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;tdonohue&gt; haha :)</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;kshepherd&gt; let's see...</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;robint&gt; Hi kshepherd: Sorry, I've just got to head off. I'll drop you an email just to catch up on 1.8 and anything else I can think of :)</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;robint&gt; Cheers all</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;kshepherd&gt; we've got linkchecker, google translate, microsoft translate, a URI 'regenerator' (for handle changes), exif metadata extraction, ingest bitstream from filesystem path (specified in metadata)</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-green">* robint (5229fe9f@gateway/web/freenode/ip.82.41.254.159) has left #duraspace</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;kshepherd&gt; that's probably the stuff that's generic-enough to suit other users</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;richardrodgers&gt; sounds great kshepherd - I'm peddling the idea of task bundles that folks can pick up async, but it's (*cough*) a controversial approach ATM</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;kshepherd&gt; ;)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;richardrodgers&gt; but the important thing is to get it out somehow</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;tdonohue&gt; I'd call richardrodgers approach more of a "extension" or "addon" approach (not to be confused with mdiggory's "async" ideas).</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;tdonohue&gt; (async is becoming a bit of a "loaded" term)</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;kshepherd&gt; i want to make a customised dspace repo full of curation tasks, but i keep getting stuck when thinking about peer review, quality/safety (if shipping as compiled jars), dspace version compatibility (if shipping compiled jars), or making them easy to install (if shipping as mvn projects)</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;richardrodgers&gt; I will also soon have  some added services in curation framework (hopefully 1.8) like automatically clearing context objects for you, etc</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;hpottinger&gt; demo was made for this kind of thing, yes?</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;kshepherd&gt; so far, i've encouraged others that want to use curation tasks to set up a tiny maven project just for that, with dspace-api as a dependency</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;kshepherd&gt; hpottinger: none of the actual content is demo would be considered 'real' or persistent or safe ;)</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;richardrodgers&gt; yes kshepherd - that's how we've done it as well</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;kshepherd&gt; richardrodgers: automatic context clearing sounds nice :)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-brick">* kshepherd has to run to a tutorial now</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;tdonohue&gt; yea, demo is not to be assumed "persistent".  It's more for demonstrating how DSpace works (and for testathons).  I'd be concerned about making it a repo for "addons" (or curation tasks), cause we give away full admin rights to everyone ;)</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;richardrodgers&gt; I have to run also, but I'm eagerly looking forward to a design from grahamtriggs on 'smart dispatching'  ;)</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-navy">* richardrodgers (~richardro@18.111.77.194) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: I was mostly thinking of, wherever the tasks live, you could run them on demo, or a copy of demo.</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-black">&lt;tdonohue&gt; oh, so "demo" them on demo.dspace.org?  Yea, we could do that for curation tasks.  We'd just need to make it clear how to obtain those tasks (so that people realized they were not out-of-the-box), where they are documented, how supported, etc</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-brick">* hpottinger is being kicked out, summer hours at the library, later!</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-navy">* hpottinger (80cea2c6@gateway/web/freenode/ip.128.206.162.198) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has left #duraspace</span><br />

@@ -1,0 +1,334 @@
+<span class="irc-date">[0:46]</span> <span class="irc-green">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) has joined #duraspace</span><br />
+<span class="irc-date">[1:41]</span> <span class="irc-navy">* eddies1 (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[1:50]</span> <span class="irc-navy">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) Quit (Quit: jonathangee)</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:40]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp210.evans.tamu.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[8:41]</span> <span class="irc-green">* scottatm_ (~scottatm@adhcp210.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-green">* jonathangee (~jgreen@142.176.125.60) has joined #duraspace</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-navy">* jonathangee (~jgreen@142.176.125.60) Quit (Quit: jonathangee)</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-green">* jonathangee (~jgreen@142.176.125.60) has joined #duraspace</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-navy">* jonathangee (~jgreen@142.176.125.60) Quit (Quit: jonathangee)</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-green">* jonathangee (~jgreen@142.176.125.60) has joined #duraspace</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-green">* njefferies (a301cb45@gateway/web/freenode/ip.163.1.203.69) has joined #duraspace</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-green">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-navy">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-navy">* njefferies (a301cb45@gateway/web/freenode/ip.163.1.203.69) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[19:33]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:44]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-green">* PeterDietz (~peterdiet@128.146.173.112) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all...running a bit late today.  Obviously it's now time for our DSpace Devel Mtg</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-19</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-12-19 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-19</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; So, we'll go ahead and start off with a couple of unassigned JIRA tickets today...just to get back into the habit of reviewing old tickets..</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* joaomelo (~DSpace@188.250.43.157) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; So, reminder, the goal of these quick JIRA reviews is to just do a very quick analysis, possibly find a volunteer</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; here's a list of our backlog...I'm going to skip over tickets that are already assigned.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1082+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1082+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1082+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1082+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1082">https://jira.duraspace.org/browse/DS-1082</a> ] - [#DS-1082] Invalid embargo causes item archival to crash - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; so, we'll start with DS-1083</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1083">https://jira.duraspace.org/browse/DS-1083</a> ] - [#DS-1083] Create new users from the command line - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; seems like something that'd be a good idea, just really needs someone to figure out a nice solution  / implementation.  mhwood's comments are good</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; so, it's essentially just waiting on a volunteer to move forward with it</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;PeterDietz&gt; Is the rest-api read-only nowadays?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;joaomelo&gt; yes</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; which one -- there's 3 rest-api's :)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;PeterDietz&gt; If it was read-write, you could POST some new users to do this</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: you meant stuart's comments?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- stuart pasted in comments from mhwood (see second comment)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: ah, nevermind</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-green">* cbeer (cbeer@2600:3c03::f03c:91ff:fedf:a498) has left #duraspace</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;PeterDietz&gt; who is "Eric Oliver" (that it was at one point assigned to)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;helix84&gt; only the hedtek rest api is read-only</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;helix84&gt; original and wijiti are read-write</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; But, PeterDietz -- I agree, it's possible some of this could be done via a REST API, once we actually adopt a REST API.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; no idea who Eric Oliver is...we'd have to look back at the dspace-devel archives from Nov 2011</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;PeterDietz&gt; (I notice there is a bit of chicken vs egg)</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;joaomelo&gt; wijiti looks good, i'm using it</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; latest report on REST API - Hedtek was doing only contract work for Jorum, so they won't actively work on it now,</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;helix84&gt; Jorum is porting the Hedtek version to 1.8, they're mostly finished by now</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;helix84&gt; Jorum is interested to work to get _some_ REST API into DSpace proper</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;helix84&gt; (I suggested them to cooperate with Wijiti)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;joaomelo&gt; yes, i was looking to porting wijiti to 3.0</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; good to know those REST API statuses.  I haven't used either hedtek or wijiti, but I'm interested in what folks think of either.  The main bonus I saw to the hedtek, was that it came with full unit testing (which is awesome), but I know it's more limited (read-only)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;joaomelo&gt; 3.0+</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; I haven't talked to Wijiti lately, but they're surely also interested in upstreaming REST API</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; basicelly we just need to get them to cooperate, which I've been trying</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; I'll contact Wijiti this week</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;joaomelo&gt; mama is calling, need to run</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;joaomelo&gt; bye</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; bye!</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; I'm interested in working with a REST-API with 3.0, anyone catches wind of anyone porting to 3.0, I'd pitch in</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-navy">* joaomelo (~DSpace@188.250.43.157) Quit (Quit: joaomelo)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: currently wijiti is available for 1.8</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; +1 if anyone does do some porting of either REST API to 3.0, it'd be great to advertise so we can start to work on getting an "official" REST API adopted in time for 4.0</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; well I think porting to 3.0 will be mostly correcting path names due to Maven Project Consolidation, right?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. we've gone off on a bit of a tangent here to discussing REST APIs, but it's a good tangent (so I'm not gonna stop it)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; yea, many people would really like to see a REST API finally in 4.0, some good stuff depends on it</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- not sure that Maven Consolidation would even really affect the REST API, as it should be just using classes out of dspace-api.    But, I don't imagine there'd be much work to get a REST API working on 3.0 if it's already working on 1.8</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;KevinVdV&gt; Where is the rest api (IF I should find the time) ? (on github that is)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;PeterDietz&gt; So the ticket Ds-1083, isn't neccessarily command-line user provisioning, its batch user operations</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/hedtek/dspace-rest">https://github.com/hedtek/dspace-rest</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ hedtek/dspace-rest · GitHub ] - <a href="https://github.com/hedtek/dspace-rest">https://github.com/hedtek/dspace-rest</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; here's hedtek</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the Wijiti REST API (which joao said he likes): <a href="https://github.com/wijiti/dspace-rest-api">https://github.com/wijiti/dspace-rest-api</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ wijiti/dspace-rest-api · GitHub ] - <a href="https://github.com/wijiti/dspace-rest-api">https://github.com/wijiti/dspace-rest-api</a></span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; it's essentially down to those two REST APIs...the 3rd REST API (<a href="https://github.com/DSpace/dspace-rest)">https://github.com/DSpace/dspace-rest)</a> was just a Google Summer of Code project and it's a bit unstable</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; both of those built on the original GSoC project</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; yep. hedtek &amp; wijiti built a more stable version of the original GSoC project</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; btw hedtek is working on removing this thing called sakai bus manager... or something</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; ehm, not hedtek, jorum (on the hedtek version)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; "Sakai EntityBus"</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; It was the technology that the original REST API used to do the REST work...there's much better ways to write a simple REST API these days (Spring, etc).  So, trying to get rid of the Sakai EntityBus is probably a good thing</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; is there anyone who tried _both_ APIs and can tell us their experience?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;PeterDietz&gt; I've only used the hedtek version</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like no-one.  I'd also be interested in hearing from anyone who has used both (I haven't)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-green">* DoctorLard (~johnno@9.109.124.202.static.snap.net.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; hi jonathan</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- did you like the hedtek version?  Any feedback on it?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;PeterDietz&gt; Its read-only, and at the time, that was the scope of my interest. I found it to be much better than the gsoc rest-api</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;- *DoctorLard* +1 Wijiti version of REST API - have it running nicely in a test instance.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;PeterDietz&gt; It never crashed / timed-out</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; I've said this before, but I like the hedtek focus on testing, and I like the read-only aspect as well</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;PeterDietz&gt; Some options weren't quite working, I think there was an email thread sharing that back to hedtek</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;DoctorLard&gt; +1 Wijiti version of REST API - have it running nicely in a test instance.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;DoctorLard&gt; it's built on the hedtek version</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; The pros I've heard (from others) about the hedtek REST API were exactly those things -- it has unit testing, it's very scalable, it's read-only (which can be a benefit in some ways, and a detriment  in others)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; btw that hedtek is currently read-only doesn't mean that it can't be easily extended for write functions - it only means they didn't need them, so they focused on read, performance and tests</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; DoctorLard: really? i didn't know that</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;DoctorLard&gt; it seems to be in the commit history</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; I thought the wijiti version was based on the original Google Summer of Code project? (at <a href="https://github.com/DSpace/dspace-rest)">https://github.com/DSpace/dspace-rest)</a>   Really, it's based on hedtek?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;PeterDietz&gt; hmm. They aren't proper forks</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; looking...I don't see any similarities in the commit history of wijiti and hedtek...maybe I'm just missing it?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;PeterDietz&gt; Maybe the "initial import" commits mean starting from previous project</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;DoctorLard&gt; hmm.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; wijiti starts with copying the rest module to the dspace source</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; jonathan, did you mean that wijiti started by forking the original GSoC project?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; yea, my understanding were they both started from the original GSoC project (dspace/dspace-rest)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;DoctorLard&gt; <a href="http://paste.jon.geek.nz/c1d171">http://paste.jon.geek.nz/c1d171</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;DoctorLard&gt; but maybe that's not really a "fork" - more a "replacement"</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; DoctorLard: how did you get that graph? I see that wijiti starts with 8a9490d, so how can there be anything before that?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; ok, nevermind, i'll take a closer look after the DevMtg</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; and I'll talk to wijiti</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;DoctorLard&gt; git log --graph --decorate --oneline wijiti/master</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; yea, we can figure this out later... either way, they've gone off in separate directions (even if they started from a mostly "common" codebase)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; DoctorLard: thanks, i'll take a look later</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;DoctorLard&gt; :P weird.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;DoctorLard&gt; well Wijiti were keen to port it to 3.x next month budget permitting.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; either way, the tests from HedTek should in theory work against another REST-API, so, in theory, we should be able to consolidate the two forks</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; I definitely hope we can all try to find some time to try out both hedtek &amp; wijiti and see which we prefer.  I think there's also a possible area for having multiple REST APIs (e.g. a read-only, and a read/write), but we probably would want them to not be 100% different codebases</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;PeterDietz&gt; It looks like Hedtek's version went dormant, and then Wijiti picked up from where they left off.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;DoctorLard&gt; It should certainly be configurable - at the very least, "rest-readonly = true" or similar.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;PeterDietz&gt; I would say the Wijiti version = Hedtek + Further Improvements</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;PeterDietz&gt; And Hedtek = Original GSoC + Improvements - Write</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; it didn't go dormant. hedtek finished they contract work for jorum and they've been using it (and improving it, e.g. the 1.8 port, removing entitybus) internally</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;DoctorLard&gt; ah, wijiti still using entitybus methinks?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-brick">* DoctorLard checks quickly</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;PeterDietz&gt; dspace-rest github fork of dspace-rest api with development of  integration tests Last updated 9 months ago</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; yes</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;DoctorLard&gt; yes</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;DoctorLard&gt; is that bad? :)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;helix84&gt; depends. they both have different improvements since then.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;helix84&gt; best thing would be to get them work together and sort it out, which i started trying recently</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;DoctorLard&gt; (thanks for supporting pull #107 btw, there will now be slightly fewer surprised DSpace 1.8 github users!)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- but, wijiti was also last updated (at least in GitHub), 6 mos ago.  It looks like there was a period where *both* Wijiti and Hedtek were actively developing...so, the codebases may be somewhat similar, but I don't think they are the same (i.e. I don't think Wijiti is a complete fork of all Hedtek improvements</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; let's move on, we can get back to REST API when we have more news</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; yea, let's move on...Obviously the next steps are to try each out, and work to adopt one or merge them</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; OK, next topic was just the ongoing one on 3.0 / 3.1 updates</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; I also wanted to specifically point out that it seems, at least so far, we have no reports of anyone being able to install 3.0 on Oracle.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; see also DS-1435</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1435">https://jira.duraspace.org/browse/DS-1435</a> ] - [#DS-1435] DSpace 3.0 Oracle compatibility - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; didn't hardy manage to do that locally?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; nope...hpottinger created the issue I just linked to</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; as far as we are aware, no one has been able to install 3.0 on Oracle</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;DoctorLard&gt; ORA-00904: "TRUE": invalid identifier &lt;-- Oracle bug</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;DoctorLard&gt; -__-</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; But, if anyone is willing to give it a try, we could use help here.  I think we are still uncertain what the exact issues are, unless hpottinger has figured anything out</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; DoctorLard: I think that one was fixed post 3.0 and is in the 3.1 branch</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; no, very many balls in the air here, as always</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: no, I meant before we released 3.0</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; definitely need help identifying errors and stack traces for Oracle issues, and helix84, I did raise a flag before pressing the big release button</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, the answer is the same. I don't think anyone ever actually got 3.0 or pre-3.0 working on Oracle.  We just fixed that one minor bug in the Oracle DB upgrade script prior to 3.0 final</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; ok, all i can do is link all the threads that could help to today's hardy's jira issue. but i'm not using oracle...</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; and I tried an upgrade to our 1.7 DB, and ran into issues, and then ran into more issues with our 1.7 DB and have been basically railing against Oracle for weeks</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;helix84&gt; btw hpottinger++ for the debug tip, I'll recommend it to everyone who runs into DB problems</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;DoctorLard&gt; Oracle, Y U NO Boolean!</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; the really fun part is you can't download a version of Oracle to run on OSX any more...</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; how comes? i thought oracle = false, at least in my shop!</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Is it still possible to get a free copy of Oracle, just for testing?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-brick">* helix84 checks... no oracle = 0 ;)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; Yes, you can still download Oracle for Linux and Windows, just not for OSX</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: yes, there's a version with some limits, like 1 GB</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;DoctorLard&gt; Oracle needs to die in a fire.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; DoctorLard++</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-brick">* hpottinger looks around nervously...</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-brick">* helix84 looks around</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; lol</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; no zealots in sight</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: are you willing to give it a try?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; to complicate things even more, we're seriously considering jumping off the Oracle train here...</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; So, it seems like the first step would be to find someone with some time to even just verify things are bad.... (1) download Oracle, (2) try to install Dspace, (3) report whether it works or not.    Assuming #3 = it's broke, then we at least verified we definitely have an issue here.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; basically, who needs oracle support in dspace needs to step up and maintain it</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not likely to have a chance to try Oracle + Dspace 3.0 this week, and after this week I'm off from Dec 22 - Jan 2.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;DoctorLard&gt; hpottinger: I have Oracle --&gt; PostgreSQL stories, revolving around why Oracle don't like people publishing benchmarks.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; Currently, if hpottinger stops using Oracle, I'm not sure we have any other (active) Committers using Oracle..   grahamtriggs used to do Oracle help..but I'm not sure he's doing that anymore in his new job.  I've heard rumors that @mire may be doing some Oracle?</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; beyond those folks, I think everyone else uses Postgres</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: no, I think @mire are happily migrating users off of JSPUI and Oracle :)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; oh, ok.  good to know.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-green">* joaomelo (~DSpace@188.250.43.157) has joined #duraspace</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; but i know some local oracle institutions here</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; but i'm not sure they'd be up to the task</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; so, essentially, our current Oracle support = hpottinger.   We may need to shake the bushes to see if we can find some others to help, or stop promising full oracle support.  (Hopefully hpottinger's lastest email will help shake the bushes some)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;PeterDietz&gt; BioMed Central / Open Repositories is Oracle</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;hpottinger&gt; I'm curious if it would be possible to make clear just what level of support for Oracle there is... would it be possible to move it out to a module?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-brick">* hpottinger ducks</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: it's a DAO</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; DAOs</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- yea Open Repository uses Oracle...they just don't have a Committer any more to help support it</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- nice duck!</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; yea, if we adopt DAOs we could pull Oracle out into a "module".  Need someone to do that work though :)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;DoctorLard&gt; I haven't had a lot of time to explore the codebase, and naiive++, but Hibernate?</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; I think I've seen something like h2 DAO in the codebase, but it's definitely not production, more like a placeholder</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-navy">* scottatm_ (~scottatm@adhcp210.evans.tamu.edu) Quit (Quit: scottatm_)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; I mean if it's mostly community-supported code, why not just move it out of the main code base, if it's possible, to make the contract clear</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: i don't agree here,</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; we currently have things set up so that they could be implemented with different storage backgrounds (probably even with solr),</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; Hibernate == definitely worth looking at.  But, our main problem in the codebase right now is that the Oracle &amp; Postgres support is really hardcoded in everywhere...not very easy to pull out unless we find volunteer(s) to work on making it happen</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; so it would be a step back to throw it out</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; what i'm saying is that it would be easier (for someone who knows it) to fix oracle than to throw out oracle completely</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; well... I'm just a tad grumpy, it's best if you all ignore me :-)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 - yes, I agree.  Easiest route would likely be to fix oracle support.  But, longer term, I agree with others that it'd be nice if Oracle/Postgres were *both* modularized, so that both need not be 100% out of the box</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: what about Andrea and CILEA, they did some DAO work, was that just to support Solr or also Oracle?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. if we just offered a "Postgres" module out-of-the-box, then we could find someone else to support the "Oracle" module...and maybe we'd find others wanting to support a "MySQL" module</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-brick">* helix84 shivers</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; my memory is not that good...you can ask Andrea/CILEA :)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; I remember seeing some DAO work in the new JSPUI/Discovery code</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; I'll take a look if I'll remember</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; Ok...we're mostly going in circles here.  We obviously need some Oracle Support help and need to see who out there is still using Oracle &amp; willing to help with suppot</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; As time is essentially "out"...I do want to mention again that I'm going to be heading on holiday next week.  I'll be out/offline from Dec 22 - Jan 2.  So, I'll miss our next two scheduled mtgs -- Weds, Dec 26 &amp; Weds Jan 2</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; I won't be here on the 26th, either, but I'll be here on the 2nd</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; You all are more than welcome to meet / see who shows up.  Or we can just cancel</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; Oracle Vbox images with 11g on them: <a href="http://www.oracle.com/technetwork/community/developer-vm/index.html">http://www.oracle.com/technetwork/community/developer-vm/index.html</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kompewter&gt; [ VirtualBox VMs for Developers ] - <a href="http://www.oracle.com/technetwork/community/developer-vm/index.html">http://www.oracle.com/technetwork/community/developer-vm/index.html</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, I suspect many folks won't make the 26th meeting.  The Jan 2nd meeting is likely to get better attendance.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; I'll hop in to IRC on the 26th, just for grins</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; But, we can also just 'play it by ear'.  If folks show up, you can talk about whatever you want to talk about :)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; Also -- as noted, I'm likely to be offline during my break.  So, if you email me, don't expect a response until after the new year :)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; Play it by ear: +1</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;KevinVdV&gt; Needs to run until next week guys</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds good then.  Well, that's all the topics I had to bring up for today.  I hope everyone has a happy holidays/new year!</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- Go on, try it!)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; I think Joao might still have something to say if you can still hang around</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;joaomelo&gt; in fact i do have a problem with the current dspace-api</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; yep...I'm still here. I can hang around.  Just no more "official" topics on our agenda</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;joaomelo&gt; the development of springui requires us to break the current core</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;joaomelo&gt; so there are 2 solutions: break, or develop a new dspace-api module (something like dspace-api2)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; we didn't try to keep the API intact between major releases, did we?</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; we don't always do a good job of keeping our API (dspace-api) intact between major releases...we did change some things from 1.8 -&gt; 3.0</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: would there be a problem with a more significant change? or is that expected?</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-green">* scottatm_ (~scottatm@adhcp210.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; A more significant change just really needs to be run by the Committers as a whole.  Depends on the change</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; I'm just noting that we historically have "broken" (usually slightly broken) the dspace-api between major releases...</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; So, essentially we'd need to see a proposal for what the suggested  significant changes are to the dspace-api...so that folks can comment on them and we can vote</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;joaomelo&gt; using a DAO approach will break it</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; but still better to change the API than to maintain 2 APIs, no?</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; especially if new features would depend on the new one</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; +1 I'd say it's better to try to change the current API than create a new one.   Changing the current API may be harder (cause you need approval of the committers &amp; we need to fix all UIs as needed), but it'd be better over the long term than trying to maintain two separate APIs</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: ping?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: ping?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; yup, still here, lurking</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm still here, I was reading over <a href="https://github.com/richardrodgers/mds">https://github.com/richardrodgers/mds</a></span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;kompewter&gt; [ richardrodgers/mds · GitHub ] - <a href="https://github.com/richardrodgers/mds">https://github.com/richardrodgers/mds</a></span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; though, quite distracted by this shiny toy: <a href="http://pdfx.cs.man.ac.uk/">http://pdfx.cs.man.ac.uk/</a></span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;kompewter&gt; [ pdfx: PDF to XML ] - <a href="http://pdfx.cs.man.ac.uk/">http://pdfx.cs.man.ac.uk/</a></span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;helix84&gt; must... not... look...</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;helix84&gt; slap! stay focused</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-brick">* tdonohue shines a light at hpottinger...hey look over here...shiny!</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;PeterDietz&gt; ok, so what is the change the breaks that API.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; helix84, you have my attention... I'll be needing a beverage soon, though</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;PeterDietz&gt; I say we have full authority to break API between versions. Just make sure that clients are updated to the newer "contract"</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;hpottinger&gt; and we have a whole year to deliberate it...</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz++  (I'd actually guess that we *usually* break small parts of the API between major versions)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;helix84&gt; like i said (off channel) - better to break the API now, early in the cycle</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; helix84++</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;PeterDietz&gt; ..but saying "hey I have some random change that alters a decent amount of core code", before that PR gets merged into master, it should have a good reason, fix what it breaks, and get buy-in from others</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;PeterDietz&gt; ...and that PR should also get Hardy, and myself, a drink...</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietz++</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;joaomelo&gt; maybe in the following weeks i could show a proposal</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-brick">* tdonohue is looking for the "buy a drink" option in GitHub...</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;joaomelo&gt; our current DAO approach is here <a href="https://github.com/lyncode/DSpace/tree/springui/dspace-springui/src/main/java/org/dspace/orm">https://github.com/lyncode/DSpace/tree/springui/dspace-springui/src/main/java/org/dspace/orm</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-springui/src/main/java/org/dspace/orm at springui · lyncode/DSpace · GitHub ] - <a href="https://github.com/lyncode/DSpace/tree/springui/dspace-springui/src/main/java/org/dspace/orm">https://github.com/lyncode/DSpace/tree/springui/dspace-springui/src/main/java/org/dspace/orm</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;helix84&gt; oooh, shinyyy ;)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; joaomelo - that sounds that a good timeline for a proposal.  We can even add it to a meeting agenda after the new year to kick off discussion on it</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-navy">* joaomelo (~DSpace@188.250.43.157) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; oooo...that is shiny!  I think you're likely to get a lot of support for DAO work in the dspace-api (even if it breaks stuff initially)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-green">* joaomelo (~DSpace@188.250.43.157) has joined #duraspace</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; hmm...joaomelo seems to have fallen off...there he is</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; I just said:</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; (3:20:44 PM) tdonohue: oooo...that is shiny!  I think you're likely to get a lot of support for DAO work in the dspace-api (even if it breaks stuff initially)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: what he's asking us is to fix xmlui</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; i think kevin would be willing to help with that</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;joaomelo&gt; and jspui</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; i thought you're good with jspui :)</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; well, you'd likely need to fix all other interfaces -- xmlui, jspui, oai, lni, swordv1, swordv2</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; oai is joao's child</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; again, that's not a huge problem, as long as the Committers approve of the dspace-api change...and as long as the change gets in EARLY (so we have time to fix all the necessary interfaces)</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; and didn't we want to exclude lni?</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; yea, but LNI still exists in 3.0.  I had talked about that at one point, but it never happened</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; I was just listing *all* our DSpace interfaces for completeness...they'd all need possible fixing / testing</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; (i don't necessarily agree, just pointing that out)</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;joaomelo&gt; +1 for excluding it</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; i think REST would make up for LNI</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;helix84&gt; who was the main LNI user?</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; MIT (Sands &amp; RichardR) uses LNI</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; So, likely they'd fix it if it got broken</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;PeterDietz&gt; so.. I've never used Hibernate. I've got some questions about it</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;PeterDietz&gt; but for starters, having to write all your own SQL, is an old paradigm, and the ORM/hibernate should handle that CRUD</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially, next steps are to: (1) get a proposal in front of the committers &amp; discuss it (on email or mtg or both), (2) if it gets approved, try to get the code in early, (3) Then work with other Committers to fix each of our existing interfaces that'd need fixing</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;PeterDietz&gt; regarding UI fixes. Without being TOO forward looking, I wonder if there is some type of non-complicated "business logic layer" plumbing we could put in place, so that changes like this to API don't affect UI</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;hpottinger&gt; Business Logic Layer ++</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; well that's another thing that has been talked about for a long time - putting more business logic INTO the API and remove it from the UIs</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; so it seems an API change is in order anyway</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; yea...we've been talking several things that would require significant API changes...DAOs would, a Business Logic Layer would, etc.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;helix84&gt; and it seems there could potentially be a good deal of parallelization of that work, different people fixing different UIs :)</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietz, what's your questions about Hibernate? I'm no expert, but it would guide my research</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;PeterDietz&gt; I need to look at, and play with, MDS</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, we definitely could do fixing in parallel.  Again, I know many Committers have been wanting some form of DAOs for a long time...so, I suspect folks will be willing to chip in &amp; help</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;hpottinger&gt; This is an area of interest in particular for Robin Taylor, I believe</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; Robin Taylor is interested in DAOs, Mark Diggory is/was interested in DAOs, I am interested in DAOs, I suspect many others as well</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-brick">* helix84 has been having wet dreams about DAOs</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;helix84&gt; no, not really :)</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;hpottinger&gt; I am, in abstract, interested in them (see what I did there?) :-) Though, really, we're not going to be using Oracle for much longer</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;hpottinger&gt; but, if we can off-load Oracle compatibility concerns, hooray!</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;helix84&gt; i think it's about hibernate, too</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;helix84&gt; or solr</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger -- but DAOs will let you gracefully "exit" your role as DSpace Oracle Support Guy ;)  - "Now you can support it yourself!"</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: didn't ask for the role, happy to be rid of it, let's get it done</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;tdonohue&gt; no one ever asks for the DSpace Oracle Support Guy role...it just gets bestowed on the nearest person using DSpace + Oracle  :)</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;hpottinger&gt; and atmire is under contract to support DSpace on Oracle...</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: just before today's DevMtg Val has posted the minutes from yesterday's DCAT meeting about DC registry update, we should put it on the agenda so that we don't forget (in a few weeks).</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- from talking with Val, it sounds like DCAT is preparing a proposal for the Committers to review.  I don't think that proposal is complete yet -- when it is, it will definitely go on our agenda</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:21]</span> <span class="irc-navy">* jonathangee (~jgreen@142.176.125.60) Quit (Quit: jonathangee)</span><br />
+<span class="irc-date">[22:38]</span> <span class="irc-green">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) has joined #duraspace</span><br />
+<span class="irc-date">[22:49]</span> <span class="irc-navy">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[22:52]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:58]</span> <span class="irc-green">* DoctorLard (~johnno@9.109.124.202.static.snap.net.nz) has left #duraspace</span><br />
+<span class="irc-date">[22:58]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has left #duraspace</span><br />
+<span class="irc-date">[23:04]</span> <span class="irc-green">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) has joined #duraspace</span><br />
+<span class="irc-date">[23:06]</span> <span class="irc-navy">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) Quit (Client Quit)</span><br />
+<span class="irc-date">[23:14]</span> <span class="irc-green">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) has joined #duraspace</span><br />
+<span class="irc-date">[23:19]</span> <span class="irc-navy">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) Quit (Client Quit)</span><br />
+<span class="irc-date">[23:21]</span> <span class="irc-green">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) has joined #duraspace</span><br />
+<span class="irc-date">[23:28]</span> <span class="irc-navy">* joaomelo (~DSpace@188.250.43.157) Quit (Ping timeout: 244 seconds)</span><br />
+<span class="irc-date">[23:33]</span> <span class="irc-navy">* jonathangee (~jgreen@blk-142-16-43.eastlink.ca) Quit (Quit: jonathangee)</span><br />

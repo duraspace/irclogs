@@ -1,0 +1,372 @@
+<span class="irc-date">[0:06]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[0:27]</span> <span class="irc-green">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[1:40]</span> <span class="irc-navy">* ksclarke (~kevin@184.39.30.147) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[1:57]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[2:03]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[2:04]</span> <span class="irc-green">* Tonny_DK (~thl@130.226.36.117) has joined #duraspace</span><br />
+<span class="irc-date">[2:33]</span> <span class="irc-navy">* achelous (~tom@174-126-228-87.cpe.cableone.net) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[2:43]</span> <span class="irc-green">* mdiggory_ (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[2:45]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[2:45]</span> <span class="irc-green">* mdiggory_ is now known as mdiggory</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-green">* DuraLogBot (~PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[4:18]</span> <span class="irc-green">* pvillega (~pvillega@62.77.170.185) has joined #duraspace</span><br />
+<span class="irc-date">[4:19]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[5:25]</span> <span class="irc-green">* pvillega_ (~pvillega@62.77.170.185) has joined #duraspace</span><br />
+<span class="irc-date">[5:29]</span> <span class="irc-navy">* pvillega (~pvillega@62.77.170.185) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[7:00]</span> <span class="irc-green">* pvillega__ (~pvillega@86.47.50.67) has joined #duraspace</span><br />
+<span class="irc-date">[7:03]</span> <span class="irc-navy">* pvillega_ (~pvillega@62.77.170.185) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[7:07]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[8:22]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[8:37]</span> <span class="irc-green">* ksclarke (~kevin@184.39.30.147) has joined #duraspace</span><br />
+<span class="irc-date">[8:37]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[8:37]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[9:04]</span> <span class="irc-navy">* Tonny_DK (~thl@130.226.36.117) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[9:13]</span> <span class="irc-green">* cbeer (~cbeer@146.115.109.226) has joined #duraspace</span><br />
+<span class="irc-date">[9:34]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[9:43]</span> <span class="irc-green">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:55]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[11:14]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:15]</span> <span class="irc-green">* pvillega (~pvillega@62.77.170.185) has joined #duraspace</span><br />
+<span class="irc-date">[11:16]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[11:18]</span> <span class="irc-navy">* pvillega__ (~pvillega@86.47.50.67) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[11:33]</span> <span class="irc-green">* pvillega_ (~pvillega@62.77.170.185) has joined #duraspace</span><br />
+<span class="irc-date">[11:33]</span> <span class="irc-navy">* pvillega (~pvillega@62.77.170.185) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[11:33]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[11:34]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:26]</span> <span class="irc-green">* achelous (~tom@216.160.210.151) has joined #duraspace</span><br />
+<span class="irc-date">[12:44]</span> <span class="irc-navy">* pvillega_ (~pvillega@62.77.170.185) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[12:47]</span> <span class="irc-green">* mdiggory (~mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:22]</span> <span class="irc-navy">* achelous (~tom@216.160.210.151) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-green">* achelous (~tom@216.160.210.151) has joined #duraspace</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-green">* bradmc_ (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-green">* bradmc_ is now known as bradmc</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-navy">* ksclarke (~kevin@184.39.30.147) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-green">* ksclarke (~kevin@184.39.30.147) has joined #duraspace</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-navy">* ksclarke (~kevin@184.39.30.147) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-green">* ksclarke (~kevin@184.39.28.234) has joined #duraspace</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-green">* grahamtriggs (~grahamtri@cpc1-stev6-2-0-cust340.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-green">* cccharles (~chris@131.104.62.47) has joined #duraspace</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-green">* pvillega (~pvillega@89.100.155.181) has joined #duraspace</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-green">* carynn (~cneiswen@c726.staff.lib.uci.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-brick">* kshepherd orders a large flat white with 2 extra shots</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-brick">* tdonohue has no idea what kshepherd just ordered, but guesses it involves caffeine :)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; DSpace Dev meeting will start in a few minutes.  Agenda up at: <a href="http://wiki.dspace.org/confluence/display/DSPACE/DevMtg+2010-06-09">http://wiki.dspace.org/confluence/display/DSPACE/DevMtg+2010-06-09</a></span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-brick">* PeterDietz learns that flat white is Kiwi speak for fancy coffee-beverage <a href="http://en.wikipedia.org/wiki/Flat_white">http://en.wikipedia.org/wiki/Flat_white</a></span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-brick">* tdonohue mmmm...that does sound good</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; Ok all -- may as well get things started here.  (If anyone has anything to tack onto the agenda, feel free to send it along.)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; GSoC updates are first -- as announced, the Unit Testing Project meets right here in 1hr -- so, stick around if you have time</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory, did you have other GSoC updates to add?</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;kshepherd&gt; heh, i forgot USA doesn't do "flat whites". i got strange looks when i tried to get one in Atlanta ;) like a small strong latte, i think</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, mdiggory must not be around yet -- one thing I saw (from dspace-gsoc-student listserv) is that they are attempting to have other project meetings earlier on in the day (so that students in other timezones can attend)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; FYI -- it looks like their latest proposal for GSoC Student meetings is at 12:00UTC.  I'm sure mdiggory will announce more widely once it is finalized</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; Any other GSoC updates?  If not, we can skip ahead to 1.6.2 updates...</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd (or stuartlewis) -- any updates on 1.6.2 status?  Should we set a "date" / make an official announcement?</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: I haven't recieved a patch for DS-584 yet, but it seems as though all we really need to do is "UNIXify" the start-handle-server script you uploaded</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;kshepherd&gt; so if i haven't heard from stuart by later this afternoon i'll do that myself, hopefully should have a few free minutes today since i started early</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; yea -- my version got all mucked up by NetBeans on Windows -- you should just be able to run 'dos2unix' to fix it</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;kshepherd&gt; i've also confirmed with Jeff this morning that he's good to commit the upgrade instructions to doco (DS-604) in the next few days</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;kshepherd&gt; s/upgrade/fixes to upgrade/</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; excellent -- so, 1.6.2 will just fix DS-584 (the biggie) and DS-604...correct?</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;kshepherd&gt; correct. so perhaps we can announce for next wednesday (16th) to be on the safe side?</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; so, is that proposing you "cut" the release on Weds (16th), and that it likely becomes available in Maven Repo by the 17th  (since I know there is quite a delay there, as we saw with 1.6.1)</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;kshepherd&gt; mm.. i was thinking i could hopefully cut by the monday</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;tdonohue&gt; essentially, I'm suggesting we announce the release date as being ~24hrs *after* you actually 'cut' the release (if that makes sense)</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;kshepherd&gt; so weds would allow propagation</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- that's also fine -- I was just wanting to make sure you had left in that "buffer" for the propagation</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;kshepherd&gt; yeah, definitely makes sense.. the average list reader wants to know when they can download it, not when i am first releasing it ;)</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; yep, exactly :)</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;mhwood&gt; Not to mention that the Americas are so far behind....</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;tdonohue&gt; ok, so kshepherd, do you want to draft up a 1.6.2 announcement then?  or do you want me to?</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;kshepherd&gt; this is assuming that Jeff is able to get the documentation in time. is anyone here good enough with docbook to raise their hand to be a backup person, in case Jeff gets busy this week?</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mhwood&gt; How complex is it?  I am relatively new to DocBook but I can try.</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: hmm, if you're able to that'd be great, otherwise i can try to find time this afternoon while i'm doing the patch up</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood: i don't think it's very complex, but i haven't really even touched it before ;)</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- I'll likely not get to it today -- but, I can draft it up tomorrow if you don't get to it (so, if I don't see a draft from you by the time I wake up tomorrow, I'll do it) :)</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;kshepherd&gt; <a href="http://wiki.docbook.org/topic/DocBookTutorials">http://wiki.docbook.org/topic/DocBookTutorials</a></span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;mdiggory&gt; Sorry, today is very busy...  it looks as though, until more formally defined, there will be Pere's GSoC meeting after this one.  We will announce more formal scheduling on the other students, I hope before he end of the week.</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mdiggory for the GSoC update...</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- so, is mhwood the backup for jeff then?</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;mhwood&gt; I'll take a look at DS-604 but it sounds like I can fill in on the DocBook stuff.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood!  If either you or kshepherd run into problems, just yell my way (or on dspace-devel)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;kshepherd&gt; cool thanks, i'll get in touch if need be</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds good then -- I'm assuming that's it for 1.6.2 updates?</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;kshepherd&gt; yep</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;tdonohue&gt; Ok -- on to discussion topics...</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;tdonohue&gt; I sent this out to committers, but it's possible some non-committers may haven't had a chance to review..  at OR10, DuraSpace will be recommending integration of Fedora with DSpace.  We've started up a FAQ: <a href="http://wiki.dspace.org/confluence/display/DSPACE/DSpace-Fedora+Integration+FAQ">http://wiki.dspace.org/confluence/display/DSPACE/DSpace-Fedora+Integration+FAQ</a></span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially, we (DuraSpace) is looking for feedback from you (committers/developers/interested persons) around this idea, and the FAQ itself....</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;tdonohue&gt; so, if anyone has any thoughts to share now (positive/critical/unsure), please feel free....  (If you haven't had a chance to review this, please, by all means email me offline)</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;tdonohue&gt; a more formalized announcement is forthcoming -- we just wanted some initial feedback first</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: Ive been hunting for time to respond further, it is good that Duraspace recognizes this</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-green">* robint (~52292565@gateway/web/freenode/ip.82.41.37.101) has joined #duraspace</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mdiggory -- send on a response when you get a chance</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;mdiggory&gt; This is actually something that has been evolving for sometime within the community and I think that advertising the organizations position on it may lead to greater support, hopefully funding.</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;tdonohue&gt; anyone else have thoughts on this DSpace-Fedora integration idea (and the FAQ) itself?</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;mdiggory&gt; I will challenge, that getting Fedora and DSpace communities working together will take "coming to the center" on both sides.</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;kshepherd&gt; it sounds like a logical step, i'm not sure how much use i can be though, aside from testing etc..</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- I agree on both points</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-brick">* mhwood still trying to grasp *why*, but the FAQ looks like it will help.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm not familiar with how fedora works, but its looks like build integration on many fronts (compatible data  / AIPs, code talks with it, ...)</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mdiggory&gt; unfortunately the fedora meeting time is a big conflict for me or I would be there on a weekly basis.</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: does this help at all with the "why"? <a href="http://wiki.dspace.org/confluence/display/DSPACE/DSpace-Fedora+Integration+FAQ#DSpace-FedoraIntegrationFAQ-Whataretheperceivedbenefits%3FWhydothisintegration%3F">http://wiki.dspace.org/confluence/display/DSPACE/DSpace-Fedora+Integration+FAQ#DSpace-FedoraIntegrationFAQ-Whataretheperceivedbenefits%3FWhydothisintegration%3F</a></span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;kshepherd&gt; fedora meetings are all over skype, correct?</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: or does that not begin to answer your questions? (If not -- that's good feedback)</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;grahamtriggs&gt; I have thoughts, but I'm trying to shape them into a coherent whole</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- yes, fedora meetings are on skype right now</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mdiggory&gt; so if there were a way to get something scheduled that was specifically tailored for creating a forum for discussion between the two groups, it would promote more collaborative discussions</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mdiggory&gt; yes, they are conference calls, little is done in IRC actaully.</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue: third major bullet begins to address why nondevelopers might want this.  I'll study the whole thing.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;tdonohue&gt; yes, I agree -- we definitely need to find ways to promote more discussion between both groups (Fedora &amp; DSpace) and come to a "middle ground" -- some of this, we hope to start figuring out at OR10.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mhwood&gt; Ah, I need to figure out how to make Skype work.  I'd wondered why there was almost nothing on IRC at those meetings.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;tdonohue&gt; though, I'm sure much of this work will be ongoing for a while -- it's not something that will happen overnight, but we'd like to work towards it</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yes, would be good to hear your thoughts once you've had a chance to fully review</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;kshepherd&gt; cool. if any "collaborative meetings" start to be organised, i'd just like to vote for IRC over Skype, because it's (a) loggable, (b) i can be in a meeting while attending another meeting at work, (c) i think it's just easier for newcomers to join in and share ideas/ask questions, (d) nobody will be confused by my ridiculous accent ;)</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-brick">* mhwood would prefer written meetings too, but will adapt as needed.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;tdonohue&gt; yep -- I'd agree... I think we'll definitely need to solve the communication issues, etc.</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;tdonohue&gt; I guess I was more looking to see if people think this seems like a good initiative  (we can figure out the specific details later, and some of them will hopefully start to take shape at OR10)</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;mdiggory&gt; I challenge though, that the activities in our community are already happening in the GSoC projects,  and these projects cannot wait for OR10 to arrive</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;tdonohue&gt; (the other question is whether this FAQ is clear enough -- keeping in mind that it's audience is a general DSpace user, not necessarily a developer/committer)</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; it would have been ideal to have a Fedora team member as an observer/mentor to consult with on these projects</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;kshepherd&gt; true..</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- sure, we can talk to Chris Wilper to see if they have anyone who can help or consult</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- do you want to send an email to Chris &amp; I?  Or should I send it?</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;carynn&gt; might be useful to have a very quick description of the two frameworks (dspace and fedora) - just to provide some context for non-developers</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;mdiggory&gt; It would be good maybe if you did it.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;mdiggory&gt; Its challenging to to talk about it without involving the topic of development / commiter, because DSpaceand Fedora integration is about combining them at the developer level as tools and packages, specifically , sharing and reusing code, agreeing on development best practices and alignment on platform and third party technologies</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- ok i can send an email to Fedora folks &amp; copy you in</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mdiggory&gt; thank you</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mhwood&gt; So then, what's in it for sites is that developers work faster?</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;tdonohue&gt; carynn -- good suggestion, thanks</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- essentially, what's in it for sites is (1) the extra features it could offer (which Fedora or similar could enable), and (2) the DSpace + Fedora developer pools will start to overlap more -- potentially allowing for more devs to pull from for larger projects, etc</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;tdonohue&gt; As mdiggory mentioned, we've already essentially started to move in this direction -- DSpace 2 data model was (and this is simplifying things, I know) somewhat similar to a Fedora-like model -- doesn't it make sense not to work together in that sense</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;mhwood&gt; (2) is basically what I said:  dev.s become more productive.  Not bad, but is it compelling (for the nondeveloper)?</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;tdonohue&gt; potentially...for (2) it could mean more UI-based features (if for instance, the DSpace Dev team didn't have to worry as much about backend storage stuff, and they could concentrate more on DSpace workflows and UI features, etc)</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;carynn&gt; i would probably stress that this puts us more in line with the "semantic web"... as it's framed now, it seems (again, from the non-developer pov) that this is basically a way for dspace to change the way the bitstreams and metadata are stored (i.e. kind of like another option to a srb)</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;carynn&gt; (btw - i totally understand that this isn't what's happening... just providing a potential pov)</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mhwood&gt; I worry that people will think, we spend a lot of time adjusting our uniforms instead of playing, and now we are proposing yet another period of adjustment.  Good things are coming along at the same time, but we need for people to readily see that.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- I'd actually see this as us finally "playing" -- for many years we've just been "adjusting our uniforms" around "2.0" and a better data model.  This is a plan towards a better data model (which is in line with the past 2.0 prototype work) ---  it's also not something that's going to suddenly happen overnight, this is a roadmap</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; At the funding / decision making level, it reduces the competition between the two communities,  alignment and consolidation of technologies means more users and less "politics" in making a choice of platform.  It also eliminates the mistaken assumption that you choose either "dspace" or "fedora"</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; good point, mdiggory</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;carynn&gt; mdiggory: which means, at the user level, it gives me a little more flexibility (i.e. i can choose a fedora module that i really like, even though i want to install dspace)</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;tdonohue&gt; and, essentially, this is also one of the reasons DuraSpace even exists</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;tdonohue&gt; DSpace and Fedora have been realizing for a while that there is overlap in their missions, and increasing overlap in their codebases (esp with 2.0 + Fedora) -- hence DuraSpace</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;robint&gt; mdiggory: Playing devils advocate a bit but competition can be healthy.</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;tdonohue&gt; I feel like I'm now arguing a point -- and I really don't mean to be (sorry if it seems I am).  I'm all for open discussion &amp; playing devil's advocate...i'm just trying to see what the real concerns are, or if there are other ideas to bring forth instead</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, but that's all internal to the project(s).  I can imagine a lot of people wondering, "so, how will this help to get sooner to a state where things are sorted the way we expected them?"</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;tdonohue&gt; ok -- i understand the point, mhwood.  Yea, we aren't suggesting we suddenly *stop* making DSpace better and work entirely on DSpace on Fedora.   I think all of this will happen gradually over time</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;robint&gt; mhwood: I agree. I ran this past various repo managers and librarians here and the response was underwhelming. They will get interested when they see versioning (for example). They care less about how we achieve it.</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;tdonohue&gt; So, we should continue to fix issues with DSpace...we aren't stopping one thing and putting all efforts elsewhere</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;stuartlewis&gt; Not sure if this is relevant - but I showed the FAQ to a few people who know a bit about repositories, but are not DSpace/Fedora experts. They all understood the concepts, and heartily agreed that it seemed a good way forward.</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;mhwood&gt; But it's more than that; it's another demand on developer bandwidth.  It will slow down things end-users want, for a while.  Eventually development should be more productive than before, but that's eventually.  What do we offer in the shorter term?</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;tdonohue&gt; robint -- that is interesting</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;mdiggory&gt; where in this topic did we get an idea that we would stop improving DSpace?</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;kshepherd&gt; the success of the GSOC project and any pilots/case studies involved with it might clear up some of these concerns</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;mdiggory&gt; Or that we have to stop working on DSpace to begin to benefit from tools that the Fedora community has developed</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- good point.  we are hoping the GSOC projects will be successful, and at least provide a template/prototype for how we could move towards this idea.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;tdonohue&gt; we also have a very "high-level" 5-step process mapped out here: <a href="http://wiki.dspace.org/confluence/display/DSPACE/DSpace-Fedora+Integration+FAQ#DSpace-FedoraIntegrationFAQ-WhataretheplansforintegratingtheDSpaceapplicationwiththeFedorarepositoryplatform%3F">http://wiki.dspace.org/confluence/display/DSPACE/DSpace-Fedora+Integration+FAQ#DSpace-FedoraIntegrationFAQ-WhataretheplansforintegratingtheDSpaceapplicationwiththeFedorarepositoryplatform%3F</a></span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mdiggory&gt; TBH, the Solr discovery work is based on success using solr not only int he Fedora communities, but also int eh Blacklight communities</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;tdonohue&gt; As you can see from that high-level 5 step process, #1 &amp; #2 are already being worked on in some way -- it's a matter of slowly but surely planning/developing the others.  (And this may happen over several releases -- maybe 1.7 includes #1 and part of #2, ...1.8 includes a bit more, etc. etc.)</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;tdonohue&gt; I see it as a longer term roadmap (though not too long of term, as we do want to get it done...but, it's not on a timeframe to get finished this year)</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;PeterDietz&gt; Which means we'll need to do some planning for whats in it for me in 1.7 sometime in the future</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;tdonohue&gt; yep...PeterDietz, exactly.   I'm definitely hoping the AIP capibility (#1 in that list) will be ready and approved -- I'll be suggesting some Trunk changes in the next week to help enable that...</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;tdonohue&gt; ack...well...look at the time.</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;tdonohue&gt; any last thoughts?  I want to turn this over to the GSoC Unit Test project soon</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;PeterDietz&gt; Cool, I'm still confused with AIP.. In particular how to offline the idea of communities / collections</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz:  it's already "working' (to a point) -- have a read through the wiki page when you get a chance: <a href="http://wiki.dspace.org/confluence/display/DSPACE/AipBackupRestorePrototype">http://wiki.dspace.org/confluence/display/DSPACE/AipBackupRestorePrototype</a></span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;mdiggory&gt; I'm looking more at framework/architecture.... The improvements we need to continue to do, especially for 1.7 are in preparing DSpace for being able to plug in other tools and technologies under the hood</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;tdonohue&gt; Ok --well, I think this has been a good initial discussion.  I'd really encourage you all to ask further questions, voice concerns, play devil's advocate, etc.... maybe we should move all this discussion to dspace-devel and open it up further</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;mdiggory&gt; the work that needs to happen in 1.7 isn't "add fedora", its. what needs to change in what DSpace currently does so others can add fedora if they want to</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;kshepherd&gt; yes, even ignoring "fedora" for a moment, pluggable storage is good</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;tdonohue&gt; yea -- I'd say we definitely don't want to "add fedora" in 1.7 -- we won't be fully ready...but, pluggable storage is good.</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;tdonohue&gt; Ok -- I'll close this meeting now.  I'll start a thread on dspace-devel about this idea -- please bring your thoughts/ideas there.</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;mhwood&gt; Thanks!</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;kshepherd&gt; cheers all</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks all!  Stick around for the GSoC Unit Testing meeting (this could also be at least partially ready for 1.7 -- hopefully!)</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;stuartlewis&gt; We hope so! :)</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;tdonohue&gt; (that is-- stick around if you can!)</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mhwood&gt; I wish I could stay....</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-brick">* PeterDietz goes into lurk mode.</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - a quick recap from our last meeting two weeks ago:</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-green">* bojans (~Bojmen@91.118.65.110) has joined #duraspace</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-brick">* stuartlewis digs into his email...</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;mdiggory&gt; Continuing briefly ... we've used pluggable storage, both rrodgers version and the 2.0 version.... we need to continue the topic from last weeks GSoC meeting about things like how do we use a "StorageService" in DSpace 1.7</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;stuartlewis&gt; We agreed that the first phase of his project would be to look at getting junit embedded into the maven build process, and start writing some exemplar scripts.</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;stuartlewis&gt; Pere has now done this, and has committed his work to an svn branch if you want to try it out.</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;stuartlewis&gt; It seems to work fine.</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;pvillega&gt; (please try it! )</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://scm.dspace.org/svn/repo/sandbox/gsoc/2010/testing/">http://scm.dspace.org/svn/repo/sandbox/gsoc/2010/testing/</a></span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;stuartlewis&gt; So we have two things to discuss today:</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;stuartlewis&gt; 1) What we think of his current work - is any of it ready to merge back into trunk, or does it need more work</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;stuartlewis&gt; 2) Where next?</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;stuartlewis&gt; If we talk about #1 first.</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;stuartlewis&gt; Any comments on the work so far?</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;stuartlewis&gt; Here's some specific examples: <a href="http://scm.dspace.org/svn/repo/sandbox/gsoc/2010/testing/dspace-api/src/test/java/org/dspace/content/">http://scm.dspace.org/svn/repo/sandbox/gsoc/2010/testing/dspace-api/src/test/java/org/dspace/content/</a></span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;pvillega&gt; I explained a bit the tests on the mail to the GSOC list and added information in the wiki, but I can clarify any questions you may have</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;tdonohue&gt; (i'll admit, I haven't had a chance to review Pere's work yet -- just haven't had the free time, unfortunately)</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;pvillega&gt; (tdonohue: no problem, we have still 2 months )</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;PeterDietz&gt; Another way to see the changes is through fisheye: <a href="http://fisheye3.atlassian.com/changelog/dspace/sandbox/gsoc/2010/testing?max=30&amp;view=all">http://fisheye3.atlassian.com/changelog/dspace/sandbox/gsoc/2010/testing?max=30&amp;view=all</a></span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;stuartlewis&gt; No problem - we can leave it a week or so to give people time to try it, then decide if we want to merge any/all of it into trunk.</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;bojans&gt; I haven't much time to check the code too, but have general question.. maybe naive but it is still a question :)</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;bojans&gt; So do you use some test data set for running tests?</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis -- might be good to send an email to dspace-devel at some point about it too -- maybe a slightly wider audience?</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;stuartlewis&gt; (just to highlight the work Pere has been doing, fisheye says: Net change in LoC this week: 7,963. Nice!)</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;stuartlewis&gt; tdonohue: Ok - will do.</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;stuartlewis&gt; bojans: Not really yet, which is why we should probably move onto #2 now.</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;stuartlewis&gt; Where next?</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;tdonohue&gt; another question (if I may):  any thoughts on Aaron Z's suggest about avoiding heavy use of mocks, and trying an in-memory DB instead?</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;PeterDietz&gt; I think that GSoC / GWoC (depending on your hemisphere) is a good use case for using reviews in fisheye</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;pvillega&gt; bojans: right now, for the unit tests that don't depend on the db, I've used some custom data, for example for DCDate. About the other classes and a DB in-memory, I think Stuart wanted to talk about it</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;stuartlewis&gt; Pere and I have been talking, and we're wondering if the best next step is to start working on an embedded db so that the tests can be better.</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;stuartlewis&gt; Without this, the tests will be limited.</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;stuartlewis&gt; Aaron gave a good overview of this:</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;mdiggory&gt; I think I'm more interested in Arrons recommendation to focus on getting the embeded db working is a really strong point</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- nice idea, if we can get some 'code reviewers' onboard</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; Aaron: I also strongly recommend you do not make heavy use of per-test mocks.</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; These tend to make the test writing cost a lot higher and in the end</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; they don't test much code. With a system like dspace where most of the</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; work is in data fetching and handling you end up hardly testing the</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; core functionality of the system if you mock everything.</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; I also strongly recommend you consider an in-memory DB rather than</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; ignoring the DB in your tests. It is very fast and gives you much more</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; useful and reliable test results. This is my favorite:</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://www.h2database.com/html/main.html">http://www.h2database.com/html/main.html</a></span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;tdonohue&gt; i'd agree with everyone else -- I like Aaron's recommendation of an in-memory DB</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;stuartlewis&gt; Cool - so it all sounds like we're in agreement?</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;stuartlewis&gt; If so, do we have any preference for a db?</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;stuartlewis&gt; h2 / derby / hsql</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;pvillega&gt; I think Aarons proposal is good, h2</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;tdonohue&gt; aaron's recommendation seems fine (I have no real preference)</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;mdiggory&gt; enabling the testing in trunk is something that should be ported in as early as we can, it will get you more direct feedback</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;stuartlewis&gt; Ditto - I have no experience with any, so trust Aaron.</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;mdiggory&gt; bth all three</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;bojans&gt; me too, h2 +1</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;stuartlewis&gt; Pere - are you happy with that?</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;pvillega&gt; sure</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;stuartlewis&gt; If so, how long do you want to do this work before we meet again to review it?</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;stuartlewis&gt; 3 weeks again?</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;mdiggory&gt; the dspace 2.0 stuff uses both derby and hsql</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;stuartlewis&gt; mdiggory: Do you have a personal preference?</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;pvillega&gt; mmm let's do one thing, let me work on it as right now i'm not sure how it will go (I had some unforeseen issues with mocks)</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;mdiggory&gt; and Elliots work utilized both if I recall</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;pvillega&gt; I will send you a status update by next Monday and we can decide then?</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;mdiggory&gt; not in the db choice, in the abstraction choice</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - So perhaps if you do some exploratory work over the next week, report back, and we can make a decision?</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;stuartlewis&gt; Excellent.</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;pvillega&gt; ok, sounds like a plan</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;stuartlewis&gt; Back to number 1 - I'll send an email to dspace-devel with a proposal (perhaps stick it in jira with a patch) for which parts of Pere's branch we want to commit soon, and we can review it there?</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;stuartlewis&gt; I suspect we'll definitely want the infrastructure, and then we can review each test individually.</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;stuartlewis&gt; Does that sound OK?</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;pvillega&gt; on point #1, I would say it will be more useful once we have the in-memory dba</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis: sounds good -- if you want, we could even add as a discussion point in one of next Dev mtgs (though I'd want you to lead it, if you would)</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;pvillega&gt; as right now many unit tests work against mocks, which defeats the purpose</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;pvillega&gt; although reviewing the code now would be good</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;stuartlewis&gt; pvillege: That's why I was thinking of getting the framework in, then add the tests later?</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;stuartlewis&gt; Or is the framework likely to change dramatically once you get the db integrated?</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;stuartlewis&gt; tdonohue: Sounds good.</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis: ok -- just let me know (offline) which meeting you want to add it to, and can be at</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;pvillega&gt; stuartlewis: probably a bit, I might be able to remove several mocks</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;mdiggory&gt; for instance, we will want to abstract the postrgres sql into something that we can produce derby / hsqldb ddl.... this is what I mean by abstraction, the way that elliot used <a href="http://db.apache.org/ddlutils/">http://db.apache.org/ddlutils/</a></span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;pvillega&gt; mdiggory: where can I see this work? On DSpace services?</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - maybe we'll wait for now then, and review it again once we have some db code in there.</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;pvillega&gt; stuartlewis: there is some "demo database" with preexisting data available somewhere?</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;stuartlewis&gt; But I agree with mdiggory that getting some code into trunk sooner rather than later will help the review process as well as being good for the project and for DSpace development in general.</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;mdiggory&gt; that reference is in your wiki page pvillega</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;stuartlewis&gt; pvillega: No, but creating one would be good. Perhaps we could build it by shipping with a struct builder file, and a set of item import datasets?</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;pvillega&gt; ok, sorry, getting confused with so many links and info :D</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://presentations.dlpe.gatech.edu/proed/or09/or09_052009_4/index.html">http://presentations.dlpe.gatech.edu/proed/or09/or09_052009_4/index.html</a></span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;pvillega&gt; stuartlewis: yes, I will create one for the tests, no problem.</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;mdiggory&gt; but I think we need to get Elliot to give up the svn location again</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;PeterDietz&gt; You could have a postgres db-dump in svn, and just load that before running tests.. Then tests can run against a regular instance</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;stuartlewis&gt; Would building the database from sources (e.g. item imports / strcut builder) be better as it is db agnostic, which leads to another level of testing?</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;stuartlewis&gt; (and is db dump version agnostic)</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: you could probibly abstract that into ddlutils as well so it can load into other dbs</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;kshepherd&gt; my searching for Elliot's svn area gives me <a href="https://svn.mse.jhu.edu/repos/public/dspace/branches/unit-testing/">https://svn.mse.jhu.edu/repos/public/dspace/branches/unit-testing/</a></span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;pvillega&gt; i will check ddlutils and the import/struct builder paths</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-brick">* stuartlewis hasn't seen ddlutils before - looks very useful (thanks mdiggory)</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;stuartlewis&gt; So - to conclude? Any further input today?</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;stuartlewis&gt; Pere has a new to-do list: he'll investigate db options and report back in a week or so, we can make any decisions if needed, and move ahead with that.</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;pvillega&gt; yes, one thing before I forget! The package org.dspace:dspace-ui-shared:war:1.6.1-SNAPSHOT is till missing from the maven repository, so when running "mvn test" it fails. It's not critical, but as we have disabled tests when running "mvn package", it would make life easier :)</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;stuartlewis&gt; Thanks everyone for coming along and joining in - much appreciated :)</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;stuartlewis&gt; Meeting over!</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;pvillega&gt; Thanks for coming! :)</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;mdiggory&gt; sorry, I'm actually back now :-)</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-black">&lt;mdiggory&gt; pvillega: What we need is a hudson instance doing deployments of trunk...</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-black">&lt;pvillega&gt; yes, that would we nice</span><br />
+<span class="irc-date">[17:36]</span> <span class="irc-black">&lt;PeterDietz&gt; It would be nice to have dspace runnable on google app engine</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-black">&lt;mdiggory&gt; but AMT I am running your deploy</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-black">&lt;stuartlewis&gt; I tried getting a SWORD client to run on GAE. It all went well, until I tried making http calls. Google mess with the java.net packages a *lot* :(</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;mdiggory&gt; I've been working on the side on porting the maven repository over to sonatype</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-navy">* grahamtriggs (~grahamtri@cpc1-stev6-2-0-cust340.9-2.cable.virginmedia.com) Quit (Quit: grahamtriggs)</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-black">&lt;mdiggory&gt; this will make deploying / releasing cleaner, but we have to be stricter in our pom files</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-black">&lt;mdiggory&gt; I've got successfull tests, but we need to stop using third party repositories among other things...</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;mdiggory&gt; dspace-ui-shared is now deployed.....</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;pvillega&gt; mdiggory: it works, thanks, but now this one is missing:  org.dspace:dspace-xmlui-webapp:war:1.6.1-SNAPSHOT</span><br />
+<span class="irc-date">[17:43]</span> <span class="irc-black">&lt;mdiggory&gt; thats still deploying</span><br />
+<span class="irc-date">[17:43]</span> <span class="irc-black">&lt;pvillega&gt; ah ok :)</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;stuartlewis&gt; kshepherd / tdonohue: Just re-reading the bits of the dev meeting I missed. What was it you wanted me to do?</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;stuartlewis&gt; tdonohue: kshepherd (or stuartlewis) -- any updates on 1.6.2 status?  Should we set a "date" / make an official announcement?</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;stuartlewis&gt; [08:08am] kshepherd: tdonohue: I haven't recieved a patch for DS-584 yet, but it seems as though all we really need to do is "UNIXify" the start-handle-server script you uploaded</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;stuartlewis&gt; [08:08am] kshepherd: so if i haven't heard from stuart by later this afternoon i'll do that myself, hopefully should have a few free minutes today since i started early</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis -- oh not much, just everything going forward</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;tdonohue&gt; (kidding) :)</span><br />
+<span class="irc-date">[17:44]</span> <span class="irc-black">&lt;stuartlewis&gt; Easy! :) I'll have it done by lunch time! :)</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;tdonohue&gt; I think kshepherd was expecting you to commit the patch to DS-584 (I just haven't had time to do it) -- I think that was it</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;tdonohue&gt; so -- he mentioned that if he hadn't heard from you about DS-584, he'd just do it later on</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - happy to do it.</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-brick">* stuartlewis fires up IDEA</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;tdonohue&gt; excellent...thanks!</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-black">&lt;kshepherd&gt; oh cool thanks stuart :)</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-black">&lt;kshepherd&gt; just don't forget those linebreaks ;)</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-navy">* robint (~52292565@gateway/web/freenode/ip.82.41.37.101) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-navy">* bojans (~Bojmen@91.118.65.110) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-black">&lt;mdiggory&gt; pvillega: the deployment has finished</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-black">&lt;stuartlewis&gt; Patch done, but before I commit, need to do the hard bit!</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-black">&lt;stuartlewis&gt; Who to credit it to in CHANGES! :)</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-black">&lt;stuartlewis&gt; So far I have:</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-black">&lt;stuartlewis&gt; (Tim Donohue, Kim Shepherd, Stuart Lewis)</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-black">&lt;stuartlewis&gt; - [DS-584] start-handle-server script broken - Error in launcher.xml: Invalid class name</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-black">&lt;stuartlewis&gt; Anyone else?</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-black">&lt;stuartlewis&gt; Keith G?</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-black">&lt;stuartlewis&gt; tdonohue / kshepherd: Anyone else?</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-black">&lt;tdonohue&gt; umm... i actually don't know -- kshepherd?  (I imagine you should put in keithg, he helped with testing)</span><br />
+<span class="irc-date">[18:09]</span> <span class="irc-black">&lt;stuartlewis&gt; I've committed the patch now.</span><br />
+<span class="irc-date">[18:09]</span> <span class="irc-black">&lt;tdonohue&gt; thanks!</span><br />
+<span class="irc-date">[18:09]</span> <span class="irc-black">&lt;stuartlewis&gt; It fires up ok on my machine (just doesn't run as such as I have not config dct file)</span><br />
+<span class="irc-date">[18:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Suppose I better apply it to trunk too before closing the issue....</span><br />
+<span class="irc-date">[18:13]</span> <span class="irc-black">&lt;kshepherd&gt; heh i'd replace my name with keith's in CHANGES</span><br />
+<span class="irc-date">[18:13]</span> <span class="irc-black">&lt;kshepherd&gt; i was just testing really, he caught it and first suggseted solutions</span><br />
+<span class="irc-date">[18:15]</span> <span class="irc-black">&lt;stuartlewis&gt; Too late! :p</span><br />
+<span class="irc-date">[18:16]</span> <span class="irc-black">&lt;stuartlewis&gt; We like to share the love!</span><br />
+<span class="irc-date">[18:25]</span> <span class="irc-black">&lt;pvillega&gt; mdiggory: it works, thanks a lot!</span><br />
+<span class="irc-date">[18:25]</span> <span class="irc-black">&lt;pvillega&gt; good night people</span><br />
+<span class="irc-date">[18:25]</span> <span class="irc-navy">* pvillega (~pvillega@89.100.155.181) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[18:26]</span> <span class="irc-black">&lt;PeterDietz&gt; I found a video on DSpace/Fedora collaboration, suggesting running DSpace with Fedora inside <a href="http://crigshow.blogspot.com/">http://crigshow.blogspot.com/</a> -- two years ago. The audio is kind of bad, too quiet and too loud..</span><br />
+<span class="irc-date">[18:36]</span> <span class="irc-black">&lt;tdonohue&gt; Yea - this has been an ongoing topic for years now -- just never really brought to the "forefront" or fully "approved"</span><br />
+<span class="irc-date">[18:39]</span> <span class="irc-black">&lt;tdonohue&gt; interesting fact: that "DSpace/Fedora Collaboration" press release was actually part of the starting of DuraSpace</span><br />
+<span class="irc-date">[18:42]</span> <span class="irc-green">* carynn (~cneiswen@c726.staff.lib.uci.edu) has left #duraspace</span><br />
+<span class="irc-date">[18:51]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[19:05]</span> <span class="irc-green">* StephenGWills (~anonymous@cpe-66-65-233-205.nycap.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:25]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[19:34]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-navy">* mdiggory (~mdiggory@64.50.88.162.ptr.us.xo.net) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* achelous (~tom@216.160.210.151) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-green">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-green">* mdiggory_ (~mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-green">* mdiggory_ is now known as mdiggory</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-green">* achelous (~tom@174-126-228-87.cpe.cableone.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-navy">* achelous (~tom@174-126-228-87.cpe.cableone.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-green">* achelous (~tom@174-126-228-87.cpe.cableone.net) has joined #duraspace</span><br />
+<span class="irc-date">[23:58]</span> <span class="irc-navy">* mdiggory (~mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit (Quit: mdiggory)</span><br />

@@ -1,0 +1,51 @@
+<span class="irc-date">[0:07]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-227-134-119.clt.bellsouth.net) Quit ("Leaving.")</span><br />
+<span class="irc-date">[2:44]</span> <span class="irc-navy">* bradmc (n=bradmc@207.172.69.79) Quit (Read error: 131 (Connection reset by peer))</span><br />
+<span class="irc-date">[2:45]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[4:45]</span> <span class="irc-green">* grahamtriggs (n=trig01@195.128.10.96) has joined #duraspace</span><br />
+<span class="irc-date">[8:06]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[8:46]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[8:46]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[8:46]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[8:56]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[9:19]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-227-134-119.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[10:47]</span> <span class="irc-green">* justben (n=ben@hypatia.library.emory.edu) has joined #duraspace</span><br />
+<span class="irc-date">[10:53]</span> <span class="irc-green">* cwilper (i=80544523@gateway/web/freenode/x-swhmsepjqdzeudfq) has joined #duraspace</span><br />
+<span class="irc-date">[10:53]</span> <span class="irc-black">&lt;cwilper&gt; starting in ~10min: <a href="http://fedora-commons.org/confluence/display/FCREPO/2009-10-19+-+Special+Topic+-+3.3+Release+Planning">http://fedora-commons.org/confluence/display/FCREPO/2009-10-19+-+Special+Topic+-+3.3+Release+Planning</a></span><br />
+<span class="irc-date">[10:59]</span> <span class="irc-green">* Dan_Davis (i=43f11873@gateway/web/freenode/x-tndigshmtlxgsdhe) has joined #duraspace</span><br />
+<span class="irc-date">[10:59]</span> <span class="irc-green">* sbayliss (n=IceChat7@78-86-0-203.zone2.bethere.co.uk) has joined #duraspace</span><br />
+<span class="irc-date">[11:02]</span> <span class="irc-green">* bbranan (i=46799f09@gateway/web/freenode/x-umdhycgyuzodwcjb) has joined #duraspace</span><br />
+<span class="irc-date">[11:02]</span> <span class="irc-green">* birkland (i=183a4af1@gateway/web/freenode/x-gwzfwodfqjzhoqxi) has joined #duraspace</span><br />
+<span class="irc-date">[11:12]</span> <span class="irc-green">* awoods (n=awoods@pool-71-191-160-16.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:19]</span> <span class="irc-black">&lt;awoods&gt; Committer availability for December 3.3 release</span><br />
+<span class="irc-date">[11:20]</span> <span class="irc-black">&lt;awoods&gt;  Chris: fair amount of availability (several hours / week)</span><br />
+<span class="irc-date">[11:20]</span> <span class="irc-black">&lt;awoods&gt;  Bill: mostly duracloud, some testing</span><br />
+<span class="irc-date">[11:20]</span> <span class="irc-black">&lt;awoods&gt;  Andrew: same as Bill</span><br />
+<span class="irc-date">[11:20]</span> <span class="irc-black">&lt;awoods&gt;  Eddie: 1/2 day per week available</span><br />
+<span class="irc-date">[11:20]</span> <span class="irc-black">&lt;awoods&gt;  Aaron: tracker availability, Dec not known</span><br />
+<span class="irc-date">[11:20]</span> <span class="irc-black">&lt;awoods&gt;  Dan: 1.5 days per week available</span><br />
+<span class="irc-date">[11:20]</span> <span class="irc-black">&lt;awoods&gt;  Steve: 1 day per week available</span><br />
+<span class="irc-date">[11:20]</span> <span class="irc-black">&lt;awoods&gt;  Kai: 2 days per week available</span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-green">* mbklein (n=mbklein@KleinM-APiM24.library.oregonstate.edu) has left #duraspace</span><br />
+<span class="irc-date">[12:26]</span> <span class="irc-black">&lt;sbayliss&gt; <a href="http://fedora-commons.org/jira/browse/FCREPO-549">http://fedora-commons.org/jira/browse/FCREPO-549</a></span><br />
+<span class="irc-date">[12:33]</span> <span class="irc-navy">* bbranan (i=46799f09@gateway/web/freenode/x-umdhycgyuzodwcjb) Quit ("Page closed")</span><br />
+<span class="irc-date">[12:37]</span> <span class="irc-green">* grahamtriggs (n=trig01@195.128.10.96) has left #duraspace</span><br />
+<span class="irc-date">[12:38]</span> <span class="irc-navy">* cwilper (i=80544523@gateway/web/freenode/x-swhmsepjqdzeudfq) Quit ("Page closed")</span><br />
+<span class="irc-date">[12:58]</span> <span class="irc-navy">* sbayliss (n=IceChat7@78-86-0-203.zone2.bethere.co.uk) Quit ("bye!")</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-navy">* birkland (i=183a4af1@gateway/web/freenode/x-gwzfwodfqjzhoqxi) Quit ("Page closed")</span><br />
+<span class="irc-date">[14:47]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit ()</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-navy">* Dan_Davis (i=43f11873@gateway/web/freenode/x-tndigshmtlxgsdhe) Quit ("Page closed")</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-green">* stuartlewis (n=stuartle@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-green">* mbklein (n=mbklein@KleinM-APiM24.library.oregonstate.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-navy">* mhwood (i=mwood@mhw.ulib.iupui.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-green">* tjohnson (n=chatzill@c-67-171-28-159.hsd1.wa.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-green">* mbklein (n=mbklein@KleinM-APiM24.library.oregonstate.edu) has left #duraspace</span><br />
+<span class="irc-date">[18:10]</span> <span class="irc-green">* bradmc (n=bradmc@pool-151-199-21-241.bos.east.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:00]</span> <span class="irc-navy">* bradmc (n=bradmc@pool-151-199-21-241.bos.east.verizon.net) Quit ()</span><br />
+<span class="irc-date">[19:00]</span> <span class="irc-navy">* justben (n=ben@hypatia.library.emory.edu) Quit ("Leaving.")</span><br />
+<span class="irc-date">[19:38]</span> <span class="irc-navy">* awoods (n=awoods@pool-71-191-160-16.washdc.fios.verizon.net) Quit (Read error: 113 (No route to host))</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[23:08]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-227-134-119.clt.bellsouth.net) Quit ("Leaving.")</span><br />

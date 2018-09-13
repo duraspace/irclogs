@@ -1,0 +1,44 @@
+<span class="irc-date">[2:17]</span> <span class="irc-green">* ksclarke (~kevin@adsl-235-32-25.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[4:15]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:26]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* DuraLogBot (~PircBot@duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 20:32:05 UTC 2009</span><br />
+<span class="irc-date">[7:15]</span> <span class="irc-navy">* barmintor (barmintor@specdl11.cul.columbia.edu) Quit ()</span><br />
+<span class="irc-date">[8:56]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-217-116.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:34]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-217-116.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:43]</span> <span class="irc-green">* cwilper (~cwilper@74-44-159-229.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-235-32-25.clt.bellsouth.net) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[14:19]</span> <span class="irc-green">* ksclarke (~kevin@adsl-235-32-25.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-green">* eddies (~eddies@gou06-1-82-224-98-122.fbx.proxad.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;eddies&gt; <a href="http://stackoverflow.com/questions/741192/whats-the-correct-way-to-view-idempotency-in-terms-of-http-delete">http://stackoverflow.com/questions/741192/whats-the-correct-way-to-view-idempotency-in-terms-of-http-delete</a></span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;eddies&gt; <a href="http://quandyfactory.com/blog/65/designing_a_restful_web_application#toc_5.4">http://quandyfactory.com/blog/65/designing_a_restful_web_application#toc_5.4</a></span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;eddies&gt; did everyone just get dropped?</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;eddies&gt; again...</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;cwilper&gt; ben's back now, you both got dropped the first time, but he's still on, didn't get dropped again.  i didn't get dropped...hmmm</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://jira.duraspace.org/browse/FCREPO-648">https://jira.duraspace.org/browse/FCREPO-648</a></span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://jira.duraspace.org/browse/FCREPO-743">https://jira.duraspace.org/browse/FCREPO-743</a></span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;mdiggory&gt; How long does the fedora meeting usually run on Tuesdays?</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;barmintor&gt; the proposed Spring-related changes are taking up a lot of oxygen today :P</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: the Fedora mtg runs 1.5hrs &amp; the schedule is posted on DuraSpace Public Calendar: <a href="http://www.google.com/calendar/hosted/fedora-commons.org/embed?src=fedora-commons.org_o5iransoopr4i05f7ajpkab7ms%40group.calendar.google.com">http://www.google.com/calendar/hosted/fedora-commons.org/embed?src=fedora-commons.org_o5iransoopr4i05f7ajpkab7ms%40group.calendar.google.com</a></span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;cwilper&gt; we happen to be running a really long one today, but normally we do try to keep it around 1.5hrs</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;barmintor&gt; barmintor is going to rev trippi so that fcrepo-648 issue branch will build/test without mlocal modification</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;barmintor&gt; and send a message to commiters list when done</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/trac/dspace/browser/dspace2/trunk/impl/src/main/java/org/dspace/servicemanager/spring/DSpaceBeanFactoryPostProcessor.java?rev=3217">http://scm.dspace.org/trac/dspace/browser/dspace2/trunk/impl/src/main/java/org/dspace/servicemanager/spring/DSpaceBeanFactoryPostProcessor.java?rev=3217</a></span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/impl/src/main/java/org/dspace/servicemanager/spring/SpringServiceManager.java">http://scm.dspace.org/svn/repo/modules/dspace-services/trunk/impl/src/main/java/org/dspace/servicemanager/spring/SpringServiceManager.java</a></span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/trac/dspace/browser/dspace2/trunk/impl/src/main/java/org/dspace/servicemanager/spring/DSpaceBeanFactoryPostProcessor.java?rev=3217">http://scm.dspace.org/trac/dspace/browser/dspace2/trunk/impl/src/main/java/org/dspace/servicemanager/spring/DSpaceBeanFactoryPostProcessor.java?rev=3217</a></span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/trac/dspace/browser/dspace2/trunk/impl/src/main/java/org/dspace/servicemanager/spring/SpringServiceManager.java?rev=3217">http://scm.dspace.org/trac/dspace/browser/dspace2/trunk/impl/src/main/java/org/dspace/servicemanager/spring/SpringServiceManager.java?rev=3217</a></span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-navy">* eddies (~eddies@gou06-1-82-224-98-122.fbx.proxad.net) Quit (Quit: eddies)</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-navy">* barmintor (barmintor@specdl11.cul.columbia.edu) Quit ()</span><br />
+<span class="irc-date">[18:24]</span> <span class="irc-navy">* cwilper (~cwilper@74-44-159-229.dsl1-erie.roch.ny.frontiernet.net) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp136.evans.tamu.edu) Quit (Quit: scottatm)</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-green">* scottatm (~scottatm@adhcp136.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />

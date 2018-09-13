@@ -1,0 +1,186 @@
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-tepper.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-tepper.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-tepper.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-tepper.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:39]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:50]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:20]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: I can see you're away, I just thought I'd ask if your network will be stable enough for the meetings coming up?</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;mhwood&gt; See the MLs.  He's asking for contingent volunteers to facilitate if he's incommunicado at the time.</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;mhwood&gt; If no one else wants it, I'll try.</span><br />
+<span class="irc-date">[13:39]</span> <span class="irc-black">&lt;hpottinger&gt; saw that yesterday, just wondering if the situation had changed at all</span><br />
+<span class="irc-date">[13:39]</span> <span class="irc-brick">* hpottinger hands the gavel from tdonohue to mhwood.</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-black">&lt;tdonohue&gt; I'm around, yes. My internet seems semi-stable right now.  However, Comcast is coming by somewhere around our meeting time. So, I may or may not be in attendance, depending on when Comcast shows up to try to fix my internet.</span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-green">* peterdietz (~peterdiet@server112.longsightgroup.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:08]</span> <span class="irc-black">&lt;peterdietz&gt; hi all</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-green">* kohts (4f8baf9f@gateway/web/freenode/ip.79.139.175.159) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for our weekly DSpace Developers Meeting.  Agenda for today: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-08-27">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-08-27</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-08-27 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-08-27">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-08-27</a></span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; A minor note before moving forward.  My internet access at home (where I am) is still a bit unstable at times.  I have a technician coming out any minute.  So, while I'm here *now*, I may need to leave at a moment's notice</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; But, I *will* let everyone know if I need to leave, so that I can hand over the meeting to someone else</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;mhwood&gt; I think I volunteered to pick up the baton, if needed.</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood. I'll ping you when/if the technician shows up.  Or, if I suddenly drop off, you can assume my internet when out again &amp;  feel free to take control :)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;hpottinger&gt;  (cheatsheet: baton = gavel)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;mhwood&gt; OK</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-brick">* peterdietz hopes mhwood isn't on Time Warner (massive nationwide outage earlier today)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; So, in any case, the main topic for today is obviously DSpace 5.0 Release.... a few notes to start us off:</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;mhwood&gt; I'm at work, at IU.  The Internet2 NOC is two buildings over.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; 1) Our deadline for Feature PRs is quickly approaching...just barely over one month left (Oct 6 is deadline).  Luckily it seems we are getting the big PRs already, which is great to see</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;pbecker&gt; Before the first topic is started: I would like to mention that we invited for a German DSpace User Group Meeting. I send mails about it to dspace-general and dspace-tech today.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; (or at least *most* of the big PRs...hard to say what is still outstanding)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: yes, I saw your emails. That's very exciting!</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: and I'll be sure to get you in touch with the person at DuraSpace who can help promote this German DSpace User Group Meeting on our websites, twitter, etc</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; One other 5.0 Note:</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: thanks, that would be great!</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; 2) Still looking for a few good DSpace 5.0 Release Team members!  Again, anyone is welcome.  We would love to have another 1-2 people join hpottinger &amp; peterdietz on our 5.0 Release Team.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: ORCID PR is still outstanding, DSPR#612</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/612">https://github.com/DSpace/DSpace/pull/612</a> ] - DSpace ORCID (proper pull request) by KevinVdV</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; We also need to think about a 5.0 RT "Lead"....someone who is willing to just generally take a bit of a leadership role on 5.0 and the RT in general.  I haven't brought it up yet, as I was hoping to get a few more folks on the Release Team first.  But, it's something to keep in mind as well</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mhwood&gt; Not sure how to review ORCID -- "90 files changed".  Oh, well, "start at the beginning, and when you get to the end...stop."</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;hpottinger&gt; no joke, it's a fun job, and we'd love to have the help</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-brick">* hpottinger looks around, shrugs, hands the baton to mhwood.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;hpottinger&gt; just to fill in the silence here a bit, I have heard from a few people who have tentatively expressed interest in volunteering for the RT, and while it would be nice to think I'm being kind and not naming names, the truth is, I've forgotten who you were. So, if you are considering volunteering, and you've mentioned it to me, know that I will soon dig through my old chat logs and name names :-)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-navy">* ianthe (~ianthe@vortis.xen.tardis.ed.ac.uk) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-brick">* hpottinger points enthusiastically at peterdietz, and runs.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;mhwood&gt; It looks like a thorough job.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;mhwood&gt; So, the previous RCs are all looking around, hoping that someone new will step forward....</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-green">* ianthe (~ianthe@vortis.xen.tardis.ed.ac.uk) has joined #duraspace</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;hpottinger&gt; I've been commanded by management not to volunteer for RC, so I'm out, though, as an RT member, I pledge to help</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;peterdietz&gt; Hardy and I chatted, I'll be official ring-bearer, Frodo, if you will</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) Quit (*.net *.split)</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;mhwood&gt; There's a rough consensus that we need to train more people on release, instead of the same few doing it all the time.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-brick">* tdonohue notes my internet is up &amp; down. I'm going to let mhwood keep the baton/lead of this meeting... </span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;hpottinger&gt; I agree, it's really not that difficult, is a well-documented process, and can be a lot of fun</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;hpottinger&gt; the wall of deprecation warnings for dcvalue take on a new level of alarming, though</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; Ideally our RT would be 3-4 folks.   We might be able to "manage" with just 2, but it would *definitely* mean that hpottinger &amp; peterdietz will need more general Committer support to ensure things done.  And, as mentioned, it'd be good to get others familiar with the release process for DSpace.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mhwood&gt; Ha, I was awaiting that netsplit notice.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; And thanks, peterdietz for volunteering as RC!  (Sorry, I'm catching up on the logs just now...my internet went streaming to a halt a while back)</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: re: reviewing DSPR#612, it's on my dance card for this week, I intend to do things the dunderheaded way, an just merge locally and bash away until it works</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/612">https://github.com/DSpace/DSpace/pull/612</a> ] - DSpace ORCID (proper pull request) by KevinVdV</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; That may be best, for such a large submission.</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mhwood&gt; So, it seems discussion of the RT has run down.  Other topics?</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mhwood&gt; I presume that present RT members will continue asking for help as needed.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;hpottinger&gt; but, if someone wanted to at least skim the diff... looking for anythign that might raise concerns, that would be helpful, and yes, we'll do more than ask for help, mhwood ;-)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; A small sidenote:  Regarding 5.0 Feature PRs...I'd like to continue bringing some to our weekly IRC meetings to review each week. I just wanted to note that if there are any *you* want to ensure get reviewed in a given meeting, please feel free to send them my way or directly update the Agenda wiki page.   I've added a few myself to today's agenda that we could discuss if there's time today.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mhwood&gt; Quite a lot of it is brand new:  org.dspace.authority.**</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;hpottinger&gt; a note about RT membership, you don't have to be a committer to participate, if you want to pitch in with the next DSpace version, this is a great way to do so</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;mhwood&gt; It's not all code review either.  We need plenty of eyes to check that documentation is present and readable.  And people to just try new stuff.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;hpottinger&gt; yeah, mhwood, it's mostly new work, a new Authority Cache</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;hpottinger&gt; docs are here: <a href="https://wiki.duraspace.org/display/DSDOC5x/ORCID+Integration">https://wiki.duraspace.org/display/DSDOC5x/ORCID+Integration</a></span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;kompewter&gt; [ ORCID Integration - DSpace 5.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC5x/ORCID+Integration">https://wiki.duraspace.org/display/DSDOC5x/ORCID+Integration</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; If I get time, I may see if I can write some javadoc for it, which often is the best way for me to really dig into others' code.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; Good to have that link, thanks!</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; if this integration is of interest to you or your institution, we could definitely use the help in testing it out</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; Do we want to try and get more of the ORCID players in a meeting soon, similar to what we did to hurry along Mirage2?  Perhaps next week?   I still think it's worth reviewing on our own time as well, but it might help to set aside a good portion of a meeting for ORCID</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;mhwood&gt; I just asked about official interest here.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;mhwood&gt; I should spend some time reading the doco. already provided, but with something this large it may be good to just chat with the developers, if they can come.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; So, if things are slowing down, there were a few other Feature PRs that I noted in the Agenda, which we could take some time to discuss today: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-08-27">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-08-27</a></span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; (and internet willing, I can try and discuss them as well)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;mhwood&gt; Anybody else?</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;mhwood&gt; Sounds good.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the first on from the agenda: DS-2107 and DSPR#608</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue:  it's not just your connection.  We had at least one other person drop out due to timeout, and something diagnosed a netsplit.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; could be general freenode issues then...hmmm</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; kompewter seems to be having issues too</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-2107">https://jira.duraspace.org/browse/DS-2107</a> and <a href="https://github.com/DSpace/DSpace/pull/608">https://github.com/DSpace/DSpace/pull/608</a></span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;mhwood&gt; So I see.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-08-27 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-08-27">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-08-27</a></span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2107] Provide a place for third-party plugins - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2107">https://jira.duraspace.org/browse/DS-2107</a></span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2107] Provide a place for third-party plugins by mwoodiupui · Pull Request #608 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/608">https://github.com/DSpace/DSpace/pull/608</a></span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;mhwood&gt; So, what do *you* think of the idea of a safe place for out-of-tree plugins?</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger and I discussed it a bit.  Haven't heard anything else.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: regarding 2107, do you have any basic docs on what you have done in the PR?  General idea seems reasonable, but not sure I fully understand what all is in the PR</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; Or even some basic use cases</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mhwood&gt; I'm starting to feel I'm in that ST:TNG episode where the universe kept shrinking and people no longer ever existed....</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mhwood&gt; I should write some.  I wanted to know if people thought it made sense, but I guess I need to describe my thinking a bit more, first.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; yea...me too...is anyone else here? Is it just mhwood &amp; I now?</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2107">https://jira.duraspace.org/browse/DS-2107</a> ] - [DS-2107] Provide a place for third-party plugins - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2107">https://jira.duraspace.org/browse/DS-2107</a> ] - [DS-2107] Provide a place for third-party plugins - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/608">https://github.com/DSpace/DSpace/pull/608</a> ] - [DS-2107] Provide a place for third-party plugins by mwoodiupui</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;peterdietz&gt; regarding the 3rd party plugins, any chance there can be a "reference implementation" of a plugin?</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;peterdietz&gt; i.e. /dspace/bin/dspace dsrun com.example.dspace.WhatsMyHandle</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, an example or two might help the discussion along.... e.g. "suppose you wanted to do ___", here's my suggestion on how we could do this: (1) step 1, (2) step 2, etc</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; +1 peterdietz: we definitely do need a reference implementation</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;pbecker&gt; I have connections problems as well (while my internet connection is good, it seems to be freenode having problems).</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, had a local distratction, someone wanted to talk about date indexes, I'm back now</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;mhwood&gt; My own use-case is an authentication plugin I wrote out-of-tree.  Why should one have to rebuild all of DSpace just to include a plugin?</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; As it will also help us define what a "plugin" is....right now, that term is a bit vague.  "Plugin" could mean a "plugin." as defined in dspace.cfg, OR it could mean a Maven module, OR it could mean "any old JAR you can drop in"</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; And it's a bit unclear right now what sort of "plugin" 2107 is referring to....so, a reference implementation would help</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; I will see what I can come up with.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;pbecker&gt; this brings up the question what should be added as plugin and what should be added into DSpace.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;pbecker&gt; I think I might have a good example: While thinks like DOI or Linked Data that may be in interest for almost everyone, I think we might have some things that will be of interest for german users only. Thinks like xMetaDissPlus (a format for oai to provide Items to the national german library).</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-brick">* tdonohue notes: looks like my Internet technician (from Comcast) just arrived.  I need to step away now...will try and catch back up later on</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;mhwood&gt; OK.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mhwood&gt; We are about five minutes from the official ending time.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;pbecker&gt; okay, I typed to fast, sorry. What I wanted to bring up is that plugins could be used for features which are of interest for a small group of DSpace users.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;pbecker&gt; only.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mhwood&gt; Yes, that makes sense.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;hpottinger&gt; so, just to fill in what mhwood and I were discussing, I know the local additions module helps you shoehorn in 3rd-party jars, so I was a bit confused as to why we need another way to load 3rd party jars... and mhwood patiently explained that not everyone wants to build DSpace from source</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;peterdietz&gt; Perhaps it (dspace runtime plugins) could get us nearer to some type of things that people can add to their dspace on the fly. i.e. Repo Admin clicks a button, fetches/installs pbecker's DOI-extension-MetaDissPlus.jar to /dspace/3rdparty/, and on servlet restart, DSpace has the new feature</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;hpottinger&gt; +1 or on the fly adding Curation Tasks</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;mhwood&gt; Yes, exactly.  Other products let an admin. upload plugins and configure them on.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;peterdietz&gt; if we had dynamic config, this could get us closer.. i.e. your new curation-task might be in the running code, but unless you can edit the config to load it, it can't get used</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mhwood&gt; But if we do something like that, we need a place to put them that is not effectively emptied every time you update DSpace.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mhwood&gt; Yes, the two features are a nice fit.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;hpottinger&gt; it also would help with more maintstream deployment methods (i.e. not just deploying with Ant, aftera compile, but deploying WARs via the container's own deployment methods</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;peterdietz&gt; I just had a scary thought, what if you added remove-auth.jar, where some malicious user overrides AuthManager and other things, making all your content public...</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;hpottinger&gt; caveat emptor :-)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;mhwood&gt; Don't install plugins that you don't trust.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;hpottinger&gt; though, the stakes are admitedly a bit higher with our particular app</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger: what if someone adds this jar in the overlays? mhwood +1</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mhwood&gt; We are officially past the end of the meeting, but discussion can continue.</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;hpottinger&gt; pbecker: that's what the local additions module does, if you're repackaging DSpace you already have a way to get 3rd party jars into DSpace</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;hpottinger&gt; example: <a href="https://wiki.duraspace.org/display/DSPACE/Nailgun">https://wiki.duraspace.org/display/DSPACE/Nailgun</a> second comment</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Nailgun - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Nailgun">https://wiki.duraspace.org/display/DSPACE/Nailgun</a></span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;pbecker&gt; What I want as plugin support is a standaradized way to install additions without mixing them with local customizations. So I would like to have a play for "external plugins" which does not mix up with the overlays (were I put my local customizations).</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;pbecker&gt; s/play/place</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: What I want as plugin support is a standaradized way to install additions without mixing them with local customizations. So I would like to have a place for "external plugins" which does not mix up with the overlays (were I put my local customizations).</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;pbecker&gt; sorry, just having a lag of &gt;30seconds</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;pbecker&gt; ping.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;pbecker&gt; anyone still here?</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mhwood&gt; Here.</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mhwood&gt; That sounds reasonable.</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-brick">* pbecker thinks this should be discussed another day. The internet is alway unreliable, but today it is much worth...</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;peterdietz&gt; Two cases are: 1) things you add to your source tree (or poms) and gets built each time you compile. 2) Not in source-tree or poms, not part of compile process, lives in /dspace/3rdparty, and gets loaded to classpath. likely for out-of-band things...</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;mhwood&gt; You may be right.  Another day?</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;peterdietz&gt; i.e. We'd had major pains installing the xpdf jai jar's, and so we could manually cp those jar's into /dspace/lib, next time we rebuilt, they dissappeared. If we could place them in /dspace/3rdparty, they would just be in the runtime</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;hpottinger&gt; laggy here, too</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;pbecker&gt; peterdietz +1</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;pbecker&gt; The more and more I think of this, I think I want something like a real package management for DSpace. On the other hand there are so many package managements and I don't need another one. ;-)</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;hpottinger&gt; yes, ponder DS-2107 in the mean time, and please consider testing DSPR#612</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/612">https://github.com/DSpace/DSpace/pull/612</a> ] - DSpace ORCID (proper pull request) by KevinVdV</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2107">https://jira.duraspace.org/browse/DS-2107</a> ] - [DS-2107] Provide a place for third-party plugins - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;pbecker&gt; okay, another day.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;pbecker&gt; 'bye!</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;hpottinger&gt; and for those reading the transcript, and not already on the 5.0 RT, volunteer, darn it :-)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger is doing a great job in promoting a RT membership!</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;pbecker&gt; :-)</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mhwood&gt; For the JAI stuff:  (a) JAI seems dead, find another way :-( , but (b) for dependencies, you can stick them in your local Maven repo and depend on them, if you want/need to build them in.</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mhwood&gt; But, if there were a directory on the class path that didn't get shoved aside, you could put those JARs in there too, and they'd remain.</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mhwood&gt; That's what this issue boils down to:  a place on the class path for things that build.xml doesn't know about.</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;peterdietz&gt; bye all</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-green">* peterdietz_ (~peterdiet@162-231-22-3.lightspeed.clmboh.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-navy">* peterdietz (~peterdiet@server112.longsightgroup.com) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-green">* peterdietz_ is now known as peterdietz</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-green">* peterdietz_ (~peterdiet@server112.longsightgroup.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-navy">* peterdietz (~peterdiet@162-231-22-3.lightspeed.clmboh.sbcglobal.net) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-green">* peterdietz_ is now known as peterdietz</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-navy">* kohts (4f8baf9f@gateway/web/freenode/ip.79.139.175.159) Quit ()</span><br />
+<span class="irc-date">[18:22]</span> <span class="irc-green">* peterdietz_ (~peterdiet@162-231-22-3.lightspeed.clmboh.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:24]</span> <span class="irc-navy">* peterdietz (~peterdiet@server112.longsightgroup.com) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[18:24]</span> <span class="irc-green">* peterdietz_ is now known as peterdietz</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-navy">* pdurbin (~pdurbin@server1.greptilian.com) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[19:16]</span> <span class="irc-green">* pdurbin (~pdurbin@server1.greptilian.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-navy">* peterdietz (~peterdiet@162-231-22-3.lightspeed.clmboh.sbcglobal.net) Quit (Quit: peterdietz)</span><br />
+<span class="irc-date">[22:14]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:32]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />

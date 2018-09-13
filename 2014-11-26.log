@@ -1,0 +1,142 @@
+<span class="irc-date">[0:31]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-pkypbkpgdvbxilua) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:12]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-cludsvsjitmtzpxy) has joined #duraspace</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-green">* hpottinger (~hpottinge@216.106.51.118.reverse.socket.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:08]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[19:37]</span> <span class="irc-green">* deb_ (~deb@200.69.103.254) has joined #duraspace</span><br />
+<span class="irc-date">[19:42]</span> <span class="irc-green">* JavierG (~deb@200.69.103.254) has joined #duraspace</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-green">* deb_ (~deb@200.69.103.254) has left #duraspace</span><br />
+<span class="irc-date">[19:43]</span> <span class="irc-navy">* JavierG (~deb@200.69.103.254) Quit (Client Quit)</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;mhwood&gt; Welcome to the weekly DSpace Developer Meeting.</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;mhwood&gt; Agenda at <a href="https://wiki.duraspace.org/display/DSPACE/Developer+Meetings">https://wiki.duraspace.org/display/DSPACE/Developer+Meetings</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ Developer Meetings - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Developer+Meetings">https://wiki.duraspace.org/display/DSPACE/Developer+Meetings</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;mhwood&gt; First item:  DSpace 5.0 Testathon status.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;hpottinger&gt; in many ways "Testathon" continues throughout the release process...</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;mhwood&gt; I note one blocker:  DS-2294.  Should we document non-support for Java 8?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2294">https://jira.duraspace.org/browse/DS-2294</a> ] - [DS-2294] JSPUI: unable to edit item (with Java 8) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;hpottinger&gt; I would assume lack of support for 8, but it's good to know more specifics about what doesn't work</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; I've marked it Needs Volunteer.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; I do think marking non-support for 8 is one quick way to "deal" with this bug</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood, is it just you and me here?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; I don't like doing that, but we may have to if nobody comes up with a fix.  (I should poke the Gentoo Java maintainers:  what's holding back Java 8?)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;peterdietz&gt; hi</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; No.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; :-)</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;hpottinger&gt; re: Java 8, I'm not sure about the specifics, but our Windows support people were scurrying around yesterday to make sure everyone was OK with them "pushing" an update to Java 8</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;hpottinger&gt; &lt;--- Linux guy, fine with me</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; so, point of that story is: Java 8 is getting rolled out by organizations</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; About time.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; So we need a fix or a warning.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;peterdietz&gt; do we have just this one known java8 bug?</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://jira.duraspace.org/browse/DS-2294?jql=project%20%3D%20DS%20AND%20fixVersion%20%3D%205.0%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC">https://jira.duraspace.org/browse/DS-2294?jql=project%20%3D%20DS%20AND%20fixVersion%20%3D%205.0%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC</a></span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;peterdietz&gt; I was hoping there would be a compiler to catch issues</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2294?jql=project%20%3D%20DS%20AND%20fixVersion%20%3D%205.0%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC">https://jira.duraspace.org/browse/DS-2294?jql=project%20%3D%20DS%20AND%20fixVersion%20%3D%205.0%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC</a></span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2294">https://jira.duraspace.org/browse/DS-2294</a> ] - [DS-2294] JSPUI: unable to edit item (with Java 8) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; DS-1597 needs Oracle testing</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1597">https://jira.duraspace.org/browse/DS-1597</a> ] - [DS-1597] Browse subjects by collection count bug - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; It's on my list of things to look at, but we do have more people capable of Oracle testing these days...</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, I think I started to set that up for testing but ran into Tomcat issues (not DSpace issues).</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; I see a few ORCID issues at the top of the list</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Assigned?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; DS-2225, DS-2261 assigned to Kevin</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2225">https://jira.duraspace.org/browse/DS-2225</a> ] - [DS-2225] dspace index-authority command causes NPE - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2261">https://jira.duraspace.org/browse/DS-2261</a> ] - [DS-2261] no way to import ORCIDs via CSV - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;hpottinger&gt; here's the bug list, sorted by date created (descending), so we can see the "new" bugs: <a href="https://jira.duraspace.org/browse/DS-2331?jql=project%20%3D%20DS%20AND%20resolution%20%3D%20Unresolved%20AND%20fixVersion%20%3D%205.0%20ORDER%20BY%20created%20DESC%2C%20due%20DESC%2C%20priority%20DESC">https://jira.duraspace.org/browse/DS-2331?jql=project%20%3D%20DS%20AND%20resolution%20%3D%20Unresolved%20AND%20fixVersion%20%3D%205.0%20ORDER%20BY%20created%20DESC%2C%20due%20DESC%2C%20priority%20DESC</a></span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2331?jql=project%20%3D%20DS%20AND%20resolution%20%3D%20Unresolved%20AND%20fixVersion%20%3D%205.0%20ORDER%20BY%20created%20DESC%2C%20due%20DESC%2C%20priority%20DESC">https://jira.duraspace.org/browse/DS-2331?jql=project%20%3D%20DS%20AND%20resolution%20%3D%20Unresolved%20AND%20fixVersion%20%3D%205.0%20ORDER%20BY%20created%20DESC%2C%20due%20DESC%2C%20priority%20DESC</a></span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2331">https://jira.duraspace.org/browse/DS-2331</a> ] - [DS-2331] Solr upgrade should not throw error on empty index - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; anybody brave enough to take on DS-2287?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2287">https://jira.duraspace.org/browse/DS-2287</a> ] - [DS-2287] Fix release process for optional modules (e.g. LNI and Mirage2) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; I've marked 2287 as "needs volunteer"</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; DS-2249</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2249">https://jira.duraspace.org/browse/DS-2249</a> ] - [DS-2249] Tomcat 7 JSP compiler Jasper defaults to Java 6 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; interesting... what to do about 2249?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; brb, doorbell</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; Set version 7 in web.xml?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; back, cable company sales man walking door to door in the snow</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; any JSPUI users here?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; {crickets} nope</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; not sure if us XMLUI users need to set policy for an interface we don't use...</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;peterdietz&gt; regarding that update-sequences. I found another one just like it: <a href="https://jira.duraspace.org/browse/DS-1836">https://jira.duraspace.org/browse/DS-1836</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1836] doi_seq in update-sequences.sql missing - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1836">https://jira.duraspace.org/browse/DS-1836</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1836">https://jira.duraspace.org/browse/DS-1836</a> ] - [DS-1836] doi_seq in update-sequences.sql missing - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; peterdietz: mark them both as related?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;peterdietz&gt; yeah, just linked them.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; thanks!</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;peterdietz&gt; I'm glad that link seems to ask less questions, i.e. just link them, don't try to build a directional dependency graph</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; So, 2249:  document or fix?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; I think the only thing we can do right now is document, we need the JSPUI community to weigh in on the "right" solution, yes?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;peterdietz&gt; One fix would be to alter jspui code to not use java7 paradigms (i.e. diamond operator). Another solution is to configure tomcat/jasper to compile using java7</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; wish the RT had a JSPUI user, we could make this their problem</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;peterdietz&gt; Could we say dspace5+jspui requires tomcat8, tomcat7*</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;peterdietz&gt; * = Configure tomcat7 to have java7 config</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; that sounds fine to me, it's how it is</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; (says the non-JSPUI user)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;peterdietz&gt; I feel like tomcat8 is still rare to find in most distros / repos</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; Yes, another thing I need to poke the Gentoo maintainers about.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; 6,7 on Ubuntu Trusty</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; 6 only on CentOS/RHEL (yawn)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; actually, it's 5.5 only on RHEL isn't it?</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; JBOSS is a fork of 6</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;hpottinger&gt; I think Java servlet development will quickly outpace distro release schedules</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;peterdietz&gt; yeah, most likely outcome is that people will run tomcat7, and just have to configure that.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; re: DSPR#749 we need to add the new targets to the docs: <a href="https://wiki.duraspace.org/display/DSDOC5x/Ant+targets+and+options">https://wiki.duraspace.org/display/DSDOC5x/Ant+targets+and+options</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;kompewter&gt; [ Ant targets and options - DSpace 5.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC5x/Ant+targets+and+options">https://wiki.duraspace.org/display/DSDOC5x/Ant+targets+and+options</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/749">https://github.com/DSpace/DSpace/pull/749</a> ] - DS-2297: Auto upgrade Solr indexes by tdonohue</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; I added a note to DS-2297, but it's closed...</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2297">https://jira.duraspace.org/browse/DS-2297</a> ] - [DS-2297] Auto upgrade Solr/Lucene indexes during DSpace upgrade process - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; speaking of Docs, would anyone be interested in taking on the job of wrangling docs for 5.0?</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; What does that involve?</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: a lot of nagging, and some task management</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; I guess I could do that.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; docs wrangling: figure out what needs documenting, then see that it's done</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Looking for "documentation needed" labels and bugging people?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; looking for missing "documentation needed"</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; more stuff like 2297, closed but still needs docs</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Hm, how to know?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; If 2297 doco. is incomplete, it should be reopened.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;hpottinger&gt; "easiest" thing to do is to go through the list of closed PRs for 5.0</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; OK, that works.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; it's a big job, ask  for help if you need it</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; OK.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; We have passed official meeting's end.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; we have at that, you needed to leave, yes?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; "Are we on track for RC3 next Monday, December 1? Who will cut the release?"</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; I need to leave at 2200.  It's 2105 now.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; I forgot that the meetings are an hour earlier now, local time.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; Anyway I can continue for a while.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; OK, hang around a bit and let's iron out RC3, it's officially set for Monday, but I'd be OK with moving it back to the 4th or the 5th</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; which is Thursday or Friday</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; What is left to be done?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; bug fixes</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; So, delay a few days to let some fixes in?  We do have that blocker.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; yeah, I think that's a good plan</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; Does the RC concur?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; peterdietz?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;peterdietz&gt; hi</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; we cut RC3 next Thursday or Friday (12/4 or 12/5)?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; We probably need another plea on -devel to look at those bugs and try to fix some.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; good idea, mhwood, if you make that plea, feel free to also ask for help with docs</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;peterdietz&gt; Yeah, setting it for 4th or 5th, so allow for another final test, final merge</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; Current schedule is Monday, no?  But there are bugs to be fixed yet, including a blocker.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; I will send that email.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;hpottinger&gt; OK, how about we say 12/4 Thursday</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mhwood&gt; OK by me.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; OK, I'll change the official schedule then</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; gotta run, thanks everyone!</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; oh, shoot, um, who wants to cut RC3?</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; I'd prefer it not be me :-)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; I have some stuff I really should catch up on, but won't say no at this point.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; ok, for real, I have to go, and I will either cut RC3 or find a volunteer on my own</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; OK, thanks.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-navy">* hpottinger (~hpottinge@216.106.51.118.reverse.socket.net) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; I guess I should say that the meeting officially ended, a few minutes ago.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; Thanks everybody.</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />

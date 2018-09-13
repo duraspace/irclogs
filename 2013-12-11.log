@@ -1,0 +1,158 @@
+<span class="irc-date">[2:14]</span> <span class="irc-green">* PeterDietz (~peterdiet@162-231-20-234.lightspeed.clmboh.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[2:37]</span> <span class="irc-navy">* PeterDietz (~peterdiet@162-231-20-234.lightspeed.clmboh.sbcglobal.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[3:50]</span> <span class="irc-green">* PeterDietz (~peterdiet@162-231-20-234.lightspeed.clmboh.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[4:24]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[4:31]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[5:58]</span> <span class="irc-navy">* PeterDietz (~peterdiet@162-231-20-234.lightspeed.clmboh.sbcglobal.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-rothfuss.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-rothfuss.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-rothfuss.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-rothfuss.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:31]</span> <span class="irc-green">* fasseg (~ruckus@HSI-KBW-091-089-154-204.hsi2.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:37]</span> <span class="irc-navy">* fasseg (~ruckus@HSI-KBW-091-089-154-204.hsi2.kabel-badenwuerttemberg.de) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[19:14]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome. It's time for our weekly DSpace Developers Mtg: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-12-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-12-11</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2013-12-11 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-12-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-12-11</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; So, as normal, the primary topic is 4.0.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; I'm essentially going to open up the floor here... I think 4.0 seems like we are getting close...last week I recall a tentative release date of Dec 12 or 13.  But, I'm not sure if we have anything still outstanding?</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;mhwood&gt; I promised pbecker that I'd bring up his DS-1836</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1836">https://jira.duraspace.org/browse/DS-1836</a> ] - [DS-1836] doi_seq in update-sequences.sql missing - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; has there been any decisions on 1836?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; He and I discussed it earlier, as he can't be here to do so now.  In the end we agreed that setting to max(doi_id) seems best.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; That's what every other sequence gets, except for handle_seq</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; yea, it sounds like it might be hard to do some "tricks" similar to how we deal with "handle_seq"...unless there is a way to do a regexp and extract out the doi_seq</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the handle_seq tricks...for reference: <a href="https://github.com/DSpace/DSpace/blob/master/dspace/etc/postgres/update-sequences.sql#L90">https://github.com/DSpace/DSpace/blob/master/dspace/etc/postgres/update-sequences.sql#L90</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace/etc/postgres/update-sequences.sql at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace/etc/postgres/update-sequences.sql#L90">https://github.com/DSpace/DSpace/blob/master/dspace/etc/postgres/update-sequences.sql#L90</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; The "namespace separator" could be almost anything.  It would be hard to predict.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; ok, yea, wasn't sure if there was a limit there...for example, if the "namespace separator" is never a *number* (integer), than you might be able to still do a regexp to pull out the last number.  But, if it can be anything (including integers) than that's problematic</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; We eventually agreed that people who monkey with the tables should know how, or expect pain.  DSpace itself should be well behaved here.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; I have some separate qualms about people manually allocating DOIs, which he will address in the documentation.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; ok. that's fine. We just may want to have a comment then in the 'update_sequences.sql' that explains the limitations of "max(doi_id)", or links to documentation if there will be more details in documentation</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; beyond that, I think the suggestion to use max(doi_id) is "good enough".  Just may need some explanatory documentation &amp; warnings</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; One interesting thing is that doi_id has no default but gets set anyway.  There is magic in DatabaseManager (in two places!) to hunt down a likely looking sequence and use it.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; I haven't had time to determine whether this magic is adequately documented.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; huh, I didn't know that</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-green">* lap_ (~chatzilla@host54-210-dynamic.16-87-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; Neither did we.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; It was puzzling.  The code works as is, but we didn't know why.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; Anyway, is there agreement on fixing update_sequences?  How urgent is this?  Should we delay 4.0 for it?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; A larger question:  is there *anything* on the table for which we should delay 4.0?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; I've never had to use update_sequences, so I'm inclined to document it as a known problem in 4.0 and try to get a 4.1 out soon.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; it seems like 1836 is a one-line change to update-sequences.sql. It might be nice to have it in 4.0, but it likely doesn't need to wait on it.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; But if there is something else that cannot wait, this could go in too.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; update_sequences is rarely used unless you are doing something like *restoring content from a backup* (in which case, especially with restores from AIPs, update-sequences.sql is sometimes a lifesaver)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; ack, crud. That reminds me...we might need to document whether DOIs work with AIPs....I'm guessing they may not</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; (again, that's not a showstopper for 4.0.  Just needs to be documented.)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; Um.  The DataCite API provider has that database table to be re-sync.ed.  The EZID provider depends on EZID for coining DOIs and should only be touching metadata, which ought to be restored properly.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; ok, yea, as long as all that needs to be restored is *metadata*, then likely AIPs still will work with DOIs.  I just wasn't sure if restoring metadata is enough...or if we need another "crosswalk" for the new 'doi' table</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; I think that rows in the Doi table will need to be regenerated when restoring.  Only the automatic generation of DOIs would be affected, I think.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; That is:  subsequent generation of new DOIs.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; in any case, this isn't a showstopper...so, we can figure out some of the details later on</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Possibly a loop that retries with increasing doi_id values until a non-collision is generated.  That could take care of several potential problems.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, that might be nice</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-green">* PeterDie_ (~peterdiet@dhcp-164-107-232-31.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; Oh, collision here means look in the metadata to see if there *should* be a Doi row.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, this feels like something we can set aside for now. We probably should concentrate on anything high-priority, and anything left as "todo" on the list of tasks: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+4.0+Tasks">https://wiki.duraspace.org/display/DSPACE/DSpace+4.0+Tasks</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; So, is there agreement that the proposal in 1836 is sufficient for now, and that we don't want to delay 4.0 for it?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 4.0 Tasks - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+4.0+Tasks">https://wiki.duraspace.org/display/DSPACE/DSpace+4.0+Tasks</a></span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; big things left are documentation, release notes</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; May I suggest that updating dependencies should happen at the *start* of a development cycle.  There's not much time now.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; good point, mhwood</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; 1836 probably doesn't require delaying 4.0.  But, I'm not sure myself about whether the resolution is sufficient -- I'll add a comment to the ticket though.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; Do I recall correctly that we reviewed the prerequisites' versions?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; I believe that recollection is correct, but I can't back it up with a link</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; yes, we reviewed prereqs in a meeting</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; that list of possible dependency updates was made a while ago</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; though the org.dspace lines jump out at me</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-navy">* PeterDie_ (~peterdiet@dhcp-164-107-232-31.osuwireless.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-green">* PeterDietz (~peterdiet@dhcp-164-107-232-31.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, the release notes credit me for the remote handle server work, but I haven't done anything yet except comment.  (I see I promised some Maven rework for 4.1.  Making a task for that now.)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; it looks like the official "Release Notes" page has a list of Contributors as "TODO": <a href="https://wiki.duraspace.org/display/DSDOC4x/Release+Notes">https://wiki.duraspace.org/display/DSDOC4x/Release+Notes</a>  (scroll down to past the big table)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Notes - DSpace 4.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC4x/Release+Notes">https://wiki.duraspace.org/display/DSDOC4x/Release+Notes</a></span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; oh, I remember these icons</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; Hmm...wondering if we need some more notes at the top of the Upgrade Docs.  We don't note anywhere the renaming of the "update-discovery-index" script to "index-discovery" and other such things..</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; we also probably need a note to say that the JSPUI has undergone a massive redesign (which is a great thing, but it could mean that if you use JSPUI, it would affect many of your local customizations)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; We often have these sort of important notes at the top of the Upgrade Docs for major releases...e.g. <a href="https://wiki.duraspace.org/display/DSDOC4x/Upgrading+From+1.7.x+to+1.8.x">https://wiki.duraspace.org/display/DSDOC4x/Upgrading+From+1.7.x+to+1.8.x</a>  and <a href="https://wiki.duraspace.org/display/DSDOC4x/Upgrading+From+1.8.x+to+3.x">https://wiki.duraspace.org/display/DSDOC4x/Upgrading+From+1.8.x+to+3.x</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kompewter&gt; [ Upgrading From 1.7.x to 1.8.x - DSpace 4.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC4x/Upgrading+From+1.7.x+to+1.8.x">https://wiki.duraspace.org/display/DSDOC4x/Upgrading+From+1.7.x+to+1.8.x</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kompewter&gt; [ Upgrading From 1.8.x to 3.x - DSpace 4.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC4x/Upgrading+From+1.8.x+to+3.x">https://wiki.duraspace.org/display/DSDOC4x/Upgrading+From+1.8.x+to+3.x</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; So..there are some minor Doc updates still needed, it looks like.  Do we have folks willing to help chip in here?   Especially need to get rid of that "TODO" in the "Release Notes" page in Official Docs.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; I plan to work on docs tomorrow.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; I will show up in IRC with my red pen at hand, ready to work, tomorrow.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; We also need to nail down the date.  I'm going to be unavailable on Friday (Dec 13) -- on vacation.  So, if we are releasing on that day, I won't be around to do the needed www.dspace.org updates.  I could see if Val or someone else is able to take that on then, though</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; Finally, we need to draft up the actual 4.0 Release Announcement (which is likely mostly just the list of exciting features, cribbed from the Release Notes page)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; BTW those active checkboxes on the tasks page were a nice idea.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; I stole that nice idea from helix84 :-)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; I can do the announcement, unless someone else wants it.  I've been announcing the RCs and so far nobody has thrown anything.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; sounds fine, mhwood. I think your announcements have been good. Here's what the 3.0 announcement looked like.  Feel free to steal the general structure or any language: <a href="http://dspace.2283337.n4.nabble.com/DSpace-3-0-Released-td4660105.html">http://dspace.2283337.n4.nabble.com/DSpace-3-0-Released-td4660105.html</a></span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace - Tech - DSpace 3.0 Released! ] - <a href="http://dspace.2283337.n4.nabble.com/DSpace-3-0-Released-td4660105.html">http://dspace.2283337.n4.nabble.com/DSpace-3-0-Released-td4660105.html</a></span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; OK, I have that logged.  Thanks!</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; I will work on this early tomorrow and send the draft around.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; So, is the anticipated plan to release on Friday the 13th? [cue sinister laugh].  If so, I need to find someone to do the dspace.org updates.  If not, I can do dspace.org updates on either Thurs or Mon</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; Thursday seems tight, with documentation still to review &amp; extend.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; so that leaves either Fri 13th or Mon 16th</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; If you are planning to "cut" the release on Friday, I'm guessing it won't be ready to fully *announce* then (as it may not have propagated)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; Currently scheduled for Friday (just updated the timeline!) but could push to Monday.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; that may mean we "cut" the release Friday, and announce on Monday</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; Friday the 13th sounds good, mhwood, are you doing the honors?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; (And if the announcement is held until Monday, then I can do the needed dspace.org updates just before the official announcement goes out)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; I'm thinking that cutting a release needs to be started early in the day.  Not past noon, certainly.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Isn't there a rule of thumb about never releasing on a Friday?  Maybe there should be.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: OK, it's really up to you. I'm just trying to determine if I need to get someone else to update dspace.org...or not.  I'm 100% offline on Friday, so I'm not gonna be around to help, unfortunately. But, I'm around Thurs &amp; Mon.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; Since coordination is needed, maybe we do need to wait.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; I wouldn't announce a release on a Friday</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; So, just quietly create it and say nothing until Monday?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, that's fine. We've done that in the past...in fact, we may have done that for 3.0...I think 3.0 was released on a Fri and announced on a Mon</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; it certainly won't be quiet around here :-)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; Let's do that then.  Create release on Friday, announce Monday.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; Objections?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; none</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; spectators welcome, bring soundtrack suggestions</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; Just one other note...it'd be good if you can ping me before you plan to send out the announcement on Monday, mhwood. I just want to be sure to get dspace.org fully updated *before* that email goes out :)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; It's on my calendar now.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; Yes, will do.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; thanks</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; Noted.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like several of us will be around tomorrow to chip in as needed (let me know if you need help with any docs, etc, I'll be around).  Then we cut the release on Friday, and announce on Monday.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; Anything else we need to talk through today?</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; Nothing comes to mind.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; same here. I cannot think of anything else.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; So, we might as well close up this meeting then. I'll be around for a while, so feel free to ping me as needed</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; And:  4.0 YAY! :)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; Likewise, I'll be around until about 2200 UTC.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks again for all the hard work, Release Team (mhwood, hpottinger &amp; bollini).  We really are in the home stretch, and it's exciting!</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; You are all welcome.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; Looking forward to finishing off 4.0 so I can give more attention to 4.1 and 5.0 coding. :-)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; lol, googling for GPG vagrant plugin leads me right back to DS-1663</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1663">https://jira.duraspace.org/browse/DS-1663</a> ] - [DS-1663] Add GPG code signing key import functionality to Vagrant-DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dhcp-164-107-232-31.osuwireless.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;hpottinger&gt; I wish there were a way to programatically add a profile to .m2/settings.xml</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-navy">* lap_ (~chatzilla@host54-210-dynamic.16-87-r.retail.telecomitalia.it) Quit (Quit: ChatZilla 0.9.90.1 [Firefox 26.0/20131205075310])</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mhwood&gt; ???  It's XML.  xsltproc addprofile.xsl ~/.m2/settings.xml</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;hpottinger&gt; I have a pathological fear of XML :-\</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;mhwood&gt; Many do.  I just think it's wordier than COBOL.  Oh, and the processing model for XSL-T has never yet felt natural.</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;hpottinger&gt; I'm much more comfortable assuming that it's perfectly fine to just overwrite the existing settings.xml file with a Vagrant provisioner</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;mhwood&gt; Ah, well, that's a special case, since that is probably the way you got your settings.xml in the first place.</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;hpottinger&gt; well, it actually came from Ubuntu's apt-get package</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;hpottinger&gt; whoops, it's not there anyway, woohoo blank slate!</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-green">* PeterDietz (~peterdiet@dhcp-164-107-232-31.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dhcp-164-107-232-31.osuwireless.ohio-state.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-green">* PeterDietz (~peterdiet@dhcp-164-107-232-31.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:12]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dhcp-164-107-232-31.osuwireless.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:12]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:34]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:47]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[23:12]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

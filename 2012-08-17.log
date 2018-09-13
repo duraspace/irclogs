@@ -1,0 +1,36 @@
+<span class="irc-date">[0:21]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp218.evans.tamu.edu) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:30]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:56]</span> <span class="irc-navy">* kshepherd (kim@ec2-184-73-177-234.compute-1.amazonaws.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-green">* kshepherd (kim@ec2-184-73-177-234.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-green">* alexmorega (~alexmoreg@redcoat.grep.ro) has joined #duraspace</span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-black">&lt;alexmorega&gt; good day</span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-black">&lt;alexmorega&gt; I'm trying to get my head around fedora</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-black">&lt;alexmorega&gt; where can I find some examples or case studies?</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-black">&lt;alexmorega&gt; to answer the question "what is fedora really good at?"</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-black">&lt;barmintor&gt; there's a lot of deployment news in the twitter feed</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://twitter.com/FedoraRepo">https://twitter.com/FedoraRepo</a></span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-black">&lt;kompewter&gt; [ FedoraComm Community (FedoraRepo) on Twitter ] - <a href="https://twitter.com/FedoraRepo">https://twitter.com/FedoraRepo</a></span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-black">&lt;barmintor&gt; The registry is a bit out of date: <a href="https://wiki.duraspace.org/display/FCCommReg/Fedora+Commons+Registry">https://wiki.duraspace.org/display/FCCommReg/Fedora+Commons+Registry</a></span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora Commons Registry - Fedora Commons Registry - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCCommReg/Fedora+Commons+Registry">https://wiki.duraspace.org/display/FCCommReg/Fedora+Commons+Registry</a></span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;tdonohue&gt; alexmorega: There's some basic use cases for Fedora posted off the website as well at: <a href="http://www.fedora-commons.org/about/examples">http://www.fedora-commons.org/about/examples</a>  And also a list of End User Apps (built on Fedora) which provide additional use cases: <a href="https://wiki.duraspace.org/display/FEDORACREATE/Complete+Solutions">https://wiki.duraspace.org/display/FEDORACREATE/Complete+Solutions</a></span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;kompewter&gt; [ Examples — Fedora Repository ] - <a href="http://www.fedora-commons.org/about/examples">http://www.fedora-commons.org/about/examples</a></span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;kompewter&gt; [ Complete Solutions - Fedora Create - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FEDORACREATE/Complete+Solutions">https://wiki.duraspace.org/display/FEDORACREATE/Complete+Solutions</a></span><br />
+<span class="irc-date">[14:35]</span> <span class="irc-black">&lt;alexmorega&gt; barmintor, tdonohue, thanks for the pointers, you got me un-stuck :)</span><br />
+<span class="irc-date">[14:36]</span> <span class="irc-black">&lt;tdonohue&gt; you're welcome!</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-green">* hpottinger (~hpottinge@216.106.51.181.reverse.socket.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-navy">* hpottinger (~hpottinge@216.106.51.181.reverse.socket.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-green">* hpottinger_ (~hpottinge@216.106.51.181.reverse.socket.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-navy">* hpottinger_ (~hpottinge@216.106.51.181.reverse.socket.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-navy">* cwilper (4a2c9a94@gateway/web/freenode/ip.74.44.154.148) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* barmintor (~ba2213@franklin.cul.columbia.edu) Quit (Quit: barmintor)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

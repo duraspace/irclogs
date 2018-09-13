@@ -1,0 +1,248 @@
+<span class="irc-date">[6:34]</span> <span class="irc-green">* kostasp (5e45fd15@gateway/web/freenode/ip.94.69.253.21) has joined #duraspace</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-tepper.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-tepper.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-tepper.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-tepper.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:34]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[11:51]</span> <span class="irc-navy">* kostasp (5e45fd15@gateway/web/freenode/ip.94.69.253.21) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-green">* kohts (5b4ea4f7@gateway/web/freenode/ip.91.78.164.247) has joined #duraspace</span><br />
+<span class="irc-date">[14:10]</span> <span class="irc-green">* peterdietz (~peterdiet@server112.longsightgroup.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:54]</span> <span class="irc-green">* robint (81d7ec36@gateway/web/freenode/ip.129.215.236.54) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hello all. It's time for our weekly DSpace Developers Meeting.  Agenda for today: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-09-24">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-09-24</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-09-24 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-09-24">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-09-24</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; As in recent weeks, this is all about 5.0...mainly about feature PRs, etc.</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; A few gentle reminders...</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; (1) Deadline for Feature PRs is rapidly approaching in &lt;2 WEEKS!  (Oct 6).  So, get your Feature PRs in!</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;hpottinger&gt; and docs written ;-)</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; (2) We still do have spots available to help on the 5.0 Release Team, if interested.  Ad hoc help is also obviously appreciated as things start to ramp up for 5.0</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; oh, right... we do need Feature Docs or rough drafts of docs</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; That's it for the gentle reminders.</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; In the hour before this meeting (JIRA backlog), we just added a new item to today's agenda, which I'd like to jump to now (hopefully briefly)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;robint&gt; Jump!</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; Deprecation (and possible removal) of Lucene Indexing:   In DSpace 4 we deprecated Lucene indexing (DS-1789), but we haven't made any moves yet for 5.0.  Should we remove it entirely in 5.0?</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1789">https://jira.duraspace.org/browse/DS-1789</a> ] - [DS-1789] Deprecate Lucene Java classes - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;pbecker&gt; +1 for removal if we find a volunteer</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;hpottinger&gt; +1 removal</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;robint&gt; Same for me +1</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; +1 removal as well.  Discovery + Solr offers all the same features and more (and it's enabled by default). There's really no reason for folks to continue on Lucene.</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;hpottinger&gt; keeping the old indexes around can lead to "surprising behavior"</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like we need a new ticket for 5.0: "Remove Lucene Indexing support"</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; Any immediate volunteer(s) to take this on?</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;hpottinger&gt; we *could* expand the mission of DS-2111 though I'm assigned to 2111... heh, umm...</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2111">https://jira.duraspace.org/browse/DS-2111</a> ] - [DS-2111] Do not update Lucene by default in filter-media - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger, yea 2111 is definitely related to this issue</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; Do you want to take this on, hpottinger?  Or do you already have enough on your plate? (I also saw you are extracting LNI for us, etc )</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;hpottinger&gt; still, I'm grumpy enough about my misadventures with deleting, I'm likely the vounteer for this job</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;robint&gt; Sorry, when you say 'extracting LNI', what do you mean?</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;hpottinger&gt; my plate is very full, but, as I said: grumpy</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; OK. How about for now, I'll create the ticket (post-meeting), and link it up to your 2111 ticket.  Feel free to claim later if you want, hpottinger</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; robint: DS-2124</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2124">https://jira.duraspace.org/browse/DS-2124</a> ] - [DS-2124] Move LNI to a separate GitHub project - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-brick">* pbecker has to run.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;hpottinger&gt; fair enough, thanks, tdonohue</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;pbecker&gt; 'bye everyone!</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; "extracting LNI" = it will no longer be out-of-the-box in 5.0</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; (unless anyone here disagrees strongly with that decision...currently it's all +1's in favor of removing dspace-lni from out-of-the-box</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;robint&gt; I have a wee issue...</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;hpottinger&gt; I'll stack all the bits in a nice pile</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; go ahead, robint</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;robint&gt; The Research Management system PURE, previously owned by ATIRA but now by Elsevier uses the LNI as means of talking to DSpace</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;robint&gt; <a href="http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure">http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure</a></span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;kompewter&gt; [ Pure | Elsevier ] - <a href="http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure">http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure</a></span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; hmm....really? I didn't know that.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;mhwood&gt; It's not being removed altogether; you only have to install it separately.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;robint&gt; Not the end of the world if the LNI gets shunted into a siding</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;hpottinger&gt; and, um, you'll have to feed it yourself</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; right, it is worth noting that "dspace-lni" will still exist.  And we will do some form of "5.0" release for "dspace-lni". But, you'll have to modify the DSpace 5.0 POMs to actually install it into your 5.0 (and after that, we'll only release new versions of "dspace-lni" when there are actual bug fixes /changes to be made)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;robint&gt; hpottinger: understood, but I do wonder if it is strategically sensible to make it more difficult for a major player like Elsevier to talk to DSpace</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;peterdietz&gt; The fact that somebody/anybody is using LNI is news to me. That was the primary reason for considering kicking it out of the main repo. Does elsevier has docs for how LNI works?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. "dspace-lni" will be treated like "dspace-replicate" (<a href="https://github.com/DSpace/dspace-replicate/)...it'll">https://github.com/DSpace/dspace-replicate/)...it'll</a> be a separate project which you can optionally install into DSpace by modifying POMs</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;robint&gt; Just thinking out loud...</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;hpottinger&gt; I'll follow the same steps I noted in this blog post for pulling theme files out of DSpace: <a href="http://lso.umsystem.edu/~pottingerhj/article/23/how-to-pull-theme-files-out-of-a-dspace-git-repository-into-their-own-git-repository)">http://lso.umsystem.edu/~pottingerhj/article/23/how-to-pull-theme-files-out-of-a-dspace-git-repository-into-their-own-git-repository)</a></span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;kompewter&gt; [ article: hardy@lso: how to pull theme files out of a DSpace git repository into their own git repository ] - <a href="http://lso.umsystem.edu/~pottingerhj/article/23/how-to-pull-theme-files-out-of-a-dspace-git-repository-into-their-own-git-repository)">http://lso.umsystem.edu/~pottingerhj/article/23/how-to-pull-theme-files-out-of-a-dspace-git-repository-into-their-own-git-repository)</a></span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;hpottinger&gt; I agree, there is very little documentation on setting up/using LNI</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;robint&gt; peterdietz: the don't have any docs on top of what we provide</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;robint&gt; the/they/</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; Is anyone in talks with Elsevier / PURE folks?  Just curious if we should reach out to them somehow</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;hpottinger&gt; I ran into trouble setting it up and asked for help on -tech, was told to "use SWORD" (very nicely)</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;mhwood&gt; E.g. do they know we support SWORD?</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;robint&gt; We are a customer, but haven't discussed any changes to the LNI or its status.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;peterdietz&gt; If lni stays in, then every repo can enable LNI support in one minute: Add a tomcat context, bounce tomcat. So, there is some rationale for hanging on to it. It's just that it's a one institution uses it 10K don't, and 100K have no idea what it does</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; Any idea (rough estimate) how many institutions use DSpace + PURE?</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;robint&gt; No idea</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;peterdietz&gt; Our previous thought was that only MIT used, it. And I think hpottinger found out they no longer are using it.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;mhwood&gt; Why would it have to be built with DSpace, as opposed to depending on DSpace?</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;robint&gt; I would get it is more than 10 but not more than 50, but I am just guessing</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;robint&gt; I don't want to make a big deal out of this.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;hpottinger&gt; there is a comment on DS-2124 from Richard Rodgers (with his +1) that MIT is no longer using LNI</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2124">https://jira.duraspace.org/browse/DS-2124</a> ] - [DS-2124] Move LNI to a separate GitHub project - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; robint: Would someone at Edinburgh be willing to reach out to PURE on this topic?  I'm just wondering whether extracting LNI really complicates things heavily for those 10-50 institutions, or if not</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;robint&gt; Give me a couple of days and I'll see if I can find out a wee bit more. Cheers</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good. Feel free to update that ticket with details as you can</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;robint&gt; Will do.</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;hpottinger&gt; my assumption is it'll be fine for now, and pulling it out of the code base is probably better for that code in the long run as it makes clear who is responsible for it</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; thanks for letting us know, robint!</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;hpottinger&gt; it's a kitten in search for a new owner</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; +1 hpottinger.  I still would lean towards pulling it out...but we do need to make sure we have good docs then on *how to install it* into an existing DSpace.  But, still, we probably should wait on more comments</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; (currently, I'm even surprised that LNI still works well... we haven't touched that codebase significantly in a looong time)</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; moving along though to other topics for now...</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;hpottinger&gt; I can come up with installation docs for an external module... but I'm not sure I'm qualified to test whether it works</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger:  please consider DS-2107 when moving LNI out.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2107">https://jira.duraspace.org/browse/DS-2107</a> ] - [DS-2107] Provide a place for third-party plugins - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; good point, mhwood</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, back to the agenda itself</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; We have a good number of 5.0 PRs lined up at this point (a bit of a "backlog" of PRs in general)....so, we need to start digging into these (even outside of meetings)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; robint had emailed me about a possible idea to "match up" PR developers to test each others PRs...just to see if we can get things moving along a bit quicker</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. "I'll test &amp; verify your PR, if you'll test and verify mine!"</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;hpottinger&gt; +1 that's a great idea</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; (or at least, I think that's the idea...correct me if I misunderstood, robint)</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;robint&gt; Perfect!</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mhwood&gt; Seems sensible.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;robint&gt; Some may require more than one tester, but at least it would be a start</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; It seems sensible to me as well... I will still warn that Feature PRs do need (at least) 2 +1 votes....but, usually if one trusted committer gives it a +1 after testing, others may add +1 in support</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;robint&gt; So I guess if you have something waiting then reach out to someone who is in the same boat and see if they are willing</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; The only question I have here is "how do we do the matchmaking?"</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;robint&gt; It has always happened informally anyway</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;robint&gt; So its nothing new</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; I'd agree with robint that it's probably going to go quickest if folks can do this themselves... I.e. if you have a PR that is "waiting" on review, and see another person in the same scenario, reach out</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;hpottinger&gt; it may help to develop a relationship, if you happen to have more than one PR waiting for review, to find someone else who has a pile of things to review, then you can both really crank them out</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; And, if you are looking for someone to get matched up with...then let the 5.0 RT (or myself) know.. I'm sure we can try to help find a match</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue is funny, he thinks he's not on the RT ;-)</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-brick">* tdonohue knows that I'm *always* informally on the RT...just never formally</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, sounds like this idea has broad support. It's just up to us (and anyone else listening in or reading this later) to make it happen.  Hopefully we can get this PR backlog cut down a bit</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; At this point though, I'd like to move along to actually *reviewing* a few Tickets that are marked for 5.0 + "Needs Code Review".   We'll likely be doing some of this in every meeting in the coming weeks.  So, might as well get started a bit here</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the JIRA search for ticket flagged for 5.0 + "Needs Code Review": <a href="https://jira.duraspace.org/issues/?filter=-4&amp;jql=project%20%3D%20DS%20AND%20issuetype%20in%20(%22Code%20Task%22%2C%20Improvement%2C%20%22New%20Feature%22%2C%20Task%2C%20Sub-task)%20AND%20fixVersion%20%3D%205.0%20AND%20status%20%3D%20%22Code%20Review%20Needed%22%20ORDER%20BY%20createdDate%20ASC">https://jira.duraspace.org/issues/?filter=-4&amp;jql=project%20%3D%20DS%20AND%20issuetype%20in%20(%22Code%20Task%22%2C%20Improvement%2C%20%22New%20Feature%22%2C%20Task%2C%20Sub-task)%20AND%20fixVersion%20%3D%205.0%20AND%20status%20%3D%20%22Code%20Review%20Needed%22%20ORDER%20BY%20createdDate%20ASC</a></span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/issues/?filter=-4&amp;jql=project%20%3D%20DS%20AND%20issuetype%20in%20(%22Code%20Task%22%2C%20Improvement%2C%20%22New%20Feature%22%2C%20Task%2C%20Sub-task)%20AND%20fixVersion%20%3D%205.0%20AND%20status%20%3D%20%22Code%20Review%20Needed%22%20ORDER%20BY%20createdDate%20ASC">https://jira.duraspace.org/issues/?filter=-4&amp;jql=project%20%3D%20DS%20AND%20issuetype%20in%20(%22Code%20Task%22%2C%20Improvement%2C%20%22New%20Feature%22%2C%20Task%2C%20Sub-task)%20AND%20fixVersion%20%3D%205.0%20AND%20status%20%3D%20%22Code%20Review%20Needed%22%20ORDER%20BY%20createdDate%20ASC</a></span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; (oh, and these are only *features* right now...as those are highest priority. I filtered out bug-fixes in this search)</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; Let's start at the top though, and see if we can find volunteers or matches or quick votes</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; DS-1493</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1493">https://jira.duraspace.org/browse/DS-1493</a> ] - [DS-1493] Sharing and Export Bar - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-green">* bram-atmire (~bram@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;bram-atmire&gt; hi</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, hmmm...this looks like an old PR that has questions (in the ticket comments).  So, it's still a "work in progress", and likely not ready for 5.0 (yet at least)</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; hi, bram-atmire</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;hpottinger&gt; next?</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; I'll untag it from 5.0.  This is not ready</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-1518</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1518">https://jira.duraspace.org/browse/DS-1518</a> ] - [DS-1518] Support StartTLS in LDAPAuthentication - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; This seems like a good idea to me (to support StartTLS with LDAP).  I haven't tested this though, and don't have an LDAP server to try against</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;hpottinger&gt; anyone with an LDAP server available for testing?</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; Looking at the PR, it's broken (compilation error from Travis).  Needs a volunteer to fix first</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;hpottinger&gt; all the old PRs probably need rebasing</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;bram-atmire&gt; right</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;mhwood&gt; This one needs more:  type mismatch.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; true.  I'll add a comment to Ticket that PR is broken, and move this back to "Accepted" status for helix84.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;hpottinger&gt; I wonder if there would be a quick way to tag all of the PRs that need rebasing?</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;bram-atmire&gt; back to accepted seems sensible</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;bram-atmire&gt; so that they get out of the “code review needed” stage</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; I've updated 1518 back to "accepted" and added a comment that PR is broken</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; next up, our favorite! DS-1582</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;bram-atmire&gt; did you guys by accident already discuss DS-1582</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1582">https://jira.duraspace.org/browse/DS-1582</a> ] - [DS-1582] All DSpaceObjects should have metadata support - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1582">https://jira.duraspace.org/browse/DS-1582</a> ] - [DS-1582] All DSpaceObjects should have metadata support - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;bram-atmire&gt; :) coincidence</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;hpottinger&gt; bram-atmire: oh, yeah, that makes sense, I meant "tag" in the sense of "discover and then mark"</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;bram-atmire&gt; Kevin asked me to sit into the chat today because of this PR</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; 1582 has a new PR, DSPR#654</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/654">https://github.com/DSpace/DSpace/pull/654</a> ] - Support Metadata On All DSpaceObjects by KevinVdV</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;bram-atmire&gt; he basically just put together a new PR For this work</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;bram-atmire&gt; to fix a few ugly merges in the previous one, so this one should be better/cleaner</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;mhwood&gt; I'll try out the new PR.</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;bram-atmire&gt; even though it’s relatively large, we would love to see it merged with master soon</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;bram-atmire&gt; because we have another contribution sitting for which we are very close to put together the PR</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood! And thanks for your initial testing too</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;bram-atmire&gt; but it relies on the ability to have metadata for DSpace objects</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;mhwood&gt; I think it's probably close enough that, if @mire is happy with its state, we'd get better testing by just merging it soonest.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;bram-atmire&gt; if it’s merged, and if things start breaking, we’ll try to be as responsive as possible in providing any fixes or adjustments</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; I'm very much in favor of getting this feature into 5.0.  But, I admit I'm swamped with my time right now.  Trying to find an extra hour or two to test it myself too</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;bram-atmire&gt; The other PR that is depending on the metadata for all work are the Author profiles</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;robint&gt; Its uncontroversial in the sense that we would all agree its something we want</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mhwood&gt; I have some local use for this, as soon as it's in.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; Do we just do one more "verification test" (if mhwood is willing), and merge it?  We seem to all be in favor</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;robint&gt; If mhwood has the time thats good enough for me</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mhwood&gt; I will try it out as before.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-navy">* kohts (5b4ea4f7@gateway/web/freenode/ip.91.78.164.247) Quit ()</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;bram-atmire&gt; and in short, author profiles will come with: a new DS object (authorprofile) that will use the metadata to store its information, admin web ui to create &amp; update author profiles, and the set of fields that you’d want in author profiles are configurable</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;bram-atmire&gt; great, thanks mhwood</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; I'd feel much better if we do one "verification test".  While I trust @mire &amp; KevinVdV...I like to just see a sanity check of the new PR.  Yes, thanks mhwood!</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;bram-atmire&gt; sure of course, it’s a big chunk of code anyhow</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;bram-atmire&gt; and breaking master will slow down everyones developments, so a sanity check is never a bad thing</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to author profiles.  Looking forward to seeing it. That'd be an awesome, flashy feature.</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;mhwood&gt; Got it on my calendar so I don't forget.</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; thanks again, mhwood.  So, it sounds like we have a next step for 1582:  mhwood will verify, then we'll merge.  If problems arise, we'll forward to @mire if we cannot figure them out immediately</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mhwood&gt; Should I just go ahead and pull it, if it works for me?</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;bram-atmire&gt; sure</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;hpottinger&gt; I happen to have a few PRs on my list of things to play with today (I get to play today!) and metadata for all is on them (though farther on the list than ORCID)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: sounds good</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; I added a comment to 1582 on what we just decided</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; moving along for now</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-1596</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mhwood&gt; OK, hpottinger maybe we can stay in touch on our testing of this.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1596">https://jira.duraspace.org/browse/DS-1596</a> ] - [DS-1596] Page not found look and feel - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, hey...this is me. I forgot about this.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; The PR is ready for testing (DSPR#459).... but it may need a few minor updates as I don't think it works yet for Mirage 2, and it also needs to be internationalized.  But it could be tested for all other themes</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/459">https://github.com/DSpace/DSpace/pull/459</a> ] - DS-1596 fix : Display error messages in your XMLUI theme by tdonohue</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;mhwood&gt; Looks like it's been independently tested.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; I'm willing to do the updates</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;bram-atmire&gt; yep</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;bram-atmire&gt; might need a Mirage 2 specific fix lateron, but that can be merged independently I think.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; Should I internationalize the 404 page?  Currently it's hardcoded to English</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; I can split the Mirage2 fixes into a separate PR. that's fine</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;bram-atmire&gt; i18n for that page: nice to have - not high prio as far as i’m concerned</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;robint&gt; Got to run. Cheers all.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;bram-atmire&gt; bye robint</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-navy">* robint (81d7ec36@gateway/web/freenode/ip.129.215.236.54) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; OK, I'll look into how hard i18n is.  I think it should be simple though</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, it *sounds* like there's approval for me to merge this PR soonish (possibly with minor updates, e.g. i18n)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;mhwood&gt; Yes, from me.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; OK, I'll do so then, unless I hear otherwise.  It already had independent verification from misilot as well</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;hpottinger&gt; +1 for merge</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; moving along for now</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; DS-1641</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1641">https://jira.duraspace.org/browse/DS-1641</a> ] - [DS-1641] Perform Batch Imports from Administrative UI - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz, you're up</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;peterdietz&gt; <a href="https://www.youtube.com/watch?v=FwEwLRg928E">https://www.youtube.com/watch?v=FwEwLRg928E</a></span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Batch Import through UI, in production - YouTube ] - <a href="https://www.youtube.com/watch?v=FwEwLRg928E">https://www.youtube.com/watch?v=FwEwLRg928E</a></span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; a huge +1 for this feature. I'll admit though, I haven't found time to test it out yet.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;hpottinger&gt; 1641 is in production for Longsight customers, yes?</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;peterdietz&gt; sorry 5 minute video. Essentially yeah, we're using it in production.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; Needs docs (obviously).</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;hpottinger&gt; if it helps at all, the nuts and bolts of the feature have been part of DSpace since, what, 1.6?</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; But, beyond that, I'd love to see this in 5.0</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;peterdietz&gt; I don't have any issues with it. It has an error recovery process (in case you give it bad input)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;peterdietz&gt; Also, you'll need to ensure that if you have web server timeouts, that the user doesn't run into that</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;peterdietz&gt; i.e. if apache times out at 60 seconds, page will be gone. But the import will have completed "fingers crossed"</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; I think mainly we need some basic documentation telling people (1) that this feature exists, (2) how to create a proper ZIP package, (3) maybe basic screenshots like already attached to the ticket</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; So, if we can get some basic docs created on the Wiki, I'm cool with merging this (and making sure we bang on it for Testathon, if not earlier)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; Docs could probably just be added here: <a href="https://wiki.duraspace.org/display/DSDOC5x/Importing+and+Exporting+Items+via+Simple+Archive+Format">https://wiki.duraspace.org/display/DSDOC5x/Importing+and+Exporting+Items+via+Simple+Archive+Format</a>  (or create a subpage to describe)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Importing and Exporting Items via Simple Archive Format - DSpace 5.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC5x/Importing+and+Exporting+Items+via+Simple+Archive+Format">https://wiki.duraspace.org/display/DSDOC5x/Importing+and+Exporting+Items+via+Simple+Archive+Format</a></span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;hpottinger&gt; and config advice about timeout mitigation</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: could you, or someone else at Longsight, create us some docs for this?</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;peterdietz&gt; cool, yeah. I can add more docs / official docs. I've updated my simple-archive-format packager tool to output in zip format</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; excellent!  And, you are more than welcome to put a "plug" for your SAFBuilder into our official docs, as a tool that can be used to create these Zip packages</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; So, once we have docs, I'm +1 this</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;hpottinger&gt; I agree, +1 after docs, and this is also on my "stuff to play with" today</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-brick">* tdonohue notes, as we are now 5 mins over, I'm going to stop our reviews there for today</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; So, before I close up the meeting... just a reminder (to anyone reading later / listening) -- If you are waiting on a PR to be reviewed/tested, we'd recommend reaching out to another developer to review each others PRs.  If you need someone to be "matched" with, let the 5.0 RT (or myself) know, and I'm sure we can find someone to review your PR in exchange for you reviewing theirs.</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; But, with that, we'll close the meeting for today.</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; I'll be hanging around for a bit, if there are any informal post-meeting questions/discussions</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;hpottinger&gt; or if you want to volunteer for the 5.0 RT</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;bram-atmire&gt; thanks all</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;bram-atmire&gt; DSpace 5 will be the greatest thing since sliced bread</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; +1 bram-atmire ;)</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-navy">* bram-atmire (~bram@85.234.195.109.static.edpnet.net) Quit (Quit: bram-atmire)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-navy">* peterdietz (~peterdiet@server112.longsightgroup.com) Quit (Quit: peterdietz)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:16]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[22:22]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />

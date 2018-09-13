@@ -1,0 +1,66 @@
+<span class="irc-date">[3:56]</span> <span class="irc-green">* Oak (~arslan@unaffiliated/alreadygone) has joined #duraspace</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:50]</span> <span class="irc-navy">* helix84_ (~ctenar@195.178.95.132) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[10:06]</span> <span class="irc-green">* kshepherd2 (~kim@121-99-149-36.bng1.nct.orcon.net.nz) has joined #duraspace</span><br />
+<span class="irc-date">[10:20]</span> <span class="irc-navy">* kshepherd2 (~kim@121-99-149-36.bng1.nct.orcon.net.nz) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[10:56]</span> <span class="irc-green">* kshepherd2 (~kim@121-99-149-36.bng1.nct.orcon.net.nz) has joined #duraspace</span><br />
+<span class="irc-date">[11:15]</span> <span class="irc-navy">* kshepherd2 (~kim@121-99-149-36.bng1.nct.orcon.net.nz) Quit (Ping timeout: 244 seconds)</span><br />
+<span class="irc-date">[12:04]</span> <span class="irc-green">* fasseg_ (~ruckus@HSI-KBW-091-089-022-149.hsi2.kabelbw.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:05]</span> <span class="irc-green">* fasseg_ (~ruckus@HSI-KBW-091-089-022-149.hsi2.kabelbw.de) has left #duraspace</span><br />
+<span class="irc-date">[12:19]</span> <span class="irc-navy">* Oak (~arslan@unaffiliated/alreadygone) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;helix84&gt; mhwood: would you agree with my conclusion in DS-1938 ?</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1938">https://jira.duraspace.org/browse/DS-1938</a> ] - [DS-1938] Replace insecure MD5 checksum calculation - DuraSpace JIRA</span><br />
+<span class="irc-date">[13:39]</span> <span class="irc-black">&lt;mhwood&gt; Looking now.</span><br />
+<span class="irc-date">[13:42]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I think so.  A security hash *might* be a good choice for detecting corrupt storage, but I don't actually know that, and in any case there are methods specifically designed for that purpose which probably serve better.</span><br />
+<span class="irc-date">[13:43]</span> <span class="irc-black">&lt;helix84&gt; speaking of which, do you see an easy way for us to use some ECC?</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-black">&lt;mhwood&gt; The case of BitstreamStorageManager is different yet again.  There the hash is used to generate a unique (we hope) name for a file, as well as to distribute thousands or millions of files across filesystem structures in a statistically even pattern.  Again, a security hash might serve well but I don't really know that, and we might consider other methods to see if they are better suited.</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-black">&lt;helix84&gt; or is this one of those things that we should better leave for the layers below and wait for ZFS and Btrfs :)</span><br />
+<span class="irc-date">[13:45]</span> <span class="irc-black">&lt;helix84&gt; mhwood: spreading the values evenly is the goal of all hash functions. So either there already was such a test done or we can treat them all equally.</span><br />
+<span class="irc-date">[13:45]</span> <span class="irc-black">&lt;mhwood&gt; I would let storage experts handle most of that stuff.  At the level that DSpace operates, I think it's best to support detection and replication, so we can discover that it's time to recover from another copy.</span><br />
+<span class="irc-date">[13:47]</span> <span class="irc-black">&lt;mhwood&gt; Crypto hashes have other goals, so the distribution of the outputs might be lumpy.  I simply don't know how well they serve as general hashing functions.  Likely well enough; my point is simply that I don't *know* this.  Somewhere at home I have an entire book on error-detecting and -correcting codes (which I still intend to read someday! :-) so I think it is not a simple subject.</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-black">&lt;mhwood&gt; Anyway, if someone gets interested in reviewing BitstreamStorageManager, he should consider whether the goals are sensible, and then select methods that match those goals.  Switching it to SHA2 might not buy us much, compared to the effort required.</span><br />
+<span class="irc-date">[13:51]</span> <span class="irc-black">&lt;mhwood&gt; Likewise we should use error-detecting codes to detect errors.  I think it unlikely that any crypto hash would serve *better* than purpose-built EDCs.</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;helix84&gt; btw a +1 on my decision on the ticket won't hurt ;)</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;helix84&gt; there should be a place where we should write down these ideas</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;helix84&gt; probably in the class comments. if you are rewriting this class, consider this and this</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;mhwood&gt; You've sparked a thought, though:  I wonder whether any of those fancy new filesystems have methods for reporting errors to *applications*?  So the filesystem could send DSpace a message:  /var/lib/dspace/assetstore/aa/bb/cc/ddddddddddddddddddddddddddd is corrupt.</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-black">&lt;mhwood&gt; Commentary is probably the best place we have for this.  It already exists and is close to the code.</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-black">&lt;helix84&gt; mhwood: no, they auto-heal the data, they're designed in such a way that the application should never get corrupt data</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-black">&lt;mhwood&gt; There's always the possibility of an error with one more bit than any given algorithm can recover.</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-black">&lt;mhwood&gt; Highly unlikely but not probability zero.</span><br />
+<span class="irc-date">[13:56]</span> <span class="irc-black">&lt;mhwood&gt; Oh, well, if the incidence is low enough then manual methods would be the most economical.</span><br />
+<span class="irc-date">[13:56]</span> <span class="irc-black">&lt;helix84&gt; mhwood: so during read (requested by the app or otherwise) the FS sees corruption by comparing the data to the checksum in FS metadata, it will either use an ECC or fetch the data from a replica on another stripe, correct the original copy or reallocate blocks and return the correct data to the application.</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;helix84&gt; of course, if you do a "dd if=/dev/zero of=/assetstore/whatever_bitstream" on it, it will consider _that_ valid data and maintain it</span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-black">&lt;helix84&gt; that is what we're protecting against</span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-black">&lt;helix84&gt; and yeah, no ECC would help us there, so that confirms your thinking</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-black">&lt;mhwood&gt; DSpace is already doing far more than most applications, to detect damaged files.</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-black">&lt;helix84&gt; well, it should, if we argue that preservation is its use case</span><br />
+<span class="irc-date">[14:01]</span> <span class="irc-black">&lt;mhwood&gt; Yes.  And, come to think of it, having multiple layers checking up on each other is what preservation needs.</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-black">&lt;mhwood&gt; Fixity of a video stream for 100 years is a bit different from ensuring that a 4096-bit disk block is the same today and tomorrow.</span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-black">&lt;mhwood&gt; I've briefly commented on Ds-1938.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-green">* edInCo (~smuxi@seta.coalliance.org) has joined #duraspace</span><br />
+<span class="irc-date">[18:40]</span> <span class="irc-green">* withper (~withper@91.207.117.168) has joined #duraspace</span><br />
+<span class="irc-date">[18:47]</span> <span class="irc-navy">* withper (~withper@91.207.117.168) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-green">* peking (~peking@195.88.190.128) has joined #duraspace</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-navy">* peking (~peking@195.88.190.128) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-green">* kshepherd2 (~kim@121-99-149-36.bng1.nct.orcon.net.nz) has joined #duraspace</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-green">* lusico (~lusico@46.148.31.232) has joined #duraspace</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:15]</span> <span class="irc-navy">* lusico (~lusico@46.148.31.232) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[22:51]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:02]</span> <span class="irc-navy">* edInCo (~smuxi@seta.coalliance.org) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[23:05]</span> <span class="irc-green">* edInCo (~smuxi@seta.coalliance.org) has joined #duraspace</span><br />
+<span class="irc-date">[23:26]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[23:35]</span> <span class="irc-green">* narval (~narval@82.146.59.132) has joined #duraspace</span><br />
+<span class="irc-date">[23:48]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[23:57]</span> <span class="irc-navy">* edInCo (~smuxi@seta.coalliance.org) Quit (Remote host closed the connection)</span><br />

@@ -1,0 +1,394 @@
+<h3>Conversation with #duraspace at 7/13/2011 8:28:35 AM on irc.freenode.net (irc)</h3>
+<h4>NOTE: All times below are CDT. DuraLogBot had issues logging today, and these logs were captured instead by tdonohue's IRC client.</h4>
+<font size="2">(9:52:53 AM)</font><b> eddies [<em>~eddies@2.130.114.78.rev.sfr.net</em>] entered the room.</b><br/>
+<font size="2">(9:52:53 AM)</font><b> eddies left the room (quit: Changing host).</b><br/>
+<font size="2">(9:52:54 AM)</font><b> eddies [<em>~eddies@unaffiliated/eddies</em>] entered the room.</b><br/>
+<font size="2">(10:10:57 AM)</font><b> mhwood left the room (quit: Ping timeout: 264 seconds).</b><br/>
+<font size="2">(10:24:10 AM)</font><b> mhwood [<em>~mhwood@2001:18e8:3:10ab:21e:4fff:feba:a425</em>] entered the room.</b><br/>
+<font size="2">(11:35:41 AM)</font><b> grahamtriggs1 left the room.</b><br/>
+<font size="2">(1:36:58 PM)</font><b> eddies left the room (quit: Quit: Leaving.).</b><br/>
+<font size="2">(2:05:36 PM)</font><b> sandsfish [<em>~sandsfish@18.111.75.31</em>] entered the room.</b><br/>
+<font size="2">(2:50:01 PM)</font><b> KevinVdV [<em>KevinVdV@d54C14A24.access.telenet.be</em>] entered the room.</b><br/>
+<font color="#16569E"><font size="2">(2:56:14 PM)</font> <b>tdonohue:</b></font> Hi all, reminder we have our weekly DSpace Devel meeting in about 5 mins : https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-07-13<br/>
+<font color="#A82F2F"><font size="2">(2:56:15 PM)</font> <b>kompewter:</b></font> [ DevMtg 2011-07-13 - DSpace - DuraSpace Wiki ] - https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-07-13<br/>
+<font size="2">(2:59:32 PM)</font><b> aschweer [<em>~schweer@schweer.its.waikato.ac.nz</em>] entered the room.</b><br/>
+<font size="2">(2:59:43 PM)</font><b> hpottinger [<em>80cea2c6@gateway/web/freenode/ip.128.206.162.198</em>] entered the room.</b><br/>
+<font size="2">(3:00:58 PM)</font><b> robint [<em>522921b0@gateway/web/freenode/ip.82.41.33.176</em>] entered the room.</b><br/>
+<font color="#16569E"><font size="2">(3:01:00 PM)</font> <b>tdonohue:</b></font> Hi all. Time for the DSpace Devel Meeting.  Here's the agenda for today: https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-07-13<br/>
+<font color="#A82F2F"><font size="2">(3:01:01 PM)</font> <b>kompewter:</b></font> [ DevMtg 2011-07-13 - DSpace - DuraSpace Wiki ] - https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-07-13<br/>
+<font color="#16569E"><font size="2">(3:01:35 PM)</font> <b>tdonohue:</b></font> As always, starting off with JIRA Quick Review.  Here's the JIRA issues we have left to review: https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-842+ORDER+BY+key+ASC<br/>
+<font color="#A82F2F"><font size="2">(3:01:35 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-842 ] - [#DS-842] Language switch for xmlui and some basic i18n stuff - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:01:38 PM)</font> <b>kompewter:</b></font> [ Issue Navigator - DuraSpace JIRA ] - https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-842+ORDER+BY+key+ASC<br/>
+<font color="#16569E"><font size="2">(3:01:41 PM)</font> <b>tdonohue:</b></font> First up, DS-842<br/>
+<font color="#A82F2F"><font size="2">(3:01:42 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-842 ] - [#DS-842] Language switch for xmlui and some basic i18n stuff - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:03:44 PM)</font> <b>mhwood:</b></font> Killing off duplicated configuration is good...if it is duplicated.<br/>
+<font color="#16569E"><font size="2">(3:03:55 PM)</font> <b>tdonohue:</b></font> thoughts on Claudia's work here.  It looks like a good idea to me, at a glance. +1<br/>
+<font color="#A82F2F"><font size="2">(3:04:18 PM)</font> <b>aschweer:</b></font> yes, it definitely sounds like it&apos;d be useful for multilingual sites<br/>
+<font color="#16569E"><font size="2">(3:04:21 PM)</font> <b>tdonohue:</b></font> yes, plus I do like the idea of a dropdown selection to change language on the fly (which is the other part of this patch)<br/>
+<font color="#16569E"><font size="2">(3:05:04 PM)</font> <b>tdonohue:</b></font> Any volunteers to give it a quick test run, and report back to Claudia (so we can get it into 1.8)?  <br/>
+<font color="#A82F2F"><font size="2">(3:05:27 PM)</font> <b>aschweer:</b></font> I&apos;ll give it a go<br/>
+<font color="#A82F2F"><font size="2">(3:05:30 PM)</font> <b>robint:</b></font> I&apos;ll have a look<br/>
+<font color="#A82F2F"><font size="2">(3:05:39 PM)</font> <b>robint:</b></font> Doh!<br/>
+<font color="#A82F2F"><font size="2">(3:05:42 PM)</font> <b>aschweer:</b></font> :) happy to leave it to you, Robin<br/>
+<font color="#16569E"><font size="2">(3:05:51 PM)</font> <b>tdonohue:</b></font> sounds good. decide between yourselves aschweer &amp; robint, or you can both give it a go :)<br/>
+<font color="#A82F2F"><font size="2">(3:06:00 PM)</font> <b>aschweer:</b></font> ok will do<br/>
+<font size="2">(3:06:03 PM)</font><b> vibhajrajan [<em>~Unnikanna@59.161.58.100</em>] entered the room.</b><br/>
+<font color="#A82F2F"><font size="2">(3:06:11 PM)</font> <b>mhwood:</b></font> Do we have any guidelines on when to duplicate a setting across UIs and when to consolidate?  I seem to recall going the other way on something recently.<br/>
+<font color="#16569E"><font size="2">(3:06:39 PM)</font> <b>tdonohue:</b></font> DS-842 summary:  Seems to have approval.  aschweer and/or robint will give it a test &amp; report back.  Tentatively scheduled for 1.8.<br/>
+<font color="#A82F2F"><font size="2">(3:06:40 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-842 ] - [#DS-842] Language switch for xmlui and some basic i18n stuff - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:07:06 PM)</font> <b>robint:</b></font> Yes there was talk of allowing duplication in order to separate the xmlui and jspui configs<br/>
+<font color="#A82F2F"><font size="2">(3:07:48 PM)</font> <b>scottatm:</b></font> There is one reason to keep those configs seperate.<br/>
+<font color="#16569E"><font size="2">(3:07:49 PM)</font> <b>tdonohue:</b></font> yea..there was talk of duplication, but in those cases the duplicate was *across* different config files...e.g. the same setting in a xmlui.cfg and jspui.cfg may be duplicated<br/>
+<font color="#A82F2F"><font size="2">(3:08:04 PM)</font> <b>scottatm:</b></font> You might have a translation for one language in the XMLUI while not having the translation in the JSPUI.<br/>
+<font size="2">(3:08:25 PM)</font><b> mdiggory [<em>~mdiggory@rrcs-74-87-47-114.west.biz.rr.com</em>] entered the room.</b><br/>
+<font color="#A82F2F"><font size="2">(3:08:43 PM)</font> <b>scottatm:</b></font> But I think that is a very small use-case.<br/>
+<font color="#16569E"><font size="2">(3:09:26 PM)</font> <b>tdonohue:</b></font> well, if we are still looking into creating a separate &quot;xmlui.cfg&quot; and a &quot;jspui.cfg&quot;, then it seems like both configs could just have their own &quot;supported.locales&quot; setting.  So, it would allow for different settings for XMLUI vs JSPUI<br/>
+<font color="#A82F2F"><font size="2">(3:09:41 PM)</font> <b>mdiggory:</b></font> Hi all, is there an issue with the logbot still?<br/>
+<font color="#A82F2F"><font size="2">(3:10:02 PM)</font> <b>scottatm:</b></font> Logbot is not in the channel.<br/>
+<font color="#A82F2F"><font size="2">(3:10:25 PM)</font> <b>mdiggory:</b></font> looks like it was<br/>
+<font color="#A82F2F"><font size="2">(3:10:27 PM)</font> <b>mdiggory:</b></font> http://irclogs.duraspace.org/index.php?date=2011-07-13<br/>
+<font color="#A82F2F"><font size="2">(3:10:27 PM)</font> <b>kompewter:</b></font> [ IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot ] - http://irclogs.duraspace.org/index.php?date=2011-07-13<br/>
+<font color="#16569E"><font size="2">(3:10:29 PM)</font> <b>tdonohue:</b></font> ugh, yes, looks like something is up with the Logbot again today.  Sorry about that. I'll look into it after the meeting, and get my local logs posted<br/>
+<font color="#A82F2F"><font size="2">(3:11:14 PM)</font> <b>mdiggory:</b></font> ok<br/>
+<font color="#16569E"><font size="2">(3:12:02 PM)</font> <b>tdonohue:</b></font> I just reported it to our tech team. It's possible (if someone can get to it soon) the logbot will show up sometime during our meeting.  In any case, I'll make sure full meeting logs get posted<br/>
+<font color="#16569E"><font size="2">(3:12:44 PM)</font> <b>tdonohue:</b></font> Ok, moving on in JIRA.  Next up DS-844<br/>
+<font color="#A82F2F"><font size="2">(3:12:44 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-844 ] - [#DS-844] Simplify, internationalize org.dspace.statistics.util.LocationUtils - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:13:47 PM)</font> <b>mdiggory:</b></font> +1<br/>
+<font color="#A82F2F"><font size="2">(3:14:04 PM)</font> <b>aschweer:</b></font> +1<br/>
+<font color="#16569E"><font size="2">(3:14:06 PM)</font> <b>tdonohue:</b></font> +1 to DS-844 as well. All good ideas, just needs a volunteer to implement<br/>
+<font color="#A82F2F"><font size="2">(3:14:06 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-844 ] - [#DS-844] Simplify, internationalize org.dspace.statistics.util.LocationUtils - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:14:18 PM)</font> <b>mhwood:</b></font> I&apos;ll add it to my list.<br/>
+<font color="#A82F2F"><font size="2">(3:14:38 PM)</font> <b>mdiggory:</b></font> makes sense to use i18n,  I only imagine that it gets more complicated in XMLUI<br/>
+<font color="#16569E"><font size="2">(3:15:08 PM)</font> <b>tdonohue:</b></font> sounds good, Ds-844 summary: +3 votes, assign to mhwood<br/>
+<font color="#A82F2F"><font size="2">(3:15:10 PM)</font> <b>mdiggory:</b></font> I wonder if theres a i18n catalog that already exists and uses Locale and/or properties files<br/>
+<font color="#A82F2F"><font size="2">(3:15:22 PM)</font> <b>mdiggory:</b></font> rather than XML files<br/>
+<font color="#A82F2F"><font size="2">(3:15:44 PM)</font> <b>aschweer:</b></font> well mhwood says in the issue that Locale already does half the work<br/>
+<font color="#A82F2F"><font size="2">(3:15:54 PM)</font> <b>aschweer:</b></font> I agree with mhwood that the continent names can just go into messages.xml / Messages.properties<br/>
+<font color="#A82F2F"><font size="2">(3:16:19 PM)</font> <b>aschweer:</b></font> and splitting out the country-&gt;continent mapping is just a bonus. the real problem are the hardcoded English strings<br/>
+<font color="#A82F2F"><font size="2">(3:16:31 PM)</font> <b>mdiggory:</b></font> aschweer: the challenge is that Cacoon doesn&apos;t always take the easy or sensible path<br/>
+<font color="#A82F2F"><font size="2">(3:16:48 PM)</font> <b>mdiggory:</b></font> Cacoon = Cocoon<br/>
+<font size="2">(3:16:54 PM)</font><b> vibhajrajan left the room.</b><br/>
+<font color="#A82F2F"><font size="2">(3:17:04 PM)</font> <b>aschweer:</b></font> mdiggory: true<br/>
+<font color="#16569E"><font size="2">(3:17:48 PM)</font> <b>tdonohue:</b></font> I suggest we just let mhwood look into implementation details around Cocoon/XMLUI.  If it starts getting more complex, we can revisit this later<br/>
+<font color="#16569E"><font size="2">(3:18:09 PM)</font> <b>tdonohue:</b></font> Next up, DS-845<br/>
+<font color="#A82F2F"><font size="2">(3:18:10 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-845 ] - [#DS-845] Support for DSpace Domain Model Interfaces - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:18:37 PM)</font> <b>mhwood:</b></font> Assigned<br/>
+<font color="#16569E"><font size="2">(3:18:38 PM)</font> <b>tdonohue:</b></font> mdiggory -- is this actually something you are wanting to do for 1.8.0 (i.e. by Aug 19 Feature Freeze)?<br/>
+<font color="#A82F2F"><font size="2">(3:20:10 PM)</font> <b>mdiggory:</b></font> Yes, I would like to get the interfaces in place<br/>
+<font color="#A82F2F"><font size="2">(3:20:49 PM)</font> <b>mdiggory:</b></font> it doesn&apos;t require commitment on a specific implementation, just agreement that its ok to add implements to the current DSpaceObject classes<br/>
+<font color="#A82F2F"><font size="2">(3:21:01 PM)</font> <b>mdiggory:</b></font> and have them extend the interfaces<br/>
+<font color="#A82F2F"><font size="2">(3:21:13 PM)</font> <b>mdiggory:</b></font> sorry &quot;implement&quot; the interfaces<br/>
+<font color="#A82F2F"><font size="2">(3:21:50 PM)</font> <b>mdiggory:</b></font> I actually have a cleaner patch then this now<br/>
+<font color="#16569E"><font size="2">(3:22:17 PM)</font> <b>tdonohue:</b></font> Ok, sounds reasonable enough to me.  If you want to post the new patch, we can get some more eyes on it before 1.8<br/>
+<font color="#A82F2F"><font size="2">(3:22:19 PM)</font> <b>mdiggory:</b></font> Its also important to note that it includes work to improve the DCValue / MetadataValue problem<br/>
+<font color="#A82F2F"><font size="2">(3:22:31 PM)</font> <b>mdiggory:</b></font> by adding getters/setters to DCValue<br/>
+<font color="#A82F2F"><font size="2">(3:23:03 PM)</font> <b>mdiggory:</b></font> both then implement IMetadataValue<br/>
+<font color="#A82F2F"><font size="2">(3:23:04 PM)</font> <b>mdiggory:</b></font> public class DCValue implements IMetadataValue&lt;MetadataField&gt;<br/>
+<font color="#A82F2F"><font size="2">(3:23:16 PM)</font> <b>mdiggory:</b></font> public class MetadataValue implements IMetadataValue&lt;MetadataField&gt;<br/>
+<font color="#A82F2F"><font size="2">(3:23:35 PM)</font> <b>robint:</b></font> I&apos;m still a bit ignorant about it all but generally have no problems with the idea<br/>
+<font color="#A82F2F"><font size="2">(3:23:48 PM)</font> <b>mhwood:</b></font> Sounds good to me too.<br/>
+<font color="#A82F2F"><font size="2">(3:24:11 PM)</font> <b>mdiggory:</b></font> we would release a dspace-core-api module that has the API in it.<br/>
+<font color="#A82F2F"><font size="2">(3:24:16 PM)</font> <b>scottatm:</b></font> This sounds like it is going to break a lot of local customizations to DSpace. This will make the 1.8 release a hard to update release. But in the long run is sorely needed.<br/>
+<font color="#16569E"><font size="2">(3:24:17 PM)</font> <b>tdonohue:</b></font> sounds good to me too, as long as it doesn't accidentally break anything else (doesn't sound like it should) :)<br/>
+<font color="#A82F2F"><font size="2">(3:25:02 PM)</font> <b>mdiggory:</b></font> scottatm: its mostly a change of the class signature in DSpaceObject classes<br/>
+<font color="#A82F2F"><font size="2">(3:25:15 PM)</font> <b>mdiggory:</b></font> no additional methods<br/>
+<font color="#A82F2F"><font size="2">(3:25:28 PM)</font> <b>mdiggory:</b></font> (outside of the changes in DCValue)<br/>
+<font color="#A82F2F"><font size="2">(3:26:00 PM)</font> <b>mdiggory:</b></font> as I said, I have a cleaner patch that does even fewer alterations to org.dspace.content<br/>
+<font color="#A82F2F"><font size="2">(3:26:03 PM)</font> <b>mhwood:</b></font> Best to get word out early that this is coming, though.<br/>
+<font color="#A82F2F"><font size="2">(3:26:26 PM)</font> <b>robint:</b></font> mdiggory: Just looking at SVN. It will include the various Legacy Services ?<br/>
+<font color="#A82F2F"><font size="2">(3:26:27 PM)</font> <b>mdiggory:</b></font> thus the jira task and wiki documentation that has been prepared/proposed over the last year<br/>
+<font color="#A82F2F"><font size="2">(3:26:42 PM)</font> <b>aschweer:</b></font> yes this feels like quite a substantial change for anyone who does code customisations. maybe this would be better in the release after 1.8?<br/>
+<font color="#A82F2F"><font size="2">(3:27:06 PM)</font> <b>mdiggory:</b></font> robint: the impl is an &quot;alternative&quot; not required unless wanted<br/>
+<font color="#A82F2F"><font size="2">(3:27:13 PM)</font> <b>scottatm:</b></font> Waiting until after 1.8 won&apos;t make it any easier.<br/>
+<font color="#16569E"><font size="2">(3:27:22 PM)</font> <b>tdonohue:</b></font> +1 to getting word out early on this<br/>
+<font color="#A82F2F"><font size="2">(3:27:30 PM)</font> <b>scottatm:</b></font> I don&apos;t believe there&apos;s any reason to wait.<br/>
+<font color="#A82F2F"><font size="2">(3:27:57 PM)</font> <b>aschweer:</b></font> true I forgot that it&apos;s &quot;just&quot; the feature freeze coming up so soon, not the actual release<br/>
+<font color="#16569E"><font size="2">(3:28:06 PM)</font> <b>tdonohue:</b></font> I think we probably need to get the new version of the patch posted ASAP, so we can review and get this done soon (this is not a patch that should wait till the 'last minute' of 1.8)<br/>
+<font color="#A82F2F"><font size="2">(3:28:07 PM)</font> <b>robint:</b></font> mdiggory: How quickly do you think you could get it committed ?<br/>
+<font color="#A82F2F"><font size="2">(3:28:37 PM)</font> <b>mdiggory:</b></font> robint: this week, its just been sitting waiting for feedback<br/>
+<font color="#A82F2F"><font size="2">(3:29:27 PM)</font> <b>sandsfish:</b></font> +1 to new patch for review<br/>
+<font color="#16569E"><font size="2">(3:30:20 PM)</font> <b>tdonohue:</b></font> mdiggory: so, maybe post the new patch this week, and then a few of us can review it and get it committed sometime very soon (hopefully by next week).  <br/>
+<font color="#A82F2F"><font size="2">(3:30:25 PM)</font> <b>mdiggory:</b></font> then patch is just the same method signature and DCValue changes<br/>
+<font color="#A82F2F"><font size="2">(3:30:56 PM)</font> <b>mdiggory:</b></font> without imports/@overrides additions<br/>
+<font color="#A82F2F"><font size="2">(3:31:21 PM)</font> <b>mdiggory:</b></font> the goal being just to limit the changes to the classes to be the bare minimum.<br/>
+<font color="#A82F2F"><font size="2">(3:32:11 PM)</font> <b>mdiggory:</b></font> I don&apos;t think your getting me... the new patch is just a dropping lines like &quot;+    @Override&quot;<br/>
+<font color="#16569E"><font size="2">(3:32:15 PM)</font> <b>tdonohue:</b></font> yep. sounds good.  let's get the new patch posted, and then we can try and push this forward ASAP (I'll even volunteer to help review this one...others who are willing should also feel free to take a look)<br/>
+<font size="2">(3:32:21 PM)</font><b> JRhoads [<em>~jrhoads@160.10.15.22</em>] entered the room.</b><br/>
+<font color="#A82F2F"><font size="2">(3:32:48 PM)</font> <b>mdiggory:</b></font> you can see everything that would change still in the current patch<br/>
+<font color="#16569E"><font size="2">(3:33:16 PM)</font> <b>tdonohue:</b></font> mdiggory -- sounds good. just would rather review the new, cleaner patch (if that's what is actually to be committed), as its readability will also be improved.<br/>
+<font color="#A82F2F"><font size="2">(3:33:22 PM)</font> <b>kshepherd:</b></font> is jira review over?<br/>
+<font color="#16569E"><font size="2">(3:33:40 PM)</font> <b>tdonohue:</b></font> jira review is essentially over...this was the last JIRA issue, and it's gone on for a while<br/>
+<font color="#A82F2F"><font size="2">(3:34:11 PM)</font> <b>kshepherd:</b></font> just want to give a quick plug for DS-768, if anyone can help test it :)<br/>
+<font color="#A82F2F"><font size="2">(3:34:12 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-768 ] - [#DS-768] All XMLUI Error Pages respond with 200 OK, instead of 404 Not Found - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:34:31 PM)</font> <b>aschweer:</b></font> I should have some time for that one later today<br/>
+<font color="#A82F2F"><font size="2">(3:34:35 PM)</font> <b>kshepherd:</b></font> very easy to test, i have a .jar built attached to the job that you can just drop into XMLUI libs<br/>
+<font color="#A82F2F"><font size="2">(3:34:39 PM)</font> <b>mdiggory:</b></font> There are a few other details about the patch that could be discussed (Ds-845)<br/>
+<font color="#16569E"><font size="2">(3:35:02 PM)</font> <b>tdonohue:</b></font> +1 to that.  great job, kshepherd on that one!  I can also try and take a look at Ds-768 in coming days)<br/>
+<font color="#A82F2F"><font size="2">(3:35:27 PM)</font> <b>hpottinger:</b></font> kshepherd: Ds-768 is on my list to test this week or next<br/>
+<font color="#A82F2F"><font size="2">(3:35:33 PM)</font> <b>mdiggory:</b></font> kshepherd: I still need to get you code for the old release of the cocoon stuff<br/>
+<font color="#16569E"><font size="2">(3:36:12 PM)</font> <b>tdonohue:</b></font> mdiggory: what other details in Ds-845?  I thought you said it's relatively simple ;)<br/>
+<font color="#A82F2F"><font size="2">(3:36:34 PM)</font> <b>mdiggory:</b></font> Well, it is, but there are some &quot;options&quot;<br/>
+<font color="#A82F2F"><font size="2">(3:37:35 PM)</font> <b>kshepherd:</b></font> mdiggory: yeah that&apos;d be cool, thanks. i *think* the new patch should cover the previous cocoon fixes we&apos;d made, but pays to be sure :)<br/>
+<font color="#A82F2F"><font size="2">(3:37:41 PM)</font> <b>mdiggory:</b></font> You&apos;ll note in looking over the current patch, that the following are moved to dspace-core-api as entire classes<br/>
+<font color="#A82F2F"><font size="2">(3:37:42 PM)</font> <b>sandsfish:</b></font> :)  elaborate.  this is the module that caused/fixed the white screen of death.<br/>
+<font color="#A82F2F"><font size="2">(3:37:42 PM)</font> <b>mdiggory:</b></font> org.dspace.authorize.AuthorizeException<br/>
+<font color="#A82F2F"><font size="2">(3:38:06 PM)</font> <b>mdiggory:</b></font> org.dspace.event.Consumer<br/>
+<font color="#A82F2F"><font size="2">(3:38:29 PM)</font> <b>mdiggory:</b></font> org.dspace.authenitcate.AuthenticationMethod<br/>
+<font color="#A82F2F"><font size="2">(3:38:52 PM)</font> <b>mdiggory:</b></font> org.dspace.core.Constants<br/>
+<font color="#A82F2F"><font size="2">(3:39:46 PM)</font> <b>mdiggory:</b></font> The reasoning being that these are either (a) interfaces or (b) static constants referenced everywhere<br/>
+<font color="#A82F2F"><font size="2">(3:40:13 PM)</font> <b>mdiggory:</b></font> sorry, I&apos;ve mixed the topics here...<br/>
+<font color="#A82F2F"><font size="2">(3:40:48 PM)</font> <b>kshepherd:</b></font> gotta go to work now, later all<br/>
+<font color="#A82F2F"><font size="2">(3:41:12 PM)</font> <b>mdiggory:</b></font> kshepherd: I&apos;ll get you the code so you can make sure<br/>
+<font color="#16569E"><font size="2">(3:42:19 PM)</font> <b>tdonohue:</b></font> ok. we've taken up a large portion of this meeting on Ds-845.  I'm not sure I agree with creating a new 'dspace-core-api' at this time either (until we really figure out what we are doing around Async Releases).  Should we move more discussion of this concept to dspace-devel?<br/>
+<font color="#A82F2F"><font size="2">(3:42:22 PM)</font> <b>mdiggory:</b></font> per Ds-768 note that none of these interfaces or classes have package name changes, they are simply moved into the dspace-core-api jar from the dspace-api.jar<br/>
+<font color="#A82F2F"><font size="2">(3:42:38 PM)</font> <b>mdiggory:</b></font> and dspace-api becomes dependent on dspace-core-api<br/>
+<font color="#16569E"><font size="2">(3:42:54 PM)</font> <b>tdonohue:</b></font> I think you mean &quot;per Ds-845&quot;, mdiggory?<br/>
+<font color="#A82F2F"><font size="2">(3:43:01 PM)</font> <b>mdiggory:</b></font> probibly<br/>
+<font color="#A82F2F"><font size="2">(3:43:15 PM)</font> <b>mdiggory:</b></font> yes I mean Ds-845<br/>
+<font color="#A82F2F"><font size="2">(3:44:20 PM)</font> <b>mdiggory:</b></font> tdonohue: the goal of having a separate dspace-core-api is to be able to release addons dependent on it without having to be dependent on a specific dspace release. It pretty much is async release<br/>
+<font color="#16569E"><font size="2">(3:44:32 PM)</font> <b>tdonohue:</b></font> so, I still think we may want to describe this 'dspace-core-api' idea on dspace-devel, so we can vote on it.  Besides the 'dspace-core-api' idea, I think the rest of Ds-845 looks good.  <br/>
+<font color="#A82F2F"><font size="2">(3:45:00 PM)</font> <b>mdiggory:</b></font> I did previously<br/>
+<font color="#A82F2F"><font size="2">(3:45:05 PM)</font> <b>mhwood:</b></font> So dspace-core-api is the interfaces and then dspace-api implements them?  The names are giving me trouble.<br/>
+<font color="#A82F2F"><font size="2">(3:45:24 PM)</font> <b>mdiggory:</b></font> because the legacy name of dspace-api was a mistake<br/>
+<font color="#A82F2F"><font size="2">(3:45:40 PM)</font> <b>mdiggory:</b></font> (on my part, when I created it)<br/>
+<font color="#16569E"><font size="2">(3:45:55 PM)</font> <b>tdonohue:</b></font> I worry that in Ds-845 it sounds like you are lumping &quot;async release&quot; (dspace-core-api idea) in with &quot;Refactoring the domain model&quot; (the rest of the Ds-845 patch).  I don't necessarily think those are the same things.<br/>
+<font color="#A82F2F"><font size="2">(3:46:21 PM)</font> <b>mdiggory:</b></font> tdonohue: they are complimentary<br/>
+<font color="#A82F2F"><font size="2">(3:46:39 PM)</font> <b>mdiggory:</b></font> the domain model enables the async release process<br/>
+<font color="#A82F2F"><font size="2">(3:46:52 PM)</font> <b>mdiggory:</b></font> because it is separated from the implementation of the model<br/>
+<font color="#16569E"><font size="2">(3:47:03 PM)</font> <b>tdonohue:</b></font> right, and complimentary implies they should be two separate JIRA issues &amp; two separate patches that are linked.  So, it should be possible to put *one* into 1.8, and wait on the other until after 1.8 (if we felt necessary)<br/>
+<font color="#A82F2F"><font size="2">(3:47:25 PM)</font> <b>mdiggory:</b></font> thats just making it more complex than it need be<br/>
+<font color="#A82F2F"><font size="2">(3:47:38 PM)</font> <b>mdiggory:</b></font> the code in dspace-core-api is already there<br/>
+<font color="#A82F2F"><font size="2">(3:48:06 PM)</font> <b>mdiggory:</b></font> it shouldn&apos;t be under trunk because that defeats the async release capability and negates the advantage of doing it<br/>
+<font color="#16569E"><font size="2">(3:48:36 PM)</font> <b>tdonohue:</b></font> ok. we've gone way off topic here. we're snowballing a bit<br/>
+<font color="#A82F2F"><font size="2">(3:48:46 PM)</font> <b>robint:</b></font> So dspace-core-api would not live in trunk ?<br/>
+<font color="#A82F2F"><font size="2">(3:48:53 PM)</font> <b>mdiggory:</b></font> why have an api you can depend on separate from the implementation if they are released in the same jar?<br/>
+<font color="#A82F2F"><font size="2">(3:49:16 PM)</font> <b>mdiggory:</b></font> it already does... as presented in the JIRA ticket<br/>
+<font size="2">(3:49:23 PM)</font><b> gaurav_kl [<em>75c6254e@gateway/web/freenode/ip.117.198.37.78</em>] entered the room.</b><br/>
+<font color="#A82F2F"><font size="2">(3:49:40 PM)</font> <b>aschweer:</b></font> I do think there&apos;s a value in making small changes. so maybe mdiggory do the separation of implementation and interfaces first, and then we can think about distribution infrastructure<br/>
+<font color="#A82F2F"><font size="2">(3:49:42 PM)</font> <b>robint:</b></font> Ah, I just hadn&apos;t realised that<br/>
+<font color="#A82F2F"><font size="2">(3:49:55 PM)</font> <b>mdiggory:</b></font> tdonohue:  I beleive we are just taking advantage of the presence of the team and discussing a couple aspects of the topic<br/>
+<font color="#A82F2F"><font size="2">(3:49:57 PM)</font> <b>mhwood:</b></font> Because it&apos;s too big a change all at once?  The same thing happend to &quot;DSpace 2.0&quot;:  it was really more like DSpace 5.0.<br/>
+<font color="#A82F2F"><font size="2">(3:50:16 PM)</font> <b>aschweer:</b></font> mhwood +1<br/>
+<font color="#16569E"><font size="2">(3:50:19 PM)</font> <b>tdonohue:</b></font> mdiggory: I think the problem here is that it's a sudden surprise that we should have a brand new &quot;dspace-core-api&quot; when this idea hasn't been voted on, and dspace-core-api isn't even mentioned in the description of Ds-845<br/>
+<font color="#A82F2F"><font size="2">(3:50:33 PM)</font> <b>mdiggory:</b></font> ?<br/>
+<font color="#A82F2F"><font size="2">(3:50:48 PM)</font> <b>mdiggory:</b></font> Its linked to in the description<br/>
+<font color="#16569E"><font size="2">(3:50:57 PM)</font> <b>tdonohue:</b></font> am I confused then, mdiggory? where is dspace-core-api mentioned?<br/>
+<font color="#A82F2F"><font size="2">(3:51:06 PM)</font> <b>mdiggory:</b></font> http://scm.dspace.org/svn/repo/modules/dspace-core/trunk/impl/src/main/java/org/dspace/<br/>
+<font color="#A82F2F"><font size="2">(3:51:07 PM)</font> <b>kompewter:</b></font> [ repo - Revision 6462: /modules/dspace-core/trunk/impl/src/main/java/org/dspace ] - http://scm.dspace.org/svn/repo/modules/dspace-core/trunk/impl/src/main/java/org/dspace/<br/>
+<font color="#16569E"><font size="2">(3:51:18 PM)</font> <b>tdonohue:</b></font> oh, whoops, my bad :)<br/>
+<font color="#A82F2F"><font size="2">(3:51:38 PM)</font> <b>mdiggory:</b></font> thats the impl... but the link to api can be inferred<br/>
+<font color="#A82F2F"><font size="2">(3:51:50 PM)</font> <b>mdiggory:</b></font> http://scm.dspace.org/svn/repo/modules/dspace-core/trunk/api/src/main/java/org/dspace/<br/>
+<font color="#A82F2F"><font size="2">(3:51:51 PM)</font> <b>kompewter:</b></font> [ repo - Revision 6462: /modules/dspace-core/trunk/api/src/main/java/org/dspace ] - http://scm.dspace.org/svn/repo/modules/dspace-core/trunk/api/src/main/java/org/dspace/<br/>
+<font color="#16569E"><font size="2">(3:52:11 PM)</font> <b>tdonohue:</b></font> so, we might as well make a decision on this then...what do others think about this DS-845 stuff.  Do we want to create this dspace-core-api, or do we want to wait till after 1.8? or is everyone just +0 (don't care really)<br/>
+<font color="#A82F2F"><font size="2">(3:52:11 PM)</font> <b>kompewter:</b></font> [ https://jira.duraspace.org/browse/DS-845 ] - [#DS-845] Support for DSpace Domain Model Interfaces - DuraSpace JIRA<br/>
+<font color="#A82F2F"><font size="2">(3:52:25 PM)</font> <b>robint:</b></font> I hadn&apos;t realised that the fact it is currently in modules meant that it would not be moved to trunk<br/>
+<font color="#A82F2F"><font size="2">(3:52:56 PM)</font> <b>sandsfish:</b></font> i&apos;m sorry, i&apos;m not quite clear on why it can&apos;t move to the trunk.<br/>
+<font color="#A82F2F"><font size="2">(3:53:11 PM)</font> <b>aschweer:</b></font> sandsfish: same here<br/>
+<font color="#A82F2F"><font size="2">(3:53:21 PM)</font> <b>sandsfish:</b></font> seems like if it&apos;s core, it shouldn&apos;t be a module<br/>
+<font color="#A82F2F"><font size="2">(3:53:27 PM)</font> <b>sandsfish:</b></font> maybe i&apos;m off on this...<br/>
+<font color="#A82F2F"><font size="2">(3:53:27 PM)</font> <b>mdiggory:</b></font> (an aside, there is an ongoing discussion about modules strucutre and getting the modules that are &quot;core&quot; into a &quot;supported&quot; section)<br/>
+<font color="#16569E"><font size="2">(3:53:39 PM)</font> <b>tdonohue:</b></font> it could be moved to trunk. I think mdiggory just would rather it sit in SVN modules, as it allows for Async Releases<br/>
+<font color="#A82F2F"><font size="2">(3:53:53 PM)</font> <b>mdiggory:</b></font> its not in trunk because its released separately<br/>
+<font color="#A82F2F"><font size="2">(3:54:04 PM)</font> <b>mdiggory:</b></font> so that DSpace &quot;can be modular&quot;<br/>
+<font color="#A82F2F"><font size="2">(3:54:14 PM)</font> <b>robint:</b></font> Which brings us back to async releases<br/>
+<font color="#A82F2F"><font size="2">(3:54:21 PM)</font> <b>mdiggory:</b></font> because as long as everying is crammed into trunk, you don&apos;t &quot;have modular&quot;<br/>
+<font color="#A82F2F"><font size="2">(3:54:22 PM)</font> <b>sandsfish:</b></font> right, but we&apos;re still going to cut &quot;DSpace&quot; releases<br/>
+<font color="#A82F2F"><font size="2">(3:54:38 PM)</font> <b>aschweer:</b></font> yes I think Ds-845 mixes two issues without needing to<br/>
+<font color="#A82F2F"><font size="2">(3:54:39 PM)</font> <b>mdiggory:</b></font> yes we are, and they would still be offical<br/>
+<font color="#A82F2F"><font size="2">(3:54:58 PM)</font> <b>sandsfish:</b></font> but doesn&apos;t this represent the hooks into a particular dspace ver?<br/>
+<font color="#A82F2F"><font size="2">(3:55:10 PM)</font> <b>sandsfish:</b></font> and as such shouldn&apos;t shift?  again, just trying to understand here.<br/>
+<font color="#A82F2F"><font size="2">(3:55:33 PM)</font> <b>mdiggory:</b></font> Ok... I proposed this whole think... and is been under evolution over the last two years now... of course thay are mixed. I&apos;vve explained why<br/>
+<font color="#16569E"><font size="2">(3:55:43 PM)</font> <b>tdonohue:</b></font> mdiggory: you do have a form of modular if everything is in Trunk -- it's still modules, but they are just all released together.  It depends on your definition of &quot;modular&quot;<br/>
+<font color="#A82F2F"><font size="2">(3:56:07 PM)</font> <b>mdiggory:</b></font> no, I do not work that way<br/>
+<font color="#A82F2F"><font size="2">(3:56:17 PM)</font> <b>mhwood:</b></font> Step 1 and step 2 keep getting tangled because what&apos;s being pursued is step 2.<br/>
+<font color="#A82F2F"><font size="2">(3:56:39 PM)</font> <b>robint:</b></font> mhwood: well put<br/>
+<font color="#16569E"><font size="2">(3:56:45 PM)</font> <b>tdonohue:</b></font> correct, mhwood<br/>
+<font color="#062585"><font size="2">(3:57:28 PM)</font> <b>***mdiggory</b></font> scratching head?  How can I make my goal any clearer...<br/>
+<font color="#A82F2F"><font size="2">(3:58:12 PM)</font> <b>sandsfish:</b></font> mdiggory: what constitutes an official DSpace release for you?  just so we can see what you imagine the separation to look like?<br/>
+<font color="#A82F2F"><font size="2">(3:58:47 PM)</font> <b>mhwood:</b></font> The objective is clear:  async. release of various subsystems.  The tension here is that some want to organize the drive to the objective as a sequence of subgoals.<br/>
+<font color="#A82F2F"><font size="2">(3:58:59 PM)</font> <b>mdiggory:</b></font> An official release of DSpace is the set of core modules defined as &quot;supported&quot; plus the dspace-api and associated webapps that we decide are core<br/>
+<font color="#16569E"><font size="2">(3:59:06 PM)</font> <b>tdonohue:</b></font> well put again, mhwood.<br/>
+<font color="#A82F2F"><font size="2">(3:59:21 PM)</font> <b>sandsfish:</b></font> i can see the value in releasing individual modules async, but still think we need a core group of projects that are stable that modules are tied to.<br/>
+<font color="#A82F2F"><font size="2">(3:59:43 PM)</font> <b>mdiggory:</b></font> the goal is to allow portions of dspace-api that do not change at all and are contracts to have a longer lived release cycle than the dspace-api itself<br/>
+<font color="#A82F2F"><font size="2">(4:00:07 PM)</font> <b>mdiggory:</b></font> dspace-core-api, once formally establieshed would change less than dspace-api does<br/>
+<font color="#A82F2F"><font size="2">(4:00:38 PM)</font> <b>mdiggory:</b></font> and thus addons could depend on it independent of the dspace-api and offical release of dspace<br/>
+<font color="#16569E"><font size="2">(4:00:40 PM)</font> <b>tdonohue:</b></font> mdiggory, to bring mhwood's comments back to Ds-845.  This ticket could be split into two &quot;subgoals&quot;-- the first is just a refactoring of the DSpaceObject classes (which we all seemed to agree on), the second subgoal would be moving some classes to a dspace-core-api (which is the part where we were all disagreeing)<br/>
+<font color="#A82F2F"><font size="2">(4:00:46 PM)</font> <b>robint:</b></font> One of the things that puts people off is when they discover that to allow for async releases of modules the source for thos modules cant be distributed in a full release<br/>
+<font color="#A82F2F"><font size="2">(4:00:57 PM)</font> <b>mdiggory:</b></font> thus addons could be used across DSpace versions easily<br/>
+<font color="#A82F2F"><font size="2">(4:01:29 PM)</font> <b>mhwood:</b></font> But that&apos;s just defining interfaces.  Building an async release structure doesn&apos;t have to be done at the same time.  Tearing off the interfaces enables that after we&apos;ve digested the changes that create dspace-core-api.<br/>
+<font color="#A82F2F"><font size="2">(4:01:38 PM)</font> <b>mdiggory:</b></font> Ok, maybe I<br/>
+<font color="#A82F2F"><font size="2">(4:02:18 PM)</font> <b>mdiggory:</b></font> I&apos;m missing if this is about the move of a few classes, or if its about the dependency and existence of dspace-core-api outside of trunk<br/>
+<font color="#A82F2F"><font size="2">(4:02:52 PM)</font> <b>sandsfish:</b></font> if dspace-core-api is going to change less than dspace-api, why not just release it each time a DSpace release is cut.  isn&apos;t it just tie-ins that _may_ change if dspace-api does, which will be a synchronous release?  what would be the use case for releasing a new dspace-core-api outside of a dspace + dspace-api release?<br/>
+<font color="#A82F2F"><font size="2">(4:03:22 PM)</font> <b>sandsfish:</b></font> (i see we&apos;re at 5:02 here, so we&apos;re running over as of now.)<br/>
+<font color="#A82F2F"><font size="2">(4:03:59 PM)</font> <b>mdiggory:</b></font> sandsfish: because theres a cyclical dependency that we (er um &quot;I&quot;) and trying to break by not releasing it with the rest of DSpace.<br/>
+<font color="#A82F2F"><font size="2">(4:04:42 PM)</font> <b>mdiggory:</b></font> If you&apos;ve read / reviewed any of the async release and domain model proposals in the wiki, this is stated within it<br/>
+<font color="#16569E"><font size="2">(4:04:44 PM)</font> <b>tdonohue:</b></font> mdiggory -- the issue right now is just around dspace-core-api, I believe.  I think we had questions about whether that was necessary in 1.8, or if we could just do the refactoring of DSpaceObject classes in 1.8, and leave the dspace-core-api work to just after 1.8<br/>
+<font color="#062585"><font size="2">(4:05:02 PM)</font> <b>***tdonohue</b></font> we are running over here<br/>
+<font color="#A82F2F"><font size="2">(4:05:07 PM)</font> <b>mdiggory:</b></font> god no.... please<br/>
+<font color="#A82F2F"><font size="2">(4:05:55 PM)</font> <b>mhwood:</b></font> What I think I&apos;m reading between the lines is that there are two models competing.  One wants to define which pieces go in the center of DSpace, and the other says there is no center.  ???<br/>
+<font color="#A82F2F"><font size="2">(4:06:32 PM)</font> <b>mdiggory:</b></font> mhwood: no, there is a center... its just not defined as &quot;trunk&quot;<br/>
+<font color="#A82F2F"><font size="2">(4:06:54 PM)</font> <b>mdiggory:</b></font> its just not bound to an SCM, its instead a Maven assembly<br/>
+<font color="#A82F2F"><font size="2">(4:07:22 PM)</font> <b>mdiggory:</b></font> an assembly of several clearly defined subprojects<br/>
+<font color="#A82F2F"><font size="2">(4:07:46 PM)</font> <b>aschweer:</b></font> sorry, I need to leave. bye all.<br/>
+<font color="#062585"><font size="2">(4:07:47 PM)</font> <b>***tdonohue</b></font> all, we are well over time here -- if you have to head out, feel free.  I&apos;m going to stick around more though (obviously)<br/>
+<font size="2">(4:07:48 PM)</font><b> aschweer left the room (quit: Quit: leaving).</b><br/>
+<font color="#A82F2F"><font size="2">(4:08:11 PM)</font> <b>mdiggory:</b></font> (the aside concerning grouping modules under &quot;supported&quot; is also important to meeting the need of &quot;central&quot;<br/>
+<font color="#A82F2F"><font size="2">(4:08:12 PM)</font> <b>mhwood:</b></font> Time to go back to the ML, with more time to explain stuff?<br/>
+<font color="#A82F2F"><font size="2">(4:08:29 PM)</font> <b>robint:</b></font> But the Maven assembly would assemble the source code into one deliverable release ?<br/>
+<font color="#A82F2F"><font size="2">(4:08:50 PM)</font> <b>mhwood:</b></font> The center of DSpace is a POM.  Just a POM.  Yes?<br/>
+<font color="#A82F2F"><font size="2">(4:08:58 PM)</font> <b>mdiggory:</b></font> the maven assembly would group released subprojects of dspace into one distribution<br/>
+<font color="#A82F2F"><font size="2">(4:08:59 PM)</font> <b>robint:</b></font> Or assemble what is effectively a binary release ?<br/>
+<font size="2">(4:09:11 PM)</font><b> JRhoads left the room.</b><br/>
+<font color="#A82F2F"><font size="2">(4:09:26 PM)</font> <b>mdiggory:</b></font> mhwood: no<br/>
+<font color="#A82F2F"><font size="2">(4:09:30 PM)</font> <b>robint:</b></font> mdiggory: but source code or artifacts ?<br/>
+<font color="#A82F2F"><font size="2">(4:09:42 PM)</font> <b>mdiggory:</b></font> robint: artifacts<br/>
+<font color="#16569E"><font size="2">(4:09:45 PM)</font> <b>tdonohue:</b></font> mdiggory -- but, in that 'grouped' distribution, can you still get release both a &quot;source release&quot; and a &quot;binary release&quot; (just as we currently do)<br/>
+<font color="#A82F2F"><font size="2">(4:10:05 PM)</font> <b>robint:</b></font> That is where I have  problem<br/>
+<font color="#A82F2F"><font size="2">(4:10:12 PM)</font> <b>mdiggory:</b></font> if you want the sourceode for an artifact, you can check it out of SVN or we can, yes, create a source release that groups them all into one build<br/>
+<font color="#A82F2F"><font size="2">(4:10:25 PM)</font> <b>robint:</b></font> In order to have async releases you cant distribute the source code<br/>
+<font color="#A82F2F"><font size="2">(4:10:26 PM)</font> <b>mdiggory:</b></font> robint: why, we already do it<br/>
+<font color="#A82F2F"><font size="2">(4:10:42 PM)</font> <b>robint:</b></font> We only do it for peripheral modules at present<br/>
+<font color="#A82F2F"><font size="2">(4:10:42 PM)</font> <b>mdiggory:</b></font> we have a &quot;release&quot; and src-release&quot;<br/>
+<font color="#A82F2F"><font size="2">(4:10:53 PM)</font> <b>mdiggory:</b></font> no, we do it for dspace-api et al<br/>
+<font color="#A82F2F"><font size="2">(4:11:08 PM)</font> <b>robint:</b></font> Dont understand<br/>
+<font color="#A82F2F"><font size="2">(4:11:09 PM)</font> <b>mdiggory:</b></font> dspace-release-x.x.x.zip<br/>
+<font color="#A82F2F"><font size="2">(4:11:21 PM)</font> <b>robint:</b></font> Ah sorry<br/>
+<font color="#A82F2F"><font size="2">(4:11:33 PM)</font> <b>robint:</b></font> As an existing binary release<br/>
+<font color="#A82F2F"><font size="2">(4:11:54 PM)</font> <b>mdiggory:</b></font> only has /dspace in it and is used to build a dspace install without compiling sourcecode<br/>
+<font color="#A82F2F"><font size="2">(4:12:17 PM)</font> <b>robint:</b></font> But we also do source code releases and they have the majority of the source code therein<br/>
+<font color="#A82F2F"><font size="2">(4:12:21 PM)</font> <b>mdiggory:</b></font> it downloads all artifacts as jars/wars freom maven<br/>
+<font color="#A82F2F"><font size="2">(4:12:32 PM)</font> <b>mhwood:</b></font> Sorry, gonna have to check the log later.  Must dash.  Thanks!<br/>
+<font color="#A82F2F"><font size="2">(4:12:53 PM)</font> <b>sandsfish:</b></font> sorry all, have to run.  interested to hear the outcome of this, whenever that occurs.  sounds like this needs a little clearer sketching out.  perhaps as an image.  cheers.<br/>
+<font color="#16569E"><font size="2">(4:12:56 PM)</font> <b>tdonohue:</b></font> mdiggory -- so, the problem comes in when people want to do things like Overlays.  When it comes to overlays, people often need access to Source Code, and we won't want to force them to search it out somewhere in SVN (which may not be very straightforward)<br/>
+<font size="2">(4:13:03 PM)</font><b> sandsfish left the room (quit: Quit: sandsfish).</b><br/>
+<font color="#A82F2F"><font size="2">(4:13:07 PM)</font> <b>mdiggory:</b></font> robint: yes, but almost always we (@mire) do not use that distro when deploying/customizing a dspace<br/>
+<font size="2">(4:13:47 PM)</font><b> mhwood left the room.</b><br/>
+<font color="#A82F2F"><font size="2">(4:13:48 PM)</font> <b>mdiggory:</b></font> tdonohue We get the sourcecode from the svn or the released source jar in Maven.... it works great<br/>
+<font color="#A82F2F"><font size="2">(4:14:25 PM)</font> <b>robint:</b></font> But you guys work withDSpace full time<br/>
+<font color="#16569E"><font size="2">(4:14:44 PM)</font> <b>tdonohue:</b></font> Right. I wasn't exactly clear that you were saying we could still do the *exact same* 'dspace-src.release.zip' from SourceForge.<br/>
+<font color="#A82F2F"><font size="2">(4:14:57 PM)</font> <b>mdiggory:</b></font> we also do not recommend altering the source &quot;in place&quot; and rereleasing the jars with the same version number because then you havn&apos;t a clue whats int he jar<br/>
+<font size="2">(4:15:20 PM)</font><b> stuartlewis [<em>~stuartlew@s-lewis.itss.auckland.ac.nz</em>] entered the room.</b><br/>
+<font color="#A82F2F"><font size="2">(4:15:20 PM)</font> <b>mdiggory:</b></font> or I mean &quot;which variant of the jar your really working with&quot;<br/>
+<font color="#16569E"><font size="2">(4:15:32 PM)</font> <b>tdonohue:</b></font> essentially, I'm saying something similar to robint.  I'm worried that splitting out all our modules away from Trunk would make it *more difficult* for novice developers to understand how DSpace functions and where the code all is.  <br/>
+<font color="#16569E"><font size="2">(4:16:36 PM)</font> <b>tdonohue:</b></font> I understand though why it could benefit *expert developers* in some ways (with async and all that).  But, we need to be thinking both about *novice* DSpace users/developers as well.<br/>
+<font color="#A82F2F"><font size="2">(4:16:44 PM)</font> <b>mdiggory:</b></font> well, TBH, I feel the oposite.<br/>
+<font color="#062585"><font size="2">(4:17:07 PM)</font> <b>***PeterDietz</b></font> sorry all. Had All-Staff meeting<br/>
+<font color="#A82F2F"><font size="2">(4:17:11 PM)</font> <b>mdiggory:</b></font> Its harder and harder to work with DSpace the more and more stuff is shuvled under trunk and called &quot;dspace&quot;<br/>
+<font color="#A82F2F"><font size="2">(4:18:02 PM)</font> <b>mdiggory:</b></font> more and more &quot;experimental&quot; code and changes that get under one monolithic project, the more and more difficult it is to track the important parts<br/>
+<font color="#16569E"><font size="2">(4:18:34 PM)</font> <b>tdonohue:</b></font> mdiggory: not sure how it is the opposite.  If you are a novice developer, and you are looking for something in the &quot;org.dspace.core.Constants&quot;, how would you know to look in the /modules/dspace-core/ area (instead of Trunk or one of the other many things under /modules).<br/>
+<font color="#A82F2F"><font size="2">(4:19:04 PM)</font> <b>mdiggory:</b></font> search<br/>
+<font color="#A82F2F"><font size="2">(4:19:59 PM)</font> <b>mdiggory:</b></font> TBH, no one outside of the Core team should be altering a class like &quot;Constants&quot;<br/>
+<font color="#A82F2F"><font size="2">(4:20:13 PM)</font> <b>robint:</b></font> But people do<br/>
+<font color="#A82F2F"><font size="2">(4:20:25 PM)</font> <b>mdiggory:</b></font> or I mean, only &quot;contributions&quot; to the core should alter Constants<br/>
+<font color="#16569E"><font size="2">(4:20:43 PM)</font> <b>tdonohue:</b></font> mdiggory: But what if they are just fixing a small bug, or wanting to give us a patch?  then they may need to alter core classes to do that<br/>
+<font color="#A82F2F"><font size="2">(4:20:52 PM)</font> <b>mdiggory:</b></font> robint: its a bad practice and the community should make it clear that it is so, not promote doing it<br/>
+<font color="#A82F2F"><font size="2">(4:21:21 PM)</font> <b>mdiggory:</b></font> tdonohue: I corrected my statement right be fore your last post<br/>
+<font color="#A82F2F"><font size="2">(4:22:23 PM)</font> <b>robint:</b></font> Could we not still do a binary and source release<br/>
+<font color="#A82F2F"><font size="2">(4:22:38 PM)</font> <b>mdiggory:</b></font> Yes, we can make maven assemblies for both<br/>
+<font color="#A82F2F"><font size="2">(4:22:46 PM)</font> <b>robint:</b></font> Just the source release would be an aaggregate of trunk and modules ?<br/>
+<font color="#16569E"><font size="2">(4:22:46 PM)</font> <b>tdonohue:</b></font> we could, robint.  I think we could still do a dspace-src-release and a dspace-release<br/>
+<font color="#A82F2F"><font size="2">(4:23:06 PM)</font> <b>robint:</b></font> mdiggory: you answered my question :)<br/>
+<font color="#A82F2F"><font size="2">(4:23:13 PM)</font> <b>mdiggory:</b></font> correct, though I&apos;d still not use it<br/>
+<font color="#A82F2F"><font size="2">(4:23:32 PM)</font> <b>mdiggory:</b></font> why would I want to rebuild something that was already released.<br/>
+<font color="#16569E"><font size="2">(4:23:34 PM)</font> <b>tdonohue:</b></font> but, novice developers would use it, cause it's an easy way to get all source code together<br/>
+<font color="#A82F2F"><font size="2">(4:24:17 PM)</font> <b>mdiggory:</b></font> thats why they call JAVA ... write once, run everywhere<br/>
+<font color="#A82F2F"><font size="2">(4:24:32 PM)</font> <b>robint:</b></font> And not everyone would be interested in taking advantage of async releases<br/>
+<font color="#A82F2F"><font size="2">(4:25:31 PM)</font> <b>robint:</b></font> In an ideal world just doing a binary release would olve lots of problems, but I am worried about the reaction from the community<br/>
+<font color="#A82F2F"><font size="2">(4:25:34 PM)</font> <b>robint:</b></font> olve/solve<br/>
+<font color="#A82F2F"><font size="2">(4:26:01 PM)</font> <b>mdiggory:</b></font> tdonohue: I suppose if your into torture, you could recompile the JVM as well, so what if you have the source, does that really bring you a greater ability to use a JVM?<br/>
+<font color="#16569E"><font size="2">(4:26:07 PM)</font> <b>tdonohue:</b></font> yea, I think the community would not like that.  They need easy access to Source Code for even some small changes or to provide patches back to us, etc<br/>
+<font color="#16569E"><font size="2">(4:26:35 PM)</font> <b>tdonohue:</b></font> mdiggory: DSpace is not a JVM.  People don't need to customize the JVM to better fit their local institutions needs<br/>
+<font color="#A82F2F"><font size="2">(4:27:12 PM)</font> <b>mdiggory:</b></font> Depends on the institution ;-)<br/>
+<font color="#A82F2F"><font size="2">(4:27:53 PM)</font> <b>mdiggory:</b></font> I&apos;ve seen cases where javax classes were overriden in source before<br/>
+<font color="#A82F2F"><font size="2">(4:28:00 PM)</font> <b>mdiggory:</b></font> very very scarry<br/>
+<font color="#A82F2F"><font size="2">(4:28:11 PM)</font> <b>robint:</b></font> Whose side are you on now ? :)<br/>
+<font color="#A82F2F"><font size="2">(4:28:34 PM)</font> <b>mdiggory:</b></font> the side of stability... ;-)<br/>
+<font color="#16569E"><font size="2">(4:28:36 PM)</font> <b>tdonohue:</b></font> mdiggory: yea, but still..JVM does not advertise itself as being something you can easily theme/change for your local institution.  DSpace does.<br/>
+<font color="#A82F2F"><font size="2">(4:30:10 PM)</font> <b>mdiggory:</b></font> tdonohue: I&apos;m just trying to clarify where the misinterpretation of the best practices of Maven and Java are emergent in the DSpace community.<br/>
+<font color="#A82F2F"><font size="2">(4:30:40 PM)</font> <b>hpottinger:</b></font> speaking as a member of the community, I&apos;d happily change back to a binary release if src release weren&apos;t the &quot;lingua franca&quot; on the mail lists<br/>
+<font color="#16569E"><font size="2">(4:31:28 PM)</font> <b>tdonohue:</b></font> I'm just worried that it could scare away novice developers or cause people to think DSpace is &quot;hard to customize&quot; or &quot;too complex to really customize/work with&quot;.  I understand many of the benefits, but I worry about whether it makes it harder to get community-contributed patches/changes/features.<br/>
+<font color="#A82F2F"><font size="2">(4:31:33 PM)</font> <b>mdiggory:</b></font> I repeatedly find myself swimming against the current because those  &quot;not so great&quot; practices have become extremely prevalent<br/>
+<font color="#16569E"><font size="2">(4:31:54 PM)</font> <b>tdonohue:</b></font> (but, if we find a way to make this as easy or easier for novice developers, then I'd be all in)<br/>
+<font color="#A82F2F"><font size="2">(4:32:08 PM)</font> <b>robint:</b></font> me too<br/>
+<font color="#A82F2F"><font size="2">(4:32:29 PM)</font> <b>mdiggory:</b></font> can you identify the experience level of these novice developers you refer to?<br/>
+<font color="#16569E"><font size="2">(4:33:03 PM)</font> <b>tdonohue:</b></font> A Java developer (or someone potentially even a little new to Java) who has just been hired to help Customize DSpace for a local IR<br/>
+<font color="#A82F2F"><font size="2">(4:33:20 PM)</font> <b>robint:</b></font> Real world example...<br/>
+<font color="#16569E"><font size="2">(4:33:21 PM)</font> <b>tdonohue:</b></font> (so, this developer may not have *any* previous Maven experiences, etc)<br/>
+<font color="#A82F2F"><font size="2">(4:33:23 PM)</font> <b>mdiggory:</b></font> because customizing any software applications source requires a certain level of proficiency<br/>
+<font color="#A82F2F"><font size="2">(4:33:33 PM)</font> <b>robint:</b></font> The Jorum project I orked on recently<br/>
+<font color="#A82F2F"><font size="2">(4:33:53 PM)</font> <b>robint:</b></font> The guys were good developers<br/>
+<font color="#A82F2F"><font size="2">(4:34:12 PM)</font> <b>robint:</b></font> But inexperienced in Maven so didn&apos;t use overlays<br/>
+<font color="#A82F2F"><font size="2">(4:34:27 PM)</font> <b>robint:</b></font> and heavily customised the dspace-api classes<br/>
+<font color="#A82F2F"><font size="2">(4:34:36 PM)</font> <b>robint:</b></font> including Constants<br/>
+<font color="#A82F2F"><font size="2">(4:35:10 PM)</font> <b>mdiggory:</b></font> was that they were unable or unwilling to learn<br/>
+<font color="#A82F2F"><font size="2">(4:35:23 PM)</font> <b>robint:</b></font> Does it matter ?<br/>
+<font color="#A82F2F"><font size="2">(4:35:59 PM)</font> <b>mdiggory:</b></font> because I think we have provided sufficient tutorials and documentation on how to customize dspace that a true novice could pick it up.<br/>
+<font color="#16569E"><font size="2">(4:36:11 PM)</font> <b>tdonohue:</b></font> I think we need to realize that at many institutions, the developer (if there even is one) working on their local DSpace is usually semi-proficient at Java. But, in most scenarios they may have no (or little) proficiency with Maven or Cocoon or similar<br/>
+<font color="#A82F2F"><font size="2">(4:36:39 PM)</font> <b>mdiggory:</b></font> Ideally, by the time we get done here, such a developer wouldn&apos;t need to write java<br/>
+<font color="#A82F2F"><font size="2">(4:36:52 PM)</font> <b>mdiggory:</b></font> or possibly even be a developer at all<br/>
+<font color="#16569E"><font size="2">(4:37:01 PM)</font> <b>tdonohue:</b></font> mdiggory: that's assuming this developer also has *time* to read all those docs &amp; tutorials.  Not all institutions even have a developer who is dedicated to the IR. Many have to share a developer with other projects<br/>
+<font color="#A82F2F"><font size="2">(4:37:46 PM)</font> <b>mdiggory:</b></font> Sounds like you want your cake and eat it to.<br/>
+<font color="#16569E"><font size="2">(4:37:53 PM)</font> <b>tdonohue:</b></font> right, mdiggory: I agree with that end goal (no needing Java or being a developer).  But, we cannot make it 100% more difficult before we make it 75% easier (i.e. we don't want to move in the wrong direction in the short term)<br/>
+<font color="#16569E"><font size="2">(4:38:17 PM)</font> <b>tdonohue:</b></font> mdiggory: ?  No, I'm just being realistic.  Most institutions do not have a dedicated developer for DSpace<br/>
+<font color="#16569E"><font size="2">(4:38:33 PM)</font> <b>tdonohue:</b></font> We need to realize that is the truth of the situation. <br/>
+<font color="#A82F2F"><font size="2">(4:39:58 PM)</font> <b>mdiggory:</b></font> Still not getting it, so what then, they don&apos;t do java customization then<br/>
+<font color="#16569E"><font size="2">(4:40:08 PM)</font> <b>tdonohue:</b></font> All I'm saying is we need to keep DSpace development *reasonable* and relatively easy to learn/pick up. <br/>
+<font color="#A82F2F"><font size="2">(4:40:44 PM)</font> <b>mdiggory:</b></font> I think it is.  We teach it regularly and everyone &quot;gets it&quot; when we do our tutorials<br/>
+<font color="#A82F2F"><font size="2">(4:41:02 PM)</font> <b>mdiggory:</b></font> and TBH @mire tutorials don&apos;t use the src release<br/>
+<font color="#16569E"><font size="2">(4:41:18 PM)</font> <b>tdonohue:</b></font> Currently, I think those development processes are reasonable.  Someone (in little time) can go to SVN Trunk, get all the source code and start learning how things work.  Once we start moving around where the &quot;source&quot; is, then we need to just be careful about whether we are making things too complex or not.<br/>
+<font color="#16569E"><font size="2">(4:42:07 PM)</font> <b>tdonohue:</b></font> I'm just saying: everything in moderation<br/>
+<font color="#A82F2F"><font size="2">(4:42:20 PM)</font> <b>mdiggory:</b></font> There are two reasons for not doing that<br/>
+<font color="#A82F2F"><font size="2">(4:42:34 PM)</font> <b>mdiggory:</b></font> 1.) Because you do not want them to change that &quot;contract&quot;<br/>
+<font color="#A82F2F"><font size="2">(4:43:03 PM)</font> <b>mdiggory:</b></font> 2.) Because they should know what they are doing if they did want to change that contract<br/>
+<font color="#A82F2F"><font size="2">(4:43:08 PM)</font> <b>robint:</b></font> Sorry guys I have to head off. I&apos;ll stay online so I can read this later. Cheers.<br/>
+<font color="#A82F2F"><font size="2">(4:43:46 PM)</font> <b>mdiggory:</b></font> The whole point of keeping the contract separate is to keep them from hanging themselves by changing it<br/>
+<font color="#16569E"><font size="2">(4:44:26 PM)</font> <b>tdonohue:</b></font> mdiggory: I was just talking about Source Code as a *learning tool* (it's amazing what you can learn from it).  Not necessarily about these developers going in and changing core code (unless they found a bug they wanted to patch for us, of course)<br/>
+<font color="#062585"><font size="2">(4:44:28 PM)</font> <b>***hpottinger</b></font> has to head out, too, will check the logs later, very interesting conversation<br/>
+<font size="2">(4:44:53 PM)</font><b> hpottinger left the room (quit: Quit: Page closed).</b><br/>
+<font color="#A82F2F"><font size="2">(4:45:19 PM)</font> <b>mdiggory:</b></font> tdonohue: as robint just showed us, even seasoned java developers will not use the best approaches<br/>
+<font color="#16569E"><font size="2">(4:46:33 PM)</font> <b>tdonohue:</b></font> right, but that's no reason to &quot;wall off&quot; any source code (or obscure it).  We should be making it as easy as possible for developers to develop with DSpace (because that encourages more development &amp; more contribution).  I'm just wanting to make sure we aren't building &quot;unnecessary&quot; walls/boundaries to development <br/>
+<font color="#A82F2F"><font size="2">(4:47:10 PM)</font> <b>mdiggory:</b></font> tdonohue: thats where I get really confused... If I want to look at the source I go to one of two places... (a) the internet (b) an IDE like Intellij where I can navigate the class hierarchy and explore the entire codebase<br/>
+<font color="#A82F2F"><font size="2">(4:47:34 PM)</font> <b>mdiggory:</b></font> the source code isn&apos;t walled off from view...<br/>
+<font color="#A82F2F"><font size="2">(4:48:49 PM)</font> <b>mdiggory:</b></font> the separation is an assertion that the api is a contract separate from any implementation of that API<br/>
+<font color="#16569E"><font size="2">(4:49:16 PM)</font> <b>tdonohue:</b></font> mdiggory: I agree with that approach to finding source code (searching, etc).  I'm just pointing out that it becomes a little more complex to develop with Dspace if you have to do 5-10 SVN checkouts in order to see all the source. (and to figure out what SVN checkouts you needed to do, you may have needed to do 5-10 searches to find that source location)<br/>
+<font color="#16569E"><font size="2">(4:50:08 PM)</font> <b>tdonohue:</b></font> So, as an example:  Suppose you are a new Developer, and you want to Develop with DSpace 10.0 (imaginary version number used on purpose)...<br/>
+<font color="#16569E"><font size="2">(4:51:12 PM)</font> <b>tdonohue:</b></font> Ok..step one: you'll go get your IDE.  Step Two: let's checkout the DSpace 10.0 &quot;Trunk&quot;...whoops, no real source code here.  Step 3: Ok, I really want the XMLUI, so let's go see if I can find the XMLUI Source for DSpace 10.0 <br/>
+<font color="#A82F2F"><font size="2">(4:51:17 PM)</font> <b>mdiggory:</b></font> 1.) You download Eclipse or IDEA or Netbeans so you can learn how to develop a Java application<br/>
+<font color="#16569E"><font size="2">(4:52:06 PM)</font> <b>tdonohue:</b></font> Step 4: Found the XMLUI source.  Step 5: Oh wait, but I also needed the source for Discovery...now where is that?   Step 6: oh, finally found it...I guess Dspace 10.0 must use Discovery version 4.4.3<br/>
+<font color="#16569E"><font size="2">(4:52:18 PM)</font> <b>tdonohue:</b></font> Step 7: Oh but wait, I also need the Stats engine...where is that?<br/>
+<font color="#16569E"><font size="2">(4:52:20 PM)</font> <b>tdonohue:</b></font> etc<br/>
+<font color="#A82F2F"><font size="2">(4:52:23 PM)</font> <b>mdiggory:</b></font> 2.) You make sure you have MAven integration (Eclipse will need it)<br/>
+<font color="#A82F2F"><font size="2">(4:52:32 PM)</font> <b>mdiggory:</b></font> 3.) YOu checkout trunk and build dspace<br/>
+<font color="#A82F2F"><font size="2">(4:53:16 PM)</font> <b>mdiggory:</b></font> 4.) If you want to Override a Class you run the search in the IDE, in IDEA&lt; that returns that source code from the maven repo you are seeking<br/>
+<font color="#A82F2F"><font size="2">(4:54:17 PM)</font> <b>mdiggory:</b></font> 5.) You copy the file into your modules and alter it<br/>
+<font color="#A82F2F"><font size="2">(4:54:26 PM)</font> <b>mdiggory:</b></font> copy = copy/paste<br/>
+<font color="#A82F2F"><font size="2">(4:54:40 PM)</font> <b>mdiggory:</b></font> 6.) you recompile<br/>
+<font color="#16569E"><font size="2">(4:55:44 PM)</font> <b>tdonohue:</b></font> ( I think your Step 4 includes an IDEA specific feature in the returning Source Code from Maven repo -- I don't think NetBeans or Eclipse does that?  But, it does sound like a nice feature.)<br/>
+<font color="#A82F2F"><font size="2">(4:56:25 PM)</font> <b>mdiggory:</b></font> I believe that both IDEA and m2eclipse support searching through source jars for code<br/>
+<font color="#A82F2F"><font size="2">(4:57:19 PM)</font> <b>mdiggory:</b></font> I don&apos;t use netbeans because IDEA always seems to be more advanced, but I understand your point.<br/>
+<font color="#16569E"><font size="2">(4:58:29 PM)</font> <b>tdonohue:</b></font> yea, the point is, we need to make sure there are also paths for the lowest common denominator in terms of IDEs. unfortunately, the absolute lowest common denominator is the text editor -- but hopefully no one is using that (and we can recommend some sort of IDE usage) :)<br/>
+<font color="#A82F2F"><font size="2">(4:59:19 PM)</font> <b>mdiggory:</b></font> that said, you can take the argument in the opposite direction and take us altheway back to dspace 1.4  having to look for anything outside the src/java directory is just too much work for the developer, it should all be under one source tree to make it easy to see all the code.<br/>
+<font size="2">(5:00:38 PM)</font><b> robint left the room (quit: Ping timeout: 252 seconds).</b><br/>
+<font color="#16569E"><font size="2">(5:00:40 PM)</font> <b>tdonohue:</b></font> mdiggory: i'm not a fan of looking at past decisions as an argument for future decisions :)  <br/>
+<font color="#A82F2F"><font size="2">(5:00:44 PM)</font> <b>mdiggory:</b></font> Sorry, I can keep arguing around this tree right now<br/>
+<font color="#A82F2F"><font size="2">(5:01:01 PM)</font> <b>kshepherd:</b></font> to be honest, i&apos;m less worried about the extra projects i&apos;ll need open, checkouts i&apos;ll need to do (and the lack of IDE support in general for hopping around code that isn&apos;t in the project workspace you&apos;re looking at), and more worried about the whole stable vs unstable vs untested vs sandbox modules<br/>
+<font color="#A82F2F"><font size="2">(5:03:08 PM)</font> <b>mdiggory:</b></font> So, it would seem that we have a very huge difference of opinion in the community.  I&apos;m not convinced I can resolve this.<br/>
+<font color="#16569E"><font size="2">(5:03:13 PM)</font> <b>tdonohue:</b></font> kshepherd: you mean how well &quot;tested&quot; these modules are when they are released asynchronously?<br/>
+<font color="#A82F2F"><font size="2">(5:03:18 PM)</font> <b>kshepherd:</b></font> yeah<br/>
+<font color="#A82F2F"><font size="2">(5:03:23 PM)</font> <b>kshepherd:</b></font> or even how many people know they exist<br/>
+<font color="#A82F2F"><font size="2">(5:03:44 PM)</font> <b>kshepherd:</b></font> and realise they could be downloading and building unreviewed code<br/>
+<font color="#16569E"><font size="2">(5:04:48 PM)</font> <b>tdonohue:</b></font> yea, I'd agree with that concern as well.  There still needs to be testathons to ensure that the &quot;core modules&quot; (whatever those modules may be) are all stable and work together well. <br/>
+<font color="#A82F2F"><font size="2">(5:04:51 PM)</font> <b>kshepherd:</b></font> not saying that&apos;s an unsolvable problem, just something that needs care.. a separate svn area (and maybe different naming scheme?) for modules that trunk depends on<br/>
+<font color="#A82F2F"><font size="2">(5:05:27 PM)</font> <b>mdiggory:</b></font> I think thats a false sense of security, reviewed by who? How many commits of code to trunk come through with only one set of eyes ever having seen them...<br/>
+<font color="#A82F2F"><font size="2">(5:05:31 PM)</font> <b>kshepherd:</b></font> and awareness amongst devs and reviewers that they need to test all sorts of other stuff other than trunk<br/>
+<font color="#A82F2F"><font size="2">(5:05:54 PM)</font> <b>kshepherd:</b></font> ok well, fair enough, but most of the bad stuff i&apos;ve seen lately has been hiding in modules<br/>
+<font color="#A82F2F"><font size="2">(5:05:58 PM)</font> <b>mdiggory:</b></font> I suggest prior to the introduction of a lead developer,  a large majority<br/>
+<font color="#16569E"><font size="2">(5:06:20 PM)</font> <b>tdonohue:</b></font> mdiggory: the &quot;testathon&quot; gives people security though...they have the ability to help us test the next version of DSpace to ensure it seems stable to them, etc. <br/>
+<font color="#A82F2F"><font size="2">(5:06:50 PM)</font> <b>mdiggory:</b></font> I&apos;m sorry, I have work to get done.<br/>
+<font color="#A82F2F"><font size="2">(5:07:18 PM)</font> <b>kshepherd:</b></font> if we have no faith in trunk then i guess my concerns aren&apos;t relevant, but i think a lot of people do see and check commits as they happen to trunk<br/>
+<font color="#A82F2F"><font size="2">(5:07:28 PM)</font> <b>kshepherd:</b></font> they wouldn&apos;t if the commit was to &quot;kims-funny-sandbox-module&quot;<br/>
+<font color="#A82F2F"><font size="2">(5:07:41 PM)</font> <b>kshepherd:</b></font> and then one day, when that module sneaks its way into a dspace release...<br/>
+<font color="#16569E"><font size="2">(5:07:43 PM)</font> <b>tdonohue:</b></font> I gotta go to.  I think there is a difference of opinion here, but I don't think it's insurmountable.  I just think we really need better examples of how our processes would change in this &quot;new model of development&quot;<br/>
+<font size="2">(5:08:07 PM)</font><b> gaurav_kl left the room (quit: Quit: Page closed).</b><br/>
+<font color="#A82F2F"><font size="2">(5:08:20 PM)</font> <b>mdiggory:</b></font> the problem is that I don&apos;t have time to invest creating more examples than I already have<br/>
+<font size="2">(5:08:42 PM)</font><b> mdiggory left the room.</b><br/>

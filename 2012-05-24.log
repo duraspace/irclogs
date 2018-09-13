@@ -1,0 +1,82 @@
+<span class="irc-date">[0:42]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:27]</span> <span class="irc-brown">-hubbard.freenode.net- [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: <a href="http://freenode.net/faq.shtml#gettinghelp">http://freenode.net/faq.shtml#gettinghelp</a></span><br />
+<span class="irc-date">[10:41]</span> <span class="irc-navy">* PeterDie_ (~peterdiet@128.146.173.59) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[10:41]</span> <span class="irc-green">* PeterDietz (~peterdiet@128.146.173.59) has joined #duraspace</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:37]</span> <span class="irc-green">* ajs6f (d80c403e@gateway/web/freenode/ip.216.12.64.62) has joined #duraspace</span><br />
+<span class="irc-date">[12:44]</span> <span class="irc-green">* Ed_ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) has joined #duraspace</span><br />
+<span class="irc-date">[12:56]</span> <span class="irc-green">* elschlomo (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:58]</span> <span class="irc-green">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) has joined #duraspace</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;Dan_Davis&gt; Notes:</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Look at recently submitted issues.</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+FCREPO+AND+status+%3D+Received+ORDER+BY+created+DESC%2C+updated+DESC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+FCREPO+AND+status+%3D+Received+ORDER+BY+created+DESC%2C+updated+DESC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+FCREPO+AND+status+%3D+Received+ORDER+BY+created+DESC%2C+updated+DESC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+FCREPO+AND+status+%3D+Received+ORDER+BY+created+DESC%2C+updated+DESC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-black">&lt;elschlomo&gt; <a href="https://jira.duraspace.org/secure/IssueNavigator!executeAdvanced.jspa?jqlQuery=fixVersion%3D%22Fedora+3.6%22+and+status+%21%3D+Closed+and+assignee+is+EMPTY&amp;runQuery=true&amp;clear=true">https://jira.duraspace.org/secure/IssueNavigator!executeAdvanced.jspa?jqlQuery=fixVersion%3D%22Fedora+3.6%22+and+status+%21%3D+Closed+and+assignee+is+EMPTY&amp;runQuery=true&amp;clear=true</a></span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator!executeAdvanced.jspa?jqlQuery=fixVersion%3D%22Fedora+3.6%22+and+status+%21%3D+Closed+and+assignee+is+EMPTY&amp;runQuery=true&amp;clear=true">https://jira.duraspace.org/secure/IssueNavigator!executeAdvanced.jspa?jqlQuery=fixVersion%3D%22Fedora+3.6%22+and+status+%21%3D+Closed+and+assignee+is+EMPTY&amp;runQuery=true&amp;clear=true</a></span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: One new item - request for new Client published to Maven</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Focus on 3.6, Release in June so just the key issues.</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Very important servlet filter refactoring.</span><br />
+<span class="irc-date">[13:10]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: GSOC code integration done and committed.</span><br />
+<span class="irc-date">[13:10]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: And merged.</span><br />
+<span class="irc-date">[13:10]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Show up to answer question - Yes its done.</span><br />
+<span class="irc-date">[13:11]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Need Eddie to check if OK.</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Other big issue is replacing Jersey for REST API</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Its in master.  There was a problem with the POM for Jersey.</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Push fix to FCREPO-787 to master today.</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Wants to do Greg Jansen pull request problem.</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;barmintor&gt; Greg Jansen Pull Request = FCREPO-1020</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: On 3.5 branch so no automatic merge, also has two new features that need to be dealt with particularly FESL filter.</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: The other is the bug fix itself.</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Greg is easy to contact and may be willing help separate the features.</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Need to cherry pick since there are other conflicting changes.</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Ben: Not an automatic merge but is feasible with help.</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-black">&lt;Dan_Davis&gt; Frank: FCREPO-1023 report</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE">https://bamboo.duraspace.org/browse/FCREPO-CORE</a></span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora - Core Test: Plan Summary - DuraSpace Bamboo ] - <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE">https://bamboo.duraspace.org/browse/FCREPO-CORE</a></span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-black">&lt;Dan_Davis&gt; Frank: FCREPO-1027 not done yet but will try to get to it soon.</span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-black">&lt;Dan_Davis&gt; Frank: FCREPO-1023 ready for review.</span><br />
+<span class="irc-date">[13:22]</span> <span class="irc-navy">* elschlomo (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[13:22]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Looking for reviewer, Maybe Ben if time available otherwise Adam.</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: It looks like we covered the issues, now we need to do the testing.</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Question - If the managed project initiative goes forward, there will likely be documents - Should they be in a Fedora repo?</span><br />
+<span class="irc-date">[13:25]</span> <span class="irc-black">&lt;barmintor&gt; revised 3.6 Remaining Feature/Fix List: FCREPO-787, FCREPO-893, FCREPO-1020</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;ajs6f&gt; Also FCREPO-893</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;ajs6f&gt; Oh, wait, that's already there.</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;barmintor&gt; but it's important enough that we should repeat it for emphasis ;)</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: We will need to check with Chris but two repos in the cloud, a production one for docs and the result of a build for testing.</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;ajs6f&gt; Adam: Status of 893: waiting on Eddie to review changes to fedora-client that are necessary to do good tests for 893.</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;ajs6f&gt; Adam: If Eddie can't get to it soon, I will ask someone else to review.</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-black">&lt;ajs6f&gt; I've emailed Greg and Ben to try to get Greg to help with re-pull-requesting 1020. Hopefully he'll get back in touch soon.</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-navy">* ajs6f (d80c403e@gateway/web/freenode/ip.216.12.64.62) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-navy">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-navy">* Ed_ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-green">* ajs6f (893611a4@gateway/web/freenode/ip.137.54.17.164) has joined #duraspace</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;ajs6f&gt; Hey, Ben. How's it going?  Did what Greg say make sense about the FESL filters? That was way deeper into FESL than I know anything about.</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;barmintor&gt; Greg thinks the restructuring is necessary to the fix- he didn't get back to me about his timeline.</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-black">&lt;ajs6f&gt; I gots to run to a meeting, but let me know via email if I can be of any help. If you don't buy that the restructuring really is needful, then I'll do what I can to help you get it merged. I don't feel bad as long as we get it in by the end of the month.</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-navy">* ajs6f (893611a4@gateway/web/freenode/ip.137.54.17.164) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[19:09]</span> <span class="irc-green">* ajs6f (89360830@gateway/web/freenode/ip.137.54.8.48) has joined #duraspace</span><br />
+<span class="irc-date">[19:09]</span> <span class="irc-black">&lt;ajs6f&gt; Hey, Ben-- I'm back. Did you see the latest message from Greg?</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;barmintor&gt; Yeah, I did.  I'm still not finished with fcrepo-787, so it may need to wait for tomorrow.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;ajs6f&gt; Okely-dokely. Should I review Frank's work at the beginning of the week? Sounds like you've got your hands full.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;ajs6f&gt; P.S. I just turned Greg Jansen on to the fact that triple generation is Spring-configurable. I told him that if he uses that fact, he owes you and Aaron beers.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;barmintor&gt; I'll keep you posted on where I'm at; ust let me know if you have time and are starting to work on one of the issues.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;ajs6f&gt; Good. Let's check in at the beginning of the week. Tomorrow I'm squashed by APTrust work.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;barmintor&gt; It's a noble project I'm glad to see done… by someone else.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;ajs6f&gt; APTrust? Hah! The real joke is that I'm not even technically working on it. {sigh}</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;ajs6f&gt; bbfn</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-navy">* ajs6f (89360830@gateway/web/freenode/ip.137.54.8.48) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:55]</span> <span class="irc-navy">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) Quit (Quit: barmintor)</span><br />

@@ -1,0 +1,32 @@
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-lindbohm.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:55]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[8:57]</span> <span class="irc-green">* eddies (~eddies@cm175.eta98.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[8:57]</span> <span class="irc-navy">* eddies (~eddies@cm175.eta98.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[8:57]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[9:52]</span> <span class="irc-green">* bigbrovar (~quassel@83.229.6.19) has joined #duraspace</span><br />
+<span class="irc-date">[9:54]</span> <span class="irc-black">&lt;bigbrovar&gt; Hi guys.. trying to install dpsace 3.0 on debian squeeze.. installing seem to have gone on fine (tomcat progress and all) but I made a mistake setting up the baseurl in the config.cfg file.</span><br />
+<span class="irc-date">[9:55]</span> <span class="irc-black">&lt;bigbrovar&gt; is there a way I can edit the config.cfg after running ant-fresh-install?</span><br />
+<span class="irc-date">[9:55]</span> <span class="irc-black">&lt;bigbrovar&gt; will the changes in config.cfg be reflected ?</span><br />
+<span class="irc-date">[10:29]</span> <span class="irc-black">&lt;bigbrovar&gt; please what is the path to dspace logs?</span><br />
+<span class="irc-date">[11:16]</span> <span class="irc-navy">* bigbrovar (~quassel@83.229.6.19) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-green">* eddies1 (~eddies@cm175.eta98.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-navy">* eddies1 (~eddies@cm175.eta98.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-green">* eddies1 (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[13:25]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-navy">* eddies1 (~eddies@unaffiliated/eddies) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-green">* eddies (~eddies@cm175.eta98.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-navy">* eddies (~eddies@cm175.eta98.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:34]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:50]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:55]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:56]</span> <span class="irc-green">* helix84 (~a@195.113.97.174) has joined #duraspace</span><br />

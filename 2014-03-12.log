@@ -1,0 +1,134 @@
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-hobana.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-hobana.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-hobana.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-hobana.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:10]</span> <span class="irc-navy">* helix84 (~ctenar@195.178.95.132) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[9:39]</span> <span class="irc-green">* kshepherd2 (~kim@121-99-157-35.bng1.nct.orcon.net.nz) has joined #duraspace</span><br />
+<span class="irc-date">[10:05]</span> <span class="irc-navy">* kshepherd2 (~kim@121-99-157-35.bng1.nct.orcon.net.nz) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[10:56]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[11:42]</span> <span class="irc-navy">* helix84 (~ctenar@195.178.95.132) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[12:04]</span> <span class="irc-green">* misilot1 is now known as misilot</span><br />
+<span class="irc-date">[12:13]</span> <span class="irc-green">* kshepherd2 (~kim@121-99-157-35.bng1.nct.orcon.net.nz) has joined #duraspace</span><br />
+<span class="irc-date">[12:26]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:33]</span> <span class="irc-navy">* kshepherd2 (~kim@121-99-157-35.bng1.nct.orcon.net.nz) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[13:34]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:38]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160123.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; alas, DST appears to have driven away some of the US-based committers</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; Hm, they should have been early.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; that's true, mhwood, hmm...</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;hpottinger&gt; aschweer just walked in, so we have three, that's quorum, right?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, that joke is wearing thin...</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;aschweer&gt; I'm here with only half an eye and will need to leave early</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; that sounds painful</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;aschweer&gt; haha</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood and I were trying to debug mobile.demo (see DS-1944)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1944">https://jira.duraspace.org/browse/DS-1944</a> ] - [DS-1944] <a href="http://mobile.demo.dspace.org/xmlui/">http://mobile.demo.dspace.org/xmlui/</a> - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; Tomcat restarted, same error.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; Cocoon is complaining about an unmatched close paren</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; I thought I'd found it here: <a href="https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/webapp/themes/mobile/mobile.xsl#L697">https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/webapp/themes/mobile/mobile.xsl#L697</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-xmlui/src/main/webapp/themes/mobile/mobile.xsl at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/webapp/themes/mobile/mobile.xsl#L697">https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/webapp/themes/mobile/mobile.xsl#L697</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; deleted the extra close paren, cleared the Cocoon cache, mhwood restarted tomcat... the problem persists</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; misilot is correct, it's broken</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; oh, duh</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; undeployed theme file is undeployed</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;hpottinger&gt; copied it manually</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I just got less to tell me what line I'm on so I can find it, and the live transform still has the paren.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; THAT looks better!</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-green">* jsherman (a43a1787@gateway/web/freenode/ip.164.58.23.135) has joined #duraspace</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; aha</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; well, that was a rookie mistake, but I'm glad I caught it</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;hpottinger&gt; well... shall we talk about a 4.2?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; I guess so, if mobile is broken, Turkish is missing, and Solr is spewing all over catalina.out.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; End of March?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; That seems reasonable.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; a one character deletion, hardly seems worth the effort of making a branch... I'm tempted to make this change in github...</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; That's what I was thinking.  Also maybe for the excessive logging.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; it's a deal, let's fix this thing</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-green">* kstamatis (5b8c17ac@gateway/web/freenode/ip.91.140.23.172) has joined #duraspace</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; the github edit interface is a sharp knife</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; Fixed Ds-1946 in 4_x and master.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; kstamatis: this is the quietest Dev Mtg you'll ever see :-) mhwood and I have gone a bit crazy and are live-editing the master branch on github</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; oh, 4_x, too, show-off</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; ;-)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; Well, if we're talking about a 4_x release in about 2 weeks....</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; true, did you just make two manual edits, or did you cherry pick and push?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; Manual edits.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; The commit message was much bigger than the edit.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger, shall I mention that we discussed 1946 on IRC in the close message?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; good idea</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; DS-1944 is fixe in master and 4_x</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; Done, and closed.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1944">https://jira.duraspace.org/browse/DS-1944</a> ] - [DS-1944] <a href="http://mobile.demo.dspace.org/xmlui/">http://mobile.demo.dspace.org/xmlui/</a> - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; s/fixe/fixed/</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kompewter&gt; hpottinger meant to say: DS-1944 is fixed in master and 4_x</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; likewise, closed DS-1944</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1944">https://jira.duraspace.org/browse/DS-1944</a> ] - [DS-1944] <a href="http://mobile.demo.dspace.org/xmlui/">http://mobile.demo.dspace.org/xmlui/</a> - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; Hi, helix84, we're shooting from the hip today.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: hi, nice to see I'm not the only one who does that</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; so, we're thinking a 4.2 looks like a real possibility, probably end of March? (and helix84, it was mhwood's idea, honest)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; mhwood: sooo, did we talk 3.3 last time?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kstamatis&gt; sorry… just came back… When i logged in I was wondering if I entered in the right place!</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, yes, I think I said I could get a 3.3 out but not that day.  Thanks for the reminder.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; what all is in 3.3?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; mhwood: no, thank you for doing the actual work ;)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Don't thank me until I get it done.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/commits/dspace-3_x">https://github.com/DSpace/DSpace/commits/dspace-3_x</a></span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kompewter&gt; [ Commits · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/commits/dspace-3_x">https://github.com/DSpace/DSpace/commits/dspace-3_x</a></span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; <a href="http://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.3+Notes">http://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.3+Notes</a></span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 3.3 Notes - DSpace - DuraSpace Wiki ] - <a href="http://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.3+Notes">http://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.3+Notes</a></span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; seems nice and tidy, thanks for working on keeping that branch up to date, helix84!</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; "</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; I wish I had time to eat my own dogfood</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Speaking of 4.2, I looked at the input-forms.xml patch for Turkish and was not confident that I know enough about that area to say whether it is complete, due to a comment just above the list.  It could use attention from someone who is more familiar with input-forms.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; I think I'm still on 3.0</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; helix84, I know how that goes.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; generally, I think 4.1 has less bugs than dspace-3_x</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; so DS-1944 can be closed, right?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1944">https://jira.duraspace.org/browse/DS-1944</a> ] - [DS-1944] <a href="http://mobile.demo.dspace.org/xmlui/">http://mobile.demo.dspace.org/xmlui/</a> - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;hpottinger&gt; I think I just closed it?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: sorry, I was looking at the wrong end</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; seems like DS-1943 can't break anything...</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1943">https://jira.duraspace.org/browse/DS-1943</a> ] - [DS-1943] Language Selection _ Turkish Option - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; I wondered if it had to be coordinated with a matching list elsewhere, due to the comment above the language list.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; Something about order....</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;helix84&gt; which comment?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt;  &lt;!-- default language order: (from dspace 1.2.1)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt;         "en_US", "en", "es", "de", "fr", "it", "ja", "zh", "other", ""</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt;      --&gt;</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;helix84&gt; sooo... why does order matter/</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; I don't know.  That's what made me wary.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; If this is the only place that should be updated, do we just place Turkish between Chinese and "other"?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;hpottinger&gt; I was just at a presentation that Bram did on the "secrets of input forms"</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; btw why don't we have a complete list of languages?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="http://www.slideshare.net/bramluyten/secrets-of-the-dspace-submission-form">http://www.slideshare.net/bramluyten/secrets-of-the-dspace-submission-form</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Secrets of the DSpace Submission Form ] - <a href="http://www.slideshare.net/bramluyten/secrets-of-the-dspace-submission-form">http://www.slideshare.net/bramluyten/secrets-of-the-dspace-submission-form</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; or an input box instead?</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; or an auto-complete input box with localized names? I've done that before in some other project.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mhwood&gt; I guess we need an integration test to check &lt;all the places where we list languages&gt; and see if they all match.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; I suppose that if we have a message catalog for language X then there should be a &lt;pair&gt; for it here, and then what other places should be checked?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kstamatis&gt; helix84: and why Turkish should be included in the file. input-forms.xml is supposed to be a "configuration" file as well. So anyone can add the languages they like! Not true? Major languages should only be included or the whole list, as helix mentions</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; mhwood: actually, it would mean we'd have _less_ languages as most translations are incomplete</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; helix84: I think for 4.x we have only 3 complete languages + english</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; Well, the same rule should apply in both directions.  If we have a &lt;pair&gt; here and not a matching catalog, that is a problem.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; "common_iso_languages" only occurs here and in dspace.cfg: #choices.plugin.dc.language.iso = common_iso_languages</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; I'm going to have to leave.  Happy to discuss this issue further on the ML or whatever.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; kstamatis: btw what about a Greek translation? the JSPUI one was last updated in 2009.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;kstamatis&gt; I could add some translations. Is there an easy way to see what is missing from the last translation back in 2009?</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;kstamatis&gt; or should I make a script to check for the differences between the two files?</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-navy">* jsherman (a43a1787@gateway/web/freenode/ip.164.58.23.135) Quit (Quit: gotta go!)</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160123.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;helix84&gt; kstamatis: no, I already made that script</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;helix84&gt; kstamatis: <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=19006307#InternationalizationSupport(I18nSupport)-PythonScripttocheckformissing/extrastrings">https://wiki.duraspace.org/pages/viewpage.action?pageId=19006307#InternationalizationSupport(I18nSupport)-PythonScripttocheckformissing/extrastrings</a></span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;kompewter&gt; [ Internationalization Support (I18nSupport) - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=19006307#InternationalizationSupport(I18nSupport)-PythonScripttocheckformissing/extrastrings">https://wiki.duraspace.org/pages/viewpage.action?pageId=19006307#InternationalizationSupport(I18nSupport)-PythonScripttocheckformissing/extrastrings</a></span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;kstamatis&gt; ok, cool. I will use it to find the differences. Thanks!</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-green">* kstamatis (5b8c17ac@gateway/web/freenode/ip.91.140.23.172) has left #duraspace</span><br />
+<span class="irc-date">[22:21]</span> <span class="irc-green">* kshepherd2 (~kim@wireless-nat-20.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[23:04]</span> <span class="irc-navy">* kshepherd2 (~kim@wireless-nat-20.auckland.ac.nz) Quit (Ping timeout: 240 seconds)</span><br />

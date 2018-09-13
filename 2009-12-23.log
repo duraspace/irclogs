@@ -1,0 +1,80 @@
+<span class="irc-date">[4:05]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[9:35]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-green">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-green">* jtrimble (n=jtrimble@maag127.maag.ysu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-green">* lcs_ (n=lcs@serenity.hul.harvard.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-green">* richardrodgers (n=richardr@pool-173-76-16-252.bstnma.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all...  kshepherd &amp; mdiggory &amp; I were just debating canceling, when there was a sudden addition of all of you folks...</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-green">* PeterDietz (n=PeterDie@ACK5859s3.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone have any small updates to throw out?  Otherwise, I'm leaning towards a last minute cancel (sorry), as kshepherd has reminded me it's Christmas Eve morning for some of us...</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;richardrodgers&gt; what's a reasonable quorum these days?</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; need at least 4 for voting purposes...we do now have a quorum</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-green">* bollini (n=chatzill@87.18.208.170) has joined #duraspace</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 54 (Connection reset by peer))</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;lcs_&gt; i thought we'd go through some jira stuff</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kshepherd&gt; my update: working on DS-365 over the next few days, patches discussed at last meeting have been committed (and the one we decided to leave has been edited to a fix version of 1.6.1)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;lcs_&gt; got a couple things ready</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;mdiggory&gt; to reiterate kshepherd's first vote for the meeting...</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;mdiggory&gt; kshepherd: all those in favour of enjoying xmas and eating too much</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kshepherd&gt; oh yes, i'll vote for that one again</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;jtrimble&gt; +15</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kshepherd&gt; +1</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;lcs_&gt; -1 bah humbug</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;richardrodgers&gt; +1</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;kshepherd&gt; heh</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;mdiggory&gt; ha</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-brick">* tdonohue laughing at lcs</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;jtrimble&gt; So Larry steal Christmas</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; +1 - sorry to pull you all in here... :)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-brick">* mdiggory imagines lcs_ as the grinch</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;jtrimble&gt; *singing:  "You're a mean one, Mr. Grinch...."</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;lcs_&gt; i always liked the grinch, except when he caves in at the end.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;jtrimble&gt; LOL</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-brick">* tdonohue thinks remind me not to get on lcs's bad side</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;lcs_&gt; well, if anyone has a chance to sanity-check the DS-400 patch i'd appreciate it.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;lcs_&gt; think of it as a late stocking-stuffer for 1.6</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; Stuart also had a few Jira Issues to request for review...I'll send a "holiday" email of the various stocking stuffers (in case anyone is actually looking for stuff to do next week)</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-brick">* kshepherd will test it on his GMT + 13 stuff</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;mdiggory&gt; lcs_: not very grinch like of you to include a patch ;-)</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; beyond that...consider the meeting closed and canceled -- Happy Holidays</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;richardrodgers&gt; merry xmas to all - esp. now to the antipodeans</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;lcs_&gt; mdiggory: sure it is, part of my evil plan to keep you glued to your computer while the roast beast is consumed elsewhere</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;lcs_&gt; oh, ok, happy holidays to all!  (i'm out for harvard winter recess next week but will try to tune in to the meeting)</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;kshepherd&gt; heh cheers richardrodgers, happy holidays to you all</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-navy">* richardrodgers (n=richardr@pool-173-76-16-252.bstnma.fios.verizon.net) Quit ()</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;mdiggory&gt; I wonder if theres a pile of similar code in xmlui</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;jtrimble&gt; Warm wishes for a peaceful holiday all.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;bollini&gt; so it looks like I'm arrived just in time to say happy Christmas to all!</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mdiggory&gt; wow... that was a short meeting... onto the celebration!</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-brick">* kshepherd pours cheap champagne</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;lcs_&gt; here, have an xmas cookie:  JSESSIONID=233701BACDC6CBA2819C84A4A4B171F6</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; bollini - happy christmas as well..sorry to pull you in, I've canceled as it's Christmas Eve morning for some of the committers</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;bollini&gt; no problem, I happy to meet all you</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-navy">* jtrimble (n=jtrimble@maag127.maag.ysu.edu) Quit ("Leaving")</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;mdiggory&gt; I'll be lurking in #dspace for a bit longer... happy holidays...</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-green">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has left #duraspace</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-navy">* lcs_ (n=lcs@serenity.hul.harvard.edu) Quit ()</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-navy">* bollini (n=chatzill@87.18.208.170) Quit ("ChatZilla 0.9.85 [Firefox 3.0.16/2009120208]")</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-green">* PeterDietz (n=PeterDie@ACK5859s3.lib.ohio-state.edu) has left #duraspace</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-green">* tdonohue1 (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-navy">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) Quit (Read error: 60 (Operation timed out))</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-navy">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) Quit ("Leaving.")</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-navy">* barmintor (i=barminto@specdl11.cul.columbia.edu) Quit ()</span><br />
+<span class="irc-date">[17:34]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-66-74-212-9.san.res.rr.com) has left #duraspace</span><br />
+<span class="irc-date">[22:21]</span> <span class="irc-green">* mdiggory_ (n=mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:51]</span> <span class="irc-navy">* mdiggory_ (n=mdiggory@cpe-66-74-212-9.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[23:52]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-66-74-212-9.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[23:53]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-66-74-212-9.san.res.rr.com) has left #duraspace</span><br />

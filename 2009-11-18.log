@@ -1,0 +1,333 @@
+<span class="irc-date">[4:06]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:06]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[4:19]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[5:35]</span> <span class="irc-navy">* cwilper (n=cwilper@74-44-155-90.dsl1-erie.roch.ny.frontiernet.net) Quit (Read error: 110 (Connection timed out))</span><br />
+<span class="irc-date">[7:26]</span> <span class="irc-green">* cwilper (n=cwilper@74-44-155-90.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[8:05]</span> <span class="irc-green">* mhwood (i=mwood@134.68.171.23) has joined #duraspace</span><br />
+<span class="irc-date">[9:18]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[9:18]</span> <span class="irc-green">* bradmc (n=bradmc@207.172.69.79) has joined #duraspace</span><br />
+<span class="irc-date">[9:21]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[9:39]</span> <span class="irc-green">* justben (n=ben@hypatia.library.emory.edu) has joined #duraspace</span><br />
+<span class="irc-date">[10:18]</span> <span class="irc-navy">* bradmc (n=bradmc@207.172.69.79) Quit (Read error: 131 (Connection reset by peer))</span><br />
+<span class="irc-date">[10:18]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:15]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[11:25]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:39]</span> <span class="irc-green">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:32]</span> <span class="irc-green">* StuartLewis_ (n=StuartLe@121.98.157.79) has joined #duraspace</span><br />
+<span class="irc-date">[14:40]</span> <span class="irc-green">* grahamtriggs (n=grahamtr@cpc3-stev1-0-0-cust857.lutn.cable.ntl.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-green">* jeffreytrimble (n=jeffreyt@maag127.maag.ysu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-green">* snail1 (n=stuart@130.195.178.61) has joined #duraspace</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-black">&lt;tdonohue&gt; hi all...we'll be starting the DSpace Developers meeting here in a few minutes.   Feel free to start posting agenda/topic suggestions</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-black">&lt;tdonohue&gt; A few known agenda items: (1) Update &amp; Timelines for 1.6</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; (2) Discuss proposal to start holding Special Topic meetings: <a href="http://wiki.dspace.org/index.php/Special_Topics">http://wiki.dspace.org/index.php/Special_Topics</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; (3) Mark Diggory made a suggestion on #dspace today to form some sort of DSpace Infrastructure/Admin Group to manage SVN rights, Maven Admin, etc.</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;StuartLewis_&gt; 3) Larry wants approval for the meta-generator patch</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;StuartLewis_&gt; JIRA cleanup?</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; we could knock out the Jira issues again...looks like by my search we only have 6 new ones since last time: <a href="http://jira.dspace.org/jira/secure/IssueNavigator.jspa?reset=true&amp;&amp;pid=10020&amp;resolution=-1&amp;created%3Aprevious=-4w&amp;status=1&amp;assigneeSelect=&amp;sorter/field=created&amp;sorter/order=ASC">http://jira.dspace.org/jira/secure/IssueNavigator.jspa?reset=true&amp;&amp;pid=10020&amp;resolution=-1&amp;created%3Aprevious=-4w&amp;status=1&amp;assigneeSelect=&amp;sorter/field=created&amp;sorter/order=ASC</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; (we ended with DS-375 last week)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;StuartLewis_&gt; Approval to apply: <a href="http://jira.dspace.org/jira/browse/DS-295">http://jira.dspace.org/jira/browse/DS-295</a> CC License being assigned incorrect Mime Type during submission.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; ok...how about we start with any 1.6 updates...which should eventually lead to Stuart's postings of patchs to approve</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;StuartLewis_&gt; Ok then...</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;StuartLewis_&gt; Here's the plan: is everyone OK if we aim for a testathon / 'big bug hunt' week beginning 7th December?</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;StuartLewis_&gt; Depending on the results and the effort we can muster to fix issues, we can either aim for a release just before Christmas, or early in the new year.</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kshepherd&gt; sounds good to me</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; sounds reasonable to me, assuming stats is coming along nicely (which it seems to be)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;mhwood&gt; Yes</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;StuartLewis_&gt; Or if there are *lots* of issues, we can have an rc2 ealry next year</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;StuartLewis_&gt; (stats are looking good now: <a href="http://testathon.net/xmlui/handle/123456789/29/statistics)">http://testathon.net/xmlui/handle/123456789/29/statistics)</a></span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;mdiggory&gt; yes, stats is primarily just tidying up now</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; cool, JSPUI is good to go as well?</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;mdiggory&gt; well, not sure about JSPUI, Kim?</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kshepherd&gt; and won't take me long to catch up with JSPUI</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; awesome</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kshepherd&gt; not finished yet, i'll send an email to dspace-devel when it is so we can start testing early</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kshepherd&gt; it is definitely looking smart, now</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;StuartLewis_&gt; If everyoe is Ok with those dates, then we need to get going with advertising the testathon.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;StuartLewis_&gt; The november DSpace newletter hasn't gone out yet (final draft needs approving by Friday) so we can get it included in that.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; definitely - was just going to say that</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;mdiggory&gt; kshepherd: one question, your putting stats behind authz?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;StuartLewis_&gt; dspace.cfg 'report.public = false' ?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;mdiggory&gt; is this the old reporting stats page?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;mdiggory&gt; or property?</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;kshepherd&gt; ah, hrm.. i'll take care of authz</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; could be nice to have a simple config, to let each repository decide whether to make public or not</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;StuartLewis_&gt; That is the dspace.cfg key for the old stats public/private. Didn't know if you were asking if we should do the same with solr-stats?</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;snail1&gt; some people are using stats to motivate depositors and get content</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;mdiggory&gt; yes, we are looking at it in the XMLUI as a confiurable behavior</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;StuartLewis_&gt; Cool</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;kshepherd&gt; ok</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;mdiggory&gt; snail1: yes</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: with it turned "on" by default (i.e. public by default?)</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: whatever you've done most recently in XMLUI is what i'm going by ;)</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;StuartLewis_&gt; OK - a couple of patches that need approval to be applied:</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;StuartLewis_&gt; <a href="http://jira.dspace.org/jira/browse/DS-295">http://jira.dspace.org/jira/browse/DS-295</a> CC License being assigned incorrect Mime Type during submission.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;mdiggory&gt; the XMLUI is currently without any access control</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: it shouldn't need to get too granular</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;mdiggory&gt; true</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;kshepherd&gt; even things like bitstream restrictions don't prevent them from being listed in teh UIs, by default</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;StuartLewis_&gt; (We'll come back to the patches - didn't realise stats was still going!)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mdiggory&gt; we can discuss this outside the committer meeting..</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;kshepherd&gt; yeah</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  sounds good.  are we done with stats updates then?</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mdiggory&gt; yep</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; go ahead stuart</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;StuartLewis_&gt; OK: Patch 1:</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;StuartLewis_&gt; <a href="http://jira.dspace.org/jira/browse/DS-295">http://jira.dspace.org/jira/browse/DS-295</a> CC License being assigned incorrect Mime Type during submission.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;kshepherd&gt; +1, needs doco? (for upgraders)</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;StuartLewis_&gt; Yes - will be assigned to Jeff to copy the SQL commands into the upgrade docs once it is applied.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; +1 - i agree with kshepherd - needs docs for upgrading</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;kshepherd&gt; StuartLewis_: and the need to create the new bitstream format..</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;StuartLewis_&gt; Need someone to check they work in Oracle</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;StuartLewis_&gt; kshepherd: Yep - the first of the sql statements does that</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; isn't larry the main oracle person these days?</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;StuartLewis_&gt; tdonohue: Yes - will ask him to check.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;kshepherd&gt; StuartLewis_: right, i see that now, missed it ;)</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;jeffreytrimble&gt; Yes...I've asked for detailed steps regarding Oracle during the upgrade process.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;StuartLewis_&gt; And the second patch is:</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;jeffreytrimble&gt; My assumption is that the postgresql is just one step</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;StuartLewis_&gt; <a href="http://jira.dspace.org/jira/browse/DS-377">http://jira.dspace.org/jira/browse/DS-377</a> Add META tags identifying DSpace source version to Web UIs</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;StuartLewis_&gt; See the comments in this one, especially Larry's last comment to explain how the version will be identified.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;mdiggory&gt; Looking at the topic...</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; +1 sounds good to me - glad we can populate based on version in Maven POM</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;mdiggory&gt; A maven based approach would use filtering in the mvn package phase</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;kshepherd&gt; +1</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;mdiggory&gt; you don't really need to java code this</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: does this mean you disagree with Larry's approach?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kshepherd&gt; hmm.. needs more discussion?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;mdiggory&gt; identify the files you want to filter and create a parameter in them, map that parameter in the pom.xml</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;mdiggory&gt; on release that parameter will be processed</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;mdiggory&gt; Seems like its coding before researching</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: so you are saying you'd list the specific files in XMLUI or JSPUI that need a parameter to be replaced?</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;mdiggory&gt; pretty much</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; and the maven will replace it during the packaging?</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;mhwood&gt; So you want the package phase to customize the XSL or something?  It'd have to track down all a site's themes....</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;mdiggory&gt; war generation includes filtering</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; would it also work for completely custom themes, like mhwood brings up?</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;mdiggory&gt; I assume you would run this risk if you were overriding that header in dri2xhtml</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;jeffreytrimble&gt; We'd have to warn users about this....so they remember to re-customize those files affected by this.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mdiggory&gt; but i will add... theres no reason this couldn't be in a properties file or the default Navigation transformer rather than chasing individual xslt templates</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mhwood&gt; It's being fetched from a properties file now.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;jeffreytrimble&gt; But it is entirely possible to gather up a list of files that this change would/does affect and let the users know the work they have in store?</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mdiggory&gt; in which case, it might not even be maven based filtering... just use SVN versioning infor</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mdiggory&gt; svn keywords in the java classes</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mdiggory&gt; or a properties file</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;bradmc&gt; Seems fragile to have it scattered among customizable files.  An include of a single file that gets changed seems more robust - but creates other issues.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; jeffreytrimble: yes, you are right...we should warn users about this either way...and i think once we've finalized how to do this, we can get you a list of affected files</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mdiggory&gt; int he classpath for xmlui-api, dspace-api or jspui-api</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-green">* StuartLewis__ (n=StuartLe@121.98.157.79) has joined #duraspace</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; If sites have to be warned about such matters...do we really want to do that to them?</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;jeffreytrimble&gt; let's not use the word warning...let just say they need to be aware that the upgrade has some changes they may need to address in customizations.</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; bradmc +1  changing in one place is probably best.</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mdiggory&gt; doesn't need to be perfect... you cannot guarantee UI html serialization behavior... another option might be response headers?</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;mdiggory&gt; which could be theme independent</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; seems like we are over thinking this....to be honest, Larry's patch is rather small</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; and maybe there is some use to being able to get that version via a Java call</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;mdiggory&gt; not really, All I'm talking about in this case is one line in the servlets that spits out the build number, replaced using svn keyword substitution</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; maybe eventually one could run "dspace --version" to get a report of what version they are running, etc</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mdiggory&gt; seems like a job for the XMLUI Control Panel</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mhwood&gt; I kinda want to use the same information in a human-readable place, like:  "This is DSpace 1.6.0, ScholarWorks build 123"</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;bradmc&gt; like having dspace validate that it's code matches it's database schema?  Couldn't do that at the UI level.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;snail1&gt; it would also be useful to have the version in an HTML comment on the homepage by default</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;StuartLewis__&gt; snail1: It was that suggestion that kicked-off this discussion :)</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mdiggory&gt; downfall with svn keyword approach is that it might change across repos where the code is being duplicated (yuck)</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;kshepherd&gt; the original patch added a meta tag</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;kshepherd&gt; but the discussion's gone a bit over my head since then ;)</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mdiggory&gt; can add meta tag, can also add response header... both relatively easy, first is UI dependent, second can be deeper in the content generation layer</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mdiggory&gt; big question, what is wanted to be known by "us" when looking at a DSpace instance</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;mhwood&gt; I think it boils down to whether the cost of keeping multiple copies in sync. outweighs the cost of going to a single definitive copy every time you want it.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;mdiggory&gt; as someone troubleshooting DSpace I want to know (1) version (2) build (3) build date (4) by whom</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; so, how do we come to a consensus here?  mdiggory are you still against Larry's approach?</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mdiggory&gt; Yes I'm against this code solution</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;mdiggory&gt; hmmm.... wait</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;mdiggory&gt; let me review it just a little more.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-brick">* bradmc muses on bikesheds</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;kshepherd&gt; i'm a bit worried about complicating things too much for a small feature that was an idea /we/ had rather than the community-at-large</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;mdiggory&gt; ok... no I am not against this approach.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;mdiggory&gt; I will add</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;mdiggory&gt; that if you want "build" specific customization...</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; ok, so do we want to revote to (1) start with Larry's approach for 1.6...after 1.6 (2) we can review it and see if it needs to be tweaked to provide more info (like kshepherd suggests)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;mdiggory&gt; generalize this slightly to (1) return the properties as well as string and (2) add ability to lookup pom by package</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;StuartLewis__&gt; +1 Larry's solution, look at improving it later if required.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;mdiggory&gt; the mhwood can add his modules/xmlui/pom.xml properties for his particular build as a second property</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;mdiggory&gt; in that packages pom.xml pom.properties</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;mdiggory&gt; recommend adding call to this class in DSpaceServlet and/or appropriate class in XMLUI to support setting response headers</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-navy">* StuartLewis_ (n=StuartLe@121.98.157.79) Quit (Read error: 110 (Connection timed out))</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory:  I think you are starting into a different feature request.   This feature was just a recommendation for a simple HTML &lt;Meta&gt; tag to identify the version of DSpace you are running</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; but, I think we could add a new Jira request for some of the features you are talking about</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;mdiggory&gt; no, XMLUI themes may have overridden the creation of html head meta</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;mdiggory&gt; sticking it into the response header assures  robustness</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: true...but ast jeffreytrimble said, we can let users know that in the upgrade docs</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;mdiggory&gt; we see this usefull for different reasons</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;mdiggory&gt; response header requires no documentation caveats</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;jeffreytrimble&gt; On the UI side, it's good to know what version a site is running....</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; yea, i can agree with that.  That's part of why I wonder if this needs to be a separate Jira issue that we can vote on separately</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;jeffreytrimble&gt; on the admin side, it's good to know the version and the build.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;mdiggory&gt; this is both cases</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;StuartLewis__&gt; But joe-average-dspace-repo-manager doedn't know how to interrogate http headers</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;mhwood&gt; I think the code as it stands can be used for several quite different purposes, including the original one.  A separate issue could then evolve it as needed, later.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;jeffreytrimble&gt; really?  My users could care less what build we are running...let alone versions...but all of us here today would be interested in at least the version</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mdiggory&gt; This is not for average joe</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mdiggory&gt; this is for webdeveloper troublshooter</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mdiggory&gt; developer administrator</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-brick">* tdonohue notices we've been on this same issue for 30+ minutes</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;StuartLewis__&gt; Well it might be - if we tell them 'view the html source and tell us what is says at GENERATOR='</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mhwood&gt; And my supervisor, who regularly asks, "what versions are we running now?"</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mdiggory&gt; no, I say... send me a link to your site and I look</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; ok, i'd like to suggest we agree to disagree on this, and just choose something for 1.6.   It can always be tweaked for 1.6.1 :)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;mdiggory&gt; you can always put it in the control panel or present it in the footer if you have such interested supervisors</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mdiggory&gt; agreed, at least we agree to add what is there</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; do we want to revote on Larry's suggestion for 1.6?  And then add a new Jira issue with these extra suggestions (so that we can track them -- some good thoughts here)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kshepherd&gt; having something simply for troubleshooting by developers sounds cool, but it can't be something that makes extra work for IR admins in terms of themes, etc...</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kshepherd&gt; especially since they're not the ones asking for it ;)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mdiggory&gt; just tack them into the JIRA issue thats there... commit the patch and say... if you want to do more, continue to use this JIRA ticket.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mhwood&gt; That's why I worry that I keep seeing, "we need to document how we're going to break your themes"</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood: yeah</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mdiggory&gt; themes not broken...</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I'm calling for a revote on: <a href="http://jira.dspace.org/jira/browse/DS-377">http://jira.dspace.org/jira/browse/DS-377</a>  as-is for 1.6.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mhwood&gt; Feature broken unless you re-customize?</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; +1</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;kshepherd&gt; but in this case, nothing 'broken', just.. it won't work without extra effort on those custom themes</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mdiggory&gt; nothing being done here is non-backward or forwards compatable</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;StuartLewis__&gt; DS-377: +1</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mdiggory&gt; using response header is just more reliable given chance that its been customized out of someones theme</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mdiggory&gt; +1</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;kshepherd&gt; +1</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;snail1&gt; +1</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;StuartLewis__&gt; We can do headers too if we get a patch</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-brick">* mdiggory hint taken</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;StuartLewis__&gt; ;)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; no worries, mark.  It's good to have a nice disagreement every now and then...it's healthy :)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; I learned a few things, or will have when I've worked through them.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mdiggory&gt; I totally disagree ;-)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; haha :)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;kshepherd&gt; heh</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; while we are in Jira...has anyone had a chance to look at my proposal in <a href="http://jira.dspace.org/jira/browse/DS-382">http://jira.dspace.org/jira/browse/DS-382</a>  - It's very small, and I thought we could squeeze this in</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; This is just to add 'dc.creator' to the Browse By Author indexes by default</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;kshepherd&gt; yes, +1</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;StuartLewis__&gt; +1</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;mhwood&gt; 0</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;kshepherd&gt; this is particularly useful since the OAI harvester patch is in 1.6</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;kshepherd&gt; and if you harvest other dspace instances, you will end up with a lot of dc.creator metadata</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;mdiggory&gt; +1</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; ok, i'll go ahead and commit it...just wanted to run it by folks first</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;snail1&gt; +1</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mdiggory&gt; are we doing these in order?</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mdiggory&gt; I'm concerned about <a href="http://jira.dspace.org/jira/browse/DS-383">http://jira.dspace.org/jira/browse/DS-383</a></span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory - no..we actually weren't doing a formal Jira review (I just through that in the 1.6 discussion which Stuart started )</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;kshepherd&gt; hmm</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; but, we could go ahead and talk about DS-383</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;StuartLewis__&gt; Yeah - 1.6 discussion over for now?</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; yea..I think we are good on 1.6 now</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;mdiggory&gt; I had assumed exceptions should cause a Context.abort</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;kshepherd&gt; afk for a bit, too many meetings at once!</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mdiggory&gt; I can see that if the users customizing dspace and is not aborting in the case of an exception themselves... it may bubble up to this level</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;mdiggory&gt; I assume Robin Taylor is doing some customization</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; anyone want to volunteer to follow up with her and get more background on DS-383?</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; but, it does sound/look fishy</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mdiggory&gt; I can look a little into it...</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; ack, sorry robin..i meant follow up with *him*  (my mind is elsewhere)</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: thanks</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; well, we've gone over (as always)...I'm calling this to a close.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; StuartLewis_ did you want to summarize/paste this discussion into DS-377 ...  If not, I can do it</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;StuartLewis__&gt; OK - I'll do it now</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;StuartLewis__&gt; (and try and get the right issue ;)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; cool, thanks. :)</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;StuartLewis__&gt; tdonohue: Actually - could you do it - my IRC dropped out for a few minutes half way through</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; ok, no prob.  I'll do it.   Though, FYI...we are being "logged" : <a href="http://www.duraspace.org/irclogs/index.php?date=2009-11-18">http://www.duraspace.org/irclogs/index.php?date=2009-11-18</a></span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;StuartLewis__&gt; Oh right - didn't know how often the logs were updates.</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;StuartLewis__&gt; Thanks :)</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; yea, they update rather quickly actually</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;StuartLewis__&gt; Wow - instant updates</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;grahamtriggs&gt; We're assuming that by the time DSpaceCocoonServletFilter executes the closeContext, that the context hasn't already been aborted elsewhere (in which case, the closeContext will effectively no-op)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mhwood&gt; So it's racy as well?</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mdiggory&gt; not so sure it is racy</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;mdiggory&gt; as context is a request scoped object</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; } catch (Throwable t) {</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; 	        ContextUtil.abortContext(realRequest);</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; 		} finally {</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; 	        // Close out the DSpace context no matter what.</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; 	        ContextUtil.completeContext(realRequest);</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; 		}</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mdiggory&gt; its aborted the line before if we are in a thrown exception</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;StuartLewis__&gt; Ah - so that looks better.</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mdiggory&gt; but... does something like the</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mdiggory&gt; realResponse.sendRedirect</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;mdiggory&gt; get in the way of anything</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;mdiggory&gt; I assume sendRedirect returns and continues on to arg2.doFilter... brrrr</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;mdiggory&gt; StuartLewis_ didn't we just learn this lesson elsewhere</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;StuartLewis__&gt; Indeed ;)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;StuartLewis__&gt; doFilter must be in an 'else'</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;StuartLewis__&gt; Apologies if I'm been distracted during the meeting - I've been 'enduring' a Wiggles DVD in the background!</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-brick">* tdonohue feels sorry for Stuart</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-brick">* StuartLewis__ sings "We're going to do the monkey"</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-brick">* mdiggory dislikes putting https redirection into servlet code... is responsibility of container</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;grahamtriggs&gt; I think it's unlikely that you'll get an exception thrown out of the filterchain - Cocoon is catching them and pushing them through a org.apache.cocoon.generation.ExceptionGenerator to display the error page</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;StuartLewis__&gt; Is there anything we can do to 'brand' the cocoon error page?</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: good point</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;StuartLewis__&gt; Our users see it from time to time when their sessions time out during a deposit etc.</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;grahamtriggs&gt; Most likely, we would need to create a custom ExceptionGenerator, which would ensure that any existing context is aborted</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;mdiggory&gt; there are two places exceptions are serialized, one brands them, the other doesn't becuase its outside of the aspect chaining mechanism</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;tdonohue&gt; StuartLewis_ +1 - branding those ugly cocoon errors would be nice to figure out</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-navy">* jeffreytrimble (n=jeffreyt@maag127.maag.ysu.edu) Quit ("Leaving")</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;mhwood&gt; ExceptionGenerator kills both with one stone?</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;mdiggory&gt; the relevant ones are... the ones not branded are outside of the sitemap where such branding occurs</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mdiggory&gt; do you really want to try to theme an exception caused in the themeing? sounds like a recipe for ad infinitum to me</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;StuartLewis__&gt; Could use a generic 'DSpace error' theme - just slightly branded would be nice</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mdiggory&gt; probibly a good discussion point to include Scott Philips on</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory good point - just be nice to avoid them in most normal browsing cases</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;snail1&gt; StuartLewis__: I'm not sure it's possible to brand 100% of all cocoon errors without a custom build of cocoon</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mdiggory&gt; example (1) <a href="http://testathon.net/xmlui/browse?value=Cho,+YoonYoung&amp;tye=author">http://testathon.net/xmlui/browse?value=Cho,+YoonYoung&amp;tye=author</a></span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mdiggory&gt; example (2) <a href="http://testathon.net/xmlui/handle/1234567/123">http://testathon.net/xmlui/handle/1234567/123</a></span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;StuartLewis__&gt; What is the reason (1) can't be?</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;mdiggory&gt; why it exceptions?</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;tdonohue&gt; yea, seems like #1 could be themed like the "page not found" page</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;mdiggory&gt; "tye" is not "type"</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;mdiggory&gt; look inside, see why this exception isn't properly caught and handled</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;mdiggory&gt; Null pointer exception in Validity</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mdiggory&gt; would seem catchable...</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; seems like that should throw a more informative exception than "NullPointer"</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mdiggory&gt; possibly at at org.dspace.app.xmlui.cocoon.AspectGenerator.setup(AspectGenerator.java:112)</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;grahamtriggs&gt; mdiggory: I don't think the exception should be themed - but we could tart up the exception2html.xslt a bit</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;mdiggory&gt; NullPointers are never very informative...</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;tdonohue&gt; exactly</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;mdiggory&gt; Sure wish java at least said what the null pointer was "on"</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mdiggory&gt; so I don't have to stare at the code for 10 minutes</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;mdiggory&gt; dress it up</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: I agree... the importance of exceptions is that we can (a) get a copy of them and (b) replicate them... fully theming them adds a layer of further opportunities for something else to block our view of the error</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mdiggory&gt; but I agree... maybe a little more verbage and an attempt to include a administrotor/contact email might be helpful</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mhwood&gt; I can see reassuring the user that DSpace hasn't completely gone down in flames, and encouraging him to save the page and send it to the sysadmin (address given).</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;mdiggory&gt; take it a little further and encode the exception and some of the request attributes into a mailto link and then the admin doesn't need to ask for a copy of the stack trace</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;grahamtriggs&gt; except in a production environment, you don't necessarily want to scare the users / expose the internals of the system. *log* the exception, *email* the exception, but not display the exception. There ought to be an example provided to do that</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; true</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mhwood&gt; I like it.</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mdiggory&gt; getting back to the topic of DS-383</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mhwood&gt; "We're experiencing technical difficulties.  The administrator has been notified."</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;mdiggory&gt; we need to make sure all exception generator handling is aborting the context</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;StuartLewis__&gt; brb - heading off to work now</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-navy">* StuartLewis__ (n=StuartLe@121.98.157.79) Quit ()</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;grahamtriggs&gt; mhwood: "We're experiencing technical difficulties. The administrator is out getting drunk right now, but will probably get back to you in three days when the hangover subsides - providing the error report hasn't been deleted with the rest of the spam"</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mhwood&gt; grahamtriggs:  Well, that's implied.</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs: well, obviously we'd let you customize the message that gets displayed :)</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-green">* mhwood (i=mwood@134.68.171.23) has left #duraspace</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 131 (Connection reset by peer))</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-green">* tdonohue (n=tdonohue@c-98-228-50-55.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-navy">* justben (n=ben@hypatia.library.emory.edu) Quit ("Leaving.")</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-navy">* grahamtriggs (n=grahamtr@cpc3-stev1-0-0-cust857.lutn.cable.ntl.com) Quit ()</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-navy">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) Quit ()</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit ()</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-9-20.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:17]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-9-20.san.res.rr.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[22:18]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-9-20.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[23:21]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-9-20.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[23:22]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-9-20.san.res.rr.com) has joined #duraspace</span><br />

@@ -1,0 +1,325 @@
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:23]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-black">&lt;cbeer&gt;   <a href="https://wiki.duraspace.org/display/REPONEXT/Fedora+4+Core+Functionality">https://wiki.duraspace.org/display/REPONEXT/Fedora+4+Core+Functionality</a></span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Log In - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/REPONEXT/Fedora+4+Core+Functionality">https://wiki.duraspace.org/display/REPONEXT/Fedora+4+Core+Functionality</a></span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-black">&lt;cbeer&gt; Versioning.</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-black">&lt;cbeer&gt; needs to be deeply tied to storage.</span><br />
+<span class="irc-date">[18:04]</span> <span class="irc-black">&lt;cbeer&gt; has to be exposed down to storage, higher to API</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-black">&lt;cbeer&gt; maybe should be a way to turn it off, expose lack of versioning service</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; core, or just outside, indeterminant.</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-black">&lt;cbeer&gt; Messaging</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-black">&lt;cbeer&gt; s/Messaging/Eventing/</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-black">&lt;kompewter&gt; cbeer meant to say: Eventing</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; core</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-black">&lt;cbeer&gt; Eventing =&gt; Event awareness?</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-black">&lt;cbeer&gt; Auditability</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-black">&lt;cbeer&gt; (what's it mean?)</span><br />
+<span class="irc-date">[18:07]</span> <span class="irc-black">&lt;cbeer&gt; eddies: e.g. writing out premis events (tied to event awareness)</span><br />
+<span class="irc-date">[18:10]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; non-core, tied to storage.</span><br />
+<span class="irc-date">[18:10]</span> <span class="irc-black">&lt;cbeer&gt; Object Model</span><br />
+<span class="irc-date">[18:10]</span> <span class="irc-black">&lt;cbeer&gt; (discussion about what we mean by object model)</span><br />
+<span class="irc-date">[18:11]</span> <span class="irc-black">&lt;cbeer&gt; what are we assigning identifiers</span><br />
+<span class="irc-date">[18:12]</span> <span class="irc-black">&lt;cbeer&gt; barmintor: if things weren't as they were, we'd have a named subgraph, graph name as the 'PID'</span><br />
+<span class="irc-date">[18:13]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; core. for some definition of object model</span><br />
+<span class="irc-date">[18:13]</span> <span class="irc-black">&lt;cbeer&gt; Assignment of Identifiers</span><br />
+<span class="irc-date">[18:14]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; core</span><br />
+<span class="irc-date">[18:14]</span> <span class="irc-black">&lt;cbeer&gt; Relationship management</span><br />
+<span class="irc-date">[18:14]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; core</span><br />
+<span class="irc-date">[18:14]</span> <span class="irc-black">&lt;cbeer&gt; Admin metadata</span><br />
+<span class="irc-date">[18:14]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; core, for some definition of admin metadata</span><br />
+<span class="irc-date">[18:14]</span> <span class="irc-black">&lt;cbeer&gt; Validation</span><br />
+<span class="irc-date">[18:14]</span> <span class="irc-black">&lt;cbeer&gt; internal vs graph consistency.</span><br />
+<span class="irc-date">[18:15]</span> <span class="irc-black">&lt;cbeer&gt; s/Validation/Validation of internal consistency/</span><br />
+<span class="irc-date">[18:15]</span> <span class="irc-black">&lt;kompewter&gt; cbeer meant to say: Validation of internal consistency</span><br />
+<span class="irc-date">[18:15]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; core</span><br />
+<span class="irc-date">[18:17]</span> <span class="irc-black">&lt;cbeer&gt; Module management</span><br />
+<span class="irc-date">[18:17]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; core</span><br />
+<span class="irc-date">[18:22]</span> <span class="irc-black">&lt;cbeer&gt; others?</span><br />
+<span class="irc-date">[18:22]</span> <span class="irc-black">&lt;cbeer&gt; Identifier service</span><br />
+<span class="irc-date">[18:22]</span> <span class="irc-black">&lt;cbeer&gt; cbeer: minimum, list objects in the repository</span><br />
+<span class="irc-date">[18:23]</span> <span class="irc-black">&lt;cbeer&gt; =&gt; maybe.</span><br />
+<span class="irc-date">[18:34]</span> <span class="irc-black">&lt;cbeer&gt; defined serialization</span><br />
+<span class="irc-date">[18:34]</span> <span class="irc-black">&lt;cbeer&gt; (in context of storage only?)</span><br />
+<span class="irc-date">[18:34]</span> <span class="irc-black">&lt;cbeer&gt; (in the context of export?)</span><br />
+<span class="irc-date">[18:35]</span> <span class="irc-black">&lt;cbeer&gt; eddies: not foxml.</span><br />
+<span class="irc-date">[18:35]</span> <span class="irc-black">&lt;cbeer&gt; barmintor: SIPs DIPs and AIPs</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;cbeer&gt; ---</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;cbeer&gt; External + Required</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;cbeer&gt; Iterator Service</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;cbeer&gt; yes, required. F4 selling point, etc.</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;cbeer&gt; Auditability</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;cbeer&gt; null auditing service is ok.</span><br />
+<span class="irc-date">[18:46]</span> <span class="irc-black">&lt;cbeer&gt; logback auditing is ok</span><br />
+<span class="irc-date">[18:49]</span> <span class="irc-black">&lt;cbeer&gt; AuthZ</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-black">&lt;cbeer&gt; for the first iteration, can we assume authz is handled at a level higher?</span><br />
+<span class="irc-date">[18:50]</span> <span class="irc-black">&lt;cbeer&gt; null authz?</span><br />
+<span class="irc-date">[18:55]</span> <span class="irc-black">&lt;cbeer&gt; no. but as a subcomponent for object/resource service bindings</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-black">&lt;cbeer&gt; (side conversation about need for F3 =&gt; F4 tool)</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-black">&lt;cbeer&gt; Disaster Recovery Service</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-black">&lt;cbeer&gt; (aka Rebuild)</span><br />
+<span class="irc-date">[19:03]</span> <span class="irc-black">&lt;cbeer&gt; never worked for escidoc anyway.</span><br />
+<span class="irc-date">[19:04]</span> <span class="irc-black">&lt;cbeer&gt; eddies: is it like format migration?</span><br />
+<span class="irc-date">[19:06]</span> <span class="irc-green">* eddies (~eddies@38.127.143.193) has joined #duraspace</span><br />
+<span class="irc-date">[19:06]</span> <span class="irc-navy">* eddies (~eddies@38.127.143.193) Quit (Changing host)</span><br />
+<span class="irc-date">[19:06]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* helix84 (~a@89.203.176.28) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all...(late) reminder that we have a DSpace Developers Mtg starting here in about a minute. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-12</a></span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-12-12 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-12</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, might as well get started with our DSpace Devel Mtg.  A late agenda posted up at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-12</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-12-12 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-12-12</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; I'm going to forgo the JIRA review again today...cause I have JIRA stuff I'd like to discuss in general on the agenda...and i want to make sure we get to it.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; So, first up I wanted to make sure we had some time to talk about how the 3.0 release went, and if there's anything we'd like to try differently next time.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; robint already started such a discussion over on dspace-release list...but, I wanted to get others opinions here today, to see what you all feel could be improved on in the release process in general</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; So, does anyone have brainstorms on things we may want to do different for the 4.0 release next year?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; I hoped to get some feedback on my idea that developers should be responsible to find reviewers that I pitched in that discussion</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;mhwood&gt; I think it would help to try to schedule landing of big pieces individually and set some expectations, so they are spread out.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; To find reviewers, we need to have some idea of who would be comfortable reviewing what aspects of DSpace.  I'm not so good on user interface stuff, for example.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I have some general worries about making developers find reviewers...as I worry it could be more difficult for non-Committers to find reviewers than Committers.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;helix84&gt; mhwood: agreed, we should make a table on the wiki</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; So, in general, I agree with the reviewing concept that folks should be *encouraged* to locate someone to review their work...but, we may also need to provide suggestions/support for folks who need help finding a reviewer</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; Maybe back up just a little:  we need to have *someone* responsible for finding reviewers.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not sure if that could/should be an activity of the Release Team?  Help find reviewers for new work?  (to be clear though, I don't think the RT should need to review all this stuff themselves...just help locate appropriate reviewers)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; RT has a role finding reviewers if reviewers aren't self-selecting... however, it is my hope that we are self-selecting most of the time</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; RT should not be responsible for *doing* review, but it makes sense that they are responsible for seeing that review gets started timely.  First responsibility should be the contributor, but if he doesn't or can't find anyone then the RT could back him up.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; +1 hpottinger...I'd also prefer that we try to self-select reviewers as much as we can.  But, when a reviewer doesn't step forward, that's where the RT could help prompt us all to volunteer as a reviewer</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: well,it'snot like we wouldn't help them locate reviewers. but the truth is that we have unreviewed patches in Jira and the (I'm not sure if it's formal) rule seems to be that large unreviewed stuff doesn't go in. so I'm just formulating that fact and suggesting the next step.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood too..he just said the same thing I  meant</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; remember that we are actively locating reviewers during our Jira reviews</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-green">* jonathan_ (a06ffa6d@gateway/web/freenode/ip.160.111.250.109) has joined #duraspace</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; I was unclear.  Developer should try to find someone to review.  First choice would be the person reporting, unless that is the developer.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; i also agree on what was said about the roleof the RT</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; "Large unreviewed patch doesn't go in" is good too.  If you want your work to advance then you need to either line up reviewers or ask for help in doing so.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; so, I think (unless I'm missing something) we are all essentially saying the same thing here....(1) developers should be encouraged to locate a reviewer themselves, if possible, (2) if a reviewer cannot be found or is not self-selected, that is where either the RT (during a release) or Committers in general can help to locate an appropriate reviewer.   (And we all prefer that #1 happen as much as we can)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; i think we have a consensus</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; yep, consensus.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; Me too.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; plus, to help locate reviewers, we'll make a table of commiters x areas of competence</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; which means we should step back to mhwood's initial point (at beginning of meeting)...this one:</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: I think it would help to try to schedule landing of big pieces individually and set some expectations, so they are spread out.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; the thing is we mostly don;tknow what to expect this early in the cycle</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; then @mire comes and drops us ~3 large code bombs :)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; right...we never know what to expect this early on.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; I'll say, I agree with mhwood's idea here , in theory.  However, I'm not sure yet at how good we are about setting &amp; meeting early "deadlines"</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; my point being those code drops are mostly finished stuff and nosubstantial changes are expected</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; I'd personally love to see things get schedule more though</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; s/schedule/scheduled/</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kompewter&gt; tdonohue meant to say: I'd personally love to see things get scheduled more though</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;aschweer&gt; we still need to make sure that large new features actually work for more than just the organisation that's contributing them</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; ok, what about this:</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; remember my 3.0 tasks page?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;hpottinger&gt; it would be nice to have preview pull requests, if the submitter really wanted community input on larger projects</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; let's start a 4.0 tasks tracking page right now</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;aschweer&gt; hpottinger +1</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; so that we'll have status updates all in one place</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; I agree with hpottinger too -- sharing code earlier would be nice</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; and know what to expect</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- feel free to start up a 4.0 page.  If even just to start capturing early ideas around what could be in it..or what our 4.0 wishlist is</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; then at some point _before_ what we called feature freeze, it would be the RT's discretion to accept any late features</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; though, it doesn't have to be an actual pull request, just a link to the branch would do, as long as the Git repo is public</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; And then announce it.  "4.0 planning/scheduliing page is open, please contribute."</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: exactly, anything, including proposals, discussions, status updates, jira issues, branches, pull requests</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; it's a bit like the whole "theme garden" idea, but for any section of code</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; theme garden and code zoo :)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; not really, code lives in forks</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; The other (maybe crazy) related idea I have had bouncing around is to set *2 different "submission deadlines"* where folks *must* have something reviewable as a Pull Request.   One is for Big Changes (and it's 2+ months before Feature Freeze), and the other is for smaller improvements (and it's 1 month before Feature Freeze).</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; thisis just a place to link to all of it</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; so let's have a "proposals freeze" and "code must be ready" deadlines</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; These "2 submission deadlines" would be strict...if you miss it, sorry.  But, the code need not all be 100% finished..just needs to be in a reviewable state, where we can vote it in/out.   But, I'm still not sure if this is the right direction</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; essentially, I'm trying to *force* people with significant changes (big new features) to get their code in front of us much sooner</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; Forcing volunteers is difficult....</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; (even if that code they send us is still a bit buggy, and maybe not "feature-complete")</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: agreed, that's the goal. but i'm also not convinced yet that this willhelp towards that goal.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; Yes, if it's working well enough to show how it might look, we want to see it.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; force may be too strong a word on my part, agreed.  I'm just worried that if we tell people to give us their code / schedule their feature, those deadlines will just continually slip back..  we need some *earlier* deadline before feature freeze that is the "last chance"</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; the other related problem is that by giving us mostly finished code, the contributors are leaving us out of comenting on the design</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; which can bite them back if we're not satisfied with the design and they have to have fundamental changes</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; That's why I keep saying "negotiate".  The RT needs a commitment from the contributor, so that he goads *himself* to get it in.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; helix84++</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; ok, we spent almost 30 minutes, any conclusions?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; +1 to involving the community on the design phase, let's make it easier, I think the earlier deadline does that a bit, by make the expectation clear</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; I agree with helix84 too, that we want to encourage the whole process to be more open.. I think @mire actually did this in 3.0 with some features...they were open about Advanced Embargo &amp; even about Item Versioning, but the final code still came a bit late</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; I guess the "2 deadlines" approach is to schedule the pile-up earlier so that the RT has time to work through it.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, exactly.  I want the "pile-up" of last minute features to happen 2+ months before feature freeze, rather than *one week* before Feature freeze</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; about advanced embargoand versioning - IIRC, the feature specifications were actually available early</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;aschweer&gt; helix84: development still happened entirely behind closed doors though</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; We still have a ton of code arrive all at once but it's less problematic, because the code can wait on RT attention.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, that's what I was saying... features/specs were shared earler, but the code was not</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; but there was no code to play with, so I personally didn't understand the proposals wellenough to comment on them</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; so we should encourage development in public branches</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'm not sure we've come to any conclusions on this part...just some brainstorms here on possible solutions. Here's what I've heard</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; wait, i think that's what we were getting to the whole time</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; 1) We all agree it'd be best for all development to be more open in general</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; let's require from early on a public development branch</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; 2) We'd like it if we could work with contributors to schedule a time that their feature will be ready for review</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; 3) We may or may not want to mess around with different "final chance" deadlines...to perhaps get the "last minute pile-up of features" to happen earlier &amp; give the RT/Committers time to work through it</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; I think that's the main points, unless I missed something</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; Sounds right.  I like the idea of combining negotiated scheduling with a hard "last chance" date (or two) that leave(s) sufficient lead time.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood -- yes, I think we could try both together</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; Ok...moving on now.  I wanted to leave a slot here to talk about 3.1 timelines, but I'm not sure we're any closer this week to deciding on the 3.1 release.  Any thoughts?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: just that there are still many open issues for 3.1</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; (or I should say, I think we all agree a 3.1 will happen...we are no closer to deciding *when* it will happen)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; right</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; Curing the license conflict seems like the most significant issue.  When that lands, I think it might be time to look around and see if there is any reason not to cut a release.  (If other good stuff is expected within days, delay for it.)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood, I agree</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; (mhwood is talking about DS-1407...had to go look up the number myself)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1407">https://jira.duraspace.org/browse/DS-1407</a> ] - [#DS-1407] Refactor SOLR Statistics to use OpenCSV or Apache Commons CSV - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; I haven't yet created a Jira for it, but I still can't get things running on Oracle</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; hmm..that's not good news.  Well, a fix for Oracle would also warrant an immediate 3.1, I think</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; So, here's all our 3.1 issues, with the unassigned ones sorted to the top.  Feel free to grab any that you have time too: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+assignee+DESC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+assignee+DESC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+assignee+DESC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%223.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+assignee+DESC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; IIRC those oracle issues weren't causing any known problems, just removing warnings, right?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I think hpottinger is having different Oracle issues...namely that 3.0 isn't working on Oracle (throws errors)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; helix84 the ones I fixed were warnings, I'm talking about not running at all with 3.0</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; oh, sorry, i didn't know about that</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; to complicate things, we're actually planning on moving our repository to PostgreSQL soon...</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; when did we/you find out?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mhwood&gt; IIRC Graham Triggs does Oracle, but he seems very quiet lately.  Other matters are consuming his time, I guess.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. I think we'll move on for now from 3.1, as we obviously aren't ready for scheduling that yet.  Just a sidenote that I encourage hpottinger to enter his Oracle Errors into JIRA :)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; will do</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; graham is in a new job, he's no longer @ Open Repository (the company)...so, I'm not sure he's using Oracle as much these days</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;helix84&gt; on a related note, i started marking some small bugs with the "papercut" label</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;helix84&gt; these are meant to be simple fixes, like adding an exception handler</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; just to make finding them easier for a potential bug slayer</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, that basically transitions us into the next topic which is JIRA in general :)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; I did reach out to the only other Oracle institution I know of, and they said they are contracting with @mire for support...</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; but, that sounds fine to me helix84.  We just probably need to note somewhere what "papercut" means</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;helix84&gt; ubuntu has defined it as a small bug thatcan be fixed by a competent developer in less than a day</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; So, with regards to JIRA...I'm hoping to actually make this "JIRA Workflow Improvements" (see diagram) happen in the near future, assuming there are no disagreements: <a href="https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements">https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements</a></span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kompewter&gt; [ JIRA Workflow Improvements - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements">https://wiki.duraspace.org/display/DSPACE/JIRA+Workflow+Improvements</a></span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, see, I didn't know that, having never looked at Ubuntu's issue tracker.  That's why I mentioned it'd be good to make others aware of this</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; i think we all agreedon that (perhapseven approved it with a vote?) before the release started, we only postponed it until after the release</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; Essentially "open" splits into "needs more details" and "needs volunteer"?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- yea, essentially "open" does split into those two categories -- unless it is "open + assigned to someone" in which case it becomes "in progress"</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; So, making this JIRA change happen will require a massive recategorization of all tickets marked "open" at this time...so, this may not all be able to happen easily in one day</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-brick">* hpottinger wonders if Jira makes a tool for refactoring classifications...</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; it does...JIRA has tools to let you move things around in bulk</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; the problem here though is that we need to eventually determine which "open" tickets belong under "needs volunteer" and which belong under "needs more details".  That may not be as "automatic" of a change</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; I was wondering more about whether Jira lets you remove an edge from the state machine, so that stuff in "open" can stay there until moved to one of the new states, but no more stuff can move from "received" to "open".</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- that may be possible.  Good idea. I'll have to look into that</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; in the case of splitting "open" into "needs more details" and "needs volunteer" that can't be done automatically, a human must classify it</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; yep, exactly helix84.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; So, I can look into our options further in the coming weeks/days.  I do think this JIRA change is important to happen soon.  I just may need help eventually doing the human-required activities</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; but "fixed" and "closed" could be merged automatically</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; i'll chip in, little by little</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, one last question with regards to JIRA Workflow stuff...in the comments of that Wiki page, Bram &amp; mhwood mentioned a "Code Review Required" state.   That's currently NOT in the diagram.  Do we feel that should be added?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; Um, what state do we use for "developer thinks it's fixed, please test/review"?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood just asked the same question as I ;)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; the has-patch and has-pull-request labels</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; So it just sits in "in progress" and we look for labels?</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; i guess. we can convert it to a state, i have no problem with that.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I think there are two options.  Stuff waiting for review either stays in "in progress" and we add a special label...or we move "in progress" stuff -&gt; "code review required" if needed</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; currently you'd have to look for has either of those labels and is not fixed or closed :/</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; changing the labels into a state wouldmake that easier</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; However, we may be able to set it up so that the "code review required" state is Optional.  I.e. from "in progress" you can either move directly to "Closed" or you can move to "Code Review Required" first.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: sounds reasonable</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; state &gt; labels, I agree</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue: yes</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; ok..sounds like a general consensus.  I'll add that to the diagram, and I'll look into adding an optional "code review required" state</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; tdohonue +1</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; one more thing</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; i guess where would be just onestate, so we'd keep the labels to distinguish between a patch and pull request</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; IMHO distinguishing them doesn't justify 2 separate states</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; I agree.  The meaning of the state is "submitter or a reviewer should inspect this".</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;helix84&gt; more like "code ready for review"</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I think "patch" and "pull request" can just be labels</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; "code ready for review" is fine by me</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; I think that's all the questions I had around the JIRA Workflow stuff (for now).  Next steps are to start to figure out the best way to get this implemented...so, I'll just have to start that investigation &amp; report back if I hit any major issues.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; It needs an edge returning to "in progress", in the case of not passing review.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: so you'lllook into the automation tasks andi'll do some of the grunt work, right?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood agreed</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, I'm going to look at how to first generate this workflow in JIRA, then automate what I can automate....finally I'll report back on what I'm gonna need human-help on (which is where I hope you and others can chip in)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; i have one more jira thing to discuss</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; ok, go ahead</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; as new issues come in, i've been tagging them with either 3.1 or 4.0, even when they don't have an assignee. unless it's something like my pie in the sky ideas, which i leave without a target version.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; i think that willforce us to look at them at some point in time and decide whether to push them back or find an assignee</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; which will be nice to have in addition to the regular jira review</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Good idea.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; that makes sense.  once we get these workflow changes in place... we can start immediately dumping new tickets into the "needs volunteer" or "needs more details" statuses too</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; I agree, it's a good idea</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; the only danger is we'll become a buldozer pushing heaps of issues to the next release every time :)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; The last thing I had noted on the agenda (which I'm not sure we have much time for today -- we're already over time) is that we need to somehow find a way to cut down the JIRA Backlog</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea, that may happen, we'll have to see.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; One thing I just realized as far as the JIRA Backlog goes though, is that I think these JIRA Workflow improvements may require us to tackle some of the backlog anyhow, and at least put them in the proper status</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; any suggestions on how todo that? :)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; So, it may be that the JIRA Backlog may start to clear up more as we implement the JIRA Workflow improvements.....or, at least, that's my current hope</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; i was thinking along those lines that cleaning up the classification in jira will enable us to properly point to lists ofpossible tasks, that can be tackled e.g. in GSoC or as student's theses</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;aschweer&gt; have an in-person or virtual bug squashing party of sorts (if in person, maybe just before/just after OR?)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; +1 helix84</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; +1 party</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer - yea, that was my only other idea...holding a "JIRA Backlog Bash" (or something) and trying to dig in and at least clean up the JIRA backlog (if not squash/assign some old bugs).  It could be in person, or just via IRC on a day</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; i've never been to a BSP (bug-squashingparty) but I have the impression that BSPs are mostly classification, not actuallya bug _fixing_ party</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;aschweer&gt; my father went to <a href="http://wiki.debian.org/BSP/2012/11/de/Essen">http://wiki.debian.org/BSP/2012/11/de/Essen</a> and it sounded like bugs did get fixed in the process</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;kompewter&gt; [ BSP/2012/11/de/Essen - Debian Wiki ] - <a href="http://wiki.debian.org/BSP/2012/11/de/Essen">http://wiki.debian.org/BSP/2012/11/de/Essen</a></span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; I'm betting it could be a little of both....small bugs could be squashed that day, but the more important thing would be to get through the backlog &amp; categorize/assign things...so that there's no long a big menacing backlog over our heads</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; I'd drink to that</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mhwood&gt; Speaking of OR, if there will be a meeting before or after it would be good to get it scheduled so transport and lodging can be scheduled.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;aschweer&gt; hpottinger: um I'm not sure drinks+bugs mix so well...</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;aschweer&gt; mhwood +1</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; I still think that process could be *either* in person (at OR or similar) or even via IRC -- make a day of it, if folks can spend a day (or part of a day) and join me to tackle to backlog</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; aschweer: never heard of wine flies? ;)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; no, no, I think there's some confusion: drink *after* bugs are squashed, not during the squashing (because that would be gross)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- good question around the meeting timeline at OR.  I was waiting for an early OR schedule myself.  I wasn't sure if Mon, July 8 was going to be "mostly workshops"...if so, we could have our mtg in parallel to those workshops</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;aschweer&gt; I found last OR very stressful with so many things going on in parallel, but I guess it'd be hard for people to justify coming a day early / staying a day longer?</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; Since OR2013 is already scheduled for an *entire week* (Mon, July 8 - Fri, July 12), I wasn't sure I wanted to force folks to attend extra mtgs on either Sunday before or Saturday after</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; I know, personally, I have trouble making it a full week of conferencing (and still having some brain left)...so, I didn't want to make it even longer</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; Well, the idea is to get people to start talking seriously about scheduling and find out what works.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; scheduling concurrent with the workshops limits our opporutnities to participate (either by leading or attending)</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;aschweer&gt; it's far easier for me to tack on a day to OR than to squeeze a whole day of DSpace things into my day work. plus there'd be fewer timezone issues at an in-person event</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; is anyone coming to OAI8? that'sa much shorter conference</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; Well, I can bring this up in DuraSpace -- I know a few folks are on the planning committee for OR2013 (not I though).  I can ask to see if the plan is that the conference is going to actually last the full week or not...and when a DSpace mtg could happen</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; What do we have that would warrant a face-to-face meeting in the first place?</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;helix84&gt; mhwood: beer?</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- I'm not going to be at OAI8 (at least not as far as I'm aware yet....plans change sometimes though!)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; Currently, face-to-face is just a good time to mingle &amp; talk through upcoming roadmaps/plans/larger projects.  There may not be anything yet to warrant it, but I bet there'd be plenty to talk about once we get around to OR2013 next July</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-brick">* hpottinger is still mulling over OR13... PEI is a pricey plane ride</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; Cost has come way down since I looked a couple of months ago.</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; Still pricey though.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;aschweer&gt; I'll not mention ticket costs from here...</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; (BTW -- I think the "official meeting" is likely over here...I'm not going to call any more topics.  But, I will still be here for a while to chat about whatever)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; yea, tickets are likely pricey *every year* for aschweer :)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; i was just typing that :)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mhwood&gt; True, I have little room for complaint.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;aschweer&gt; luckily I'm not paying for them out of my own pocket :)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; aschweer: you guys need to host, problem solved</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;aschweer&gt; haha</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;aschweer&gt; then we could have OR in Middle Earth</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;hpottinger&gt; +1 Middle Earth</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; i'll fit in unless i'll shave my feet</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;aschweer&gt; it's getting a bit much actually...</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; I will ask around though to see if I can get a better handle on when we can have the DSpace face-to-face mtg @ OR2013.   I agree though with much that has been said..the number of parallel mtgs/topics at OR2013 is getting crazy...that conference just seems to get larger &amp; larger every year...which makes it harder &amp; harder to fit in a face-to-face DSpace mtg.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;aschweer&gt; anyway, I need to run off. bye all!</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue +1</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-brick">* tdonohue sometimes longs for the early days of OR, when it was a 3 day conference, and you could easily add a day of meetings on before or after</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;helix84&gt; i guess they've been adding them days for one year too many</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mhwood&gt; Maybe time to look around for something smaller which is still relevant and useful.</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;helix84&gt; a dedicated dspace conference? :)</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; yea, if we were all/most at another smaller mtg, that'd be another option for a face-to-face</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;helix84&gt; can't get more useful than that ...for us</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;tdonohue&gt; there actually used to be a "DSpace User Group" conference every other year...we haven't had one in ~3-4 years though</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;tdonohue&gt; it was called "DSUG" (DSpace User Group) for short</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;helix84&gt; we had some preliminaryideas about one here in europe ths summer</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; since OR13 will be expensive</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; the last full DSUG conference (that I recall) was in Sweden in 2009.  It was a 2? day conference, I believe.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- yea that was the exact reason why we used to have DSUG meetings... to try and catch the folks who couldn't travel to OR</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;helix84&gt; i'll head out now</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;helix84&gt; see you</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; bye, have a good one</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mhwood&gt; 'bye.</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-navy">* helix84 (~a@89.203.176.28) Quit (Quit: helix84)</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-navy">* jonathan_ (a06ffa6d@gateway/web/freenode/ip.160.111.250.109) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[22:23]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:46]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-129-94-92.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

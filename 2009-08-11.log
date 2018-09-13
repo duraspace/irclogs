@@ -1,0 +1,58 @@
+<span class="irc-date">[0:54]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[0:56]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[5:34]</span> <span class="irc-green">* RichardJones (n=richard@94-194-200-240.zone8.bethere.co.uk) has joined #duraspace</span><br />
+<span class="irc-date">[7:58]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[8:00]</span> <span class="irc-green">* cbeer_ (n=chris@dsl092-069-087.bos1.dsl.speakeasy.net) has joined #duraspace</span><br />
+<span class="irc-date">[8:05]</span> <span class="irc-navy">* cbeer_ (n=chris@dsl092-069-087.bos1.dsl.speakeasy.net) Quit ()</span><br />
+<span class="irc-date">[8:11]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[8:16]</span> <span class="irc-green">* cbeer_ (n=chris@dsl092-069-087.bos1.dsl.speakeasy.net) has joined #duraspace</span><br />
+<span class="irc-date">[8:21]</span> <span class="irc-navy">* cbeer_ (n=chris@dsl092-069-087.bos1.dsl.speakeasy.net) Quit ()</span><br />
+<span class="irc-date">[9:45]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[9:49]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[9:49]</span> <span class="irc-green">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-75006d800bc0151b) has joined #duraspace</span><br />
+<span class="irc-date">[9:51]</span> <span class="irc-green">* bbranan (n=lc@9.159.121.70.cfl.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[9:54]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[9:56]</span> <span class="irc-green">* Dan_Davis (i=80546236@gateway/web/freenode/x-c046b480a1c3524d) has joined #duraspace</span><br />
+<span class="irc-date">[10:03]</span> <span class="irc-black">&lt;cwilper&gt; Starting meeting: <a href="https://fedora-commons.org/confluence/display/FCREPO/2009-08-11+-+Special+Topic+-+APIA+and+M+and+Authentication">https://fedora-commons.org/confluence/display/FCREPO/2009-08-11+-+Special+Topic+-+APIA+and+M+and+Authentication</a></span><br />
+<span class="irc-date">[10:03]</span> <span class="irc-green">* kstrnad (i=55d85ac4@gateway/web/freenode/x-1d1f010ac3161c42) has joined #duraspace</span><br />
+<span class="irc-date">[10:08]</span> <span class="irc-green">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:11]</span> <span class="irc-green">* awoods (n=awoods@pool-96-231-158-109.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[10:11]</span> <span class="irc-black">&lt;bbranan&gt; <a href="https://fedora-commons.org/jira/browse/FCREPO-515">https://fedora-commons.org/jira/browse/FCREPO-515</a></span><br />
+<span class="irc-date">[10:34]</span> <span class="irc-black">&lt;bbranan&gt; <a href="http://fedora-commons.org/jira/browse/FCREPO-517">http://fedora-commons.org/jira/browse/FCREPO-517</a></span><br />
+<span class="irc-date">[10:37]</span> <span class="irc-black">&lt;cwilper&gt; escidoc uses aop</span><br />
+<span class="irc-date">[10:51]</span> <span class="irc-black">&lt;cwilper&gt; proposal: authN challenge based on authZ, not based on path</span><br />
+<span class="irc-date">[11:05]</span> <span class="irc-black">&lt;cwilper&gt; (general agreement that merging API-A and API-M = good)</span><br />
+<span class="irc-date">[11:06]</span> <span class="irc-black">&lt;cwilper&gt; action: new issue: making sure repository wide policies are stored in fedora objects</span><br />
+<span class="irc-date">[11:06]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-162-19-68.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:19]</span> <span class="irc-black">&lt;cwilper&gt; mdiggory said: interesting to see how repo-wide policies in fedora objects will play out.  some similarities with how jackrabiit does things (special place in repository for administrative control of repository)</span><br />
+<span class="irc-date">[11:26]</span> <span class="irc-black">&lt;cwilper&gt; andrew said: "let's publish this to the user list, since the impact could be high on upper-level apps or users"</span><br />
+<span class="irc-date">[11:27]</span> <span class="irc-navy">* bbranan (n=lc@9.159.121.70.cfl.res.rr.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[11:28]</span> <span class="irc-navy">* Dan_Davis (i=80546236@gateway/web/freenode/x-c046b480a1c3524d) Quit ("Page closed")</span><br />
+<span class="irc-date">[11:28]</span> <span class="irc-navy">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-75006d800bc0151b) Quit ("Page closed")</span><br />
+<span class="irc-date">[11:36]</span> <span class="irc-green">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:36]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[12:27]</span> <span class="irc-navy">* RichardJones (n=richard@94-194-200-240.zone8.bethere.co.uk) Quit ("Leaving.")</span><br />
+<span class="irc-date">[12:32]</span> <span class="irc-green">* kstrnad (i=55d85ac4@gateway/web/freenode/x-1d1f010ac3161c42) has left #duraspace</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-navy">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-green">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-navy">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) Quit ()</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-green">* cbeer_ (n=chris@dsl092-069-087.bos1.dsl.speakeasy.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-navy">* mhwood (i=mwood@mhw.ulib.iupui.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 113 (No route to host))</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-navy">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) Quit (Read error: 110 (Connection timed out))</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-green">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-navy">* cbeer_ (n=chris@dsl092-069-087.bos1.dsl.speakeasy.net) Quit ()</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit (Read error: 60 (Operation timed out))</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* awoods (n=awoods@pool-96-231-158-109.washdc.fios.verizon.net) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* stuartlewis (n=stuartle@gendig21.lbr.auckland.ac.nz) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-162-19-68.clt.bellsouth.net) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* cbeer (n=cbeer@204.152.12.166) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* ChanServ (ChanServ@services.) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* kshepherd (n=kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-navy">* krnl_ (i=krnl_@193.219.158.144) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-navy">* Disconnected.</span><br />

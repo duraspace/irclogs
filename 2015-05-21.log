@@ -1,0 +1,33 @@
+<span class="irc-date">[6:43]</span> <span class="irc-navy">* srobbins (~srobbins@libstfsdg02.library.illinois.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[6:43]</span> <span class="irc-green">* srobbins (~srobbins@libstfsdg02.library.illinois.edu) has joined #duraspace</span><br />
+<span class="irc-date">[7:01]</span> <span class="irc-brown">-holmes.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[7:01]</span> <span class="irc-brown">-holmes.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[7:01]</span> <span class="irc-brown">-holmes.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[7:01]</span> <span class="irc-brown">-holmes.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[7:01]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[7:01]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[7:01]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:41]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[8:54]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160110.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-green">* dyelar (~dyelar@129.237.45.105) has joined #duraspace</span><br />
+<span class="irc-date">[14:06]</span> <span class="irc-green">* awoods_ (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:08]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[14:08]</span> <span class="irc-green">* awoods_ is now known as awoods</span><br />
+<span class="irc-date">[14:49]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: hi Tim, may I ask you for a second opinion on this? DS-2587</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2587">https://jira.duraspace.org/browse/DS-2587</a> ] - [DS-2587] Resource policies rptype is null after upgrading - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: I actually gave an opinion on the PR: DSPR#950</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/950">https://github.com/DSpace/DSpace/pull/950</a> ] - fixes DS-2587 by kosarko</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; it looks reasonable to me</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160110.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[17:57]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160110.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160110.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.45.105) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

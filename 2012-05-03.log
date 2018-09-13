@@ -1,0 +1,191 @@
+<span class="irc-date">[0:10]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[0:10]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Client Quit)</span><br />
+<span class="irc-date">[2:13]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[2:45]</span> <span class="irc-green">* eddies (~eddies@bb219-75-82-235.singnet.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[2:45]</span> <span class="irc-navy">* eddies (~eddies@bb219-75-82-235.singnet.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[2:45]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[5:05]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp218.evans.tamu.edu) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-gibson.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-gibson.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-gibson.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-gibson.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[9:48]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Ping timeout: 272 seconds)</span><br />
+<span class="irc-date">[9:51]</span> <span class="irc-green">* eddies (~eddies@bb219-75-82-235.singnet.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[9:51]</span> <span class="irc-navy">* eddies (~eddies@bb219-75-82-235.singnet.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[9:51]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[10:07]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[12:10]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:50]</span> <span class="irc-green">* elschlomo (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:53]</span> <span class="irc-green">* ed_ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) has joined #duraspace</span><br />
+<span class="irc-date">[12:55]</span> <span class="irc-green">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) has joined #duraspace</span><br />
+<span class="irc-date">[12:57]</span> <span class="irc-green">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[12:58]</span> <span class="irc-navy">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[12:58]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-green">* cwilper (ad55a88f@gateway/web/freenode/ip.173.85.168.143) has joined #duraspace</span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-green">* ajs6f (89361cde@gateway/web/freenode/ip.137.54.28.222) has joined #duraspace</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-black">&lt;ajs6f&gt; Chris is pleased about progress on submitted issues.</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;ajs6f&gt; Frank is now assigned FCREPO-1027 and FCREPO-1023.</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;ajs6f&gt; Chris has word from Thorny that folks from CDC are interested in helping with some development work in order to advance their own projects.</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;ajs6f&gt; As well as NEH.</span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-black">&lt;ajs6f&gt; Dan skewers the medical establishment.</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-black">&lt;ajs6f&gt; These projects concern publications after publisher embargoes are lifting.</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-black">&lt;ajs6f&gt; Also, these groups are running Fedora in the cloud.</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-black">&lt;ajs6f&gt; They're operating under a federal mandate to push efforts to the cloud.</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: Let's not waste time.</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;ajs6f&gt; Adam: Anything for 3.6 that warrants discussion?</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: What about replacing JRDF?</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jira.duraspace.org/browse/FCREPO-950">https://jira.duraspace.org/browse/FCREPO-950</a></span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-950] Evaluate replacements for JRDF - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-950">https://jira.duraspace.org/browse/FCREPO-950</a></span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://incubator.apache.org/stanbol/">http://incubator.apache.org/stanbol/</a></span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-black">&lt;kompewter&gt; [ Apache Stanbol - Welcome to Apache Stanbol (incubating) ] - <a href="http://incubator.apache.org/stanbol/">http://incubator.apache.org/stanbol/</a></span><br />
+<span class="irc-date">[13:22]</span> <span class="irc-black">&lt;ajs6f&gt; Adam: Stanbol uses Clerezza for storing structural RDF.</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: We do need to parse RDF in the core.</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://incubator.apache.org/clerezza/">http://incubator.apache.org/clerezza/</a></span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;kompewter&gt; [ Welcome to Apache Clerezza ] - <a href="http://incubator.apache.org/clerezza/">http://incubator.apache.org/clerezza/</a></span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://incubator.apache.org/jena/">http://incubator.apache.org/jena/</a></span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;kompewter&gt; [ Apache Jena - Welcome to Jena ] - <a href="http://incubator.apache.org/jena/">http://incubator.apache.org/jena/</a></span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-black">&lt;ajs6f&gt; Adam, Chris: Jena is quite large, but may be modularized.</span><br />
+<span class="irc-date">[13:25]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: Seseme RIO is fairly light.</span><br />
+<span class="irc-date">[13:25]</span> <span class="irc-black">&lt;ajs6f&gt; Seseme -&gt; Sesame</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-black">&lt;ajs6f&gt; Adam: What is the relationship of the RDF graph to the objects? This informs how much we want to invest in RDF infrastructure.</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: The graph is central, but the implementation is different question.</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;barmintor&gt; +1 in-memory linked lists</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;ajs6f&gt; Adam: The graph is a graph, but that doesn't imply that it has to be in a triplestore.</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: We _will_ have to parse and deal with RDF.</span><br />
+<span class="irc-date">[13:29]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: Looking at SemWeb architecture (and Linked Data) they see RDF as sending messages. Not so much about triplestores.</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: Fedora fits well with that. The triplestore is not necessarily part of the core.</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: What does Fedora (in a large sense) need to ask at different scales?</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: Low-level questions: about graphs about _how_ the stuff is stored.</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: Not content-driven questions.</span><br />
+<span class="irc-date">[13:32]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: This about what Fedora _requires_, not what a given site might want to do.</span><br />
+<span class="irc-date">[13:33]</span> <span class="irc-black">&lt;ajs6f&gt; Frank: Don't we need to abstract out these questions?</span><br />
+<span class="irc-date">[13:33]</span> <span class="irc-black">&lt;ajs6f&gt; Everyone: Yes, and some of it has already happened (Trippi) and some needs to (High Level Store).</span><br />
+<span class="irc-date">[13:35]</span> <span class="irc-black">&lt;ajs6f&gt; Adam: This all argues for changes in the core patterns of workflow.</span><br />
+<span class="irc-date">[13:35]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: High level storage implies those kins of changes.</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;ajs6f&gt; Ben: Using modern Web service engines supports asynch patterns.</span><br />
+<span class="irc-date">[13:37]</span> <span class="irc-black">&lt;ajs6f&gt; Ben: Which might be a necessary but not sufficient step.</span><br />
+<span class="irc-date">[13:37]</span> <span class="irc-black">&lt;ajs6f&gt; Frank: We may soon have asynch HTTP which would open up the Web APIs.</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: This is lower level-- system-to-system interaction.</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;ajs6f&gt; Adam: This is about the boundaries between arch styles.</span><br />
+<span class="irc-date">[13:39]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: Hopes that Fedora will be a mediator able to support multiple styles of interaction.</span><br />
+<span class="irc-date">[13:41]</span> <span class="irc-black">&lt;ajs6f&gt; Adam: We needed to use other machinery for that mediating purpose precisely because Fedora doesn't do that so well right now.</span><br />
+<span class="irc-date">[13:42]</span> <span class="irc-black">&lt;ajs6f&gt; Dan: Then there's moving from operation-centrism to data-centrism.</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Rejiggering FESL configuration files to Spring configuration files</span><br />
+<span class="irc-date">[13:45]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Needs feedback, want eyeballs on code.</span><br />
+<span class="irc-date">[13:45]</span> <span class="irc-black">&lt;eddies&gt; Ben: calling for feedback on FCREPO-795 branch</span><br />
+<span class="irc-date">[13:45]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/tree/fcrepo-795/fcrepo-installer/src/main/resources/config/spring/fesl">https://github.com/fcrepo/fcrepo/tree/fcrepo-795/fcrepo-installer/src/main/resources/config/spring/fesl</a></span><br />
+<span class="irc-date">[13:45]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-installer/src/main/resources/config/spring/fesl at fcrepo-795 · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/tree/fcrepo-795/fcrepo-installer/src/main/resources/config/spring/fesl">https://github.com/fcrepo/fcrepo/tree/fcrepo-795/fcrepo-installer/src/main/resources/config/spring/fesl</a></span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Stored under the installer.</span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-black">&lt;barmintor&gt; <a href="http://static.springsource.org/spring/docs/2.5.x/reference/extensible-xml.html">http://static.springsource.org/spring/docs/2.5.x/reference/extensible-xml.html</a></span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-black">&lt;kompewter&gt; [ Appendix B. Extensible XML authoring ] - <a href="http://static.springsource.org/spring/docs/2.5.x/reference/extensible-xml.html">http://static.springsource.org/spring/docs/2.5.x/reference/extensible-xml.html</a></span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-navy">* ajs6f (89361cde@gateway/web/freenode/ip.137.54.28.222) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[13:47]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Is seeing how it all hangs together.</span><br />
+<span class="irc-date">[13:48]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: As opposed to all hanging separately.</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Normally user configs go into properties files vs xml (unless there is a UI).</span><br />
+<span class="irc-date">[13:51]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: This is a good chance to clean up FESL configuration to make it easier to understand.</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-black">&lt;Dan_Davis&gt; Eddie: This impl is much improved.  Maybe needs related configurations be not widely separated so its less likely that you have unexpected consequences from a change.</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Annotation may need one to parse through Java but having a everything in single XML file.</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Maybe move annotations to core PEP code for basic CRUD.</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: I lost connection so someone needs to take notes.</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-black">&lt;barmintor&gt; Ben: ActiveMQ has a dependency on an older version of slf4j until 3.6 comes out of snapshot, then we can move up to cxf 2.5 or 2.6</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;cwilper&gt; End of Fedora committer call. Start of Fedora Office Hours: <a href="https://wiki.duraspace.org/display/~cwilper/Fedora+Office+Hours">https://wiki.duraspace.org/display/~cwilper/Fedora+Office+Hours</a></span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora Office Hours - Chris Wilper - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/~cwilper/Fedora+Office+Hours">https://wiki.duraspace.org/display/~cwilper/Fedora+Office+Hours</a></span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: one of the things I've been trying to do "in the background" is make the test suite more efficient where possible</span><br />
+<span class="irc-date">[14:10]</span> <span class="irc-black">&lt;barmintor&gt; since the length of builds is a disincentive to hacking :)</span><br />
+<span class="irc-date">[14:10]</span> <span class="irc-black">&lt;cwilper&gt; My memory's fuzzy on that...I think we chatted about it before, but forgot what approaches you were considering.</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-black">&lt;barmintor&gt; most of it is just re-using factories and clients</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-black">&lt;cwilper&gt; Yes, long builds really suck.</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-black">&lt;barmintor&gt; Anecdotally, the build really hangs on the loading of METS and ATOM demo objects in the fcrepo-server suite</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-black">&lt;barmintor&gt; it takes as long as running the integration tests for one config</span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-black">&lt;barmintor&gt; I haven't yet tried turning off pretty-printing for the translations, but there's certainly a lot of IO there</span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-black">&lt;cwilper&gt; Oh yeah. Demo object conversions were taking a long time too. Not sure if they were done multiple times or not.</span><br />
+<span class="irc-date">[14:14]</span> <span class="irc-black">&lt;barmintor&gt; Anyway, here's what I'm working on this morning:</span><br />
+<span class="irc-date">[14:15]</span> <span class="irc-black">&lt;barmintor&gt; when I run the test suite against fcrepo-795, there's NPEs reported by cxf in the logs, but they don't appear to impact the tests.  They're logged as warnings.</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;barmintor&gt; cxf logs them as originating in the WS services</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;cwilper&gt; Hrm. Stack trace?</span><br />
+<span class="irc-date">[14:17]</span> <span class="irc-black">&lt;barmintor&gt; useless one- all in the cxf internal stack. trying to figure out how to get it to log the cause's stacktrace</span><br />
+<span class="irc-date">[14:17]</span> <span class="irc-black">&lt;barmintor&gt; or maybe I just need to look up the cxf source.  might be a client-side thing</span><br />
+<span class="irc-date">[14:18]</span> <span class="irc-black">&lt;barmintor&gt; Can tell you more after I run the tests on this machine, my logs are at home</span><br />
+<span class="irc-date">[14:19]</span> <span class="irc-brick">* barmintor will be so glad to finish this issue</span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-black">&lt;cwilper&gt; ok. in another project i recall fussing a bit with telling java.util.logging output to go to cxf. Here's a doc on what cxf  folks recommend for getting that going (see using SLF4J): <a href="http://cxf.apache.org/docs/debugging-and-logging.html">http://cxf.apache.org/docs/debugging-and-logging.html</a></span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Apache CXF -- Debugging and Logging ] - <a href="http://cxf.apache.org/docs/debugging-and-logging.html">http://cxf.apache.org/docs/debugging-and-logging.html</a></span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-black">&lt;cwilper&gt; I have no idea whether Jiri followed that or not. Myself, I ended up using the SLF4J-recommended way in my other project.  <a href="https://github.com/cwilper/fcrepo-cloudsync/blob/master/fcrepo-cloudsync-service/src/main/java/com/github/cwilper/fcrepo/cloudsync/service/CloudSyncContextListener.java#L74">https://github.com/cwilper/fcrepo-cloudsync/blob/master/fcrepo-cloudsync-service/src/main/java/com/github/cwilper/fcrepo/cloudsync/service/CloudSyncContextListener.java#L74</a></span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo-cloudsync/fcrepo-cloudsync-service/src/main/java/com/github/cwilper/fcrepo/cloudsync/service/CloudSyncContextListener.java at master · cwilper/fcrepo-cloudsync · GitHub ] - <a href="https://github.com/cwilper/fcrepo-cloudsync/blob/master/fcrepo-cloudsync-service/src/main/java/com/github/cwilper/fcrepo/cloudsync/service/CloudSyncContextListener.java#L74">https://github.com/cwilper/fcrepo-cloudsync/blob/master/fcrepo-cloudsync-service/src/main/java/com/github/cwilper/fcrepo/cloudsync/service/CloudSyncContextListener.java#L74</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-navy">* ed_ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: This is the stacktrace I'm trying to figure out from the logs: <a href="https://gist.github.com/2586427">https://gist.github.com/2586427</a></span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kompewter&gt; [ NPE Warning in CXF WS interface — Gist ] - <a href="https://gist.github.com/2586427">https://gist.github.com/2586427</a></span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;cwilper&gt; Well, here's where the NPE is thrown: <a href="http://grepcode.com/file/repo1.maven.org/maven2/org.apache.cxf/cxf-rt-frontend-jaxws/2.4.0/org/apache/cxf/jaxws/handler/soap/SOAPHandlerInterceptor.java#263">http://grepcode.com/file/repo1.maven.org/maven2/org.apache.cxf/cxf-rt-frontend-jaxws/2.4.0/org/apache/cxf/jaxws/handler/soap/SOAPHandlerInterceptor.java#263</a></span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;kompewter&gt; [ GrepCode: org.apache.cxf.jaxws.handler.soap.SOAPHandlerInterceptor (.java) - Class - Source Code View ] - <a href="http://grepcode.com/file/repo1.maven.org/maven2/org.apache.cxf/cxf-rt-frontend-jaxws/2.4.0/org/apache/cxf/jaxws/handler/soap/SOAPHandlerInterceptor.java#263">http://grepcode.com/file/repo1.maven.org/maven2/org.apache.cxf/cxf-rt-frontend-jaxws/2.4.0/org/apache/cxf/jaxws/handler/soap/SOAPHandlerInterceptor.java#263</a></span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;cwilper&gt; Looks like SoapMessage.getMessage is returning null? Dunno why. Perhaps PEP.doFilter or AuthFilterJAAS.doFilter isn't setting something..</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;barmintor&gt; or there's a NPE inside SOAPMessage.getMessage</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;barmintor&gt; it happens on apia and apim, so I don't think it's AuthFilterJAAS, and it happens on configs besides C, so I don't think it's PEP.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;barmintor&gt; Unless AuthFilterJAAS filters both api's</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-navy">* elschlomo (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-green">* dgijonathan (~jgreen@142.176.125.37) has joined #duraspace</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;barmintor&gt; ok, I have a notion</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;dgijonathan&gt; I'm looking to do some fedora benchmarking on some various different system configurations.</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;dgijonathan&gt; has anyone been doing this with 3.x?</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;dgijonathan&gt; anyone have some scripts as a starting place?</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;barmintor&gt; since cxf doesn't automatically follow ssl redirects, I changed Fedora client to use <a href="https://github.com/fcrepo/fcrepo/blob/fcrepo-795/fcrepo-client/fcrepo-client-admin/src/main/java/org/fcrepo/client/FedoraClient.java#L781">https://github.com/fcrepo/fcrepo/blob/fcrepo-795/fcrepo-client/fcrepo-client-admin/src/main/java/org/fcrepo/client/FedoraClient.java#L781</a> to figure out what the address for the endpoint should be. I think that's the source of the NPE warnings.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-client/fcrepo-client-admin/src/main/java/org/fcrepo/client/FedoraClient.java at fcrepo-795 · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/fcrepo-795/fcrepo-client/fcrepo-client-admin/src/main/java/org/fcrepo/client/FedoraClient.java#L781">https://github.com/fcrepo/fcrepo/blob/fcrepo-795/fcrepo-client/fcrepo-client-admin/src/main/java/org/fcrepo/client/FedoraClient.java#L781</a></span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;barmintor&gt; dgijonathan: some people have been doing benchmarking as part of the 3.6 development.  Dan_Davis might know more.</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;barmintor&gt; I need to go grab a sandwich, then I'll try to address the NPE thing</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;cwilper&gt; dgijonathan: some tests have been done for older releases...and that code might be reusable. Also, the intent is to do it with JMeter for the 3.6 release. We have not defined each necessary kind of test yet, but I think there's a general notion that we want to exercise concurrent writes as well as reads.</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;cwilper&gt; We have also talked about using an EC2 "Large" instance as a baseline. But importantly, having the tests be something other folks can take to their own environments.</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;cwilper&gt; I know Eddie put together a start jmeter script...let me see if I can dig up a link.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;cwilper&gt; jgijonathan: have a look at <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/resources/jmeter/Fedora%20Test%20Plan.jmx">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/resources/jmeter/Fedora%20Test%20Plan.jmx</a></span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/resources/jmeter/Fedora Test Plan.jmx at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/resources/jmeter/Fedora%20Test%20Plan.jmx">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/resources/jmeter/Fedora%20Test%20Plan.jmx</a></span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;dgijonathan&gt; thats great, appreciate the link</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;dgijonathan&gt; another thought along the same lines</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;cwilper&gt; Yep. It's a starting point...just seeing how we can use jmeter to talk to Fedora. We did a hands-on exercise on a committer call a while back. Both SOAP and REST should be possible through Jmeter.</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;dgijonathan&gt; what have peoples experience with fedora been in ec2? i assume the slower then local storage has some negative effect.</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;dgijonathan&gt; or maybe not</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;cwilper&gt; My own experience has been pretty good, but I really haven't exercised it to the level where storage performance would be a significant concern.</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;cwilper&gt; I put together an AMI a while back that did a separate EBS volume for Fedora's low level file storage, distinct from the EBS volume used for the postgresql database.</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;cwilper&gt; Btw what kinds of performance tests were you thinking about? It would be interesting to get your take.</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-navy">* dgijonathan (~jgreen@142.176.125.37) Quit (Quit: dgijonathan)</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-green">* dgijonathan (~jgreen@142.176.125.37) has joined #duraspace</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-navy">* dgijonathan (~jgreen@142.176.125.37) Quit (Client Quit)</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-green">* dgijonathan (~jgreen@142.176.125.37) has joined #duraspace</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-navy">* dgijonathan (~jgreen@142.176.125.37) Quit (Quit: dgijonathan)</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: what do you think about trying to get rid of the different API[X]StubFactory classes? They all do pretty much exactly the same thing.</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-green">* dgijonathan (~jgreen@142.176.125.37) has joined #duraspace</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;dgijonathan&gt; cwilper: we were thinking mostly about concurrent reads and writes.</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-green">* dgijonathan (~jgreen@142.176.125.37) has left #duraspace</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;cwilper&gt; barmintor: I'd support getting rid of them if there's a suitable replacement</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: I was thinking just reducing to one stub factory w/ generics</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-black">&lt;cwilper&gt; +1. Haven't looked at them in a while but one is better than multiple.</span><br />
+<span class="irc-date">[17:49]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has left #duraspace</span><br />
+<span class="irc-date">[18:25]</span> <span class="irc-black">&lt;barmintor&gt; huzzah, that was the source of the NPEs</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;cwilper&gt; what was?</span><br />
+<span class="irc-date">[18:48]</span> <span class="irc-green">* cwilper_ (ad55a88f@gateway/web/freenode/ip.173.85.168.143) has joined #duraspace</span><br />
+<span class="irc-date">[18:51]</span> <span class="irc-navy">* cwilper (ad55a88f@gateway/web/freenode/ip.173.85.168.143) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[18:51]</span> <span class="irc-black">&lt;barmintor&gt; cwilper_: the NPEs were from pinging fedora/services/managementMTOM to test whether SSL was required or not</span><br />
+<span class="irc-date">[18:53]</span> <span class="irc-brick">* cwilper_ briefly considers the past tense of ping.</span><br />
+<span class="irc-date">[18:53]</span> <span class="irc-black">&lt;barmintor&gt; pung? pang?</span><br />
+<span class="irc-date">[18:54]</span> <span class="irc-black">&lt;barmintor&gt; should I rename cxf.xml to jaxws-impl.xml? That's what it is.</span><br />
+<span class="irc-date">[18:55]</span> <span class="irc-black">&lt;cwilper_&gt; That's good you found the cause. Was it something that could be easily removed/replaces?</span><br />
+<span class="irc-date">[18:55]</span> <span class="irc-black">&lt;cwilper_&gt; +1</span><br />
+<span class="irc-date">[18:56]</span> <span class="irc-black">&lt;barmintor&gt; cwilper_: I changed it to test against fedora/wsdl (for apia) and to do a get against fedora/management/upload for apim</span><br />
+<span class="irc-date">[18:56]</span> <span class="irc-black">&lt;barmintor&gt; those are both lightweight requests that return a simple 200 or 302</span><br />
+<span class="irc-date">[18:56]</span> <span class="irc-black">&lt;cwilper_&gt; ok</span><br />
+<span class="irc-date">[18:57]</span> <span class="irc-black">&lt;barmintor&gt; I also commented the security filter config to indicate that they're used by the client that way</span><br />
+<span class="irc-date">[18:59]</span> <span class="irc-black">&lt;barmintor&gt; All right, I think I'm going to delete the old fesl-configs and do a final pre-merge test.</span><br />
+<span class="irc-date">[18:59]</span> <span class="irc-brick">* barmintor crosses his fingers</span><br />
+<span class="irc-date">[18:59]</span> <span class="irc-black">&lt;barmintor&gt; (it was a surprisingly big change to move the server bean up into the applicationContext)</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;barmintor&gt; deleting code is so satisfying.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-green">* scottatm (~scottatm@adhcp218.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;cwilper_&gt; code deletion++ ..headed out for the night.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* cwilper_ (ad55a88f@gateway/web/freenode/ip.173.85.168.143) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

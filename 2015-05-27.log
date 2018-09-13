@@ -1,0 +1,147 @@
+<span class="irc-date">[2:13]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-hdqeexcsrgctnzsd) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[2:32]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 256 seconds)</span><br />
+<span class="irc-date">[2:52]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[7:08]</span> <span class="irc-brown">-cameron.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[7:08]</span> <span class="irc-brown">-cameron.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[7:08]</span> <span class="irc-brown">-cameron.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[7:08]</span> <span class="irc-brown">-cameron.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[7:08]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[7:08]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[7:08]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:17]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[11:36]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[11:36]</span> <span class="irc-brown">-wolfe.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[11:36]</span> <span class="irc-brown">-wolfe.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[11:36]</span> <span class="irc-brown">-wolfe.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[11:36]</span> <span class="irc-brown">-wolfe.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; OH HAI duralogbot</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; sorry, didn't notice that duralogbot fell out of the channel. We can copy the first 15mins of logs into the notes page post-mtg</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; We were just talking though about a few larger OAI-PMH issues outstanding: DS-2542 and DS-2593, and whether they warrant a 5.3 release</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2542">https://jira.duraspace.org/browse/DS-2542</a> ] - [DS-2542] XOAI does not support non granular YYYY-MM-DD harvesting properly - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2593">https://jira.duraspace.org/browse/DS-2593</a> ] - [DS-2593] Withdrawn items remain in OAI-PMH until the next full re-import - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;aschweer&gt; I think 2542 causes problems for people harvested by primo</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;aschweer&gt; which may be quite a few? on the other hand, we haven't heard too many complaints</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;aschweer&gt; it'd be great if we could fix the Mirage 2 build process in time for a 5.3...</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; So, the balance here is whether we work towards a 5.3, or if we just "track these issues" as possibly of interest for a 5.3.  We obviously don't want to have "all hands on 5.3" though to the possible detriment of getting 6.0 work moving along</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; But, as you said, right now would be a good time to tackle outstanding PMH issues.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;hpottinger&gt; +1 proceed with 6 and backport bug fixes, cut 5.3 if someone feels strongly enough to volunteer for the job :-)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;aschweer&gt; sounds like a plan to me</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;aschweer&gt; and there was some talk of figuring out how to best support xoai, wasn't there?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; I agree, at this point, I lean towards "tracking" the OAI and Mirage2 issues...which means we still can move to fix them, but we won't do a 5.3 until either (1) one of these bugs is proven to be affecting a lot of folks, or (2) it becomes an "easy release" (i.e. we'll just backport these 3-4 changes to dspace-5_x and cut a new release)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, the question of XOAI is also on the table still.  We may need to consider either forking it, or "overlaying" it with custom fixes (similar to what we do with Cocoon, see: <a href="https://github.com/DSpace/dspace-cocoon-servlet-service-impl)">https://github.com/DSpace/dspace-cocoon-servlet-service-impl)</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; I haven't heard anything from Joao in some time. He does pop up every once in a while, but he hasn't responded to recent requests around XOAI</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;aschweer&gt; yeah, sounds like we may need to do something like that</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; I like the idea of an overlay similar to Cocoon</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; is DS-2542 sufficient for that work, or should there be an issue specific to the overlay project?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2542">https://jira.duraspace.org/browse/DS-2542</a> ] - [DS-2542] XOAI does not support non granular YYYY-MM-DD harvesting properly - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, at the very least, it does give us an option to apply fixes to XOAI that we are waiting on... But, once Joao pops up again, I'm also going to try to ask him more about XOAI's status, and whether it should be merged into DSpace</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; 2542 could be done via an "overlay" project, I believe</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;aschweer&gt; I think it'd be good to talk to Joao and figure out what the situation is</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer: yep, I agree. He's just unresponsive right now</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;peterdietz&gt; The XOAI seems to be an improvement over the previous oai server in DSpace. I quick search shows that Fedora Repo uses/used a Proai provider service.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;aschweer&gt; that was going to be my next question, is xoai actually used outside of DSpace? (I haven't tried finding out)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; Easy enough to fork it (in the Github sense) and feed back anything we actually fix ourselves.  IIRC the current situation is that there are fixes already written since the last release, which we would like to just use.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: sounds like Cocoon 2 ;-)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;peterdietz&gt; off topic. I've noticed that the Amazon Web Services SDK (i.e. what I use to talk to S3 bitstream storage) every time there is a code change, or merged pull request (even tiny readme changes). They automatically release a new version</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; Very much so, hpottinger.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: Proai isn't maintained any more. <a href="http://proai.sourceforge.net/">http://proai.sourceforge.net/</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ Proai 1.1.1 Documentation ] - <a href="http://proai.sourceforge.net/">http://proai.sourceforge.net/</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; gosh... all these libraries...</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; I'll email Joao again to see if I can get an update from him</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; peterdietz: does kompewter keep track of last seen info?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; So, the next topic today is DSpace 6.0, and starting to plan for that</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;aschweer&gt; cool. we aren't using the latest version of xoai, not sure whether switching to the most recent version (major version change) would help us</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; And starting 6.0 is the right time to roll dependencies forward.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; we're using the latest "stable" release of xoai, I thought?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;aschweer&gt; no we're using 3.2.7 and there now is 4.1.0</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;aschweer&gt; (I think)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="http://search.maven.org/#artifactdetails|com.lyncode|xoai|4.1.0|pom">http://search.maven.org/#artifactdetails|com.lyncode|xoai|4.1.0|pom</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ The Central Repository Search Engine ] - <a href="http://search.maven.org/#artifactdetails|com.lyncode|xoai|4.1.0|pom">http://search.maven.org/#artifactdetails|com.lyncode|xoai|4.1.0|pom</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; aha, yea, you are correct, aschweer: <a href="https://github.com/lyncode/xoai">https://github.com/lyncode/xoai</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ lyncode/xoai · GitHub ] - <a href="https://github.com/lyncode/xoai">https://github.com/lyncode/xoai</a></span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;aschweer&gt; master says &lt;xoai.version&gt;3.2.9&lt;/xoai.version&gt;</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://github.com/DSpace/DSpace/blob/master/dspace-oai/pom.xml#L19">https://github.com/DSpace/DSpace/blob/master/dspace-oai/pom.xml#L19</a></span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/pom.xml at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-oai/pom.xml#L19">https://github.com/DSpace/DSpace/blob/master/dspace-oai/pom.xml#L19</a></span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;aschweer&gt; yup that file, thanks hpottinger :)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; xoai-4.1.0 is tagged</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;hpottinger&gt; it's in Maven Central, too</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; Release 4.1.0 came on 01-Aug-2014.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;aschweer&gt; the xoai readme on github suggests major architecture changes between 3 and 4</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; huh, yea, and it looks like the 4.1 codebase is significantly different. Unsure whether it resolves issues we are seeing though (as the code looks so different, the class with the main issue doesn't even exist anymore)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; who wants to play?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; So maybe we need an Issue to move DSpace to XOAI 4.x if possible?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;peterdietz&gt; kompewter .seen joaomelo</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; is DS-2542 sufficient for that?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2542">https://jira.duraspace.org/browse/DS-2542</a> ] - [DS-2542] XOAI does not support non granular YYYY-MM-DD harvesting properly - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;peterdietz&gt; kompewter seen joaomelo</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;peterdietz&gt; anyways. searching the irclogs with google says, <a href="http://irclogs.duraspace.org/index.php?date=2013-10-09">http://irclogs.duraspace.org/index.php?date=2013-10-09</a> might have been the last time</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot ] - <a href="http://irclogs.duraspace.org/index.php?date=2013-10-09">http://irclogs.duraspace.org/index.php?date=2013-10-09</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yes, we should at least analyze what that move looks like (how complex, whether it solves our issues or just introduces new ones). Either way, we likely want to be on the latest XOAI anyhow at some point</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; who wants to update 2542 with a note about the version bump?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; erm, did I just lose my network and not notice?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; No.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;aschweer&gt; No I'm still here too</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;peterdietz&gt; It shows tim timed out.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;aschweer&gt; I've added a comment to 2542</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;peterdietz&gt; Not to change topic, but I've got a GA question, instead of jspui.google.analytics.key and xmlui.google.analytics.key, would it be better to use webui.google-analytics.key, or use the config for Robin's Google Analytics Statistics:  config/modules/google-analytics.cfg tracking.key</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; Latter, I would say.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;aschweer&gt; sorry folks, I need to head to work. bye all</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-navy">* aschweer (~andrea@112.78.69.111.dynamic.snap.net.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; So:  what now?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; 15 minutes of meeting time left, correct?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; greetings, tdonohue</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; peterdietz: if you're only using one key, it doesn't much matter what we call it, but tracking.key sounds fine</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Hi there. Yea, something odd just happened on my home network. Router hiccup it seems (had to restart it).</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; I see (from logs) no one volunteered for the XOAI 4.1.0 upgrade work. So, sounds like we should just create a ticket for that</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;peterdietz&gt; My 2c on OAI, is #1) See if Lyncode can release a fixed version, #2) See if someone wants to fork it to DSpace or DSpace-Labs and cut a release, #3) Think about future of OAI (are there Java OAI projects with an active community).. The numbers are the order I would approach it</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; aschweer added a note to Ds-2542 re: XOAI upgrade.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; it's possible there already *is* a fixed release</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; But I do think that that is probably an issue of its own.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; 3.2.9 is the latest 3.x.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: yea, with #1, I think the question is whether the 4.1.0 will fix these problems for us (uncertain), rather than using the 3.x branch of XOAI. But, yea, those are some of the longer term options for XOAI</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; RE: #3 OAI-PMH is still used very heavily, especially in Europe. So, DSpace needs OAI-PMH, just a matter of what we use</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I'll create an XOAI 4.1.0 ticket</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; On to other 6.0 topics.  I'm curious if anyone is interested in helping do some of the code cleanup tasks?  Namely DS-2187 or DS-2188?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2187">https://jira.duraspace.org/browse/DS-2187</a> ] - [DS-2187] Remove deprecated Lucene search index support - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2188">https://jira.duraspace.org/browse/DS-2188</a> ] - [DS-2188] Remove deprecated DBMS browse support - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; I ought to address my own backlog before taking on much more, but I do want to see those done and may be able to help.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; I think we *have* to do these both in 6.0.  The sooner the better, obviously. But, I'm not sure I'm comfortable letting those languish for another release (as it's really holding back this area of our codebase)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; deleting stuff? sign me up :-)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not sure what my time will look like post-OR15 (with the other RoadMap work I'll be trying to help with), but I'll also try to help out as much as I can (even if just for testing/verification)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; So, honestly, whoever can find time to grab one of these, please do so. It is really about just removing all the stuff (including extraneous configs, etc)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; Any other 6.0 (or other topics) folks want to throw in here in the last minutes?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-brick">* tdonohue will mention the Technical RoadMap is getting to a "final draft" state. We'll be talking more about that at OR15, but feedback welcome: <a href="https://wiki.duraspace.org/display/DSPACE/RoadMap">https://wiki.duraspace.org/display/DSPACE/RoadMap</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Does anybody know why DSpaceKernelImpl should not be just started when it is instantiated?  It says not to, but not why.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; no idea, to be honest. Could be worth playing around with, if only to enhance it's docs/comments as to "why"</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; (cause you never know, the "why" reason may or may not exist any longer in the codebase, or may be possible to now refactor out)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; I'm still tinkering with slimming down Services by removing support for multiple concurrent kernels and ServiceManagers.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Then maybe I can understand it without taking half an hour to refresh my memory every time I write or hack on a service.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; OK, thought I'd ask.  Thanks.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; no problem.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; I just created an XOAI 4.x ticket: DS-2595</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2595">https://jira.duraspace.org/browse/DS-2595</a> ] - [DS-2595] Upgrade DSpace to use XOAI 4.x - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, well, I have no other topics for today. I'd just encourage everyone to add to the "ideas/wish list" for 6.0, especially anything you feel you could contribute! <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 6.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; Also, we are looking for a few interested 6.0 Release Team members! Please get in touch</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; peterdietz just added something interesting to that 6.0 list</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; With that though, I'm going to close out today's meeting. I'll still be around for a bit though, as needed</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Thanks.  Must go.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;peterdietz&gt; I'll make a youtube video of how the S3 storage works. It kind of just-works. I've got to dig into the checksum portion..</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, the pluggable bitstore stuff is interesting, and I'm sure S3 support will be too.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160110.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[22:44]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[23:00]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />

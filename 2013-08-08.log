@@ -1,0 +1,55 @@
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-pratchett.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-pratchett.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-pratchett.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-pratchett.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:19]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-green">* PeterDietz (~peterdiet@dhcp-164-107-110-35.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-green">* edInCo (~edInCo@c-174-51-171-25.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-green">* eddies (~eddies@cm209.epsilon173.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-navy">* eddies (~eddies@cm209.epsilon173.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-green">* barmintor (~barmintor@nat-tvwna-outside-visitornet2-c-68.princeton.org) has joined #duraspace</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;barmintor&gt; awoods: testing on Java 7 vs Java 6- How much of a commitment do we have to J6 now?</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-green">* edInCo1 (~edInCo@c-174-51-171-25.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-navy">* edInCo (~edInCo@c-174-51-171-25.hsd1.co.comcast.net) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;pdurbin&gt; can anyone confirm that the SWORDv2 implementation at <a href="http://demo.dspace.org">http://demo.dspace.org</a> is running the code at <a href="https://github.com/DSpace/DSpace/tree/dspace-3.1/dspace-swordv2/src/main/java/org/dspace/sword2">https://github.com/DSpace/DSpace/tree/dspace-3.1/dspace-swordv2/src/main/java/org/dspace/sword2</a> ?</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 3.1 Demonstration Repository ] - <a href="http://demo.dspace.org">http://demo.dspace.org</a></span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-swordv2/src/main/java/org/dspace/sword2 at dspace-3.1 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/tree/dspace-3.1/dspace-swordv2/src/main/java/org/dspace/sword2">https://github.com/DSpace/DSpace/tree/dspace-3.1/dspace-swordv2/src/main/java/org/dspace/sword2</a></span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;awoods&gt; barmintor: Fedora4 depends on java7...</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;barmintor&gt; awoods: sorry, meant for FCR 3.last</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;awoods&gt; barmintor: I suspect we will want to continue java6 support for Fedora3.7</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;awoods&gt; barmintor: Are there conflicts, library issues? or are you just wondering about the scope of testing?</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;barmintor&gt; awoods: the latter</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;barmintor&gt; though I'm assuming the distributed binaries will be built on J7</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;awoods&gt; barmintor: My guess is that requiring an upgrade to java7 may not be reasonable.</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;awoods&gt; barmintor: Does it make sense to have two release binary sets (j6 and j7) or to fall back on the least common denominator (j6)?</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;barmintor&gt; in MVN? can we do that?</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;barmintor&gt; or for distro on the duraspace site?</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;awoods&gt; barmintor: in mvn we can set the target version</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;awoods&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/pom.xml#L912">https://github.com/fcrepo/fcrepo/blob/master/pom.xml#L912</a></span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/pom.xml at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/pom.xml#L912">https://github.com/fcrepo/fcrepo/blob/master/pom.xml#L912</a></span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;awoods&gt; <a href="https://github.com/fcrepo/fcrepo/commit/5e712ffe7f3a984b1d591d3ffb6384ba852d7b13">https://github.com/fcrepo/fcrepo/commit/5e712ffe7f3a984b1d591d3ffb6384ba852d7b13</a></span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;kompewter&gt; [ Compile for Java 7 · 5e712ff · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/commit/5e712ffe7f3a984b1d591d3ffb6384ba852d7b13">https://github.com/fcrepo/fcrepo/commit/5e712ffe7f3a984b1d591d3ffb6384ba852d7b13</a></span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;awoods&gt; barmintor: Looks like eddies pumped the version Feb 25, 2013</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;barmintor&gt; yeah, I'm in favor of that- but we should try to build against JDK6, and host a prebuilt installer for JDK6 on the distro site I'm thinking</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;awoods&gt; barmintor: sounds good</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-navy">* edInCo1 (~edInCo@c-174-51-171-25.hsd1.co.comcast.net) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;tdonohue&gt; pdurbin: yes, <a href="http://demo.dspace.org">http://demo.dspace.org</a> is running the SWORDv2 code from DSpace 3.1 right now.</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 3.1 Demonstration Repository ] - <a href="http://demo.dspace.org">http://demo.dspace.org</a></span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-green">* edInCo (~edInCo@seta.coalliance.org) has joined #duraspace</span><br />
+<span class="irc-date">[18:44]</span> <span class="irc-black">&lt;pdurbin&gt; tdonohue: very good. thanks</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-navy">* pdurbin (~pdurbin@server1.greptilian.com) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[19:20]</span> <span class="irc-navy">* edInCo (~edInCo@seta.coalliance.org) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-navy">* barmintor (~barmintor@nat-tvwna-outside-visitornet2-c-68.princeton.org) Quit (Quit: barmintor)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-green">* pdurbin (~pdurbin@server1.greptilian.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dhcp-164-107-110-35.osuwireless.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-green">* PeterDietz (~peterdiet@dhcp-164-107-110-35.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dhcp-164-107-110-35.osuwireless.ohio-state.edu) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has left #duraspace</span><br />

@@ -1,0 +1,244 @@
+<span class="irc-date">[3:07]</span> <span class="irc-navy">* mdiggory (~mdiggory@72.199.216.7) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[5:02]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[5:10]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-kornbluth.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:35]</span> <span class="irc-green">* cwilper (ad55a88f@gateway/web/freenode/ip.173.85.168.143) has joined #duraspace</span><br />
+<span class="irc-date">[12:56]</span> <span class="irc-green">* ajs6f (89369ba5@gateway/web/freenode/ip.137.54.155.165) has joined #duraspace</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-green">* elschlomo (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-green">* barmintor (~barmintor@cpe-72-229-190-215.nyc.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-green">* tecoripa (~sprater@saez.doit.wisc.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;elschlomo&gt; thanks ben! i still have problems associating voices with names correctly ;)</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-black">&lt;barmintor&gt; FCREPO Committers meeting starting with discussion of managed projects</span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-green">* tecoripa (~sprater@saez.doit.wisc.edu) has left #duraspace</span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-black">&lt;barmintor&gt; Problem: Coordinating limited resources for more ambitious, bigger projects</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-black">&lt;barmintor&gt; How do we "sell" a vision of these projects to management at installation sites to garner development resources</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-green">* tecoripa (~sprater@128.104.62.84) has joined #duraspace</span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-black">&lt;barmintor&gt; Google Summer of Code? Kickstarter?</span><br />
+<span class="irc-date">[13:10]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan proposes managed projects: Larger projects guided by a specific institutional partner</span><br />
+<span class="irc-date">[13:11]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Managed OSS projects come with risks, but also potential</span><br />
+<span class="irc-date">[13:12]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: is most familiar with managed projects in which interested institutions collaborate on a scope of work, either with monetary or in-kind contributions</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-black">&lt;barmintor&gt; Risks: 1. Out-of-control scope; 2. Too much removal from regular developer community -&gt; poor integration</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Must have a process that includes the committer team in evaluating and tracking the work and its progress</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: There are probably good opportunities for Fedora managed projects, but who would initiate?</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Need participation from commuter groups and steering group over the life of the project</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;barmintor&gt; s/commuter/committer/</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;kompewter&gt; barmintor meant to say: Jonathan: Need participation from committer groups and steering group over the life of the project</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-green">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-navy">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Such projects have been led by Duraspace, by partner institutions, and by invested vendors</span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Defining scope is key- must be manageable, and not overly ambitious</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-black">&lt;barmintor&gt; Ben: Consider FESL. Is that what we're trying to do? How did that go?</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-black">&lt;barmintor&gt; Chris: That project was too removed from the regular developers, but under much pressure to deliver *something*</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;barmintor&gt; Chris: probably needed more ongoing committer review</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-black">&lt;barmintor&gt; Scott: Recently had an experience as a consultant on another project in similar circumstances</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-black">&lt;barmintor&gt; Scott: Looking back on that experience, risk of not integrating with regular developers is great</span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-black">&lt;barmintor&gt; Scott: That said, distance is not necessarily bad. Coders typically have varying levels of commitment, anyway (GSoC)</span><br />
+<span class="irc-date">[13:22]</span> <span class="irc-black">&lt;barmintor&gt; Scott: Projects can probably be successful if there is a committer that cant review along with institutional mgmt and the actual developers</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Would like managed projects to be somewhat larger in scope</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Idea is to direct more substantial resources towards projects that might otherwise be unachievable</span><br />
+<span class="irc-date">[13:25]</span> <span class="irc-black">&lt;barmintor&gt; Chris: 1. Projects must be scoped, but 2. big projects need to be done</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;barmintor&gt; Chris: For example, "Do 4.0" is too broad in scope for a managed project, but maybe single feature/suites from the 4.0 bucket might be</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;barmintor&gt; Adam: On the other hand, Fedora 2.0 *was* done under such a rubric</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-black">&lt;barmintor&gt; Adam: Appropriate scope is tied to the managerial resources</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-black">&lt;barmintor&gt; Adam: Not clear on where the ideas are generated. From community through magic? From institutions who vote with resources?</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;ajs6f&gt; s/magic/wizardry</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;barmintor&gt; Chris: Committers have some sense of needs from being closer to code/lists/etc. but should go to large stakeholders and solicit guidance</span><br />
+<span class="irc-date">[13:29]</span> <span class="irc-black">&lt;barmintor&gt; Scott: On Evergreen project, institutions would submit written proposals to be vetted by committers, at which point resource support was arranged</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-black">&lt;barmintor&gt; Chris: There needs to be that kind of buy-in</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-black">&lt;barmintor&gt; Adam: and the efforts needs to be visible to the community</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Is there a fairly well-understood list of requested features/needs?</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-black">&lt;barmintor&gt; Adam: Would actually need some time to convert sense of needs to actual technical requirements</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-black">&lt;barmintor&gt; Adam: Sometimes we need to communicate the underlying requirements of frequently-requested features</span><br />
+<span class="irc-date">[13:32]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: Do we have a sense of the kind of resources we're discussing?</span><br />
+<span class="irc-date">[13:32]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: Fedora 2 was 4+ FTE effort- do we imagine that level of investment?</span><br />
+<span class="irc-date">[13:32]</span> <span class="irc-black">&lt;tecoripa&gt; sample proposal:  <a href="http://evergreen-ils.org/dokuwiki/doku.php?id=dev:proposal:patron_statistical_categories">http://evergreen-ils.org/dokuwiki/doku.php?id=dev:proposal:patron_statistical_categories</a> -- scope, requirements, etc.  (this was a document that evolved, BTW)</span><br />
+<span class="irc-date">[13:32]</span> <span class="irc-black">&lt;kompewter&gt; [ dev:proposal:patron_statistical_categories [Evergreen DokuWiki] ] - <a href="http://evergreen-ils.org/dokuwiki/doku.php?id=dev:proposal:patron_statistical_categories">http://evergreen-ils.org/dokuwiki/doku.php?id=dev:proposal:patron_statistical_categories</a></span><br />
+<span class="irc-date">[13:33]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: FESL was ~$20k in funding, but resulted in dispersed accountability that made project difficult to define/pursue</span><br />
+<span class="irc-date">[13:34]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Projects should be proposed with more than one possible scope, and see where is sufficient interest to form steering groups, establish funding, etc.</span><br />
+<span class="irc-date">[13:35]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Vette ideas, do initial scoping, estimate resources, then shop proposals for funding to partners</span><br />
+<span class="irc-date">[13:35]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Management must be effective enough to make sure sufficient resources are assembled for the effort</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: That makes sense, and I think managed projects are a great idea, but I'm concerned about practicable scopes</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: and what the structure is for soliciting resources</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: You could try to pursue grant monies, but the circumstances would have to be appropriate (i.e., a related project that needs features from Fedora)</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;barmintor&gt; Scott: Who would be doing the work of turning an idea in the community into a shop-able proposal</span><br />
+<span class="irc-date">[13:39]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: thinks the committer group is in the best position to create a scope-of-work, but Duraspace or a lead institution could shop the proposal around</span><br />
+<span class="irc-date">[13:40]</span> <span class="irc-black">&lt;barmintor&gt; Adam: In addition to scope difference (Fedora 2 vs. FESL), there was also a difference in unity of vision (FESL had "many cooks")</span><br />
+<span class="irc-date">[13:41]</span> <span class="irc-black">&lt;barmintor&gt; Adam: Can avoid problem perhaps by giving some weight to consortial user's needs (Islandora, Hydra, APT Trust, etc.)</span><br />
+<span class="irc-date">[13:41]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: imagines something like this evolving by starting with a scoped piece of work in which committers are confident of success</span><br />
+<span class="irc-date">[13:42]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: then finding a community member interested in seeing proposal enacted</span><br />
+<span class="irc-date">[13:42]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Those institutions would begin project team and fund-raising</span><br />
+<span class="irc-date">[13:43]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: stakeholders on steering committee would shape work, and committers should be involved, probably also Duraspace, and the project manager</span><br />
+<span class="irc-date">[13:43]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Whatever methods are used, vital to establish management for the project</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Must be a way to mediate development resources by committers and invested institutions</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: We might approach Sakai and JA-SIG for experience in this arena</span><br />
+<span class="irc-date">[13:45]</span> <span class="irc-black">&lt;barmintor&gt; Adam: If this is to go forward, committer calls may not be most appropriate forum for creating/discussing proposals</span><br />
+<span class="irc-date">[13:45]</span> <span class="irc-black">&lt;barmintor&gt; Adam: If this is to go forward, we should be more aggressive in soliciting community involvement in the proposal-creation venue</span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-black">&lt;barmintor&gt; Scott: We would also need to solicit ideas from the users list</span><br />
+<span class="irc-date">[13:49]</span> <span class="irc-black">&lt;barmintor&gt; Ben: If we can't always have resources for doing projects, will we have resources for oversight/integration?</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-black">&lt;barmintor&gt; Adam: It has been difficult to get time already, even for integrating GSoC proejects</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-black">&lt;barmintor&gt; s/oe/o/</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-black">&lt;kompewter&gt; barmintor meant to say: Adam: It has been difficult to get time already, even for integrating GSoC projects</span><br />
+<span class="irc-date">[13:51]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Having seen some dysfunctional efforts in this vein, it is important to learn from mistakes, identify what necessary elements are to succeed in early planning</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: perhaps should begin fairly small, to develop sense of necessary support resources</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;barmintor&gt; Adam: There is some value in the proposal-generation process regardless, and that should go forward</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;barmintor&gt; Chris: Before setting up a big project-handling infrastructure, we should do some "pathfinding" with (smaller?) project or two to get a sense of what works.</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-black">&lt;barmintor&gt; Chris: We might just begin with ideas (from the 4.0 bucket?) to shape into proposals</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-black">&lt;barmintor&gt; Chris: Maybe begin with a project or two, without aiming to already have in place the ultimate structure for *all* projects</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-black">&lt;barmintor&gt; Chris: We could use some upcoming commuter call time to work some of this out</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-black">&lt;barmintor&gt; Adam: It would be silly for us not to coordinate in advance!</span><br />
+<span class="irc-date">[13:56]</span> <span class="irc-black">&lt;barmintor&gt; Chris: We need to provide a vision that partners will be attracted to</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;barmintor&gt; Chris: It would be hard to go to community only with a broad solicitation</span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-black">&lt;barmintor&gt; Ben: But it would be easy to get specific ideas from, e.g., Hydra Steering, APT Trust, Discovery Garden, etc.</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: Also, we should use an effort like this to figure out where community might be grown if certain shortcomings were addressed</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-black">&lt;barmintor&gt; Adam: For such outside groups, either committers or Duraspace likely have to speak up</span><br />
+<span class="irc-date">[14:01]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: DGI might be interested, perhaps Mediashelf, in engaging with potential clients for gap identification</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: Agrees with suggestion that it would be valuable to start with a smaller project, and try to build off achievable "wins"</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: Thinks that DGI and MS probably can get a sense of barriers to adoption</span><br />
+<span class="irc-date">[14:03]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: Managed projects need to be continuing, and pool of projects/resources must support that</span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-black">&lt;barmintor&gt; Jonathan: Try to compile different lists of interested non-adopters, adopters struggling with current architecture, and identify some low-hanging fruit</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-black">&lt;barmintor&gt; Adam: Where can we generate, compile, organize these ideas?</span><br />
+<span class="irc-date">[14:06]</span> <span class="irc-black">&lt;barmintor&gt; Eddie: Let us not have another call.</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;barmintor&gt; Adam: Wants to ensure this is understood as an open process, and not a way for committers to ask for money</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;eddies&gt; big thanks to ben for the furious note-taking =)</span><br />
+<span class="irc-date">[14:08]</span> <span class="irc-brick">* barmintor blushes</span><br />
+<span class="irc-date">[14:10]</span> <span class="irc-green">* tecoripa (~sprater@128.104.62.84) has left #duraspace</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-navy">* elschlomo (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-black">&lt;barmintor&gt; Talk to you folks next week!</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-navy">* barmintor (~barmintor@cpe-72-229-190-215.nyc.res.rr.com) Quit (Quit: barmintor)</span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-brick">* cwilper starts office hours: <a href="https://wiki.duraspace.org/display/~cwilper/Fedora+Office+Hours">https://wiki.duraspace.org/display/~cwilper/Fedora+Office+Hours</a></span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-green">* elschlomo (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;elschlomo&gt; Chris as you were offering help on IRC i was wondering if you can tell me how to run integration tests only..i tried doing "mvn integration-test" in ./fcrepo/fcrepo-integration fcrepo/fcrepo-integrationtest/fcrepo-integrationtest-configB</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;elschlomo&gt; is this the right way to do it? becaus ei can see a tomcat spinning up but it seems not to react to any request and ingesting the demo objects takes ages...</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;elschlomo&gt; according to JConsole theres not much done in the process</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;elschlomo&gt; main thread seems to be hangin at Socket.accept as if no requests are send to him</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;cwilper&gt; Hmm, I usually do all tests from root via "mvn clean install". But that does take forever. I'm pretty sure Aaron set it up to allow individual tests to be run...let me see...</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;elschlomo&gt; thanks</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;cwilper&gt; Ok, if the README is to be believed (heh), you should be able to specify -Dconfig=B when doing a mvn verify/install/deploy in order to run only a single suite at a time. If that's what you want, try from root, "mvn install -Dconfig=B"</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;elschlomo&gt; argg my bad i had another tomcat process leftover from a failed run...</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;elschlomo&gt; ok ill try that</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;cwilper&gt; In addition, you can do -Dit.test=full.package.and.class.Name to run a specific class</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;elschlomo&gt; but it seems the test are running fine now..</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;elschlomo&gt; so doing a mvn integration-test from the corresponding folder might actually work ;)</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;cwilper&gt; ahh ok. I usually don't experiment much with how to run the tests because it's a huge time investment just to run them.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;elschlomo&gt; yepp and it kind of sucks that the integration tests for trippi are in the fcrepo project so you have to update the dependencies...</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;elschlomo&gt; well they alwys tell me branching is easy with git</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;cwilper&gt; not sure which trippi integration tests you're referring to. The only ones I know of are are in the trippi project.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;elschlomo&gt; ahhh this is prefect -Dit.test=....</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-navy">* ajs6f (89369ba5@gateway/web/freenode/ip.137.54.155.165) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;elschlomo&gt; can oyu tell me hat the difference between the packages org.fcrepo.trippi and org.trippi is? the trippi prject i checked out is org.trippi.trippi-core bur fedora uses org.fcrepo.trippi.trippi-core...</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;elschlomo&gt; just a difference of name?</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;cwilper&gt; hmm...oh, org.fcrepo.trippi might be a groupId</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;cwilper&gt; no, the groupId is org.trippi. So I'm wondering where you're seeing org.fcrepo.trippi?</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;cwilper&gt; The trippi *project* is at github.com/fcrepo/trippi, but that doesn't have an effect on its groupId or package name.</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;elschlomo&gt; right but in fcrepo-server the dependency in the pom is:</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;elschlomo&gt;     &lt;dependency&gt;</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;elschlomo&gt;       &lt;groupId&gt;org.fcrepo&lt;/groupId&gt;</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;elschlomo&gt;       &lt;artifactId&gt;trippi-core&lt;/artifactId&gt;</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;elschlomo&gt;     &lt;/dependency&gt;</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;elschlomo&gt; sry was talking about packages but of course i mean grouIDs</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;elschlomo&gt; and in trippi it's :</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;elschlomo&gt;   &lt;groupId&gt;org.trippi&lt;/groupId&gt;</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;elschlomo&gt;   &lt;artifactId&gt;trippi&lt;/artifactId&gt;</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;elschlomo&gt;   &lt;version&gt;1.5.7-SNAPSHOT&lt;/version&gt;</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;elschlomo&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/pom.xml">https://github.com/fcrepo/fcrepo/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/pom.xml at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/pom.xml">https://github.com/fcrepo/fcrepo/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;cwilper&gt; Ok, yeah, that's confusing. Here's the story.</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;elschlomo&gt; <a href="https://github.com/fcrepo/trippi/blob/master/pom.xml">https://github.com/fcrepo/trippi/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;kompewter&gt; [ trippi/pom.xml at master · fcrepo/trippi · GitHub ] - <a href="https://github.com/fcrepo/trippi/blob/master/pom.xml">https://github.com/fcrepo/trippi/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;cwilper&gt; Back before fedora was mavenized, we decided we needed to put many of our third-party dependencies within the "org.fcrepo" groupId. So you'll see mulgara is also like that.</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;elschlomo&gt; ok so i can just do a mvn install -DGroupId=org.fcrepo ....?</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;cwilper&gt; Basically anything we couldn't find in other maven repos, we uploaded to the duraspace m2 repo and put it under the org.fcrepo groupId as a way to say "we are responsible for this third-party dependency"</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;cwilper&gt; But where we *need* to go ultimately is to have all those dependencies in central, with their proper groupIds, not using org.fcrepo, but, for example, using a groupId that more accurately reflects the real package name. For example, org.trippi, org.mulgara, etc.</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;cwilper&gt; I'm not sure what you're trying to do. Usually you don't have to do a "mvn install -DgroupId=..." unless maven can't find a dependency *anywhere*. But the trippi libs should be available in the duraspace m2 repo.</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;elschlomo&gt; ah yes but im working on fcrepo-1023 which includes an update to Trippi's SparqlTupleWriter, and for running an integration test versus my snapshot i have to change fcrepo's dependencies for including the new trippi version i built.</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;elschlomo&gt; so im installing the trippi jar i built using mvn install:install-file with another groupId</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;elschlomo&gt; so the fcrepo integration tests use the updated version from my local repository</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;cwilper&gt; ok, that makes sense. Yes, you'd need to install locally that way in order to test your new version. Then when the time comes (after tests are passing), we'd need to publish your new jar to the duraspace m2 repo alongside the other trippi versions: <a href="https://m2.duraspace.org/content/repositories/releases/org/fcrepo/trippi-core/">https://m2.duraspace.org/content/repositories/releases/org/fcrepo/trippi-core/</a></span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;kompewter&gt; [ Index of /content/repositories/releases/org/fcrepo/trippi-core/ ] - <a href="https://m2.duraspace.org/content/repositories/releases/org/fcrepo/trippi-core/">https://m2.duraspace.org/content/repositories/releases/org/fcrepo/trippi-core/</a></span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;cwilper&gt; This would be a lot easier if the trippi project artifacts were hosted at sonatype, with the correct groupId (org.trippi).</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;cwilper&gt; Then we could even set up Bamboo to auto-deploy snapshot builds to the sonatype snapshot repo, as has been done with a few other projects.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;elschlomo&gt; indeed and the process to have a jar available on central is very easy, i did this with 3 emails...</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;elschlomo&gt; hmm this would be nice...</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;cwilper&gt; So all you'd need to do is commit (and push) trippi changes, and update the fedora pom to point to the -SNAPSHOT version.</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;elschlomo&gt; having an "official" build history for all the commits on master...</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;elschlomo&gt; so a bamboo built would also be triggered by a commit to github?</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;cwilper&gt; yes. and that bamboo build could do a normal set of tests, but could also send the snapshot jar to the sonatype snapshot repo if all tests passed.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;elschlomo&gt; it certainly beats installing dependencies locally by hand ;)</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;cwilper&gt; wait just a minute. Eddie already started this process for trippi!</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;cwilper&gt; I had forgotten. See <a href="http://search.maven.org/#search%7Cga%7C1%7Ctrippi">http://search.maven.org/#search%7Cga%7C1%7Ctrippi</a></span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;kompewter&gt; [ The Central Repository Search Engine ] - <a href="http://search.maven.org/#search%7Cga%7C1%7Ctrippi">http://search.maven.org/#search%7Cga%7C1%7Ctrippi</a></span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;elschlomo&gt; but the auto build on commit and SNAPSHOT publishing isnt done yet, right?</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;cwilper&gt; But Fedora's pom doesn't point to that version of trippi, for one. And yes, the auto build and snapshot deployment isn't done.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;cwilper&gt; Also, the version declared in trippi's current root pom, 1.5.6-SNAPSHOT is clearly wrong if 1.5.6 has already been published to central. So first things first, trippi's root pom version needs to be changed to 1.5.7-SNAPSHOT</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;elschlomo&gt; heh didn't even notice that ;)</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;elschlomo&gt; hmm but my root pom has 1.5.7-SNAPSHOT....</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;elschlomo&gt; as do all the children</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;cwilper&gt; hmmm...did you make that change on your branch then? 'cause I just did a pull from master and it still says 1.5.6-SNAPSHOT</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;elschlomo&gt; hmm i cant rememeber doing this, but i tend to forget things ;)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;elschlomo&gt; <a href="https://github.com/fcrepo/trippi/blob/master/pom.xml">https://github.com/fcrepo/trippi/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;kompewter&gt; [ trippi/pom.xml at master · fcrepo/trippi · GitHub ] - <a href="https://github.com/fcrepo/trippi/blob/master/pom.xml">https://github.com/fcrepo/trippi/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;elschlomo&gt; this says 1.5.7-SNAPSHOT...</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;cwilper&gt; Just saw that. Somehow my local repo isn't updating. Time to blow it away and start fresh.</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;elschlomo&gt; fetch instead of pull?</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;elschlomo&gt; i always do this, and wonder were my changes are, rewrite them , and when commiting it merges them automatically with the same changes ive done before ;)</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;elschlomo&gt; just happenend my with fcrepo 1023 again...</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;cwilper&gt; i guess i thought a pull would get everything from upstream. confusing that it didn't. maybe fetch would, but starting fresh works too :)</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;elschlomo&gt; hmm might actually make an alias mor git fetch ;)</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;elschlomo&gt; yes pull is the good one ;)</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;elschlomo&gt; fecth just updates the local repo but no checkout</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;cwilper&gt; ok, so eddie has already updated trippi's pom so it's set up to deploy to sonatype. Fun fact: if either of us had permission on the org.trippi groupId at sonatype, we could just run a "mvn deploy" and I think that would deploy the snapshot.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;elschlomo&gt; nice gonna have to ask him next week about this...</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;cwilper&gt; So there are two more things that need to be done before this can all be automated: 1) We need permission at sonatype, and 2) We need to make sure Fedora's pom is pointing to the new trippi...the one at central, 1.5.6, to verify that the central copy is in good working order.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;cwilper&gt; Let me see if I can find the sonatype ticket for org.trippi...that's how you request permission.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;elschlomo&gt; yes and im guessing it's possible to have different permissions for SNAPSHOTS and relseases, so some level of security about the implementation can be provided</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;elschlomo&gt; btw have you ever had duplicate class errors when doing a "mvn install" in the root dir of fedora?</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;cwilper&gt; Usually they just give you permission for both.</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;elschlomo&gt; im getting these Compilation failures now:</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;elschlomo&gt; duplicate class: org.fcrepo.client.APIAStubWrapper</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;elschlomo&gt; think this has something to do with generated classes, but i have no expertise there, i tend to write my own stuff..</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;elschlomo&gt; it happens during the build of the admin-client</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;cwilper&gt; Duplicate class errors...hmm. Not that I can recall. You may have to manually delete a source directory...this is related to something Ben did recently.</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;elschlomo&gt; ah ok, so just delete generated-sources in the admin client?</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;elschlomo&gt; or is it the dir stubwrappers? sounds suspicous</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;cwilper&gt; yes, any directory in there that says "generated"...i can't remember the exact name(s). Stuff under target/ would be removed automatically via clean, but there was an outlier.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;cwilper&gt; stubwrappers, yep, that's it!</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;elschlomo&gt; thanks!</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;cwilper&gt; eddies: can you request to add cwilper as an authorized releaser to the sonatype ticket for org.trippi?</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;eddies&gt; cwilper: remind me what i need to do for that? =(</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;eddies&gt; s/=(/=)</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;kompewter&gt; Got an error.</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;eddies&gt; s/=\(/=\)</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;kompewter&gt; eddies meant to say: cwilper: remind me what i need to do for that? =\\)</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;eddies&gt; heh</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;cwilper&gt; lol, poor kompewter</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;cwilper&gt; Just add a comment to <a href="https://issues.sonatype.org/browse/OSSRH-2943">https://issues.sonatype.org/browse/OSSRH-2943</a></span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;kompewter&gt; [ [#OSSRH-2943] Trippi Triplestore API - Sonatype JIRA ] - <a href="https://issues.sonatype.org/browse/OSSRH-2943">https://issues.sonatype.org/browse/OSSRH-2943</a></span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;tdonohue&gt; you broke kompewter! ;)</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;elschlomo&gt; oh and another question in SparqlTupleWriter at line 55 there's a null check which rites bound=false to a SPARQL response. I didn't find anything about null nodes in the SPAQRL result format spec, do you have a tip on how to handle those null nodes?</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;elschlomo&gt; <a href="https://github.com/fcrepo/trippi/blob/master/trippi-core/src/main/java/org/trippi/io/SparqlTupleWriter.java">https://github.com/fcrepo/trippi/blob/master/trippi-core/src/main/java/org/trippi/io/SparqlTupleWriter.java</a></span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;kompewter&gt; [ trippi/trippi-core/src/main/java/org/trippi/io/SparqlTupleWriter.java at master · fcrepo/trippi · GitHub ] - <a href="https://github.com/fcrepo/trippi/blob/master/trippi-core/src/main/java/org/trippi/io/SparqlTupleWriter.java">https://github.com/fcrepo/trippi/blob/master/trippi-core/src/main/java/org/trippi/io/SparqlTupleWriter.java</a></span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;cwilper&gt; Also, frank, if you don't already have a sonatype account, you can sign up via <a href="https://issues.sonatype.org/secure/Signup!default.jspa">https://issues.sonatype.org/secure/Signup!default.jspa</a></span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;kompewter&gt; [ Sign up for JIRA - Sonatype JIRA ] - <a href="https://issues.sonatype.org/secure/Signup!default.jspa">https://issues.sonatype.org/secure/Signup!default.jspa</a></span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;elschlomo&gt; i should have one, if onyl i can remember ;)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;cwilper&gt; (will be on a call for a bit...my typing's going to slow down)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;eddies&gt; cwilper: comment added</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;elschlomo&gt; k</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;cwilper&gt; eddies: thanks</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;elschlomo&gt; ah yes im "smeg4brains" @ sonatype</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;elschlomo&gt; hah nice got it running and my integration test fails as expected....</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;elschlomo&gt; ok im off for today, can already smell the barbecue, thanks for the help, and have fun!</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-navy">* elschlomo (~ruckus@HSI-KBW-046-005-164-187.hsi8.kabel-badenwuerttemberg.de) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-navy">* cwilper (ad55a88f@gateway/web/freenode/ip.173.85.168.143) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-green">* ajs6f (89369ba5@gateway/web/freenode/ip.137.54.155.165) has joined #duraspace</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-navy">* ajs6f (89369ba5@gateway/web/freenode/ip.137.54.155.165) Quit (Client Quit)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

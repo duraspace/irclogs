@@ -1,0 +1,59 @@
+<span class="irc-date">[0:09]</span> <span class="irc-green">* repository (c73a6309@gateway/web/freenode/ip.199.58.99.9) has joined #duraspace</span><br />
+<span class="irc-date">[0:13]</span> <span class="irc-navy">* repository (c73a6309@gateway/web/freenode/ip.199.58.99.9) Quit (Client Quit)</span><br />
+<span class="irc-date">[0:44]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-lindbohm.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-lindbohm.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-red">[frigg VERSION]</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:51]</span> <span class="irc-green">* Asger (~abr@130.246.254.222) has joined #duraspace</span><br />
+<span class="irc-date">[11:43]</span> <span class="irc-navy">* Asger (~abr@130.246.254.222) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:48]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has left #duraspace</span><br />
+<span class="irc-date">[12:57]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-green">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-navy">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-green">* Ed_ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) has joined #duraspace</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-green">* Asger (~abr@130.246.254.222) has joined #duraspace</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://wiki.duraspace.org/display/FCREPO/2012-09-06+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-09-06+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-black">&lt;kompewter&gt; [ 2012-09-06 - Fedora Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2012-09-06+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-09-06+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[13:09]</span> <span class="irc-black">&lt;eddies&gt; i can't seem to reconnect to freeconf</span><br />
+<span class="irc-date">[13:11]</span> <span class="irc-green">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) has joined #duraspace</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-black">&lt;eddies&gt; dan, are you on freeconf?</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-black">&lt;Dan_Davis&gt; Use the landline (you can skype to it)</span><br />
+<span class="irc-date">[13:29]</span> <span class="irc-green">* joanthandgi (8eb07d25@gateway/web/freenode/ip.142.176.125.37) has joined #duraspace</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-133.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-black">&lt;barmintor&gt; is the call still going on?</span><br />
+<span class="irc-date">[13:40]</span> <span class="irc-black">&lt;Dan_Davis&gt; Yes, Ben.</span><br />
+<span class="irc-date">[13:40]</span> <span class="irc-navy">* barmintor (~ba2213@dyn-butler-158-133.dyn.columbia.edu) Quit (Quit: barmintor)</span><br />
+<span class="irc-date">[13:40]</span> <span class="irc-black">&lt;Dan_Davis&gt; We are having problems with the direct skype.</span><br />
+<span class="irc-date">[13:47]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-navy">* joanthandgi (8eb07d25@gateway/web/freenode/ip.142.176.125.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://wiki.duraspace.org/display/FCREPO/Fedora+Release+Process">https://wiki.duraspace.org/display/FCREPO/Fedora+Release+Process</a></span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora Release Process - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/Fedora+Release+Process">https://wiki.duraspace.org/display/FCREPO/Fedora+Release+Process</a></span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-green">* tecoripa (~sprater@static-210-194.vpn.wisc.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://wiki.duraspace.org/display/FEDORA36/Fedora+Repository+3.6.1+Release+Notes">https://wiki.duraspace.org/display/FEDORA36/Fedora+Repository+3.6.1+Release+Notes</a></span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora Repository 3.6.1 Release Notes - Fedora 3.6 Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FEDORA36/Fedora+Repository+3.6.1+Release+Notes">https://wiki.duraspace.org/display/FEDORA36/Fedora+Repository+3.6.1+Release+Notes</a></span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-black">&lt;eddies&gt; <a href="https://github.com/mediashelf/fedora-cargo-plugin">https://github.com/mediashelf/fedora-cargo-plugin</a></span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-black">&lt;kompewter&gt; [ mediashelf/fedora-cargo-plugin · GitHub ] - <a href="https://github.com/mediashelf/fedora-cargo-plugin">https://github.com/mediashelf/fedora-cargo-plugin</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;eddies&gt; here's an example of a pom that uses it: <a href="https://github.com/mediashelf/fedora-batch/blob/master/pom.xml">https://github.com/mediashelf/fedora-batch/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;kompewter&gt; [ fedora-batch/pom.xml at master · mediashelf/fedora-batch · GitHub ] - <a href="https://github.com/mediashelf/fedora-batch/blob/master/pom.xml">https://github.com/mediashelf/fedora-batch/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-navy">* barmintor (barmintor@specdl11.cul.columbia.edu) Quit ()</span><br />
+<span class="irc-date">[14:37]</span> <span class="irc-green">* tecoripa (~sprater@static-210-194.vpn.wisc.edu) has left #duraspace</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-navy">* Ed_ (1809d1a2@gateway/web/freenode/ip.24.9.209.162) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-navy">* Asger (~abr@130.246.254.222) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-green">* bram-atmire (~bram@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-navy">* bram-atmire (~bram@85.234.195.109.static.edpnet.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* PeterDietz (~peterdiet@128.146.173.112) has joined #duraspace</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-green">* bram-atmire (~bram@94-225-98-6.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-navy">* bram-atmire (~bram@94-225-98-6.access.telenet.be) Quit (Quit: bram-atmire)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-navy">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Read error: Connection reset by peer)</span><br />

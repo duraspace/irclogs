@@ -1,0 +1,39 @@
+<span class="irc-date">[12:52]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[12:52]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[12:52]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[12:53]</span> <span class="irc-black">&lt;tdonohue&gt; no, not at all...i'm not meaning to slight him either...I just think he may be able to provide you with an answer to the "why", and then that can be documented in the manual a bit better, for everyone</span><br />
+<span class="irc-date">[12:53]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[12:53]</span> <span class="irc-black">&lt;ysu_jat&gt; Well, my quote for my staff is :  RTFM?  before I answer them.  And that's how we should document things.  RTFM then ask when it's not clear or missing.</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-black">&lt;tdonohue&gt; yea, i'm hoping graham can help clear this up for us a bit :)  Once we have more details in the manual, it will help us all, and give us all a place to send people who have these questions...</span><br />
+<span class="irc-date">[13:00]</span> <span class="irc-black">&lt;ysu_jat&gt; exactly.  I hope I can mark up the thing for the indexes by 1.6 release.  Probably more realistic for a 1.7 release.  lol</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-black">&lt;tdonohue&gt; yep, makes perfect sense....again, we all appreciate the hard work on your end!</span><br />
+<span class="irc-date">[13:04]</span> <span class="irc-black">&lt;ysu_jat&gt; ack....at least I'm not programming anymore these days.</span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-navy">* keithg (n=keithg@cpe-65-24-130-8.columbus.res.rr.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-black">&lt;rrodgers&gt; must run folks - ysu_jat: be sure to send any event questions and thanks</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-navy">* rrodgers (n=rrodgers@dhcp-18-111-15-222.dyn.mit.edu) Quit ()</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;ysu_jat&gt; well I'm outta here..I too need to run.</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-navy">* ysu_jat (n=jeffreyt@maag127.maag.ysu.edu) Quit ("Leaving")</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-navy">* tdonohue (i=80ae241d@gateway/web/freenode/x-18b66efff0b74b9c) Quit ("Page closed")</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-162-19-68.clt.bellsouth.net) has left #duraspace</span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-navy">* ben_atmire (n=ben_atmi@213.219.159.242.res.static.edpnet.net) Quit ()</span><br />
+<span class="irc-date">[14:40]</span> <span class="irc-green">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:40]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-navy">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-navy">* stuartlewis (n=stuartle@gendig21.lbr.auckland.ac.nz) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-green">* stuartlewis (n=stuartle@gendig21.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-navy">* mhwood (i=mwood@mhw.ulib.iupui.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-green">* cbeer_ (n=chris@dsl092-069-087.bos1.dsl.speakeasy.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:40]</span> <span class="irc-green">* mdiggory (n=mdiggory@69-224-188-135.bn02153.sndg02.wayport.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:57]</span> <span class="irc-navy">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) Quit ()</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-navy">* mdiggory (n=mdiggory@69-224-188-135.bn02153.sndg02.wayport.net) Quit ()</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-brown">-tomaw- [Global Notice] In memory of a recently deceased good friend: <a href="http://forums.gentoo.org/viewtopic-t-787855-start-0-postdays-0-postorder-asc-highlight-.html">http://forums.gentoo.org/viewtopic-t-787855-start-0-postdays-0-postorder-asc-highlight-.html</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-navy">* stuartlewis (n=stuartle@gendig21.lbr.auckland.ac.nz) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-navy">* cbeer_ (n=chris@dsl092-069-087.bos1.dsl.speakeasy.net) Quit ()</span><br />
+<span class="irc-date">[23:41]</span> <span class="irc-green">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[23:59]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit (Read error: 110 (Connection timed out))</span><br />

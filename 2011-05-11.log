@@ -1,0 +1,309 @@
+<span class="irc-date">[1:02]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[1:08]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[1:10]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[1:10]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[2:00]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[2:12]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[3:12]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[3:14]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[3:14]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[3:37]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[3:39]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[3:39]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[3:49]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[3:51]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Ping timeout: 248 seconds)</span><br />
+<span class="irc-date">[3:51]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[4:23]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[4:25]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[4:25]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[4:26]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Client Quit)</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-zelazny.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-zelazny.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-zelazny.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-zelazny.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:08]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[13:34]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-green">* tjohnson (~tjohnson@JohnsoTh-APiM24.library.oregonstate.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:44]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-green">* JRhoads (~jrhoads@160.10.15.22) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-green">* grahamtriggs1 (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-green">* vibhaj (0e611ccc@gateway/web/freenode/ip.14.97.28.204) has joined #duraspace</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all -- in about 5 mins, our DSpace Developer Mtg will start here.  Agenda, if you haven't seen it yet: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11</a></span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-05-11 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11</a></span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-green">* hpottinger (80cea2c6@gateway/web/freenode/ip.128.206.162.198) has joined #duraspace</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* cccharles (~chris@131.104.62.48) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome. It's that time again, here's our DSpace Developers Mtg agenda for today: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11</a>    we'll start with our normal JIRA quick review</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-05-11 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Today, we kick off the JIRA review with DS-797.  Here's the full list of issues remaining to review: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-797+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-797+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-797">https://jira.duraspace.org/browse/DS-797</a> ] - [#DS-797] ant help says install_code target exists, but it doesn't - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-797">https://jira.duraspace.org/browse/DS-797</a> ] - [#DS-797] ant help says install_code target exists, but it doesn't - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-797+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-797+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; let's try that again. We're starting with DS-797</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-797">https://jira.duraspace.org/browse/DS-797</a> ] - [#DS-797] ant help says install_code target exists, but it doesn't - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* sandsfish (~sandsfish@dhcp-18-111-52-74.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; Yep, ds-797 is a bug. Even on Trunk code, 'ant help' says there's such a thing as 'ant install_code' (when in fact, that target doesn't exist)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/ds-797">https://jira.duraspace.org/browse/ds-797</a> ] - [#DS-797] ant help says install_code target exists, but it doesn't - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; any thoughts on this? should we create 'ant install_code'? or fix the output of 'ant help'?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mdiggory&gt; no, what would install code mean?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mdiggory&gt; update installs code changes</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;sandsfish&gt; deploy a code build without overwriting config?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mdiggory&gt; I think this is old cruft leftover from the old build</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* mhwood (~mhwood@99.162.50.38) has joined #duraspace</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; I think, based on Ivan's request in Ds-797, he thought it should install Code without touching the DB again (not sure how much use that would get though)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C15567.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, is this a 'won't fix'? or Ask Ivan for more info?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: any recommendation given your digging in this dirt with the installer?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mdiggory&gt; I assume we want something like what sandsfish just pointed out</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;JRhoads&gt; Has anyone requested an install without touching the DB?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; yea, what sandsfish said would likely be useful.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mdiggory&gt; albeit we generally overwrite everything with 'ant update -Doverwrite=true</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mdiggory&gt; vs not overwrite config directly with 'ant update -Doverwrite=false'</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;sandsfish&gt;  &lt;echo message="install_code    --&gt; Install compiled code into ${dspace.dir}" /&gt;</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mdiggory&gt; ant doesn't compile anymore...</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mdiggory&gt; just copies</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mdiggory&gt; thus "update"</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; right, it says it's *installing* (pre-compiled) code to $(dspace.dir)"</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;sandsfish&gt; yup, installs/copies.  that's how it's documented in build.xml atm</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I suggest we do the following: DS-797, ask Ivan for more info on usage, see if there's a better replacement for install_code, possibly suggest 'ant update'</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-797">https://jira.duraspace.org/browse/DS-797</a> ] - [#DS-797] ant help says install_code target exists, but it doesn't - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mdiggory&gt; kinda misleading... what does it copy?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mdiggory&gt; that was a retorical question</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;sandsfish&gt; i personally haven't seen a use case where i needed this, so either more info or no fix is my vote.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; I'm moving on..this is too much detail for one little issue :) move discussion to Ds-797</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; onward</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; Next up: DS-799</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-799">https://jira.duraspace.org/browse/DS-799</a> ] - [#DS-799] email sender fails to recognize BOM in the email template - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mdiggory&gt; feeling a bit green... whats BOM?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; not sure I fully understand this one, may need further investigation here</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mdiggory&gt; ah byte order mark</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mhwood&gt; Byte Order Marker.  Only Microsoft uses them so far as I know.  Has something to do with endian-ness.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; any volunteer to investigate DS-799, to see if we can replicate this issue?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-799">https://jira.duraspace.org/browse/DS-799</a> ] - [#DS-799] email sender fails to recognize BOM in the email template - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;sandsfish&gt; more info?  maybe the build was done on a windoze machine and doesn't happen on other platforms.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mdiggory&gt; --&gt; insert Microsoft Bashing here &lt;---</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;sandsfish&gt; Microsoft/Skype</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;sandsfish&gt; ;)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mdiggory&gt; run for your lives</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. hearing no volunteers for now... Ds-799 Summary: Ask for more info about environment.  Needs a volunteer to investigate &amp; verify.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; Next up: DS-800</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-800">https://jira.duraspace.org/browse/DS-800</a> ] - [#DS-800] Manage visibilty of metadata fields as field attribute rather than in dspace.cfg - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; hmm.. this one (Ds-800) is marked as "Addressed By" DS-655, which robint is handling.  But, it looks like robint didn't make it today</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-655">https://jira.duraspace.org/browse/DS-655</a> ] - [#DS-655] MetadataExposure hides fields except for System Admins - this should extend to Community and Collection Admins - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; visibility needs to be managed in the Model</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; not in configuration files...  and to expand on this we need something like Metadata Bundles which would have ResourcePolicies attached</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea, it looks like that is robint's recommendation down in the comments</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; So that we can have system, descriptive, administrative, bitstream metadata sections in a DSpace Item</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; and align completely with METS metadata sections and possibly align with Fedora Datastreams that are metadata centric</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;sandsfish&gt; perhaps this is an architecture question that needs some further hashing out/design.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;sandsfish&gt; i can see the work taking on a few different shapes/sizes.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; Maybe we should follow up with robint on this one?..I'd like to here how this overlaps with other linked issues, etc</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue:  yes I'm expanding on Robins suggestion....</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; ok. Ds-800 Summary: Followup with Robint.  May need more discussion around necessary architecture changes and other related JIRA tickets.  Needs volunteer</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Next up: DS-802</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-802">https://jira.duraspace.org/browse/DS-802</a> ] - [#DS-802] Create a DSpace &amp;quot;Installer&amp;quot; which doesn't require users to build DSpace using Maven and Ant - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; can we just post the dialog in the comments and wait for him to get back?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; oh, wait, this is mine ;)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; yep mdiggory -- we can post this dialog to comments of Ds-800.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; did it</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;sandsfish&gt; DS-802 - work proceeding on this already?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-802">https://jira.duraspace.org/browse/DS-802</a> ] - [#DS-802] Create a DSpace &amp;quot;Installer&amp;quot; which doesn't require users to build DSpace using Maven and Ant - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; I didn't realize the scale of the bloat until I did the standalone test</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; yes, Ds-802 is already begun, and is at: <a href="http://scm.dspace.org/svn/repo/sandbox/installer-prototype/">http://scm.dspace.org/svn/repo/sandbox/installer-prototype/</a>  It's already "minimally working", but needs some more enhancements likely</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ Revision 6368: /sandbox/installer-prototype ] - <a href="http://scm.dspace.org/svn/repo/sandbox/installer-prototype/">http://scm.dspace.org/svn/repo/sandbox/installer-prototype/</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; we have approx 30-40Mb per webapp lib directories</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; So, we can wait on the "official" Ds-802 review till it's in a more "ready" state, to be honest.  But, in the meantime, comments/suggestions are welcome on dspace-devel or in the comments of the Ds-802 issue itself (please, feel free -- I'm looking for more ideas, etc)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; which begs the question is it better to carry the Maven repo around as it would eliminate the duplication</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- I already tried the option of "carrying around the Maven repo" in the installer. It won't work, unfortunately. See my comments here: <a href="https://wiki.duraspace.org/display/DSPACE/InstallerPrototype#InstallerPrototype-WhyembeddingMavenintoInstallerwon%27twork">https://wiki.duraspace.org/display/DSPACE/InstallerPrototype#InstallerPrototype-WhyembeddingMavenintoInstallerwon%27twork</a></span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ InstallerPrototype - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/InstallerPrototype#InstallerPrototype-WhyembeddingMavenintoInstallerwon%27twork">https://wiki.duraspace.org/display/DSPACE/InstallerPrototype#InstallerPrototype-WhyembeddingMavenintoInstallerwon%27twork</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; I'd suggest we leave Ds-802 to offline discussion though, I don't want to take up too much of this meeting's time.  We have a rather full agenda here today.  So, everyone OK with moving on to other topics?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;JRhoads&gt; Sure.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; if the installer jar expands into a temporary directory?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; think you should revisit it... at least from an assembly standpoint and the ongoing dialog about adding addons in etc...</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; but yes, offline</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, moving on then.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; I'd like to revisit the idea of a 1.7.2.  We've had more recent Oracle Threads on dspace-tech.  Essentially, currently Oracle doesn't work with *either* 1.7.0 or 1.7.1.  Should we release a 1.7.2, to ensure something in the 1.7.x series works with Oracle?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the one outstanding Oracle bug: <a href="https://jira.duraspace.org/browse/DS-841">https://jira.duraspace.org/browse/DS-841</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-841">https://jira.duraspace.org/browse/DS-841</a> ] - [#DS-841] 'IllegalArgumentException: No such column rnum' error in DSpace 1.7.x XMLUI admin eperson (with Oracle backend) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-841] 'IllegalArgumentException: No such column rnum' error in DSpace 1.7.x XMLUI admin eperson (with Oracle backend) - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-841">https://jira.duraspace.org/browse/DS-841</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; what do others think?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;scottatm&gt; Do we have fixes for the issues?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;sandsfish&gt; do we have enough oracle test environment coverage to be confident in the stability of Oracle support?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; I personally would *not* want a 1.7.2 to delay 1.8.0, so I think if we did release a 1.7.2 it should *ONLY* fix remaining Oracle issues</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; scottatm: Ds-841 has an attached patch, but I haven't reviewed it</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; I can confirm that the 'patch' I submitted for ds-841 is working, in an Oracle-backed environment</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/ds-841">https://jira.duraspace.org/browse/ds-841</a> ] - [#DS-841] 'IllegalArgumentException: No such column rnum' error in DSpace 1.7.x XMLUI admin eperson (with Oracle backend) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; sandsfish: no, we don't have a very large "oracle test environment coverage", but we have a few active Oracle users/developers, including hpottinger</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; we're about to put it into production</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger, is that the last remaining Oracle issue you've seen in 1.7.1?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; That suffices for me...</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;hpottinger&gt; yes, we've not encountered anything else that needed fixing with 1.7.1, we're going into production using Peter's patch to DS-871 as well</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-871">https://jira.duraspace.org/browse/DS-871</a> ] - [#DS-871] XMLUI caches community / collection page which doesn't show a recently submitted item immediately - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  So, do others then agree we should do a 1.7.2?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; Yes.  We say we support Oracle.  Can't leave it broken until fall.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;scottatm&gt; I think that makes sense, but I'd make sure the release notes say it only has a very limited number of fixes so that most people know they can skip it.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;sandsfish&gt; agreed with scottatm</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; scottatm -- I'd agree with that</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;PeterDietz&gt; The release procedure is straight forward enough to perform it without being too much expense of time.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;JRhoads&gt; scottatm: +1</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; maybe we have a small initiative to collect more Oracle issue if anyone has them and release for OR11?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone want to officially "cut" the release?  It's a good "practice" of the release procedure, and as PeterDietz says, it should not be too difficult.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- we've already delayed this a while, to be honest.  If we already have one Oracle institution (hpottinger) moving forward and saying this seems like the last Oracle issue, then I'm satisfied.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;PeterDietz&gt; I'd also like to schedule Ds-871 (xmlui caching of recent items) to 1.7.2.. Hopefully that doesn't conflate the idea of keeping it a low-key release</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. I'd be willing to compromise and say that 1.7.2 release is *just* Ds-841 and Ds-871.  Nothing else gets in though, unless we hear of more Oracle issues in very near future.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; wait wait , stop the presses ;-)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- would you be interested in "cutting" the 1.7.2 release then and setting a date for it? :)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; yes, that's a good ptach to get into release</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;PeterDietz&gt; We should also get on with our plan to have the 1.8 beta's.. To get some of the +/- bold moves for 1.8 into the wild</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;stuartlewis&gt; What about the issue that brings up the ugly stack traces in the dspace launcher?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis -- is it fixed yet?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mdiggory&gt; oh yea...</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;stuartlewis&gt; Not sure - I think Kevin did?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;KevinVdV&gt; I have proposed a patch</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mdiggory&gt; its just changing the line in the start script</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;KevinVdV&gt; It should work</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;KevinVdV&gt; And the issue doesn't seem to occur in windows for the record</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;KevinVdV&gt; (windows test == windows 7)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; what's the JIRA issue number for that one? I cannot seem to find it</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;KevinVdV&gt; <a href="https://jira.duraspace.org/browse/DS-875">https://jira.duraspace.org/browse/DS-875</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-875] DSpace Configuration service error when using "dspace" script. - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-875">https://jira.duraspace.org/browse/DS-875</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-875">https://jira.duraspace.org/browse/DS-875</a> ] - [#DS-875] DSpace Configuration service error when using &amp;quot;dspace&amp;quot; script. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;JRhoads&gt; Does the change work equally as well in windows?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; sorry guys, I have to run, my 8yo will be grumpy if I don't pick him up from school :-)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; thanks KevinVdV</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;KevinVdV&gt; Np</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;PeterDietz&gt; later hpottinger, thanks for the help</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; understand completely</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; no problem hpottinger. thanks for sticking around</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; So, it would reduce dspace-tech noise to get rid of the stacktrace</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; +1 on adding it</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; Has anyone else tested out KevinVdV's patch?  (I trust KevinVdV, but it would be good to verify that DS-875 is fully fixed for a variety of OS's)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-875">https://jira.duraspace.org/browse/DS-875</a> ] - [#DS-875] DSpace Configuration service error when using &amp;quot;dspace&amp;quot; script. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm of the mind that annoying bugs that (affect 1.7) and are fixed or have patches, that they get scheduled for 1.7.2</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;KevinVdV&gt; Personally I would like to have some people test it in something other then windows 7</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-navy">* hpottinger (80cea2c6@gateway/web/freenode/ip.128.206.162.198) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;PeterDietz&gt; For example, Ohio State still hasn't upgraded to 1.7.x solely because of  xmlui recent item caching</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- I'm fine with that too, as long as we don't 'delay' 1.7.2 indefinitely to keep adding in new fixes ;)  (I.e. I'd like to get 1.7.2 out in time for OR11 at the latest, preferrably even before then)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;PeterDietz&gt; I think I'm free the weekend before OR11. So how about May 27. (May 20 also works)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; So, I think we should be 'strict' about what gets into 1.7.2 and what doesn't.  If we can get some more of us to test out the Ds-875 patch, then I'd be fine with doing Ds-875, Ds-871 and Ds-841 all in 1.7.2</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;stuartlewis&gt; I'll try out DS-875 today on my mac and our test servers, and can commit if all looks good (which I'm sure it will)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-875">https://jira.duraspace.org/browse/DS-875</a> ] - [#DS-875] DSpace Configuration service error when using &amp;quot;dspace&amp;quot; script. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; May 27 sounds fine to me.  So, PeterDietz, you are going to 'cut' the release?</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;PeterDietz&gt; yep. 1.7.2 is mine.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds good.  I'd definitely encourage you to be strict about 1.7.2, PeterDietz.  Don't let us go sneaking in extra code if it doesn't need to be there ;)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so it's official:  1.7.2 will be May 27th release.  Fix a few of the remaining annoying bugs in 1.7.1, and ensure full Oracle compatibility</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-brick">* PeterDietz says: Lobbyists interested in getting their pet projects into 1.7.2 should contact me offline. ;)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. next topic: GSoC 2011.  I just want to be sure all Mentors have been in touch with their students, etc.  Students start programming on May 24</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; Ok... clocks ticking...</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: I thinkw e are suffering the same way as previous years.... we are not really seeing an open active dialog before the coding</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; Also, based on all the recent Git/Github discussions, I think it might be a good opportunity to "try out" github for some/all of the GSoC 2011 projects.  I'll leave it up to the mentors, but it seems like a good opportunity</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;PeterDietz&gt; Github is what we're leaning towards for WebMVC. Should be best for getting the student connected to the code.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- I guess that was what I was asking.  Just cause we haven't "seen" a dialog in public doesn't mean that Mentors haven't started some sort of dialog with students. So, I was curious if the mentors here could fill us in on whether anything has started</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; I'm quite active on a number of the projects and I will say the dialog is lacking</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;PeterDietz&gt; We've been in private/restricted communication Peter-Graham-Stuart-RobertFromSingapore. I suppose we should shift that to an open channel.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-brick">* stuartlewis was working with our student (WebMVC) to get DSpace up and running last night - all going well now.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; so if dialog is happening, its not transparent... TBH I guilty of this too</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-green">* lllllllll (522921b0@gateway/web/freenode/ip.82.41.33.176) has joined #duraspace</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: yea, that might be good to shift to a more "public" area soon-ish, if possible. Either dspace-devel or duraspace-gsoc</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; the challenge is that we will not get cross pollination if the dialog is not public</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; its for the students benefit... especially in the the WebMVC/REST area</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; right, hence the request to try and bring more discussions to 'duraspace-gsoc' or 'dspace-devel', to see if we can get more feedback to each of these projects, and see if there are cross-pollination opportunities or not</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;PeterDietz&gt; I was somewhat wondering to myself how strong is the REST API's mechanism for determining which controller responds to which URL. And I was somewhat thinking that Spring WebMVC's annotations for URL's would be pretty excellent for a REST API.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;sandsfish&gt; duraspace-gsoc seems to make sense.  there's already a decent amount of traffic on dspace-devel that it might get lost in.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;grahamtriggs1&gt; I should clarify PeterDietz's point - Robert dropped us an email asking if he there was anything he could be doing now, and we've replied with a courtesy email containing a couple of suggestions, whilst we discuss the GitHub issue.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; +1 sandsfish. I'd probably recommend 'duraspace-gsoc' over dspace-devel (at least right now).</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;PeterDietz&gt; ...and then I started thinking that I want to have Spring's MVC annotation. But someone would want REST API and/or WebMVC, and started to scratch my head...</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: yes... Vibhaj, Bojan and I are dialoging about the possiblity of adopting Spring REST instead of EntityBroker</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mdiggory&gt; and that should be public as well... not the way it is now...</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; grahamtriggs1: what's the 'github issue'? just deciding whether you plan to use Github for the project code?</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; the tought hing about not using dspace-devel is that the exposure of the dialog is limit to those that joined that list... there might be someone who wasn't initially listening on dspace-devel and suddenly catches wind of a bit of work and has something valuable to add</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; they won't see that dialgo if its in duraspace-gsoc</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;grahamtriggs1&gt; tdonohue: I think we're all pretty happy with the idea of using GitHub - I was just asking Peter about some of the practicalities given what he's already set up with the SVN sync, etc</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; likewise, your kind robbing the student of actually being int he middle of the community are you not?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea, but at the same time. dspace-devel is very "bogged down" these days. I'd hate to throw a student into that list immediately.  Just like in past years we've always had a separate GsoC public list</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; yea and I realized it didn't really work then as well</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; I worry that the benefits of the community dialog are lost when trying to protect the student.... it may be premature to be trying to protect the student, isn't the dialog what DSpace developer community is about?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. The other thing to point out is that obviously using 'duraspace-gsoc' is a way to also get Fedora or DuraCloud feedback.  Admittedly, that may not be as important this year (as no projects have huge overlaps with other technologies), but it's another reason why we created 'duraspace-gsoc'</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; to be honest though, I'm fine with leaving it up to the Mentors to decide.  I think the more important thing is to move discussions to being more public, whether that is dspace-devel or duraspace-gsoc</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;PeterDietz&gt; grahamtriggs1: sorry for dropping the ball on responding about continuing sync of svn/github. I'd prefer to not sync github down to svn. Especially since you can svn co <a href="https://svn.github.com/DSpace/webmvc.git">https://svn.github.com/DSpace/webmvc.git</a></span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;PeterDietz&gt; (sorry for directing towards tangent).. You can svn co a github project: <a href="https://github.com/blog/626-announcing-svn-support">https://github.com/blog/626-announcing-svn-support</a></span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;kompewter&gt; [ Announcing SVN Support - GitHub ] - <a href="https://github.com/blog/626-announcing-svn-support">https://github.com/blog/626-announcing-svn-support</a></span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mdiggory&gt; maybe a happy medium is to post an email in the dspace-developer list to please join into the duraspace-gsoc list...</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;JRhoads&gt; I'm gonna have to run (Lab closing).  Good stuff today and great discussions on the dspace-devel list.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'd recommend that all Mentors try and bring any discussions with Students to a move 'public' area.  It's up to you if you feel the initial discussion should be put on dspace-devel or 'duraspace-gsoc'</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory : that's actually already been done, several times during this GSoC process ;)  But, I was planning to post another reminder to dspace-devel to join duraspace-gsoc for more info</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;PeterDietz&gt; I guess we're always free to cross-post to dspace-devel, when something might be relevant to the wider group.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, if you haven't already, please join 'duraspace-gsoc' list: <a href="http://groups.google.com/group/duraspace-gsoc/">http://groups.google.com/group/duraspace-gsoc/</a></span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DuraSpace GSoC | Google Groups ] - <a href="http://groups.google.com/group/duraspace-gsoc/">http://groups.google.com/group/duraspace-gsoc/</a></span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-green">* JRhoads (~jrhoads@160.10.15.22) has left #duraspace</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; If you are a Mentor, you also should join the 'duraspace-gsoc-mentors' list (Private, administrative list): <a href="http://groups.google.com/group/duraspace-gsoc-mentors">http://groups.google.com/group/duraspace-gsoc-mentors</a></span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; +1 PeterDietz -- you are free to cross post as much as you see fit</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;sandsfish&gt; gotta head out all.  cheers!</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: thats awesome... an anti- april fools joke</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-navy">* sandsfish (~sandsfish@dhcp-18-111-52-74.dyn.mit.edu) Quit (Quit: sandsfish)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;grahamtriggs1&gt; PeterDietz: I'm not bothered about syncing Git -&gt; SVN. I'm more concerned about what might happen if we are developing on a Git project that is being synced FROM svn (as it currently is). And what if we decide to make occassional drops to svn whilst that is still the 'official' repository, etc.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; That's everything we really have time for today.  So, unless there are other questions/comments, I'd say we can close up the official meeting for today (but feel free to continue any discussions)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-brick">* scottatm thinks we should just pick a day and switch to git. syncing the repositories seems like a recipe for disaster.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; scottatm -- I think the problem is that we're still trying to get a majority in favor of that switch ;)   So, I think PeterDietz's 'syncing' idea is just to try and give us tools to get more comfortable with github</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mdiggory&gt; scottatm: been in that disaster already</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;grahamtriggs1&gt; scottatm: I tend to agree. Although I think a few more of us would like experience using Git before we can make that decision. Hence why GSoC projects are a good 'canary'</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* lllllllll (522921b0@gateway/web/freenode/ip.82.41.33.176) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;scottatm&gt; Oh, yes. I'm not suggesting we should do that just now. I meant when we eventually decide to switch we should just flag day it.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: grahamtriggs can we get the students a decent starting point in git or at least a guideline of some sort</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;scottatm&gt; Like we could say, 1.8.x will be the last release on SVN, 1.9 and above will be GIT?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; for instance, put the rest project there as well and discuss how to fork for prototyping...</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I agree. I don't see "syncing" as a long term solution.  At some point we either switch entirely or we decide entirely against it -- my point is that we need a majority and right now I'm not sure we have that (although it does seem we're getting closer to that)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;PeterDietz&gt; I'd prefer that once development begins for a project in github, that we cease svn commits. Perhaps even stopping the cron sync. Then then deleting the svn repo al-together</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: the challenge is that the svn repo is there for legacy purposes... theres even one still at SF</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;scottatm&gt; And the one at SF still has a stale code base there.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; it better be</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;PeterDietz&gt; I'd prefer to not keep that around.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tjohnson&gt; mdiggory: what's wrong with importing the whole history via git-svn and nuking the old repo?</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;grahamtriggs1&gt; PeterDietz: but I'm not clear on how these have been setup. For example: WebMVC is a separate Git repository from DSpace trunk? And there are separate crons for syncing each?</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; yea, we'd probably never *remove* the svn repo, to be honest (just like Fedora didn't remove theirs when they went to github).  But we would make it entirely "read only".</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue:  right</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;PeterDietz&gt; tjohnson: That's half of what's been done with the main dspace trunk. And for the module/webmvc. (No nukes yet, we're all nervous after what happened to Japan)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; (but that is something we could still discuss -- just pointing out that Fedora actually decided against removing their old SVN, at least for now)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;scottatm&gt; The negative side of leaving the old repos around is that there's still lots of links around the web to them. Someone new to the project will stumble on one of those and think that no one has updated DSpace is a long time.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-green">* vibhaj (0e611ccc@gateway/web/freenode/ip.14.97.28.204) has left #duraspace</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-green">* vibhaj (0e611ccc@gateway/web/freenode/ip.14.97.28.204) has joined #duraspace</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;PeterDietz&gt; we could leave a README as the only file left once we've verified the conversion. Link to new repo</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm nervous about the person who types svn up though.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;grahamtriggs1&gt; We've already done CVS -&gt; SVN, and SF -&gt; OSL. Don't think anyone has been harmed so far.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;PeterDietz&gt; Things have died down. Last word on using github for webmvc?</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; TBH... if we switch to Git.... OSL may want to take down the scm server</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; there may not be much choice there</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: I'd say feel free to use it, if all on the webmvc project are OK with it.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea, I think this is all something we'll figure out once we come to a decision around github.  We can also always just "archive" an old, read-only copy of the DSpace SVN at <a href="https://svn.duraspace.org/">https://svn.duraspace.org/</a> if we wanted to (or elsewhere, just in case we ever really needed it)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;kompewter&gt; [ svn.duraspace.org ] - <a href="https://svn.duraspace.org/">https://svn.duraspace.org/</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;PeterDietz&gt; I'd recommend having a few trials first. Moving one module isn't abandonment</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mdiggory&gt; I"m all for it... but it brings up the dialog Tim and I had about grouping modules into core, thirdparty, experimental, etc</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; dialog that mdiggory &amp; I had is under "Time Permitting" on our Agenda -- we didn't get to it today though, as we ran over time with other discussions: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11</a></span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-05-11 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-05-11</a></span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;PeterDietz&gt; peace all. My weekend starts... right... now... later</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-green">* PeterDietz (~PeterDiet@sul272peter.lib.ohio-state.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; I should go too.  'bye all.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-green">* mhwood (~mhwood@99.162.50.38) has left #duraspace</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-green">* vibhaj (0e611ccc@gateway/web/freenode/ip.14.97.28.204) has left #duraspace</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C15567.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:38]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[22:38]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:40]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Ping timeout: 248 seconds)</span><br />
+<span class="irc-date">[22:40]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[22:47]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:48]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[23:00]</span> <span class="irc-navy">* grahamtriggs1 (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[23:20]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[23:22]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[23:22]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[23:26]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[23:28]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[23:28]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[23:56]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />

@@ -1,0 +1,47 @@
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-zelazny.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-zelazny.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-zelazny.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-brown">-zelazny.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:35]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:19]</span> <span class="irc-navy">* elschlomo (4e2a62d3@gateway/web/freenode/ip.78.42.98.211) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-navy">* barmintor_home (barmintor@specdl11.cul.columbia.edu) Quit (Ping timeout: 244 seconds)</span><br />
+<span class="irc-date">[19:39]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; Is there a meeting today?  (Maybe not:  the agenda page (which I forgot to update for the 21-Dec meeting -- sorry) still says 07-Dec.)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-green">* richardrodgers (~richardro@18.111.4.203) has joined #duraspace</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;richardrodgers&gt; hmm, doesn't look like a committer mtg today?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;richardrodgers&gt; Happy new year all, in any case!</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; Perhaps not:  the agenda page still says 07-Dec.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;richardrodgers&gt; mhwood: I know Tim was trying to recruit a stand-in, not sure if he succeeded..</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;richardrodgers&gt; I'll post to the dev list before next week's slot to see if there is appetite to pick up again. Bye</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-navy">* richardrodgers (~richardro@18.111.4.203) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C14B50.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-green">* PeterDietz-alt (~dspace@sul272sandbox.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;PeterDietz-alt&gt; Hi All, sorry by my terrible attendance as of late. Networking is an absolute nightware on my new work computer... e1000e constantly drops me.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;PeterDietz-alt&gt; locally, I've found it to be very useful to add a function to DSpaceObject called getTypeText(), so that you can get the word BITSTREAM, COLLECTION, etc, instead of having to do Constants.typeText[dso.getType()]</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; Oh, great:  I just ordered an e1000e yesterday.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; DSObject.getTypeText() sounds like a good idea -- other code shouldn't have to know how to make the translation.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; BTW you are only the third person to actually say something here since 0803 ET.  I think there's no meeting set up today.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;PeterDietz-alt&gt; public String getTypeText() { return Constants.typeText[this.getType()]; }</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;PeterDietz-alt&gt; its still on my busy-time on my OSU calendar.. and.. I'm still late</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; About what I expected.  This is a good time to propose deep-down stuff like that, with 3.0 presumably about to start...unless 3.0 changes make it irrelevant somehow.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Yes, the DSpace shared calendar has meetings every week, including this one.  The agenda page hasn't been updated since 07-Dec though.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; Looks like I dropped the baton on the 21st, as I didn't ask for a volunteer to take it for 28th or today.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;PeterDietz-alt&gt; deep down cuts sounds good. Replacing everything with Services still feels foreign to me...</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;PeterDietz-alt&gt; But I was trying to swap out solr in favor of mongoDB, and xmlui had some serious hardcoded dependencies on SOLR</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; I do wonder why we have quite so much complexity in Services, instead of just deciding to become a Spring app. or some such and letting *that* framework handle the wiring.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, one place too much(?) abstraction, the other not enough.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;PeterDietz-alt&gt; so chicken verse egg.. Do we clean up DSpaceObject, Community, Collection, MetadataValue, DCValue[], etc... or switch to relying upon the service, and whoever implements the service has to clean things up</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; Really the same thing, no?  Either revise the contracts for DSpaceObject et al. or write equivalent contracts into new interfaces for those Services.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; And I think there was some desire to coin interfaces off the existing classes to facilitate Service-izing...we need some decisions.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;PeterDietz-alt&gt; call me a legacy application maintainer guy, but I'm more interested in additional functionality like metadata-for-any-DSO, or versioning-of-bitstreams, than I am in swapping out entire backend for "mystery" alternative</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; I tend to be incrementalist on things like moving to Services (maybe you noticed).  If a DSOService is desirable, and we could do that as part of revising the contract, then go for it.  Re-orienting the entire codebase to Services all at once feels like too big a chunk of time spent not working on stuff that the user actually sees.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mhwood&gt; OTOH DSpace is written in an OO language but often in very non-OO ways, and in some cases that makes improvements more difficult than they should be.  We could get more from Java.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; I know I've seen examples but can't think of specific ones just now. :-/</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; I do worry whether we spend too much time on rearranging the guts of DSpace vs. making it a sharper, more capable tool.</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;PeterDietz-alt&gt; So long as the areas a local-developer might be interested in touching are clean enough (i.e. curation tasks), vs things that are not touched by anyone org.dspace.core.Collections</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;mhwood&gt; Must go.  'bye!</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[23:24]</span> <span class="irc-navy">* PeterDietz-alt (~dspace@sul272sandbox.lib.ohio-state.edu) Quit (Quit: Leaving)</span><br />

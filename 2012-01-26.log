@@ -1,0 +1,63 @@
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-holmes.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-holmes.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-holmes.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-holmes.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:44]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-navy">* ablemann (~alexleman@lemanal.new.xen.prgmr.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-navy">* kompewter (~kompewter@sul272sandbox.lib.ohio-state.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-navy">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-navy">* PeterDietz (~peterdiet@128.146.173.59) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-navy">* ChanServ (ChanServ@services.) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-navy">* scottatm (~scottatm@voyager108.evans.tamu.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* ChanServ (ChanServ@services.) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* kompewter (~kompewter@sul272sandbox.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* PeterDietz (~peterdiet@128.146.173.59) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* ablemann (~alexleman@lemanal.new.xen.prgmr.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* scottatm (~scottatm@voyager108.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:10]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:49]</span> <span class="irc-green">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) has joined #duraspace</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-green">* nef_ (d5405706@gateway/web/freenode/ip.213.64.87.6) has joined #duraspace</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-green">* EdAtTheAlliance (1809d1a2@gateway/web/freenode/ip.24.9.209.162) has joined #duraspace</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-green">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) has joined #duraspace</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;cwilper&gt; Starting in a few minutes. Note the instructions on connecting via Mikogo. <a href="https://wiki.duraspace.org/display/FCREPO/2012-01-26+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-01-26+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;kompewter&gt; [ 2012-01-26 - Fedora Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2012-01-26+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-01-26+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-black">&lt;Dan_Davis&gt; chris: are you going to start the mikogo or me?</span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-green">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) has joined #duraspace</span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-black">&lt;cwilper&gt; I started it already. See the wiki page for the session id.</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-green">* birkland (80541ff7@gateway/web/freenode/ip.128.84.31.247) has joined #duraspace</span><br />
+<span class="irc-date">[14:03]</span> <span class="irc-black">&lt;cwilper&gt; <a href="https://wiki.duraspace.org/display/FCREPO/2012-01-26+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-01-26+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[14:03]</span> <span class="irc-black">&lt;kompewter&gt; [ 2012-01-26 - Fedora Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2012-01-26+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-01-26+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-green">* elschlomo (4e2a62d3@gateway/web/freenode/ip.78.42.98.211) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* ajs6f (89360d7a@gateway/web/freenode/ip.137.54.13.122) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* eddies (~eddies@cm126.sigma9.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-navy">* eddies (~eddies@cm126.sigma9.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;eddies&gt; <a href="http://code.google.com/p/jmeter-plugins/">http://code.google.com/p/jmeter-plugins/</a></span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;kompewter&gt; [ jmeter-plugins - Every load test needs some sexy features! - Google Project Hosting ] - <a href="http://code.google.com/p/jmeter-plugins/">http://code.google.com/p/jmeter-plugins/</a></span><br />
+<span class="irc-date">[14:08]</span> <span class="irc-black">&lt;eddies&gt; Install <a href="http://code.google.com/p/jmeter-plugins/">http://code.google.com/p/jmeter-plugins/</a> (copy JMeterPlugins.jar to JMeter's lib/ext directory)</span><br />
+<span class="irc-date">[14:08]</span> <span class="irc-black">&lt;eddies&gt; Launch JMeter. Test plans are located in dtu-search/test/jmeter.</span><br />
+<span class="irc-date">[14:08]</span> <span class="irc-black">&lt;kompewter&gt; [ jmeter-plugins - Every load test needs some sexy features! - Google Project Hosting ] - <a href="http://code.google.com/p/jmeter-plugins/">http://code.google.com/p/jmeter-plugins/</a></span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jmeter.apache.org/usermanual/test_plan.html#test_fragments">https://jmeter.apache.org/usermanual/test_plan.html#test_fragments</a></span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-black">&lt;kompewter&gt; [ Apache JMeter - User's Manual: Elements of a Test Plan ] - <a href="https://jmeter.apache.org/usermanual/test_plan.html#test_fragments">https://jmeter.apache.org/usermanual/test_plan.html#test_fragments</a></span><br />
+<span class="irc-date">[14:21]</span> <span class="irc-black">&lt;ajs6f&gt; Another piece of modularity for test plans.</span><br />
+<span class="irc-date">[14:35]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-black">&lt;sbayliss&gt; info:fedora/fedora-system:FOXML-1.1</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;sbayliss&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1026">https://jira.duraspace.org/browse/FCREPO-1026</a>  Make validation more pluggable/configurable</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-1026] Make validation more pluggable/configurable - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-1026">https://jira.duraspace.org/browse/FCREPO-1026</a></span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;elschlomo&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1047">https://jira.duraspace.org/browse/FCREPO-1047</a></span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-1047] Auto checksums don't work on ingest - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-1047">https://jira.duraspace.org/browse/FCREPO-1047</a></span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-green">* nef_ (d5405706@gateway/web/freenode/ip.213.64.87.6) has left #duraspace</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-navy">* EdAtTheAlliance (1809d1a2@gateway/web/freenode/ip.24.9.209.162) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-navy">* birkland (80541ff7@gateway/web/freenode/ip.128.84.31.247) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-navy">* ajs6f (89360d7a@gateway/web/freenode/ip.137.54.13.122) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-navy">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-navy">* elschlomo (4e2a62d3@gateway/web/freenode/ip.78.42.98.211) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[18:17]</span> <span class="irc-navy">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[23:02]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

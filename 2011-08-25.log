@@ -1,0 +1,32 @@
+<span class="irc-date">[0:35]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[2:27]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[2:44]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[2:51]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[5:25]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[5:39]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[6:07]</span> <span class="irc-green">* grahamtriggs (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-navy">* grahamtriggs (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[8:42]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:22]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp168.evans.tamu.edu) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[11:28]</span> <span class="irc-green">* scottatm (~scottatm@adhcp168.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:04]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:21e:4fff:feba:a425) has joined #duraspace</span><br />
+<span class="irc-date">[13:35]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-navy">* ablemann_ (~alexleman@147.226.128.58) Quit (*.net *.split)</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-green">* ablemann_ (~alexleman@147.226.128.58) has joined #duraspace</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[17:55]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-navy">* ablemann_ (~alexleman@147.226.128.58) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;PeterDietz_OSU&gt; mdiggory: I have a question about solr/statistics. How does Solr determine if a document is unique? i.e. markRobotsByIP() { ...  solr.add(doc) ... }  will be an update instead of creating a duplicate</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;PeterDietz_OSU&gt; <a href="https://github.com/DSpace/DSpace/blob/master/dspace-stats/src/main/java/org/dspace/statistics/SolrLogger.java#L455">https://github.com/DSpace/DSpace/blob/master/dspace-stats/src/main/java/org/dspace/statistics/SolrLogger.java#L455</a></span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kompewter&gt; [ dspace-stats/src/main/java/org/dspace/statistics/SolrLogger.java at master from DSpace/DSpace - GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-stats/src/main/java/org/dspace/statistics/SolrLogger.java#L455">https://github.com/DSpace/DSpace/blob/master/dspace-stats/src/main/java/org/dspace/statistics/SolrLogger.java#L455</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:21e:4fff:feba:a425) has left #duraspace</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;PeterDietz_OSU&gt; I have a suspicion (backed by data), that says that how this is implemented just creates duplicates. So.. 1234 docs in solr. /dspace/bin/dspace stats-util --mark-spiders, then I have 1234 -isBot:true, 500 isBot:true, 1734 documents total</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

@@ -1,0 +1,192 @@
+<span class="irc-date">[5:10]</span> <span class="irc-green">* grahamtriggs (n=trig01@195.128.10.96) has joined #duraspace</span><br />
+<span class="irc-date">[7:36]</span> <span class="irc-green">* cwilper (n=cwilper@74-44-156-57.dsl1-erie.roch.ny.frontiernet.net) has joined #duraspace</span><br />
+<span class="irc-date">[7:54]</span> <span class="irc-green">* awoods (n=awoods@pool-71-178-169-240.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[8:16]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[8:55]</span> <span class="irc-green">* bbranan (n=lc@9.159.121.70.cfl.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[9:15]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:58]</span> <span class="irc-navy">* awoods (n=awoods@pool-71-178-169-240.washdc.fios.verizon.net) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[11:16]</span> <span class="irc-navy">* mhwood (i=mwood@mhw.ulib.iupui.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[11:16]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:31]</span> <span class="irc-green">* grahamtriggs (n=trig01@195.128.10.96) has left #duraspace</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-green">* grahamtriggs (n=grahamtr@cpc3-stev1-0-0-cust857.lutn.cable.ntl.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-green">* bradmc (n=bradmc@dhcp-18-111-26-140.dyn.mit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;bradmc&gt; Hi all, we'll get started on a committers meeting in a few minutes.  Topics of interest?  (1.6 Updates, GSoC Updates )</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;bradmc&gt; No other topics?  I can seed a few more ...</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;bradmc&gt; - Should we do something formally to address orphan Jira issues periodically?</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;bradmc&gt; - How would we feel about yet another wiki move, from mediawiki to Confluence?</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;grahamtriggs&gt; +1 for Confluence</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mhwood&gt; I don't know Confluence at all.  TIme to learn, I suppose.</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;kshepherd&gt; same for me</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Same here</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;kshepherd&gt; but I'm +1 for the idea</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;bradmc&gt; <a href="http://fedora-commons.org/confluence/">http://fedora-commons.org/confluence/</a> is a live one you could look at.</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mhwood&gt; *grumble*, I'd almost finished tidying up artifacts of the MoinMoin -&gt; MediaWiki move. :-/</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;stuartlewis&gt; What is the main difference?</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;bradmc&gt; mhwood, yeah, that's the really painful part of considering this.</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;grahamtriggs&gt; One is written in Java, has loads of plugins to do very useful things, good authorization mechanisms, would be excellent for maintaining documentation (and creating Docbook / PDFs from)</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;grahamtriggs&gt; and the other is MediaWiki</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;kshepherd&gt; heh</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;bradmc&gt; Confluence is commercial, from Atlassian, has a wide selection of plugins, plays nice with the Jira and Crowd (single signon access across tools).</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;bradmc&gt; Once you spend a few minutes in one, you feel lots of little positive differences.  I encourage folks to take a look.</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;bradmc&gt; Confluence also makes it easier to have subgroups, tight privilege control over sections, publish up from one domain to another, rename blocks of stuff ...</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;bradmc&gt; The context is that it would be part of an overall DuraSpace strategy to go to one infrastructure supporting multiple projects.</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;grahamtriggs&gt; Does Fedora Commons make use of the Gliffy plugin?</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;stuartlewis&gt; Sounds a sensible move then.</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;bradmc&gt; Dunno.  cwilper or bbranan ?</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;grahamtriggs&gt; Balsamiq Mockups is kind of fun too</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;bradmc&gt; stuartlewis mhwood  only as long as it doesn't create a huge pile of rework.  mdiggory sez a test import went pretty well, but I think if we decide to move forward, we'll want to get more eyes checking on the result.</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;grahamtriggs&gt; <a href="http://www.gliffy.com/confluencePlugin/">http://www.gliffy.com/confluencePlugin/</a></span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;grahamtriggs&gt; <a href="http://www.balsamiq.com/products/mockups">http://www.balsamiq.com/products/mockups</a></span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mhwood&gt; OK, I'm registered at Fedora Commons, will try it out.</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;grahamtriggs&gt; both are free to open source software</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mdiggory&gt; ??? not sure why this didn't "pop up" on my desktop</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;bradmc&gt; Okay, I'll re-ask this question again next week to to check for dissenters, but I think we're on a road to investigate ...</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;grahamtriggs&gt; And Scroll is the plugin that would help greatly with our documentation efforts: <a href="http://www.k15t.com/scroll/">http://www.k15t.com/scroll/</a></span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-brick">* bradmc notices grahamtriggs really hates the idea.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;mdiggory&gt; likewise... I successfully did an import of dspaces mediawiki into a local confluence instance</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mdiggory&gt; the standard wiki syntax ported ok, there is aconfiguration file that allows it to be tuned</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;cwilper&gt; (catching up on discussion)</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mdiggory&gt; challenges were with categories and unconventional linking to files</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mdiggory&gt; some of the table layout style of the Main Page did not port, but I was able to adjust it</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;grahamtriggs&gt; Are there any usage statistics for the Wiki?</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;cwilper&gt; grahamtriggs: Gliffy, yes, go to a page and Add-&gt;Diagram</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;bradmc&gt; Shall we move on to another topic?  Topic proposals?</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;mdiggory&gt; I think if we did do a conversion, maybe we should consider abandoning the "wiki.dspace.org" and redirect to the top level of a confluence instance, rather than trying to map confluence directly into the wiki.dspace.org domain</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;stuartlewis&gt; Would be good to talk about JIRA issue list - try to get it in order for 1.6</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;bradmc&gt; Okay, I had a different take on Jira issues; I'm confident in the ones for 1.6, I'm worried about the ones not associated with any release, many of which were relatively mechanically copied up from Tracker.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;stuartlewis&gt; Yep - thats what I was refering to - get rid of the old stale things, so that the tracker list for 1.6 is clean, and we can see what we're working towards.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mdiggory&gt; isn't that what the voting process was supposed to alleviate? when do unpopular/dead jira tasks go away?</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;bradmc&gt; I notice that on the fedora side, cwilper pretty much drives a conclusion on every issue they get.  We don't have that practice.  (And incidentally, if we find a community driven solution, we'll want to apply it in fedora-land too).</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;bradmc&gt; mdiggory:  exactly.  If we had a policy, we could age some into a "wontfix" or other appropriate state.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mhwood&gt; Old tasks go away when they are resolved.</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mdiggory&gt; Oh, the Poor developer, he passed away, but without resolution, his JIRA tickets lived on forever</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;bradmc&gt; :)  One could make an argument that marking every Tracker import issue with wontfix might drive us towards the correct state - if people reacted.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mdiggory&gt; this is a good point</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;stuartlewis&gt; That would be a good start.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;mdiggory&gt; sounds like we need a JIRA party at the next conference...Foundation buys a drink for every resolved ticket?</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;grahamtriggs&gt; one significant issue with the Jira migration is that it doesn't seem to note who originally reported the issue</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;bradmc&gt; On a related note, the Foundation is soliciting donations ...</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;mdiggory&gt; So we the JIRA party needs sponsors then!</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;stuartlewis&gt; Would be good to do it sooner rather than later - start as we mean to go on. Could we hold a special IRC meeting (tell everyone up front what we are doing and invite them along) and have a quick fire 1 minute per issue meeting?</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;bradmc&gt; grahamtriggs: we can look into having that fixed by an intern -&gt; for those cases that the reporter has created a jira account.</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;bradmc&gt; stuartlewis:  1 minute per issue  +1</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;mdiggory&gt; how many issues?</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;stuartlewis&gt; Oustanding = 85</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;grahamtriggs&gt; Even if they haven't already got a Jira account, a comment could be added to the issue, and we could actively encourage the reporter to get an account</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;bradmc&gt; All at once, or as a periodic IRC meeting;  we'd need a few up front, but then on a monthly or quarterly cycle?</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;stuartlewis&gt; maybe all at once to get our house in order, then monthly?</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;cwilper&gt; When migrating from sf to jira, we had to do some custom jelly scripts to retain old info from sf.  When there was no logical place in jira to put the data, it just went into a new comment, with a link back to the original tracker item.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mhwood&gt; +1 periodic</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;bradmc&gt; grahamtriggs:  They should all be attributed back to the original Tracker, we could get the names in to.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;grahamtriggs&gt; ideally, we need each issue 'owned' before we start "won't fix"ing them, so that someone gets alerted to the fact that it's happened</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;bradmc&gt; to = too.</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;stuartlewis&gt; And when we agree to 'won't fix' we need to assin each to someone to write the explanation why we won't fix.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;bradmc&gt; "wontfix:  Can't find the owner"  &lt;evil grin&gt;</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; seems as though we would want to add those original reports as a cc?</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;bradmc&gt; cc: +1</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mdiggory&gt; they can create accounts if they are interested in the ticket when they get notified its been labeled "wont fix"</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;bradmc&gt; That can be accomplished using the existing comments referencing the SF tickets.</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-navy">* bbranan (n=lc@9.159.121.70.cfl.res.rr.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;mdiggory&gt; should the original S.F. tickets go away?</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;cwilper&gt; if you require login to submit a ticket, jira can auto-email the submitter (or assignee, or anyone who signs up to watch the issue) when state changes.</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;grahamtriggs&gt; referencing Brad's comment, I'll agree that in this case imperfect action is definitely preferable to no action. But it's worth noting anything imperfect, in case anyone has a bright idea.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;mdiggory&gt; cwilper: right, but I think we are talkng about tickets that came from SF without an existing JIRA account</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;cwilper&gt; ahh</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;bradmc&gt; Wrapping up then:  We have periodic "orphan jira issue reviews" in IRC.  We time bound them for sanity.  If we find an issue we want to 'wontfix' without an owner, we look up the original SF tracker entry and cc that address.  For Jira issues that we review, we close out the original S.F. tickets.  That sound about right?</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mdiggory&gt; I think Brad just said we have the original submitters email in the ticket description</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;bradmc&gt; mdiggory, not the email, but the SF ticket.</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mhwood&gt; bradmc:  sounds good to me.</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;stuartlewis&gt; OK. When's the first JIRA party?</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mdiggory&gt; Ok. that'd probably take a minute per ticket just to do, a person could be delegated that role in the JIRA meeting</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;bradmc&gt; Yes, I'd look to get a little admin support on that aspect.  I think foundation can manage that.</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;mdiggory&gt; GO Foundation!</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;bradmc&gt; Next topic?</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;stuartlewis&gt; 1.6?</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-brick">* bradmc gives stuart the gavel</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;stuartlewis&gt; Batch editing is now in place in svn, via CLI or JSPUI. Kim has said he hopes to find time to look at the XMLUI.</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;stuartlewis&gt; MIT are also contrbuting to this effort with a batch update tool.</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;stuartlewis&gt; mhwood: How are things progressing with stats?</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mhwood&gt; Still hoping for some discussion of what the solution should look like.</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mdiggory&gt; 1.6 @mire Statistics work has been progressing and we could use some comments on UsageEvent and LoggerService / ReportingService API's that are coming in.</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mdiggory&gt; I've supplied a patch for Usage event in JIRA that needs comment</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: they're available now?</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mdiggory&gt; parts are available under /svn/repos/modules</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mdiggory&gt; dspace-solr, dspace-solr-stats are backend and client api</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;stuartlewis&gt; Do we have a 'prefered solution' or 'prefered stats architecture' worked out yet for 1.6?</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;mdiggory&gt; Still have alternative ideas around USageEvent and LoggingService API's we should discuss</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;grahamtriggs&gt; stuartlewis: we have more than one ;)</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: is right and we are trying to be inclusive</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; "dspace-services" is a prototype of utilizing dspace 2.0 like serivces to access a LoggingService and ReportingService API</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; from within dspace User Interfaces</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; preparing to release some wiki notes on this stuff</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mdiggory&gt; I've reviewed Minho's hooks into dspace-api,xmlui,jspui around UsageEvent and think there are good points for adoption of those hooks though in somecases, those events may be questioned</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;stuartlewis&gt; Sounds good - but would be good to be able to document at least one solution that can be almost seen as -out-the-box for people who want an easy life and installation.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mdiggory&gt; some events are state changes rather than just access</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;stuartlewis&gt; Do we want to bring the Minho guys in on this (are they already?) so that we can make sure their solution stays compatible?</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;mhwood&gt; I recall that state change has its own event bus but may be lackig a few instrumentation points?</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;mdiggory&gt; stuartlewis: I think this is an example of where multiple community solutions can drive the creation of the appropriate DSpace services/plugins</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;stuartlewis&gt; +1, so I think we need to get the mino guys involved, so that we don't have a modular solution with one one working module. if they are interested that is.</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;mdiggory&gt; I would follow along with such an activity</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;kshepherd&gt; sounds good</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-brick">* stuartlewis apologises for his rubbish typing this morning</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;stuartlewis&gt; So wherenext with stats?</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;stuartlewis&gt; Is there anythign we can be helping out with, or getting other people involved with?</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;mdiggory&gt; @mire will be working on some of its ReportingService implementation, the plan is to make a delivery point that is more ReportingService centric in the UI's (a portlet of sorts)</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mdiggory&gt; Need feedback on parts that will apply to dspace-api, dspace-xmlui and dspace-jspui etc</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;mdiggory&gt; which are primarily "hooks"</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;stuartlewis&gt; OK - keep us all in the loop then and we'll contribute where we can.</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;stuartlewis&gt; Anyone know how embargoes are progressing?</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;mdiggory&gt; need feedback and discussion around <a href="https://scm.dspace.org/svn/repo/modules/dspace-services/trunk/">https://scm.dspace.org/svn/repo/modules/dspace-services/trunk/</a></span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;mdiggory&gt; Really, this is where there is a convergence between 2.0 activities and 1.6 activities, one of those possible "stepping stones" I alluded to previously</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;mdiggory&gt; dspace-services is a torn down version of the DSpace 2.0 ServiceManager backed by the PluginManager with a configuration service and the two prototpye LoggingService and ReportingService api's</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;bradmc&gt; We're at the end of our nominal hour, so I won't drive any new topics.  However, as this channel is logged, there is no reason that interested parties can't go on as long as they like.  I'll attempt a summary email in the next day or two, including last week's mtg.</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;mdiggory&gt; Ok, there are some comments about 2.0 in relation to the community I'd like to bring to light</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;kshepherd&gt; what was the final word on this JIRA meeting/rundown?</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;bradmc&gt; I'm going to find a way to make at least an initial Jira issue rundown happen.  I have a little legwork to do first.</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mdiggory&gt; Per 2.0 If you recently paying attention to the commit logs, you noticed there was a lot of reorganization going on</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mdiggory&gt; most of the 2.0 codebase has been folded into the shared "modules" project space</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://scm.dspace.org/svn/repo/modules/">https://scm.dspace.org/svn/repo/modules/</a></span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mdiggory&gt; The intention here is that this space will share implementation of both 1.x and 2.x projects</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mdiggory&gt; and where they converge, there will be but one project with separate branches</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;mdiggory&gt; The recent statistics work is a "poster child" for this intitiative</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;mdiggory&gt;    You also notice a new project in this space:</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://scm.dspace.org/svn/repo/modules/storage-fedora/trunk/">https://scm.dspace.org/svn/repo/modules/storage-fedora/trunk/</a></span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;mdiggory&gt; we anticipate that Andrius' work on dspace/fedora storage will be going here</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;mdiggory&gt; Andrius Blainskas is our GSoC student (krnl_ )</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-green">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit (Read error: 54 (Connection reset by peer))</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;mhwood&gt; It seems we're all wondering how to respond.</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;mdiggory_&gt; I tend to have that effect lately</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;mhwood&gt; I think it's because you understand what it all means and some of us are still working that out.</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-brick">* mdiggory_ levitates off floor and vanishes</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;mdiggory_&gt; ok, maybe something a little lighter to play with...</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-brick">* mdiggory_ pokes hole through his firewall...</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;mdiggory_&gt; <a href="http://76.176.188.83:8080/display/dspace/Main+Page">http://76.176.188.83:8080/display/dspace/Main+Page</a></span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;mdiggory_&gt; for a very short term viewing</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;mdiggory_&gt; results of a one pass import of the dspace wiki into confluence</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;mhwood&gt; Gee, that looks familiar.</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;mhwood&gt; Aside from a few "unable to render embedded object"s it looks good at first glance.</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;mdiggory_&gt; some linking behavior in mediawiki doesn't translate so well</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;mdiggory_&gt; whered you get htat</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;mhwood&gt; <a href="http://76.176.188.83:8080/display/dspace/Statistical+Improvements+for+v1.6">http://76.176.188.83:8080/display/dspace/Statistical+Improvements+for+v1.6</a></span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;mhwood&gt; At the bottom, Leiden University.</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;mdiggory_&gt; ah, yes</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-navy">* bradmc (n=bradmc@dhcp-18-111-26-140.dyn.mit.edu) Quit ()</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory_&gt; looks like resolution of the attechments didn't work that time</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-black">&lt;mdiggory_&gt; no page attachments</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;mhwood&gt; If/when we switch I'll probably put my wiki gnome hat back on and help tidy up brokennesses again.</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;mdiggory_&gt; something to experiment more with...</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;mhwood&gt; Thanks for the peek.  I've stayed too late already, must go.</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-black">&lt;mdiggory_&gt; well, unlike the last time, we could do it "right" this time</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;mdiggory_&gt; which means the conversion would be approved as completed before the old one was taken out</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-black">&lt;mdiggory_&gt; ok... leter</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-black">&lt;mhwood&gt; 'bye all.</span><br />
+<span class="irc-date">[17:33]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;stuartlewis&gt; mdiggory_: That looks pretty cool - a neat conversion.</span><br />
+<span class="irc-date">[17:46]</span> <span class="irc-black">&lt;mdiggory_&gt; thx, I was able to do the extraction in just a couple hrs. I will spend a little time researching the configuration and see why the files did not import</span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-navy">* grahamtriggs (n=grahamtr@cpc3-stev1-0-0-cust857.lutn.cable.ntl.com) Quit ()</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-navy">* stuartlewis (n=stuartle@gendig21.lbr.auckland.ac.nz) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-green">* stuartlewis (n=stuartle@gendig21.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[22:14]</span> <span class="irc-navy">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit ()</span><br />
+<span class="irc-date">[22:47]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:50]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />

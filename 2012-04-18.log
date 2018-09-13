@@ -1,0 +1,177 @@
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:223:dfff:fefe:ac7d) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:223:dfff:fefe:ac7d) has joined #duraspace</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-navy">* vtkeithg (~vtkeithg@2001:468:c80:a103:41e7:ca94:54ec:46d6) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-green">* vtkeithg (~vtkeithg@2001:468:c80:a103:6813:99bd:98d4:4486) has joined #duraspace</span><br />
+<span class="irc-date">[19:01]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder that at the top of the hour, we have our DSpace Devel meeting here : <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-18</a></span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* kompewter (~kompewter@sul272sandbox.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-green">* keithgilbertson (a6f82502@gateway/web/freenode/ip.166.248.37.2) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's that time again.  DSpace Developer Meeting starts now. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-18</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-04-18 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-18</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; We'll kick off things as usual with JIRA reviews.  <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-986+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-986+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-986">https://jira.duraspace.org/browse/DS-986</a> ] - [#DS-986] Multiple &amp;#39;Create&amp;#39; clicks creates multiple communities/collections - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-986+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-986+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; starting off with DS-986</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-986">https://jira.duraspace.org/browse/DS-986</a> ] - [#DS-986] Multiple &amp;#39;Create&amp;#39; clicks creates multiple communities/collections - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* PeterDie_ is now known as PeterDietz</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;mdiggory&gt; shouldn't continuations stop this from happening?</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; good question. To be honest, I don't know.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* sands (~sandsfish@18.189.87.190) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; I do like the suggestion for the "simple answer" though.  It seems reasonable that we disable the button after it's clicked</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; (talking about Ds-986 for those who just joined us)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; anyone want to volunteer to investigate DS-986 and fix as needed?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-986">https://jira.duraspace.org/browse/DS-986</a> ] - [#DS-986] Multiple &amp;#39;Create&amp;#39; clicks creates multiple communities/collections - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; hearing no volunteers?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mdiggory&gt; trying to view the video</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; I'll check it out</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  Assign Ds-986 to hpottinger for investigation</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; (thanks hpottinger!)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-992</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-992">https://jira.duraspace.org/browse/DS-992</a> ] - [#DS-992] Browse by author or subject with special characters - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; looks like the fix for Ds-992 is specified in the first comment</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; anyone want to take a look &amp; commit it to GitHub?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; IIRC the 1-argument form is deprecated anyway.  Probably for this reason.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; oh, I see, the one-argument form of URLEncoder.encode() is deprecated.  I didn't quite understand that at first</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  Anyone here want to look into this one &amp; verify at least?   (Though not sure if anyone here is using JSPUI these days)</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; yea, thats been a bad method for years, feel like they should have dropped it entirely in java</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;aschweer&gt; I'll take it</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; ok, assign Ds-992 to aschweer -- thanks aschweer!</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; Next up, DS-994</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-994">https://jira.duraspace.org/browse/DS-994</a> ] - [#DS-994] Add allow/deny rules for self-registration in the simple password authentication module - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; oh, this one is already claimed by hpottinger... any feedback you need, hardy?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; two related issues need addressing first</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; DS-1006 and DS-1007</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1006">https://jira.duraspace.org/browse/DS-1006</a> ] - [#DS-1006] authorizations via SpecialGroups methods are not properly created if an existing ePerson is found - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1007">https://jira.duraspace.org/browse/DS-1007</a> ] - [#DS-1007] AuthenticationManager.canSelfRegister is problematic with stacked authentication modules - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; actually, just 1007 is standing in the way of 994</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; ugh.  yea, that seems wrong (what is described in Ds-1007).  Is there a way to easily clean up that loop, so that canSelfRegister doesn't work that way?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; where is AuthenitcationManager.canSelfRegister() used outside the AuthenticationMethods?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; just for delivering the UI link to Register?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; Guess I'm thinking about the fact that, at least in the XMLUI, different authentication methods should probably be their own aspects.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; So if you want PAsswrod Authentication / Registration, you enable that aspect, if you don't you disable it</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;sands&gt; let's be careful about putting auth logic into the UI layer though.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; No, its not in the UI layer</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; just the presentation of neccessary actions and views</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; No, but that would put it in the "how many places do we have to fix this" layer.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; auth logic still in method... its the business tier</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; ???</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; +1 sands &amp; mhwood.  That seems to unnecessarily complicate how you enable/disable Shibb (or any other auth plugin).  Now you'd also have to go enable it in the XMLUI aspects</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; sigh... totally disagree.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;sands&gt; perhaps a flag than any given UI could respond to… but i digress.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; also in XMLUI, it looks like the 'register' link may be controlled by config 'xmlui.user.registration=true' and not by "canSelfRegister()"</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; (that's the 'register' UI link)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; we regualarly need to create our own authentication aspects to manage custom authenication cases (CAS, Shib, ...)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; otherwise you need to alter the default sitemaps and admin sitemaps just to enable the new functionality.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; this is relevant, too: <a href="https://jira.duraspace.org/browse/DS-367">https://jira.duraspace.org/browse/DS-367</a></span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-367">https://jira.duraspace.org/browse/DS-367</a> ] - [#DS-367] processing of Authentication methods is independent of the chosen Login method (when multiple are available) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-367] processing of Authentication methods is independent of the chosen Login method (when multiple are available) - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-367">https://jira.duraspace.org/browse/DS-367</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;sands&gt; (mdiggory: perhaps more of a UI implementation problem than a system architecture one)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; why are there multiple login forms wjen we have stacked auth?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; Because different authentications methods require different parameters/headers/so-on</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mdiggory&gt; LDAP may use a realm / or not, and realm is nonsensical for basic password auth</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; so basically another form field besides login/password?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Maybe the proper question is the other way 'round:  why do we have stacked auth methods when the user is supposed to choose one?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; from our experience, this is where many customizations start to happen.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; mdiggory: BTW for the particular case of LDAP we have LDAPHierarchicalAuth, so there's no need to manualy enter realm</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; mdiggory: what other auth methods require additional fields?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood  - if the user actually *chooses* an auth method, it seems reasonable that they should only use that auth method (and not everyone in the stack)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; err "everything in the stack" I mean</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; I think maybe the underlying problem for several of these is that we don't really want them stacked; we want alternates.  You choose one, one gets called.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; as for Ds-1007, I think we need to be able to tell CanSelfRegister what method we're asking about</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: Its mostly because of combining methods such as password and IP</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;sands&gt; mm, mhwood, i see your point, but there are cases where the addative nature of the stack is nice (conditionally adding users to groups for instance, based on something other than auth criteria.)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; Do people combine those?  What would that mean?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mdiggory&gt; I may login from my campus desktop and get more permissions, but with IP based auth, the computer I'm at may already have special group mappings I do not get from off campus</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;sands&gt; right, essentially what mdiggory says.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; aha.  yea, that's a good point mdiggory</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; That's conflating authentication and authorization, surely?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;sands&gt; perhaps though, that's an argument to split authorization out from authentication.  #architecturedeepend</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: cha ching</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;sands&gt; mhwood: yes, i think in practice the two are conflated regularly in dspace.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; mdiggory: what other auth methods require additional fields?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; +1 sands (both comments).  Unfortunately the AuthenticationPlugins also do some authorization by adding people to "specialGroups"</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; it's a not-so-good design that's been around for too long</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; So, authorization can combine different sources of information, but you can only sensibly authenticate from one source at a time, no?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:223:dfff:fefe:ac7d) has left #duraspace</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; correct, mhwood.  IPAuthentication is actually more like "IPAuthorization" -- it actually doesn't support authentication</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;sands&gt; mhwood, i think that's sound thinking.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; perhaps IPAuthentication is really just IPAuthorization</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;sands&gt; sounds right from what i remember.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory &amp; I think alike (scary) ;)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; yikes</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; DS-1007 and DS-1088 are pretty similar (same logic problem)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1007">https://jira.duraspace.org/browse/DS-1007</a> ] - [#DS-1007] AuthenticationManager.canSelfRegister is problematic with stacked authentication modules - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1088">https://jira.duraspace.org/browse/DS-1088</a> ] - [#DS-1088] AuthenticationManager.allowSetPassword is problematic with stacked authentication modules - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; So, in reality, our "Authentication Stack" is really a combined stack of Authentication methods &amp; Authorization methods (like IPAuth)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; (which is part of the issue here, I believe)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; (or at least one of the underlying issues #architectureDeepEnd)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;sands&gt; is there a larger conversation here than can be had in between JIRA tickets?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; It's not unreasonable to have one plugin doing both, but we need to keep clear which is which and not allow the code to do things to authn that only make sense in authz and vice versa.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; It looks to me as though authn methods should not stack but authz methods can.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;sands&gt; mhwood: that sounds right.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; it's possible to stack authn methods as long as they share the same fields</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; No, "stack" here means that each makes a contribution to the session.  What would that mean in authn, where the contribution is Yes or No?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mdiggory&gt; in almost all cases, outside of form based authn, access to the http request or servlet User Principal is needed is needed to complete authn.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; so, in addition to AuthNmanager, we need an AuthZmanager</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-brick">* tdonohue is conscious that we seem to be going off the Architectural Deep End</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;sands&gt; all:  i unfortunately have to duck out, but don't want to miss anything important on the 3.0 front.  i'd like to +1 tim's suggestion on the agenda that we have a special topics meeting on early 3.0 ideas.  i think there's a lot to talk about there, esp. with a full point release and all it could encompass.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; Yes, going deep, but I feel that if we sort out the authn/authz issues then several JIRAs will become easier to address.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; I like the concept that perhaps AuthN shouldn't stack (esp. if you are choosing one), whereas AuthZ should stack (likely always)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; but, that being said, not sure if there's a valid use case here we'd be missing.  So, we may need to think on this more and bring discusison elsewhere? (maybe dspace-devel? or one of these tickets?)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I see some agreement that something should be done, but need of time to go off and think about the "somethings".</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; +1 -- if anyone comes up with brainstorms/ideas, I say we start up a thread on dspace-devel, and then we can start to build a proposal of "what to do" from that</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; ok. with that, I'm gonna close out JIRA discussion. Obviously there's a lot of tickets here that require some AuthN / AuthZ talk.  If need be, we can always do a "special topic meeting" to dig in deeper -- but, let's brainstorm more on dspace-devel first.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; just to finish off with an example</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://circle.ubc.ca/login">https://circle.ubc.ca/login</a></span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;kompewter&gt; [ Choose a Login Method ] - <a href="https://circle.ubc.ca/login">https://circle.ubc.ca/login</a></span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; Register could be centralized into  cIRcle login "aspect"</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; Just to add to the fun:  methods like LDAP and Shib can also provide identity data (group membership, email, etc).</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; yep.  mhwood -- in fact, they do just that.  They both do both AuthN &amp; AuthZ already (IIRC)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; so that if disabled, so would register, likewise, parameterized so that it is hidden for section as well</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: that is true and we do use it.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  need to move on here.  we've spent 30+ mins on this one topic</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; CAS validation as well does this</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;sands&gt; cheers all</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-navy">* sands (~sandsfish@18.189.87.190) Quit (Quit: sands)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; FYI: I'll be out of the office next week.  So, I'd like to find a volunteer to lead next week's DSpace Developers Meeting, as I'll be unable to attend.  Anyone interested?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; hearing none, I'd suggest you still "self-organize" (if there's enough folks that show up) and do some quick JIRA reviews OR even followup on this AuthN/AuthZ discussion, if you wish</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; On to 3.0 Planning... We seem to be moving very slowly so far in discussion / planning for 3.0.  The Release Team is starting to "self-organize" (which is great!), but we really need to start to nail down what the Committers want to see in 3.0</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; So, I was curious if others would be interested in having a "3.0 Planning" Special Topics Meeting in a few weeks or so, hopefully even via Skype (Voice only)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; was thinking either May 2 or May 9, during the same time as this meeting</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;hpottinger&gt; either of those dates works for me</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mhwood&gt; 9th might be difficult here.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; well, if folks like the idea, we could also try and get a day/time nailed down via email.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;aschweer&gt; (sorry, need to go to work -- bye all!)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; Anything else anyone wants to bring up with 3.0 stuff?  Brainstorms / Ideas?   Feel free to also point your brainstorms to dspace-devel or dspace-commit to "get the ball rolling" as need be.  So far it's been rather "quiet" in terms of 3.0 :)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; Last thing to mention is GitHub stuff.  Not sure if anyone has had a chance to read/think about Git Development Models (see the 'dspace-devel' thread I started).  Would be good to start to plan out some (very simple) "best practices", just to again "get the ball rolling" with how we'd like to interact with Git/GitHub</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; dspace-devel thread: <a href="http://www.mail-archive.com/dspace-devel@lists.sourceforge.net/msg08665.html">http://www.mail-archive.com/dspace-devel@lists.sourceforge.net/msg08665.html</a></span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kompewter&gt; [ [Dspace-devel] DSpace + Git Development model ] - <a href="http://www.mail-archive.com/dspace-devel@lists.sourceforge.net/msg08665.html">http://www.mail-archive.com/dspace-devel@lists.sourceforge.net/msg08665.html</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; I've also updated the NetBeans IDE instructions to include Git stuff: <a href="https://wiki.duraspace.org/display/DSPACE/IDE+Integration+-+DSpace+and+NetBeans">https://wiki.duraspace.org/display/DSPACE/IDE+Integration+-+DSpace+and+NetBeans</a>  (Could use volunteers to do the same for IDEA &amp; Eclipse, as I don't have much recent experience with either)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kompewter&gt; [ IDE Integration - DSpace and NetBeans - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/IDE+Integration+-+DSpace+and+NetBeans">https://wiki.duraspace.org/display/DSPACE/IDE+Integration+-+DSpace+and+NetBeans</a></span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; That's pretty much all I have today. Things have gotten a bit quiet here though (feel like I'm talking to myself) :)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; I was looking over the NetBeans update.  Looks good.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; Thanks, tdonohue, everyone, I've got to run, bye!</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mdiggory&gt; special topics meeting sounds good.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Yes, special 3.0 topic sounds good.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; If anyone has anything else to add / discuss, feel free.  We can consider the "official meeting" closed, but can continue any discussions as need be.  I'll be around for a bit, at least.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; excellent.  glad to hear others agree on the 3.0 topic meeting</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; I need to go.  Thanks, all!</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has left #duraspace</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-navy">* keithgilbertson (a6f82502@gateway/web/freenode/ip.166.248.37.2) Quit (Quit: Page closed)</span><br />

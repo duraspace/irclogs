@@ -1,0 +1,94 @@
+<span class="irc-date">[4:25]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-kornbluth.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-kornbluth.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:12]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-green">* scottatm (~scottatm@voyager126.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:33]</span> <span class="irc-green">* ajs6f (89361156@gateway/web/freenode/ip.137.54.17.86) has joined #duraspace</span><br />
+<span class="irc-date">[14:35]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:10ab:218:8bff:fe2a:56a4) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[14:36]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-green">* fas[fiz] (d5a553b6@gateway/web/freenode/ip.213.165.83.182) has joined #duraspace</span><br />
+<span class="irc-date">[14:47]</span> <span class="irc-black">&lt;fas[fiz]&gt; hola! this is frank, and i thought id listen in on th fedora metting today..</span><br />
+<span class="irc-date">[14:49]</span> <span class="irc-green">* JiriKremser (~JiriKrems@ip-94-113-96-194.net.upcbroadband.cz) has joined #duraspace</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-green">* cwilper (4a2e47b5@gateway/web/freenode/ip.74.46.71.181) has joined #duraspace</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-black">&lt;cwilper&gt; Starting in a couple minutes: <a href="https://wiki.duraspace.org/display/FCREPO/2011-07-05+-+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-07-05+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-black">&lt;kompewter&gt; [ 2011-07-05 - Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2011-07-05+-+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-07-05+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-green">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-green">* eddies (~eddies@46.115.114.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-navy">* eddies (~eddies@46.115.114.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;eddies&gt; fedora committer mtg starting</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;eddies&gt; Agenda: <a href="https://wiki.duraspace.org/display/FCREPO/2011-07-05+-+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-07-05+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;kompewter&gt; [ 2011-07-05 - Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2011-07-05+-+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-07-05+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-green">* birkland (183a31ec@gateway/web/freenode/ip.24.58.49.236) has joined #duraspace</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;cwilper&gt; ajs6f: joining the call?</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;JiriKremser&gt; Available options (2nd half of page): <a href="https://wiki.duraspace.org/display/GSOC/MTOM+Support+on+the+WSDL+Level">https://wiki.duraspace.org/display/GSOC/MTOM+Support+on+the+WSDL+Level</a></span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kompewter&gt; [ MTOM Support on the WSDL Level - Google Summer of Code - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/GSOC/MTOM+Support+on+the+WSDL+Level">https://wiki.duraspace.org/display/GSOC/MTOM+Support+on+the+WSDL+Level</a></span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;JiriKremser&gt; can you hear me?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;JiriKremser&gt; yes it is :]</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;JiriKremser&gt; sry for dificulties, my mic should be ok, but it is not working :[</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;JiriKremser&gt; yes, that is true. However, there exist similar implementation of the "router pattern" in Metro stack</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;JiriKremser&gt; JAX-RS is part of CXF and this pattern is not needed for REST API, because the MTOM does not make any sense in the "REST world", imho</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;JiriKremser&gt; *this pattern = "router pattern"</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;ajs6f&gt; I'm on IRC&lt; but in a meeting, so no Skype.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;JiriKremser&gt; ..or they can be easily solved by url path... for example "<a href="http://server/api_version/some_resource/..."">http://server/api_version/some_resource/..."</a></span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;JiriKremser&gt; i am ok :]</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;JiriKremser&gt; git</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;JiriKremser&gt; yes</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;JiriKremser&gt; well, I have some changes locally on my computer so far</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;JiriKremser&gt; yes it is fork of official repo.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;JiriKremser&gt; ok</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;JiriKremser&gt; ok, thank you</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;birkland&gt; <a href="https://github.com/fcrepo/trippi/commit/229cf6a71f7705c57a097b19fa6397762392b656">https://github.com/fcrepo/trippi/commit/229cf6a71f7705c57a097b19fa6397762392b656</a></span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;kompewter&gt; [ Commit 229cf6a71f7705c57a097b19fa6397762392b656 to fcrepo/trippi - GitHub ] - <a href="https://github.com/fcrepo/trippi/commit/229cf6a71f7705c57a097b19fa6397762392b656">https://github.com/fcrepo/trippi/commit/229cf6a71f7705c57a097b19fa6397762392b656</a></span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;sbayliss&gt; <a href="https://wiki.duraspace.org/display/FCREPO/Fedora+3.5+Testing">https://wiki.duraspace.org/display/FCREPO/Fedora+3.5+Testing</a></span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora 3.5 Testing - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/Fedora+3.5+Testing">https://wiki.duraspace.org/display/FCREPO/Fedora+3.5+Testing</a></span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-navy">* ajs6f (89361156@gateway/web/freenode/ip.137.54.17.86) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-green">* JiriKremser (~JiriKrems@ip-94-113-96-194.net.upcbroadband.cz) has left #duraspace</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;fas[fiz]&gt; <a href="http://tomcat.apache.org/migration.html#Migrating_from_5.5.x_to_6.0.x">http://tomcat.apache.org/migration.html#Migrating_from_5.5.x_to_6.0.x</a></span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;kompewter&gt; [ Apache Tomcat - Migration Guide ] - <a href="http://tomcat.apache.org/migration.html#Migrating_from_5.5.x_to_6.0.x">http://tomcat.apache.org/migration.html#Migrating_from_5.5.x_to_6.0.x</a></span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;fas[fiz]&gt; heh</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;fas[fiz]&gt; this moight be related:     As a result of the modification of the directory structure, the common, shared and server classloaders have been merged into one. Effectively, the shared and server classloaders are not configured by default and the common classloader is mapped to the lib directory, as described above.      This behavior and structure can be modified using the conf/catalina.properties file.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;eddies&gt; not here: <a href="http://www.orafaq.com/wiki/JDBC">http://www.orafaq.com/wiki/JDBC</a> =)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;kompewter&gt; [ JDBC - Oracle FAQ ] - <a href="http://www.orafaq.com/wiki/JDBC">http://www.orafaq.com/wiki/JDBC</a></span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;birkland&gt; <a href="http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-faq-090281.html#02_12">http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-faq-090281.html#02_12</a></span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Oracle JDBC Frequently Asked Questions ] - <a href="http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-faq-090281.html#02_12">http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-faq-090281.html#02_12</a></span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;birkland&gt; :)</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;barmintor&gt; integration tests passed, fwiw.  On to the merging...</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;fas[fiz]&gt; i could scrape off some time from FIZ to do some jetty testing. Is there a special checklist or sth or would i just go on installing/ingesting and such?</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;barmintor&gt; did a quick rebuilder check on the local branch, timeout problem appears to be fixed</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;barmintor&gt; running integration tests on merged branch</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;cwilper&gt; <a href="https://wiki.duraspace.org/display/DSDOC/DSpace+Documentation">https://wiki.duraspace.org/display/DSDOC/DSpace+Documentation</a></span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Documentation - DSpace Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC/DSpace+Documentation">https://wiki.duraspace.org/display/DSDOC/DSpace+Documentation</a></span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;cwilper&gt; default "documentation style" for confluence...we may want to switch to as part of Fedora 3.5 doc effort</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;barmintor&gt; bamboo build in progress</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-navy">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-navy">* fas[fiz] (d5a553b6@gateway/web/freenode/ip.213.165.83.182) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[18:31]</span> <span class="irc-navy">* cwilper (4a2e47b5@gateway/web/freenode/ip.74.46.71.181) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[18:32]</span> <span class="irc-navy">* barmintor (barmintor@specdl11.cul.columbia.edu) Quit ()</span><br />
+<span class="irc-date">[18:55]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* yegeniy (d069432e@gateway/web/freenode/ip.208.105.67.46) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-green">* mhwood1 (~mhwood@2001:18e8:3:10ab:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;yegeniy&gt; hello, I was wondering if someone could point me in the right direction for using a DSpace instance directly through the Java DSpace API, instead of accessing DSpace through the XMLUI interface.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; yegeniy: you might be better off using something like the REST API (which is still very new, alpha level code): <a href="https://wiki.duraspace.org/display/DSPACE/REST+API">https://wiki.duraspace.org/display/DSPACE/REST+API</a>     The DSpace Java API can be called directly, but you must be very Java savvy to build an entirely new application on top of it.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;kompewter&gt; [ REST API - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/REST+API">https://wiki.duraspace.org/display/DSPACE/REST+API</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;yegeniy&gt; tdonohue: Thank you. We've looked into the REST API (and it's pretty good) as well as the SRW/U implementation for DSpace</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; yegeniy: If you wanted to build a new application on the Java API, you may want to look at one of the existing web applications (XMLUI or JSPUI or similar) for example code on how to perform various tasks in the Java API, et</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;yegeniy&gt; that's a great idea</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;yegeniy&gt; We're using dspace as a database, and in order to query it, need to know about some custom metadata fields</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-navy">* birkland (183a31ec@gateway/web/freenode/ip.24.58.49.236) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;yegeniy&gt; I'll check out XMLUI's source</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;yegeniy&gt; thanks</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* mhwood1 (~mhwood@2001:18e8:3:10ab:218:8bff:fe2a:56a4) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-navy">* yegeniy (d069432e@gateway/web/freenode/ip.208.105.67.46) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has left #duraspace</span><br />

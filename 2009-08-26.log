@@ -1,0 +1,136 @@
+<span class="irc-date">[0:30]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit ()</span><br />
+<span class="irc-date">[0:47]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-1-145-78.clt.bellsouth.net) Quit (Read error: 110 (Connection timed out))</span><br />
+<span class="irc-date">[2:37]</span> <span class="irc-green">* ClaudiaJuergen (n=Miranda@pc5102.ub.uni-dortmund.de) has joined #duraspace</span><br />
+<span class="irc-date">[2:37]</span> <span class="irc-black">&lt;ClaudiaJuergen&gt; good morning all</span><br />
+<span class="irc-date">[6:18]</span> <span class="irc-green">* grahamtriggs (n=trig01@195.128.10.96) has joined #duraspace</span><br />
+<span class="irc-date">[7:42]</span> <span class="irc-green">* awoods_ (n=awoods@pool-72-83-142-207.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[7:50]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[8:31]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[8:54]</span> <span class="irc-green">* cbeer (n=cbeer@204.152.12.166) has joined #duraspace</span><br />
+<span class="irc-date">[8:56]</span> <span class="irc-black">&lt;ClaudiaJuergen&gt; hometime, bye</span><br />
+<span class="irc-date">[8:57]</span> <span class="irc-navy">* ClaudiaJuergen (n=Miranda@pc5102.ub.uni-dortmund.de) Quit ("Miranda IM! Smaller, Faster, Easier. <a href="http://miranda-im.org")">http://miranda-im.org")</a></span><br />
+<span class="irc-date">[9:12]</span> <span class="irc-green">* ksclarke (n=kevin@ip-152010148147.library.appstate.edu) has joined #duraspace</span><br />
+<span class="irc-date">[9:51]</span> <span class="irc-green">* ben_atmire (n=ben_atmi@213.219.159.242.res.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[9:59]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 54 (Connection reset by peer))</span><br />
+<span class="irc-date">[10:06]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:57]</span> <span class="irc-green">* tdonohue (i=80ae241d@gateway/web/freenode/x-jsalgnpeejvdzpgm) has joined #duraspace</span><br />
+<span class="irc-date">[11:59]</span> <span class="irc-navy">* scottatm (n=scottatm@peat.evans.tamu.edu) Quit ()</span><br />
+<span class="irc-date">[12:00]</span> <span class="irc-black">&lt;bradmc&gt; Hi folks,  Dspace committers mtg in a few minutes.</span><br />
+<span class="irc-date">[12:00]</span> <span class="irc-black">&lt;bradmc&gt; Topics of interest this week?</span><br />
+<span class="irc-date">[12:01]</span> <span class="irc-black">&lt;ben_atmire&gt; Hello bradmc, I would like to talk a bit about the OAI request from Driver</span><br />
+<span class="irc-date">[12:03]</span> <span class="irc-green">* rrodgers (n=rrodgers@pool-173-76-16-252.bstnma.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:04]</span> <span class="irc-black">&lt;grahamtriggs&gt; Not really a DSpace topic, but this might interest Brad... <a href="http://www.theregister.co.uk/2009/08/26/amazon_virtual_private_cloud/">http://www.theregister.co.uk/2009/08/26/amazon_virtual_private_cloud/</a></span><br />
+<span class="irc-date">[12:04]</span> <span class="irc-black">&lt;bradmc&gt; Yep, I saw that direct from amazon.  Thanks.</span><br />
+<span class="irc-date">[12:05]</span> <span class="irc-black">&lt;bradmc&gt; Ben, would you like to go ahead and get started, and then we'll  see if we get other topic nominations from the floor.</span><br />
+<span class="irc-date">[12:05]</span> <span class="irc-black">&lt;ben_atmire&gt; ok</span><br />
+<span class="irc-date">[12:05]</span> <span class="irc-black">&lt;ben_atmire&gt; you probably still remember the original issue</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-black">&lt;ben_atmire&gt; which was also placed on the wiki at <a href="http://wiki.dspace.org/index.php/DSpaceOAISets">http://wiki.dspace.org/index.php/DSpaceOAISets</a></span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-black">&lt;ben_atmire&gt; I've been talking a bit with Chris Wilper about integrating the fedora proai solution into DSpace</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-black">&lt;ben_atmire&gt; and I've created a draft implementation that realizes just that</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-brick">* grahamtriggs doesn't need the implication of being on the floor, after spending last week drinking his way through the Edinburgh Fringe...</span><br />
+<span class="irc-date">[12:07]</span> <span class="irc-black">&lt;ben_atmire&gt; what I got out was a solution which still uses the existing oai configuration file</span><br />
+<span class="irc-date">[12:07]</span> <span class="irc-black">&lt;ben_atmire&gt; and the existing crosswalk implementations</span><br />
+<span class="irc-date">[12:08]</span> <span class="irc-black">&lt;ben_atmire&gt; without having to alter any of the existing DSpace code</span><br />
+<span class="irc-date">[12:08]</span> <span class="irc-black">&lt;ben_atmire&gt; just by adding in new code</span><br />
+<span class="irc-date">[12:08]</span> <span class="irc-black">&lt;ben_atmire&gt; the solution can offer the current OAI implementation, and the proai implementation simultaneously</span><br />
+<span class="irc-date">[12:08]</span> <span class="irc-black">&lt;ben_atmire&gt; in one or two webapps</span><br />
+<span class="irc-date">[12:09]</span> <span class="irc-black">&lt;bradmc&gt; Sounds promising.  I assume the next question is how / where / when to package the code, particularly around 1.6?</span><br />
+<span class="irc-date">[12:10]</span> <span class="irc-black">&lt;rrodgers&gt; also - does the proai handle our DRIVER set issue?</span><br />
+<span class="irc-date">[12:10]</span> <span class="irc-black">&lt;bradmc&gt; (Not expecting Stuart today, BTW; he was here at 6am yesterday, and it's 4am now)</span><br />
+<span class="irc-date">[12:10]</span> <span class="irc-black">&lt;grahamtriggs&gt; ben_atmire: I presume when you say one or two webapps, you mean in addition to the main UI, but then if both OAI implementations can be in one webapp then it should also be possible to combine into the UI webapp as well</span><br />
+<span class="irc-date">[12:10]</span> <span class="irc-black">&lt;ben_atmire&gt; I think if we would offer this as part of 1.6, we need to keep in mind it requires a separate database</span><br />
+<span class="irc-date">[12:11]</span> <span class="irc-black">&lt;ben_atmire&gt; grahamtriggs: I currently have two OAI solutions operational in one webapp</span><br />
+<span class="irc-date">[12:11]</span> <span class="irc-black">&lt;ben_atmire&gt; the default under /request and the new one in /proai</span><br />
+<span class="irc-date">[12:12]</span> <span class="irc-black">&lt;ben_atmire&gt; proai can handle the DRIVER set issue, with a small intervention from the person implementing the DRIVER solution</span><br />
+<span class="irc-date">[12:12]</span> <span class="irc-black">&lt;rrodgers&gt; how is OA content identified?</span><br />
+<span class="irc-date">[12:13]</span> <span class="irc-black">&lt;ben_atmire&gt; there is no standardized way to identify OA content</span><br />
+<span class="irc-date">[12:13]</span> <span class="irc-black">&lt;ben_atmire&gt; that's why it requires the intervention</span><br />
+<span class="irc-date">[12:13]</span> <span class="irc-black">&lt;ben_atmire&gt; it's up to people maintaining the repository to decide on how to identify OA content</span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-black">&lt;rrodgers&gt; agreed, what I thought we needed to provide was a programmatic bridge from that way to an OAI set</span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-black">&lt;ben_atmire&gt; and then add in one line claiming a given item is part of an extra set (separate from the communities and collections)</span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-black">&lt;ben_atmire&gt; this can probably be improved to use plug-ins or something to define those special sets</span><br />
+<span class="irc-date">[12:15]</span> <span class="irc-black">&lt;ben_atmire&gt; I'm reusing the HarvestedItemInfo object in the proai solution</span><br />
+<span class="irc-date">[12:15]</span> <span class="irc-black">&lt;ben_atmire&gt; if the extra set would be added here, proai will take care of all the rest</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-black">&lt;rrodgers&gt; OK thanks - I was trying to find out what the main motive was -(a) and early win for common infrastructure or (b) a DRIVER solution</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-black">&lt;ben_atmire&gt; so if we add in an option to define extra sets given a specific item, we don't need to worry about connecting those sets to a browsable solution, containing deleted records, …</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-black">&lt;rrodgers&gt; sounds like a bit of both</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-black">&lt;ben_atmire&gt; that's why I've been spending some extra time on this solution</span><br />
+<span class="irc-date">[12:19]</span> <span class="irc-black">&lt;ben_atmire&gt; it does come with an extra configuration file, and an extra database :(</span><br />
+<span class="irc-date">[12:19]</span> <span class="irc-black">&lt;ben_atmire&gt; and an extra directory for storing metadata</span><br />
+<span class="irc-date">[12:19]</span> <span class="irc-black">&lt;rrodgers&gt; (so should probably be an add-on then)</span><br />
+<span class="irc-date">[12:19]</span> <span class="irc-black">&lt;bradmc&gt; Yes, add-on.</span><br />
+<span class="irc-date">[12:20]</span> <span class="irc-black">&lt;mhwood&gt; How do the data get into the extra database, then?</span><br />
+<span class="irc-date">[12:20]</span> <span class="irc-black">&lt;ben_atmire&gt; there are a few methods that make the bridge</span><br />
+<span class="irc-date">[12:20]</span> <span class="irc-black">&lt;ben_atmire&gt; proai offers an interface</span><br />
+<span class="irc-date">[12:20]</span> <span class="irc-black">&lt;ben_atmire&gt; and I created a DSpace implementation for that interface</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-black">&lt;ben_atmire&gt; it lists all sets, lists all records, and gives the full metadata for one record</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-black">&lt;ben_atmire&gt; it's actually <a href="http://proai.sourceforge.net/api/proai/driver/OAIDriver.html">http://proai.sourceforge.net/api/proai/driver/OAIDriver.html</a></span><br />
+<span class="irc-date">[12:22]</span> <span class="irc-black">&lt;ben_atmire&gt; so there is a delay between updates of your metadata, and results in OAI</span><br />
+<span class="irc-date">[12:22]</span> <span class="irc-black">&lt;ben_atmire&gt; but proai harvests dspace asynchronously</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-black">&lt;mhwood&gt; Thanks.</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-black">&lt;ben_atmire&gt; so since this will become an add-on, it will not need to make to 1.6 release date?</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-black">&lt;rrodgers&gt; sure, provided 1.6 has the hooks you need</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-black">&lt;ben_atmire&gt; I didn't have to change a single class in DSpace</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-black">&lt;rrodgers&gt; That's clean ;)</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-black">&lt;bradmc&gt; Sounds good.</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-black">&lt;mhwood&gt; Ahh, an opportunity to nail down some of the details of packaging and distributing add-ons.</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-black">&lt;bradmc&gt; Yes.  Also an interesting case for publicity and approval of add-ons as well.</span><br />
+<span class="irc-date">[12:26]</span> <span class="irc-black">&lt;bradmc&gt; Ben, what else do you need to proceed?</span><br />
+<span class="irc-date">[12:26]</span> <span class="irc-black">&lt;ben_atmire&gt; I will need to check out how to port this to an add-on, but I think Mark will be able to help me when he's back from his holiday</span><br />
+<span class="irc-date">[12:26]</span> <span class="irc-black">&lt;bradmc&gt; Other topics for today?</span><br />
+<span class="irc-date">[12:27]</span> <span class="irc-black">&lt;rrodgers&gt; JIRA fun and games?</span><br />
+<span class="irc-date">[12:27]</span> <span class="irc-black">&lt;bradmc&gt; I think most are aware that we covered about 1/3 of Jira issues yesterday, so we'll be continuing with that exercise next tuesday, same time.</span><br />
+<span class="irc-date">[12:28]</span> <span class="irc-black">&lt;bradmc&gt; We're in the process of collating the results, but you can see the raw log at the irclog URL for this channel.</span><br />
+<span class="irc-date">[12:28]</span> <span class="irc-black">&lt;mhwood&gt; I thought the pace was very fast, but probably we needed that to prevent stalling entirely on some subjects.</span><br />
+<span class="irc-date">[12:28]</span> <span class="irc-black">&lt;rrodgers&gt; yep, just meant is was an opportunity to tweak process if desired</span><br />
+<span class="irc-date">[12:28]</span> <span class="irc-black">&lt;bradmc&gt; Ah, let's discuss any thoughts then.</span><br />
+<span class="irc-date">[12:29]</span> <span class="irc-black">&lt;bradmc&gt; I think we'll need an opportunity for re-opening certain issues if we continue the fast pace, but that's preferable to slowing down.</span><br />
+<span class="irc-date">[12:29]</span> <span class="irc-black">&lt;rrodgers&gt; bradmc, +1</span><br />
+<span class="irc-date">[12:30]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[12:30]</span> <span class="irc-black">&lt;tdonohue&gt; (just catching up on discussion)...I'd agree, bradmc +1</span><br />
+<span class="irc-date">[12:31]</span> <span class="irc-black">&lt;bradmc&gt; Should we have a segment at the start of each session for people to re-raise jira items for a new vote?</span><br />
+<span class="irc-date">[12:32]</span> <span class="irc-black">&lt;mhwood&gt; 'twould be good to have a list of the issues to be reviewed, so I can make certain that I've at least read them all recently.</span><br />
+<span class="irc-date">[12:32]</span> <span class="irc-green">* cbeer (n=cbeer@204.152.12.166) has left #duraspace</span><br />
+<span class="irc-date">[12:32]</span> <span class="irc-black">&lt;bradmc&gt; Yes, stuart did a nice job of that on the wiki for the last meeting, albeit very close to the meeting time by necessity.</span><br />
+<span class="irc-date">[12:33]</span> <span class="irc-black">&lt;bradmc&gt; I'm thinking that if an item is going to be re-raised, the re-raiser is going to want to have shared their new insights in advance.</span><br />
+<span class="irc-date">[12:33]</span> <span class="irc-black">&lt;mhwood&gt; Maybe re-entry of issues should happen offline.</span><br />
+<span class="irc-date">[12:33]</span> <span class="irc-black">&lt;bradmc&gt; I like that; especially if we stick to Stuart's wiki page format.</span><br />
+<span class="irc-date">[12:33]</span> <span class="irc-black">&lt;rrodgers&gt; so should we announce a limit (remaining 1/2 e.g) to be reviewed, so people can focus?</span><br />
+<span class="irc-date">[12:34]</span> <span class="irc-black">&lt;bradmc&gt; You mean update the page to mark items already handled, and the next start point?  Yes, that makes sense.</span><br />
+<span class="irc-date">[12:34]</span> <span class="irc-black">&lt;mhwood&gt; Well, we'd need to be able to say which issues are in that remaining 1/2</span><br />
+<span class="irc-date">[12:34]</span> <span class="irc-black">&lt;tdonohue&gt; yes, it might be nice to have a limit/range to what will be reviewed in a session, so that we can all pre-review them if we have time..</span><br />
+<span class="irc-date">[12:35]</span> <span class="irc-black">&lt;rrodgers&gt; yep - we are handling them sequentially</span><br />
+<span class="irc-date">[12:35]</span> <span class="irc-black">&lt;bradmc&gt; We have an approximate pace now, so we could say something like the 40 +/o issues starting at X will be reviewed.</span><br />
+<span class="irc-date">[12:35]</span> <span class="irc-black">&lt;bradmc&gt; thats +/-</span><br />
+<span class="irc-date">[12:36]</span> <span class="irc-black">&lt;grahamtriggs&gt; is there a case for adding some extra fields/statuses) to the JIRA instance for managing this process (ie. if we have that, we can easily pull reports off of JIRA)</span><br />
+<span class="irc-date">[12:36]</span> <span class="irc-black">&lt;rrodgers&gt; that's what I had in mind</span><br />
+<span class="irc-date">[12:36]</span> <span class="irc-black">&lt;bradmc&gt; I'm assuming that this is short term; by session 4 the list should be short enough to incorporate the exercise into this meeting.</span><br />
+<span class="irc-date">[12:37]</span> <span class="irc-black">&lt;bradmc&gt; grahamtriggs:  Maybe, although I think just getting through the list once is the thing to do at this point.  I'm not sure if this is a short or long term need.</span><br />
+<span class="irc-date">[12:38]</span> <span class="irc-black">&lt;bradmc&gt; Other topics for today?</span><br />
+<span class="irc-date">[12:39]</span> <span class="irc-black">&lt;bradmc&gt; I assume next week may also be a little light for this meeting, but the following week we'll start to pick up speed again.</span><br />
+<span class="irc-date">[12:40]</span> <span class="irc-black">&lt;mhwood&gt; Nothing else here.</span><br />
+<span class="irc-date">[12:40]</span> <span class="irc-black">&lt;bradmc&gt; Shall we drop the gavel on the floor?  (Graham, move over!)</span><br />
+<span class="irc-date">[12:40]</span> <span class="irc-black">&lt;grahamtriggs&gt; ouch. that was my head</span><br />
+<span class="irc-date">[12:41]</span> <span class="irc-black">&lt;bradmc&gt; Thanks, all.</span><br />
+<span class="irc-date">[12:41]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good, i got nothing either</span><br />
+<span class="irc-date">[12:41]</span> <span class="irc-black">&lt;rrodgers&gt; thanks everybody</span><br />
+<span class="irc-date">[12:41]</span> <span class="irc-black">&lt;mhwood&gt; Thanks all.</span><br />
+<span class="irc-date">[12:42]</span> <span class="irc-navy">* rrodgers (n=rrodgers@pool-173-76-16-252.bstnma.fios.verizon.net) Quit ("Leaving")</span><br />
+<span class="irc-date">[12:42]</span> <span class="irc-black">&lt;grahamtriggs&gt; cheers (goes off to find the Ibuprofen)</span><br />
+<span class="irc-date">[12:42]</span> <span class="irc-black">&lt;tdonohue&gt; later all..</span><br />
+<span class="irc-date">[12:42]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[12:43]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:46]</span> <span class="irc-navy">* tdonohue (i=80ae241d@gateway/web/freenode/x-jsalgnpeejvdzpgm) Quit ("Page closed")</span><br />
+<span class="irc-date">[12:51]</span> <span class="irc-navy">* ben_atmire (n=ben_atmi@213.219.159.242.res.static.edpnet.net) Quit ()</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-green">* grahamtriggs (n=trig01@195.128.10.96) has left #duraspace</span><br />
+<span class="irc-date">[14:35]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit ()</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-green">* scottatm (n=scottatm@peat.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-navy">* RichardJones (n=richard@94-194-200-240.zone8.bethere.co.uk) Quit (lindbohm.freenode.net irc.freenode.net)</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-green">* RichardJones (n=richard@94-194-200-240.zone8.bethere.co.uk) has joined #duraspace</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-navy">* ksclarke (n=kevin@ip-152010148147.library.appstate.edu) Quit ("Leaving.")</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-navy">* mhwood (i=mwood@mhw.ulib.iupui.edu) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[17:59]</span> <span class="irc-navy">* scottatm (n=scottatm@peat.evans.tamu.edu) Quit (Read error: 145 (Connection timed out))</span><br />
+<span class="irc-date">[19:05]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-1-145-78.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-navy">* bruce (n=bruce@adsl-75-50-150-202.dsl.lsan03.sbcglobal.net) Quit (Remote closed the connection)</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-navy">* awoods_ (n=awoods@pool-72-83-142-207.washdc.fios.verizon.net) Quit (Read error: 110 (Connection timed out))</span><br />

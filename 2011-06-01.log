@@ -1,0 +1,195 @@
+<span class="irc-date">[1:22]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[1:40]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[1:42]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Ping timeout: 248 seconds)</span><br />
+<span class="irc-date">[1:42]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[1:48]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[1:50]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[1:50]</span> <span class="irc-green">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[1:52]</span> <span class="irc-navy">* stuartlewis_ (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Ping timeout: 244 seconds)</span><br />
+<span class="irc-date">[2:00]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-gibson.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-gibson.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-gibson.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-gibson.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:16]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-green">* sandsfish (~sandsfish@18.111.89.11) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-navy">* sandsfish (~sandsfish@18.111.89.11) Quit (Quit: sandsfish)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-green">* robertqin (~robertqin@bb116-14-148-4.singnet.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-green">* sandsfish (~sandsfish@18.111.89.11) has joined #duraspace</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-green">* sandsfish (~sandsfish@18.111.89.11) has left #duraspace</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-navy">* robertqin (~robertqin@bb116-14-148-4.singnet.com.sg) Quit ()</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-navy">* ablemann (~alexleman@147.226.130.83) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) Quit (Quit: Heading out...talk to you later.)</span><br />
+<span class="irc-date">[18:16]</span> <span class="irc-green">* ablemann (~alexleman@147.226.130.83) has joined #duraspace</span><br />
+<span class="irc-date">[18:27]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-green">* keithg (~keith-noa@lib-kgilbertson.library.gatech.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:15]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:223:dfff:fefe:ac7d) has joined #duraspace</span><br />
+<span class="irc-date">[19:22]</span> <span class="irc-green">* bojans (~Bojmen@88-117-17-79.adsl.highway.telekom.at) has joined #duraspace</span><br />
+<span class="irc-date">[19:30]</span> <span class="irc-green">* grahamtriggs (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@121.245.133.47) has joined #duraspace</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C15567.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;tdonohue&gt; Hey all- Reminder, we have our DSpace Devel Mtg here in a few minutes.  Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-01">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-01</a></span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-06-01 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-01">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-01</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* richardrodgers (~richardro@18.111.82.250) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* hpottinger (d86a33b5@gateway/web/freenode/ip.216.106.51.181) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome.  Might as well get started with our weekly DSpace Devel Mtg.  Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-01">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-01</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-06-01 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-01">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-01</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; (also, sorry about any SSL Certificate warnings you see in Wiki or JIRA today -- we're having issues today getting our 'auto-renewed' SSL cert from our hosting provider)</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Today, we'll start off with some JIRA Quick Review. Here's the issues left to review: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-815+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-815+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-815">https://jira.duraspace.org/browse/DS-815</a> ] - [#DS-815] DCDate throws NullPointerException with mangled dates - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-815+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-815+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; starting with DS-815</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-815">https://jira.duraspace.org/browse/DS-815</a> ] - [#DS-815] DCDate throws NullPointerException with mangled dates - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;richardrodgers&gt; the patch is in unit test code apparently?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; Actually, I think the attached patch is just providing a Unit Test that shows the issue...</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; (so, I think the actual issue is somewhere else in our Java code)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; But, that could be worth someone looking into (as I'm kinda guessing here)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;richardrodgers&gt; RIght - but I mean there is no patch for a proposed fix..</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; Apparently not</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; correct. No proposed fix or proposed patch is provided</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, this would need a volunteer to analyze and look into a proposed fix</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; any volunteers? This sounds like something we should fix obviously (NPEs are never a good thing)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; I hate NPEs.  I'll take it if no one else wants it.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-815 Summary: Needs a fix.  Assign to mhwood for initial analysis, etc.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; Next, DS-816</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-816">https://jira.duraspace.org/browse/DS-816</a> ] - [#DS-816] Order of search types in XMLUI Advanced Search is arbitrary - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; Looks like PeterDietz already has posted a proposed patch for Ds-816.  Any other thoughts on this or votes +/-?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; Already assigned.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- right, but we can still provide quick comments or quick review of patch</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-green">* aschweer (~schweer@130.217.105.16) has joined #duraspace</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; ok. hearing no comments on Ds-816, we'll move on.  Leave assigned to PeterDietz, and ask him if he wants any further feedback on work, etc.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-817</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-817">https://jira.duraspace.org/browse/DS-817</a> ] - [#DS-817] DSpace Semantic Search v2.0 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; any thoughts on Ds-817.  Should we treat this as an "externally supported addon"?  Is this something we'd want to analyze for inclusion in DSpace out-of-the-box?</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; It seems rather...specialized?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; agreed there. I'd lean towards this remaining an "externally supported addon", unless we found a larger interest in our user community</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;richardrodgers&gt; I do think a lot of work went into it - we should offer opinions...</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; yes, but if its still "in memory" then theres still performance concerns.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; I think so much work went into it that I'd need some weeks to study before I could venture a useful opinion.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; I agree. I wonder if they would be kind enought o possibly come to a special topics meeting and give the group an overview</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; I'd agree with offering opinions, and encourage that. It is also something that begs the question "how do we want to support these sometimes specialists, larger addon submissions"</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; *sometimes specialized*  (not specialists)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-green">* JRhoads (~jrhoads@160.10.15.22) has joined #duraspace</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-green">* robint (522921b0@gateway/web/freenode/ip.82.41.33.176) has joined #duraspace</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;robint&gt; Hi all, apologies for being late</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-brick">* mhwood starts looking for books on Semantic Web....</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; ok, Ds-817: Needs more detailed review.  Maybe ask them for an overview? Or how they are using this tool locally?  Needs a few volunteers to look into this</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; last one for today: DS-818</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-818">https://jira.duraspace.org/browse/DS-818</a> ] - [#DS-818] Asynchronous Release - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, this is just a "placeholder", I'm assuming, mdiggory?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; right</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so we'll skip over Ds-818 then, as that's a placeholder for a larger discussion</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; yes</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; and, that means we'll stop there, and move on to other topics for today</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-brick">* mdiggory notes he's going to have to leave early today and not be at the gsoc meeting.  maybe someone can lead it for me?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; General announcements:   Congrats to everyone involved in 1.7.2.   Especially to PeterDietz for his hard work (he's not here now as he &amp; his wife are expecting a baby)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; yes congrats</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: I was going to ask you the same...I won't make it to the GSoC meeting either :(</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;richardrodgers&gt; Thanks PeterD</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;JRhoads&gt; Yeah  Congrats PeterD on both counts</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;JRhoads&gt; And everyone else involved in 1.7.2</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, next announcement: we are *supposed* to have a GSoC meeting after this one.  But, currently that meeting is "unmanned", so we'll see if anyone can stick around to lead it or not. (otherwise, the GSoC projects can  update us all via email, which they've been doing well so far anyways!)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;robint&gt; tdonohue: apologies but I also wont be able to attend</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-green">* keithg (~keith-noa@lib-kgilbertson.library.gatech.edu) has left #duraspace</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; Also, just a reminder: There will be NO Developer Meetings next Weds (June 8) as many of us will be at the Open Repositories conference.  If you will also be at OR11, you are welcome to still sign up to join our face-to-face devel mtg on Mon, June 6</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; which brings us to our final topic for today: OR11 DSpace Developer Meeting Agenda!</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; I've posted an initial agenda here: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-06+-+OR11+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-06+-+OR11+Meeting</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2011-06-06 - OR11 Meeting - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-06+-+OR11+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2011-06-06+-+OR11+Meeting</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; I've also sent an email (to those signed up) asking you to *vote* on topics for the "Open Discussion Period" in the agenda.  Here's the Doodle Poll if you'd like to add your votes: <a href="http://www.doodle.com/3h6vuwvp4bcqyn33">http://www.doodle.com/3h6vuwvp4bcqyn33</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kompewter&gt; [ Doodle: Hot Topics for OR11 DSpace Developers Mtg ] - <a href="http://www.doodle.com/3h6vuwvp4bcqyn33">http://www.doodle.com/3h6vuwvp4bcqyn33</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;richardrodgers&gt; looks like a good turnout...</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; Does anyone have any further feedback / thoughts on this agenda?  Does it look good? Are there "glaring omissions" in your mind?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers: yea, looks to be a good mix of Committers, non-Committers who are active developers, 4 DCAT members, and a few potential "newbies"</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; seems like a good agenda thusfar...</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; great work tdonohue</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kdweeks&gt; I am so new to DSpace and DuraSpace my mind is still reeling with possibilities.  I tried to squeeze one more day out of this trip ... unsuccessfully.  I wont be getting in until later in the evening, but look forward to meeting the writers of all of the code and documentation I've been reading :)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; So, no comments from anyone else must mean either:  (a) we are all too busy preparing for OR11, or (b) you aren't too surprised or disagreeing with what is currently listed on the OR11 Mtg agenda</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;richardrodgers&gt; mostly (a) for me :(</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; Agenda looks doable and worthwhile.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; kdweeks:  glad to have you join our meeting. Definitely say "hi" at OR11!</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;robint&gt; tdonohue: looks good. As they say at a Glasgow wedding 'let the fighting commence!'</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;robint&gt; Ony joking !</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;robint&gt; Only</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; wow, I need to go to more glasgow weddings, obviously :)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kdweeks&gt; for sure, thanks for all of your accomplishments !</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers: I agree -- I'm swamped with things left to do before OR11 :)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-brick">* stuartlewis notes, that on visiting the Duraspace wiki to take a look at the agenda, the SSL certificate has expired :(   (will expire for most of you tomorrow)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis -- yea, we are aware (we see that too right now).  Currently, our "auto-renewed" SSL cert didn't "auto-renew" properly, and we are talking to our hosting provider (Go Daddy) about what happened and why we haven't gotten the SSL cert we already renewed :(</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;stuartlewis&gt; Excellent :)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; (So, apologies again for SSL Cert Errors you see. We hope to have them fixed today/tomorrow, and find ways to avoid them in the future)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  So, that's all I had on the agenda for today.  Since it sounds like everyone is busy, perhaps it's best to let out early today</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;stuartlewis&gt; Agenda looks cool - but we'll have to be careful to keep 'updates' to be 'updates' and not turn into full discussions (e.g. "Updates on <a href="https://wiki.duraspace.org/display/DSPACE/DSpace-Fedora+Integration+FAQ">https://wiki.duraspace.org/display/DSPACE/DSpace-Fedora+Integration+FAQ</a> work" could go on all day :)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace-Fedora Integration FAQ - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace-Fedora+Integration+FAQ">https://wiki.duraspace.org/display/DSPACE/DSpace-Fedora+Integration+FAQ</a></span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; Again, if you haven't already, please vote for OR11 Developer Meeting Topics to discuss during our "Open Discussion Session".  We can also change these during that day, depending on whether we are ahead or behind schedule: <a href="http://www.doodle.com/3h6vuwvp4bcqyn33">http://www.doodle.com/3h6vuwvp4bcqyn33</a></span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kompewter&gt; [ Doodle: Hot Topics for OR11 DSpace Developers Mtg ] - <a href="http://www.doodle.com/3h6vuwvp4bcqyn33">http://www.doodle.com/3h6vuwvp4bcqyn33</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; I'm trying to add a comment on the doodle page, but, just to be sure, I'd like, if possible, to discuss streaming possibilities with DSpace, I'll be at OR11, find me :-)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; stuartlewis: Agreed 100%.    The "Quick Updates" need to be quick (and I'm going to try and be very strict about that).   We need as much time to discuss larger issues/questions as we can afford in our face-to-face mtg</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; thanks hpottinger. We can see if we can fit it in. I know it may also be of interest to much of DCAT group (which we will also have some members from in attendance)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; Ok all. I suggest we "call it a day".   See many/most of you at OR11 next week!   Looking forward to great discussions on Monday during our meeting (and some fun times at the pub afterwards as well)!</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;richardrodgers&gt; see many of you in sweltering Austin soon...</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;stuartlewis&gt; hpottinger: Our (Kim and I) presentation will cover the work we've done with red5.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; yes, it will be very *hot* in Austin.  95-99 F most all week long</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kdweeks&gt; excellent, except for the sweltering part!</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Sunny too.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; stuartlewis: cool, thanks, I'll check that out (been reading a bit about red5)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; but, hey, it was also quite hot in Madrid, Spain last year. So, we should all be used to a sweltering Open Repositories conference :)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; Maybe I'll try thinking of it in Celsius terms since I'm not used to that.  35-38 doesn't sound so hot.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-brick">* hpottinger has to run, bye folks!</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; GSoC Students &amp; Mentors: Technically there's supposed to be a meeting in about 15 minutes here. But, neither mdiggory nor I can make it.  So, we may want to "cancel" for today.  However, any students/mentors who want to stick around and discuss projects are welcome to do so!</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-navy">* richardrodgers (~richardro@18.111.82.250) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-navy">* hpottinger (d86a33b5@gateway/web/freenode/ip.216.106.51.181) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; bye all... I'm moving into "lurking" mode now</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kdweeks&gt; I've never been to Austin, but I could swelter a bit for another trip to Madrid.  It was April when I was there.  These OR meetings are at some pretty nice places.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to that kdweeks. My wife &amp; I tend to add a vacation on the end of many OR meetings, as the locations are so nice!</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kdweeks&gt; Nice idea!</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@121.245.133.47) has left #duraspace</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-green">* gaurav_cod3r (75c6216d@gateway/web/freenode/ip.117.198.33.109) has joined #duraspace</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-navy">* robint (522921b0@gateway/web/freenode/ip.82.41.33.176) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-navy">* bojans (~Bojmen@88-117-17-79.adsl.highway.telekom.at) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-green">* robertqin (~robertqin@bb116-14-172-106.singnet.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-navy">* gaurav_cod3r (75c6216d@gateway/web/freenode/ip.117.198.33.109) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-green">* JRhoads (~jrhoads@160.10.15.22) has left #duraspace</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C15567.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; robertqin and gaurav_cod3r:  in case you missed the (rather late) decision during our Developers Meeting, we're unfortunately canceling the GSoC update meeting today.  We've got a major conference (Open Repositories) next week, and most of us are busy preparing for it.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;robertqin&gt; i see...</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; But, we'd encourage GSoC updates via email this week (and next)!</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;robertqin&gt; Okay thanks for the update !</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;robertqin&gt; I'll post my updates via the gsoc mailing list</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;robertqin&gt; will there be a make up meeting later this week ?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; you're welcome.  Sorry, this is our *one big conference* each year for DSpace/DuraSpace.  So, this should be the only time that we'll cancel a GSoC meeting</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;robertqin&gt; okay Tim!</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;robertqin&gt; no probs !</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; Unfortunately, likely there will be no makeup, so email updates/discussion are best.  The Conference is all of next week (June 6-10).  Most of us will be traveling over the weekend.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; because of the conference next week, there also won't be a meeting next week either (in fact, IRC will likely be very "empty").  But, we will all be checking email!</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;robertqin&gt; Ok noted !</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;robertqin&gt; i'll keep you all posted !</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; We'll return to our normal schedule the week of June 13th, with our next GSoC update meeting on June 15th.  Until then, definitely keep us posted! :)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-green">* gaurav_cod3r (75c6216d@gateway/web/freenode/ip.117.198.33.109) has joined #duraspace</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-navy">* gaurav_cod3r (75c6216d@gateway/web/freenode/ip.117.198.33.109) Quit (Client Quit)</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-navy">* grahamtriggs (~Graham@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-green">* stuartlewis_ (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-navy">* robertqin (~robertqin@bb116-14-172-106.singnet.com.sg) Quit ()</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-green">* stuartlewis_ is now known as stuartlewis</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Client Quit)</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[22:21]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:24]</span> <span class="irc-green">* sandsfish (~sandsfish@c-24-60-203-182.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:24]</span> <span class="irc-navy">* sandsfish (~sandsfish@c-24-60-203-182.hsd1.ma.comcast.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[22:29]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:223:dfff:fefe:ac7d) has left #duraspace</span><br />
+<span class="irc-date">[22:48]</span> <span class="irc-green">* mdiggory (~mdiggory@64.134.239.98) has joined #duraspace</span><br />
+<span class="irc-date">[23:16]</span> <span class="irc-navy">* mdiggory (~mdiggory@64.134.239.98) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[23:40]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />

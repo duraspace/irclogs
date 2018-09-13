@@ -1,0 +1,101 @@
+<span class="irc-date">[4:05]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-hitchcock.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-hitchcock.freenode.net- [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: <a href="http://freenode.net/faq.shtml#gettinghelp">http://freenode.net/faq.shtml#gettinghelp</a></span><br />
+<span class="irc-date">[12:15]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:41]</span> <span class="irc-green">* ablemann (~alexleman@lemanal.new.xen.prgmr.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:51]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:38]</span> <span class="irc-green">* elschlomo (~fas@HSI-KBW-078-042-098-211.hsi3.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[14:53]</span> <span class="irc-green">* EdAtTheAlliance (1809d1a2@gateway/web/freenode/ip.24.9.209.162) has joined #duraspace</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-green">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-green">* eddies (~eddies@adsl-99-170-146-30.dsl.pltn13.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-navy">* eddies (~eddies@adsl-99-170-146-30.dsl.pltn13.sbcglobal.net) Quit (Changing host)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-green">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;cwilper&gt; Starting now: <a href="https://wiki.duraspace.org/display/FCREPO/2011-12-06+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-12-06+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kompewter&gt; [ 2011-12-06 - Fedora Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2011-12-06+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2011-12-06+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;elschlomo&gt; Actions from last week: 1.) testtemplate status: since dan is not here, later inquiry is needed.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;elschlomo&gt; Hot issues for this week: none.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;elschlomo&gt; 15 minutes recently sumbitted issues.</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;elschlomo&gt; FCREPO-1037. A new format parameter should be supported to support a different result format.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;elschlomo&gt; This should be part of FCREPO-702 which is necessary for 3.6</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;elschlomo&gt; as suggested by steve</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;elschlomo&gt; to support more wider queries in 3.6</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;elschlomo&gt; might be related to major FCREPO-998</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;elschlomo&gt; FCREPO-1036: Steve: a policy was missing, just adding this policy fixes the problem</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;elschlomo&gt; Chris: why does this policy fix the problem? People are confused, since FESL auth should not occur in the first place</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;elschlomo&gt; with parameter apia.auth.required=false</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;elschlomo&gt; major priority is ok because it breaks FeSL auth functionality</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;elschlomo&gt; FCREPO-1033:  Chris: interesting perspective from the user side in the bug description</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;elschlomo&gt; Chris makes an argument for partial rebuilding while fedora is online</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;elschlomo&gt; with parallellism being a nice-to-have feature for such a funtionality</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;elschlomo&gt; the issue got linked with FCREPO-729, not really a duplicate since FCREPO-1033 also mentions rebuilding wile fedora is online.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;elschlomo&gt; CORRECTION: FCREPO-1033 and FCREPO-729 is a duplicate now, but both remain open</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;elschlomo&gt; Main Topic: "fedora create space should be cleaned up"</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-green">* eddies (~eddies@adsl-99-170-146-30.dsl.pltn13.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-navy">* eddies (~eddies@adsl-99-170-146-30.dsl.pltn13.sbcglobal.net) Quit (Changing host)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;elschlomo&gt; Chris suggested a process to clean up the wiki, consisting of creating a list of pros and cons of the page in respect to the community.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;elschlomo&gt; 1.) A place to list fedora related projects from the community.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;elschlomo&gt; 2.) Categroization makes sense</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;elschlomo&gt; Cons:</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;elschlomo&gt; 1.) Fedora create should be promoted more</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;elschlomo&gt; 2.) Purpose and value of listing the software should be promoted</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;elschlomo&gt; 3.) a nicer workflow for adding software</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;elschlomo&gt; 4.) Categorization is a weak spot</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;cwilper&gt; <a href="https://wiki.duraspace.org/display/FEDORACREATE/Create+Forum">https://wiki.duraspace.org/display/FEDORACREATE/Create+Forum</a></span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;kompewter&gt; [ Create Forum - Fedora Create - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FEDORACREATE/Create+Forum">https://wiki.duraspace.org/display/FEDORACREATE/Create+Forum</a></span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;elschlomo&gt; 5.) It seems outdated and not very lively</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;elschlomo&gt; Eddie's issues with create would be solved by involoving the community more in fedora create</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;elschlomo&gt; Fedorapedia should eventaully moce to the new knowledge bases</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;elschlomo&gt; It should be cleaned up and reorganized before promoting it.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;elschlomo&gt; Promotion by social networking is an option to involve the community</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;elschlomo&gt; A Twitter feed of updates of fedora related software would add value to the community</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-green">* eddies1 (~eddies@adsl-99-50-121-16.dsl.pltn13.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-navy">* eddies1 (~eddies@adsl-99-50-121-16.dsl.pltn13.sbcglobal.net) Quit (Changing host)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-green">* eddies1 (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;elschlomo&gt; feacebook likes and google +1s could promote community's software on the create site with some confluence plugin</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;elschlomo&gt; The page should not seem outdated, will have to be checked</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;elschlomo&gt; Categorization should be more clear: Therefore the fedorapedia, content models and other very broad categories can be thrown out like (fedora-kepler, taverna apache camel)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;elschlomo&gt; 5 mins break for frank's girly bladder and then we continue for half an hour discussing the create site</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;elschlomo&gt; steve, ed ,chris and frank are still here</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;elschlomo&gt; we will walk through the listing and clean up the stuff that shouldn't be there or is gravely outdated</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;elschlomo&gt; On the frontpage the examples section needs to be kept up to date. Keeping the lists shorter and constraining the examples to a maximum of 3 will help there</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;elschlomo&gt; The software list should be sorted by newest update date, software using fedora 2 should go to the end to the list</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;elschlomo&gt; The process for fedora create so far:</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;elschlomo&gt; 1) sort the list by project activity and their used fedora version. (fedora 3 at the top since fedora 2 is no longer supported)</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;elschlomo&gt; another way is to sort by lates release date</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;elschlomo&gt; or just add the date to the software list in an ISO format for collecting the data, and in a next step sort the table by this information</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;elschlomo&gt; Action Items for fedora create: check the latest release dates, and update the fedora create site</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;elschlomo&gt; meeting wrapped up..</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-navy">* EdAtTheAlliance (1809d1a2@gateway/web/freenode/ip.24.9.209.162) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-navy">* cwilper (ad579fce@gateway/web/freenode/ip.173.87.159.206) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-green">* grahamtriggs (~Graham@host213-123-239-134.in-addr.btopenworld.com) has left #duraspace</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-green">* scottatm (~scottatm@voyager108.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:55]</span> <span class="irc-navy">* sbayliss (bcde58ad@gateway/web/freenode/ip.188.222.88.173) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[18:35]</span> <span class="irc-navy">* eddies1 (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[19:00]</span> <span class="irc-green">* eddies (~eddies@adsl-99-50-121-16.dsl.pltn13.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:00]</span> <span class="irc-navy">* eddies (~eddies@adsl-99-50-121-16.dsl.pltn13.sbcglobal.net) Quit (Changing host)</span><br />
+<span class="irc-date">[19:00]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-green">* eddies1 (~eddies@adsl-99-8-229-96.dsl.pltn13.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-navy">* eddies1 (~eddies@adsl-99-8-229-96.dsl.pltn13.sbcglobal.net) Quit (Changing host)</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-green">* eddies1 (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-navy">* eddies1 (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:37]</span> <span class="irc-green">* eddies (~eddies@50.0.132.2) has joined #duraspace</span><br />
+<span class="irc-date">[22:37]</span> <span class="irc-navy">* eddies (~eddies@50.0.132.2) Quit (Changing host)</span><br />
+<span class="irc-date">[22:37]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[22:37]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[23:03]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

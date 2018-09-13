@@ -1,0 +1,176 @@
+<span class="irc-date">[0:09]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[0:31]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[0:43]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[1:04]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[2:55]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[3:05]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[3:05]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[3:52]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[4:27]</span> <span class="irc-navy">* snail (~yeatesst@130.195.179.107) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[4:40]</span> <span class="irc-green">* snail (~yeatesst@130.195.179.107) has joined #duraspace</span><br />
+<span class="irc-date">[6:17]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hitchcock.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hitchcock.freenode.net- [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: <a href="http://freenode.net/faq.shtml#gettinghelp">http://freenode.net/faq.shtml#gettinghelp</a></span><br />
+<span class="irc-date">[12:04]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-green">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-navy">* eddies (~eddies@cm18.epsilon183.maxonline.com.sg) Quit (Changing host)</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-green">* cwilper (ad55a88f@gateway/web/freenode/ip.173.85.168.143) has joined #duraspace</span><br />
+<span class="irc-date">[13:00]</span> <span class="irc-black">&lt;cwilper&gt; Starting <a href="https://wiki.duraspace.org/display/FCREPO/2012-05-17+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-05-17+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[13:00]</span> <span class="irc-black">&lt;kompewter&gt; [ 2012-05-17 - Fedora Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/2012-05-17+-+Fedora+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2012-05-17+-+Fedora+Committer+Meeting</a></span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-green">* ajs6f (89360ec9@gateway/web/freenode/ip.137.54.14.201) has joined #duraspace</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-black">&lt;cwilper&gt; Ben: Move to CXF: 5 tests failing, one is for uploads. Differences between CXF and Jersey in terms of how multipart messages indicate they have zero length.</span><br />
+<span class="irc-date">[13:16]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-black">&lt;eddies&gt; adam: proposal to generate WADL statically for the 3.6 release</span><br />
+<span class="irc-date">[13:19]</span> <span class="irc-black">&lt;ajs6f&gt; ajs6f: Ben is having trouble getting the CXF-generated WADL to show up in the same place as the Axis-generated WADL, hence my suggestion.</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;eddies&gt; FCREPO-1085: Ben's CXF JAX-RS branch</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-black">&lt;ajs6f&gt; Summary of WADL discussion: We're not very worried about perfect dynamically-generated WADL.</span><br />
+<span class="irc-date">[13:29]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jira.duraspace.org/browse/FCREPO-893">https://jira.duraspace.org/browse/FCREPO-893</a></span><br />
+<span class="irc-date">[13:29]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-893] Refactor authN/authZ servlet filters. - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-893">https://jira.duraspace.org/browse/FCREPO-893</a></span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-black">&lt;barmintor&gt; Target Features/Fixes for 3.6 release: FCREPO-787, FCREPO-893, FCREPO-1085, UNC pull request</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-black">&lt;eddies&gt; and FCREPO-831</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;barmintor&gt; do we have a tracking issue for Greg's pull request?</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-brick">* barmintor looks</span><br />
+<span class="irc-date">[13:39]</span> <span class="irc-black">&lt;barmintor&gt; tracking issue for Greg's pull request is FCREPO-1020</span><br />
+<span class="irc-date">[13:40]</span> <span class="irc-black">&lt;barmintor&gt; So, revised 3.6 Remaining Feature/Fix List: FCREPO-787, FCREPO-831, FCREPO-893, FCREPO-1020, FCREPO-1085</span><br />
+<span class="irc-date">[13:41]</span> <span class="irc-black">&lt;ajs6f&gt; Eddie: Can we push 831 to a hypothetical 3.6.1?</span><br />
+<span class="irc-date">[13:41]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: Not seeing a problem, because 831 is not a feature.</span><br />
+<span class="irc-date">[13:43]</span> <span class="irc-black">&lt;ajs6f&gt; Eddie: Rationales for 831: makes tests easier to work with, gets client into the mainline of development</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-black">&lt;ajs6f&gt; (note: we're talking about the new MediaShelf-sourced client)</span><br />
+<span class="irc-date">[13:49]</span> <span class="irc-black">&lt;ajs6f&gt; ajs6f: Perhaps we can split 831 into smaller tasks.</span><br />
+<span class="irc-date">[13:49]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: Yeah, maybe.</span><br />
+<span class="irc-date">[13:50]</span> <span class="irc-black">&lt;ajs6f&gt; Eddie and Chris: Wouldn't mean bringing the MS client into the source tree, just adding it as a maven dependency.</span><br />
+<span class="irc-date">[13:51]</span> <span class="irc-black">&lt;ajs6f&gt; Decision: we're going to split 831 as follows:</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;ajs6f&gt; 1) Bring MS client into test venue as Maven dependency and cnvert at least one test to use it.</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;ajs6f&gt; 2) Decide on whether to use Jersey for MS client or convert to CXF.</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;ajs6f&gt; 3) Convert all tests to use new client. (Probably a 3.6.1 issue)</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: OR2012! Who's going to be there?</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://wiki.duraspace.org/display/FCREPO/July+9th+2012%2C+OR12+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/July+9th+2012%2C+OR12+Committer+Meeting</a></span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-black">&lt;kompewter&gt; [ July 9th 2012, OR12 Committer Meeting - Fedora Repository Development - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/FCREPO/July+9th+2012%2C+OR12+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/July+9th+2012%2C+OR12+Committer+Meeting</a></span><br />
+<span class="irc-date">[13:56]</span> <span class="irc-black">&lt;ajs6f&gt; CHris: will be out for next few weeks, on vacation</span><br />
+<span class="irc-date">[13:56]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: hopes discussion about managed projects will continue</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1084">https://jira.duraspace.org/browse/FCREPO-1084</a></span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-1084] Improve handling of datastream bindings for disseminations - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-1084">https://jira.duraspace.org/browse/FCREPO-1084</a></span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java#L455">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java#L455</a></span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java#L455">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java#L455</a></span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://github.com/fcrepo/fcrepo/blob/fcrepo-1084/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java#L517">https://github.com/fcrepo/fcrepo/blob/fcrepo-1084/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java#L517</a></span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java at fcrepo-1084 · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/fcrepo-1084/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java#L517">https://github.com/fcrepo/fcrepo/blob/fcrepo-1084/fcrepo-server/src/main/java/org/fcrepo/server/access/dissemination/DisseminationService.java#L517</a></span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java</a></span><br />
+<span class="irc-date">[14:11]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java</a></span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java#L266">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java#L266</a> more specifically</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java#L266">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/access/DescribeRepositoryServlet.java#L266</a></span><br />
+<span class="irc-date">[14:18]</span> <span class="irc-black">&lt;ajs6f&gt; Input pattern 2: dissURL/(bindingKey)  Old output pattern: dissURL/NON-URL-encoded-datastream-URL  New output pattern: dissURL/URL-encoded-datastream-URL</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: I have about 30 mins before a meeting, if you want to look at the 1085 branch</span><br />
+<span class="irc-date">[14:29]</span> <span class="irc-black">&lt;barmintor&gt; I'm a little bit baffled by one of the failing tests: TestRESTAPI#testResponseOverride</span><br />
+<span class="irc-date">[14:30]</span> <span class="irc-black">&lt;cwilper&gt; cool. which config test was spewing the errors? i'll just try to run that one.</span><br />
+<span class="irc-date">[14:30]</span> <span class="irc-black">&lt;barmintor&gt; oh, I'm just running configA right now</span><br />
+<span class="irc-date">[14:30]</span> <span class="irc-navy">* ajs6f (89360ec9@gateway/web/freenode/ip.137.54.14.201) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;barmintor&gt; my bafflement for that test is more "what is the error I'm supposed to be accommodating here?"</span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;cwilper&gt; ok, running configA on 1085 locally...will have more context when i see a stack trace</span><br />
+<span class="irc-date">[14:32]</span> <span class="irc-black">&lt;barmintor&gt; sure</span><br />
+<span class="irc-date">[14:37]</span> <span class="irc-green">* ajs6f (89369bea@gateway/web/freenode/ip.137.54.155.234) has joined #duraspace</span><br />
+<span class="irc-date">[14:42]</span> <span class="irc-black">&lt;cwilper&gt; ugh. this time i had another tomcat running so lots of stuff failed. re-trying.</span><br />
+<span class="irc-date">[14:53]</span> <span class="irc-black">&lt;cwilper&gt; while it's re-running i'm looking at #testResponseOverride. It's testing the functionality of FilterRestApiFlash, a servlet filter that supports a "flash=true" argument to force all responses to be in the 200 range. Good old flash.</span><br />
+<span class="irc-date">[14:54]</span> <span class="irc-black">&lt;cwilper&gt; If responses aren't in the 200 range, apparently flash get scared and runs off.</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-black">&lt;barmintor&gt; so that's weird, but I'm also not sure what error I'm supposed to be dealing with before that in the test</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-black">&lt;ajs6f&gt; One more reason to kill the Web admin.</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-black">&lt;ajs6f&gt; The Flash Web admin, that is. Not your local human Web admin.</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-black">&lt;barmintor&gt; As in: Am I supposed to be returning a 400 when someone POSTs to a non-existent url?</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-black">&lt;barmintor&gt; Oh, I think part of this is that I'm checking fpr PID format in the path matching now</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-black">&lt;cwilper&gt; Yeah I guess I thought of it as a syntax issue. "BOGUS_PID" is a malformed pid, so it could be seen as a "bad request" in that sense. But if it were a well-formed pid I'd definitely expect a 404.</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-black">&lt;barmintor&gt; and BOGUS_PID doesn't match the regex</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-black">&lt;barmintor&gt; we use "demo:BOGUS_PID" in some other places.  Might just want to change that test.</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;barmintor&gt; also may want to see if we can encode that regex somewhere in a constant.</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-brick">* barmintor makes a note</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;cwilper&gt; Yeah, I don't think the contract for the rest api needs to be that strong. Generally clients should be dealing with non-200 responses in about the same way.</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;cwilper&gt; So 400 vs 404 is kind of a toss up.</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;barmintor&gt; have to run to a meeting, will check in later</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;cwilper&gt; Tests finished on my end.  I see that 404 vs 400 error, which makes sense for that method, as described. My total test Failures was 30, and test Errors was 3.</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;cwilper&gt; ok</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;ajs6f&gt; Eddie-- you online?</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;ajs6f&gt; I've got a question or to about adding header-manipulation to the Fedora client.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;cwilper&gt; maybe he'll get an alert if you do eddies:, as in:</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;cwilper&gt; eddies: Adam has a question</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;eddies&gt; yesh?</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;eddies&gt; ajs6f: i'm about to turn in, but i can answer a quickie</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;cwilper&gt; not sure what adam was asking, but looking at the request classes, it occurs to me that FedoraRequest might be the appropriate place to add a addRequestHeader method.</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;cwilper&gt; similar to what's done for queryParam, here <a href="https://github.com/mediashelf/fedora-client/blob/master/fedora-client-core/src/main/java/com/yourmediashelf/fedora/client/request/FedoraRequest.java">https://github.com/mediashelf/fedora-client/blob/master/fedora-client-core/src/main/java/com/yourmediashelf/fedora/client/request/FedoraRequest.java</a></span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;kompewter&gt; [ fedora-client/fedora-client-core/src/main/java/com/yourmediashelf/fedora/client/request/FedoraRequest.java at master · mediashelf/fedora-client · GitHub ] - <a href="https://github.com/mediashelf/fedora-client/blob/master/fedora-client-core/src/main/java/com/yourmediashelf/fedora/client/request/FedoraRequest.java">https://github.com/mediashelf/fedora-client/blob/master/fedora-client-core/src/main/java/com/yourmediashelf/fedora/client/request/FedoraRequest.java</a></span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;eddies&gt; yeah, that's sort of what i was thinking too. but i also see that as currently implemented, it's in the execute(FedoraClient) method of the individual concrete request classes that you'd have to apply the header(s), since that's where you get an instance of WebResource</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;eddies&gt; i never worked through getting #execute(FedoraClient) to be DRYer for precisely something like applying headers and still return the specific FedoraResponse classes (e.g. AddDatastreamResponse)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;ajs6f&gt; Hoi! I'm back.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;ajs6f&gt; And I had gotten pretty much to where you guys were just talking.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;ajs6f&gt; I did look at supplying a</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;ajs6f&gt; com.sun.jersey.api.client.filter.ClientFilter</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;ajs6f&gt; but it doesn't appear that there is mutation of the headers available there.</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;ajs6f&gt; So I'm looking now at offering a new constructor for FedoraClient</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;cwilper&gt; Hi Adam. I guess the superclass could just put it in a protected field and then the concrete impls could prepare the WebResource object via calls to WebResource.header()</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;ajs6f&gt; Superclass of what?</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;ajs6f&gt; You mean Fedorarequest?</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;cwilper&gt; yes</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;ajs6f&gt; Yeah, I didn't want to do that because I'm lazy and it would mean altering every single conrete impl.</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;ajs6f&gt; But maybe that's the right thing to do for now.</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;ajs6f&gt; "i never worked through getting #execute(FedoraClient) to be DRYer for precisely something like applying headers and still return the specific FedoraResponse classes (e.g. AddDatastreamResponse)"</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;ajs6f&gt; -- said by eddie</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;ajs6f&gt; Is what I'd rather do, but I don't know that I should take the time.</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;cwilper&gt; Hmm...how about creating FedoraRequest#getWebResource(FedoraClient client), which would pre-populate the WebResource with the header values set via FedoraRequest#addRequestHeader ...then subclasses at least don't have to have a lot of repetitive code.</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;cwilper&gt; They'd just change "WebResource wr = fedora.resource();" to "WebResource wr = getWebResource(fedora);"</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;ajs6f&gt; I was conteplating doing more-orless that at FedoraClient.resource(), but</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;ajs6f&gt; your way is better.</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;ajs6f&gt; I defeinitely want to set  the header on a per-request basis.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;ajs6f&gt; Actually, that prettty well covers it, I think. It's pretty DRY (for me) and it's per-request and shouldn't take but a few moments.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;cwilper&gt; Right. I could see a desire to set it across a whole series of requests, too, though.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;cwilper&gt; But that's left as an exercise for the reader :)</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;ajs6f&gt; yeah, that's where changing FedoraClient.resource() makes sense again.</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;ajs6f&gt; Maybe I'll do both.</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;ajs6f&gt; We have a readership?</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;cwilper&gt; I think that ship has sailed.</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;cwilper&gt; (trying to fill in for Dan, here)</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;ajs6f&gt; &lt;deadpan&gt;Thanks.&lt;/deadpan&gt;</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;ajs6f&gt; I'm having the devil of a time running the tests for Fedora client. Does it have dependencies on network resources?</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;cwilper&gt; oh gee, look at the time</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;cwilper&gt; Are you talking about the old or new FedoraClient? Either way, it would be a bug if so.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;ajs6f&gt; New.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;cwilper&gt; trying to build it now...</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;cwilper&gt; Oh, the integration tests.</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;ajs6f&gt; Right.</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;cwilper&gt; Yeah, I'm guessing you need to bring up a Fedora before running those.</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;ajs6f&gt; I get tons of com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;ajs6f&gt; Oh, phooy.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;ajs6f&gt; Okay. I can do that. But it sounds like a job for Cargo.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;cwilper&gt; mvn verify -DskipITs=true  &lt;-- works</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;cwilper&gt; yep, auto-starting a fedora repo with cargo would be awesome for stuff like this</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;ajs6f&gt; afk</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-navy">* ajs6f (89369bea@gateway/web/freenode/ip.137.54.155.234) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[18:44]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: do we expect the upload REST service to receive a multipart attachment named "file"?</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;cwilper&gt; I believe the part is expected to be named "file", yes. At least that's what I recall.</span><br />
+<span class="irc-date">[18:45]</span> <span class="irc-black">&lt;barmintor&gt; ok, that's helpful.</span><br />
+<span class="irc-date">[19:40]</span> <span class="irc-navy">* cwilper (ad55a88f@gateway/web/freenode/ip.173.85.168.143) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[19:41]</span> <span class="irc-green">* cwilper (ad55a88f@gateway/web/freenode/ip.173.85.168.143) has joined #duraspace</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: is that flash parameter supposed to be available on all of the REST api, or just on object creation?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;cwilper&gt; I believe it's on the whole thing...jussec</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;cwilper&gt; yep, the whole thing, and it's even documented woohoo</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;barmintor&gt; oh god, that's horrible. We may need to give up on CXF for rest.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;barmintor&gt; damn.  let me think about this.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;cwilper&gt; Yuck. Well a whole 'nother approach to the flash thing is to implement it in the Resource methods. But that's a lot of copy/paste code so doing it a little earlier in the call, before the dispatch to the appropriate method is made, would be ideal. Question is whether CXF allows that.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;cwilper&gt; CXF has a neat feature where you can specify _method=PUT when invoking any REST call...in order to "force" the method for clients that don't support it. Similar in purpose to X-HTTP-Method-Override, which CXF also does out of box.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;cwilper&gt; Looking at Fedora's current REST docs, it says we currently support X-HTTP-Method-Override. Not sure if that's via Jersey or some special hack we did.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;cwilper&gt; In any case, if we can find out where CXF intercepts requests to "force" the http method, that's probably close to where a common @QueryParam that applies to all methods, without being stated, would be introduced. Not sure that's an extension point they planned for, though.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;cwilper&gt; Aha: <a href="http://cxf.apache.org/docs/jax-rs-filters.html">http://cxf.apache.org/docs/jax-rs-filters.html</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ Apache CXF -- JAX-RS Filters ] - <a href="http://cxf.apache.org/docs/jax-rs-filters.html">http://cxf.apache.org/docs/jax-rs-filters.html</a></span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;barmintor&gt; ok, so we should be able to get the request parms from OperationResourceInfo, and use that in a responsehandler to override the status code. Gross, but doable.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;barmintor&gt; Damn you, flash admin widget! Damn you!</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;barmintor&gt; Also messed up: The @Path annotation supports a regex for the pid portion, but I'm working around using it so that we can reject the request in another way.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;barmintor&gt; Actually, do we really want to support that? I'd rather let it reject that stuff with 404's, and save the flash override behavior for things that might possibly have worked (like trying to update a nonexistent but otherwise valid PID)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;cwilper&gt; Regex support seems unnecessary, and rejecting with 404 is fine I think. GOtta go  though..</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-navy">* cwilper (ad55a88f@gateway/web/freenode/ip.173.85.168.143) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />

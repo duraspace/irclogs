@@ -1,0 +1,56 @@
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-verne.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-verne.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-verne.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-verne.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:41]</span> <span class="irc-green">* vibhaj (75d3557b@gateway/web/freenode/ip.117.211.85.123) has joined #duraspace</span><br />
+<span class="irc-date">[10:46]</span> <span class="irc-navy">* vibhaj (75d3557b@gateway/web/freenode/ip.117.211.85.123) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[11:01]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@14.98.169.161) has joined #duraspace</span><br />
+<span class="irc-date">[12:01]</span> <span class="irc-green">* ablemann (~alexleman@147.226.130.14) has joined #duraspace</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@14.98.169.161) has left #duraspace</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:10ab:21e:4fff:feba:a425) has joined #duraspace</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@14.98.169.161) has joined #duraspace</span><br />
+<span class="irc-date">[12:41]</span> <span class="irc-green">* vibhajrajan1 (~Unnikanna@14.98.64.74) has joined #duraspace</span><br />
+<span class="irc-date">[12:43]</span> <span class="irc-navy">* vibhajrajan (~Unnikanna@14.98.169.161) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[12:48]</span> <span class="irc-green">* vibhajrajan1 (~Unnikanna@14.98.64.74) has left #duraspace</span><br />
+<span class="irc-date">[12:48]</span> <span class="irc-green">* vibhajrajan1 (~Unnikanna@14.98.64.74) has joined #duraspace</span><br />
+<span class="irc-date">[12:48]</span> <span class="irc-green">* vibhajrajan1 (~Unnikanna@14.98.64.74) has left #duraspace</span><br />
+<span class="irc-date">[12:50]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@14.98.64.74) has joined #duraspace</span><br />
+<span class="irc-date">[13:32]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-green">* bojans (~Bojmen@62.68.103.162) has joined #duraspace</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-green">* barmintor (barmintor@specdl11.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:20]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[14:44]</span> <span class="irc-navy">* vibhajrajan (~Unnikanna@14.98.64.74) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[14:44]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@14.98.64.74) has joined #duraspace</span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@14.98.64.74) has left #duraspace</span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@14.98.64.74) has joined #duraspace</span><br />
+<span class="irc-date">[14:52]</span> <span class="irc-green">* scottatm (~scottatm@a87dhcp58.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; Hey all GSoC mentors (PeterDietz, scottatm, stuartlewis, grahamtriggs, mdiggory, bojans, etc) : Any of you interested in one of our spots at the GSoC Mentor Summit on Oct 21-23?  It's a free, all-expenses-paid trip to Google HQ!</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;scottatm&gt; Not me, that's a bit too close to internet librarian....</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;bojans&gt; tdonohue: Hi Tim, thanks for the info. What is the final deadline for decision? I am still not sure about my schedule/availability..</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; bojans: Google hasn't let us know a "final deadline".  But, they did ask that we try to let them know as soon as we can.  So, it'd be good to figure out soon (if possible, sometime this week, otherwise let me know when you think you'd know by)</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;bojans&gt; tdonohue:ok, I think i will have more info in two weeks</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-green">* eddies (~eddies@103.119.114.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-navy">* eddies (~eddies@103.119.114.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-green">* vibhajrajan (~Unnikanna@14.98.64.74) has left #duraspace</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-green">* eddies (~eddies@131.44.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-navy">* eddies (~eddies@131.44.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[18:17]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[18:18]</span> <span class="irc-green">* eddies (~eddies@131.44.113.78.rev.sfr.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:18]</span> <span class="irc-navy">* eddies (~eddies@131.44.113.78.rev.sfr.net) Quit (Changing host)</span><br />
+<span class="irc-date">[18:18]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-navy">* bojans (~Bojmen@62.68.103.162) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* mhwood (~mhwood@2001:18e8:3:10ab:21e:4fff:feba:a425) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) Quit (Disconnected by services)</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-58-145.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:13]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />

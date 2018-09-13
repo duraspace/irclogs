@@ -1,0 +1,53 @@
+<span class="irc-date">[0:18]</span> <span class="irc-green">* krnl__ (i=krnl_@193.219.158.144) has joined #duraspace</span><br />
+<span class="irc-date">[0:18]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[0:20]</span> <span class="irc-navy">* krnl_ (i=krnl_@193.219.158.144) Quit (Read error: 145 (Connection timed out))</span><br />
+<span class="irc-date">[0:27]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[4:05]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[8:24]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[8:43]</span> <span class="irc-green">* justben (n=ben@hypatia.library.emory.edu) has joined #duraspace</span><br />
+<span class="irc-date">[9:49]</span> <span class="irc-green">* sbayliss (n=IceChat7@78-86-0-203.zone2.bethere.co.uk) has joined #duraspace</span><br />
+<span class="irc-date">[9:52]</span> <span class="irc-green">* Asger (i=82e11a21@gateway/web/freenode/x-d46feee8672b28e9) has joined #duraspace</span><br />
+<span class="irc-date">[9:53]</span> <span class="irc-black">&lt;Asger&gt; Hi</span><br />
+<span class="irc-date">[9:53]</span> <span class="irc-black">&lt;Asger&gt; Is the fedora meeting in 10 minuttes?</span><br />
+<span class="irc-date">[9:54]</span> <span class="irc-black">&lt;sbayliss&gt; I think the US has moved from DST since last week, so it's in an hour and 10</span><br />
+<span class="irc-date">[9:55]</span> <span class="irc-black">&lt;Asger&gt; Yes, I feared as much, but I needed to check that</span><br />
+<span class="irc-date">[9:55]</span> <span class="irc-green">* ksclarke (n=kevin@ip-152010148147.library.appstate.edu) has joined #duraspace</span><br />
+<span class="irc-date">[9:55]</span> <span class="irc-black">&lt;sbayliss&gt; (I made the same mistake - but just checked here <a href="http://www.worldtimezone.com/wtz007-24.php)">http://www.worldtimezone.com/wtz007-24.php)</a></span><br />
+<span class="irc-date">[9:56]</span> <span class="irc-black">&lt;Asger&gt; No, according to that link, it should be in 10 minuttes</span><br />
+<span class="irc-date">[10:00]</span> <span class="irc-black">&lt;sbayliss&gt; I think "11 am Eastern Daylight Time US (GMT-4)" is wrong on the meeting page, think EDT is GMT-5: <a href="http://wwp.greenwichmeantime.com/time-zone/usa/eastern-time/">http://wwp.greenwichmeantime.com/time-zone/usa/eastern-time/</a></span><br />
+<span class="irc-date">[10:01]</span> <span class="irc-black">&lt;bradmc&gt; As of Sunday morning, we've moved from EDT (GMT-4) to EST(GMT-5).</span><br />
+<span class="irc-date">[10:03]</span> <span class="irc-green">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:03]</span> <span class="irc-black">&lt;Asger&gt; Ah, so the meeting page is wrong</span><br />
+<span class="irc-date">[10:03]</span> <span class="irc-black">&lt;Asger&gt; That explains it</span><br />
+<span class="irc-date">[10:48]</span> <span class="irc-black">&lt;justben&gt; Sorry for the slow response, but yes: EST = GMT-5 as of a couple of days ago. Some software isn’t aware of that because our government change it periodically to keep us on our toes. Or something.</span><br />
+<span class="irc-date">[10:53]</span> <span class="irc-green">* barmintor_ (n=chatzill@cpe-72-229-190-215.nyc.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[10:57]</span> <span class="irc-green">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-87b445c5abd39b60) has joined #duraspace</span><br />
+<span class="irc-date">[10:57]</span> <span class="irc-navy">* Asger (i=82e11a21@gateway/web/freenode/x-d46feee8672b28e9) Quit ("Page closed")</span><br />
+<span class="irc-date">[10:57]</span> <span class="irc-green">* Asger (i=82e11a21@gateway/web/freenode/x-199330abf802b06b) has joined #duraspace</span><br />
+<span class="irc-date">[11:00]</span> <span class="irc-green">* Dan_Davis (i=8054622f@gateway/web/freenode/x-8a851d2c381a9916) has joined #duraspace</span><br />
+<span class="irc-date">[11:06]</span> <span class="irc-green">* barmintor__ (n=chatzill@cpe-72-229-190-215.nyc.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[11:10]</span> <span class="irc-green">* awoods (n=awoods@pool-96-241-203-77.washdc.fios.verizon.net) has joined #duraspace</span><br />
+<span class="irc-date">[11:12]</span> <span class="irc-navy">* barmintor_ (n=chatzill@cpe-72-229-190-215.nyc.res.rr.com) Quit (Read error: 60 (Operation timed out))</span><br />
+<span class="irc-date">[11:28]</span> <span class="irc-black">&lt;Dan_Davis&gt; Eddie, if you look in the top-level fedora-repository/pom.xml you will see a duraspace-releases and a duraspace-thirdparty repository specifications.  Trippi et. al. would go into duraspace-releases.  It would also be great to Mavenize gsearch.</span><br />
+<span class="irc-date">[11:46]</span> <span class="irc-green">* bbranan (i=46799f09@gateway/web/freenode/x-caf784a54258950d) has joined #duraspace</span><br />
+<span class="irc-date">[12:08]</span> <span class="irc-green">* kstrnad (i=5fd0e923@gateway/web/freenode/x-eae46b4e3f0ebfc2) has joined #duraspace</span><br />
+<span class="irc-date">[12:22]</span> <span class="irc-black">&lt;barmintor__&gt; so update- POST /objects/demo:29/datastreams/RELS-EXT?[update=]</span><br />
+<span class="irc-date">[12:22]</span> <span class="irc-black">&lt;barmintor__&gt; and add- PUT /objects/demo:29/datastreams/RELS-EXT?[update=]</span><br />
+<span class="irc-date">[12:43]</span> <span class="irc-navy">* kstrnad (i=5fd0e923@gateway/web/freenode/x-eae46b4e3f0ebfc2) Quit ("Page closed")</span><br />
+<span class="irc-date">[12:49]</span> <span class="irc-navy">* barmintor__ (n=chatzill@cpe-72-229-190-215.nyc.res.rr.com) Quit ("ChatZilla 0.9.84 [Firefox 3.5.4/20091016092926]")</span><br />
+<span class="irc-date">[12:51]</span> <span class="irc-navy">* Asger (i=82e11a21@gateway/web/freenode/x-199330abf802b06b) Quit ("Page closed")</span><br />
+<span class="irc-date">[12:53]</span> <span class="irc-green">* michaeld (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-navy">* sbayliss (n=IceChat7@78-86-0-203.zone2.bethere.co.uk) Quit ("bye!")</span><br />
+<span class="irc-date">[12:57]</span> <span class="irc-navy">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-87b445c5abd39b60) Quit ("Page closed")</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-navy">* Dan_Davis (i=8054622f@gateway/web/freenode/x-8a851d2c381a9916) Quit ("Page closed")</span><br />
+<span class="irc-date">[13:12]</span> <span class="irc-navy">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) Quit (Read error: 113 (No route to host))</span><br />
+<span class="irc-date">[13:30]</span> <span class="irc-navy">* bbranan (i=46799f09@gateway/web/freenode/x-caf784a54258950d) Quit ("Page closed")</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-navy">* ksclarke (n=kevin@ip-152010148147.library.appstate.edu) Quit ("Leaving.")</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Connection reset by peer)</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-21-143-19.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:35]</span> <span class="irc-navy">* michaeld (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) Quit ("Leaving...")</span><br />
+<span class="irc-date">[22:28]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-21-143-19.clt.bellsouth.net) Quit ("Leaving.")</span><br />
