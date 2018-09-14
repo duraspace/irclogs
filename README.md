@@ -10,3 +10,8 @@ While some discussions still occur on IRC, the majority of DuraSpace community d
 To find the DSpace or Fedora developers discussions now, visit
 * DSpace contact & support information: https://wiki.duraspace.org/display/DSPACE/Support
 * Fedora contact & support information: https://wiki.duraspace.org/display/FF/Mailing+Lists+etc
+
+## License
+
+* Any code/scripts contained in this repository are Apache 2.0 licensed. See [LICENSE](LICENSE).
+* The IRC discussion logs themselves are licensed under [CC BY (Attribution) license](https://creativecommons.org/licenses/by/4.0/), similar to all DuraSpace community content generated on the [DuraSpace Wiki](https://wiki.duraspace.org).
