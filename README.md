@@ -1,4 +1,4 @@
-# irclogs.duraspace.org
+# [irclogs.duraspace.org](https://irclogs.duraspace.org)
 
 Archive of IRC logs for [DuraSpace](http://duraspace.org) projects (2009-2018)
 
