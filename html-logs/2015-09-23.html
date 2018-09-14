@@ -1,0 +1,293 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2015-09-23
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[0:02]</span> <span class="irc-navy">* terry-b (~terry-b@71-212-24-25.tukw.qwest.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[0:53]</span> <span class="irc-navy">* cknowles (uid98028@gateway/web/irccloud.com/x-eomisrqsktuvpvyf) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hobana.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hobana.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hobana.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hobana.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:56]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-jnscmqxhrmlumoku) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[11:52]</span> <span class="irc-green">* cknowles (uid98028@gateway/web/irccloud.com/x-dfcfnwwyvkudciyb) has joined #duraspace</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-jambiqlopwwlqwou) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for our weekly DSpace Developers meeting. Agenda for today: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-09-23">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-09-23</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-09-23 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-09-23">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-09-23</a></span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; As usual, our main topic for today is the Service API refactor...which seems to be progressing nicely over the last week (thanks in part to a ton of JSP work by KevinVdv &amp; mhwood!)</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Service+based+api">https://wiki.duraspace.org/display/DSPACE/DSpace+Service+based+api</a></span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Service based api - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Service+based+api">https://wiki.duraspace.org/display/DSPACE/DSpace+Service+based+api</a></span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; Based on the wiki page, it looks like everything *except* the Admin JSPs are marked as completed.</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; And the Admin JSPs have a PR: DSPR#1068</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1068">https://github.com/DSpace/DSpace/pull/1068</a> ] - DS-2701 : Migrating the admin folder by KevinVdV</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; So... I'd say we are "nearly there". It seems like our refactor can be considered "feature complete".  The last step may be to do some basic stability testing (looking for obvious bugs).</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; We also do have several outstanding PRs against the Services API branch needing review: <a href="https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api">https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api</a></span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api">https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api</a></span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2701">https://jira.duraspace.org/browse/DS-2701</a> ] - [DS-2701] Adopt Service-based API refactor of existing Java API - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks a TON to everyone who has helped out here! It's been a great collaborative effort...and thanks for helping out in the "home stretch" (JSPs), mhwood &amp; KevinVdV</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, and I guess before we can consider this 100% complete...we'd also need to fix our Unit Test failures which Travis is still complaining about. :)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-brick">* tdonohue feels like I'm talking to myself here.. (it's eerily quiet)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;peterdietz&gt; yes, +1 all the effort that everyone has thrown in</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;mhwood&gt; abollini observed that there may be obsolete Lucene-based code in jspui/search that can be removed.  I'm not familiar enough with search *or* jspui to feel confident that I can correctly identify it.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;peterdietz&gt; fix tests, and do some integration testing, to verify functionality of things in before and after sense</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, I saw that from abollini. I think (if needed) we could clean that up after things get to "master".  Technically that Lucene refactor isn't fully completed yet / ticket isn't closed.  But, we should add a note to that ticket about checking for obsolete search JSPs as well</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; +1 peterdietz</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like the best thing we could do now is to ensure the still open PRs (for services api branch) get an immediate review... That way we can get most/all merged ASAP and move towards fixing tests, integration testing, stabilization, etc</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;helix84&gt; good job, everyone</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;helix84&gt; I noticed that the service branch still doesn't build, what's missing on that front?</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; Do we want to jump in and review a few of these open PRs together?  (Assuming no other pressing questions?)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: it builds fine actually. It just doesn't pass all Unit Tests yet...I think there also may be a slight "breakage" in how unit tests are running on Travis.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: but, yes, we need to fix Travis / Unit Tests before this is fully complete</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; 99% (or thereabouts) of unit tests succeed. I think we have a few small stragglers</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;helix84&gt; so I assume as soon as it builds with tests passing, we can merge to master (even though it may not be fully functional)?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: it might be nice to run a few (quick) stability tests (bring up each UI and bang on it briefly) prior to merger.  But, beyond that, correct...we just need to fix up tests.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;helix84&gt; cool</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; The only reason I suggest a quick stability test is that it'd help PR makers if the UIs were "semi-stable" :)  They *should* be...as we've technically been bringing up UIs during this refactor. But, a final run-through would be nice</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; We could even throw it up on demo.dspace.org for quick / common testing</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; Any other pressing questions on this refactor or other things we're forgetting? (Otherwise, shall we do a quick PR run through of what remains?)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;helix84&gt; (apropos, demo still probably has the issue of solr refusing to run in tomcat)</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;helix84&gt; Just a quick question whether there's anything new in the UI working group?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: The UI Prototype Challenge was announced last week: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+UI+Prototype+Challenge">https://wiki.duraspace.org/display/DSPACE/DSpace+UI+Prototype+Challenge</a></span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace UI Prototype Challenge - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+UI+Prototype+Challenge">https://wiki.duraspace.org/display/DSPACE/DSpace+UI+Prototype+Challenge</a></span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; While the "Challenge" is going on, the UI Working Group will be finalizing the judging criteria for prototypes. Other than that, it's a bit of a "waiting game" now for prototypes to be submitted</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54c5104d.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; Back on the Services API stuff... it sounds like there's no other questions. In that case, I'd recommend we spend some time here doing a *quick* review of the outstanding PRs for Services API</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, hi KevinVdV. We were just noting how the Services API refactor seems to be nearing completion.  We have some outstanding PRs, but beyond those...it seems like we just need to fix Unit Tests &amp; perform some quick stability testing (to ensure no other major immediate bugs pop up)</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; Here's our outstanding PRs for the Services API branch: <a href="https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api">https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api</a></span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api">https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api</a></span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2701">https://jira.duraspace.org/browse/DS-2701</a> ] - [DS-2701] Adopt Service-based API refactor of existing Java API - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;KevinVdV&gt; Yeah I noticed, I merged some today which I had time to check out</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV did you have any other updates/notes to share?  Otherwise, I figured we could use some time today to review those outstanding PRs together</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;KevinVdV&gt; One thing on the unit tests, any help there is appriciated</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;KevinVdV&gt; Especially: <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/test/java/org/dspace/content/CommunityCollectionIntegrationTest.java">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/test/java/org/dspace/content/CommunityCollectionIntegrationTest.java</a></span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/CommunityCollectionIntegrationTest.java at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/test/java/org/dspace/content/CommunityCollectionIntegrationTest.java">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/test/java/org/dspace/content/CommunityCollectionIntegrationTest.java</a></span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; I can help dig into unit tests some. I've been working more on the backend testing anyhow (mostly with Flyway / DB related stuff)</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; the group one that is failing is also a mystery because in debug mode in my intellij it works</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; One note I've discovered with Flyway/DB stuff.  With the addition of the "pgcrypto" extension requirement for Postgres... I'm 99% certain that only Postgres "superusers" will be able to run "./dspace database clean" (as only superusers can remove extensions).</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; I don't think that's a big deal though...we should just document it..and we can always throw an error if you are NOT a "superuser"</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;KevinVdV&gt; Well there is another way….</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;KevinVdV&gt; Transfer all functions created by “pgcrypto” to the dspace user</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;KevinVdV&gt; But I will need to look into gathering up all the functions</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;KevinVdV&gt; Then it just becomes part of how to install the “pgcrypto” extension</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mhwood&gt; Please make that optional.  Some sites will be using Pg for other things too.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV.  We could look into it. But, in reality, this may not be a big deal.  The "database clean" command is mostly for developers (and shouldn't be run in production anyhow, obviously).  So, if we just say "you need to have superuser privileges", that may not be a big deal</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;KevinVdV&gt; Ok that also works for me ofc</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; I think it's a bit painful to make everyone transfer functions to "dspace" ownership... especially for a command that is just for development/testing</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: why does database clean have to remove pgcrypto? It's akin to creating/dropping the DB, ie. I don't think it's its responsibility.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;KevinVdV&gt; Well it is just how flyway does the cleaning I guess… it attempts to drop all tables &amp; functions</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: it's actually trying to remove pgcrypto functions...which can only be created by a "superuser" account.  Why pgcrypto can only be installed by a superuser is another question</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; From my understanding, some extensions (including pgcrypto) can only be installed/removed by superusers.  Others can be installed/removed by db owners.  It depends on what the extension does and what it creates</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;helix84&gt; So what happens currently when you run database clean and don't have the priviliges? Will the whole clean fail or just removal of pgcrypto?</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; So, for pgcrypto. You need to install it as a superuser.  But, that does NOT mean that the "dspace" db owner needs superuser privileges.  You could install it as "postgres" and then use it as the "dspace" user</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: flyway throws an error saying you don't have permissions to remove pgcrypto. The database clean fails entirely.  I was looking into "fixing it" but realized it cannot really be fixed (easily).  So, we might just throw a more immediate error saying "You need superuser privileges to run a 'clean'"</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;peterdietz&gt; hmm. then perhaps ant-update can pause/stop and give the user instructions, sorry, Dave, I can't do that. As postgres super user run: psql dspace123 -c "UPDATE ..."</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I assume you also need admin privileges to add pgcrypto. Does flyway do that, too (and fail)?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; (and we should be able to check if a user acct has superuser privileges pretty easily...so we could "catch" that error before even calling Flyway)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; it is only for postgres, oracle should work fine.</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: We currently don't add pgcrypto via Flyway.  Doing so would REQUIRE that the "dspace" db owner has 'superuser' privileges in Postgres.  I don't think we should require that, as "superuser" privileges can be a security concern (gives that user acct full rights on all databases on that server)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;peterdietz&gt; ditto</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I completely agree. But then I don't understrand why database clean tries to remove pgcrypto.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;KevinVdV&gt; Because the pgcrypto is just a bundle of functions &amp; flyway tries to remove those</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;peterdietz&gt; so.. my thought process a month ago, was just have flyway add pgcrypto. But since this is a postgres superuser only thing, then flyway has to back away from doing this</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: it doesn't actually try to remove pgcrypto ENTIRELY. It just tries to remove the functions that pgcrypto creates in your "dspace" database.  But, it cannot remove those functions as they are owned by the superuser who created them</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;peterdietz&gt; (thinking out loud</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;mhwood&gt; So we need to have them owned by the DSpace database user.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: correct</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;helix84&gt; IMHO, dspace shouldn't try to remove something it didn't add.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;helix84&gt; If it's a manual step to install pgcrypto as DB admin, it should be the same wrt its removal.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;peterdietz&gt; oops. hit enter too soon. Could dspace user define a bunch of functions which equate to same thing as pgcrypto, and do it as dspace user, without needing to be super user. Sounds like a terrible idea, hacking pgcrypto in</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;helix84&gt; Sorry, gotta run now. I'll be happy to follow up on this later in #dspace.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;KevinVdV&gt; Well feel free to try, the only function we need is to create a UUID for existing DSPace Objects</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;KevinVdV&gt; But perhaps we should have this discussion in a JIRA &amp; see if somebody can come up with a solution &amp; proceed with the PR review ?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; To be honest all, after thinking about this a bit on Monday (after I realized the issue)... I think I've come to the conclusion that our ONLY issue is with the "dspace database clean" command.  Since that command is ONLY for developers, I don't see why we need to do a ton of "magic" to handle pgcrypto.  Instead we can just return an error that says "You must be a superuser to run clean" if you attempt to run it as a non-superuser</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; I don't see any problem with requiring superuser privileges to run a "clean".  Most folks should NEVER run a clean anyways (as it's only for development/testing)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; I can create a JIRA ticket on this after the meeting (to capture any other brainstorms). I agree that we may want to proceed today with the PR review</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; Here's our PRs again: <a href="https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api">https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api</a></span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api">https://github.com/DSpace/DSpace/pulls?utf8=%E2%9C%93&amp;q=is%3Aopen+is%3Apr+base%3ADS-2701-service-api</a></span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2701">https://jira.duraspace.org/browse/DS-2701</a> ] - [DS-2701] Adopt Service-based API refactor of existing Java API - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; first up, DSPR#1073</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1073">https://github.com/DSpace/DSpace/pull/1073</a> ] - [DS-2764] CollectionDAOImpl - Parameters Switched by KevinVdV</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;KevinVdV&gt; Yeah a silly mistake I made</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; tiny change. Looks obvious. merge immediately :)</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; I'll merge it</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; done</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;mhwood&gt; Agreed, obvious fix.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; next, DSPR#1072</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;peterdietz&gt; cool</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1072">https://github.com/DSpace/DSpace/pull/1072</a> ] - [DS-2701-service-api-jspui-subscriptions] Migrating the subscriptions jsp by KevinVdV</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; changes look reasonable to me, +1</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;KevinVdV&gt; A small jsp, the last one in the “mydspace” folder</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;peterdietz&gt; looks like standard, 1072 +1</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, that's enough votes. I'll merge it.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; done</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mhwood&gt; Looks right.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; I'm doing the next two out of order...as I know there's a dependency here</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; DSPR#1070 next</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1070">https://github.com/DSpace/DSpace/pull/1070</a> ] - DS-2701 : Flyway Upgrade by tdonohue</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; This is an upgrade to the latest version of Flyway. As part of this, I updated our code to use non-deprecated Flyway API methods</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;KevinVdV&gt; Looks good but haven’t found time to test it (although I think there will be enough testing going on soon)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; (So it touches a few files, especially our Flyway callbacks, but all changes are minor)</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; Any objections here? Does this look OK to others?</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;peterdietz&gt; 1070 looks reasonable. i'll defer to you Tim</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; Looks sensible.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. Merging then</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; Next, DSPR#1071</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1071">https://github.com/DSpace/DSpace/pull/1071</a> ] - DS-2452: Upgrade to Commons Pool v2 by tdonohue</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160190.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; This is a followup to changes from KevinVdV.  He upgraded us to Apache Commons DBCPv2, which uses Pool v2.  So, I upgraded us fully to Pool v2</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; It *does* require refactoring the EventServiceImpl.  But, I've done some basic testing of this, and I'm not seeing any issues</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;KevinVdV&gt; Seems sensible to me</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;mhwood&gt; So this has nothing to do with DB connections; EventServiceImpl is pooling something else.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; (This PR has the Flyway changes from 1070 in it right now as well... I mistaken built this off a branch that included those too.  But, since we just merged 1070, that should be a problem)</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: correct. But, it cleans up our dependencies.  Currently we'd be using Pool v1.4 and Pool v2 (used by DBCPv2) in parallel</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; (and I'm not sure if running two versions of Pool could cause us issues down the line)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;KevinVdV&gt; Yeah it is defenitly a good thing to upgrade older dependencies if we can</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; Does that make sense? Should we merge?</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mhwood&gt; Looks sensible to me.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;KevinVdV&gt; +1</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I'll merge.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;peterdietz&gt; yeah, probably a good idea</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, next up, DSPR#1068</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1068">https://github.com/DSpace/DSpace/pull/1068</a> ] - DS-2701 : Migrating the admin folder by KevinVdV</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; Lots of changes here...scanning (look minor/obvious so far)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;KevinVdV&gt; These are the last of the unrefactored jsp's</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;peterdietz&gt; all jsp's. fine by me</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; Finished scanning. This all looks reasonable. Nothing jumps out at me</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'll give my +1. Others?</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mhwood&gt; I read more slowly.  Nothing bad yet.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;peterdietz&gt; (I gave a carte blanche approval, based on it being only jsps)</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. I say we go ahead and merge this. We can clean up minor bugs later in testing. The major refactor looks good though</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; merged</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;mhwood&gt; Looks good to me.</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DSPR#1048 (another big one)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1048">https://github.com/DSpace/DSpace/pull/1048</a> ] - [DS-2713] Ensure that there can still be an xml workflow migration by KevinVdV</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mhwood&gt; One comment:  a lot of those for loops could be "enhanced" for since we don't use the index for anything but fetching members of aggregates.</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;KevinVdV&gt; Yeah I know … but doing these refactoring tasks during my lunchbreaks…..</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;KevinVdV&gt; Not much time to do stuff beyong making sure it compiles</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; 1048: I wish we didn't have to allow for "out-of-order" migrations with Flyway... but, I understand why we'd need to do this to support an "optional" migration for the optional XML Workflow feature.</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; 1048 makes me wish we could move to *one* Workflow already, rather than having two (which requires us to stretch Flyway a bit here)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;KevinVdV&gt; Well it would be required in DSpace 6 anyway regardless of service api</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; true</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;KevinVdV&gt; I’m not a fan myself but there was no other way</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; yep. I agree. It's cause this is an "optional" db migration. There's no way around that</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;tdonohue&gt; (other than moving to ONE workflow system, so there is no "optional" migration for XML Workflow)</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;mhwood&gt; I don't understand much of what's going on in this one, because I haven't spent much time looking at what it changes.</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;tdonohue&gt; (but that's a completely separate, larger task)</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; One question KevinVdV: Is there no way to use build the *new* XML Workflow migration scripts based on the 5.x ones?  It seems slightly odd to me to have repetition in those migration scripts.  Normally the 6.x ones would just include *new* changes on top of the 5.x ones</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;KevinVdV&gt; Well because the old 5 migration scripts use integer based refences as foreign keys</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;tdonohue&gt; Instead, it seems like you are essentially building in a way to *skip* the 5.x XMLWorkflow scripts and just run the 6.x ones?  Or am I misunderstanding?</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;KevinVdV&gt; For example cwf_workflowitem links to the item id which USED to be int</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;peterdietz&gt; I've not used XML workflow. Either needs better marketing, or make it behave like the old workflow (ui configuration, and accept/reject/ edit to be default state of it). So everyone can just migrate to it without noticing</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;KevinVdV&gt; Yep that is what I’m doing, but the 5.x ones are still in there for fresh install with xml workflow enabled</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;mhwood&gt; I can't say I understand the changes, but nothing leapt out at me as a concern.</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV: I guess I'm confused why you'd ever *skip* the 5.x XMLWorkflow migrations.... shouldn't it be like... (1) enable XMLWorkflow, (2) run 5.x scripts, (3) run 6.x scripts (to refactor DB for 6.x and migrate data)?    Instead it seems to go #1 then #3?</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;tdonohue&gt; I feel like I'm probably missing something here though...just seems odd to skip any old migration scripts</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue++</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;KevinVdV&gt; Because with a 6 database the followoling sql statement wouldn’t work: <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/org/dspace/storage/rdbms/xmlworkflow/postgres/xml_workflow_migration.sql#L33">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/org/dspace/storage/rdbms/xmlworkflow/postgres/xml_workflow_migration.sql#L33</a></span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/xml_workflow_migration.sql at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/org/dspace/storage/rdbms/xmlworkflow/postgres/xml_workflow_migration.sql#L33">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/org/dspace/storage/rdbms/xmlworkflow/postgres/xml_workflow_migration.sql#L33</a></span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;KevinVdV&gt; because the item_id doesn’t exist anymore</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;tdonohue&gt; Oooohhh.  I see. So, if your DB is *already* running DSpace 6.x, it won't be able to run the old 5.x XML Migration scripts</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;KevinVdV&gt; Indeed !</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;KevinVdV&gt; But a fresh install WILL still need that old sql</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;tdonohue&gt; (so, XML Migration would fail to work right if you upgraded to 6.x BEFORE enabling XML Migration)</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;KevinVdV&gt; Took me a while to get all scenarios working</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;peterdietz&gt; aha.. yeah. didn't imagine that case</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;tdonohue&gt; Yea..I completely missed that scenario. Ok.  It's a bit of an "ugly beast" (but a very smart way to do this, KevinVdV). But, it now makes sense. +1</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;KevinVdV&gt; All the scenario’s that I was able to come up with are in the JIRA</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-brick">* tdonohue might add in an additional comment into the code to better explain this non-obvious scenario..and why the 5.x scripts have to be skipped for that scenario.  Otherwise, I worry we'll look at this in a few years and wonder "WHY?"</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;KevinVdV&gt; Ok I can do that</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;tdonohue&gt; I guess it's kinda implied by this comment though: <a href="https://github.com/DSpace/DSpace/pull/1048/files#diff-f3642aa768b603347f97be2263784de4R59">https://github.com/DSpace/DSpace/pull/1048/files#diff-f3642aa768b603347f97be2263784de4R59</a></span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2713] Ensure that there can still be an xml workflow migration by KevinVdV · Pull Request #1048 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1048/files#diff-f3642aa768b603347f97be2263784de4R59">https://github.com/DSpace/DSpace/pull/1048/files#diff-f3642aa768b603347f97be2263784de4R59</a></span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;tdonohue&gt; I'd just add: "(e.g. if your database is already running DSpace 6 prior to enabling XML Workflow, we need to skip these old 5.x scripts, as they are incompatible with a 6.x database)"</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;tdonohue&gt; It's what you seem to be implying there KevinVdV... just a bit more bluntly stated</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;KevinVdV&gt; That is what it does yes</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;KevinVdV&gt; But currently at home so will make the change tomorrow</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;KevinVdV&gt; Or merge now &amp; create a pull request to fix the comment</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;tdonohue&gt; I'll just merge &amp; fix it in a new tiny PR. No problem</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; OK, we are way "overtime" here...but one last one: DSPR#1039</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1039">https://github.com/DSpace/DSpace/pull/1039</a> ] - DS-2730 link getName() to DSpaceServices by pnbecker</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;KevinVdV&gt; Great thx</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; Based on KevinVdV's comments on 1039, we likely need to wait on this one</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;KevinVdV&gt; Yeha DSpace won’t compile anymore if we merge this one</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;tdonohue&gt; I think that wraps things up? We'll wait on 1039.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;tdonohue&gt; Next steps here:  We need to get Unit Tests all working (and I'll chip in on that this week).  We also need to get some basic stability tests done on UIs (just to ensure no major problems we've overlooked on any)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;tdonohue&gt; Then, *hopefully* we can merge all this to master as early as next week.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;tdonohue&gt; We probably should also send a status update on where we stand to dspace-devel, to warn developers / Committers that this is coming soon</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;mhwood&gt; Prepare to open the floodgates!</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;tdonohue&gt; Any last topics or questions for today?</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;mhwood&gt; Not here.</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;hpottinger&gt; to be clear, for the integration testing, you're talking about doing that manually, not writing tests?</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;KevinVdV&gt; *thumbleweed*</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;peterdietz&gt; hmm. i guess we're all busy, but tim are you thinking of refactoring configuration to work with services?</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: correct. manual testing</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mhwood&gt; Anybody who wants to write an automated integration test is welcome to do so, I think.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;hpottinger&gt; do we want to stand this up on demo and ask the community to testathon it?</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-navy">* cknowles (uid98028@gateway/web/irccloud.com/x-dfcfnwwyvkudciyb) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: yes. I still have an (old) PR opened which refactors configuration to use Services (and Apache Commons Config).  I plan to refactor/rebase that work (in time for 6.0) once the Service API stuff is over in "master"</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: I was mostly asking to clarify, in case an observer reads the logs and is tempted to believe we have automated tests</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;peterdietz&gt; this is as close as I've got for integration testing. Rebuild each time with a fresh DB, and the fire away with: <a href="https://github.com/DSpace-Labs/dspace-rest-requests">https://github.com/DSpace-Labs/dspace-rest-requests</a></span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace-Labs/dspace-rest-requests · GitHub ] - <a href="https://github.com/DSpace-Labs/dspace-rest-requests">https://github.com/DSpace-Labs/dspace-rest-requests</a></span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I'm going to close up the meeting for today. No new topics, but feel free to continue discussions either here or in #dspace.  Thanks all!</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54c5104d.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-green">* cknowles (uid98028@gateway/web/irccloud.com/x-aejkjkiibrqtpyym) has joined #duraspace</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-green">* dyelar (~dyelar@31.158.45.66.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160190.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-navy">* cknowles (uid98028@gateway/web/irccloud.com/x-aejkjkiibrqtpyym) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-jambiqlopwwlqwou) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

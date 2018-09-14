@@ -1,0 +1,192 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2013-09-25
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:49]</span> <span class="irc-brown">-morgan.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-morgan.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-morgan.freenode.net- *** Couldn't look up your hostname</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-morgan.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* DuraLogBot (~PircBot@184.73.169.236) has joined #duraspace</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:45]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-green">* barmintor (~ba2213@franklin.cul.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has joined #duraspace</span><br />
+<span class="irc-date">[18:26]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[18:28]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:44]</span> <span class="irc-green">* l_a_p (~chatzilla@host88-237-dynamic.12-79-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* bollini (~chatzilla@host159-219-dynamic.55-82-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;helix84&gt; Hello everyone, it's time for our developer's meeting. Since Tim is not here today, I'll be a substitute for today.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;helix84&gt; There are no special items on our agenda, so I'd like to give you a minute to raise any points we need to discuss, especially things concerning the 4.0 release.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;helix84&gt; If there aren't any or after we're done discussing them, we can take the rest of the meeting to catch up on our GitGub pull request review backlog.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; I'm curious to hear if anyone has tried out vagrant-dspace?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I didn't. Not recently.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;hpottinger&gt; I'm working on DS-1660, which will make configuring things more straightforward, and am aiming to use the new configs to drive some other features we want to add (like Pull Request testing)</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1660">https://jira.duraspace.org/browse/DS-1660</a> ] - [#DS-1660] Utilize Hiera for configuration of Vagrant-DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;helix84&gt; One piece of news I can think of is that I sent the call to REST developers as we agreed. Neither Wijiti nor Jorum/Hedtek replied, but there was some buzz in our REST API working group and some activity on their Jersey implementation. There's little chance that Jersey would be anything beyond alpha in time for 4.0, but they're trying to cover at least the most important REST endpoints.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; thanks for the progress report hardy</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; What chance of a PR for any REST impl by end of next week?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; I'm thinking the Jersey REST-API may be a bit more stable than Alpha, though mhwood makes a good point, end of next week is the target isn't it?</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; mhwood: Both of them are pretty close, but I personally don't think their developers will finish it and file a PR in time. But if you feel like trying...</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; There doesn't seem to be any discussion going on, so we can move to pull requests. If you do remember anything to discuss during the meeting, please speak up and we can interrupt the review.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open">https://github.com/DSpace/DSpace/pulls?direction=asc&amp;page=1&amp;sort=created&amp;state=open</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; we'll start with PR#291: <a href="https://github.com/DSpace/DSpace/pull/291">https://github.com/DSpace/DSpace/pull/291</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ See <a href="https://jira.duraspace.org/browse/DS-1644">https://jira.duraspace.org/browse/DS-1644</a> by terrywbrady · Pull Request #291 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/291">https://github.com/DSpace/DSpace/pull/291</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; DS-1644</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1644">https://jira.duraspace.org/browse/DS-1644</a> ] - [#DS-1644] xmlui.force.ssl ignored if authenticated user switches from https to http - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;PeterDietz&gt; Hi All, I missed the start of the meeting. I've got some basically functional /communities/ /collections/, and /items/</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm not sure what dspace.current.user.id is compared to dspace.user.effective</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; Hi Peter. I suggest you put your Jersey implementation up on demo.dspace.org, too. Next week will be our last DevMtg before the PR dealine, so we could play with it.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;PeterDietz&gt; Umm. So to get that code up there, I've got to get it somehow merged in.. Would there be some type of all-potential-features branch? that I should merge it into...?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; I'd rather like to see something ship out with 4.0, if it's ready enough for people to play with and comment.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: So it's not a separate webapp? Are modifications required to other DSpace webapps in order for your webapp to work?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;PeterDietz&gt; Pulling it into master now, and then yanking it out at last minute should be avoided.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;PeterDietz&gt; It is a seperate webapp, but not a seperate module any more. Its in [dspace-source]/dspace-rest, and ought to get deployed to /rest webapp</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; That sounds like the right way.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;PeterDietz&gt; Code is up at: <a href="https://github.com/peterdietz/DSpace/tree/rest-jersey/dspace-rest">https://github.com/peterdietz/DSpace/tree/rest-jersey/dspace-rest</a></span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-rest at rest-jersey · peterdietz/DSpace · GitHub ] - <a href="https://github.com/peterdietz/DSpace/tree/rest-jersey/dspace-rest">https://github.com/peterdietz/DSpace/tree/rest-jersey/dspace-rest</a></span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; If it touches other modules, I would suppose that those changes would be more broadly useful and not too extensive, but I should read the code....</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;PeterDietz&gt; I've stopped myself from altering any of the other modules, though I'm tempted. i.e. one could potentially replace /xmlui/community-list with on-demand calls to REST to fetch more data</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; Meanwhile, dspace-xmlui reads dspace.current.user.id but does not set it.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: I noticed you commited something concerning rest-jersey to DSpace/DSpace, but then I couldn't find anything. Was that a mistake you then pulled out?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; dspace-jspui sets and gets dspace.current.user.id.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;PeterDietz&gt; Yeah, I accidentally had DSpace/DSpace set as git remote origin. I did git push origin, and boom, rest-jersey went in. I then did git push origin :rest-jersey to pop it out, and then followed up with pushing it to my peterdietz/DSpace repor</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: oh, ok. It got me confused :)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; Peter: If you have any generic improvement to other modules, you can also file them separately from your REST implementation.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;helix84&gt; One question I wanted to ask is whether you tried to reuse the tests from Hedtek REST API for Jersey REST</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; It looks like rest-jersey touches existing code very lightly.  Looks like a good start.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: I'm thinking about trying to borrow the Hedtek tests for the new API</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;PeterDietz&gt; There's things that need to improved within DSpace. i.e. item.getMetadata(), returns you DCValue[], which is deprecated. I don't know how to replace that to the better way. So I'm just going to use that...</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;PeterDietz&gt; I haven't dug into the Tests. I'm plowing ahead full-steam, and things could change quickly, so I haven't worked on the tests.. They are important things to get to...</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: I agree you shouldn't try any heroic changes that could complicate merging. Those can be dealt with later.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; seems like Hardy could help out?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; gosh, I hear that a lot :-)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; dspace.user.effective is used only in dspace-xmlui.  It's done with a manifest constant so it could just have its value changed and that one literal replaced.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; on a completely unrelated note, I wanted to let the release team know that I should have some last-minute LDAP improvements</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;hpottinger&gt; noted, though I think we already inducted you last week, didn't' we?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; to the RT? nope, I passed :p</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; :-)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; mhwood: so what should we do with PR#291?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; 291 looks to me like a correct fix.  But I'd like to see it use the manifest constant like AuthenticationUtil does.  At some point someone could change the value of AuthenticationUtil.EFFECTIVE_USER_ID to match what jspui uses, removing a possible point of confusion, but that's for later.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-green">* barmintor (~ba2213@franklin.cul.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; mhwood: would you please comment to that effect in the PR or issue?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; WIll do.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; next up: <a href="https://github.com/DSpace/DSpace/pull/294">https://github.com/DSpace/DSpace/pull/294</a> DS-1647</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1647] Adds MetadataWebService curation task by richardrodgers · Pull Request #294 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/294">https://github.com/DSpace/DSpace/pull/294</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1647">https://jira.duraspace.org/browse/DS-1647</a> ] - [#DS-1647] Curation Task for Consuming Web Services - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; That sounds useful.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; Another handy curation task for our stable of handy curation tasks? I have no objection, +1</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;helix84&gt; bollini: Do you have any comments on this? Esp. regarding your RoMEO callback in submission forms?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;bollini&gt; it is a different use case</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;bollini&gt; the richard PR is to allow enrichment of item metadata looking to external datasource</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; this green button looks tempting</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;bollini&gt; my sherpa romeo integration is to show the publisher policy in the upload step so that the user can peek the appropriate file (pre-print, postprint, etc.)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; I also have no objection against more curation tasks, any potential breakage should be constrained to the task itself.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;bollini&gt; I have read the documentation on the richard git repo and it looks good. I have only a concern</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; it adds some dependencies, but they should be apache-licensed.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;bollini&gt; it is about the dependencies to httpcommon we need to check if there are any conflict with solrj 4.4</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; It draws in Apache HTTPComponents v4.  We use v3 somewhere.  I don't think they'll clash.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;bollini&gt; as I want to merge the solr4 pr tomorrow, I suggest to wait at least to have solr4 in and after fast recheck and merge the richard pr</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mhwood&gt; bollini:  that seems reasonable.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; Sounds good. Should I add you as a reviewer, or an assignee to Ds-1647?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm curious as to how the webservice task is able to deal with either xml or json response, and how complex the mappings between it all is.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: I think it doesn only XML</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;bollini&gt; helix84: ok, I will do a fast check if no blocking issue I will merge</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; bollini: thanks. next up: <a href="https://github.com/DSpace/DSpace/pull/295">https://github.com/DSpace/DSpace/pull/295</a> DS-1637</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1637 Support running handle server and application container on separate machines (2nd version) by tuub · Pull Request #295 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/295">https://github.com/DSpace/DSpace/pull/295</a></span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1637">https://jira.duraspace.org/browse/DS-1637</a> ] - [#DS-1637] Support running handle server and application container on seperate machines - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;PeterDietz&gt; OK, I did see the XPATH in the code somewhere, and Accept header is set to text/xml. I think that is pretty straight forward then. If exists or is needed, then a different one for other data formats to be built later</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; Conflict!</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;bollini&gt; we should start to use this architecture in production in the next 1-2 weeks</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; no green button makes Max sad</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;bollini&gt; it should be easy to me fix the conflict</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;PeterDietz&gt; OK, so the multi-DSpace handle resolver. I'm not sure I understand the architecture yet...</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;bollini&gt; the main question is if we agree about have this in the main codebase</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; I, personally would be happy to have it</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;PeterDietz&gt; One handle-daemon, two DSpace servers. Get DSpace to return the yes/no and URL to resolution of handle over JSON?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;bollini&gt; 1 handle server many dspace repository distributed over different node</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;bollini&gt; PeterDietz: yes</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;PeterDietz&gt; So, the handle-daemon is a single/static machine. Are the DSpace instances replicas / i.e. load-balanced clones. Or are they different instance with different data</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;bollini&gt; different instance with different data (and customers in our case)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;PeterDietz&gt; I guess this isn't the code for the handle daemon, but then I'm wondering what the updated handle daemon code looks like, to query all the nodes to get responses</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;PeterDietz&gt; ...but I'm guessing the handle-daemon&lt;--&gt;DSpaceInstance contract doesn't require us to know what its like under the hood</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;bollini&gt; no, it query only the repository that say to be able to answer for one or more prefix</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mhwood&gt; Given the requirements it seems reasonable.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;bollini&gt; the only thing that could be improved in my opinion is that this code is in part for the handle server not for dspace so it will be better if we produce a single jar to place in the handle-server lib</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; Okay, Andrea seems to have this covered (thanks again!). We have 8 minutes, shall we try one more simple PR? <a href="https://github.com/DSpace/DSpace/pull/296">https://github.com/DSpace/DSpace/pull/296</a> DS-1422</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1422 surround the file name with quotes by ottenhoff · Pull Request #296 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/296">https://github.com/DSpace/DSpace/pull/296</a></span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1422">https://jira.duraspace.org/browse/DS-1422</a> ] - [#DS-1422] Duplicate Headers when bitstream has a comma in the title (Chrome)  - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;bollini&gt; but this is already the case of our current handleplugin... ok go ahead</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; sorry, I didn't mean to interrupt</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mhwood&gt; Ds-1422:  looks right.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm wondering if we want to surround filename with quotes, or use some type of StringUtils . escapeSomething(...)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; Ds-1422 seems to have 2 non-commiter confirmations. Do we still want to confirm it ourselves?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; Looks like the MIME spec should tell us what to do here?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;PeterDietz&gt; It looks like a pretty standard fix though</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; Seems like we'll be better off than we were if we accept it (it's mentioned that Moodle solves it this way). If there are more concerns about a generic solution, we could then revisit it.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm fine with this as-is</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;bollini&gt; +1 too</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;helix84&gt; ok, I'll go ahead and push the button</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;helix84&gt; That should be all for the official meeting, but feel free to stick around. Some interesting discussions were Vagrant and REST API.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;bollini&gt; Ok, I need to leave for today. See you next time</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* bollini (~chatzilla@host159-219-dynamic.55-82-r.retail.telecomitalia.it) Quit (Quit: ChatZilla 0.9.90.1 [Firefox 23.0.1/20130814063812])</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; good night</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-navy">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) Quit (Quit: helix84)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; I have to leave too.  'bye.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* l_a_p (~chatzilla@host88-237-dynamic.12-79-r.retail.telecomitalia.it) Quit (Quit: ChatZilla 0.9.90.1 [Firefox 23.0.1/20130814063812])</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) Quit (Ping timeout: 240 seconds)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

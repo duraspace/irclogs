@@ -1,0 +1,430 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2012-05-16
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[5:44]</span> <span class="irc-green">* hamslaai1 (~hilton@196-215-9-149.dynamic.isadsl.co.za) has joined #duraspace</span><br />
+<span class="irc-date">[5:51]</span> <span class="irc-green">* hamslaai1 (~hilton@196-215-9-149.dynamic.isadsl.co.za) has left #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sendak.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sendak.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sendak.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-sendak.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[11:59]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-green">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:59]</span> <span class="irc-navy">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[13:08]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:54]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp218.evans.tamu.edu) Quit (Quit: scottatm)</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-green">* scottatm (~scottatm@adhcp218.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi All, my first "DSpace Developers Office Hours" starts now: <a href="https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours">https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours</a>  If you have something you'd like to chat about, let me know!</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Office Hours - Tim Donohue - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours">https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours</a></span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;tdonohue&gt; (In the meantime, I'll just be lurking here &amp; multi-tasking)</span><br />
+<span class="irc-date">[18:11]</span> <span class="irc-green">* ryscher (98033b9f@gateway/web/freenode/ip.152.3.59.159) has joined #duraspace</span><br />
+<span class="irc-date">[18:52]</span> <span class="irc-black">&lt;ryscher&gt; tdonohue: Office hours seem quiet so far....I have two quick questions related to licensing.</span><br />
+<span class="irc-date">[18:53]</span> <span class="irc-black">&lt;tdonohue&gt; sure, go ahead, ryscher. I'm around, just multitasking :)</span><br />
+<span class="irc-date">[18:55]</span> <span class="irc-black">&lt;ryscher&gt; 1.) Currently, www.dspace.org/license is a 3-clause BSD license. I thought DSpace previously had the 2-clause version. Am I wrong? If not, was this a conscious change?</span><br />
+<span class="irc-date">[18:57]</span> <span class="irc-black">&lt;tdonohue&gt; ryscher: RE: #1, as far as I'm aware it's always been a 3-clause BSD.  I just checked the tagged DSpace 1.0 release, and it looks to be the same license there (with MIT &amp; HP mentioned instead of DuraSpace &amp; DSpace): <a href="https://svn.duraspace.org/dspace/dspace/tags/dspace-1_0/dspace/LICENSE">https://svn.duraspace.org/dspace/dspace/tags/dspace-1_0/dspace/LICENSE</a></span><br />
+<span class="irc-date">[18:58]</span> <span class="irc-black">&lt;ryscher&gt; tdonohue: ok, good. My mistake. I'll update the default Dryad licensing to minimize differences.</span><br />
+<span class="irc-date">[18:59]</span> <span class="irc-black">&lt;ryscher&gt;  2.) The majority of our Dryad code is based on DSpace code, copyright DuraSpace. But for new code we create from scratch, we have been keeping copyright ourselves, and only assigning copyright to DuraSpace for things that move into the main DSpace distribution.</span><br />
+<span class="irc-date">[19:00]</span> <span class="irc-black">&lt;ryscher&gt; We've been discussing whether it is better/easier to just assign copyright to DuraSpace from the outset, even for code that might never make it into the main DSpace. Does DuraSpace have thoughts/objections?</span><br />
+<span class="irc-date">[19:03]</span> <span class="irc-black">&lt;tdonohue&gt; Your #2 sounds like the normal workflow that I've heard many developers use.   As to whether DuraSpace would have any objections to assigning immediate copyright, I might want to run it by a few other DuraSpace folks.  It sounds OK. But, the one oddity is that we don't actually have the "code" (i.e. it's still your code) and aren't helping maintain it.</span><br />
+<span class="irc-date">[19:03]</span> <span class="irc-black">&lt;tdonohue&gt; A question for you -- is there a reason you can think of why it's "better/easier" to assign immediate copyright to DuraSpace?</span><br />
+<span class="irc-date">[19:04]</span> <span class="irc-black">&lt;ryscher&gt; Yes, it's still our code, but the lines get fuzzier as we move into GitHub, especially if we're doing everything in a fork of DSpace.</span><br />
+<span class="irc-date">[19:04]</span> <span class="irc-black">&lt;tdonohue&gt; The only situation I can think of is that it's code that you *want* to give back to DSpace. In which case, I think it'd be perfectly fine to assign copyright to DuraSpace right away.</span><br />
+<span class="irc-date">[19:05]</span> <span class="irc-black">&lt;tdonohue&gt; ryscher : yea, the lines do get "fuzzier" in GitHub.  But, technically if it's code that is only in your fork, then it's not yet "owned" by DuraSpace.  It only becomes "owned" by DuraSpace once it is merged back into the main DSpace GitHub: <a href="https://github.com/DSpace/DSpace">https://github.com/DSpace/DSpace</a></span><br />
+<span class="irc-date">[19:06]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace">https://github.com/DSpace/DSpace</a></span><br />
+<span class="irc-date">[19:06]</span> <span class="irc-black">&lt;ryscher&gt; So far, our mode has been to create things that meet our needs, and send things to DSpace as the opportunity arises. We don't always know what pieces will be contributed.</span><br />
+<span class="irc-date">[19:07]</span> <span class="irc-black">&lt;mhwood&gt; That's what I do.  Code that we intend to contribute to DSpace gets the DuraSpace license block; code we intend to hoard gets a "Copyright nnnn Indiana University" block.</span><br />
+<span class="irc-date">[19:08]</span> <span class="irc-black">&lt;mhwood&gt; Oops, "that" being what tdonohue said.</span><br />
+<span class="irc-date">[19:09]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:09]</span> <span class="irc-black">&lt;ryscher&gt; My thoughts about it being better/easier to assign immediately center around reducing the need to worry about which code gets which copyright. But in practice, it only takes a few seconds to change it</span><br />
+<span class="irc-date">[19:09]</span> <span class="irc-black">&lt;tdonohue&gt; One "hair" to split -- technically, DuraSpace can only provide "copyright protection" on stuff in the main GitHub.  I.e. if a single developer writes some questionable/illegal code in their fork &amp; gets sued over it (highly unlikely to ever happen), DuraSpace is not liable.</span><br />
+<span class="irc-date">[19:10]</span> <span class="irc-black">&lt;ryscher&gt; Luckily, most of us are at universities with fancy lawyers :)</span><br />
+<span class="irc-date">[19:10]</span> <span class="irc-black">&lt;tdonohue&gt; That previous statement is an "extreme" scenario -- I doubt it will ever happen.  But, that's part of the reason why we don't really assign copyright until DuraSpace takes control :)</span><br />
+<span class="irc-date">[19:11]</span> <span class="irc-black">&lt;tdonohue&gt; yea, that is true, ryscher!</span><br />
+<span class="irc-date">[19:12]</span> <span class="irc-brick">* hpottinger observes this is a logged channel... if you have a good lawyer joke, best hold your fire :-)</span><br />
+<span class="irc-date">[19:12]</span> <span class="irc-black">&lt;tdonohue&gt; All in all, I don't think it's a big deal either way (i.e. DuraSpace isn't going to be searching GitHub for code that states copyright wrongly)</span><br />
+<span class="irc-date">[19:13]</span> <span class="irc-black">&lt;mhwood&gt; Heehee, I have a whole page-a-day calendar of lawyer jokes here.  (But I guess that the publisher would be unamused if I shared any.)</span><br />
+<span class="irc-date">[19:14]</span> <span class="irc-black">&lt;tdonohue&gt; So, does that help any ryscher?  I think the normal practice is what mhwood said: code to contribute can be marked DuraSpace right away (or as soon as you know you will contribute). Code to "hoard" can go under your own copyright.  But, it's not really a "strict" rule.</span><br />
+<span class="irc-date">[19:15]</span> <span class="irc-black">&lt;tdonohue&gt; &amp; if you hope to contribute all/most of it, then feel free to start putting that DuraSpace header on whatever you want (I know that Dryad is doing a lot of cool stuff that would be great to get back into DSpace someday)</span><br />
+<span class="irc-date">[19:16]</span> <span class="irc-black">&lt;ryscher&gt; tdonohue: yes, that answers my questions. I'm tying up some loose ends in contractual language, so I wanted to be clear about the range of possibilities.</span><br />
+<span class="irc-date">[19:18]</span> <span class="irc-black">&lt;ryscher&gt; we'll definitely be contributing more content in the future... hopefully keeping our code "hoard" to a minimum.</span><br />
+<span class="irc-date">[19:18]</span> <span class="irc-black">&lt;tdonohue&gt; great to hear :)</span><br />
+<span class="irc-date">[19:29]</span> <span class="irc-green">* KevinVdV (~kevin@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:42]</span> <span class="irc-black">&lt;hpottinger&gt; quiet office hours so far, tdonohue?</span><br />
+<span class="irc-date">[19:44]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yep. has been quiet.  But, not a big deal (afterall, it was just announced yesterday).  "Office Hours" is just meant to let you all know that this is a timeperiod you are more than welcome to ping me to chat about whatever (technically you can do that whenever I'm in IRC, but I may not always be as responsive depending on what I'm doing)</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-black">&lt;tdonohue&gt; currently, I'm just doing some other work (multitasking), since no one has anything to chat about today (and that's fine)</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-black">&lt;tdonohue&gt; but, it was good that ryscher popped in to ask a few questions :)</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;hpottinger&gt; well, to continue a discussion we were having the other day, the patch I came up with for DS-1174 does not appear to put a stack trace in any log file, alas</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1174">https://jira.duraspace.org/browse/DS-1174</a> ] - [#DS-1174] exception handling for itemUpdate hides the stack trace, which obstructs troubleshooting efforts - DuraSpace JIRA</span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-black">&lt;tdonohue&gt; Brief reminder to all that our DSpace Developers Meeting starts in 12 mins. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16</a></span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-05-16 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16</a></span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: shouldn't it just return the stack trace to the commandline?</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. I thought itemUpdate was a commandline tool?  Or am I forgetting how it is used in the UI?</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue, that would make sense, but it doesn't do that, either</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-black">&lt;tdonohue&gt; hmm..that is odd.</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-black">&lt;hpottinger&gt; Exception processing item 0001: java.lang.NullPointerException</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-black">&lt;tdonohue&gt; (trying to find the source code again)</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-black">&lt;hpottinger&gt; I can post an actual patch for review</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-black">&lt;tdonohue&gt; yea, that might help to attach it to Ds-1174</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;hpottinger&gt; dspace-api/src/main/java/org/dspace/app/itemUpdate.java is the file</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;tdonohue&gt; or a Github link, if your fix is up there.  Here's the line, if I recall correctly: <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/java/org/dspace/app/itemupdate/ItemUpdate.java#L456">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/java/org/dspace/app/itemupdate/ItemUpdate.java#L456</a></span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-api/src/main/java/org/dspace/app/itemupdate/ItemUpdate.java at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/java/org/dspace/app/itemupdate/ItemUpdate.java#L456">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/java/org/dspace/app/itemupdate/ItemUpdate.java#L456</a></span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;hpottinger&gt; correct, my patch, I've added a line 457</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;hpottinger&gt; e.printStackTrace();</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;tdonohue&gt; yep. I thought that should work. but, maybe there's something else going on there that I didn't notice.</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-black">&lt;tdonohue&gt; unfortunately, we have our mtg about to start here in a few minutes.  So, we may have to look at this afterwards</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-brick">* tdonohue start DSpace Developers Meeting</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Time to switch gears to our mtg.  here's the agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-05-16 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; we'll kick off with some JIRA reviews as always</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1008+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1008+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1008">https://jira.duraspace.org/browse/DS-1008</a> ] - [#DS-1008] Solr Statistics markRobotsByIP can mark too many IP addresses, including IP&amp;#39;s not on the IP list - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1008+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-1008+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; starting with DS-1008</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1008">https://jira.duraspace.org/browse/DS-1008</a> ] - [#DS-1008] Solr Statistics markRobotsByIP can mark too many IP addresses, including IP&amp;#39;s not on the IP list - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Looks like PeterDie_ already has a patch posted.  Does this just need review, Peter?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; This sounds like a bug to me, and the fix sounds reasonable</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, since Peter isn't around, I suggest moving on from Ds-1008.  But, my opinion would be to go ahead and commit this as long as others agree</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; Next up, DS-1009</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1009">https://jira.duraspace.org/browse/DS-1009</a> ] - [#DS-1009] SOLR - Provide a mechanism to force a commit. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;mhwood&gt; The fundamental problem is that string matching doesn't work very well with IP addresses.  Note also that IPv6 addresses will cause new pain.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- good point on IPv6</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mhwood&gt; Ds1009 already assigned to PeterDie_</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; yea, just wondering if it also needs feedback. Both Ds-1009 and Ds-1008 seem to just be sitting here</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; (with patches)</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; any thoughts on whether Ds-1009 is useful?  Are others +1 on an option to force a commit from commandline</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; I see that mdiggory had another approach to Ds-1009</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mdiggory&gt; Don't I always...</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; I like mdiggory's suggestion of a commit when the JVM is shutdown</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; I also like that idea. Is this a separate ticket or should it be a replacement for Ds-1009?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; The general method is probibly good in the first place</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. is Ds-1009 "good enough" for now, and the next step should be to investigate hooking an auto-commit into JVM shutdown</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; 1009 looks to be wrapped up, good enough for now</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; Note, we also use settings in solr to control commit period....</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mdiggory&gt; And if solr itself does auto commit on shutdown it might not be necessary in DSpace</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  Ds-1009 Summary: seems good enough for now. Let PeterDie_ know.   (separate ticket perhaps to investigate whether we can perform an auto-commit on JVM shutdown or if Solr already does that)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; Last one for today: DS-1012</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1012">https://jira.duraspace.org/browse/DS-1012</a> ] - [#DS-1012] DSpace Shibboleth authentication module needs to support Lazy Authentication, NetID based authentication, and additional EPerson metadata - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; looks to be assigned scottatm.  I assume this must be waiting for feedback as well?  Scott are you around?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-green">* mdiggory_ (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: Colloquy for iPad - <a href="http://colloquy.mobi)">http://colloquy.mobi)</a></span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-green">* mdiggory_ is now known as mdiggory</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; Looks like Stuart Lewis has tested this a bit.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; Oh wait. it looks like DS-1012 is already committed (look at "Git commits" tab of that ticket)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1012">https://jira.duraspace.org/browse/DS-1012</a> ] - [#DS-1012] DSpace Shibboleth authentication module needs to support Lazy Authentication, NetID based authentication, and additional EPerson metadata - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-1012 Summary : Get in touch with scottatm. Can this ticket be closed now? or does it require further work/review?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. we'll stop there for today</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Next up a few announcements/notes:</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; First, we have an OR12 Dev Mtg page up now: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-07-09+-+OR12+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-07-09+-+OR12+Meeting</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-07-09 - OR12 Meeting - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-07-09+-+OR12+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-07-09+-+OR12+Meeting</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Please add your name to the signup if you plan to attend!  (no real agenda yet, but you are welcome to add in ideas)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; As I think everyone here already saw, I'm now starting to hold an "Office Hours" in this IRC channel for the 3hrs before this meeting: <a href="https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours">https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours</a>   So, if you need someone to bounce ideas off of or need some more "eyes on an issue", feel free to stop in</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Office Hours - Tim Donohue - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours">https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; ( you are welcome to ping me though whenever I'm in IRC -- it's just that during "Office Hours", I promise I'll respond promptly!)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; Finally -- this week I realized that our JIRA wasn't setup to sync with DSpace GitHub yet.  So, our "Git Commits" tab on individual tickets wasn't working.  But, that should now be resolved</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; for example, see the recently merged pull request (Ds-1072): <a href="https://jira.duraspace.org/browse/DS-1072?page=com.xiplink.jira.git.jira-git-plugin:git-commits-tabpanel#issue-tabs">https://jira.duraspace.org/browse/DS-1072?page=com.xiplink.jira.git.jira-git-plugin:git-commits-tabpanel#issue-tabs</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1072">https://jira.duraspace.org/browse/DS-1072</a> ] - [#DS-1072] Post-registration link has a blank href if hosting DSpace at root instead of at /xmlui - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1072] Post-registration link has a blank href if hosting DSpace at root instead of at /xmlui - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1072?page=com.xiplink.jira.git.jira-git-plugin:git-commits-tabpanel#issue-tabs">https://jira.duraspace.org/browse/DS-1072?page=com.xiplink.jira.git.jira-git-plugin:git-commits-tabpanel#issue-tabs</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; thats good... does it handle showing pull requests at all?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; yep. as long as the Pull Request *mentions* the JIRA ticket number</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-green">* kimiora (kim@ec2-184-73-177-234.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; (again, see Ds-1072 link above, as the pull request there mentioned the ticket number)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-green">* kimiora is now known as kshepherd</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kshepherd&gt; hi all</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; hi kshepherd, welcome :)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; long time kshepherd</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;kshepherd&gt; mm</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; Hey, everybody, he's here!</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-brick">* kshepherd looks nervous</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, that was it for "quick notes".  The only other thing on the agenda was more discussion of 3.0 Planning (based on what came out of last week's 3.0 Skype Planning meeting)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; I tried to sum of what *I* felt came out of last week's meeting (see agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16)">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-05-16)</a></span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; I think *you* just about covered it.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; essentially 4 points: (1) we are starting to have concerns about long term viability of Cocoon, (2) we seem to prefer that 3.0 should continue as a "gradual evolution" of the platform, (3) though others are welcome to work towards doing deeper re-architecture work as long as it's kept open/shared and (4) we still need to figure out 3.0 details</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mdiggory.  I only stressed *I*, cause I wasnt' sure if I missed anything or if others came away with something different ;)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mdiggory&gt; I do think we need to be careful how we word what we say about cocoon...</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mdiggory</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kshepherd&gt; in what way?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; the concerns are not with its stability, nor Apache in general, just with its release process and its popularity in relation to other frameworks</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;kshepherd&gt; oh, true</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; and some have concerns with its memory footprint</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kshepherd&gt; plus, we wouldn't want to offend the thousands of active cocoon maintainers... ;)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-brick">* kshepherd hides</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mdiggory&gt; my point is that we don't want to scare our own community into thinking XMLUI isn't mature or stable in the process of discussing other technologies</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; True.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; that, and we need to be clear that Cocoon + XMLUI is still the "primary" UI (most features/most support) and will continue to be so in 3.0.  So, we need to also be clear that we're just planning for the future -- this is less about 3.0 specifically and more about the fact that we need to think about building new UIs over the long term option</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory &amp; I just said essentially the same thing :)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mdiggory&gt; well put tdonohue</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  so, all that being said.  What *is* going to be in 3.0?  Anything anyone has hiding up their sleeves (or cool ideas to brainstorm)?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; Currently, what we have as "tentative" are the @mire / Dryad stuff (which is all very very cool by the way): <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-NewfeaturesinDSpace3.0%28verytentative%29">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-NewfeaturesinDSpace3.0%28verytentative%29</a></span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 3.0 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-NewfeaturesinDSpace3.0%28verytentative%29">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes#DSpaceRelease3.0Notes-NewfeaturesinDSpace3.0%28verytentative%29</a></span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kshepherd&gt; well</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: and these targets are still open to requirements analysis by the community et al...</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kshepherd&gt; i have a few ideas</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; Not interesting to users, but the "portable" test environment is in master now.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mdiggory&gt; for instance, this morning I initiated a dialog on some of the Advanced Embargo Proposal features.... <a href="http://sourceforge.net/mailarchive/message.php?msg_id=29274842">http://sourceforge.net/mailarchive/message.php?msg_id=29274842</a></span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; right mdiggory -- agreed. they are still tentative based on approval  / etc</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;kompewter&gt; [ SourceForge.net: DSpace: ] - <a href="http://sourceforge.net/mailarchive/message.php?msg_id=29274842">http://sourceforge.net/mailarchive/message.php?msg_id=29274842</a></span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yeah! good for developers though!</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- I'd definitely like to hear your brainstorms/ideas</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: the goal in listing them and documenting them in the community is to give more opportunity for community feedback earlier in the process at both the business and technical levels.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mdiggory -- yep, I like that open approach to planning/designing/development</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-brick">* tdonohue is waiting for kshepherd's words of wisdom / brainstorms ;)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kshepherd&gt; heh... let me write them down and describe them properly and i'll post them on the list</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; cool. sounds good to me</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kshepherd&gt; one very little thing we've been talking about at UoA is how useful PRISM is in addition to DC for biblio/citation elements</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood... so, do we have examples of how to use the testing environment outside of dspace-api?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kshepherd&gt; would be nice to ship with PRISM in the metadata registry</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; kshepherd:  there has been interest in PRISM before.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kshepherd&gt; and get that worked into openurl, sfx, etc stuff (plus i've been playing around with CSL and citeproc-js to generate citations in 100s of different styles from record metadata)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; mdiggory:  there will be as soon as I get back to some of the JIRA tickets that have been waiting on testing support.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; kshepherd: the challenge is how to deal (similar to mods) with subfields.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; ooh -- CSL/citeproc-js.  I remember some of that from my old "BibApp" days.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: it's quite cool. wish there was a java processor though :P</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- I think a lot of that has interest in the community.  I know DCAT is also wanting to find ways to add more metadata standards (PRISM &amp; others) to DSpace out-of-the-box.  That's what this actually refers to: <a href="https://wiki.duraspace.org/display/DSPACE/Develop+support+for+additional+metadata+standards">https://wiki.duraspace.org/display/DSPACE/Develop+support+for+additional+metadata+standards</a></span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kompewter&gt; [ Develop support for additional metadata standards - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Develop+support+for+additional+metadata+standards">https://wiki.duraspace.org/display/DSPACE/Develop+support+for+additional+metadata+standards</a></span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: haven't encountered any subfields yet.. just standard stuff like prism:startingpage, prism:number, prism:journal... other useful things that aren't straight-forward in DC</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; PRISM also has to do with entity types.... Persion, Organization, Events, References, ...  how do we get out into these types of metadata records?  Do we add support for RDF(OWL), XML,XSD/DTD and other types of "records"</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- if you are working CSL / citeproc-js into Dspace, I think that also would be of broader interest.  They provide a nice clean way to get a formatted citation that could be displayed on an Item view page or similar</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; were talking about <a href="http://www.idealliance.org/specifications/prism/">http://www.idealliance.org/specifications/prism/</a> right?</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;kompewter&gt; [ Publishing Requirements for Industry Standard Metadata | IDEAlliance ] - <a href="http://www.idealliance.org/specifications/prism/">http://www.idealliance.org/specifications/prism/</a></span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kshepherd&gt; tdonohue: yep, that was my thought</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: right, but i'm just talking about the prism namespace/schema itself, to start with, perhaps not the whole standards/guidelines</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kshepherd&gt; i realise there's more to it</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mhwood&gt; We probably do need support for more complex metadata....</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; I was commenting to tdonohue  a little while ago that I now understood why the Fedora developers stuck to "datastreams" and didn't try to solve largescale metadata representation issues.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kshepherd&gt; if i'm going to generate citations out of elements, i need people to use a standard/agreed-upon field for stuff like pagination, parent titles, volume, issue... all that stuff is well-documented as simple PRISM fields</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kshepherd&gt; it's not going to solve dspace's metadata problems, but i don't see how it hurts..</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- right, the DC schema is lacking in terms of all the fields necessary to generate a citation -- there is no volume, issues, page numbers, etc.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; kshepherd:  I think that would do a lot for DSpace, and more can come later.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mdiggory&gt; kshepherd: but we also see similar support in bibliontology and others... (devils advocate)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood -- I'm one that agrees that small steps are better than no steps (while we wait for something larger)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: both! ;)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;snail&gt; i think that there are potentially huge wins if we support the forthcoming RDA standard</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; I fully agree that we need to think about ways to do larger things as well (like support hierarchical metadata).  But, I'm all for adding basic PRISM (or other) schemas into out-of-the-box DSpace just to support some additional "flat" fields</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; RDA (for non-librarians) = <a href="http://en.wikipedia.org/wiki/Resource_Description_and_Access">http://en.wikipedia.org/wiki/Resource_Description_and_Access</a></span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kompewter&gt; [ Resource Description and Access - Wikipedia, the free encyclopedia ] - <a href="http://en.wikipedia.org/wiki/Resource_Description_and_Access">http://en.wikipedia.org/wiki/Resource_Description_and_Access</a></span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mdiggory&gt; I will try not to go into a long production concerning how we should probibly move away from storing metadata in database tables... which would free us up to approach more flexible forms of metadata stored in bitstreams and so-on</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; (snail -- thanks for the reminder on RDA)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- I think that is definitely worth considering, to be  honest.  But, that would affect so many areas of DSpace obviously</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; mdiggory: I would actually like to discuss thjust that sometimes, perhaps after the meeting?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kshepherd&gt; mdiggory: sometimes i love that fedora metadata is just xml datastreams, sometimes i don't...</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mdiggory&gt; the take home... maybe we shouldn't add more metadataschema in that traditional DSpace sense.... focus on getting DSpace away from requiring such decisions and heavy engineering work to support richer metadata....</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; It sounded icky until I realized that we can build all the indices we want off of the datastreams.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Well, we'd have to rework the metadata "plumbing" either way.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kshepherd&gt; batch editing becomes very icky</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mhwood&gt; So maybe the way is to reimagine the metadata store altogether.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; that's what i was thinking</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd is right that batch stuff does become a bit more complex.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; kshepherd: batch editing becaomes batch file processing</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kshepherd&gt; right, and what tools are out there to support that for end users / repo managers?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kshepherd&gt; i do totally hear you on the richer metadata thing ;)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; SWORD ;-)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; should we have a wiki page with ideas?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kshepherd&gt; this is just one hurdle i had when i was last using fedora... my client wanted to keep using spreadsheet software to help manage exports/imports/global changes</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; sorry kshepherd  that wasn't being serious</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kshepherd&gt; but once we'd moved to some heirarchical XML schema like MODS or MARCXML, it was too late</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; but, I also admittedly like the "simplicity" of potentially treating everything as a file, and then indexing the heck out of metadata streams (in Solr or similar) for browse/search/item-view support</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;snail&gt; SWORD is insufficient for rich metadata</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;snail&gt; SWORD assumes that docs are indepedent units floating free in space</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; SWORD is a transmission protocol though -- it doesn't care about metadata inside it.  Not sure I understand why it's insufficient?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; snail: true, but swordv2 updates can adjust individual bitstreams</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kshepherd&gt; yeah tdonohue++</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;snail&gt; metadata schemes like RDA focus strongly on the connections between docs</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; without having a great deal of heavy architecture to maintain in DSpace</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kshepherd&gt; SWORD isn't about item/metadata management, it's just a way of squirting stuff into a repository</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mdiggory&gt; APP is about POSTing and updating blog articles...</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; I like the idea of doing more things with SWORD though -- just that we'd need to re-do some tools (like batch editor or similar) to become SWORD tools or similar.  I.e. this starts to "snowball" into a "let's rebuild DSpace discussion" -- we'd want to plan this out in stages if we decided on this route</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kshepherd&gt; i dunno</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mdiggory&gt; APP is about posting and updating Items with attachements.... SWORD is about posting and updating Items with attachments</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kshepherd&gt; i was just pointing out one positive side-effect of our simple key/value metadata approach so far... we can farm out complicated global changes tasks to external tools like Openoffice/Excel/Refine that handle all that stuff really well</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 may have said it best in that we may want to start writing down some of these ideas / hashing out ways to potentially support this concept little by little.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kshepherd&gt; now i know that's no good for complex objects or heirarchical schemas..</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; And then you can have all the tools you want which understand the attachments.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- very true (the openoffice/excel editing is a nice little side-effect)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mdiggory&gt; so the trade off is that we have to create more community tools to manage metadata on the client side... isn't this where other projects are (fedora, Hydra, ...)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; so... if we're leaning towards the Fedora model (metadata as another bitstream), and DuraSpace says we should work towards an option of running DSpace on top of a Fedora Repository...</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kshepherd&gt; see, i still don't understand that myself..</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; I dunno that DSpace has to come with all that stuff.  People who want metadata flavor X can code up something for X, as long as we can store it and (given a suitable interpreter provided by the X people) index it.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kshepherd&gt; i like fedora, but if i want to use it.. it already exists!</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;KevinVdV&gt; *Needs to run*</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* KevinVdV (~kevin@d54C154B1.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mdiggory&gt; kshepherd: exactly ?!</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; I think that if we start to find ourselves heading towards a Fedora-like model, then we definitely need to take a step back and say: "Why aren't we just building DSpace as a UI/Java-business-logic on Fedora".  But, the key question is whether are architecture is or should be heading towards something like Fedora</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kshepherd&gt; so why are we always automatically trying to turn dspace into fedora, or put one inside the other, or whatever?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mdiggory&gt; because we've all learned a lot over the last decade...</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; kshepherd: probably because each has some shiny things that the other one doesn't</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd -- good question.  Honestly, we don't *have* to try and turn DSpace into Fedora (or use them together).  It's one of many possible directions that DSpace could move into...</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-brick">* tdonohue notes we're in overtime..but this is interesting discussion, so I'm gonna keep going</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; I think because the technology stacks are similar and the problem domains are similar and now... they share the same organization...</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kshepherd&gt; i'm just asking questions to force people to re-justify their positions ;)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; It is worth noting that while DSpace devs are going through these discussions around "how the DSpace architecture needs to change", Fedora devs are going through the *exact same discussion* in regards to their upcoming Fedora 4.0</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; i.e. we are both encountering a "grass is always greener" viewpoint at the same time</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mdiggory&gt; and now we are talking about REST... seems like they already dealt with REST</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; Any sufficiently developed software winds up needing to play as a component.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;kshepherd&gt; yeh so i agree with all of this, what i don't see are the 'shiny bits' in dspace</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;helix84&gt; kshepherd: XMLUI?</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;kshepherd&gt; O_o</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; You open a box of DSpace, start it, and it works.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mdiggory&gt; TBH, its got a very big community. Thats pretty shiny.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; shiny bits: a much, much better out of the box experience</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;kshepherd&gt; ok, phew, there are some shiny bits :)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; Shiny parts include: big community, out-of-the-box, and we have some "workflow pieces" (submission/workflow stuff) which I've heard Hydra folks at least drool over</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; Oracle has Oracle DB and BerkeleyDB.  They do similar things for communities with different requirements.  Should Duraspace be like that?</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mdiggory&gt; \me imagines a Hydra drooling can get very messy</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; I've been tinkering a bit with Fedora lately, and I have to tell you, it feels really good to switch back to working with DSpace</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood? not sure I understand?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; Rather than trying to make two products more alike, should we consider their differences as advantages?  With two products you can cover more requirements with less complexity in each.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;kshepherd&gt; if i understand mhwood correctly, he's meaning that we (and duraspace) can acknowledge that there are many types of repository users... dspace probably solves 90% of needs for people with simple institutional repositories full of theses and journal articles</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;kshepherd&gt; fedora solves problems for people who want complex relationships between objects, bigger/better metadata schemas, etc</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; best experience so far with anything Fedora-related is Fedora CloudSync, nice little tool, easy to build and deploy (uses maven), well-documented</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-brick">* kshepherd doesn't even know what he thinks anymore ;)</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mdiggory&gt; I don't think we are trying to make DSpace like Fedora,  I think we are trying to make it easy to use Fedora with DSpace and gain flexibility where DSpace has limitations by doing so.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; Honestly, my view is that DSpace needs to evolve based on the Communities modern needs.  If those modern needs make us think towards a Fedora-like architecture, then we should just use Fedora &amp; move our UI &amp; tools to that.  But, if they bring us elsewhere, then we shouldn't try and build on Fedora &amp; instead we should look towards other tools</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mdiggory&gt; what are our communities modern needs?</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; less "shoe-horning"?</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; sorry that should be "community's modern needs"</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; that too</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; well, some of those needs are coming straight from DCAT -- we need to support more modern &amp; hierarchical metadata standards.  We need to support metadata on all types of objects, etc. etc.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;kshepherd&gt; reliable / configurable serialisation to RDFXML? :)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; the "modern needs" are those things that we all know that DSpace needs</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; at the risk of repeating myself, should there be a wiki page for motivations for using Fedora with DSpace?</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; to go back to mhwood's point on 'consider the differences as advantages' -- I think DuraSpace already tries to do that.  We aren't talking about DSpace &amp; Fedora as similar -- rather they are different products for different needs.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; But maybe we need to do those things differently, if there are other good ways to do them.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Fedora+Collaboration">https://wiki.duraspace.org/display/DSPACE/DSpace+Fedora+Collaboration</a></span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Fedora Collaboration - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Fedora+Collaboration">https://wiki.duraspace.org/display/DSPACE/DSpace+Fedora+Collaboration</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- I'd agree &amp; am all ears for suggestions :)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://wiki.duraspace.org/display/DSPACE/Fedora+Integration">https://wiki.duraspace.org/display/DSPACE/Fedora+Integration</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;kshepherd&gt; helix84: can't hurt! personally, i think i'll always be erring towards the view that instead of trying to "use them together", if you want what fedora does, you'll probably be better off just using fedora</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora Integration - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Fedora+Integration">https://wiki.duraspace.org/display/DSPACE/Fedora+Integration</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;hpottinger&gt; shoot, this is really interesting, but I gotta go</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I have to go too.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; yea, this is the latest info on the DSpace + Fedora brainstorms: <a href="https://wiki.duraspace.org/display/DSPACE/Fedora+Integration">https://wiki.duraspace.org/display/DSPACE/Fedora+Integration</a></span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora Integration - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Fedora+Integration">https://wiki.duraspace.org/display/DSPACE/Fedora+Integration</a></span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mhwood&gt; Will try to catch up later.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kshepherd&gt; i will point out that the UI we're working on at UoA equally well over dspace+discovery and fedora+rsearch :)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kshepherd&gt; i gotta get back to work, too :/</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kshepherd&gt; s/equally/equally well/</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kompewter&gt; kshepherd meant to say: i will point out that the UI we're working on at UoA equally well well over dspace+discovery and fedora+rsearch :)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; I'm reading <a href="https://wiki.duraspace.org/display/DSFED/DSpace-Fedora+Integration+FAQ">https://wiki.duraspace.org/display/DSFED/DSpace-Fedora+Integration+FAQ</a></span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace-Fedora Integration FAQ - DSpace Fedora Collaboration - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSFED/DSpace-Fedora+Integration+FAQ">https://wiki.duraspace.org/display/DSFED/DSpace-Fedora+Integration+FAQ</a></span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kshepherd&gt; err</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-brick">* kshepherd stops trying to type :(</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; and the motivations seem overly general to me. What I meant was more concrete benefits.</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mdiggory&gt; thanks kshepherd</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: what sort of things are you looking for?  We had some initial "brainstormed" benefits listed here: <a href="https://wiki.duraspace.org/display/DSFED/DSpace-Fedora+Integration+FAQ#DSpace-FedoraIntegrationFAQ-WhatdoesintegrationmeanformeasaDSpaceuser%3FWhyshouldIbeinterested%3F">https://wiki.duraspace.org/display/DSFED/DSpace-Fedora+Integration+FAQ#DSpace-FedoraIntegrationFAQ-WhatdoesintegrationmeanformeasaDSpaceuser%3FWhyshouldIbeinterested%3F</a></span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace-Fedora Integration FAQ - DSpace Fedora Collaboration - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSFED/DSpace-Fedora+Integration+FAQ#DSpace-FedoraIntegrationFAQ-WhatdoesintegrationmeanformeasaDSpaceuser%3FWhyshouldIbeinterested%3F">https://wiki.duraspace.org/display/DSFED/DSpace-Fedora+Integration+FAQ#DSpace-FedoraIntegrationFAQ-WhatdoesintegrationmeanformeasaDSpaceuser%3FWhyshouldIbeinterested%3F</a></span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mdiggory&gt; I thinkw e see features in Fedora that are attractive as solutions to problems we have in DSpace with hierarchical metadata standards and metadata on all types of objects</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: exactly that, but there are just 2 concrete benefits there</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mdiggory&gt; relationships between DSpace Items and Items with other worldly "things"</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-brick">* tdonohue notes for those who have/had to leave, we can also continue this discussion more next week's meeting (or ping me during "office hours" next Weds too, if you want)</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mdiggory&gt; a somewhat generic storage solution various DSO and other DSpace objects</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mdiggory&gt; that is very extensible/flexible...</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: right, but those were just brainstorms from DuraSpace.  When we initially posted this concept of "DSpace with Fedora Inside" we had hoped the community would help us flesh it out more.  Unfortunately, it's mostly just sat there as an "idea" that so far hasn't gained traction.</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mdiggory&gt; but yet that is also the downfall, because part of DSpace's simplicity is its dependency on a very simple architecture</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; I think it would be worth brainstorming what other "concrete benefits" there may be &amp; posting them to: <a href="https://wiki.duraspace.org/display/DSPACE/Fedora+Integration">https://wiki.duraspace.org/display/DSPACE/Fedora+Integration</a></span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora Integration - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Fedora+Integration">https://wiki.duraspace.org/display/DSPACE/Fedora+Integration</a></span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mdiggory&gt; its a double edged sword</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: "we had hoped the community would help us flesh it out more"... is where it lost traction...</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mdiggory on it being a double-edged sword.  If we went the route of "DSpace on Fedora" we'd have to be very careful to keep the DSpace experience "simplistic/easy" and not complicate it too much</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; its an activity that needs to be led</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;helix84&gt; probably because (speaking for myself) community doesn't know what it would let us do that is not currently possible</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;mdiggory&gt; community is looking for leadership and direction on the topic because it is very "pie in the sky" (this coming from someone who even thinks a lot about trying to make it happen)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; when you say versioning and relationships between objects (like journal/articles), I say yeah! when you say flexible, I say bah! :)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; it is an activity that needs to be led, but at the same time, I think helix84 is right. It's maybe a bit too "pie in the sky" to get the developers we need to really do it.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mdiggory&gt; helix84: but where you say relationships between journals and articles and I say, not my relationships are between Works and Images.... then maybe flexibility looks more important?</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;ryscher&gt; The problem is that the primary Fedora "features" aren't things that an average repository manager cares about.... until something breaks. My favorite explanation: <a href="http://dltj.org/article/why-fedora-because-you-dont-need-fedora/">http://dltj.org/article/why-fedora-because-you-dont-need-fedora/</a></span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;kompewter&gt; [ Why Fedora? Because You Don’t Need Fedora | Disruptive Library Technology Jester ] - <a href="http://dltj.org/article/why-fedora-because-you-dont-need-fedora/">http://dltj.org/article/why-fedora-because-you-dont-need-fedora/</a></span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;helix84&gt; of course flexibility is good. I only meant concrete=good motivation / abstract = nice, but what's in it for me</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; ryscher: you can do that now as well with DSpace AIPs ;)  I based the idea of DSpace AIPs off the fact that you needed to be able to do a full restore just like Fedora can do.  Though, admittedly, it's not as good as Fedora case you have to *export* those AIPs still</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mdiggory&gt; " just program the new system to read these METS-like packages"</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mdiggory&gt; may/may not be so "easy"</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: in the original prototype from MIT, those AIP's were just files in the assetstore (fielsystem) ;-)</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: in regards to leading "DSpace w/Fedora Inside".  I agree completely. It's just that DuraSpace's resources are limited and we need to find a way to leverage the large community if we head this route.  So, we need the right "rallying cry" or a way to convince folks better.</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;helix84&gt; ryscher: that's a nice article</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;mdiggory&gt; ryscher: and thats where intermediary tools/applications are responsible for filling that gap.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mdiggory&gt; what you see with Hydra and Islandora....</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mdiggory&gt; and I think what we are seeing is that DSpace was already in that intermediary space</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: yea, as much as I wanted to keep around that old "AIPs in the assetstore" MIT code, I wasn't able too -- it wasn't stable enough &amp; at the time I was under time constraints.  Still could be an idea to bring back someday/somehow</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;ryscher&gt; so... while I would love to see "DSpace with Fedora inside" as a new project, I think we can get the same place by taking advantage of opportunities to synchronize, like the aforementioned metadata transition</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;mdiggory&gt; ryscher: do you mean by putting metadata on more dspace objects, or the point about storing it in  bitstreams rather than db tables.</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;ryscher&gt; storing it in bitstreams</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;mdiggory&gt; I think the concern we see voice here is that we have InputForms, MetadataRegistry and so on all modeled and UI tooling built on top of... when we say store the metadata in a bitstream, we need an answer as to the impace it will have ont hese features for the end user.</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;mdiggory&gt; impace = impact</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-brick">* mdiggory wishes he could go back and correct grammar in his IRC posts.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;ryscher&gt; yes, to get community buy-in, you need to make the change nearly invisible. But then everyone will ask why the change is needed.</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;mdiggory&gt; and likewise, I think to get community investment there needs to be a shiny big win as well.</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;mdiggory&gt; so that question has an answer</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;mdiggory&gt; the change was needed because we want to store more hierarchical metadata</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;mdiggory&gt; or relationships between Items without altering the database...</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;mdiggory&gt; ... schema</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;mdiggory&gt; better support for the metadata flavor the organization wants to use rather than shoe-horning into an already antiquated approach that DCMI abandoned...</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;mdiggory&gt; sorry, that was a bit brutal. DC is great...</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;mdiggory&gt; long live DC</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;tdonohue&gt; unfortunately, I have to leave in a few :(</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;tdonohue&gt; haha</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;mdiggory&gt; great conversation, thanks for the input everyone.</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;snail&gt; mdiggory: the ideal answer to your question is "dspace needs fedora inside so it can support full RDA"</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-navy">* ryscher (98033b9f@gateway/web/freenode/ip.152.3.59.159) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;tdonohue&gt; parting words: the thing I've learned from "DSpace w/Fedora Inside" is that these new architecture ideas really need to bubble-up from the community (rather than "top-down" from DuraSpace).  DuraSpace can make all the suggestions we want, but we don't have the resources to actually implement them. We need to evolve Dspace towards the immediate needs of the community and have architecture changes bubble-up as needed to meet those </span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;tdonohue&gt; So, a lot of what ryscher was saying about finding the "shiny" and building towards it ;)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;tdonohue&gt; ok..gotta go unfortunately. But, great discussion.</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:23]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

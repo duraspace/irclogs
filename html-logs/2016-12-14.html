@@ -1,0 +1,258 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2016-12-14
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:36]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:36]</span> <span class="irc-brown">-hitchcock.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[13:32]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:06]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-black">&lt;tdonohue&gt; All, friendly reminder that our DSpace DevMtg starts shortly (~4mins). Rough agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-12-14">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-12-14</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hmmm.. so, it's DevMtg time, and we just have myself, helix84 (who is presumably just lurking) and mhwood</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; I guess it's that time of year though</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;mhwood&gt; ZZZzzzz... *oh!*  Hi.</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; So, with just two of us here, I seems less useful to touch base on our list of 6.x tickets, unless there's any status you wish to report mhwood (or what eyes on anything in that list?)</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; *want* eyes</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;mhwood&gt; I'm afraid I have nothing to report.  Would like to close up DS-2707.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; no worries (on nothing to report).  I'll take a look at DS-2707 (where's kompewter?)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-green">* hpottinger (~hpottinge@162.104.218.179) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; aha, there's hpottinger...and now we are three</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;hpottinger&gt; brb, lol, have to feed the dog</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; nice excuse ;)</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-green">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; and there's kompewter...just kicked it awake</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; So, we were looking at DS-2707 / DSPR#1575</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2707">https://jira.duraspace.org/browse/DS-2707</a> ] - [DS-2707] Poor messaging when batch upload directory cannot be created - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1575">https://github.com/DSpace/DSpace/pull/1575</a> ] - [DS-2707] Poor messaging when batch upload directory cannot be created by mwoodiupui</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; honestly, to me mhwood, I trust this PR if you've done some testing. It is mostly realignment of code...and the few new code areas you call out seem rather minimal/obvious to me</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;hpottinger&gt; back</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; I already added my approval. Not sure if hpottinger wishes to comment here on it too?</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;mhwood&gt; I should file another ticket about replacing all of the System.out stuff.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;hpottinger&gt; done, it's at +2</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood++</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;mhwood&gt; OK, thanks, will merge and close up.</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds good. Are there any other 6.x tickets (in our agenda) we need to touch on / get updates on?  Please give them a scan hpottinger (as mhwood already said no updates from him) ;)</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; that agenda again <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-12-14">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-12-14</a></span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2016-12-14 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-12-14">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-12-14</a></span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; If we have no other updates, I'd suggest we do JIRA reviews.  Our backlog is getting out of hand, and we need to get it back under control</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;hpottinger&gt; I spent a bit of time with DS-3389 last week</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3389">https://jira.duraspace.org/browse/DS-3389</a> ] - [DS-3389] Replication Task Suite add-on doesn&amp;#39;t work with DSpace 6 API - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: oh, excellent. How goes it?</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;hpottinger&gt; I just changed version nubmers in the pom and ran a mvn test to see what breaks</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;hpottinger&gt; tldr: a lot</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;hpottinger&gt; turns out UUIDs aren't integers</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;hpottinger&gt; :-)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; yes, I expected as much.  I don't think the changes should be difficult (as most should be obvious issues like new Class names, or UUIDs and such)...but there are probably quite a few of them to change</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; But, if you hit on difficult pieces, I'm glad to offer feedback along the way</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mhwood&gt; "</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; double quote?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;hpottinger&gt; OK, cool... first I think I'll need an IDE</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;mhwood&gt; Ditto mark.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; oh, now I get it mhwood. ;)</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;hpottinger&gt; mark sez ditto mark</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; mark ditto sez mark</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; :)</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;hpottinger&gt; that's a nice little poem</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; ok, in any case, any other updates on these tickets? Or shall we move along to JIRA backlog reviews?</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;hpottinger&gt; DS-3282... is at "received"</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3282">https://jira.duraspace.org/browse/DS-3282</a> ] - [DS-3282] Mirage2: Advanced Search Filters Do Not Display if one contains a &amp;quot;-&amp;quot; - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; aha, good point. we should review that one</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;hpottinger&gt; and it has a PR</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; PR is out of date (unfortunately). But, yes, I think this should be flagged "needs code review".  And it looks obvious once PR is updated</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; flagged as such</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; and notified terry-b to update the branch</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-green">* terry-b (~chrome@97-113-118-39.tukw.qwest.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, another quick topic (forgot to add to the agenda).  Who will be around next week (Weds, Dec 21 @ 20UTC)?  Wondering if we should meet then, though I guess we could just do JIRA reviews if the crowd is tiny</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;mhwood&gt; I will be off work but may be able to attend if it's happening.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;hpottinger&gt; I'll be around</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;terry-b&gt; Good morning.  I will be online next week.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; and there's terry-b...his ears must've been burning (over DSPR#1546)</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1546">https://github.com/DSpace/DSpace/pull/1546</a> ] - [DS-3282] Fix js error for filters with dashes by terrywbrady</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;hpottinger&gt; terr-b, if you rebase 1546 I'll test it</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;terry-b&gt; The email from Jira, reminded me to sign on</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so let's go ahead and do a meeting next week then (I'll be around as well).  If the crowd ends up small (which has been the norm in Dec anyhow), we'll do mostly JIRA backlog</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;terry-b&gt; Sure.  I will rebase again.</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; We will have *no* meeting though on Dec 28 (between Xmas and New years)... I'm off then, and I imagine most others will be too</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;mhwood&gt; I'm sending myself a note at home to attend if possible.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: no worries if you don't make it.  As mentioned, it'll just be JIRA stuff...so if you'd rather have a break, take one ;)</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;hpottinger&gt; oh... so... if no meeting on 12/28... do we have to re-orient our alternating meeting times?</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: no, I tend to leave them the same, even if we skip a mtg.  It gets too confusing otherwise</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; So, the next two mtgs will be..</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; Next week: Weds, Dec 21 @ 20UTC</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; After new year: Weds, Jan 4 @ 20UTC</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;hpottinger&gt; OK, cool... it took me a really long time to schedule the meetings on my calendar</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; we'll be back on the flip/flop schedule again after that</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; I have Thunderbird watching the shared Google calendar, so whatever it says, I'll try to be around then.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so, I propose we take the rest of this meeting for JIRA Backlog, unless there's any further pressing topics from anyone?</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; None here.</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;hpottinger&gt; sounds good, let's smash that backlog</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; here's that backlog: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+status+%3D+Received+ORDER+BY+key+ASC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+status+%3D+Received+ORDER+BY+key+ASC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+status+%3D+Received+ORDER+BY+key+ASC%2C+priority+DESC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+status+%3D+Received+ORDER+BY+key+ASC%2C+priority+DESC</a></span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; starting at the top with DS-2785</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2785">https://jira.duraspace.org/browse/DS-2785</a> ] - [DS-2785] Duplicate Author entries in Discovery and SOLR Authority control index - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like a needs volunteer (as Bram has verified this is an issue it seems)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;mhwood&gt; Yes</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; done</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; next, DS-2787</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2787">https://jira.duraspace.org/browse/DS-2787</a> ] - [DS-2787] SLF4J: Failed to load class &amp;quot;org.slf4j.impl.StaticLoggerBinder&amp;quot; - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; um...huh.  Never seen this before.  Wondering if we need more info here on how to reproduce this</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mhwood&gt; Oh, I see that all the time.  It seems innocuous.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;mhwood&gt; Notice that it happens during a Maven run, not at DSpace runtime.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;hpottinger&gt; does this only happen with dspace-5_x?</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mhwood&gt; I think I've seen it with 6.  Let me check.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; ok, could you add a comment to that effect then, mhwood?  Seems like that'd make this a "needs volunteer" but might be a low priority here if innocuous</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; so... why do we need two versions of slf4j?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; I flagged it as "needs volunteer".  mhwood, I'd recommend adding a comment to this from your experiences</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;mhwood&gt; I added a brief comment.  If I come up with more, I'll extend it.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;mhwood&gt; What two versions?</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;hpottinger&gt; "We do have both slf4j-jdk14 and slf4j-log4j12 in our POMs"</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: not sure that *is* two versions of slf4j.  I think slf4j-log4j12 is the plugin that lets slf4j work with log4j.  So, I think we have one version of slf4j, and one of its plugins</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mhwood&gt; We jave adapters for JUL (jdk14) and Log4j 1.2 (log4j12).</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood++</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, it sounds like this is very low priority.  Good to have a ticket though if others hit this and worry about the error</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;mhwood&gt; And you may notice that I'm slowly replacing log4j Logger with slf4j Logger whenever I need parameterized messages.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I think it is low pro</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;mhwood&gt; Low priority.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;mhwood&gt; It would be good to fix it and remove any confusion.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; yep</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; ok, moving along for now... DS-2788 is next</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2788">https://jira.duraspace.org/browse/DS-2788</a> ] - [DS-2788] Performance degradation of SOLR Discovery indexing in DSpace 5 - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; This one is definitely "needs volunteer".  Some good discussion in ticket comments but no resolution</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; cwilper has a note about tools to generate DSpace objects for testing. Cool. I wonder if we should link to these elsewhere</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;hpottinger&gt; so, this is a 5x performance issue</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;hpottinger&gt; and it's "fixed" in 6x because of the Hibernate refactor?</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; no idea. Not sure we have enough data.  Likely needs verification on 6.x</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;mhwood&gt; Dunno if this is fixed, but early 6 snapshots had terrible scaling and that was addressed.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;hpottinger&gt; I'll add a comment</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; My guess is that this may still exist in 6.x, as the performance issues seemed to be with Solr itself...but, a solution/cause was never actually found here...so it needs retesting on 6.x</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;mhwood&gt; Agreed, retest.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: are you already updating the status of this ticket? Or should I?</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, there was a note just today on -tech about poor reindex performance.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;hpottinger&gt; I moved it to "needs more details"</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; this might be related, but it's hard to say for certain</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I don't understand either report very well yet.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; ok, thanks hpottinger. updates look good</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; next on our list... DS-2789</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2789">https://jira.duraspace.org/browse/DS-2789</a> ] - [DS-2789] Display a &amp;quot;restricted image&amp;quot; for a thumbnail if the bitstream is restricted - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like a verified issue, so needs volunteer</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;hpottinger&gt; has a patch in comments</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; yes, needs a PR from that patch. I'll add a comment asking for a PR</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;terry-b&gt; I can take this one.  We have done some similar work</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; This also sounds like a bug fix to me.. not a "new feature"</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;hpottinger&gt; agreed</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: ok, feel free to just claim this then</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;terry-b&gt; I also found some CSS that hide the broken image icon</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; I'm going to try and change this ticket over to a "Bug".  Give me a sec</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; updated. It's now a bug</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;hpottinger&gt; stomp on it, terry-b!</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; and assigned to terry-b</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; moving right along... next is DS-2795</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2795">https://jira.duraspace.org/browse/DS-2795</a> ] - [DS-2795] Solr upgrade for DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; needs volunteer</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;terry-b&gt; (Frustrated here - I spent half a day last week trying to run rebases on my 4 simple PR's.... I have corrupted each one I have touched again today. )</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: what are you running that "corrupts" them?  Git is pretty powerful, and I find I usually can step out of "corruption" by reverting changes and doing a force push to PR's branch</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;hpottinger&gt; if you have the PR branch checked out and run git pull upstream master you'll pull all the commits from master, and it'll "look weird" you have to have master checked out before you pull from upstream</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; flagged 2795 as needs volunteer.  Also flagging DS-2796 (related) as needs volunteer</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2796">https://jira.duraspace.org/browse/DS-2796</a> ] - [DS-2796] Solr core auto-discovery - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mhwood&gt; 2796 has a PR in progress.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; sorry 2796 has a PR. that one should be assigned</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;terry-b&gt; Ivan gave me some commands to repair them last week after the recipe that I followed corrupted each one.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;hpottinger&gt; so... Solr upgrade for DSpace, sounds good... but probably not for a bugfix release?</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; Good point hpottinger.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-brick">* tdonohue wonders if we should write a clear "recipe" for PR updates in our Git hints: <a href="https://wiki.duraspace.org/display/DSPACE/Development+with+Git">https://wiki.duraspace.org/display/DSPACE/Development+with+Git</a></span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; yes, 2796 should be for 7.0. Looks like it was autoupdated to 6.1 after it missed 6.0</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;terry-b&gt; I would appreciate that.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;terry-b&gt; I agree on 2796</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; updated 2796</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; I'm hoping someone can draft up a recipe for PR rebasing...I'd be glad to review it</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;hpottinger&gt; terry-b: all those commits in your branch "got there somehow" it's likely you pulled them in. You have to be on the master branch before you pull from upstream master</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;hpottinger&gt; the thing you have to remember is: Git is a distributed VCS, it's up to you to keep your copy of the repostiory current</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;terry-b&gt; hpottinger, that is what I thought I did.  I will try to clean these up after the meeting.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;hpottinger&gt; here's what I do: <a href="https://gist.github.com/hardyoyo/8738b9fcad5f2a682796baf375393326">https://gist.github.com/hardyoyo/8738b9fcad5f2a682796baf375393326</a></span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;terry-b&gt; A simple rebase recipe on the wiki would be appreciated.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kompewter&gt; [ How to keep a git branch up to date with an upstream master branch. · GitHub ] - <a href="https://gist.github.com/hardyoyo/8738b9fcad5f2a682796baf375393326">https://gist.github.com/hardyoyo/8738b9fcad5f2a682796baf375393326</a></span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; My general rebase process is simply.... 1) git remote update, 2) git checkout master, 3) git merge upstream/master, 4) git checkout [pr-branch], 5) git rebase master, 6) git push origin [pr-branch]  (and optionally also master)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; It's mostly the same as hpottingers...except I tend to use "git remote update" (to update existing branches) as I remember that better than "git fetch --all" (but it does essentially the same thing)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;hpottinger&gt; I like fetch --all because it transparent: I'm *fetching*</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;terry-b&gt; Thanks tdonohu and hpottinger, I will try both and add to the wiki based on the results</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; we're about out of time here... unfortunately I won't be able to stick around for the next hour...but, if you all want/are able, you are more than welcome to continue chipping away at the backlog</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; I got some other stuff to jump to though, so I'll be heading into lurking now</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;hpottinger&gt; FYI, Code4Lib registration opens in about an hour</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; As mentioned, next two DevMtgs will be:  Next week (Dec 21 @ 20UTC) and after new years (Jan 4 @ 20UTC).  Then we return to our regular schedules</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;terry-b&gt; tdonohue, thanks for the tips on some possible REST tasks.  I hope to dig in a bit before the holiday break starts</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: no problem. Yes, definitely chip in on REST stuff whereever you can. I get the sense that Andrea B (who is leading that effort) is a bit bogged down over the holidays.  So, not sure much will be accomplished unless others step in in the next few weeks</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;terry-b&gt; mhwood, I remember you are interested in REST.  Who else was on the list of folks who might want to work on REST?</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;mhwood&gt; I don't recall, sorry.</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;mhwood&gt; I need to get up to speed on decisions already made.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; I don't recall either. I'd recommend emailing that list if you want to chat with others (or get feedback) on ideas around REST.   There haven't been many decisions made final..it's very early work thus far, and latest is documented in meeting notes</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; Meeting notes are all here: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+7+UI+Working+Group">https://wiki.duraspace.org/display/DSPACE/DSpace+7+UI+Working+Group</a></span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 7 UI Working Group - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+7+UI+Working+Group">https://wiki.duraspace.org/display/DSPACE/DSpace+7+UI+Working+Group</a></span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; As noted (to terry-b via email), the REST work is mostly around (1) the "Contract" documentation (extremely rough needs lots of work/enhancement): <a href="https://wiki.duraspace.org/display/DSPACE/REST+API+Contract">https://wiki.duraspace.org/display/DSPACE/REST+API+Contract</a></span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;kompewter&gt; [ REST API Contract - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/REST+API+Contract">https://wiki.duraspace.org/display/DSPACE/REST+API+Contract</a></span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; and (2) the REST "mockup" begun in the codebase (and meant as a test of the Contract, and also very rough): <a href="https://github.com/DSpace/dspace-angular/pull/19">https://github.com/DSpace/dspace-angular/pull/19</a></span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Mock rest api by artlowel · Pull Request #19 · DSpace/dspace-angular · GitHub ] - <a href="https://github.com/DSpace/dspace-angular/pull/19">https://github.com/DSpace/dspace-angular/pull/19</a></span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; So, anyone wanting to run with either should do so...and if you are worried about overwriting anything on the Wiki, create a subpage for your notes and ask others to review it</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; (though I honestly suspect Andrea B would be ok with direct Wiki page edits too)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;terry-b&gt; I hope you all have a good week.  Wish me luck rebasing!</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; Also should mention Art &amp; Monika have started a list of Angular2 resources / guides / getting up to speed at: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+7+UI+Technology+Stack">https://wiki.duraspace.org/display/DSPACE/DSpace+7+UI+Technology+Stack</a>  (So that's another area folks could contribute to, especially as you learn more, etc)</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 7 UI Technology Stack - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+7+UI+Technology+Stack">https://wiki.duraspace.org/display/DSPACE/DSpace+7+UI+Technology+Stack</a></span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; have a great week as well!  Heading into lurking for real now!</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-navy">* hpottinger (~hpottinge@162.104.218.179) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[18:23]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-etsjhhjftkwbyxzb) has joined #duraspace</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:24]</span> <span class="irc-navy">* dyelar (~dyelar@biolinux.mrb.ku.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[22:40]</span> <span class="irc-navy">* tdonohue (~tdonohue@dspace/tdonohue) Quit (Read error: Connection reset by peer)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

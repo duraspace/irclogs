@@ -1,0 +1,212 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2017-10-25
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:30]</span> <span class="irc-brown">-orwell.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-orwell.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-orwell.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-orwell.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[12:34]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; I just read the logs from last week's meeting. When I started to work on the RDF implementation I had it all on dspace-rdf. @mdiggory suggested to move as much as possible to dspace-api and to let only the web-frontend in dspace-rdf. That was a good advice I followed.</span><br />
+<span class="irc-date">[14:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; So all conversion for DSpace-RDF is done by code in dspace-api.</span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; dspace-rdf does nothing else then answering web requests.</span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; We can think about moving oai in the same direction, but I'm afraid that the use of XOAI may make it hard to seperate the frontend from the backend.</span><br />
+<span class="irc-date">[14:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; I hope that answers some of the question @philip.muench @sulfrian and @tdonohue were discussing.</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;philip.muench&gt; @pbecker I think the main question regarding moving the import code to a OAIConsumer is if it shares classes with the webapp code. Having xoai.jar as a dspace-api dependency should not be such a problem?</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; We probably all want to avoid code duplication. So we should separate the code in dspace-oai in the part that is needed for the frontend and the part that isn't. I just hope that there is not to many code that is really necessary for both.</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; Making dspace-api dependent on xoai is probably not a problem, but something we might want to discuss. XOAI is officially maintained by DSpace. But does any one of us really know the code? Is there any development necessary and/or ongoing? Are there other projects using it?</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; What we probably must avoid is that dspace-api needs code from dspace-oai to compile. We probably would end in a circular dependency (dspace-api -&gt; dspace-oai -&gt; dspace-api).</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;philip.muench&gt; @pbecker There are some imports in XOAI.java (The import CLI tool) from packages in the xoai project or of classes that implement/extend xoai abstract classes/interfaces. I don't know if those are also used in the webapp. I will try to find out.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; @philip.muench thank you.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;philip.muench&gt; Well, already found the first candidate:  org.dspace.xoai.services.api.CollectionsService. It is used both in XOAI and in DSpaceSetSpecFilter. Disclaimer: everything I'm talking about refers to dspace-6_x, a lot of refactoring has happened since then in master.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I am still unsure, if the OAI stuff should really keep all the metadata in the solr and does not use the database.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;philip.muench&gt; @sulfrian I think the main advantage is that the oai index does not hold a copy of the metadata, but a finished xml document containing the metadata, which basically means that the DOM construction step (the Crosswalks in early Dspace versions) is only done once per item / item modification, instead of for each query.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;philip.muench&gt; @sulfrian correction: It does contain the metadata as well, because filters wouldn't work otherwise.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Ah, I see. So the oai solr index is a glorified cache for the intermediate xml format of the items.</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;philip.muench&gt; @sulfrian that is a possible interpretation, yes :slightly_smiling_face:</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;philip.muench&gt; But I think it is a good idea to save the intermediate format. The crosswalks in older DSpace versions certainly took their time compiling OAI records...</span><br />
+<span class="irc-date">[19:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Reminder our weekly DSpace DevMtg is in about one hour. Agenda is at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-10-25">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-10-25</a></span><br />
+<span class="irc-date">[19:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2017-10-25 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-10-25">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-10-25</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; &lt;here&gt;: It's DevMtg time. Rough aenda is linked above :point_up:   Could we do a quick roll call to see who is joining us today?</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Rough agenda that is ;)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Sure.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; here</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, we've got our usual 3-ish people for these "later" (20UTC) meetings....seems like the earlier meetings always have more eyes these days.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Only three?  Cool, we should be able to make *lots* of decisions.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; In any case, we can move along... the topics for this week are mostly the same as last...but, we'll have time to bring in new topics as we see fit</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; First up, on the DSpace 7 team side...not a ton to report.  Making good progress overall, but a lot of it is on REST API endpoints, improved test coverage, minor UI bug fixes, etc. Nothing specific to talk about though</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; If there are questions/comments, I'm glad to try to answer them... but I didn't have anything specific to say on DSpace 7 work this past week</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; (and our next meeting is tomorrow at 15UTC, obviously, so more discussion will happen there)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; No questions here.  I have been working on internal projects and have not had much time for dspace work.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; That sounds familiar.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Sounds fine...in that case, moving on to the Code Mgmt topic (carryover from last week)...</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @tom_desair has a PR for reporting code coverage on `master`.  He says it's ready to go: <a href="https://github.com/DSpace/DSpace/pull/1865">https://github.com/DSpace/DSpace/pull/1865</a></span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-3711: JaCoCo maven plugin by tomdesair · Pull Request #1865 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1865">https://github.com/DSpace/DSpace/pull/1865</a></span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This hooks up to Coveralls (as mentioned last week), and provides reports like this: <a href="https://coveralls.io/builds/13700121">https://coveralls.io/builds/13700121</a></span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/DSpace | Build #4813 | Coveralls - Test Coverage History &amp; Statistics ] - <a href="https://coveralls.io/builds/13700121">https://coveralls.io/builds/13700121</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; But, I'd appreciate some more eyes or comments on this... it's a new thing for us.  The PR is pretty small though, as it really is just POM changes to trigger these reports and send them to Coveralls</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ideally, we merge this soonish...that way we can improve our coverage percentage, etc</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; (And I'll bring this up with the DSpace 7 team too tomorrow)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Improve...or know that we haven't. :-/</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, this is your chance to object or offer feedback.  Otherwise, I'm gonna likely just move forward here in the next week and get this merged.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; No comments yet on the specific patch, but in general yes, we should be monitoring our testing efforts and improving them.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And just to clarify, at this time, no plans to backport to other branches. This is just going into `master` and we'll monitor tests there...but not on other branches</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Sensible.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Makes sense</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, the last topic in this "Code Mgmt" section...is reviewing our Code Style.  I haven't heard any feedback on the Wiki notes at: <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=90967266">https://wiki.duraspace.org/pages/viewpage.action?pageId=90967266</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ Code Style Guide (WIP) - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=90967266">https://wiki.duraspace.org/pages/viewpage.action?pageId=90967266</a></span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yeah, I just now have been reading them.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Not sure if anyone has thoughts on changing our code style, or simply going with what we have (which is based on a nearly obsolete *Sun* code style)</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; How do we know it's obsolete?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Well, it's at least not maintained. Sun obviously is no longer an organization.. It's now hosted at Oracle under the heading "Not maintained"</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Here's the Sun Code Style at Oracle: <a href="http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html">http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ Code Conventions for the Java Programming Language: Contents ] - <a href="http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html">http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I don't like curly braces on a new line, but I do not care enough about that to stand in the way of consistency.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Ah, I'm just the other way -- I find it hard to read braces that don't align.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; We don't actually have any consistency in our codebase (I checked a bit).  That's why I'm questioning right now whether we redefine our code style to something we "like better", etc</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'm not against staying with our code style...but on the other hand, it might be nice to look at e.g. Fedora Commons code style (based roughly on Google's) to see if we should just align with other DuraSpace projects.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; We wouldn't have to adopt it completely "as-is", but we could align ourselves better with others.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; If adoption has been sensible for Fedora, that sounds like a good starting point</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Fedora adopted a code style when the (re)built Fedora as Fedora4.  They've stuck with it since then.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; We have source "features" that cause real problems.  Run-on lines hundreds of characters long, that don't fit on any display.  Mixed tab and space indentation that looks crazy if your local settings don't match some of the lines.  Mixed indentation *in the same line* that makes editing unpredictable.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; +1 "pick something and stick with it".</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; If we chase current fashion, we'll have a never-ending stream of gigantic reformatting patches.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Yep, exactly.  Any simple code style checks/validation (in checkstyle) would solve those major issues</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I know I have been a culprit on white space consistency, so I am eager to have a standard in place to stick to.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, I personally lean towards realign with Fedora's checkstyle, but start out slightly less strict than Fedora (as they also have checks that require JavaDoc comments on all public methods, etc)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Also, it is frustrating to prepare a significant PR and only get feedback on style issues.  Hopefully this will eliminate that from happening.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Now, I would vote for requiring documentation in a heartbeat.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Moving towards Fedora would mean moving to K&amp;R style brackets (inline brackets, not new-line).  But, would allow lines of 120 chars max, 4-space indentation (no tabs), no trailing spaces, etc</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @mwood: I'm not against requiring javadocs in the long run, but that'd be a secondary step.  Simply getting the *existing* code reformatted will be a massive step.  Having to also write all missing JavaDocs makes it even harder</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; In the fedora guide, the guidance on public methods/variables may not be enforceable for an existing code base.  The other rules look very sensible</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @terrywbrady: yes, we'd need to tweak the rules a bit no matter what we go with.  Just wanted to find a good starting point</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; wonders if there's a NetBeans plugin to make braces *display* on a new line but *save* at the end of the previous line.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @mwood: dunno. But, a part of me wonders if the visual you are looking for will be vastly improved *anyhow* just by standardizing our indentations.  The frustration now is that no standard indents + inline braces makes things ultra confusing</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I had been thinking that a really minimal approach would do to start:  just saying loudly, "you know, we have a style guide for this project &lt;link&gt;".</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Once stuff is indented properly, you may not need the braces as much to see where code "sits"</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; My experience with Python suggests that I'll still be bothered.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Oh well, I got used to braces in place of neatly stacked DO stuff END</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Understood, it's just hard for me to argue strongly for newline brackets when simply every other example (Sun, Google, Fedora) I find is standardizing on K&amp;R style.  I don't have much preference myself, admittedly</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I won't fight on endlessly....</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I just see benefit to aligning with others (lets programmers move more seamlessly between projects without having to re-program their IDE environment, etc)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; That is so.  However, fashions change, so if we're not careful we'll be aligning over and over.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; The key thing to me is:  how readable is it?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; In any case, the devil is in the details here.  I need to find time myself to move this forward (not seeing it in the near future, but maybe as holidays approach), and then coordinate with those who will be affected (DSpace 7 team, anyone else working on master or creating PRs on master)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, while I think this is a *good idea*.  I admit, I'm not sure this is happening immediately...but, I hope maybe we get it in by end of year.  So, there's more time to discuss with others, and if enough folks say "new line brackets!!!", then we can go that route</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Fair enough.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, @mwood start gathering your army of new-liners ;)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; It's down to training, I guess.  I'm accustomed to recognizing blocks by the paired delimiters, and if they're unaligned then I can't use my brain's spatial processing for that.  I'll have to learn a whole different set of structural cues.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; But then, someone trained in that other way will be disturbed by all the vertical "noise" in my favorite style.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'd say feel free to bring it up as a discussion topic on lists, in the Wiki page, etc. I'll also note my leanings (with possibly moving to Fedora-inspired styles) and we'll see how this plays out.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; OK</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'm perfectly OK with going with "majority" here</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, topic-wise...those were really the only topics I *specifically* added to the agenda.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; There's another dimension of tooling updates here:  static code analysis.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; We have time to discuss whatever is top of mind, or to look at recent tickets, etc</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; We have a DSpace/IIIF meeting scheduled for next week: <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=90966793">https://wiki.duraspace.org/pages/viewpage.action?pageId=90966793</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ IIIF/DSpace Meeting Nov 3, 2017 at 1500 UTC - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=90966793">https://wiki.duraspace.org/pages/viewpage.action?pageId=90966793</a></span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @mwood: "static code analysis"...any good examples you wanted to touch on?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I haven't spent much time on Error Prone, but it seems like a good complement to some of the others.  It's much more opinionated about a small class of code smells that others take leniently.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @terrywbrady: glad to see the excitement about IIIF and good to see if moving forward!</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; We have created some interesting prototypes here.   We like the capabilities.  We need to figure out how we would like to integrate the viewer with DSpace.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; OTOH FindBugs and its descendants seem much more comprehensive.  Left to myself, I might use both.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; On a separate note, I am still seeking approval on 3 PR's.  I have a +1 on 2 of 3.  <a href="https://github.com/terrywbrady/restReportTutorial/blob/master/README.md">https://github.com/terrywbrady/restReportTutorial/blob/master/README.md</a></span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kompewter&gt; [ restReportTutorial/README.md at master · terrywbrady/restReportTutorial · GitHub ] - <a href="https://github.com/terrywbrady/restReportTutorial/blob/master/README.md">https://github.com/terrywbrady/restReportTutorial/blob/master/README.md</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @mwood: ErrorProne by default is only really strongly opinionated about things that look like possible coding mistakes. See "On by default" section here: <a href="http://errorprone.info/bugpatterns">http://errorprone.info/bugpatterns</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ 1 ] - <a href="http://errorprone.info/bugpatterns">http://errorprone.info/bugpatterns</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; FindBugs is definitely more extensive, and goes into things like performance, security, etc <a href="http://findbugs.sourceforge.net/bugDescriptions.html">http://findbugs.sourceforge.net/bugDescriptions.html</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ FindBugs Bug Descriptions ] - <a href="http://findbugs.sourceforge.net/bugDescriptions.html">http://findbugs.sourceforge.net/bugDescriptions.html</a></span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, yes, they could be used together...and there likely is some overlap.  We actually do have findbugs already in our POMs, but not running by default</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @terrywbrady: thanks for the reminder on the PRs.  I will admit, I haven't had much time this past week for PR reviews, etc. I still unfortunately need to look at them.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I understand. I have been pulled in many directions this month.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Same here, @terrywbrady.  I want to learn to use that stuff, but need to block out some time.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; We have folks here who want to pull bibliographic info out of our IR into other tools, and I am wondering just how consistent some of our metadata are....</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Thanks if you all have a chance.  I hope the documentation makes it easy.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; One quick question comes to mind RE the changes in <a href="https://github.com/DSpace/DSpace/pull/1862">https://github.com/DSpace/DSpace/pull/1862</a>  Would this accidentally surface withdrawn items via REST API publicly?  Or are there access restrictions here?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-3714] REST Collection Report - Need a paginated findByCollection call that can return withdrawn items by terrywbrady · Pull Request #1862 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1862">https://github.com/DSpace/DSpace/pull/1862</a></span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; i.e. withdrawn items shouldn't be findable at all, unless you are a full Admin</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; You have to either login with the right access OR configure the report tools to ignore authorization.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Since we lock down the report tools, we ignore authorization as they run.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'm talking about going at the REST API, to be clear...bypassing the report tools</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; If someone hits the REST API directly, could they see withdrawn items</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; No. Not unless they configure rest to ignore authorization</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, I just wanted to be sure...as I saw it changes what is returned in specific REST requests...just wanted to be certain this was tested for security ;)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Feel free to post a comment on that to the PR, and I will be happy to provide an explanation.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This whole discussion makes me wonder why we have that ignore authZ option anyhow...that's a potentially major security issue for REST</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Good question.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I created these tools in a version of DSpace that provided no mechanism for logging in.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; maybe we should deprecate them?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Then, the shibboleth authentication was not working in rest for some time.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @terrywbrady: I commented on the PR too, so you can answer this question there</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; thanks</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I do worry though that someone could have turned on "ignore authZ" early on (when it was not so harmful, as not much could be done)...and now that we add in more endpoints/features, it could start to become a security concern</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, at least in my mind, I wonder if we should deprecate now(ish) &amp; remove it in DSpace 7.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; [slippery slope] Should build.xml's 'update' target look for this and issue a warning?</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; The REST calls will be rewritten in DSpace 7, so this component only has a life in DSpace 6.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; True. Maybe we minimally make sure the warnings in docs &amp; configs are very obvious. It doesn't seem like a setting we want to recommend turning "on" in DSpace 6</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I just hope that these tools get some use by another institution.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; +1  I also hope they are possible to (relatively easily) move forward to the DSpace 7 REST API, once the equivalent endpoints are ready</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'm realizing we are now at 1 hour... I didn't have any other topics, and unfortunately do have to run. Good discussion though, and keep thinking on the Code Style ideas, and provide feedback (in email thread, wiki, etc)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Thanks all!</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Have a good week!</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Thanks!</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-navy">* mhwood (~mhwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-green">* dyelar (~dyelar@dyelar.mrb.ku.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has left #duraspace</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-navy">* dyelar (~dyelar@dyelar.mrb.ku.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-green">* dyelar (~dyelar@dyelar.mrb.ku.edu) has joined #duraspace</span><br />
+<span class="irc-date">[22:18]</span> <span class="irc-navy">* dyelar (~dyelar@dyelar.mrb.ku.edu) Quit (Quit: Leaving.)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

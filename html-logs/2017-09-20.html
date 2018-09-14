@@ -1,0 +1,174 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2017-09-20
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:31]</span> <span class="irc-brown">-weber.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-weber.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:31]</span> <span class="irc-brown">-weber.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-brown">-weber.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:32]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[12:12]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:36]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Reminder that our weekly DSpace DevMtg starts in about an hour (at 15UTC / 11am EDT) here. Agenda at <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-09-20">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-09-20</a> As today's agenda is light, we'll have time for open discussion and/or some ticket/PR reviews. So, bring anything you'd like to discuss.</span><br />
+<span class="irc-date">[14:03]</span> <span class="irc-green">* dyelar (~dyelar@dyelar.mrb.ku.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I have a meeting conflict.  I will join later if I am able.</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Hi all, welcome. It's DSpace DevMtg time. Agenda is at <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-09-20">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-09-20</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; As I'm aware there's some conflicts today (DSpace Germany User Group is this week for example), I'd like to do a brief roll call to see who is here today.</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Hi</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;jcreel256&gt; (lurking)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, we have a few folks...small group today though, but maybe it's the conflicts catching up with us today</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The agenda is light today (as mentioned previously).  Are there specific topics those &lt;here&gt; would like to discuss today?</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, not hearing anything. One option here is to look towards JIRA / PRs and do some reviews for today.  (I feel we are too few to discuss larger topics)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; OK.  (I need to study "DSpace Database Access" before ranting again on that topic.)</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, we do have a small backlog of "Received" tickets we could discuss here then and move them forward.  <a href="https://jira.duraspace.org/issues/?filter=10152&amp;jql=project%20%3D%20DS%20AND%20status%20%3D%20Received%20ORDER%20BY%20updated%20ASC%2C%20key%20DESC">https://jira.duraspace.org/issues/?filter=10152&amp;jql=project%20%3D%20DS%20AND%20status%20%3D%20Received%20ORDER%20BY%20updated%20ASC%2C%20key%20DESC</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; starting at DS-3672</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; (hmmm...no kompewter to give me links)</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-3672">https://jira.duraspace.org/browse/DS-3672</a></span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This seems related to the broader topic of the Database Database Access</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes.  There's another ticket on the authority indexer, for instance.  We have a number of these, likely.</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; It's a worthwhile ticket, but it may first require some more planning. Still, maybe this should move along to "Needs Volunteer"</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; If it's worth doing, then "needs volunteer" it is.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I admit, I think it's worth *investigating*.  Not sure whether it's worth *doing* yet.  I think this is investigatory first, then a proposal for how to solve (as necessary)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'll clarify that in a comment.  As-is, I'm not sure this ticket is quite "actionable", but it's something we could use a volunteer to move forward and dig into</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I agree.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Related to DS-3681?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-3681">https://jira.duraspace.org/browse/DS-3681</a></span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; They are loosely related perhaps, but I think 3681 is also about the fact that the AuthorityIndexer code is quite dense and requires refactoring to even clarify it</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; OK</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; moving along on our list: <a href="https://jira.duraspace.org/browse/DS-3679">https://jira.duraspace.org/browse/DS-3679</a></span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Huh, is this simply saying these options should be commented out in dspace.cfg?</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Looks like the test should be for not-empty.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Yes, this sounds like a bug...not sure though if the test should change, or the default configuration should</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; But, it seems like something that could be quickly fixed via a small PR</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; "Sounds like a bug" -&gt; needs volunteer.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes, needs volunteer, low-hanging fruit.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; flagged as such</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; next up <a href="https://jira.duraspace.org/browse/DS-3686">https://jira.duraspace.org/browse/DS-3686</a></span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I've seen this sort of thing in the XMLUI before.  But, I don't have enough recent experience in JSPUI</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Needs further investigation.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; "needs more info" then?</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I hadn't seen that it's JSPUI.  I wondered *where* the caching is happening, but with Cocoon out of the picture, it seems to be the browser.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Anyway it should be looked into.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Aha, I was able to just reproduce on demo site. Not sure where the caching is either...could be that the page isn't telling the browser to reload or something</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'll flag as needs volunteer and add in reproduce details</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Hello... joining late</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Sounds right.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Welcome!</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; flagged as needs volunteer</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; and added a comment</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; next up, <a href="https://jira.duraspace.org/browse/DS-3662">https://jira.duraspace.org/browse/DS-3662</a></span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; huh... a lot of info here that ends in a "solution" (but looks like we need a PR for it)</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, I'll flag as needs volunteer and ask for a PR from Jakub (if he's willing).</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I feel like I encountered a similar issue a while back that may have been "resolved" by re-ordering my auth methods.  I will hunt around and see if I can fine a related ticket.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I will post to jira if I find something</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; updated ticket &amp; asked for a PR</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; next up, <a href="https://jira.duraspace.org/browse/DS-3690">https://jira.duraspace.org/browse/DS-3690</a></span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Huh, and I thought we solved this one in both XMLUI and JSPUI. I guess not.  Sounds like a "Needs Volunteer", since I trust Pascal's assessment here</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; updated</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; next up, <a href="https://jira.duraspace.org/browse/DS-3691">https://jira.duraspace.org/browse/DS-3691</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Seems reasonable, though this is also loosely related to the fact we need to upgrade Solr (and extract it as an external dependency): <a href="https://jira.duraspace.org/browse/DS-3695">https://jira.duraspace.org/browse/DS-3695</a></span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; It would be good to confirm that this change works well for languages other than english</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Sounds right. Still, sounds like a needs volunteer to me</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Since I have a fix, I will volunteer</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I assigned the ticket to myself</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; sounds good. Thanks, @terrywbrady</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Next up, <a href="https://jira.duraspace.org/browse/DS-3692">https://jira.duraspace.org/browse/DS-3692</a></span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Huh, this is news to me. Do we need to replace it with anything else?</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; There's no urgency yet, but I was surprised by the news and wanted to capture it.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; No, I think we can just use the native DataCite provider.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Oh, I see, it's being replaced by DataCite, which we already support</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, there really is no "urgency", considering anyone who uses EZID can just switch to the DataCite provider (whenever they need to).  If the code sits around a bit after that, no big deal...but eventually we should remove it just to declutter</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I suppose that we EZID sites may presume that DataCite will contact us with particulars about credentials, timeline, and the like.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'd assume so :slightly_smiling_face:</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; updated ticket</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; next up, <a href="https://jira.duraspace.org/browse/DS-3693">https://jira.duraspace.org/browse/DS-3693</a></span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Oh, this one has a PR already. It should be moved to "code review needed".  It also seems like a reasonable change to me</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; <a href="https://github.com/DSpace/DSpace/pull/1838">https://github.com/DSpace/DSpace/pull/1838</a></span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And it looks like @terrywbrady added himself as a PR reviewer, which is good to see</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; ok, updated ticket</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; next up, <a href="https://jira.duraspace.org/browse/DS-3694">https://jira.duraspace.org/browse/DS-3694</a></span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This sounds like something we should do in 7.0...as there's a lot of changes here. But, they sound reasonable</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I think this started as discussion on dspace-tech.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; yes, I recall seeing that at some point</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; In any case, I say we flag as "needs volunteer".  This would be nice to cleanup on "master" (no need to backport though) if someone has an interest.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; OK, it's a pet peeve of mine, and I haven't contributed much to 7, so I'll take it.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, thanks! I had just flagged as volunteer needed &amp; added a comment. But, feel free to claim it, @mwood</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And last but not least: <a href="https://jira.duraspace.org/browse/DS-3695">https://jira.duraspace.org/browse/DS-3695</a></span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This one seems important for 7.0, as the version of Solr we are embedding is EOL.  However, we'd need someone to spend time investigating what we'd have to change in our code to support the current version of Solr (which would be an external dependency now)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; We do need to catch up with Solr.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I'll take this one</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Thanks @terrywbrady!  That'd be awesome!</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; My suspicion here is that we might even be able to completely drop the "dspace-solr" DSpace module, and move to requiring Solr be installed as an external dependency</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; (this is also noted in the comments...and I'm glad to be pinged for feedback on this as needed)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, so we've made it through our entire (small) backlog of "Received" tickets, and with just a few minutes to spare</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I am not entirely sure what will be involved, so I will ask for help as I need it.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Please do.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; As we are nearly out of time, I'm not going to add in any additional topics for today.  Just a friendly reminder that we have our usual, weekly DSpace 7 Working Group meeting tomorrow at 15UTC</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I have a Solr 6 running as a separate boot-time service, just to play with, so I may be able to talk about that aspect.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Not integrated with DSpace.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, we'll close up the meeting for today.  Thanks for helping clean up our JIRA backlog!  Hopefully next week we can get a report back from the DSpace Germany User Group (going on now)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; User Group meeting is tomorrow. I hope I make it to the meeting next week (a late one).</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @pbecker: aha, thanks for correcting me!  Good luck on the user group!</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; I’ll add a comment to the EZID ticket.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;pbecker&gt; @tdonohue thank you.</span><br />
+<span class="irc-date">[19:14]</span> <span class="irc-navy">* dyelar (~dyelar@dyelar.mrb.ku.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-navy">* mhwood (~mhwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

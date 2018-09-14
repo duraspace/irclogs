@@ -1,0 +1,219 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2017-08-02
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:44]</span> <span class="irc-brown">-leguin.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-leguin.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-leguin.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-brown">-leguin.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:44]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[12:26]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; REMINDER: Our DSpace DevMtg starts at the top of the hour here. Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-08-02">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-08-02</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Hi all, welcome to this week's DSpace DevMtg.  Agenda is listed above.  Let's do a quick roll call to see who all is "here" today (on either Slack or IRC)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Hi</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; hello</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Good, at least a few folks are paying attention. I'll assume others will catch up later ;)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, first and foremost today...we've stumbled on a series of Hibernate related bugs/issues in DSpace 6.1 that likely warrant an almost immediate 6.2 release</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; Action: sulfrian is here , too</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; hi</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'd like to go through these tickets and get a quick "latest status", along with an agreement on a 6.2 release plan</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The tickets are listed in the agenda (obviously), but we'll start with</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-3659">https://jira.duraspace.org/browse/DS-3659</a></span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; PR: <a href="https://github.com/DSpace/DSpace/pull/1815">https://github.com/DSpace/DSpace/pull/1815</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This was extremely serious on demo.dspace.org.  It's only reproducible (so far) with RDF enabled, but as it's a bug in the `Context` object, it's possible it affects *other areas of code*</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I think this is "fixed" as demo is no longer affected. It seems like a relatively obvious fix (collaboration between @sulfrian , @tom_desair and other)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I think this is only a quickfix, but it should get back the state like 6.0 was working.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Is demo otherwise behaving normally, still?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Demo is normal except for another separate (but related issue) we'll discuss in a bit.  But, yes, this portion of demo is good, and I reran the "full content reset" a few times yesterday to be certain</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; so, as far as I'm concerned, I think we should merge PR1815 (cherry-pick to master) and close DS-3659, unless others disagree here?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; If nothing else broke on demo when this was applied, and it has been poked enough that we'd likely know if something broke, then I have no objection.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; The whole Context reuses one DBConnection stuff will be another issue?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; "poked enough" is hard to judge. But, the PR#1815 is essentially a "revert" of an accidental change to an `if` statement between 6.0 and 6.1</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; It’s restoring the original 6.0 behaviour so I don’t see an immediate problem.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @sulfrian : we'll get to that..it's a larger issue, not in scope for 6.2</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, I'll merge this PR, cherry-pick and close 3659.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; @tdonohue I am fine with closing DS-3659, if we handle the bigger issue separately.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Next up in our list: <a href="https://jira.duraspace.org/browse/DS-3648">https://jira.duraspace.org/browse/DS-3648</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This is another Hibernate bug. PR: <a href="https://github.com/DSpace/DSpace/pull/1813">https://github.com/DSpace/DSpace/pull/1813</a>   And @hpottinger volunteered to test this</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @hpottinger have you tested?</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; working on it now</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Oh, I see @hpottinger added a PR comment just a bit ago (at the start of this meeting).</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; yes... I realized I only had a few items in this test repo, so... heh... I just retried about 8 times</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, thanks. Please report back today/early tomorrow if possible...we want to get this in ASAP for a quick 6.2</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; and on the eight try, it worked</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Moving along (in essence of time): <a href="https://jira.duraspace.org/browse/DS-3656">https://jira.duraspace.org/browse/DS-3656</a> / <a href="https://github.com/DSpace/DSpace/pull/1812">https://github.com/DSpace/DSpace/pull/1812</a></span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 3656 is another Hibernate issue, worked on by @tom_desair and @sven</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; and this is a requirement for PR-1813</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; The PR 1813 is based on this?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Yes</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Oh, I missed that.  Ok, so once 1813 is fully tested, this one should be good to go too</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Indeed</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, so now we get to the last ticket (found today by @sven and @sulfrian and others in dev)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-3660">https://jira.duraspace.org/browse/DS-3660</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Work in progress PR: <a href="https://github.com/DSpace/DSpace/pull/1816">https://github.com/DSpace/DSpace/pull/1816</a></span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This one is also serious, as if you have "authority" consumer enabled, auto-reindexing won't work</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The PR fixes *part* of the issue here, but doesn't work alone (I added one comment to it already)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; The fix is not ready yet. I will look into it tomorrow.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @sulfrian : I added one comment to the PR already on a bug I found.  The other necessary fix is the refactor of `Context.commit()`</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; This also shows a pattern that I think we should be following:  when you want to work with a persisted model object, ask the persistence context for it, use it, and forget it.  Let the context figure out what to cache.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; @tdonohue Yes I already noticed that there could be other objects.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; In parallel to this effort, I did refactor `Context.commit()` locally to do a DB commit *prior* to `dispatchEvents()` (this was discussed in great detail in dev Slack today).</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; But there is a bigger problem. May submission steps call dispatchEvents directly.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I can submit a separate PR for that refactor if we want to treat it separate, but I think it's related to 1816</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; lots hammering noises coming out of the Context object....</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Without calling `Context.commit()`. I do not know, if it is save to replace all `dispatchEvents()` with `commit()`.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; But I will try to check this tomorrow.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; it probably depends on the usage of dispatchEvents().  If the event is triggered by a change, then commit() likely needs to be called.  But, they might need to be looked at individually</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Yes, I will do.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; One of the things that commit() does is call dispatchEvents()</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; In the initial Hibernate implementation, the `commit()` method was removed. ]] a</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; As I said previously though (in dev), I do want to be careful that we aren't "over fixing" things... i.e. fixing things that look odd but actually are not broken.  So, we should be very careful to test any `dispatchEvents()` we replace with `commit()`</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; But, @sulfrian thanks for volunteering to look at this. I'll gladly help test things out tomorrow</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; But when fixing another performance issue, it was re-introduced (<a href="https://github.com/DSpace/DSpace/commit/b19189634d4d6ca908764880be796513e70aa114#diff-cbd2f003ca152958b516d0e949719ef3R374)">https://github.com/DSpace/DSpace/commit/b19189634d4d6ca908764880be796513e70aa114#diff-cbd2f003ca152958b516d0e949719ef3R374)</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; I think that’s the reason you see the call to `dispatchEvents()` and not `commit()`</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I already saw a a NPE during the UploadStep because the Event want to access an Item that was not committed before. So this is not only a theoretical problem.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @tom_desair : good to know. That definitely means we should do a global search on `dispatchEvents()` to be sure others shouldn't be changed back to `commit()`</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Indeed, that’s something we missed when restoring the `commit()` method.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; "fix conflict" is not a very good commit message...</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, to sum up the 6.2 plans.  I'd like to get all the issues fixed that we just described (as most revolve around Hibernate and/or `Context`), and then quickly release a 6.2.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Obviously though, if other Hibernate/Context issues are found we can include them. But, I think we should scope 6.2 to fixing these major bugs and get it out ASAP</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes, don't hold the door open for anything else unless DSpace is on fire.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Indeed I’m sorry. That was a rebase that did not go very smoothly</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; If possible, ideally, we release 6.2 this week (or early next). But, it may depend on whether we can close out all these tickets in the next 24-48 hours</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; That said, is there anyone here (looking at current Committers now) willing to possible help "cut" the 6.2 release?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Ticket that corresponds to that change is <a href="https://jira.duraspace.org/browse/DS-3086">https://jira.duraspace.org/browse/DS-3086</a></span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I can help.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; Action: hpottinger picks up his hat and throws it way up into the stands: I'm traveling, I'd better not volunteer.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Thanks @mwood. I can still help with release notes, etc. I'd just really like to not have to do back to back releases myself ;)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; @mwood , Can I observe the process if that does not delay you?  I am out of the office on Friday.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Ticket that corresponds to that change is <a href="https://jira.duraspace.org/browse/DS-3086">https://jira.duraspace.org/browse/DS-3086</a></span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, so sounds like we have a plan for 6.2 (i.e. putting out the immediate fires).  Now, I'd like to move on to the second topic on our Agenda... How DB Connections now work with Hibernate / DSpace 6</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; oh, that'd be fun, wanna livestream the release of 6.2?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; As was "discovered/realized" by several of us at once... DSpace 6 / Hibernate now *shares* DB Connections within a single thread.  I.e. two separate `Context` objects may end up sharing the same DB connection if they are in the same "thread"</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This is a big change in behavior from DSpace 5.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; In DSpace 5, each "Context" established a new DB connection. Context then committed or aborted the connection after it was done (based on results of that request).  Context could also be shared between methods if a single transaction needed to perform actions across multiple methods.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; In DSpace 6, Hibernate manages the DB connection pool.  Each thread grabs a Connection from the pool. This means two Context objects could use the same Connection (if they are in the same thread). In other words, code can no longer assume each new Context() is treated as a new database transaction.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; :point_up: Those are the two summaries from the Agenda notes here</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I think it is really strange to be able to do `new Context()` and get the current database connection again.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I think, we should either disallow `new Context()` or each Context should get its own connection.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This change in behavior is one of the reasons we see all these recent Context and Hibernate issues... we have old code assuming the "old behavior" and sometimes wrestling with Hibernate</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Exactly.  The thing to do, when you don't know what your callers are up to, *was* to grab a new Context and use it, but that isn't true anymore.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; At the very least here we all need to be aware of this new behavior (and watch for issues related to it in the code).  But, as @sulfrian notes/implies, it's also an opportunity to think about which behavior is "correct" to us (and perhaps either reconfigure Hibernate to support the DSpace 5 way, or fully embrace the new DSpace 6 way)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; well... it's not just a new context, it's *any* context you might happen to have, might share a connection with another context.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; correction, @hpottinger : Any context *in the same thread* (based on my understanding of the Hibernate configs we have in place).  Separate threads should never share a DB connection (again if I'm reading things right)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; The default setup uses a ThreadLocal to keep track of the "current connection".</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; There are other ways.  Much discussion over in dev yesterday.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; We currently explicitly use a singleton service for the dbconnection: <a href="https://github.com/DSpace/DSpace/blob/dspace-6_x/dspace-api/src/main/java/org/dspace/core/Context.java#L156">https://github.com/DSpace/DSpace/blob/dspace-6_x/dspace-api/src/main/java/org/dspace/core/Context.java#L156</a></span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; While I agree that multiple `new Context()` object using a single connection is very confusing, the “sharing” feature has the advantage that it is now almost impossible to leak connections from the database pool. This is an issue that still pops up now and then in DSpace 5.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Yes, currently we just let Hibernate's ThreadLocal manage those connections.  As I discovered yesterday, we can be more diligent about asking for a *new* DB connection by using `SessionFactory.openSession()` (opens a new session/db connection) vs `SessionFactory.getCurrentSession()` (only opens a new session if one isn't open already)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; But we don't want to use `openSession()` too much, as the risk there is we have to then remember to always *close* these new sessions in our code</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; If there is 1:1 Session:Context then closing a Context should close the Session.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Yes but sometimes a Context is not closed properly.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @sulfrian : a note on your note about DBConnection being a singleton.  That is true, but (perhaps oddly) `DBConnection` (the class) is not the same as a Hibernate Session / DB connection</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; DBConnection is poorly named.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Hibernate Sessions/DB connections are managed within `HibernateDBConnection`: <a href="https://github.com/DSpace/DSpace/blob/dspace-6_x/dspace-api/src/main/java/org/dspace/core/HibernateDBConnection.java">https://github.com/DSpace/DSpace/blob/dspace-6_x/dspace-api/src/main/java/org/dspace/core/HibernateDBConnection.java</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; But I agree with @sulfrian either we - Refactor `new Context()` to something like `Context.getCurrentContext` (and possibly `Context.getNewContext`)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Yes, the `DBConnection` and `HibernateDBConnection` classes both have bad names...they don't actually *represent* a single DB connection...they are just a way to "grab" a database connection via Hibernate</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; @tdonohue And hibernate db connections are called sessions, right?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @sulfrian : correct. Hibernate db connections = Session</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Somewhere down inside Hibernate it gets connections out of the pool and gives them to sessions.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And `HibernateDBConnection` has the code for how we "grab" / "claim" a new Hibernate Session (connection)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; All this said, I do agree with what @tom_desair and @sulfrian have proposed regarding `Context`.  I just don't know myself which way is "easier" and/or better (still mulling it over in my head)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; `HibernateDBConnection` also has `commit()`. If this is only the interface to get a session, then commit is wrong there.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, I don't know that there's any "conclusion" to this discussion we can make today.  But, perhaps we should start documenting / brainstorming how we might "fix" this, and make the behavior more readily understandable</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; It's obviously not something we can fix in 6.2.  Depending on the scope of the change, maybe we could improve it in 6.3 or 6.4.  But, if we are ripping a lot out and starting "fresh", that may need to wait for 7.0</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Should this be targeted for 6.3 or 7.0?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Ah</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; If we are completely changing `Context`, I think that'd need to wait for 7.0.  It's a very central class</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I'm concerned that Context has too many jobs, and a lifecycle potentially different from Session.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; If we are doing minor refactoring to improve behavior, we could do that in a 6.3 (assuming we test it well, etc)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; it's not too early to think about what we'd like for 7.0, though... so... don't let that stop you</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; But those are just my initial thoughts. If, as we brainstorm, we discover things that *need to change* to make 6.x stable, then we may need to rethink that</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Yes there was the idea yesterday of @mwood to split or remove the Context class.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 7.0 is already in development ;)  So, yes, this is the time that such work could already start to happen</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; I that could be a good thing.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; The Way to use something like Hibernate seems to be for a single method to say "gimme a Session", use it, and close it up.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Keeping the Sessions short will also solve a lot of the performance (and memory) issues.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, I'd just encourage everyone to start brainstorming possible solutions (either for 6.x or for 7.0 or both).  If anyone wants to "run with this" with a few ideas, please do feel free to start up a Wiki page to capture thoughts/feedback</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; (which currently need “hacks” that introduce new bugs)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; As we are over time here, I would like to close this up now.  I'll keep this on the agenda as an ongoing topic of discussion. But (as my time is really split between 6.x and 7.x), I'd really like to get others (of you) involved in drafting this up, making some suggestions for future discussions</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; We'll leave it at that for today though, unless there are any final comments/questions?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; Then maybe we need to get this on the DSpace 7 agenda ;)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @tom_desair : I think we (DSpace 6 team) are better versed on the problem right now though (as we're seeing this problem manifest itself in maintaining 6.x.  Once we have a proposal, then I do think it needs to also get in front of the DSpace 7 team (so they are aware)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; As 6.2 is evaluated, could we include this PR: <a href="https://github.com/DSpace/DSpace/pull/1782.">https://github.com/DSpace/DSpace/pull/1782.</a></span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I *will* however mention this issue to the DSpace 7 team.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @terrywbrady : is 1782 ready to go / tested?  I've lost track of its status</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I have created so many iterations of this to attempt to satisfy folks... it is ready for testing.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; The schema fix is queued for 7.0</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I think the main goal here is 6.2 waits for nothing (but Hibernate / Context issues). I'm perfectly fine with other things getting in that are ready, but might need to lean on others to review other things &amp; merge the stuff that is ready.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, if 1782 is ready, I'm ok with it. But, I won't have time to verify/test it TBH.  If someone else does, awesome</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I agree:  if 1782 is ready when the Hibernate stuff is ready, don't delay merging, but if it isn't ready then it should wait for 6.3.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; I’ll do my best to look at it tomorrow if no other Hibernate stuff pops up.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Thanks @tom_desair</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Otherwise, @terrywbrady please keep pestering folks to test/review 1782 in the coming days</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Will do.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'm going to close up the official meeting now, as we are 10mins over (and I'll need to run shortly).  But, thanks all for the great discussion, and thanks for all the hard work (in dev and here) on the Hibernate / Context issues</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; 'bye all.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tom_desair&gt; bye!</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-navy">* mhwood (~mhwood@mhw.ulib.iupui.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; bye all!</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I pinged @kshepherd on #1782</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Bye. Need to sleep now. (It's already 11pm here.)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has left #duraspace</span><br />
+<span class="irc-date">[22:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;kshepherd&gt; huh wha?</span><br />
+<span class="irc-date">[22:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; Action: kshepherd goes to find his Testing Hat</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

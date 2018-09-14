@@ -1,0 +1,148 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2017-11-01
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:38]</span> <span class="irc-brown">-hobana.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hobana.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hobana.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hobana.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:29]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Reminder our weekly DSpace DevMtg is here at the top of the hour (~25 mins). Agenda is at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-11-01">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-11-01</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; &lt;here&gt;: It's DSpace DevMtg time! Our agenda is light today, but is linked above (:point_up:).  We should have time for other topics as well (as most of what is above is updates)</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Before we get started, let's do a quick roll call to see who is here today...</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; :wave:</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; :wave:</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, it's looking like we are a tiny group today.  Well, I'm hoping others will join up as we talk...otherwise we can wrap up early if we run out of topics :slightly_smiling_face:</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; We have a few brief reminders.  Tomorrow at 15UTC is the next DSpace 7 meeting.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The second DSpace Entities Working Group meeting occurred last week (it was recorded if you want to watch it later): <a href="https://wiki.duraspace.org/display/DSPACE/2017-10-27+DSpace+Entities+WG+Meeting+Notes">https://wiki.duraspace.org/display/DSPACE/2017-10-27+DSpace+Entities+WG+Meeting+Notes</a></span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The next meeting of the DSpace Entities group won't be till the end of Nov (Weds, Nov 22 at 15UTC) cause of scheduling conflicts coming up</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; From the DSpace 7 team, I do have one topic that I want this group to be aware of.  There's work to do a *minor refactor of the submission configs* (item-submission.xml and input-forms.xml) coming into DSpace 7</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This work is happening to make building a REST API on those configs easier to achieve...and the work is happening in two places:</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 1)  <a href="https://github.com/DSpace/Rest7Contract/pull/11">https://github.com/DSpace/Rest7Contract/pull/11</a> (discussion of REST endpoints)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 2) <a href="https://github.com/DSpace/DSpace/pull/1852">https://github.com/DSpace/DSpace/pull/1852</a> (code to achieve those REST endpoints)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; FYI, :wave: I'm here</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The refactoring of these configs will be automated (by a script) in the DSpace 7 upgrade process.  But, right now we're working out the final design.... it's mostly about refactoring the `item-submission.xml` into a new `submission-definitions.xml`</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; The pull request is huge.</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Yes, it is huge. Unfortunately some of the DSpace 7 work is hard to break up into "small pieces".  I'm not expecting everyone to review this in great detail...but, I want folks to be aware of the work happening here.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And I'm realizing that the PR itself doesn't document the changes very well... (i.e. we need a place that better describes the changes to these configs @bollini)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Joining late from an alternate computer... the DSpace Slack services is not responding on my primary machine</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; These new REST endpoints are better documented though: 1) <a href="https://github.com/DSpace/Rest7Contract/blob/master/submissiondefinitions.md">https://github.com/DSpace/Rest7Contract/blob/master/submissiondefinitions.md</a> (replaces item-submission.xml) 2) <a href="https://github.com/DSpace/Rest7Contract/blob/master/submissionsections.md">https://github.com/DSpace/Rest7Contract/blob/master/submissionsections.md</a> (replaces the idea of one "step" in item-submission.xml) 3) <a href="https://github.com/DSpace/Rest7Contract/blob/master/submissionforms.md">https://github.com/DSpace/Rest7Contract/blob/master/submissionforms.md</a>  (replaces input-forms.xml)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; At this point it's probably most important just to be aware that the submission configuration is changing.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; :+1:</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Correct. That's the most important part. The secondary point is that it's mostly *minor* renaming of the configuration files. We are NOT doing a complete "overhaul", but we need to refactor slightly to be able to turn these existing configs into REST endpoints</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; It may be easier to review commit-by-commit, since there are so many.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, it will look familiar...but slightly different names, and XML structure</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; That was the main thing I wanted to bring to this meeting from the DSpace 7 work. It's just worth being aware that this is an area where we need to tweak the existing configs in order to build a proper REST API for DSpace 7</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; It might be helpful to produce an updated version of the documentation for submission configuration, that can be read side-by-side with the old and compared.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Once the new format is settled, that is.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; We will need the updated documentation anyway.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Yes, agreed. Currently the best docs are the REST endpoint docs here...but even those are not gonna be 100% clear to folks who haven't been in discussions thus far.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Moving along here for now....</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; We have a few carryover topics on code mgmt tools.  The only one I really wanted to touch on today was this PR: <a href="https://github.com/DSpace/DSpace/pull/1865">https://github.com/DSpace/DSpace/pull/1865</a></span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This PR only makes POM changes to produce code/test coverage reports.  I'm planning on merging this ASAP, but wanted to be sure no one has last minute objections</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; None.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And I just saw @hpottinger +1'd the PR. Thanks!</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; Happy to help, this is an area of fascination for me.</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And with that, I've merged it ;)</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I don't have any other updates on the Code Mgmt discussions...the Code Style Guide brainstorms are still up for comment though: <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=90967266">https://wiki.duraspace.org/pages/viewpage.action?pageId=90967266</a></span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; (But, I haven't had time to move the Code style discussions forward since last week...so nothing new there)</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; That was it for actual *topics* on today's agenda.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Were their any other topics / tickets / ideas of interest to those in attendance today?</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; There are a few open issues, that are only waiting for Code Review. Maybe we can advice everybody to look at it?</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; sure, did you have specific tickets in mind, @sulfrian?  If so, I'd recommend linking them in here</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; For example DS-3724 or DS-3682 (easy ones) or DS-3681.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-3724">https://jira.duraspace.org/browse/DS-3724</a></span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-3682">https://jira.duraspace.org/browse/DS-3682</a></span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-3681">https://jira.duraspace.org/browse/DS-3681</a></span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Do we have any volunteers here to do some code reviews of these tickets?  The first few do look pretty obvious overall</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; With DS-3681, I like the idea...but I wonder if this should also be reviewed by @bollini or @lap82, as this refactor could potentially conflict with DSpace 7 work</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; 3724 looks correct to me.  But my DTD experience is slight.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; The first two seems to be missing in the "Needs Code Review" list in the agenda. Do not know, what the filter is exactly. Maybe the "fixed in version" field is missing for the tickets.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Heh, I actually rewrote that DTD as an XML Schema some time ago.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; @sulfrian, it is handy to have a full URL to a PR listed in the Jira ticket.  It makes it easier to link between the ticket and the PR.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; The PR is referenced on the right under Development.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I wasn't yet logged into Jira...</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; yep, unfortunately in Jira that "Development" section only appears if you are logged in.  I've never found a way to make it appear to anonymous users (seems to not yet be possible)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 3682 seems like it's just minor testing (in XMLUI).  3724 looks right to me too</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; RE: 3681, I pinged @bollini and @lap82 in the PR to get their opinions. I think this should be good, but want to be sure it doesn't conflict with in progress DSpace 7 work</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; If anyone is able to look at / spend time on 3682 and/or 3724 though it'd be appreciated.  My code review time is a bit lacking this week, and I've had to concentrate that limited code review time in the DSpace 7 realm as of late</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Thanks :slightly_smiling_face:</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Are there other tickets needing more eyes, or any other topics/questions that others would like to discuss?  We have 15-20mins left</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I may have asked before, but:  might it be worthwhile to submit a patch to make DOI generation configurable on/off per Collection?  (It also introduces a way to add default metadata to new Collections, and is perhaps the first use of MetadataForAll on container objects.)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; "DOI generation...per Collection".  Are you talking about generating DOIs *for* Collections? Or simply having different DOI configs for Items, based on which Collection they are submitted to?</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; (Just want to be sure I understand the point here)</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; A new item entering Collection A gets a generated DOI; one entering Collection B does not.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; ok. Just checking. That seems reasonable to me, and something worth investigating. Not sure what it'd take though.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I may work on the collection/community metadata interface, too. I think it would be good to remove at least the hard coded property names and use the already available constants everywhere.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Maybe we even should remove the methods using the legacy property names and use the metadata fields directly.</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; But the usage of the constants should be a non-breaking change.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @sulfrian: Both are good ideas...but I'd encourage not doing "breaking changes" (or frankly any larger refactor) without considering the DSpace 7 efforts.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I don't think those would negatively affect Dspace 7 efforts...but I'd hate for you to do a bunch of refactors on DSpace 6.x, and have those get thrown out in DSpace 7 (cause of a separate, conflicting refactor)</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Yes, breaking changes would be definitely something for DSpace 7.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Currently, we do *not* yet have community/collection metadata edit REST Endpoints designed for DSpace 7 work...But, I'd anticipate that when we do those designs &amp; code changes, that team also may be looking at ways to simplify/refactor the API (perhaps in similar ways to what you are noting)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, I think we all need to be aware that we don't want to do larger refactors without input of DSpace 7 team.  Otherwise, there is a risk that the refactor work will be "left behind" if it doesn't align with the new REST API efforts</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Fortunately I haven't written the UI patches for these new fields yet.  (I had to hack together a completely separate GUI because a third-party add-on overlays the XMLUI classes I'd need to modify.)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And, honestly, we also welcome *anyone* to join the DSpace 7 team.  If you want to help with larger refactors needed to "feed" a new REST API, we'd love that help.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Before we run out of time, I am still seeking reviewers for 3 PR's.  There following page contains all of details you will need to test the functionality.  <a href="https://github.com/terrywbrady/restReportTutorial/blob/master/README.md">https://github.com/terrywbrady/restReportTutorial/blob/master/README.md</a></span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Our next DSpace/IIIF call is scheduled for Nov 3, 2017 at 1500 UTC: <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=90966793">https://wiki.duraspace.org/pages/viewpage.action?pageId=90966793</a></span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; &lt;here&gt;: Yes, please take a look at @terrywbrady's REST Report tools (linked above)! These would be good to move along</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Since we are now at a "lull" in discussion, I'm going to refrain from calling any new topics.  I have a DSpace Steering Mtg immediately following this (in 4 mins)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, we'll wrap up the meeting now. Thanks for the discussion all!  And please help with code reviews if you have time!</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Quick note:  I've been asked to look at bibliographic *export*, of which there are several submissions that seem to have stalled over the years.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; @sulfrian, I approved 1 PR, asked for more info for the 2nd one.  I did not take on the 3rd one (the refactor) since I am not really familiar with the authority indexer process.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-navy">* mhwood (~mhwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-navy">* tdonohue (~tdonohue@dspace/tdonohue) Quit (Read error: Connection reset by peer)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

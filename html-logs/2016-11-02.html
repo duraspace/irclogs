@@ -1,0 +1,225 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2016-11-02
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:34]</span> <span class="irc-brown">-niven.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-niven.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-niven.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-niven.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[12:21]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:00]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[13:20]</span> <span class="irc-green">* hpottinger (~hpottinge@162.104.218.179) has joined #duraspace</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-green">* dyelar (~dyelar@120.121.124.24.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[14:54]</span> <span class="irc-green">* luizsan (~luizsan@209.120.171.227) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, the DSpace Developers meeting is starting now. Here's our agenda for today: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-02">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-02</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2016-11-02 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-02">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-11-02</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-navy">* hpottinger (~hpottinge@162.104.218.179) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; First on the agenda was to talk about a new XOAI release: <a href="https://github.com/DSpace/xoai">https://github.com/DSpace/xoai</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;kompewter&gt; [ GitHub - DSpace/xoai: OAI-PMH Java Toolkit ] - <a href="https://github.com/DSpace/xoai">https://github.com/DSpace/xoai</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not sure who put this on the agenda, but I recall seeing this come up in #dspace.  Were there specific points to discuss here?</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;mhwood&gt; There are 13 open issues and 7 pull requests that have been hanging fire for months, and users of v4 would like to see someone actually maintain XOAI.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;mhwood&gt; It's not currently affecting DSpace since we are backlevel on XOAI, but we did take responsibility for this code....</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; valid points there, obviously.  I wonder if it'd be worth trying to find a "product owner" (for lack of a better term) for XOAI from the Committers team?</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like there's a few gaps here... First is that DSpace isn't even updated to use XOAI v4 (though that'd be good to do, and help with this maintanence issue)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;mhwood&gt; We do need to have someone feel responsible for seeing that XOAI gets attention.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; as a "quick fix", it sounds like we could just find someone to perform a (minor) 4.2 release, per this request: <a href="https://github.com/DSpace/xoai/issues/60">https://github.com/DSpace/xoai/issues/60</a></span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;kompewter&gt; [ Request for minor release · Issue #60 · DSpace/xoai · GitHub ] - <a href="https://github.com/DSpace/xoai/issues/60">https://github.com/DSpace/xoai/issues/60</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; Since it sounds like there are unreleased (inherited) fixes to 4.x</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, we seem to be two at the moment.  hpottinger dropped off and others are very quiet.</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; Another option here is to find developers who want to help us manage XOAI, and add them as committers / maintainers of that specific project.</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt;  Though, we'd have to be sure there was enough "balance" (so that XOAI didn't get too specific to the needs of one institution/individual)</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;mhwood&gt; Yes, we should invite others in.</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; yes, I'm noticing it's quiet here too</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; Any other Committers around today (helix84, peterdietz, terry-b)?  Or is it just mhwood and I in here :)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;mhwood&gt; I'm a bit hesitant to just pull stuff and do a release on XOAI since I know next to nothing about it.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;mhwood&gt; But I guess I should put it on my list of stuff-to-learn.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like the biggest gap is helping us move DSpace to XOAI v4.  Once we are using the latest version, XOAI bugs become our bugs, and we'd find ways to release them.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-green">* hpottinger (~hpottinge@162.104.218.179) has joined #duraspace</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; But, I fully realize that's a potentially "large" refactor (though not actually sure what it'd take, TBH).</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-green">* th5 (~th5@unaffiliated/th5) has joined #duraspace</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; We do have a ticket for it, which is currently assigned to Joao Melo, but he's been out of touch as of late:  DS-2595</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2595">https://jira.duraspace.org/browse/DS-2595</a> ] - [DS-2595] Upgrade DSpace to use XOAI 4.x - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;mhwood&gt; Hi, hpottinger, we were just talking about getting out a release of XOAI v4 (and bringing DSpace up to current on it).</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; We probably should move that back to "needs volunteer", and see if we can find someone else to "claim it"</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;mhwood&gt; Yes, needs volunteer.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;terry-b&gt; I just got into work.  I'm here</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, network troubles</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;hpottinger&gt; so... XOAI</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, we've had a request for a PR out for 15 months.  Time for a new volunteer.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;hpottinger&gt; so... technically we can't bump to v4 until 7.0, right?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; Set to "needs volunteer" and added a comment that we are looking for help and/or maintainers: DS-2595</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;mhwood&gt; 7.0 begins now.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2595">https://jira.duraspace.org/browse/DS-2595</a> ] - [DS-2595] Upgrade DSpace to use XOAI 4.x - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: correct, but 7.0 development is now, as mhwood notes.  The only way to bump to v4 is to start working on it now (as I think it's going to require some refactoring of our "oai" webapp)</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;luizsan&gt; I would like to volunter myself to the <a href="https://jira.duraspace.org/browse/DS-2595">https://jira.duraspace.org/browse/DS-2595</a> , but I'm not sure if I know the DSpace code enough to do it.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2595] Upgrade DSpace to use XOAI 4.x - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2595">https://jira.duraspace.org/browse/DS-2595</a></span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2595">https://jira.duraspace.org/browse/DS-2595</a> ] - [DS-2595] Upgrade DSpace to use XOAI 4.x - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;hpottinger&gt; OK, just wanted to be clear that we're talking about a change that'll be released in about a year</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; And, I don't think that refactoring would be wasted work, as OAI will always be Java-based (even though the new 7 UI will be Angular2)</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;hpottinger&gt; luizsan: great! you have time to pick it up :-)</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;mhwood&gt; We are all here to help when something is unclear.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; luizsan: If you are willing to "give it a try", it'd be much appreciated.  There's plenty of opportunity to ask for help/support from those of us who do know DSpace well</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; The changes needed to DSpace should really be refactoring the code under the "dspace-oai" submodule/subdirectory in the latest source code: <a href="https://github.com/DSpace/DSpace/">https://github.com/DSpace/DSpace/</a></span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;kompewter&gt; [ GitHub - DSpace/DSpace: (Official) The DSpace digital asset management system that powers your Institutional Repository ] - <a href="https://github.com/DSpace/DSpace/">https://github.com/DSpace/DSpace/</a></span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;luizsan&gt; Ok, guys so let me try, I will start it next week, ok?</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mhwood&gt; Thank you!</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; sounds great. Thanks, luizsan!</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; We still need to do something about accumulated maintenance in the 4.0 line, and ongoing maintenance.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;hpottinger&gt; so... about this orphan project we adopted?</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, as I said, I think we need a "project owner"...someone willing to help steward XOAI along.  I think that problem becomes *easier* once DSpace is using XOAI v4 (as XOAI bugs become DSpace bugs)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;mhwood&gt; As tdonohue says, XOAI needs a product owner:  someone who keeps things moving forward.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; In the meantime though, at the very least it might be nice if we could find someone to "cut" a 4.1.1 release (XOAI is at 4.1.1-SNAPSHOT on master, and seems to have ~20ish commits since 4.1.0)</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; Most of those 20ish commits though look to be README/Javadocs. Very little code fixes, but there are a few key ones in there</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://github.com/DSpace/xoai/commits/master">https://github.com/DSpace/xoai/commits/master</a></span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;kompewter&gt; [ Commits · DSpace/xoai · GitHub ] - <a href="https://github.com/DSpace/xoai/commits/master">https://github.com/DSpace/xoai/commits/master</a></span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mhwood&gt; OK, I'll put that on my todo list:  release existing XOAI snapshot.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood. I think that solves the most pressing issue (for now) of no releases in some time.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; Hopefully then we can all support luizsan in getting us up-to-date to v4, and we'll be in a much better "state" to help steward this work forward</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; Any other gaps here?  Or other thoughts folks wish to put out there?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; We still need to deal with ongoing maintenance, but maybe it's time to just feel our way forward until we gain more experience with the guts of the product.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; if we can't find a project owner for it, do we really get to call ourselves the stewards of it?</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-brick">* hpottinger ducks and hides under a table.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: we became stewards because it wasn't being stewarded in the first place.  But so far, we've been just as bad stewards for v4 (master). But, we HAVE stewarded/maintained the v3 branch (which DSpace uses)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mhwood&gt; Yes, but we've been lousy stewards so far.  Giving it some time should mean that we get somewhat better.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;hpottinger&gt; sorry for throwing a brick :-) If I knew anything about it I'd volunteer.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;mhwood&gt; By "time" I meant "attention".</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; To be fair, we're lousy stewards of v4 (as we don't use it). But, we have stewarded v3 (which we do use), and released it last year with bug fixes.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;mhwood&gt; True.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; That's exactly why I think the key problem here is that we need to start using v4, as it'll force us to steward the latest version ;)</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-brick">* helix84 wakes up and starts reading the log</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;mhwood&gt; I agree that, when DSpace is caught up to v4, that should help maintain some of our attention on it.</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;mhwood&gt; So do we have a plan, for now?</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; So, anything else to add here regarding XOAI?  It sounds like we have two "next steps":  (1) mhwood will cut a 4.1.1 (to appease the fact that we haven't cut a 4.x release), (2) luizsan volunteered to start updating DSpace to use v4 (and we should all help/support that work)</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;luizsan&gt; It seems a good plan to me :-)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;mhwood&gt; That is probably as much as we should take on right now.  But we will need to revisit soon, to work out the way forward after we've caught up.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds like a great plan to me too.  luizsan, thanks again for volunteering, and please don't hesitate to ask others for help/support when you need it!  (And everyone else, please be responsive to luizsan when asked for help!)</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; So, moving along to other topics...</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;mhwood&gt; Good questions usually help me to learn more about code that I don't know well....</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;hpottinger&gt; will do... luizsan #dspace is the best place to go for immediate help</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;hpottinger&gt; we can sometimes be sleepy, though, so ping us by name</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;mhwood&gt; If nobody answers, it's probably because nobody in the channel then knows.  dspace-devel is another good resource.</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; A brief update on DSpace 7 / Angular2 UI work:  A small group of us (bollini, artlowel, lieven &amp; I) met today to talk about how best to "organize" this work.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; bollini will be leading the REST API work.  artlowel will lead the Angular2 UI work (and overall project organization).  I'll be consulting with both teams (until I have more time to devote starting in 2017)</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;hpottinger&gt; I had a question about process, which I sent to Art, but if you don't mind I'll ask it here, too?</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mhwood&gt; I've asked and been told that I can commit 20-25% to DSpace (including New UI) for 6 months.  After that it's time to ask again.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; The general idea right now will be to likely organize into two teams that will meet regularly...anyone can attend either meeting (and doodle polls will start shortly for the first meetings).  The team leaders will be working/communicating together regularly to ensure info is shared between teams</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; but we feel this will allow each "effort" (REST vs Angular2 UI) to get concentration on their needs separately (in these team meetings).</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;terry-b&gt; I am committed to working on the REST side as well.</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-green">* wild_oscar (~malmeida@webservices.itclinical.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; The small team (bollini, artlowel, lieven &amp; I) will be drafting up work tasks for the teams / doing further organizing over the next week(ish).  The goal is to ensure we have stuff for these teams to "start discussing" at their first meetings</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mhwood&gt; Good, that will be helpful.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; The first REST team &amp; Angular2 team meetings will likely be mid-November (week of Nov 14, hopefully).  But, we want to be sure we have tasks/questions laid out for these teams prior to that</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; (And a Doodle poll will be going out to Committers &amp; others who've expressed immediate interest about the exact time/date.  These meetings will be public too)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; my question: can we have someone take up the role of "customer" if we're really going for "agile"?</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;wild_oscar&gt; howdi. I'm Miguel. I spoke with pbecker last week, regarding XOAI and its release. let me know when you reach that topic on the agenda</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;terry-b&gt; I plan to read up on Spring/REST for the effort.  I am curious if there are any recommended resources to review</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: we talked about that.  We don't think that's a role that a *single person* can achieve (as we all have different aspects of an ideal "costomer").  But, we hope to rope in DCAT as the "customer" and give regular updates during their meetings</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; understood, I just think it would be great to have a DCAT member or two on each team, to help "keep our eyes on the cards"</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; We also feel that each of us know what our institutions are looking for / wanting, so some aspects of the "customer" role will be in the team itself (especially also since we have very active RSPs in each group)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger:  agreed.  I feel that any story which begins "As a developer" is not a proper story and should not be allowed.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;wild_oscar&gt; ah, damn! I looked at UTC at the time we discussed and it was 1  hour less than mine. apparently I'm now at UTC since last sunday...which means I'm late :/</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;wild_oscar&gt; Did you discuss XOAI already?</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger:  yes, that would be nice too. How DCAT members get involved will be up to them (and we need to talk more with them about it).  Ideally we would get a few in meetings too</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; wild_oscar: yes, sorry, we talked XOAI already (at the top of the hour). logs at <a href="http://irclogs.duraspace.org/index.php?date=2016-11-02">http://irclogs.duraspace.org/index.php?date=2016-11-02</a></span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;kompewter&gt; [ IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot ] - <a href="http://irclogs.duraspace.org/index.php?date=2016-11-02">http://irclogs.duraspace.org/index.php?date=2016-11-02</a></span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;hpottinger&gt; I don't want to be too pedantic about it, I've never really "done agile" an any meaningful way, but I do know the customer role is designed to counterballance what mhwood just alluded to.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-brick">* tdonohue is going to need to run to a DSpace Steering Group meeting in a few minutes (~5mins)...just an FYI</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;terry-b&gt; "As a developer" could be valid for a REST story</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I agree with that role. My point here is that I worry that these meetings will start out very much "in the weeds" (technology wise).  I worry the DCAT folks would be better spent on helping in UX design (which we also hope to find their help for)</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; IDEALLY though, once we get "out of the weeds", regular atttendance in meetings by DCAT members would be very helpful</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;hpottinger&gt; DCAT folks aren't afraid of weeds :-)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mhwood&gt; OK, so we need to get something out there for users to criticize.  We already know in general that the New UI should look and feel like DSpace in some way.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; Again, these meetings are PUBLIC :)  Anyone is free to attend.  We're agreeing here that DCAT attendance would be highly recommended.  We want to *at a minimum* present progress at DCAT meetings (for group feedback and keeping us honest)</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;wild_oscar&gt; apologies for the mix up in time. I'm reading the logs. tdonohue, mhwood: I'm mmalmeida on github. nudge me at the end of the meeting so I don't disturb. tl;dr version: I've been committing to XOAI, partially know it, was committer in lyncode repo and code reviewed with joao and am confident in reviewing and merging most open tickets there</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; If we have a DCAT meember want to be a regular attendee, awesome.  If not, we'll have to make due with getting feedback at DCAT meetings</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; I apologize, but I have to run to another meeting (DSpace Steering Group).  I'll have to catch up in the logs later on</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; (ugh, back to back to back meetings today)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;mhwood&gt; Will we be putting something up on demo, as soon as we have something that runs?  With warnings that it is rickety and incomplete, of course.  But having a working-ish sample of what we are doing would be useful.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;mhwood&gt; Thanks tdonohue.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;mhwood&gt; wild_oscar:  it is good to know that.  I'm sure that there will be questions.</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;mhwood&gt; So, is there more to discuss now?  We are at the end of the formal meeting time, but I can stay for a while.</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;terry-b&gt; mhwood, do you have any recommended resources to review in prep for the REST work?</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;wild_oscar&gt; mhwood: reading your suggestion for a 4.1.1 release. my team has a fix ready for one of the open tickets, so do talk with me before you perform the release so we can squeeze that fix too</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;mhwood&gt; Who, *me*?  I need to study a bit myself.  (And get one of the Angular2 books that are, at last, nearing release.)</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;wild_oscar&gt; oh, sorry, it was tdonohue</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;mhwood&gt; wild_oscar:  I will do that.  Thank you for mentioning it.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;wild_oscar&gt;  &lt;tdonohue&gt;  In the meantime though, at the very least it might be nice if we could  find someone to "cut" a 4.1.1 release (XOAI is at 4.1.1-SNAPSHOT on  master, and seems to have ~20ish commits since 4.1.0)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, "who, me" was for terry-b.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mhwood&gt; I have volunteered to release 4.1.1.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;hpottinger&gt; I will admit to going into "find us a volunteer for the customer role" mode</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;terry-b&gt; mhwood, based on a quick search, I might check this out: <a href="https://spring.io/guides/gs/rest-service/">https://spring.io/guides/gs/rest-service/</a></span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Getting Started · Building a RESTful Web Service ] - <a href="https://spring.io/guides/gs/rest-service/">https://spring.io/guides/gs/rest-service/</a></span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;mhwood&gt; terry-b:  thanks, that should be helpful.</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;wild_oscar&gt; mhwood: ok. Reference me on github or drop me a line on irc. I'm on irc on weekdays (#hibernate and #struts at the very least)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mhwood&gt; Thank you.</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mhwood&gt; Is there any more discussion, on any topic?  Or should we close the meeting?</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;mhwood&gt; Seeing no answer, I'll declare the formal meeting closed.</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mhwood&gt; I'm usually in this channel and #dspace 0800-1700 GMT-5 M-F.</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mhwood&gt; But right now I'm going to step away for a few minutes.</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-navy">* hpottinger (~hpottinge@162.104.218.179) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-green">* luizsan__ (~luizsan@199.79.165.2) has joined #duraspace</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-navy">* luizsan (~luizsan@209.120.171.227) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-navy">* dyelar (~dyelar@120.121.124.24.cm.sunflower.com) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-green">* dyelar (~dyelar@120.121.124.24.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[18:06]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:16]</span> <span class="irc-navy">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-green">* wild_oscar (~malmeida@webservices.itclinical.com) has left #duraspace</span><br />
+<span class="irc-date">[19:20]</span> <span class="irc-green">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-navy">* th5 (~th5@unaffiliated/th5) Quit ()</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has left #duraspace</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-navy">* luizsan__ (~luizsan@199.79.165.2) Quit (Quit: Leaving...)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

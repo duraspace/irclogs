@@ -1,0 +1,197 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2017-10-11
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:48]</span> <span class="irc-brown">-orwell.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-orwell.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-orwell.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-brown">-orwell.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:48]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[7:06]</span> <span class="irc-navy">* kompewter (~kompewter@50.17.201.82) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[7:06]</span> <span class="irc-navy">* DSpaceSlackBot (~DSpaceSla@ec2-50-17-201-82.compute-1.amazonaws.com) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[7:20]</span> <span class="irc-green">* DSpaceSlackBot (~DSpaceSla@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:32]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:22]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[18:54]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:56]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[18:59]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; &lt;here&gt;: Reminder that our weekly DSpace DevMtg starts at the top of the hour here . Agenda at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-10-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-10-11</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Hi all, welcome!  It's DevMtg time. As this is a late meeting (20UTC), I'd like to do a quick roll call of who is &lt;here&gt;.  (Been finding lately that these late meetings are more sparsely attended)</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Im here</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Hi</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, that's a small quorum then. We are 3 ;)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Quick usual reminders... DSpace 7 WG meeting is tomorrow at 15UTC (11am EDT).  We also have a new DSpace Entities Working Group starting on Fri at 15UTC (11am EDT) to discuss future data model changes</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The first two topics on the agenda are really intertwined.  In the DSpace 7 WG discussions last week, the Angular team decided to adopt Coveralls to track unit test coverage: <a href="https://coveralls.io/github/DSpace/dspace-angular">https://coveralls.io/github/DSpace/dspace-angular</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The questions came up as to whether we should be doing similar automated code checks/management on `master` (for DSpace 7 REST API, etc)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And over the last week, there's been three ideas floated and/or begun... all listed under #2 in the agenda.  I'd like feedback on these and whether the few of you here have thoughts/comments/objections, etc</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; It would be interesting to see the report.  Would it recognize the existence our our current test</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @terrywbrady: we have that report ;)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes we should.  But early results will be somewhat embarassing, I think.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Before we get to that report though, let me touch on 2.a.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Adding ErrorProne checks to `master`: <a href="https://github.com/DSpace/DSpace/pull/1861">https://github.com/DSpace/DSpace/pull/1861</a></span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This is a basic, build analysis tool (from Google) that checks Java code for common bugs/mistakes *at compile time*</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I've create a PR for `master` (see above) to enable it...and fixed all the bugs it reports on `master` (there are not too many overall)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; It seems to check for things that e.g. NetBeans doesn't.  What little I've seen, seems sensible.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; It doesn't check for a *lot* of things...but it caches some obvious bugs / bad code.  So, I'd like to enable it by default...as it might catch obvious issues in future PRs, etc</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; It seems more aggressive toward situations where a reviewer might ask, "are you sure this is right?"</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; It seems worthwhile to enable.  If it introduces a problem, we could disable it it the future.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'll also note that @hpottinger (who isn't here today) asked about possibly also enabling this for `dspace-6_x`.  So, we might think about whether we'd want that too...but it'd likely be a separate PR (as ErrorProne might find more issues in XMLUI and/or JSPUI)</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, glad to hear you both approve. If one (or both) of you would approve the PR, we can get this merged ASAP then</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; It's +2 now.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Next in that list of code tools is *enabling code coverage checks on `master`*</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @tom_desair has done some great work on this over the last few days, and he came up with two options</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; merged</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 1) Enabling Coveralls on `master` (similar to dspace-angular) via this PR: <a href="https://github.com/DSpace/DSpace/pull/1865">https://github.com/DSpace/DSpace/pull/1865</a>  (Here's a report of current master coverage from Coveralls: <a href="https://github.com/DSpace/DSpace/commit/8e65cdad6d33a22125940e8129d13e6df858456c)">https://github.com/DSpace/DSpace/commit/8e65cdad6d33a22125940e8129d13e6df858456c)</a></span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 2) Enabling SonarCloud on `master`... here's a similar report from SonarCloud: <a href="https://sonarcloud.io/dashboard?id=org.dspace%3Adspace-parent">https://sonarcloud.io/dashboard?id=org.dspace%3Adspace-parent</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Both show our coverage is really tiny (~18%)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Whoops. Correct Coveralls link is : <a href="https://coveralls.io/builds/13658718">https://coveralls.io/builds/13658718</a></span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; thanks for the edit... i was confused</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The reports are similar...and the percentage calculated from each tool is roughly the same (~18%).  SonarCloud provides a lot of extra detail about possible bugs ("code smells"), possible vulnerabilities, etc</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; While the info from SonarCloud is nice...I've found it to be a *lot* of false positives...and we'd likely need to highly tailor it to get better results</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Coveralls, on the other hand is really just a report of code coverage, but it integrates tightly with Travis CI (allowing you to check all PRs for whether it improves code coverage or not, etc)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Keep it simple, I say.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, the question here is twofold.  (1) Would we like to see these sorts of reports automated for `master`? (Even if the numbers are a bit embarrassing right now)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; (2) Do we have a preference for one of these tools?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Dunno about *like* but we probably *should*.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I like what SonarCloud seems to promise... but I say that without knowing how noisy the false positives are.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Would the Fedora (or other projects) folks have experience with either?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Maybe go with Coveralls for now, and take some time to play with Sonar.  We can switch later if it's better.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Fedora does use SonarCube (which is the software behind SonarCloud): <a href="http://sonar.fcrepo.org/">http://sonar.fcrepo.org/</a>   But, they seem to have tightly tailored it to mostly do coverage reports</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; SonarQube...that is</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Did @tom_desair have a preference?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Coveralls is more simplistic, but I do really like how it integrates with Travis.. *plus* it works for more than just Java.  For example, we are using Coveralls also for `dspace-angular` (Angular UI).  So, we could use the same thing for both areas of codebase</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; That seems like a good rationale for Coveralls</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Rails folk seem to like Coveralls too.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @tom_desair said he had previous experience with SonarQube and liked it...but admitted it requires tailoring to get good results.  (And I admit I'm worried about how much tailoring / time we'd have to spend to decrease on the false positives...a quick review shows a lot of false positives)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, my personal gut feeling is to start with Coveralls</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; :+1:</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Aye, Coveralls.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Sounds good then.  I'll help @tom_desair move that forward and we'll see how this goes. :slightly_smiling_face:</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; If someone wants to work on tailoring Sonar in the background, we could reconsider it for DSpace 8.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I will also admit, on the `dspace-angular` side we've configured Coveralls to throw an *error* (in the PR) if the PR decreases the code coverage by more than 1% (as it forces us to watch that closely and encourage code tests).  I'd be tempted to do the same for `master` in the nearish future (with the understanding we can always override it for specific PRs, and/or turn it off if it gets annoying)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'll be running that by the DSpace 7 team though too, so we'll see how they respond</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Last in this list of "code mgmt tools" (2.c.)... *Checkstyle*   While this is less about verifying good code, there is a `maven-checkstyle-plugin` (which Fedora and others use) which can validate the formatting of our Java code (e.g. where brackets sit, no spaces at ends of lines, etc)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I've been toying with the idea of possibly also looking at this for `master`.  But, So far, I've not built out anything...just looked at Fedora's Checkstyle settings, and analyzed the Pros/Cons here</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; It would be nice to have a common style again.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The cool thing about Checkstyle is that you can configure it via a `checkstyle.xml` config file.  Many major IDEs let you import that same config file (using a checkstyle plugin) to configure your IDE to use that style</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I find it frustrating to think I have finished a PR and then have feedback on style... if the checks can be automated it will be easier to comply</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; *If* we went with Checkstyle, we could then tell everyone to upload the checkstyle.xml config file into their IDE (Or give directions on pre-configuring their IDE) and then the IDE *should* prompt you to follow that style</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; We can likely write an XSL-T to format checkstyle.xml for humans, so we know what we are trying to do and commit fewer offenses to begin with.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Lets do it... I presume that there would be a coordinated mega PR to bring style into conformance.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @mwood: yes, either that, or have a better guide.  Fedora documents this more clearly here: <a href="https://wiki.duraspace.org/display/FF/Code+Style+Guide">https://wiki.duraspace.org/display/FF/Code+Style+Guide</a>  And then they turn those instructions into code via their Checkstyle config</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; IIRC our style document was a configuration file for Eclipse.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; A lot of newcomers are likely unaware of it.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @terrywbrady: yes, that's why I'm floating this idea first.  It would require a "mega-PR" to bring all current code into "compliance".  So, we'd have to coordinate the building/merger of that mega PR</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; It also is an opportunity to review the *old* style docs (for Eclipse), review Fedora's guide (or other third-party guides) and determine what we feel is a the best style for DSpace *now* (well for DSpace 7 and future)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; It would be nice to alert folks that they might want to hold off on PR submission while the big PR is being applied.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Google also has a very detailed Java style guide (we may not want to get this detailed though): <a href="https://google.github.io/styleguide/javaguide.html">https://google.github.io/styleguide/javaguide.html</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Which branches are you thinking for style conformance?  All 3 active branches + master?</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I was actually thinking of limiting this to `master` to avoid major chaos with all open PRs.  That way it'd only affect folks working on DSpace 7 (and or porting PRs to DSpace 7)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; It also makes it easier to do it only on `master` cause then you don't need to deal with bringing JSPUI and/or XMLUI into "compliance"</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The downside is that fixes that need to be applied to `dspace-6_x` AND `master` may need separate PRs, as cherry-picking may not work right</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; That seems reasonable although it will make cherry picking more difficult as you have suggested</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Why would 6x, which is not enforcing style, care?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; 6x will be production for most folks for 2-3 years, so I presume that there will be  a lot of fixes that originate there and need to be ported to master.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I don't know if I understand that question @mwood.  6.x shouldn't care if we only apply the style changes to `master`.  But, it cherry-picking may not work between those branches</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Depends on direction, I guess.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I doubt cherry-picking will work well in either direction...as in some cases brackets may get moved around, etc...so some classes may have more or less lines, even if the code is "identical" on `master` and 6.x</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, I think we'd have to admit we'd be creating a bit more work when it comes to cherry-picking changes..but, maybe that's OK and we just start creating multiple PRs if a change needs to be on 6.x and master</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Is Checkstyle keeping up with Java 8/9 new stuff?  Will it say "huh?" if I write try-with-resources or lambdas or whatever?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I do not know if this is a good idea, but one could selectively make modules (dspace-api) within dspace-6_x conform to the new style guides.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @mwood: yes.  Checkstyle also lets you tweak which things to enforce.  You can tell it you want to require try-with-resources...or you can tell it to ignore that check (in which case it "won't care").</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I only ask that it understand.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, in saying we want to use Checkstyle we'd also have to decide what we feel we would like to enforce.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Here's the Checkstyle main codebase...it's very well maintained: <a href="https://github.com/checkstyle/checkstyle">https://github.com/checkstyle/checkstyle</a></span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And the `maven-checkstyle-plugin` simply pulls in the version of Checkstyle you ask for, and then runs the enforcement during the Maven build process</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I recommend turning it on for master and then raise the question about dspace-6_x, etc in a couple months.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; That sounds well.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, it sounds here like both of you approve of enabling Checkstyle, and approve of enabling it on `master` only?  That'd mean the next steps are to bring this to the DSpace 7 team (tomorrow), and then start a Wiki page to help us (re)define our "DSpace Style rules" (and review what we had defined previously for Eclipse)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; And re-visit the question of Checkstyle for the other branches in a couple of months.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I can take the lead on the above :point_up:, and report back on this, etc.  Obviously this won't happen immediately, but I'd like to get the process started, so that we can start to document it, determine when would be a good time to add this into `master` (and warn everyone), etc.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And I like @terrywbrady's idea to start on `master` and then look towards other branches in the future.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Maybe start out by not failing the build if Checkstyle is unhappy, until we have time to clean things up.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @mwood: yes, possibly. Though I worry that kicks the problem down the road (with regards to cleaning things up).  We already see PRs to DSpace 7 REST API with different ideas of formatting/style</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, for DSpace 7 development purposes, it might be good to have this in sooner rather than later.  But, that said, I don't want to rush it in.  Just want to get the discussion started so we can plan it out</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; In any case, I'm glad you both agree here.  I wasn't sure if everyone would like this idea, but I feel this is a good time to possibly make this step (with DSpace 7 work)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I worry that it will be a huge job just to get master aligned with the rules.  Maybe we should enable failure on one project at a time?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Start with spring-rest.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; That could work, yes, to do it project by project.  "compliance" though really depends on what the rules defined are (so that's the first step here)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yes, first we need a style we all hate equally.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I think some of the most problematic code in terms of style was in XMLUI...and as that is gone, I'm hopeful that the API itself isn't too horribly bad. But, yes, this would require touching a lot of files...so breaking it up per project may be best</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, realizing we are nearly out of time. This has been a good discussion here, and glad to see we all like the movement towards these automated checks/tools.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Do any tools exist that can "prove" that style changes made to code have no meaningful impact on the generated byte code?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I'm hoping that something will help us straighten out tabs vs. spaces vs. mixed tabs-and-spaces. :-P</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; One other thing I want to quickly mention is @tom_desair's work on a REST API Test Framework here: <a href="https://github.com/DSpace/DSpace/pull/1866">https://github.com/DSpace/DSpace/pull/1866</a>   (I mention it cause it could use feedback from others, not just DSpace 7 developers)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I think we are going to wish for that on 6x !</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @terrywbrady: pretty sure that is proven, but I have no tools to point at here. I do know it is very common to enforce Java code style rules in Java projects. We just have never done so...but now that our Java code is decreased slightly (with no more JSPUI/XMLUI on master), it seems an opportunity to do so</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I want to make a pitch for someone to work through this tutorial: <a href="https://github.com/terrywbrady/restReportTutorial/blob/master/README.md">https://github.com/terrywbrady/restReportTutorial/blob/master/README.md</a> .  I think it will be a fun exercise AND it is an opportunity to knock out 3 simple PR's at one time.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Keep asking!  I want to learn to use those tools....</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'm not sure I'll have time myself this wek, @terrywbrady ... but that tutorial does look excellent. Maybe something to ping folks on in dev or dspace-devel to see if we can get some reviewers/testers to offer feedback?</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; If anyone has time to review PR#1866 (REST API Test Framework) :point_up: that could also use eyes/comments/thoughts</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I will make another pitch.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I *know* that we have some dirty metadata....</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; If this tutorial approach looks useful, I think we could build other similar modules such as "How to create a custom facet" or "How to customize and item page".</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I think those would be popular.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I agree, they likely would be very popular.  We also may want to consider how to promote them better (make them findable)...whether we link from official docs, fork over in `DSpace-Labs` repo, or a bit of both?</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I considered DSpace-Labs for the repo.  If folks find this useful, I can port the repo there.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, @terrywbrady if you have time / inclination, I like this direction. We'll just have to think about promoting it so that folks can easily find your work</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The one advantage of DSpace-Labs is that we can easily promote others to work on a "module" to enhance it, etc.  We can give commit rights per project ;)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Thank you for making that tutorial available!</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; As we are now "over time" here, I'm not going to bring up other topics.  Unfortunately, I also have to depart shortly, but feel free to hang around as much as you wish</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I have to run, as well.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* mhwood (~mhwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Thanks all!</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-navy">* tdonohue (~tdonohue@dspace/tdonohue) Quit (Read error: Connection reset by peer)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

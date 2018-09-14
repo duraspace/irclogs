@@ -1,0 +1,329 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2014-02-19
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:30]</span> <span class="irc-brown">-hubbard.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-hubbard.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-hubbard.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-hubbard.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-navy">* helix84 (~ctenar@195.178.95.132) Quit (Read error: Operation timed out)</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[19:12]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:34]</span> <span class="irc-green">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-navy">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for our weekly DSpace Developers Meeting: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-19</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-02-19 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-19</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;hpottinger&gt; roll call?</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; yes, looks like we might want to do so, hpottinger.  Wondering if it's just the two of us, or if anyone else is attending today</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-brick">* hpottinger high fives tdonohue!</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; If it is just the two of us, we could continue reviewing JIRA tickets (esp those marked for 4.1)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* PeterDietz (~peterdiet@dhcp-164-107-232-121.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;hpottinger&gt; sounds like a plan, if only you were in Missouri I'd suggest adjourning to a pub</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, there's PeterDietz...maybe we have 3 now :)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietz: good webinar, congrats!</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;PeterDietz&gt; hi</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; I also heard the webinar was good (though I missed out in attending). Great job, PeterDietz!</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, to bring you in the loop, it looks like attendance is low today... as far as we know, it's just the 3 of us here so far.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-brick">* hpottinger considers throwing things at the lurkers.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, I was thinking we could minimally just do some JIRA ticket reviews, and perhaps touch base (as much as we can) on 4.1</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; wait, there are 3 of us, quorum!</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; First and foremost though (for anyone listening or reading logs)...  DuraSpace did apply for Google Summer of Code this year.  The accepted applicants are supposed to be posted on Monday.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;hpottinger&gt; been spreading the word to students I think might be interested</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; Also, I wanted to let everyone know that I'm going to be *out* next week.  So, I'll miss the DSpace Dev meeting next Weds (Feb 26)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; I'll still be on email off &amp; on...but won't be around in IRC next week</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; thanks for spreading the word, hpottinger.  I'm hopeful we'll get accepted into GSoC this year!</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, we'll need someone to lead the DSpace Dev Mtg next week (Feb 26).  I suspect the main topic is really just 4.1...getting it finalized and out the door in the next few weeks.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-green">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; hey, look, committers!</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; wow, and everyone pops in at once.  Hello aschweer, kshepherd2 and mhwood.  You just doubled our current attendance :)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mhwood&gt; Heh, I just got back from a meeting in another city.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;aschweer&gt; hi folks, sorry, coffee had higher priority than being on time :)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; I was just going through Discussion Topic #1 in the agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-19</a></span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-02-19 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-19">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-19</a></span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; The main point there was that I'm going to be out next week (Mon-Thurs) and off IRC.  So, looking for a volunteer (or two) to lead next week's meeting.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm moving, I value coffee more than timeliness too</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; Otherwise, you all can "self-organize" next week, which is also OK.  I suspect the main topic next week will be 4.1 Release (getting it out the door), which is also our next topic today.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; I'm in the process of confirming DS-1795 with Vagrant-DSpace</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1795">https://jira.duraspace.org/browse/DS-1795</a> ] - [DS-1795] When run command dspace &amp;quot;dspace stat-initial&amp;quot; - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding 4.1, it looks like we are closing in on a release.  We still have 9 open tickets: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%224.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%224.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%224.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%224.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; There's a few tickets in those 9 that could likely be rescheduled for a 4.2.  There's also a few though (like 1795) that probably need fixing</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; and there's also a few marked "code review needed" which just need a quick test &amp; merge</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; Is it worth our time digging into these remaining tickets (now as a larger group of committers) and trying to get a quick resolution/decision?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; Maybe at least 1795 and 1781</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; ok, DS-1795 first</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1795">https://jira.duraspace.org/browse/DS-1795</a> ] - [DS-1795] When run command dspace &amp;quot;dspace stat-initial&amp;quot; - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; look at the latest comment on 1795... kshepherd noted our issue here (in the last hour's discussion in #dspace)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; we have some queries that broke as they are not limiting metadata fields by "schema"...and we now have some duplicate fields in "dc" and "dcterms" schemas</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; Interesting.  We'll want to remember where those are, as the metadata evolution takes place.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; Because we likely will be revisiting each and every one of them.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; Clearly, for now, we need to add "AND metadata_schema_id = 'dc'".</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; yep, very true.  It seems like we need to fix these queries to specify schema='dc'.  It shouldn't be a difficult fix, just needs someone to build a PR &amp; test it out</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; oh, Vagrant is taking its sweet time, but, I agree with kshepherd's analysis, the SQL looks like it wouldn't work as-is</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Fixing: easy.  Testing:  not so sure.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: would you be able to add a comment to 1795 outlining what needs to change, and I'll label the ticket as "low hanging fruit"</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; Simply adding another restriction on the result set *shouldn't* break anything.  Easy enough to test whether it fixes this problem.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; Does anyone have time (this week or next) to tackle this one? (unfortunately I've got a lot on my plate this week and am out most of next week)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; I can spend a little time on it, if no one is hankerin' to take it on.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I already added a comment to 1795 which links to the offending queries</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;hpottinger&gt; I'm going to make an effort to label "easy" tickets as "low_hanging_fruit" so we have a way to find the "easy stuff" if anyone is at a loss for something to do. :-)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; Other than "stat-initial works now" would anyone care to suggest how this should be tested?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; FWIW, I can reproduce this 1795 error on an empty fresh_install of master</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;hpottinger&gt; say if you had a new developer and you needed to give them a crash course in dspace, point them at the "low_hanging_fruit" list</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger:  sounds good, thanks.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: stat-initial doesn't work now...at least on "master" and I suspect also on the "dspace-4.x" branch.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; OK, nobody else wants it.  I'll take a look at it, back to wherever dcterms.type was merged.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;aschweer&gt; do the dcterms fields have any values at this point? dri2xhtml-alt/Mirage don't always specify the schema, so item lists / pages might show duplicate values once the dcterms fields are populated</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-navy">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) Quit (Ping timeout: 252 seconds)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; I believe 1795 will only be reproducible from a *fresh_install* of 4.0.  You won't see it happen in an upgrade...cause those registry files only get called on a "fresh_install"</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; I always start with a fresh install when working a bug.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer: no, dcterms have no values yet.  All that changed in 4.0 is that the new registry file was added to DSpace.  'dcterms' isn't fully integrated yet</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;aschweer&gt; ok good, I thought that's where things were at but wasn't sure :) I guess this is a problem for later then</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; Likely the XSL would be depending on Java code somewhere to add the right stuff to the DRI.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer: but that is good to note.  It's *highly possible* these queries are not the only ones that fail to specify a schema..... they are just the first we've found thus far</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; oh, yes... we might want to cast a big net and see what we find</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-brick">* mhwood wonders what the RE will look like.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; So, thanks to mhwood for volunteering to investigate 1795...hopefully there's not gotchas in there...it seems like it should be straightforward</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; The other 4.1 ticket mentioned to review is DS-1781</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1781">https://jira.duraspace.org/browse/DS-1781</a> ] - [DS-1781] LDAP never uses the specified email_field - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; Actually that might wait unless someone is well along with it now.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; 1781 looks like it still needs more analysis...and a volunteer to do that analysis</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: github has a fancy search engine, I just dumped the entire sql sequence into the search box on github for dspace/dspace</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; it seems reasonable to reschedule 1781 for 4.2 though.  Still might be nice to track down a volunteer who knows the LDAP stuff well enough to investigate a solution as well :)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; let's see if this URL pastes OK: <a href="https://github.com/DSpace/DSpace/search?q=SELECT+metadata_field_id+FROM+metadatafieldregistry+WHERE+element+%3D+%27type%27+AND+qualifier+IS+NULL&amp;ref=cmdform">https://github.com/DSpace/DSpace/search?q=SELECT+metadata_field_id+FROM+metadatafieldregistry+WHERE+element+%3D+%27type%27+AND+qualifier+IS+NULL&amp;ref=cmdform</a></span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;kompewter&gt; [ Search Results · GitHub ] - <a href="https://github.com/DSpace/DSpace/search?q=SELECT+metadata_field_id+FROM+metadatafieldregistry+WHERE+element+%3D+%27type%27+AND+qualifier+IS+NULL&amp;ref=cmdform">https://github.com/DSpace/DSpace/search?q=SELECT+metadata_field_id+FROM+metadatafieldregistry+WHERE+element+%3D+%27type%27+AND+qualifier+IS+NULL&amp;ref=cmdform</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; hello. catching up.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; speaking of people who use ldap :-)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; That's a lower bound on what we have to look for, but there could be other ways of expressing it.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; Yes, that's who I would think of first.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: DS-1781?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1781">https://jira.duraspace.org/browse/DS-1781</a> ] - [DS-1781] LDAP never uses the specified email_field - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; I already tested it and talked about it. It doesn't work for me and to work correctly the module it needs larger rework.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; The problem here is I have only 2 or 3 environments where I can test it. There are others that are broken.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Probably not suitable for 4.1 then.  Defer?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like 1781 needs rescheduling then if it's a much larger issue at hand</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; Probably. Let's push it to 4.2. Honestly, I don't see an easy way to make progress on this unless we set up some tests first.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; But I don't know how to do that.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not sure either. It sounds like this needs some closer analysis in general</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; Speaking of missing schema specification - yes, there are a lot of such places around the codebase.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; Any we can think of and jot down in one place would be good to capture.  There is going to be more work in this area.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood++ let's capture this and put it on the 5.0 todo list</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; Good place!</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: as you can see these days on the list, as I made changes to the module in 3.0, it broke for some people. But I don't see how their environment is different. I can't reproduce their issue. The problem here is I make an improvement in my env and it breaks another env.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; I've got maven timing out on Vagrant-DSpace while trying to build Solr</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yep I understand.  I wish I had more LDAP knowledge myself to work from. It seems like there's tons of ways to configure LDAP</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; remember how we talked about adopting some auth framework? was it Spring's? how about that?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; I just closed DS-1899 - it was committed..one less "4.1" ticket</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1899">https://jira.duraspace.org/browse/DS-1899</a> ] - [DS-1899] Spellchecking is not enabled by default on the whole site - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; YAY!</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: auth work awaits those who are interested, are *you*?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yea, that's one option... It's a big endeavor to replace our entire auth framework, but I'd love it if we could do so.  It'd be so much easier to use a third party auth framework</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; I didn't really test 1899 (broken test env). I'm not sure that it's fixed.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; YAY**-1?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;helix84&gt; the point is we wouldn't be inventing out own wheels</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; I'm trusting 1899 as bollini committed it. I suspect he just forgot to close it.  If we find it is not fixed, we can reopen</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: interested - as in testing LDAP and Password methods - not as in developing.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Great, we have a tester.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; possible authz/n frameworks: Apache Shiro, JAAS, Spring Security</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: the problem there is that I made the connection between the problem and the fix - and I'm not sure about that it's the correct fix...</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; I'm leaning towards Shiro, and you've been added to my notes as a potential collaborator</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: no problem, I'm on many blacklists already :)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;aschweer&gt; one of my repos uses LDAP but I don't understand much about it. we override the e-mail field coming in from LDAP by specifying a netid_email_domain. Does that mean I might have a useful test env?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;hpottinger&gt; well, my notes do happen to be white text on a black background, but that's just because I'm a coder, no other meaning need to be inferred from the color scheme</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; aschweer: It's different from those I have, so yes, it's useful</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;aschweer&gt; helix84: cool, feel free to ping me when you need a tester</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; it's possible we could set up a test LDAP service with Vagrant-DSpace</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; aschweer: please add me on Skype (helix84). I see multiple "you" there :)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; and it's a good idea to do so, for testing AuthN/Z replacements</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding an Auth frameworks, it'd be nice to get a wiki page up somewhere to compare options/thoughts.   Ideally we find something that can support our current auth options.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; Since we are still early in the year, there's tons of time to try and get a new Auth framework into 5.0 -- we just need to get the ball rolling, etc.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: ideally, yes, that work will be done, in reality, we'll probably be writing some code for the new frameworks</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; But we may not have to fix or adapt it later.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: right, I understand. Still would be nice to get some sort of notes/comparision of Shiro vs. JAAS vs. Spring Security up on a wiki page...that way we can point the other Committers/Developers at it to get their feedback before we jump too far</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-green">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; it's a good idea, I can move my notes to the wiki</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; Just want to avoid jumping into using one framework only to find out later that several other Committers have used it before and found it problematic, etc</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: that'd be great!  I don't think we are looking for a broad consensus necessarily (there will always be disagreements) but we want to "do our homework" and listen to those disagreements (if any)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; I tend to favor software with established communities, and it looks like Apache is building a good one for Shiro</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger +1  (Shiro honestly sounds reasonable to me, but I don't have any experiences here to speak from with it)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, looks like we are at 1 hour here, and we've slightly gone on a tangent (but still a good one)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; so, I'm open to suggestions on where to put this new project page</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; kshepherd: where did you end up putting the streaming page?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding 4.1...we had mentioned Feb 28 (end of next week) as a possible date.  Seems like it might be doable still, just need to get these last few tickets resolved</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yea, I was gonna say put it alongside kshepherd's streaming page</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;aschweer&gt; sorry, I have to leave. bye all</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; found it: <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=45548591">https://wiki.duraspace.org/pages/viewpage.action?pageId=45548591</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Audio/Video Streaming (RTMP, HLS, DASH) Support - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/pages/viewpage.action?pageId=45548591">https://wiki.duraspace.org/pages/viewpage.action?pageId=45548591</a></span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; regarding our 4.1 tickets...it seems like (to me) the highest priority to get closed for 4.1 are: DS-1536 (nearly done), DS-1779 (kshepherd just claimed), DS-1795 (mhwood just claimed), DS-1352 (needs PR review), DS-1912 (needs PR review).  The others likely could be rescheduled for a 4.2</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1536">https://jira.duraspace.org/browse/DS-1536</a> ] - [DS-1536] having a DOT in handle prefix causes identifier.uri to be cut off when being created - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1779">https://jira.duraspace.org/browse/DS-1779</a> ] - [DS-1779] Pagination link error in JSPUI discovery search - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1795">https://jira.duraspace.org/browse/DS-1795</a> ] - [DS-1795] When run command dspace &amp;quot;dspace stat-initial&amp;quot; - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1352">https://jira.duraspace.org/browse/DS-1352</a> ] - [DS-1352] Itemimport replace issue - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1912">https://jira.duraspace.org/browse/DS-1912</a> ] - [DS-1912] Discovery facets do not always use the authority identifier - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-navy">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I've been out of the loop on 1536. Where do we stand?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; I think 1536 is "done" except for any docs around a SQL query fix?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; I'm going to take another look at 1352</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; 1536, fair question, I could say the same for helix84 :-)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: yes, but I'm not sure what was done and what is left to be done</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; re-looking at 1352 -- this looks to be a rather significant reworking of the functionality.  Is this truly a bug fix, or an "improvement" (in which case we might want to think about a 5.0 release)?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; 1352's PR: <a href="https://github.com/DSpace/DSpace/pull/473">https://github.com/DSpace/DSpace/pull/473</a></span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1352] - Itemimport replace issue by rramos · Pull Request #473 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/473">https://github.com/DSpace/DSpace/pull/473</a></span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I think you could say either. As far as I tested it I didn't encounter any problem (except that it didn't fix the problem the way I expected, but then it was explained).</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;helix84&gt; are there any commiters who know how to write test cases? because I'd like to learn it. This and the auth changes are all great examples of where tests would be great before we make changes to the code.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; I think what "worries" me about 1352 is the addition of some new methods to Collection and Item *just for* this bug fix.  At a glance it looks OK, but makes me wonder if it needs a Testathon</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; I hate to make it wait a year, but, tdonohue is correct, this needs more thorough testing, I think</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; Is it legitimate to expect item_id to persist across a replace?  Item_id feels like internals to me.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; I wonder if the proper fix for this problem is "don't do that".</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: Regarding "test cases" what do you mean?  There's JUnit unit test (plenty of tutorials out there, and our code at dspace-api/src/test/).  But, we don't have a good framework for handling all types of tests (e.g. functional tests, UI tests)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;helix84&gt; mhwood++: for a proper fix, we should use something else, like in your proposal (e.g. GUID)</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood's point is worth considering, is the problem that stats are using an ephemeral internal ID?</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; I agree with mhwood: item_id is internals.  Even AIPs do not persist item_id...they only persist handles</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; At the least, perhaps the proper thing to do is to look up the ID again.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;helix84&gt; mhwood: but then statistics and everything else will need to migrate to the new IDs</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; mhwood: not a problem, but lot of work</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; helix84:  so if we did it wrong, then the fix is to do it right.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;hpottinger&gt; punt to 5.0, I think we need more engineering here</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; mhwood: we might use this as a short-term fix</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, 5.0</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; And it is worth noting that AIPs *do allow you to replace items while also keeping relationships in tact*  (Though in that scenario it's because AIPs store those relationships as well)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; So, this use case could be solved by AIPs rather than ItemImport</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mhwood&gt; wontfix: wehaveabetterway</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; Separately, any tools that use object IDs probably should be rethought until they don't.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; Use object IDs as user arguments, that is.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; mhwood: anyway, what will happen to existing SAF packages when we introduce GUID? will they be importable?</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; I don't know yet if we outright close 1352 or not..but I can at least mention AIPs as a better way to do replacements while retaining relationships</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; Presumably objects MUST have DSpace IDs, and will have one imposed if not provided.</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; at the very least though, it sounds like 1352 should be rescheduled for 5.0...needs more thought</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; Yes, reschedule.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; ok, cool. I'll add a comment and reschedule 1352</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; So, the only other ticket with a PR needing review is DS-1912...and the PR looks small</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1912">https://jira.duraspace.org/browse/DS-1912</a> ] - [DS-1912] Discovery facets do not always use the authority identifier - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; mhwood: so existing package will get new item_id and GUID during import and for newly exported SAFs we would include the existing GUID, right?</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mhwood&gt; I don't recall what a SAF is?  DSpace ID has NO MEANING outside of a single instance of DSpace, and should not be exported or imported.  It can and should be backed up and restored.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; mhwood: that wasn't the idea here, either. it was only to keep the existing item_id when replacing an item (specified by handle) within an instance.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; 1912:  I have no idea what the code is doing here.  The fix is not obviously wrong, to me.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; mhwood: so, to rephrase, after introducing GUID, we will be adding GUID to SAF</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; mhwood: SAF is the package format exported by the "export" command</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; Ah, Simple Archive Format.</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;hpottinger&gt; 1912: it looks like it's swapping out display value for an authority key</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;hpottinger&gt; this is a small change, and it's Kevin's area of expertise, I'm inclined to trust him</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger +1  that's what I was leaning towards too, with 1912</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;mhwood&gt; I think so too.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;hpottinger&gt; that's 3 for merge, sounds like, to me</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;mhwood&gt; helix84:  we need to think about what the DSpace ID means to the instance.  Maybe it should *never* escape to an external representation.  I don't know.</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I agree. That's the whole reason for introducing GUID.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;helix84&gt; mhwood: in connection for our reluctance to be dependent on handles as the sole external identifier</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mhwood&gt; So the GUID (or whatever) has meaning only for an object *in an instance*.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;hpottinger&gt; well, hearing no screams of "wait!" I'm going to go into "push the button, Max!" mode on 1912</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;helix84&gt; mhwood: oh, then I disagree. The same GUID should mean the same thing globally.</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;hpottinger&gt; DSPR#474 merged, closed DS-1912 as fixed</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/474">https://github.com/DSpace/DSpace/pull/474</a> ] - [DS-1912] Discovery facets do not always use the authority identifier by KevinVdV</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1912">https://jira.duraspace.org/browse/DS-1912</a> ] - [DS-1912] Discovery facets do not always use the authority identifier - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;mhwood&gt; I mean, the object exists inside an instance.  The DSpace ID has meaning there.  It has no meaning in any derivative.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;mhwood&gt; I only suggested GUID because it's simple to generate and needs no coordination between instances.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I agree that item_id, bitstream_id etc have meaning only withing an instance. The way I see the effort to introduce GUID is to gain a global identifier (across instances) different from handle.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-green">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;hpottinger&gt; blundered into a prior discussion on AuthZ here: <a href="https://wiki.duraspace.org/display/DSPACE/AuthorisationSystem">https://wiki.duraspace.org/display/DSPACE/AuthorisationSystem</a></span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;kompewter&gt; [ AuthorisationSystem - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/AuthorisationSystem">https://wiki.duraspace.org/display/DSPACE/AuthorisationSystem</a></span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;mhwood&gt; helix84:  there are plenty of those already.  Take your pick.  What I was trying to do was to give us something that can never be pinned down in anyone else's records.</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;mhwood&gt; Every time we invent something with external meaning, someone tries to remember it for later and then we have problems.</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;mhwood&gt; We need something that is defined to be usable only by your single instance of DSpace, with the explicit expectation that if you store it somewhere else we can break it at any time.</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;mhwood&gt; If you export objects for backup, and restore them, you get new DSpace IDs.</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I don't understand your reasoning. Why do we need that? We already have that in DB primary keys (item_id et al). What we need is something to indentify a particular object (say, version of an item) so that we can move it around instances/backups.</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;mhwood&gt; The DB primary keys are controlled by the DBMS, *not DSpace*.</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;helix84&gt; mhwood: why do we need to control it?</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;mhwood&gt; Because otherwise it can change out from under us.</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;mhwood&gt; I wish I had kept a list, but over and over we've had problems with identifiers pinned by others.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mhwood&gt; I think my final motivation was something to do with REST.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mhwood&gt; If you want to identify a transportable object, give it a Handle or a DOI or....</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;helix84&gt; mhwood: so, in this instance of item_id used by statistics, we need something to connect the item in stats and the item in archive, but export/import changed it meanwhile. Is this why we need it?</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;mhwood&gt; I've been away from this issue for a while.  I need to reload it.  Which may mean I haven't finished thinking it through.</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;tdonohue&gt; yep, stats shouldn't be connected by item_id, as it's "fragile" connection.  If you ever restore that Item from an AIP backup, the item_id may change which would then lose your existing stats.</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;helix84&gt; mhwood: when you do, please consider GUID as an identifier for a particular version of an item. I'm curious to hear what that would break.</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dhcp-164-107-232-121.osuwireless.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mhwood&gt; Thinking about this a bit, I believe that the reason for the internal ID to be mutable was solely to make it useless for people to save a copy elsewhere.  But I need to review my notes and such.</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I don't think we would intentionally design it that way. I think it's only a consequence of the effort to prevent duplicate IDs of the same object type within an instance (IOW, primary key)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;tdonohue&gt; commented on DS-1352 and marked for 5.0</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1352">https://jira.duraspace.org/browse/DS-1352</a> ] - [DS-1352] Itemimport replace issue - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;tdonohue&gt; I just realized I never officially "closed" the meeting here.  Sorry about that.  I don't plan to call any more topics, but I'll still be hanging around for a bit</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;helix84&gt; I have to go, too. Mark, we'll talk later.</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;helix84&gt; Good night, all.</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;mhwood&gt; Agreed.</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;mhwood&gt; Must also depart in a few minutes.</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-brick">* hpottinger throws down the gauntlet</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://wiki.duraspace.org/display/DSPACE/Replace+Authentication+and+Authorization+code+in+DSpace+with+a+3rd-party+framework">https://wiki.duraspace.org/display/DSPACE/Replace+Authentication+and+Authorization+code+in+DSpace+with+a+3rd-party+framework</a></span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;kompewter&gt; [ Replace Authentication and Authorization code in DSpace with a 3rd-party framework - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Replace+Authentication+and+Authorization+code+in+DSpace+with+a+3rd-party+framework">https://wiki.duraspace.org/display/DSPACE/Replace+Authentication+and+Authorization+code+in+DSpace+with+a+3rd-party+framework</a></span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;tdonohue&gt; awesome, hpottinger</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-black">&lt;hpottinger&gt; gosh, if anyone has some spare time, this page needs work: <a href="https://wiki.duraspace.org/display/DSPACE/Development+Areas">https://wiki.duraspace.org/display/DSPACE/Development+Areas</a></span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-black">&lt;kompewter&gt; [ Development Areas - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Development+Areas">https://wiki.duraspace.org/display/DSPACE/Development+Areas</a></span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;mhwood&gt; Do we have a 5.0 status page to link all these worthy projects?</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Notes?src=search">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Notes?src=search</a></span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 5.0 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Notes?src=search">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Notes?src=search</a></span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;mhwood&gt; Great.  Bye for now.</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:22]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: is this the same Solr building problem as you're getting? <a href="https://travis-ci.org/DSpace/DSpace/builds/19217641">https://travis-ci.org/DSpace/DSpace/builds/19217641</a></span><br />
+<span class="irc-date">[22:22]</span> <span class="irc-black">&lt;kompewter&gt; [ Travis CI - Free Hosted Continuous Integration Platform for the Open Source Community ] - <a href="https://travis-ci.org/DSpace/DSpace/builds/19217641">https://travis-ci.org/DSpace/DSpace/builds/19217641</a></span><br />
+<span class="irc-date">[22:23]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[22:24]</span> <span class="irc-navy">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[22:32]</span> <span class="irc-green">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[22:58]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:19]</span> <span class="irc-navy">* kshepherd2 (~kim@wireless-nat-1.auckland.ac.nz) Quit (Ping timeout: 240 seconds)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

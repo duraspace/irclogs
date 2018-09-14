@@ -1,0 +1,493 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2014-02-12
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:54]</span> <span class="irc-brown">-cameron.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-cameron.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-cameron.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-cameron.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:25]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[8:25]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:05]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:01]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:30]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-green">* misilot (~misilot@p-body.lib.fit.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (*.net *.split)</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi All, it's time for our weekly DSpace Developers Mtg.  Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-12</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-02-12 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-02-12</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; We'll kick off today with some 4.1 updates... We still have 14 tickets marked for 4.1 but still unresolved: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%224.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%224.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%224.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+%224.1%22+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; So, it seems like we are at a decision point of whether to (A) continue to chip away at those tickets (and delay 4.1), or (B) do we finalize the 4.1 release date, and anything that isn't ready will be rescheduled for 4.2?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; Quite a few of these are "code review needed".</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; It's also worth noting there are several of those "4.1 unresolved" tickets that have "code review needed"...there's a PR...it just needs reviewing &amp; merging</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; (mhwood &amp; I just noticed the same thing)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;hpottinger&gt; can anybody spare some cycles to test some PRs?</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;mhwood&gt; For me it's often a question of whether I understand what that part of DSpace *should* do.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; I unfortunately don't have any cycles left this week...I need to quickly prep our application for GSoC due on Fri :),  and I already had/have a busy week</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; I see nothing that I could tackle. Perhaps I could look at spellchecking.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; Another option here is to do a quick "sanity check" PR review in a group...either today, or at a later time.</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; since duralogbot is keeping track for us, here are the issue numbers that have PRs that need testing: DS-1536, DS-1823, DS-1834, DS-1898, DS-1352, DS-1821, DS-1848</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;helix84&gt; actually, I could look at DS-1860</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1536">https://jira.duraspace.org/browse/DS-1536</a> ] - [DS-1536] having a DOT in handle prefix causes identifier.uri to be cut off when being created - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1823">https://jira.duraspace.org/browse/DS-1823</a> ] - [DS-1823] Move dspace.url to build.properties as an independent variable (default value in dspace.cfg can cause issues) - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1834">https://jira.duraspace.org/browse/DS-1834</a> ] - [DS-1834] Collection content source harvesting test does not check sets properly - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1898">https://jira.duraspace.org/browse/DS-1898</a> ] - [DS-1898] OAI not always closing contexts - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1352">https://jira.duraspace.org/browse/DS-1352</a> ] - [DS-1352] Itemimport replace issue - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1821">https://jira.duraspace.org/browse/DS-1821</a> ] - [DS-1821] Internationalize the bitstream access icon alt text - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1848">https://jira.duraspace.org/browse/DS-1848</a> ] - [DS-1848] OAI harvest issues when starting from control panel/command line - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1860">https://jira.duraspace.org/browse/DS-1860</a> ] - [DS-1860] Community-list doesn&amp;#39;t show all collections - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; whoops...just noticed "1823" is in that list.  That is supposed to be rescheduled for 5.0 :/   My bad.  I'll fix that.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; with 1823 out, that's 6 PRs</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; It *sounds* like 1536 has now been verified by several non-Committers. It seems trustworthy to me</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; wait, 1536 was already merged, by mhwood</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-green">* kstamatis (25067aca@gateway/web/freenode/ip.37.6.122.202) has joined #duraspace</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I see.  Close it?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; yes, it's open because the SQL (which is necessary to fix the damage) still hasn't been tested</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; There seems to be more discussion.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; don't close it yet</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; Ah, that's right.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; what is the "damage"?  It's unclear what can happen</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; invalid URI metadata</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; wait, SQL is traceable, we can validate it without running it, right?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I haven't actually seen the damaged metadata. I'm pretty sure it will work, but that's if my assumptions are correct.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; If Ivan says it works, and it looks like it would work, that's good enough for me</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; So, how do we plan to test this SQL?  I.e. what's the strategy for closing this ticket?  This ticket to me kinda stands in the way of 4.1</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;helix84&gt; we need to find someone affected by the bug</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; that's too vague though, and possibly no one has seen damage.  Three people who were affected collaborated on the fix (Jose Blanco, Alex Graca and Hilton Gibson), and it sounds like none of them need the SQL?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; Hilton said they fixed it by hand</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; anyway, you know what?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; So, what I'm saying is that, while the SQL is important, it really shouldn't "block" closing this ticket.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; the SQL will just go to the release notes and that can be edited at any time</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; helix84++</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; so let's just put it there with a warning and close it</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like a good solution, helix84</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; assigned to me</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; thanks, helix84</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; Yes, thanks!</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; oh... what is the new location for release notes?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; since it changed I couldn't figure out what it's supposed to be for minor releases</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; For 4.1 official release notes, we could always just create a new subpage named "4.1 Release Notes" under <a href="https://wiki.duraspace.org/display/DSDOC4x/Introduction">https://wiki.duraspace.org/display/DSDOC4x/Introduction</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ Introduction - DSpace 4.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC4x/Introduction">https://wiki.duraspace.org/display/DSDOC4x/Introduction</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; for now I put them at the old location: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.1+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.1+Notes</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 4.1 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.1+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.1+Notes</a></span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-green">* kshepherd (~kim@wireless-nat-1.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; In 4.0, we had two pages... Official Release notes: <a href="https://wiki.duraspace.org/display/DSDOC4x/Release+Notes">https://wiki.duraspace.org/display/DSDOC4x/Release+Notes</a>    and the "Unofficial Release Status page": <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.0+Status</a>   So, we should do something similar for 4.1</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Notes - DSpace 4.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC4x/Release+Notes">https://wiki.duraspace.org/display/DSDOC4x/Release+Notes</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 4.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.0+Status</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; OK, I've skimmed the short list of 4.1 issues with PRs (5 by my count), I think DS-1834 DSPR430 is one that my repository has noticed, I'll assign myself as a reviewer</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1834">https://jira.duraspace.org/browse/DS-1834</a> ] - [DS-1834] Collection content source harvesting test does not check sets properly - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;helix84&gt; remind me - why di dwe move the page?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; helix84:  because "Release Notes" should really be part of official docs.  What we were previously calling "Release Notes" (prior to 4.0) was really our own status page...it was notes we were keeping about the release process, but not a good summary of the actual release.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; Thank you hpottinger.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;helix84&gt; I don't like how the release notes and list of changes are now separate pages... makes it hard to see what changed.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://wiki.duraspace.org/display/DSDOC4x/Release+Notes">https://wiki.duraspace.org/display/DSDOC4x/Release+Notes</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://wiki.duraspace.org/display/DSDOC4x/Changes+in+4.x">https://wiki.duraspace.org/display/DSDOC4x/Changes+in+4.x</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Notes - DSpace 4.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC4x/Release+Notes">https://wiki.duraspace.org/display/DSDOC4x/Release+Notes</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ Changes in 4.x - DSpace 4.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC4x/Changes+in+4.x">https://wiki.duraspace.org/display/DSDOC4x/Changes+in+4.x</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; DS-1821 DSPR#451 looks like an easy one to test</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1821">https://jira.duraspace.org/browse/DS-1821</a> ] - [DS-1821] Internationalize the bitstream access icon alt text - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/451">https://github.com/DSpace/DSpace/pull/451</a> ] - DS-1821 Internationalize the bitstream access icon alt text by helix84</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; So, with 4.1, it sounds like we still lack a "release date".  Do we want to set one?  Do we still feel it's worth waiting to review &amp; possibly scheduling a time to review what's left together?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Changes *is* linked from Release Notes.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;hpottinger&gt; How Feb 28, it's a Friday?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; mhwood: that's my beef with it :)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: We keep the changes page separate so that it can be at the *END* of the documentation.  Sticking it into the beginning of the docs would mean the first 1/2 of the PDF would be links to JIRA tickets...you'd have to page forever to get to the "Installation Instructions"</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; 28th sounds better than 14th, which was discussed. :-/</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: So, there's a balance...you want to explain what is new in the release (Release Notes) without overwhelming people with info (Changes in 4.x)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: what about embeding it?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; I know it's big for a .0 release, but pretty vital for a .x release. Anyway, we don't redo the PDF for minir releases, do we?</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; I think I agree that release notes should be brief.  Ours may already be too long.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: I still disagree...while developers may be interested in the long list of JIRA tickets (Changes in 4.x), most people are not.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; We always redo the PDF for minor releases (at least when we remember to)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; let me put it this way - as a user, what I'm looking for in release notes is if it fixes a bug that's affecting me</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; What I look for is "what do I have to watch out for when upgrading?"</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: check other software release notes.  It tends to NOT include a list of every fix. It might highlight some major fixes...but they nearly always include a link saying "For a list of all fixes, please see..."</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I wouldn't want to wade through hundreds of patches looking for the "gotcha"s.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, back to the 4.1 release schedule.  I heard Feb 28 proposed</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; 3.1 = 3+14 issues; 3.2 = 1+12 issues fixed - very reasonable</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; sorry for the distraction. it's just that we changed away from something that I thought was very reasonable.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; 28th sounds reasonable.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: not sure I understand what we changed.   Technically, our Official Docs have always been structured the same...even in 3.0, we only had a "Summary" of the release at the beginning (back then we called it the "Preface"): <a href="https://wiki.duraspace.org/display/DSDOC3x/Preface">https://wiki.duraspace.org/display/DSDOC3x/Preface</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kompewter&gt; [ Preface - DSpace 3.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC3x/Preface">https://wiki.duraspace.org/display/DSDOC3x/Preface</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;PeterDietz&gt; hi all. Was in a real-life meeting</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: In a sense, all we did in 4.0 was to *rename* "Preface" to "Release Notes"</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: sounds great.  I think 28th also sounds reasonable for 4.1</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; That's three for the 28th, and two are RT members.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds like 28th is the date then, assuming no major objections from anyone else.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; 2 RT members, and an honorary RT member</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; 28th is now on my calendar.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Next steps of course would be to do some final reviews of the unresolved 4.1 tickets, and see what else we can resolve before the 28th.  I suggest we use next week's JIRA Review Hour to review 4.1 unresolved tickets</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; If anyone is able to find time to chip in on 4.1 unresolved tickets, please do so ... we can use some help. It seems like we just need a final push to get 4.1 wrapped up</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; We can do that.  Meanwhile I need to think about how to move the remaining tickets forward.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; I mentioned the 4.1 issues that need code review earlier, DSPR#451 looks like an easy one to sign off on</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/451">https://github.com/DSpace/DSpace/pull/451</a> ] - DS-1821 Internationalize the bitstream access icon alt text by helix84</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;helix84&gt; just noting that I will most likely miss Jira reviews until DST</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; 451 is merged.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; see? easy peasy :-)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like we have a general plan for 4.1, we just need more volunteers to chip in &amp; help us wrap up the release.  Should we put out a request to email list(s) for more help in 4.1?  (-commit or -devel)?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;helix84&gt; kids these days... none reads any warning signs...</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; helix84, can you close DS-1821?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1821">https://jira.duraspace.org/browse/DS-1821</a> ] - [DS-1821] Internationalize the bitstream access icon alt text - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; +1 call for volunteers, -devel and -commit</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; 1821 was waiting on translations to percolate through Central.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; Yes, it sounds like we need to find people who can test these PRs.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; RE: 4.1 call for volunteers, I'd recommend one of the RT send out that email... I need to make sure I get our GSoC application wrapped up.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; I'll send the note, if there are no objections?</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; None here.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; go for it. It need not be complex, just send it :)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; Thanks.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, in the essence of time, I'm gonna move along on our agenda (sounds like we have a 4.1 plan now)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Next up was Google Summer of Code.  Cause of the flurry of activity today by the Committers, DuraSpace *WILL* apply for GSoC 2014.  I'll get a draft going ASAP.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; Yay (for the application, not for more work for tdonohue)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Please continue to add GSoC ideas / enhance ideas here: <a href="https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas">https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas</a>  (The GSoC Ideas page is the *MOST* important part of the application)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Summer of Code Ideas - Google Summer of Code - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas">https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; I already said this in e-mail, but if anyone sees a project they'd like to get picked up by GSoC, sign up as a mentor or co-mentor</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; But, beyond those two mentions, I don't have anything else to mention regarding GSoC.  Once I have a draft application ready, I'll try to forward it on to -commit for any last minute feedback from Committers.  The application is due on Fri</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; and sincere thanks to aschweer for doing so with a  couple of projects</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; helix84, we chatted earlier about metadata-for-all?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;aschweer&gt; hpottinger: no worries :)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; mhwood: yes, sounds like a good idea to offload the UI work you don't like after doing the changes in the API</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; So, is there anything else to discuss regarding GSoC?  Or shall we move on (for the final 10mins) to kshepherd's / hpottinger's topic of chatting about potentially adding "Streaming" to DSpace 5.0?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; metadata stuff *is* regarding GSoC.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; pst, kshepherd, wake up :-)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kshepherd&gt; i'm here ;)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Though now I am struggling to recall what the UI concerns would be.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; What I'm most curious is what is needed for streaming (server-side)? Isn't Accept-Range enough?</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; gotcha, mhwood.  So, do you want to talk metadata stuff? I wasn't clear if you want feedback on this now, or if we talk about it via email?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: accept-range *ought* to be enough, however, it doesn't quite work with PDF readers</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; so what's missing?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; if you uncomment the accept-range code, you get broken PDF downloads</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; Where we stand on MD4All:  Mark Diggory did some work on this back around PR#12 (now closed, unmerged).  Having forgotten that, I recently did similar stuff.  It's perhaps halfway done.  Metadata support is moved from Item to DSpaceObject.  Nothing is yet done to migrate object record fields to the MetadataValue table.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;kshepherd&gt; various versions of adobe cope differently with multipart pdfs, from what i've notice (in non-dspace environments)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; adobe as the browser plugin?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; correct, helix84</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;kshepherd&gt; yeh</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; but also the MacOS "preview" app</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kshepherd&gt; possibly in combination with 1 or more reverse proxy</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; and this discussion is about PDFs only or also video?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kshepherd&gt; i can't remember the exact issue.. either a chunk gets interpreted as "eof", or the offsets get mixed up or something</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kshepherd&gt; sorry, i thought we were talking about multipart PDF</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: my one worry about MD4All + GSoC is whether it can be "scoped" small enough for a Summer project.  It still always sounds pretty large to me...it might be possible to do in a Summer though if we only had the student handle part of it (either API level or UI level changes).</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; no, I'm asking</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;hpottinger&gt; discussion on the mail list about "pseudo streaming" <a href="http://dspace.2283337.n4.nabble.com/Psuedo-video-streaming-with-item-attachment-and-seeking-enabled-td4662291.html">http://dspace.2283337.n4.nabble.com/Psuedo-video-streaming-with-item-attachment-and-seeking-enabled-td4662291.html</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace - Tech - Psuedo video streaming with item attachment and seeking enabled ] - <a href="http://dspace.2283337.n4.nabble.com/Psuedo-video-streaming-with-item-attachment-and-seeking-enabled-td4662291.html">http://dspace.2283337.n4.nabble.com/Psuedo-video-streaming-with-item-attachment-and-seeking-enabled-td4662291.html</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kshepherd&gt; re: video streaming, we already support http pseudo-streaming</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kshepherd&gt; if that's all anyone wants, then it's as simple as making a nice jwplayer item view or something ;)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;kshepherd&gt; but i was looking into RTMP/HLS/DASH streaming</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: but, it'd require a mentor who is willing to help guide a student along...so, it might be a matter of whether you had time to do so, or someone else had time to do so</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; kshepherd: is http pseudo-streaming Accept-Range? and that is commented out by default?</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;kshepherd&gt; so people can jump/seek through a 3 hour hi-def video without buffering</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue:  that leads to helix84's idea to split off the UI work.  But...what UI work is needed?  Fixing removed getThisAndThat methods in the UIs is something I'll just do.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;kshepherd&gt; helix84: i believe so.. i'm still catching up on this "commented out by default" issue</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; helix84, I believe so, I've run that code uncommented on our repository, but we also embed PDF files</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: some sample UI work would be to actually *allow* users to enter metadata on other objects from the UI (e.g. a new form for Collection/Community metadata, etc.)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kshepherd&gt; and I was mostly interested in real streaming, not pseudo streaming</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;kshepherd&gt; (of audio/vide)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: so could that code be branched not to be executed for PDFs?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: just to deal with one issue at a time</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: from the sounds of it, most of what you are doing is tweaking the APIs to support M4All...you aren't actually changing/building new UIs to capture that new metadata or allow editing of it.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue:  yes, that's it.  The need to treat those form fields as first-class metadata with multiple values, language, etc.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: but, that being said, a student couldn't even *build* those UIs without the necessary APIs in place.  So, this is only a viable GSoC project if we have a plan to get those APIs ready before GSoC starts</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;hpottinger&gt; I'm interested in a solid solution to streaming, and would be most comfortable farming that task out to a dedicated service (where one could possibly scale out the infrastructure supporting it) instead of relying upon a single tomcat instance to do it all</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue:  good point.  I don't think I can have something usable ready that quickly. :-(</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger++</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: in that case, this doesn't sound like something to enter in for GSoC, at least not this year.  Perhaps next year it would be more doable.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue:  I agree.  Thanks for working it out with me.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: no problem, any time</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kshepherd&gt; related question (to streaming): does anyone currently use nginx as a reverse proxy / load balancer in front of their DSpace instances?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; streaming:  can we make it easy for external applications to get read-only access to assets?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: no argument about that. I just want to point out that most small repositories won't be distributed - why not just to the stuff in DSpace (non-scalable) finished properly before moving up in complexity. Or am I misunderstanding?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; service applications, that is.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood: yep, i've already successfully used the REST API bitstream/retrieve method, which uses HTTP</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood: though network bandwidth does matter..</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I think the question is what layer they will access it on</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; I was thinking more in terms of "it's at this relative path on your NFS mount" or some such.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; if we pipe it via REST then what's the point? we're not removing the bottleneck.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: I understand, just when you talk about streaming, you really need to be prepared to scale</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood: yeh</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;kshepherd&gt; well, another idea i had was for an [authenticated?] REST API request to respond with assetstore location</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;kshepherd&gt; if you're on the same box</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; pipe by REST over localhost is almost like everything else we do with reverse proxy</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;kshepherd&gt; or similar</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kshepherd&gt; uh</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kshepherd&gt; maybe i didn't explain that clearly</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kshepherd&gt; my first RTMP implementation integrated with DSpace by actually using dspace libs, the java API.. reading from assetstore</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: my point is if you pipe by REST why not pipe by XMLUI or JSPUI?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: that was a rhetorical question</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: pipe to the RTMP server, RTMP server hands out the bits</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; If you respond with a path relative to the assetstore directory, then the streamer(s) can be distributed if you want.  They just have to be able to find that directory and access files under it *somehow*.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; I like kshepherd's idea about passing assetstore location via REST</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;PeterDietz&gt; so, your saying your streaming tool would like to have direct access to the bitstream, for it to do its own cool stuff (i.e. streaming, seeking)? Or would it be feasible to have a way to have the bitstream endpoint support seeking.. i.e. these are the bytes to the object, starting at byte[5000000]</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; direct file access is OK, too</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; You can mount the same directory read-only across NFS or SMB or SAN fabric or....</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood: one issue i'm currently having with the streamers i'm testing (nginx_rtmp, red5, crtmpserver) is that they all think it's ok to write seek and meta files to the same dir! so i have to extend that thinking a bit ;)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kshepherd&gt; direct file access i think is ok, but presumes that you're either running the streamer on teh same machine, or have NFS-style access to the assetstore</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; Maybe a translucent filesystem with the assetstore underneath.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; mhwood: unionfs or what do they call it these days?</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;kshepherd&gt; it's also possible that we could, say, write a curation task to create meta and seek files from mp4s, etc., so they too could be read as dspace bitstreams instead of [sometimes badly] generated/cached by the streamer itself</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;helix84&gt; lots of options here, we should start writing them all down on a wiki page</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;PeterDietz&gt; I've sometimes had the idea that DSpace would house the preservation copy, of say large mp4, then maybe have a sync task that pushes a copy of mp4, so some streaming video server ingest API.. i.e. youtube-ingest, or whatever solution you choose</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; Sounds like the streamers themselves need some rework.  I'd be reluctant to let them scribble in the same tree with my carefully-collected media files.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood++</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;kshepherd&gt; so the reason i tested piping a file through the REST API to my streamer (on a different box) the other day is (a) i was already messing with REST API, but i get that retriveing a bitstream via a JSPUI or XMLUI URI is just as "RESTful", and (b) i just wanted to see how "loose" i could make this integration.. and yep, on a fast network, especially if you're ok with the streamer caching the video asset after it's pulled it down once, you can </span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood: absolutely</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;kshepherd&gt; wiki page is definitely a good idea</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;PeterDietz&gt; I would assume that streaming servers want to do some pre-processing on the content. i.e. make various versions, such as small, medium, large, desktop, mobile, flash, ogg, ..., low-bandwidth</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;kshepherd&gt; was waiting to see if people actually thought this was a good idea at all before thinking of making one ;)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; +1 wiki page</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;kshepherd&gt; PeterDietz: nope, not in my experience.. if you have nice mp4, it will want to create a seek file (with offsets for seeking) and some metadata, but only if that doesn't already exist</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; also, working demos in Vagrant-DSpace would be cool</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;kshepherd&gt; PeterDietz: and not all streamers do the metadata job so well, so it might actually be good to have dspace help out with that ;)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; kshepherd:  sounds promising to me.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; I'd volunteer to build the demos</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;kshepherd&gt; as far as actual video curation.. size/quality/etc, i think that's a curation job for someone at the institution usually, hard to automate that sort of thing without error</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;kshepherd&gt; but maybe we can figure something out there too?</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;kshepherd&gt; hpottinger: cool</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; I agree about the curation issue.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;kshepherd&gt; i have working demos using Red5 (java), crtmpserver (c++, aka rtmpd), and nginx_rtmp module (c), but haven't put them on a public box yet</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;kshepherd&gt; if anyone has some nice big high quality mp4s that i can use without getting lawyer letters, please link them on the wiki :)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; if we can agree today that a part of the work definitely needs to be done we can add it to the GSoC ideas list</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;PeterDietz&gt; ok, so maybe you've already done this, but when I want to watch video1.mpg, which the file lives in DSpace, but I want to start play-back at 50%. Instead of having the client directly hit DSpace/REST/bitstream/1, they instead hit streamer/video/1, which is on same network as DSpace machine, so can download the video file quickly, and then allow for seeking, since it would be seeking again local temp file?</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;kshepherd&gt; PeterDietz: sorry missed your coment about "preservation in dspace", "access copy in streamer cache/store" -- yep, i've had the same idea</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;kshepherd&gt; PeterDietz: hmm.. i don't see that it matters</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;kshepherd&gt; if this is true RTMP streaming (or HLS/DASH for future proofing), then all you get are chunks</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;kshepherd&gt; the server does the work of finding out which chunk is 50% through the video, and sending them to you</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;kshepherd&gt; my very old and clunky and not-indicative-of-solution-im-talking-about-today examples can be found at eg <a href="http://ampm.auckland.ac.nz/handle/id/87771">http://ampm.auckland.ac.nz/handle/id/87771</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;kshepherd&gt; that's Red5 RTMP</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;kompewter&gt; [ Competition performance ] - <a href="http://ampm.auckland.ac.nz/handle/id/87771">http://ampm.auckland.ac.nz/handle/id/87771</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;kshepherd&gt; kompewter: well said</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mhwood&gt; You (the user) probably don't want the exact middle frame, but the chapter or whatever that's about halfway through.</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;kshepherd&gt; oh, hrm.. yeh i think maybe some better 'bookmarking' can be done too? that could be another nice curation activity.. links on or near the player that will skip you to chapter 1,2,3 etc</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; that all sounds like something that should be the streaming server's responsibility. aren't we designing DSpace into being one?</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; ehm, not all, just the last part</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;kshepherd&gt; but yeh, the "client" never accesses dspace/rest/bitstream/1, the streamer does. the client accesses rtmp://your.streamer.com/streams/1</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;kshepherd&gt; helix84: well, the player maybe rather than the streamer</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;kshepherd&gt; point taken</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; I mean it's fine if there's a bitstream with metadata about chapters/bookmarks - but it should be uploaded to DSpace, not generated by DSpace</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;kshepherd&gt; but if thinks like seek/meta/bookmarks can be made generic to work with any streamer, then it seems useful (as a curation task, not as a core dspace thing)</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; I agree with what I think I saw, that the streaming function should be external to DSpace whether it is local or remote.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; kshepherd: sounds good</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;hpottinger&gt; nice thing about this "farm out the derivatives to another service" approach is you could do the same with DJatoka</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mhwood&gt; Marking up the material with bookmarks sounds like a job for a human, using tools familiar to a video editor.  DSpace should accept and store them.  It might offer mechanical translation between bookmark file formats, if that's useful.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;kshepherd&gt; so when you get down to the basics, what we want shouldn't be too hard: "dspace gives me the file location, preferably in a nice restful way, streamer reads/caches it, and doesn't mess up assetstore with extra seek or metadata files"</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;hpottinger&gt; I like that spec</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mhwood&gt; "Streamer is not allowed to write the assetstore.  How you arrange that is up to you."  I don't think it will be difficult.</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;hpottinger&gt; if we can have the streamer pull the file via REST instead of relying on filesystem access I'd be even happier</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mhwood&gt; Uh, why?</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: you already have 2 such REST APIs - XMLUI and JSPUI</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;hpottinger&gt; then the streamer can live wherever I have the hardware</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;kshepherd&gt; hpottinger: yep i do have that demo'd, but if you want that i recommend you let the streamer cache them otherwise it has to pull them every time before it starts streaming</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;PeterDietz&gt; Adding the file path isn't to weird to ask for. Adding additional data/field to API is a compatible thing to add</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;kshepherd&gt; yeah forget that REST vs REST vs REST argument</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;kshepherd&gt; hpottinger is asking asking for it to be pure HTTP, no direct file access necessary</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mhwood&gt; mount -t nfs dspace.example.com:/assetstore /mnt/assetstore</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-navy">* kstamatis (25067aca@gateway/web/freenode/ip.37.6.122.202) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;kshepherd&gt; yeh, i think that assumes a lot about network permissions etc., though.. if my streamer is some central "nz academic streaming service" they will not get NFS access to my stuff ;)</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;hpottinger&gt; direct file access comes with security concerns</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;hpottinger&gt; and you pay a heavy price if the streamer misbehaves</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;kshepherd&gt; but i admit, nfs or similar would probably do the job for *my* own needs</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;mhwood&gt; Export it readonly.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;hpottinger&gt; but, then, we're moving a dev concern into the realm of ops</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;hpottinger&gt; making my job way, way more difficult :-)</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;kshepherd&gt; anyway, dspace is already quite good at serving bitstreams over http so we won't worry about that for now ;)</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;tdonohue&gt; HTTP &gt; direct file access in my opinion too.   Direct file access is fine if it's kept secure...but keeping it secure sometimes also means a harder/more complex setup/installation process.</span><br />
+<span class="irc-date">[21:35]</span> <span class="irc-black">&lt;kshepherd&gt; that's a hack that would take place at the streamer end more than dspace</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;tdonohue&gt; If you want to make streaming "dead simple" you need to make it "dead simple" to configure/setup...which likely means HTTP access to files</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;helix84&gt; we already do support bitstream access over HTTP, if someone wants to use that, it's there. why are we even talking about it?</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;mhwood&gt; I'm imagining that the assetstore is on a SAN box, and both DSpace and the streamer are getting assets via network.</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;kshepherd&gt; helix84: i think we're just talking about it because streamers like the ones mentioned don't tend to have that as a "file retrieval" method yet</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;helix84&gt; telling file location via a REST API is the new thing</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;mhwood&gt; I actually have half of that (the DSpace half) in production here.</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;kshepherd&gt; helix84: yeh, for dspace, yeh</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;helix84&gt; I'm just saying - half of the discussion here was about adding a method to give HTTP access t the stramer - something that's already solved</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;kshepherd&gt; no</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;kshepherd&gt; at least, i hope not :P</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;kshepherd&gt; i was talking about the streamers' lack of "getting files from http" ability, not dspace's lack of "serving files over http" ability ;)</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;kshepherd&gt; which i know isn't strict *dspace* dev, but still required towards that particular solution</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;hpottinger&gt; I was asking that we configure the streamer to pull bitstreams via HTTP (presumably through REST), instead of relying on filesystem access (which spooks me)</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;kshepherd&gt; but i do like the file/nfs access stuff talked about so far too</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;mhwood&gt; Exactly.  The streamer should just see files.  How it gets them is the sysadmin's problem.</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;helix84&gt; kshepherd: yes, I understood that, sorry.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood is cavalier about the sysadmin handoff because he wears both hats... I do not</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger++ (I am of the same opinion...I don't like having another application mucking around, even if supposedly "read-only" in the assetstore)</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;helix84&gt; the interesting point about not giving direct FS access is - the point of your streamers is scalability - and yet you insist on keeping the bottlenect</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;tdonohue&gt; having another application mucking around in the assetstore is extremely dangerous unless you have a good sysadmin who knows how to properly limit the access rights to read-only (Which many of our 1,000+ DSpace institutions may not have)</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;tdonohue&gt; If streaming needs direct filesystem access, it should be accessing a *cache* of the assetstore, or retrieving files via HTTP.  Otherwise, I just worry we are making major assumptions around sysadmin expertise at most Dspace institutions.</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;hpottinger&gt; My preference would be to keep as much of this solution in the app config and coding realm as possible, otherwise we are putting a lot of trust in ops getting things right</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;hpottinger&gt; My ops people are *great* but they go through a lot of turnover</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;mhwood&gt; Sometime you should hear ops talking about whether they can trust the coders to get anything right.</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;hpottinger&gt; oh, sure, we throw rocks over the wall all the time :-)</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;mhwood&gt; :-)</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;hpottinger&gt; stupid wall (grumble grumble)</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: you'll only hit that REST link once, derivatives would be cached, you serve the derivatives</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mhwood&gt; What will do the caching?</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;hpottinger&gt; the streamer keeps its derivatives, using the simple example of DJatoka, you just tell it to keep derivatives around and give it some space to keep them</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;kshepherd&gt; i ahve to go soon, lots going on here right now</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;mhwood&gt; Thanks for bringing up the streaming issues.</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;hpottinger&gt; I imagine the RTMP options kshepherd is working with all do something similar</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;hpottinger&gt; ok, so, kshepherd, are you going to make the wiki page?</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;kshepherd&gt; ok</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;kshepherd&gt; later today (or early tomorrow, depending on where you are in th world)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;hpottinger&gt; cool, as soon as you have some config information / how to stuff, I'll try setting up some branches of Vagrant-DSpace that'll demo the options</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;tdonohue&gt; I'll also note another reason against direct filesystem/assetstore access...it's yet another "backdoor" (bypassing our existing APIs) which bypasses DSpace access rights, etc.  We keep talking about how we wish we had a common "business logic layer". Having streaming bypass our API would seem to be a step backwards.</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;tdonohue&gt; But, streaming in general is very high on our "wish list"...so, I'm willing to look at anything.  Just noting my concerns with regards to filesystem access</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;mhwood&gt; REST won't tell you where to find the file if you can't have it.</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;kshepherd&gt; it does mean we could need some authN for REST API.. but to put it another way, it's a good excuse for authN in REST API :)</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;mhwood&gt; Ugh, security by obscurity.</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;hpottinger&gt; I don't think it's exactly security by obscurity... :-)</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;kshepherd&gt; no, i don't see where that came from</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;mhwood&gt; I mean, if it's a network mount, then the files are all there.  You just don't know (from the far end) which is which, because DSpace won't tell you.</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;kshepherd&gt; and why won't dspace tell you? if you're using the java api, just disable authZ manager, done</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;kshepherd&gt; if you're using REST, just start iterating files</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;mhwood&gt; I'm imagining that we will code it not to tell you, unless you are authorized to know</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;mhwood&gt; Once REST has authN, it may not let those files through the iterator.</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: could you please check whether this SQL is valid for Oracle, too? <a href="https://jira.duraspace.org/browse/DS-1536?focusedCommentId=32835&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-32835">https://jira.duraspace.org/browse/DS-1536?focusedCommentId=32835&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-32835</a></span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1536">https://jira.duraspace.org/browse/DS-1536</a> ] - [DS-1536] having a DOT in handle prefix causes identifier.uri to be cut off when being created - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;mhwood&gt; In fact it should not.</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-1536] having a DOT in handle prefix causes identifier.uri to be cut off when being created - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1536?focusedCommentId=32835&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-32835">https://jira.duraspace.org/browse/DS-1536?focusedCommentId=32835&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-32835</a></span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood: well yep authN would be real nice for REST yeh</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;hpottinger&gt; helix84 thinks I have a working Oracle test environment :-)</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;kshepherd&gt; i just mean, if you can request one file, figure out the base NFS dir, and there's nothing particularly stopping you traversing all the directories... then you'll get all the files you want, even if the dspace admin didn't want you to. which i think is bad.</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: hey, you keep going on and on about how great DSpace-Vagrant is. I thought you did :)</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd++</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: vagrant-dspace only supports postgres so far</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: Vagrant-DSpace *is* great, so is PostgreSQL :-)</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm...a filesystem layer that asks DSpace for permission before letting NFS see....  Starting to get complicated.</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-brick">* hpottinger omits derogatory words about *other* databases.</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;kshepherd&gt; mhwood: well, that's why we're saying filesystem is inherently insecure</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;mhwood&gt; I have a working Oracle 10g installation, but very little experience.</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-black">&lt;mhwood&gt; I guess so, if you don't trust both ends of the link.</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-black">&lt;tdonohue&gt; kshepherd++ again</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-black">&lt;hpottinger&gt; all silliness aside, that SQL looks pretty ordinary to me, and I'd be very surprised if it didn't work as-is, though Oracle is *full* of surprises</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;mhwood&gt; I worry about how it will perform, over HTML.  Video eats bandwidth like candy.</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-black">&lt;hpottinger&gt; we need a whiteboard, I think</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-black">&lt;hpottinger&gt; the streamer handles the public access to files, the REST connection is for the streamer to obtain originals for generating derivatives</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;hpottinger&gt; just think of it as a caching reverse proxy</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;hpottinger&gt; like Varnish</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;mhwood&gt; Well, I don't seem to be saying anything new, and I've got to go.  I will be interested to watch this develop.</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;mhwood&gt; I've made a note to see if Oracle understands that bit of SQL tomorrow.</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-black">&lt;tdonohue&gt; Honestly, a part of me starts to wonder: Why not use third-party hosted services like YouTube/Amazon CloudFront/whatever as the access point?  Any audio/video files can be shipped off *once* to [external-service], and then a viewer is auto-embedded in the DSpace UI.</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-black">&lt;mhwood&gt; Because then you're stuck with their viewer?</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-black">&lt;tdonohue&gt; But, I know that the whole [external-service] model also may not be ideal for everyone.</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-black">&lt;kshepherd&gt; that is valid though yeh</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-black">&lt;kshepherd&gt; i haven't gotten much traction with that idea with colleagues i talk to.. they do like to do things locally</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: but, if you have a *choice* of which external service to use (i.e. DSpace integrates with several), then you can choose the one that is best for you.</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-black">&lt;hpottinger&gt; that's one approach, and would be fine for open access content</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-black">&lt;mhwood&gt; Which one uses VLC? :-)</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-black">&lt;mhwood&gt; Anyway, I meant the end-user is stuck with whatever service you chose, and their viewer.</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;helix84&gt; RT, I need some help regarding release notes</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;kshepherd&gt; is there not a service like that that will just host the rtmp endpoint, and let you embed whatever view / let the user use VLC if they want?</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;kshepherd&gt; i mean i know youtube won't do that</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-black">&lt;helix84&gt; I added the Ds-1536 documentation to the 4.1 release notes here: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.1+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.1+Notes</a></span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 4.1 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.1+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.1+Notes</a></span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-black">&lt;tdonohue&gt; external services could potentially also work for restricted access content... if the video is limited access, it gets access-restricted in YouTube (for example), and the auto-embedded viewer only appears if you are authenticated in DSpace.</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-black">&lt;helix84&gt; 1) This needs to be moved to a proper location, I don't know where - please do so</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-black">&lt;helix84&gt; 2) we still need to put the SQL into the 5.0 release notes for those who upgrade 4.0 -&gt; 5.0</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-black">&lt;tdonohue&gt; the big downside to external services (like YouTube, etc) is that they *will* likely cost money at some point...there's a limit to how much you can store there.  Plus, some folks will want or need (based on local policies) to have their content kept locally</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-black">&lt;kshepherd&gt; yeh</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-black">&lt;mhwood&gt; I made a note to look at the release notes issue for 1536 too.  Must go now.</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-black">&lt;tdonohue&gt; but, I still wanted to "throw it out there"... I fully realize that using an external service won't solve the problem for everyone...but it's "easier" in some ways</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-black">&lt;hpottinger&gt; helix84, that SQL does through an error (I just ran it against my live repository)</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-black">&lt;hpottinger&gt; s/through/throw/</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-black">&lt;kompewter&gt; hpottinger meant to say: helix84, that SQL does throw an error (I just ran it against my live repository)</span><br />
+<span class="irc-date">[22:11]</span> <span class="irc-black">&lt;hpottinger&gt; I think the join syntax needs to use an explicit join of some sort</span><br />
+<span class="irc-date">[22:11]</span> <span class="irc-black">&lt;hpottinger&gt; Error starting at line 4 in command:</span><br />
+<span class="irc-date">[22:11]</span> <span class="irc-black">&lt;hpottinger&gt; AND metadatafieldregistry.metadata_field_id = metadatavalue.metadata_field_id</span><br />
+<span class="irc-date">[22:11]</span> <span class="irc-black">&lt;hpottinger&gt; Error report:</span><br />
+<span class="irc-date">[22:11]</span> <span class="irc-black">&lt;hpottinger&gt; Unknown Command</span><br />
+<span class="irc-date">[22:11]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: you mean on Oracle?</span><br />
+<span class="irc-date">[22:12]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: yes, I think there is a different syntax for natural joins</span><br />
+<span class="irc-date">[22:12]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: yes, on Oracle</span><br />
+<span class="irc-date">[22:14]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I have no way of testing it, though. I have no writable Oracle (or a readable one with DSpace tables)</span><br />
+<span class="irc-date">[22:14]</span> <span class="irc-black">&lt;kshepherd&gt; ok i'm off, thanks for the discussion all, i'll throw up a wiki page soon</span><br />
+<span class="irc-date">[22:14]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially, my message around Streaming:  If we can find a way to build it such that we can support multiple streaming "options/plugins" (e.g. use YouTube or Red5 or whatever), it might be nice.   But, starting *somewhere* is better than nothing :)</span><br />
+<span class="irc-date">[22:14]</span> <span class="irc-black">&lt;tdonohue&gt; thanks kshepherd</span><br />
+<span class="irc-date">[22:16]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: could you please take care of the release notes stuff? I don't know what to do with it and I'm off to bed.</span><br />
+<span class="irc-date">[22:17]</span> <span class="irc-black">&lt;hpottinger&gt; before I agree to "stuff" can you define? :-)</span><br />
+<span class="irc-date">[22:17]</span> <span class="irc-black">&lt;helix84&gt; see above</span><br />
+<span class="irc-date">[22:18]</span> <span class="irc-black">&lt;hpottinger&gt; so "stuff" = "document the SQL for DS-1536"</span><br />
+<span class="irc-date">[22:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1536">https://jira.duraspace.org/browse/DS-1536</a> ] - [DS-1536] having a DOT in handle prefix causes identifier.uri to be cut off when being created - DuraSpace JIRA</span><br />
+<span class="irc-date">[22:18]</span> <span class="irc-black">&lt;helix84&gt; I've aleady done that. See 1) and 2)</span><br />
+<span class="irc-date">[22:18]</span> <span class="irc-black">&lt;helix84&gt; 23:08</span><br />
+<span class="irc-date">[22:19]</span> <span class="irc-black">&lt;hpottinger&gt; 5.0 release notes?</span><br />
+<span class="irc-date">[22:19]</span> <span class="irc-navy">* kshepherd (~kim@wireless-nat-1.auckland.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[22:20]</span> <span class="irc-black">&lt;hpottinger&gt; as in "I don't know where the 5.0 release notes are, please make them for me and then move SQL information for DS-1536 into them?"</span><br />
+<span class="irc-date">[22:20]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1536">https://jira.duraspace.org/browse/DS-1536</a> ] - [DS-1536] having a DOT in handle prefix causes identifier.uri to be cut off when being created - DuraSpace JIRA</span><br />
+<span class="irc-date">[22:21]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, was distracted by tinkering with Oracle SQL</span><br />
+<span class="irc-date">[22:22]</span> <span class="irc-black">&lt;helix84&gt; nevermind, I'll just reopen the ticket</span><br />
+<span class="irc-date">[22:23]</span> <span class="irc-black">&lt;hpottinger&gt; for the record, I'm still not sure what I agreed to do, but, I'm always happy to help out. If it appears that I haven't done what I said I'd do, assume I'm befuddled.</span><br />
+<span class="irc-date">[22:24]</span> <span class="irc-black">&lt;helix84&gt; to clarify: the location of release notes changed in 4.0. There is no obvious location for me to put 4.1 relnotes, so I create them at the old location. They just need to be moved. This is 1)</span><br />
+<span class="irc-date">[22:25]</span> <span class="irc-black">&lt;helix84&gt; 2) the same fix needs to be documented for the 4.0 -&gt; 5.x upgrade, ergo in the 5.0 relnotes. What better time to create them than now? Lest we forget.</span><br />
+<span class="irc-date">[22:26]</span> <span class="irc-green">* lo5an (~lo5an@unaffiliated/lo5an) has joined #duraspace</span><br />
+<span class="irc-date">[22:27]</span> <span class="irc-black">&lt;hpottinger&gt; OK, I'll look into it, *and* I'll try to produce a clear explanation for future notes creation purposes</span><br />
+<span class="irc-date">[22:27]</span> <span class="irc-black">&lt;hpottinger&gt; because that would be awesome, and I like doing awesome stuff</span><br />
+<span class="irc-date">[22:28]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to doing awesome stuff</span><br />
+<span class="irc-date">[22:28]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: thanks</span><br />
+<span class="irc-date">[22:28]</span> <span class="irc-black">&lt;helix84&gt; good night all</span><br />
+<span class="irc-date">[22:28]</span> <span class="irc-black">&lt;hpottinger&gt; today kinda/sorta counts as talking about features, I think</span><br />
+<span class="irc-date">[22:30]</span> <span class="irc-black">&lt;tdonohue&gt; yea, it does...our "meeting" lasted 2+ hours, but hey... DSpace streaming!</span><br />
+<span class="irc-date">[22:31]</span> <span class="irc-black">&lt;hpottinger&gt; looking forward to it</span><br />
+<span class="irc-date">[22:52]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[23:05]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:28]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) Quit (Ping timeout: 260 seconds)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

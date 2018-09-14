@@ -1,0 +1,338 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2015-03-25
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:55]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:02]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:02]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[12:08]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:22]</span> <span class="irc-green">* robint (81d7fa56@gateway/web/freenode/ip.129.215.250.86) has joined #duraspace</span><br />
+<span class="irc-date">[14:48]</span> <span class="irc-green">* srobbins_ (~srobbins@libstfsdg02.library.illinois.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-black">&lt;tdonohue&gt; :REMINDER: At the top of the hour (in a few minutes), our weekly DSpace Developers meeting starts here. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-25">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-25</a></span><br />
+<span class="irc-date">[14:58]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-03-25 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-25">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-25</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome. Our weekly DSpace Developers Meeting starts now: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-25">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-25</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-03-25 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-25">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-25</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; The main topic for today is planning for DSpace 5.2 (which looks to be needed to help resolve some Solr Stats issues)</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; primarily this ticket seems high-priority enough for a DSpace 5.2 release in the nearish future: DS-2486</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2486">https://jira.duraspace.org/browse/DS-2486</a> ] - [DS-2486] Missing fields in solr statistics data from previous DSpace versions - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-green">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; Since we are on an "early meeting" today, unfortunately, I just realized that aschweer cannot give us a direct update on Ds-2486 work (as it's the middle of the night for her)...</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; but, based on the recent comments on that ticket, aschweer has a PR which is now in a testable state: DSPR#894 (and hpottinger seems to have already tested it some)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/894">https://github.com/DSpace/DSpace/pull/894</a> ] - Ds 2486 reindex solr by aschweer</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; So, I guess the first question for all of you is whether anyone else can help spend some time to test this resolution to DS-2486?  It seems like a fix we really should get out there, as currently our Solr Statistics data is NOT auto-upgrading itself</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2486">https://jira.duraspace.org/browse/DS-2486</a> ] - [DS-2486] Missing fields in solr statistics data from previous DSpace versions - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; (or rather Solr Statistics data is not able to be auto-reindexed, when the schema changes)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;mhwood&gt; I will try to find some time to test this.  We're going to need it fixed soon, as we have an instance soon to be upgraded to 5.x.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; For those unfamiliar with these tickets, the main "pain point" is that geographic information in Statistics is not preserved when upgrading to 5.1</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; 5.x</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks, mhwood!</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; and there's hpottinger ;)  (We're discussing DS-2486 and getting testers for it's PR)</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2486">https://jira.duraspace.org/browse/DS-2486</a> ] - [DS-2486] Missing fields in solr statistics data from previous DSpace versions - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;hpottinger&gt; oh, hey</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;hpottinger&gt; DSPR#894</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/894">https://github.com/DSpace/DSpace/pull/894</a> ] - Ds 2486 reindex solr by aschweer</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; yep, we had linked to that PR already, hpottinger.  And, mhwood had volunteered to help test as well</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;hpottinger&gt; cool, I just gave it a +1</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;hpottinger&gt; One thing, if the commands that come with this PR become part of our upgrade process, we need to provide some guidance on what will probably be a 12-14-hour maintenance window</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; It looks reasonable to me, but admittedly I have not tested it yet.  One thing I noticed in it is that the SolrImportExport class doesn't seem to be "registered" in our launcher.xml (which we may want). I'll add a comment to that PR</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: good point</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;hpottinger&gt; in the past we've asked people to run dsrun commands, but, I don't think we do that any more</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;mhwood&gt; Well, we *can* do that, but why not make it a little easier?</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I'd rather we didn't do that anymore. It's so much easier to remember the command if it's just "./dspace [command]"</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; I added a comment to the PR about that</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; Does anyone else have comments/questions/thoughts on this ticket or its PR?  (The only other thing that stands out is the very large maintenance window here...I wish it was much smaller, but I don't know of any way to solve that easily)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;hpottinger&gt; as far as maintenance windows go, I can't see a way that doesn't involve losing a 12 hour slice of stats, so I figure we recommend upgrading a copy of a live stats core, and then replace the core, unless someone smarter than me can figure out a way to run those commands without downtime or without losing stats</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; This large maintenance window actually may be a scenario that points to *not* using Solr as the persistent store for this data (as the maintenance of the index becomes very time consuming)... which brings us to the next topic on the agenda:  "Re-examine our use of Solr as a statistics/authority store"</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;mhwood&gt; Take DSpace down momentarily.  Copy the core.  DSpace back up.  Reindex the copy.  DSpace down.  Switch to the updated copy.  Extract records written since you started.  Reload those to the new core.  This may require some additions to the patch.</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; Though, I guess, before we jump entirely to this deeper discussion...it might be best to "wrap up" the 5.2 thread</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;mhwood&gt; Yes.  What else should be in 5.2?  We have nearly thirty tickets marked for it.  About nine are Request Code Review</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, that process is a bit complex but seems like it would work</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; Is there anything else folks know of that is high priority for 5.2?</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; (mhwood do you have a link to the 5.2 tickets you can share?  Trying to find that myself right now)</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mhwood&gt; project = DSpace AND fixVersion = 5.2 AND status != Closed ORDER BY status</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, my saved favorite queries don't seem to be shareable.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; You could try <a href="https://jira.duraspace.org/issues/?filter=13033">https://jira.duraspace.org/issues/?filter=13033</a> but I think it won't work.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/issues/?filter=13033">https://jira.duraspace.org/issues/?filter=13033</a></span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; Here we go...here's tickets scheduled for 5.2 that are "unresolved": <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.2+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.2+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.2+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+fixVersion+%3D+5.2+AND+resolution+%3D+Unresolved+ORDER+BY+due+ASC%2C+priority+DESC%2C+created+ASC&amp;mode=hide</a></span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; And here's those 9 that are under "code review needed" status: <a href="https://jira.duraspace.org/issues/?jql=project%20%3D%20DS%20AND%20resolution%20%3D%20Unresolved%20AND%20fixVersion%20%3D%205.2%20AND%20status%20%3D%20%22Code%20Review%20Needed%22%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC">https://jira.duraspace.org/issues/?jql=project%20%3D%20DS%20AND%20resolution%20%3D%20Unresolved%20AND%20fixVersion%20%3D%205.2%20AND%20status%20%3D%20%22Code%20Review%20Needed%22%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC</a></span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/issues/?jql=project%20%3D%20DS%20AND%20resolution%20%3D%20Unresolved%20AND%20fixVersion%20%3D%205.2%20AND%20status%20%3D%20%22Code%20Review%20Needed%22%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC">https://jira.duraspace.org/issues/?jql=project%20%3D%20DS%20AND%20resolution%20%3D%20Unresolved%20AND%20fixVersion%20%3D%205.2%20AND%20status%20%3D%20%22Code%20Review%20Needed%22%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC</a></span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like, the ones under "Code Review Needed" could be quick wins for 5.2.  So it seems obvious that we should try to find testers for those so we can get them in as well</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-navy">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) Quit (Ping timeout: 248 seconds)</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; We also likely need to figure out who amongst us would be willing to help "lead" / coordinate the 5.2 release.  I'm going to have to admit that my time right now is limited...while I'm glad to support as needed, I don't know that I can coordinate this release (as I did with 5.1)</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;hpottinger&gt; surely there is a SWORD expert reading this transcript, yes?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; I also don't have a whole lot of time to devote to this, but since we have a substantial blocker in our upgrade to 5_x, if no one else wants to coordinate 5.2, I'll do it, just so we can proceed with our upgrade</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; SWORD expert of the future, I ask you to test DSPR#850, thanks</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/850">https://github.com/DSpace/DSpace/pull/850</a> ] - [DS-2131] SWORDv2 ingestion fails with NullPointerException when replacing a non archived item by KevinVdV</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; quiet group here today :)  hpottinger, I thank you for being willing to help coordinate. It sounds like it might be worth getting a helper though, if your time is also limited.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; I'm glad to act in a supporting role. But, maybe we can also ask aschweer (or others) to see if they can chip in on getting 5.2 out the door</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;hpottinger&gt; it would be great if we could get someone new running the release, just so we have more people with release experience</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; Ideally here, if *ANYONE* (in the room or reading these logs later) knows of a ticket that they'd like to see get into 5.2, we are going to need your help in getting it in (by helping testing, etc)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to getting more folks familiar with the release experience. It seems like we still keep having the same (small) group manage most releases (especially these bug fix ones).</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; That all being said, if 5.2 *only* ends up including the fix for Solr Statistics, I think that's still a worthwhile release.  But, obviously it'd be good to get in a few other fixes (especially "low hanging fruit") if we can get folks to help</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;hpottinger&gt; I'm wondering if we have enough data to evaluate our variable meeting schedule?</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: good question. I honestly haven't looked into it.  But, my suspicion is the early meetings have less attendees than the later ones...but, I know the early meetings are still more convenient for most of Europe</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; So, because we're already running short on time, and we don't seem to have much to say about 5.2, we might as well move along for now.  For the time being though, regarding 5.2, we need more help testing Ds-2846 and we need more help getting  other bug fixes in. If *anyone* is willing to chip in, we'd be glad to have you!</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-2486 that is (the Solr Stats ticket)...not 2846</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;hpottinger&gt; I might as well mention DS-2506</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2506">https://jira.duraspace.org/browse/DS-2506</a> ] - [DS-2506] Case-insensitive browse configuration does not work with discovery browse - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mhwood&gt; So then, you mentioned that the dump/load time argues against using text indexing engines as long-term storage.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, moving along to the highly-related Solr issue (but not something we can easily solve in 5.2):  "Re-examine our use of Solr as a statistics/authority store"</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yes.  Before hearing about that long maintenance window for a dump &amp; load, I wasn't sure if we needed much more than a way to easily backup &amp; restore Solr data.  But, if the dump of that Solr data takes 12 hours, that implies we may want a better way to manage this data "persistently"</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;hpottinger&gt; I am of the opinion that we probably need to get out of the problem space of usage statistics, there are other tools for that</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; Also worth linking in this same discussion in this dspace-devel thread: <a href="http://dspace.2283337.n4.nabble.com/We-need-to-think-a-bit-more-about-how-we-use-the-statistics-Solr-core-td4676995.html">http://dspace.2283337.n4.nabble.com/We-need-to-think-a-bit-more-about-how-we-use-the-statistics-Solr-core-td4676995.html</a></span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace - Devel - We need to think a bit more about how we use the 'statistics' Solr core ] - <a href="http://dspace.2283337.n4.nabble.com/We-need-to-think-a-bit-more-about-how-we-use-the-statistics-Solr-core-td4676995.html">http://dspace.2283337.n4.nabble.com/We-need-to-think-a-bit-more-about-how-we-use-the-statistics-Solr-core-td4676995.html</a></span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: While I agree to some extent (I'd rather find ways to use third-party tools), I'm not sure if we'll have widespread approval for "Just use Google Analytics".</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mhwood&gt; So, it may be unavoidable to take the stats core offline for maintenance, but we need to keep capturing events and load them in afterward.  That suggests to me a separate stream of event records that can be reloaded anytime.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mhwood&gt; Without interrupting its capture.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;hpottinger&gt; Perhaps Logstash?</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; Well, if we do a good job of capturing the events, a site can use anything to process them.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; We can get out of the statistics business but we still need to capture the data.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: logstash or other third party tools might be an option</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; Part of this also may be a DCAT (or "Use Cases") question.... what do folks *need* out of a statistics engine?  Is Google Analytics "enough"? Is there a need for something more directly "integrated" with DSpace?</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; Time to let a thousand flowers bloom?  Various sites try various approaches and see what works well in what cases?</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;hpottinger&gt; I think GA is out of the picture, since you can't retroactively add usage data to it</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood: we cannot get out of the business of "capturing the stats data", but hopefully we can find a way to get out of the business of processing/analyzing that data</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;mhwood&gt; I think we will never come up with built-in stat.s that make everyone happy.  We may want to provide something simple that can be unplugged and replaced (or not replaced).</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; I do think we'd need someone(s) to do some research / trials of various approaches.  There's a ton of stats tools out there, we could do a dump of options (to a wiki page) and a dump of some basic "known needs" (.. ideally free, ideally easy to integrate with, etc)</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; And then look for folks to help us analyze those options</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;hpottinger&gt; yes, we clearly have a responsibility to log usage data, but I don't think we need to accept responsibility for analyzing or visualizing it</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger +1</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mhwood&gt; So the question is:  are we capturing the right raw data?</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mhwood&gt; Event consumers are easy to write.  We can have a bunch of them.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;helix84&gt; hi, jumping in late - I wanted to note that there are standards in this area</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; we may have to "visualize" stats data (in the UI) to some extent though... I suspect that one of the "use cases" is the ability to actually *see* DSpace statistics in the user interface....so, as a basic example, ideally you'd want a basic "download count" to appear as part of the UI, and not in something completely separate.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;helix84&gt; I wanted to mention COUNTER and the SUSHI protocol</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;hpottinger&gt; I wonder if we could "ape" the format of an apache log file, and then use any of the plethroa of Apache log file analysis tools?</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;helix84&gt; Joao was willing to work in his free time on making DSpace a SUSHI provider</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;mhwood&gt; We might, however, be able to leverage tools meant for such processing and visualization, drop their output in a convenient place and let DSpace just include it.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;helix84&gt; there is some code, but it's very early</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; +1 to consider moving towards SUSHI / COUNTER.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;hpottinger&gt; The nice thing about moving towards SUSHI/COUNTER is that format is an agreed-upon standard, no need to do any further use case work</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;helix84&gt; DS-626</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-626">https://jira.duraspace.org/browse/DS-626</a> ] - [DS-626] API for exchange of Usage Data over OAI-PMH or SUSHI - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; I'd be supportive of 626... though I admit I don't have much experience with SUSHI yet</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;mhwood&gt; standards: good</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;helix84&gt; I'm trying to find the code but I forgot where it was, probably under lyncode/DSpace</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-brick">* tdonohue realizes we are now at one hour...but, I want to wrap up this discussion first</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; So, bringing this discussion back around to *what is actionable*.   What do we want as next steps?  It seems like there are several questions still here.... (1) Should we rework the existing Solr Stats to have a more persistent layer it works with, (2) Should we consider migrating to a different third-party system, SUSHI, etc.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;mhwood&gt; We should ask ourselves how timely the stat.s have to be.  Would anyone seriously complain if we gave figures current through the previous midnight?  That would make it easier to leverage external tools.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;helix84&gt; SUSHI is not a system, it's a protocol, we can work towards that in the 6 timeframe. COUNTER is a format - something to consider right now, the easy alternative being CSV.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mhwood&gt; 1.  We should not rely on Solr for long-term storage.  We need a way to reload it without seriously disrupting operations other than statistical reporting.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; regarding my #1, I'm now starting to wonder if we do need a more persistent layer here (since the dump &amp; reindex can take 12+hours).  So, we may need a ticket to work towards that</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;hpottinger&gt; well... you know, it wouldn't take much to slapt together some kind of logstash feed, and then it really becomse a matter of "let's see what we can make of this pile of data"</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; regarding #2, we already have a ticket for SUSHI (yea, I realize it's a protocol, just was running out of space in my text).  But, we may want a wiki page or ticket to discuss whether to integrate with other third-party systems</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;mhwood&gt; 2.  I need to read up on COUNTER and SUSH to understand what they provide.  There is a long path between event capture and finished statistical data products.</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: what about logstash? it's just the same situation we're currently in with Solr/ES</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; (other third party systems besides Google Analytics)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mhwood&gt; That was also my take on logstash.  It looks quite good, but I am not yet convinced that it's so good for what we need right now.</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; logstash is more about analyzing logs...not exactly the same as usage stats. But, there may be other third party systems which may be more oriented towards usage stats</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;hpottinger&gt; the difference between what we do now and feeding logstash data is, we are completely responsible for all aspects of our current stats solution, if we utilize some other stats solution, we get to leverage the work of another community</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; Some better examples may be looking at Piwik (<a href="http://piwik.org/)">http://piwik.org/)</a> or some of their competitors</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: here's what I'm asking - if logstash is your answer, what is the question?</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;hpottinger&gt; Pikwi is pretty much the same thing as GA, though (drop a JS file somewhere, let it collect data for you)</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: there's currently zero barrier in DSpace to feeding dspace logs to logstash. What are you proposing?</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: I agree, kind of, though zero barrier isn't quite true :-) there's the same barrier that prevents any new work</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: no no, on the contrary, there's nothing on the DSpace side we need to add to feed Logstash. It's completely separate.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; Piwik is similar to GA, yes...but your data is local &amp; you can manage it yourself. Plus, Piwik can also do log analytics (never used it though) <a href="http://piwik.org/log-analytics/">http://piwik.org/log-analytics/</a></span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;kompewter&gt; [ Log Analytics - Analytics Platform - Piwik ] - <a href="http://piwik.org/log-analytics/">http://piwik.org/log-analytics/</a></span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;helix84&gt; I've used piwik before. Just noting that it stores data in RDBMS</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;pbecker&gt; we are using piwik here.</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'm just noting that we don't necessarily need to "do our own version of usage stats/analytics".  We can potentially just use a third party solution and send it the data it needs (like we do with Google Analytics)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;hpottinger&gt; Hmm... interesting...</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;hpottinger&gt; yeah, if we could just produce a log that looks like an Apache log...</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mhwood&gt; But it would probably be nice to capture the data in something a little less horrible than the morass that is dspace.log.</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;hpottinger&gt; right, it would be really lovely to capture the breadcrumb trail of the page being visited</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-yqysdedxrxgpfxpf) has joined #duraspace</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: right, and for that (capturing breadcrumb trail), you would want something like Google Analytics or Piwik (or other various competitors out there)</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;helix84&gt; mhwood: we have a log format for statistics (see stats-log-converter which converts dspace.log to this format), the format just doesn't currently record user agent and geo information, IIRC</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;mhwood&gt; helix84:  interesting point.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;pbecker&gt; as tdonohue mentioned in last week's meeting: with the privacy laws we have in here, Piwik would harmonize much better then GA as least as far as I know.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I still don't understand why you mentioned logstash. What problem would it solve?</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;tdonohue&gt; IMHO, this is yet another area of DSpace where I start to question whether "doing it our own way" is the right decision.  Piwik has integrations with tons of other major platforms (<a href="http://piwik.org/integrate/).">http://piwik.org/integrate/).</a>  Why not just have DSpace have a Google Analytics integration, a Piwik integration, (maybe a few others)...and do away with Solr Stats altogether over the long term</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;pbecker&gt; +1</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: it's a purpose-built tool for managing the kind of data we are trying to manage with custom tools</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: perhaps the answer would be that DSpace is an out-of-the-box solution, not that I necessarily disagree with you</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: but since it has the same disadvantage (persistent storage) that we're trying to solve, what does it give us?</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mhwood&gt; The question is how much should be in the box?</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: there has to be some limits on the "box" though ;)  We cannot be an "out-of-the-box" solution for everything.  The box could include plugins to say.. "you probably want usage statistics...here's a few free ones we integrate with automatically"</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: I don't know that logstash has that disadvantage</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: people who use logstash tend to use it alongside something like Elastic Search to actually create reports. So, you'd either need to keep around the logs it's analyzing, or dump from ES</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: how so? it uses ES for storage</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: the integration of such tools has two parts. One question is how to provide usage statistics to such tools. the other question is how we can integrate the results in g.e. the item view?</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: we tried logstash locally for some time.  It literally just analyzes logs and sends them to something like ES</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;pbecker&gt; We currently have (configurable) a button on the item view that allows anyone to see the usage stats and that is a highly requested feature...</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: yep, I agree. We'd need to build plugins to just capture the data (and send to GA or Piwik), and also plugins to pull the analytics data back in (and display on the item view, etc)</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; So, as we are overtime here...it sounds like we might want to try to wrap this up a bit.</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;helix84&gt; stepping back, the reason why usage statistics are so important in the Open Access movement is that they are a possible alternative (or complement) to other metrics, so they are important if you want to make your processes independent of e.g. impact factors. Just trying to explain why keeping logs is so highly requested in the repository community.</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;hpottinger&gt; I think we probably need a usable usage log, and it's possible the dspace.log is not up to that task.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mhwood&gt; It's littered with other stuff that is significant in other situations, and wasn't quite designed for capture of usage observations.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;hpottinger&gt; we probably need to figure out what would comprise a "usable" usage log</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like we definitely need more discussion here on the next steps (and a decision at some point)... There are still opportunities here to brainstorm possible solutions (be it integrating with Piwik, or other products, or continuing to improve on our current Solr Stats).  I wonder if it'd be good to start up a Wiki discussion page for this?</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: see COUNTER</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;hpottinger&gt; and see if we can deliver that log for dspace 6</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mhwood&gt; helix84 pointed out that we have a format already, perhaps needing some slight extension.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;hpottinger&gt; oh, yes, the pre-solr stats solution</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;helix84&gt; The tool was written in order to convert from dspace.log to something to be ingested by Solr (and now ES). All the tools are there. We might want to add a few fields, though.</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;helix84&gt; Again, though, this is just a format, which doesn't address the problem of having a consumer which actually stores persistently (in whichever format)</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;hpottinger&gt; a difficult task for data which is missing :-)</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;mhwood&gt; We might split the usage log records out of dspace.log, making both easier to use.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like (with the stats data log) we're jumping to a solution before we know what we need.  The format of such a log (and the data it contains) probably depends on what we are integrating with (and what that external thing needs in terms of data)</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;helix84&gt; To sum up the format situation, the contenders seem to be COUNTER, our statistics.log format (extended) or Solr CSV format</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mhwood&gt; I mean:  don't put usage observations *into* dspace.log in the first place.  Put them elsewhere, in some more useful format (such as what we already have as the output of the converters).</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;tdonohue&gt; +1 helix84...or just a CSV format in general (which may not even be Solr's, but it could be if we plan to continue using Solr)</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood++</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: that would require a definition of what is a "usage observation".  Wouldn't you want to *know* if a user visited an particular Item View page and then an error occurred (as that's the breadcrumb of the error)?  Putting an Item view "usage" log elsewhere makes it harder to debug issues</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: now _this_ is where logstash could help - correlating two separate streams of data</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;tdonohue&gt; yes, I agree..but we don't want to require everyone to use logstash to debug errors ;)</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;mhwood&gt; Well, I need to organize my thoughs a bit.  I just remember all the times I had to dive into dspace.log and thought:  what a swamp this is!</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;tdonohue&gt; I'm just pointing out that "usage observation" is hard to define...and therefore, it's a bit hard to define the contents of a "usage log" without an understanding of where/how this "usage log" will be analyzed (i.e. by what tools, analytics engines)</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;helix84&gt; large dspace.log is a problem on its own - dspace logs filling disk space is common. Now we have a reason to want to keep access logs forever. Why would we want to keep error logs forever? It makes sense to separate them. Apache HTTPD lets you do that, as an example.</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mhwood&gt; Here I'm gathering up log files more than N days old into yearly ZIP archives.  DSpace logs compress about 90-95%.</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;tdonohue&gt; I fully admit, I don't keep logs forever. I don't even keep Apache HTTPD usage logs forever... The stuff I *do* keep is the analysis of the log data.  So, for example, if DSpace integrated with Piwik, I'd backup Piwik and dump the usage logs (after a reasonable amount of time)</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mhwood&gt; I agree that error logs have little long-term value and could be separated out.</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;mhwood&gt; If DSpace stores the observations simply enough, it integrates with everything. :-)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;tdonohue&gt; But, yes, I can see the reasoning here of potentially supporting a "usage log" (like Apache HTTPD) for those who want to keep those around for very long periods of time</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;helix84&gt; well you _currently_ want to keep them because we don't provide persistent storage for these events</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;helix84&gt; at the same time, it currently is very unwieldy to work with</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;tdonohue&gt; So, we aren't going to solve all these problems today.  It sounds like we need to wrap this up :)</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;tdonohue&gt; Should we (a) try and create some JIRA tickets here? OR (b) start up a wiki discussion page on this?....or a bit of both?</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;hpottinger&gt; both</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;pbecker&gt; yes, both</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mhwood&gt; What would be the division?</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;hpottinger&gt; and if we don't have a direction picked out by the time OR15 rolls aorund, we should discuss then</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;tdonohue&gt; It sounds like we've identified several different possible needs:  (1) Usage logs (likely a JIRA ticket), (2) Do we want to continue using our own custom Stats or do we move towards plugins for others (e.g. Piwik) (Wiki page?), (3) If we continue to use Solr Stats, do we need a better persistence layer? (may be related to #1).</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone want to grab one (or more) of those to help create JIRA tickets / Wiki discussion?</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;helix84&gt; I can create the wiki page</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; thanks helix84!</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mhwood&gt; I'll write up a ticket for (1).</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;pbecker&gt; and (4) how do we integrate the results in DSpace (e.g. item view)</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;hpottinger&gt; the nice thing about usage logs is, if we have them, anyone is free to use whatever tool they wish to analyze and visualize them</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; #4 is likely semi-related to #2 (and should be on the wiki page likely), but I agree, pbecker</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger++</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;pbecker&gt; yes</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;tdonohue&gt; To me, it also sounds like, if we have #1, then #3 may or may not be as high of a priority (depending on our long term goals around a statistics engine)</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mhwood&gt; I think #1 will produce most of #3.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;robint&gt; Hi all, just catching up on this conversation</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;robint&gt; Just thought I would throw in that in the UK there is a project called IRUS</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;hpottinger&gt; woah, hey, it's robint!</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;tdonohue&gt; All in all though, this has been a great discussion...lots to think about and brainstorm on.  It also seems like it could feed into the upcoming DSpace Product Roadmap (which will be drafted for discussion at OR15 by myself &amp; others)</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;robint&gt; run by JISC</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mhwood&gt; IRUS is mentioned in a ticket on this issue.</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="http://www.irus.mimas.ac.uk/">http://www.irus.mimas.ac.uk/</a></span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;kompewter&gt; [ IRUS-UK ] - <a href="http://www.irus.mimas.ac.uk/">http://www.irus.mimas.ac.uk/</a></span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;robint&gt; @Mire produced a stats plugin that effectively sends them stats each time an event occurs</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;mhwood&gt; DS-626 mentions PIRUS/PIRUS2/IRUS</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;robint&gt; Same idea as Google, but not Google</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-626">https://jira.duraspace.org/browse/DS-626</a> ] - [DS-626] API for exchange of Usage Data over OAI-PMH or SUSHI - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;robint&gt; The advantage is that unlike Google they have some commitment to their users</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;robint&gt; And the institutions can influence what happens</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;robint&gt; So DSpace gets to offload the stats recording...</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-brick">* hpottinger likes the sound of that.</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;robint&gt; But the users still have some guarantee of longjevity</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;tdonohue&gt; Is IRUS only for UK institutions though?</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;robint&gt; I'm sure thats not how you spell that word :)</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;mhwood&gt; :-)</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;robint&gt; tdonohue: I suspect so, so its not a global solution</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;hpottinger&gt; it's how *you* spelled it ;-)</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;robint&gt; But it may be a model that we could encourage</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;helix84&gt; robint: could you please get back to me and point me to why the decision to use OAI-PMH was made within this project? As Joao (who has extensive experience with both repo statistics and OAI-PMH) pointed out, they're not necessarily a good match.</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;mhwood&gt; "If you are a UK repository wishing to participate in IRUS-UK, please contact irus@mimas.ac.uk"</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;tdonohue&gt; It also looks like, from the IRUS page, that it's COUNTER-compliant...which implies if we can better support COUNTER, we should be able to send data to IRUS?</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;hpottinger&gt; or, you know, adapt the plugin to send data to *something else*</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;robint&gt; helix84: Actually I didn't know it made use of OAI-PMH, not sure why that would be</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;helix84&gt; robint: maybe I'm completely misguided here, sorry</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;robint&gt; tdonohue: The @Mire patch for IRUS is freely available and its small, so we could investigate putting it into master</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;hpottinger&gt; I've got to run soon, so, I'm just going to blurt out: DS-2506</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2506">https://jira.duraspace.org/browse/DS-2506</a> ] - [DS-2506] Case-insensitive browse configuration does not work with discovery browse - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;mhwood&gt; I think the PMH mention was referring to SCEUR.  Read up the ticket a ways.</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;robint&gt; helix84: You could be right, I'm not that familiar with how it all hangs together</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;tdonohue&gt; robint: yea, it might be good to see what this IRUS integration looks like, and whether there's any parallels with resolving DS-626 (SUSHI / COUNTER integration)</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-626">https://jira.duraspace.org/browse/DS-626</a> ] - [DS-626] API for exchange of Usage Data over OAI-PMH or SUSHI - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;robint&gt; tdonohue: Maybe we need another Duraspace hosted project - World Repo Stats!</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;helix84&gt; robint: I'd be happy if you could just get back to me about that later. I did some searching on that but didn't find out because it's a large project and I got lost.</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;robint&gt; helix84: will do</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;hpottinger&gt; robint: do not add to tdonohue's pile</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;tdonohue&gt; robint: um..probably not gonna happen, unless someone wanted to fund us to build World Repo Stats ;)</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;helix84&gt; thanks. btw the ticket is, again, DS-626</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-626">https://jira.duraspace.org/browse/DS-626</a> ] - [DS-626] API for exchange of Usage Data over OAI-PMH or SUSHI - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="http://www.cranfieldlibrary.cranfield.ac.uk/pirus2/tiki-index.php?page=Project+Plan+and+Progress">http://www.cranfieldlibrary.cranfield.ac.uk/pirus2/tiki-index.php?page=Project+Plan+and+Progress</a> source code links there</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;kompewter&gt; [ Home : Project Plan and Progress ] - <a href="http://www.cranfieldlibrary.cranfield.ac.uk/pirus2/tiki-index.php?page=Project+Plan+and+Progress">http://www.cranfieldlibrary.cranfield.ac.uk/pirus2/tiki-index.php?page=Project+Plan+and+Progress</a></span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;hpottinger&gt; re 2506, I'm thinking I'm going to make a PR to remove and/or "deprecate" the configuration which no longer works</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;robint&gt; I'll have a general look at the IRUS stuff tomorrow and send something out</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;robint&gt; Got to run now. Cheers all.</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;mhwood&gt; THanks!</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mhwood&gt; Are we done, then?</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;hpottinger&gt; think so?</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, we're done at this point... it was a very eventful 2-hour meeting :)</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;mhwood&gt; Heh.</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks all for the good discussion on the various Stats issues...it was a lot of good brainstorming &amp; ideas for how to possibly move forward</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;tdonohue&gt; The meeting is officially closed. We'll skip any JIRA backlog review for today, since this meeting ate up that time</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;mhwood&gt; Always happy to inject controversy. :-)</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;tdonohue&gt; Good controversy though... it really was good discussion, and it should help inform the upcoming DSpace Product Roadmap around our Usage Stats options, etc</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-navy">* robint (81d7fa56@gateway/web/freenode/ip.129.215.250.86) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[18:17]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[18:21]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

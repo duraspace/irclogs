@@ -1,0 +1,102 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2011-02-14
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[0:02]</span> <span class="irc-navy">* alxp (~aoneill@blk-30-155-121.eastlink.ca) Quit (Quit: alxp)</span><br />
+<span class="irc-date">[0:02]</span> <span class="irc-green">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[1:17]</span> <span class="irc-green">* snail (~stuart@130.195.179.88) has joined #duraspace</span><br />
+<span class="irc-date">[1:18]</span> <span class="irc-black">&lt;snail&gt; is the facebook sword app working right now? I'm just getting the ajax spinning thing when I hit deposit...</span><br />
+<span class="irc-date">[1:18]</span> <span class="irc-black">&lt;snail&gt; how long should the deposit of a tiny file take, stuartlewis?</span><br />
+<span class="irc-date">[1:22]</span> <span class="irc-green">* alxp (~aoneill@blk-30-155-121.eastlink.ca) has joined #duraspace</span><br />
+<span class="irc-date">[1:29]</span> <span class="irc-black">&lt;stuartlewis&gt; snail: I'll taje a look.</span><br />
+<span class="irc-date">[1:30]</span> <span class="irc-black">&lt;stuartlewis&gt; Has it ever worked for you?</span><br />
+<span class="irc-date">[1:30]</span> <span class="irc-black">&lt;snail&gt; This is the first time I've ever clicked deposit</span><br />
+<span class="irc-date">[1:30]</span> <span class="irc-black">&lt;snail&gt; the collection browsing stuff has always worked for me and still does</span><br />
+<span class="irc-date">[1:32]</span> <span class="irc-black">&lt;stuartlewis&gt; Hmmm... not working for me either.</span><br />
+<span class="irc-date">[1:32]</span> <span class="irc-black">&lt;stuartlewis&gt; Will take a look under the bonnet.</span><br />
+<span class="irc-date">[1:35]</span> <span class="irc-black">&lt;snail&gt; I'm seeing:</span><br />
+<span class="irc-date">[1:35]</span> <span class="irc-black">&lt;snail&gt; 178.79.147.173 - - [14/Feb/2011:14:02:04 +1300] "GET /sword/servicedocument HTTP/1.1" 200 122359 "-" "SWORDAPP PHP library (version 0.9) <a href="http://php.swordapp.org/"">http://php.swordapp.org/"</a></span><br />
+<span class="irc-date">[1:35]</span> <span class="irc-black">&lt;snail&gt; 178.79.147.173 - - [14/Feb/2011:14:14:18 +1300] "POST /sword/deposit/10063/62 HTTP/1.1" 500 1798 "-" "SWORDAPP PHP library (version 0.9) <a href="http://php.swordapp.org/"">http://php.swordapp.org/"</a></span><br />
+<span class="irc-date">[1:35]</span> <span class="irc-navy">* alxp (~aoneill@blk-30-155-121.eastlink.ca) Quit (Quit: alxp)</span><br />
+<span class="irc-date">[1:35]</span> <span class="irc-black">&lt;snail&gt; rather worrinyly I'm also seeing 66.249.69.87 - - [14/Feb/2011:13:36:16 +1300] "GET /sword/deposit HTTP/1.1" 501 989 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +<a href="http://www.google.com/bot.html)"">http://www.google.com/bot.html)"</a></span><br />
+<span class="irc-date">[1:36]</span> <span class="irc-black">&lt;stuartlewis&gt; Hmmm - wonder where they found that link to drawl.</span><br />
+<span class="irc-date">[1:36]</span> <span class="irc-black">&lt;stuartlewis&gt; crawl</span><br />
+<span class="irc-date">[1:37]</span> <span class="irc-black">&lt;stuartlewis&gt; I've just tried a 2nd submission, worked fine this time.</span><br />
+<span class="irc-date">[1:37]</span> <span class="irc-black">&lt;stuartlewis&gt; <a href="http://dspace.swordapp.org/jspui/handle/123456789/812">http://dspace.swordapp.org/jspui/handle/123456789/812</a></span><br />
+<span class="irc-date">[1:37]</span> <span class="irc-black">&lt;stuartlewis&gt; 500 suggests something isn't happy your end (maybe due to what was sent).  Anything in catalina.out?</span><br />
+<span class="irc-date">[1:37]</span> <span class="irc-black">&lt;stuartlewis&gt; I can send you the package if it helps, can deposit that manually.</span><br />
+<span class="irc-date">[1:41]</span> <span class="irc-black">&lt;stuartlewis&gt; 'the testers testing the test'?</span><br />
+<span class="irc-date">[1:42]</span> <span class="irc-black">&lt;snail&gt; yep, that's the only</span><br />
+<span class="irc-date">[1:42]</span> <span class="irc-black">&lt;snail&gt; that's the one even...</span><br />
+<span class="irc-date">[1:43]</span> <span class="irc-black">&lt;stuartlewis&gt; the one and only?! :)</span><br />
+<span class="irc-date">[1:43]</span> <span class="irc-black">&lt;stuartlewis&gt; Want me to email you the package, and a curl command to deposit it?</span><br />
+<span class="irc-date">[1:44]</span> <span class="irc-black">&lt;snail&gt; yes please. it sohuld be nice and small. I'm stuart.yeates@vuw.ac.nz</span><br />
+<span class="irc-date">[1:48]</span> <span class="irc-black">&lt;stuartlewis&gt; curl --basic --user "{username}:{password} -i --data-binary "@/location/of/file.zip" -H "Content-Disposition: filename=foobar.zip"  -H "Content-Type: application/zip" -H "X-Packaging: <a href="http://purl.org/net/sword-types/METSDSpaceSIP"">http://purl.org/net/sword-types/METSDSpaceSIP"</a> -vvv <a href="http://dspace.example.com/sword-dev/deposit/{collection-handle}">http://dspace.example.com/sword-dev/deposit/{collection-handle}</a></span><br />
+<span class="irc-date">[1:48]</span> <span class="irc-black">&lt;stuartlewis&gt; Package sent by email.</span><br />
+<span class="irc-date">[1:56]</span> <span class="irc-black">&lt;snail&gt; cool, thank you</span><br />
+<span class="irc-date">[2:17]</span> <span class="irc-black">&lt;snail&gt; stuartlewis: looks like it could be a METS mapping issue</span><br />
+<span class="irc-date">[2:17]</span> <span class="irc-black">&lt;stuartlewis&gt; How so?</span><br />
+<span class="irc-date">[2:18]</span> <span class="irc-black">&lt;stuartlewis&gt; Have you tinkered with your sword-swap-ingest.xsl much?</span><br />
+<span class="irc-date">[2:38]</span> <span class="irc-black">&lt;snail&gt; stuartlewis: not sure. I'm not poking around until scheduled downtime tomorrow morning, after which I'll let you know</span><br />
+<span class="irc-date">[3:47]</span> <span class="irc-navy">* stuartlewis (~stuartlew@gendiglt02.lbr.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[5:29]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-49-230.clt.bellsouth.net) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:33]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-navy">* DuraLogBot (~PircBot@atlas.duraspace.org) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

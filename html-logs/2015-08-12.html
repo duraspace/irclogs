@@ -1,0 +1,369 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2015-08-12
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[5:57]</span> <span class="irc-green">* cknowles (uid98028@gateway/web/irccloud.com/x-bisvcftdjtdldgzc) has joined #duraspace</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-brown">-sinisalo.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-brown">-sinisalo.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-brown">-sinisalo.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-brown">-sinisalo.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:27]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:29]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-178-45-117.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:59]</span> <span class="irc-green">* jcreel (~jcreel@jcreel.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome. It's time for our weekly DSpace Developers Meeting. Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-08-12 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; First and foremost, we get to tally up the votes with regards to the DSpace Services API work! :)</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; Checking my email, I don't see any votes since I last counted.  So, the totals in the meeting Agenda are the *final tally*!   The DSpace Services API will be added to DSpace 6.0 (by a landslide vote)</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; After this meeting, I'll make sure to close the vote / announce the results on dspace-devel</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; The next steps here will be to talk more about the process of how we work to get the Services API work into "master".  However, as KevinVdV has not yet arrived (he emailed me to say he may be a little late), I'd like to propose coming back to that topic.  KevinVdV has obviously done most of the work here thus far, so it'd be best to have him in that discussion</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;mhwood&gt; Sounds right.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; In the meantime, I'd suggest moving on to other topics.  We'll loop back to this once KevinVdV shows</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; I don't have any other significant updates on 6.0 Status (beyond this Services API stuff).  But, I did want to mention the sidenote in the Agenda on XOAI</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; As you may have noticed, the XOAI project (created by Lyncode) has now be migrated to DSpace control. The code is now at: <a href="https://github.com/DSpace/xoai/">https://github.com/DSpace/xoai/</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/xoai · GitHub ] - <a href="https://github.com/DSpace/xoai/">https://github.com/DSpace/xoai/</a></span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; Joao Melo (of Lyncode) has transitioned this code to us (under the approval of the Committers).   DSpace is the only major project using this XOAI codebase, and it was built (by Joao) with DSpace in mind.  Recently it has not had as much attention</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; Joao also has informed me that he plans to submit a PR to DSpace to help us upgrade to his latest version of XOAI (currently we are a major version behind).  My hope is that this will be included in 6.0 as well</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; From this point forward though, we will have full control of XOAI (and Joao Melo is also a DSpace Committer, so he still retains his rights).  But, it will let us resolve some annoying OAI bugs that have been open for some time (since they were bugs in XOAI itself)</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;mhwood&gt; So now all those things we wished would be fixed...we can fix.  We're also the new owners of 8 existing issues.</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, there are 8 existing "GitHub issues" that came along with XOAI</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;mhwood&gt; We'll need to identify DSpace issues that are awaiting XOAI changes, and places where we worked around problems.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;mhwood&gt; I wonder if any of our existing issues will be addressed by the transition to XOAI 4?</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; yes, most (if not all) of the DSpace Issues (in our JIRA) relating to XOAI have been labeled "xoai" in JIRA.   My understanding is that many of those issues (if not all) may actually be resolved by upgrading Dspace to use XOAI 4  (but that will require verification testing once that upgrade is complete)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-green">* KevinVdV (51f1a4a8@gateway/web/freenode/ip.81.241.164.168) has joined #duraspace</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;mhwood&gt; Good news.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;KevinVdV&gt; Hi all finally made it</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; Hi KevinVdV.  we're briefly talking about the XOAI transition. We'll loop back to the Services API stuff shortly (we were waiting for you)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;KevinVdV&gt; Ok great</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; All that said (on XOAI), there definitely is some work to be done to fully "adopt" XOAI into DSpace.  We'll need to figure out what to do with those old GitHub issues, we'll need to ensure we get upgraded to XOAI 4 (which Joao says he's doing), and we'll need to adopt a process for managing XOAI releases going forward</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;mhwood&gt; Will XOAI issue tracking remain in Github (as existing users might expect) or move to Jira?  How will we keep informed of new issues, if the former?</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: good question. I'd recommend we transition XOAI to using JIRA to be consistent with DSpace.  It's just not something I've gotten to. We also may want to simply treat XOAI issues as DSpace JIRA Tickets (with the "XOAI" label or component).</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; Currently, my hope/plan is that XOAI is simply treated like the Language Packs (which are released separately but logged in JIRA), for simplicity.  If that doesn't work out well, we can always change it later</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; Any other immediate questions about XOAI or the transition to DSpace control?  (If not, I suggest we may want to move back to discussing Services API)</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;KevinVdV&gt; If XOAi is set in a separate module should we not also fix the following dependency: <a href="https://github.com/DSpace/DSpace/blob/master/dspace/pom.xml#162">https://github.com/DSpace/DSpace/blob/master/dspace/pom.xml#162</a></span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/pom.xml at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace/pom.xml#162">https://github.com/DSpace/DSpace/blob/master/dspace/pom.xml#162</a></span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;KevinVdV&gt; Everything in the dspace lib dir depends on this dependency</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;mhwood&gt; Is there something wrong with it?</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;KevinVdV&gt; Nothing "wrong" just strange to have such an important depency not part of the core</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV - I'm not sure that dependency is immediately fixable after moving XOAI over to <a href="https://github.com/DSpace/xoai/.">https://github.com/DSpace/xoai/.</a>   To be clear, XOAI is a separate *GitHub Project* still, and there are no immediate plans to merge it into DSpace/DSpace</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;mhwood&gt; Well, it's only used in the PMH responder and the CLI, no?</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;KevinVdV&gt; It is</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;KevinVdV&gt; Reason I bring it up is in order to install the service api that one needs to be replaced by the additions (cannot be commit since it would break OAI indexing)</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-green">* KevinVdV_ (~KevinVdV@168.164-241-81.adsl-dyn.isp.belgacom.be) has joined #duraspace</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-navy">* KevinVdV (51f1a4a8@gateway/web/freenode/ip.81.241.164.168) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-green">* KevinVdV_ is now known as KevinVdV</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV: not sure I understand that last statement.  I agree with your concern though..it is an "odd" dependency. But, we have no other way (yet) to make OAI PMH CLI tools actually "work" without this dependency</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; If you have a proposal for a better way though, I think we'd all be open to ideas</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mhwood&gt; I don't see why it is odd for DSpace CLI tools doing PMH things to depend on DSpace glue code for XOAI.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-brick">* tdonohue also notes I do want to get back to discussing next steps for Services API.  I'd hate to dwell too much on this one dependency right now</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;KevinVdV&gt; Ok lets do the dependency later on ;)</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;KevinVdV&gt; It will become clear once the steps to install are known</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;KevinVdV&gt; Which I plan to release with the pull request</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; So, back to the Services API.  As announced previously, Services API is approved for 6.0 (by a landslide vote).  So, now, we need to plan out how to get it ready for 6.0</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; I had detailed some possible steps in the agenda (see 1. b.): <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12</a></span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-08-12 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12</a></span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; But, I wanted to be sure we discussed them, tweaked them as necessary, and came up with a final plan</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mhwood&gt; I'm not clear on why we need to freeze master if we are going to be making a branch for this.</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: because this change is so massive, if we let other things onto "master" we need to refactor this branch over and over</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; So, maybe it's a "soft freeze"...but, ideally we don't want "master" changing rapidly while we finish up this feature branch</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; Plus, we don't want to merge something into master that would essentially be obsolete as soon as the feature branch is merged</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;mhwood&gt; Merge early, merge often, makes small conflicts instead of big ones.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;mhwood&gt; What would be obsoleted?</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;KevinVdV&gt; Well it isn’t exactly merging, it is rebasing</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; because every class has changed, every rebase is a piece of work</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;peterdietz&gt; I think there might be some time gaps between checkpoints where the whole refactor is stable, and not introducing issues. i.e. The webapps need many hands to finish the refactor, right?</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;peterdietz&gt; So. in leiu of destabilizing master for the next month, we'll freeze it. Work on a feature branch until it is mostly stable. That saves us from laborour rebasing, that isn't neccessary</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; +1 peterdietz</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; yes, to be clear, the reason we aren't doing this work directly on "master" is that DSpace won't build until this work is complete.  Rather than destabilizing all of "master", we'll work off of a unstable feature branch, and merge it over once it is stable</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mhwood&gt; I'm not going to argue forever.  But this seems like a complicated way of tagging the current master and declaring "no changes except Services until further notice".</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;KevinVdV&gt; Is there a reason to not put it on master directly ? (Don’t mind…. just wondering)</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;KevinVdV&gt; Beside to not break the master</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;pbecker&gt; I don't see any advantages by using a feature branch. Even if we break the master branch: what's the problem? It will get massive changes anyway, by working on the master everyone just see that something big is comming....</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; it is the same idea. The only reason I was proposing this is that we tend to try and ensure "master" at least compiles/passes unit tests.  If we want to make an exception here and just break master, then we could do so, I guess</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;mhwood&gt; That's essentially my question.  If master is frozen, it's the same as just tagging the last known working master.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;pbecker&gt; KevinVdV++</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: adding a tag seems to be a good idea.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;peterdietz&gt; One alternative is to have people make Pull Requests to Kevin's branch... Its just bad practice to have a broken master. Even if we don't support pre-6.x yet</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mhwood&gt; The reason you do a feature branch is to expose a massive bit of work for lots of people to work on, while enabling continued work elsewhere.  If we forbid the continued work elsewhere, there's no reason to branch.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; My only other thought here is that it's *much* easier to monitor for "accidental" PR merges to "master" if we are doing this work elsewhere (feature branch, etc).  If everyone is committing to "master" like crazy, we may not notice if some PR button is pressed along the way</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;KevinVdV&gt; Makes sense Tim</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;pbecker&gt; We could create PRs as we do normally. At least in the last three years I do not remember any case of a "accidental" merge.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;peterdietz&gt; We _could_ make just-in-time security / bug fixes to master. Also. There is a non-zero chance that the whole refactor is a failure, and we'd have to yank it out. If its in master, its a mess. If its an unmerged feature branch, no harm.</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; +1 peterdietz</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;peterdietz&gt; Its only a state we'll be in for.. a month?</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;pbecker&gt; peterdietz: good point.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; I honestly think this work is better done in a temporary feature branch.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;KevinVdV&gt; I agree now</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;peterdietz&gt; <a href="http://nvie.com/img/git-model@2x.png">http://nvie.com/img/git-model@2x.png</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;pbecker&gt; I agree too.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;mhwood&gt; I agree about the feature branch.  I'm unconvinced about freezing master.</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; think about the "freeze" as a "soft freeze".  No more merging things just cause it gets a few votes.  Instead, please check with those working on Services API *first*</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;peterdietz&gt; Don't merge Tim's dynamic configs into master, until after the refactor</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; As peterdietz notes, there may be a need for "just-in-time security/bug fixes" to master even during "freeze"</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: haha..yea, that too</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;jcreel&gt; I’m with mhwood.  If one worries about the difficulty of merging the branch back into master after master has changed a lot, just regularly pull master into the feature branch while developing.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; The problem here is that the Services API is not backwards compatible with the existing Java API.  So, not all changes to "master" may end up easy to "rebase/merge" into the active feature branch.  It'll almost be a case-by-case decision</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;pbecker&gt; I would agree to mhwood if this work could have been done in many many small steps. But as it changes almost every class within DSpace I can hardly thing about the work done in a rebase.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;pbecker&gt; s/done/necessary</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: I would agree to mhwood if this work could have been necessary in many many small steps. But as it changes almost every class within DSpace I can hardly thing about the work done in a rebase.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; That's why I think we need to be *very careful* about stuff going into master (as it could have the side-effect of making the Services API even harder to merge / take longer)</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-brick">* pbecker will work on his regex skills ;)</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;mhwood&gt; :-)</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; So, I still think we consider this a "soft-freeze" of "master". If something absolutely has to get in, we can let it in. But, we should make sure it gets approved/noticed by those working on Services API branch</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; Does that sound reasonable enough?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;KevinVdV&gt; Indeed</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;mhwood&gt; I can work with it.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;peterdietz&gt; freezing master. dedicating effort to finalizing the hibernate feature branch, and then eventually merging hibernate branch into master sounds good to me.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;pbecker&gt; +1</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; OK.  So, that sounds like our overarching "process" here.  Now, we need to dig into a few more details.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;mhwood&gt; Are we ready to deal with the flood of PRs unleashed when we merge the branch?</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; 1) We need a feature branch created.  KevinVdV, I'm assuming you'll take this on as soon as you are ready?</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;KevinVdV&gt; Yes, just wondering how best to approach this</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;pbecker&gt; How do we communicate the soft-freeze? It would be good to get it out so nobody gets upset about even longer review times than normally...</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; 2) We need others to claim one or more modules (JSPUI, LNI?, OAI, RDF, REST, SERVICES, SWORD, SWORDv2).  So, we may want to create a To-Do list that folks can claim items from</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;pbecker&gt; (or about need to rebase his/her PRs)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;peterdietz&gt; I'll claim REST</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: I aim to send a summary email to dspace-devel.  My hope is this "soft-freeze" should only be for a week or two, if we can work together quickly on this</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; I know Cineca said they'd help on JSPUI</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;pbecker&gt; I'll claim RDF (even I think Kevin already done most of the work)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;peterdietz&gt; If I'm touching REST, and I want to apply a bug fix to REST... Can I make that fix to REST in my patches to services? Or.. keep this stuff disjoint.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;mhwood&gt; peterdietz++</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;KevinVdV&gt; Would you have to make a pull request against the feature branch ?</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;pbecker&gt; I would prefer if we continue to work with PRs against the feature branch.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;peterdietz&gt; Phase 1 = Finish the Refactor. Phase 2 = Services gets merged, and make your PR's against normal DSpace (new normal = hibernate inside)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: yes, if you make a PR against the feature branch. We need bug fixes tracked in PRs/JIRA tickets</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue++</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; Put me down for OAI.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; I agree with pbecker. Perhaps to better follow our own rules, maybe we just create PRs against the feature branch for *all* changes?  I.e. we have a PR for "OAI", "REST", etc. (instead of doing direct commits)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;mhwood&gt; Sounds better.  I don't want other work to go stale.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;KevinVdV&gt; Yeah I would prefer Pull Requests as well, so I can take a quick look at it</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; It seems unlikely that we would have to unwind it all and redo master.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;pbecker&gt; I think we will have PRs against the feature branch (from people working on getting it mergable) and PRs against our master (for other fixes/features/work). But everyone will know against which branch she/he will create a PR.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I think we have a plan solidifying here now.  Here's what I see as the steps:</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; (1) KevinVdV will create our initial feature branch and move over the initial code.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; (2) We'll take volunteers to create PRs against that new Feature Branch to fix up all other modules (and I'll create a signup list, so we can ensure no one is duplicating effort).</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; (3) As a PR is finished, notify others and we'll give it a quick review before merging into the active feature branch.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; (4) Once all modules are fixed, we'll then do a final quick review/test of feature branch, and then merge it over to "master"</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; During this process, "master" will be under a "soft freeze".  Changes are only allowed if they get reviewed/noticed by the team working on the feature branch</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; Sound good?</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;mhwood&gt; Okay.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;KevinVdV&gt; Sound good, for information: I should have the pull request ready next week for the DEV meeting. So we can discuss the state of it &amp; how to install</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;peterdietz&gt; Sounds good to me. Isn't it just git push dspace dspace-service-api, or is it still in flux on your end</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;KevinVdV&gt; Well I might want to get a few more fixes in</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV: So, it sounds like you want the initial commit (to the feature branch) to also be a PR?  That's fine by me. If so, we can create the feature branch *now* as an exact copy of master, and let you submit the initial PR to that feature branch</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-green">* lo5an (~lo5an@unaffiliated/lo5an) has joined #duraspace</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;KevinVdV&gt; That would be great yeah</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;KevinVdV&gt; Don’t want to start pushing a branch to the dspace git</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, sounds good.  I'll do the following then later today...(a) Create a JIRA ticket for this (I realized we don't have one yet).  (b) Create an initial feature branch immediately for that JIRA ticket work.     Then, you can create your PR against that feature branch</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; I'll also summarize these steps in a followup email to dspace-devel</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; against next week I should have the pull request ready, how to install &amp; docs on how to migrate + complete changelist of the dspace api</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks KevinVdV. The sooner we can kick this off the better. So, thanks for working hard to get this all ready quickly</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;KevinVdV&gt; Yeah I’ll try to get everything in place a bit before the meeting, so you guys can review it before &amp; then we can use next week to clear things up</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;KevinVdV&gt; If that sounds good ?</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;pbecker&gt; So the master soft freeze starts as of today?</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mhwood&gt; Thank you.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds good, KevinVdV</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;KevinVdV&gt; I will be present again next week (&amp; should be on time that time, since it is during my evening)</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;mhwood&gt; I appreciate your taking time out of your evening.</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: yes. I propose that the "soft freeze" begin immediately (to make KevinVdV's PR job easier).</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;KevinVdV&gt; mhwood: No problem I’ve been working on this pull request for over a year &amp; a half, a lot of time was during my weekends… so an evening won’t matter much ;)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; As we are now over our allotted meeting time, I'm not going to cover any of the other topics on the agenda (SourceForge migration updates, UI Working Group mtg notes). There are links / basic details already on there <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12</a>  If there are questions though, I'm glad to answer them</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-08-12 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-08-12</a></span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: I totally agree, just wanted to be crystal clear.</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; As mentioned, I'll summarize these next steps to dspace-devel, and I'll make sure to note the soft freeze, etc.  Thanks all for helping to dig through these details :)</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;KevinVdV&gt; I need to leave now though, need to go eat</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;KevinVdV&gt; Until next week !</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@168.164-241-81.adsl-dyn.isp.belgacom.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; The official meeting is closed (no new topics). But, I will be around if anyone has questions or other topics to bring up informally</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;jcreel&gt; Perhaps I had an ulterior motive in wanting the master branch not-too-frozen.  Texas A&amp;M wanted to get some thoughts on possible PRs.</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; jcreel: "soft freeze" doesn't mean we won't accept PRs.  PRs are *always* welcome. But, we aren't going to merge them until after the Services API stuff gets in</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;jcreel&gt; A customer here had issues with snippets of fulltext for restricted bitstreams showing in search results, and in the course of addressing this problem we fixed <a href="https://jira.duraspace.org/browse/DS-2442">https://jira.duraspace.org/browse/DS-2442</a> locally</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2442] Extracted TEXT is always publicly searchable, even if the source file is restricted - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2442">https://jira.duraspace.org/browse/DS-2442</a></span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2442">https://jira.duraspace.org/browse/DS-2442</a> ] - [DS-2442] Extracted TEXT is always publicly searchable, even if the source file is restricted - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;mhwood&gt; I'm sure we'd all like to see that.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;jcreel&gt; So that’s pretty straightforward, we’ll make a PR into DSpace/master</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; jcreel: yes, sounds like a great bug fix.</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;jcreel&gt; Then we also need some more things in the build.properties to help with automated deployments.  In particular, the Google Analytics key, the useProxies flag, and the request item type.  Basic stuff, just a few lines in build.properties and dspace.cfg</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;tdonohue&gt; I really do hope that this "soft freeze" will only last 1-2 weeks.  But, unfortunately, there's no easy way around this...it is a major API refactor, and it is not backwards compatible (which is why the soft freeze is needed)</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;peterdietz&gt; Sounds fine. Since we're not releasing MASTER any time soon, probably won't merge a PR until after the service clears through.</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;jcreel&gt; no problem</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mhwood&gt; Not backward compatible with build.properties? with CSS?</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;peterdietz&gt; (personally, I kind of hate build.properties. My deploys use a stock build.properties, and we manage changes through distinct repos/branch just for configs)</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; jcreel: regarding "build.properties", you might want to look more at DSPR#991.  It may end up changing how configs are loaded (and possibly make "build.properties" obsolete)</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/991">https://github.com/DSpace/DSpace/pull/991</a> ] - DS-2654 : Reloadable Configurations via Apache Commons Configuration by tdonohue</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: my response about API being "not backwards compatible" was a general statement about PRs..not specific to any particular one ;)</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mhwood&gt; peterdietz:  I have a script that writes e.g. Ds-1234.properties for me.  Agreed, it's a pain, especially since building uses *none* of it.</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;tdonohue&gt; I need to more clearly document the work in #991, but in moving to Apache Commons Configuration, all our "build.properties" custom "magic" is no longer necessary (hence it may become "obsolete" to some extent)</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;mhwood&gt; Yay!</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;jcreel&gt; Is that anticipated for the 6 release?</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;peterdietz&gt; I build once, deploy many. If I had to have a distinct build.properties, and rebuild the code for each variation. My code bases would all still be compiling...</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;tdonohue&gt; jcreel: yes (at least I'm aiming for 6.0)</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;tdonohue&gt; jcreel: you can see the "wish list" for 6.0 at: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status</a>  (Anything that is "assigned" is likely to happen. Un-assigned tasks are less likely)</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 6.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status</a></span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;tdonohue&gt; (Nothing on the "wish list" is guaranteed yet, until it is voted in, though)</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mhwood&gt; peterdietz:  that's my objection.  None of that gets compiled in, and Maven doesn't make any decisions from it.  Ant could apply that stuff to the same artifacts over and over.</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;tdonohue&gt; With Apache Commons Configuration, all the "variable interpolation" (which build.properties tries to do in a weird custom way) is automatic. It's handled by Commons Configuration itself, and we no longer need to do *any* interpolation (via either Maven or Ant)</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;mhwood&gt; But at some point it won't even be install-time stuff.  As tdonohue says.</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;tdonohue&gt; (Well, we no longer have to do *any* interpolation in config files... we still may need to do it for things like variables in web.xml files)</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;mhwood&gt; I would argue that we ought to stop that too, and let the Context supply those data.</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;tdonohue&gt; +1 (I was just noting the limitation of what Commons Config does for us)</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;tdonohue&gt; This all reminds me, I need to enhance the basic notes on #991. I'll try to do that today at some point too</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;jcreel&gt; We’ll hold off on PRs for build.properties stuff (although see <a href="https://jira.duraspace.org/browse/DS-1463?jql=text%20~%20%22build.properties%22">https://jira.duraspace.org/browse/DS-1463?jql=text%20~%20%22build.properties%22</a> )</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1463?jql=text%20~%20%22build.properties%22">https://jira.duraspace.org/browse/DS-1463?jql=text%20~%20%22build.properties%22</a></span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1463">https://jira.duraspace.org/browse/DS-1463</a> ] - [DS-1463] Configuration of Google Analytics in build.properties - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;jcreel&gt; We do one-click build and deploy with Chef, and templating the build.properties was a very nice approach for us.</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;peterdietz&gt; Interesting. Do you have a write up on this?</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;tdonohue&gt; jcreel: ok. Just as a note, that 1463 ticket would be "obsolete" if Commons Config was used (PR#991).  Commons Config would let you still have a custom "local.cfg" or "build.properties" (if you still want to call it that) which could override ANY default configuration value.  Again, I need to write the up</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;tdonohue&gt; (i.e. once we use Commons Config, you could create a "local.cfg" and put any configs from 'dspace.cfg' or any other '*.cfg' into it. The value in your "local.cfg" would override the default value)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mhwood&gt; Which means that dspace.cfg and modules/*.cfg should disappear into the code.</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;jcreel&gt; peterdietz, we have some internal wikis and stuff, mostly institution specific, although we have presented at Texas Conference on Digital Libraries.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;jcreel&gt; It does sounds like Commons Config is an improvement and compatible with our approach.</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;tdonohue&gt; jcreel: yes, to be honest, I use build.properties in a similar fashion. I think the Commons Config approach would be backwards compatible with that concept.</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;pbecker&gt; May I come up with another (short) topic? Does anyone here has plans for a 5.4 release? Does anyone here knows if anyone else has plans?</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;pbecker&gt; I'm just asking as I created a PR and the corresponding ticket could use a fix version 5.4 but that only makes sense if we plan to release 5.4...</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;mhwood&gt; Did someone just volunteer to be the 5.4 RC? :-)</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-black">&lt;peterdietz&gt; I have a minor thing that I could append to 5.x</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-brick">* pbecker looks around like he didn't read mhwood comment. ;-)</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mhwood&gt; Hm.  If master is frozen, then 5.4 work can't be forward-ported yet.  We'd need to keep a list of what to carry forward after Services is merged.</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;pbecker&gt; the basic question is, whether I should create a version 5.4 in Jira.</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;tdonohue&gt; I think the quick answer is: currently there are no plans for a 5.4, as there don't seem to be any issues pressing enough to warrant a 5.4 release.</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: we won't release 5.4 within the next four weeks. tdonohue mentioned several times that he hopes the master is frozen for not much more than two weeks....</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mhwood&gt; I guess that Git would make that list, if we ask it properly.</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;tdonohue&gt; If an issue warranted a 5.4 release, then we can do one. But all I've seen are minor tickets which likely can wait until 6.0</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: and how do we handle this normally? Do we create it in Jira and see how much fix versions we get together? Or do we wait until we know we'll get enough together?</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;pbecker&gt; s/how much fix versions/how much tickets with the appropriate fix version</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: tdonohue: and how do we handle this normally? Do we create it in Jira and see how much tickets with the appropriate fix version we get together? Or do we wait until we know we'll get enough together?</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;tdonohue&gt; Honestly, considering it's August already (and 6.0 is coming in &lt;6 months), at this point, I think we "assume there will NOT be a 5.4" unless something major pops up.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;pbecker&gt; and do we track small issues that should be included in case something majors comes along?</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker, as long as you tag those bug tickets as being an issue in 5.3, and "fixed in" 6.0, then we can find them in JIRA later on if we need them</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mhwood&gt; I see the problem.  Probably we should *always* have a "next minor release" open.  If we decide not to release it, everything tagged for it gets moved to the next major release.</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;pbecker&gt; mhwood++</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: I would prefer what mhwood just proposed. Do you have objections?</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;mhwood&gt; There wouldn't be any mention on the release timeline until a decision is made, to release it or not.</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;tdonohue&gt; My only concern is that if we have a bunch of bug tickets scheduled for 5.4, are we going to remember to review them for consideration in 6.0 (if 5.4 doesn't happen)?</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;pbecker&gt; I either have on fix version (the next major release) or two (the next minor AND the next major). But I never use the next minor release only as fix version.</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;pbecker&gt; I thought that would be a "silent rule"?</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mhwood&gt; We'll remember if we put that step on the checklist for beginning a release.</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;tdonohue&gt; Another concern: If we never do a 5.4 release, what happens when people find tickets that say "Fixed in 5.4"?  Are we setting ourselves up for a bunch of later questions about "where's this 5.4 release that is noted in JIRA?"</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mhwood&gt; After the decision not to do 5.4, they all become "fixed in 6.0".</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; I'm open to ideas here. I'm just pointing out that this isn't really an "easy problem".</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: In case of DS-2623 I would like to set Fix Version: 5.4, 6.0.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2623">https://jira.duraspace.org/browse/DS-2623</a> ] - [DS-2623] Integrity error on file uploads  - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: but, there's never a point where we truly decide *against* a 5.4.  We may say that we aren't doing one this year.  But, if we discover a security issue in 2016, we may end up doing a 5.4 security release then</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;mhwood&gt; Ah.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;pbecker&gt; but we do not use the fix version as a final decision. We add fix versions to tickets that still need code reviews. It always just communicates a plan and is not documentational only.</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;pbecker&gt; I see the fix version field in jira as beeing tentative and the release status pages in confluence as being more concrete.</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: but fix versions on *closed* tickets are the ones I'm concerned on. If a bug fix is closed and states it was "fixed in 5.4", then we are likely to have questions about that 5.4 release at some point</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;pbecker&gt; true.</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;pbecker&gt; I don't see that we are going to look over all tickets planed for the next major, when we decide to do another minor release. But do we have other possibilities to mark a ticket as being a possible candidate for another minor release?</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;pbecker&gt; Perhaps a new label?</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;mhwood&gt; So what this is all dancing around is:  how to communicate a plan to put this code in *the next release*?</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;tdonohue&gt; there's just not really an "easy answer" here (I wish there was).  I tend to not create a JIRA "version" until we are "fairly certain" it will happen.  But, that's just been "the way I do it", and I am open to suggestions for changes</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;pbecker&gt; what about a label: next-minor-candidate?</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;pbecker&gt; if we decide for a 5.4 we can look up all open tickets with this label.</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;pbecker&gt; if 6.0 is released and the ticket is closed we do only security fixes in 5.4.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: why can't you just tag a ticket as: (1) a bug, (2) exists in 5.3, and (3) fixed in 6.0.   Then if we do a 5.4, we can simply search for all 5.3 bugs fixed in 6.0 and decide which to add</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;pbecker&gt; that's fine too, but will we remember to check this?</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;pbecker&gt; my only doubt is, that we do not check it.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;mhwood&gt; Put it on the start-of-release checklist.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;tdonohue&gt; +1</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;pbecker&gt; isn't that to late?</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;peterdietz&gt; "ok google, remind Pascal to search for 5.4 bugs in 2 months"</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;pbecker&gt; nevermind.</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;tdonohue&gt; I don't see how adding a new label increases our likelihood of checking this.  But, I do agree, there is a risk of forgetting to do this.  We just need a place to add a reminder (just in case)</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;mhwood&gt; Let's look at this the other way around.  What would be a reason to schedule an issue *not for the next release*?</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;pbecker&gt; it is unclear what is mend by the term "next release".</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;pbecker&gt; minor or major? and in case of minor: will there be one at all?</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;tdonohue&gt; as I said, this is "not an easy problem" :)  I don't have a great answer here.  The best I've been able to figure out is to use JIRA as I described above. Flag tickets as bugs, make sure you note the *most recent version* of DSpace it affects (e.g. 5.3) and the version numbers of the *branches* it was fixed on (e.g. 6.0 for "master" at this point).</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;peterdietz&gt; I would make a 5.4 jira branch. assign things to it (in addition to 6.0). Have them get merged in 5.x.. If 5.4 is unreleased, then ohh well?</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;pbecker&gt; peterdietz: that was my initial proposal. But Tim brought up that Jira is also some kind of documentation. Think you find a closed ticket with a Fix Version and start to look for the appropriate version. Would you expect that it may never be released?</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;pbecker&gt; The only place I found we could put this is <a href="https://wiki.duraspace.org/display/DSPACE/ReleaseCoordinating#ReleaseCoordinating-ThingstoDoattheStartofaReleaseCycle">https://wiki.duraspace.org/display/DSPACE/ReleaseCoordinating#ReleaseCoordinating-ThingstoDoattheStartofaReleaseCycle</a></span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;kompewter&gt; [ ReleaseCoordinating - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/ReleaseCoordinating#ReleaseCoordinating-ThingstoDoattheStartofaReleaseCycle">https://wiki.duraspace.org/display/DSPACE/ReleaseCoordinating#ReleaseCoordinating-ThingstoDoattheStartofaReleaseCycle</a></span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: I'll just send you all the questions about "where do I download this 5.4 release? I want this bug fix" ;)</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;pbecker&gt; But I'm afraid if it will be found there. I wouldn't put it on the page that describes how to make a release, as that is to late to look for possible bugfixes...</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;peterdietz&gt; I'll point them to: <a href="https://github.com/aws/aws-sdk-java/releases">https://github.com/aws/aws-sdk-java/releases</a></span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Releases · aws/aws-sdk-java · GitHub ] - <a href="https://github.com/aws/aws-sdk-java/releases">https://github.com/aws/aws-sdk-java/releases</a></span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;pbecker&gt; s/if it will/it won't</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: But I'm afraid it won't be found there. I wouldn't put it on the page that describes how to make a release, as that is to late to look for possible bugfixes...</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;peterdietz&gt; AWS SDK Java, cuts a release after each merge. I'll ask whoever asks me for the release to build me a robot. Then, we're good right?</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;pbecker&gt; sorry I hopped this would be a short and easy question, will have to leave soon.</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;tdonohue&gt; Unfortunately, the reality here is that it's a very time-dependent answer.  If you asked about this in April/May, I'd say "create a 5.4 version, there's likely to be a 5.4 bug fix release".  But, since it's August, and *ALL* our effort is going towards 6.0, the answer is different. At this point, I think it's highly UNLIKELY we'll have a 5.4</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;tdonohue&gt; Or to put it more clearly, 5.4 is really only going to happen if we notice a *massive bug* (unlikely to happen since 5.x has been in the wild for a while now), or a security issue</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: are you asking me to look out for another security issue? ;-)</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;pbecker&gt; I'll leave it as it is (no note in the wiki, fix version to 6.0) for now.</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;pbecker&gt; sorry for bugging you on that, but as I expected it was a good idea to ask before I just created a 5.4 version in jira.</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;tdonohue&gt; So, I wouldn't put a ton of effort into a 5.4 right now, unless you want to lead the release. If *you* really want to see a 5.4 release happen, maybe it can happen (but realize much of everyone's effort is on 6.0 now)</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;pbecker&gt; I do not have any ambitions regarding a 5.4. I just thought that it would be good to mark candidate PRs that should go in the next minor in case there will be one....</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;tdonohue&gt; if it's about *PRs* you could simply create a label in GitHub, honestly. Flag it as "5.x" (meaning the PR is compatible with 5.x).  You were asking more about JIRA tickets, which are a bit more of a "final record" of changes/fixes in a release.</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;tdonohue&gt; JIRA tickets drive our "Version History" documentation, hence..I care a bit more about them being "correct".  PRs are more for developers, so I don't mind adding more labels/notes there</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;pbecker&gt; interesting idea. will do, thanks!</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;mhwood&gt; Good point.  PRs represent code, so it makes more sense for them to be scheduled.  An issue with no code is just a request.</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;peterdietz&gt; I'm wondering if <a href="https://jira.duraspace.org/browse/DS-2563">https://jira.duraspace.org/browse/DS-2563</a> will become obsoleted by services?</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2563] Error releasing database connection - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2563">https://jira.duraspace.org/browse/DS-2563</a></span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2563">https://jira.duraspace.org/browse/DS-2563</a> ] - [DS-2563] Error releasing database connection - DuraSpace JIRA</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: possibly. I suspect we'll need to review database related tickets (in general) and see if they are still applicable for 6.0.</span><br />
+<span class="irc-date">[18:35]</span> <span class="irc-navy">* jcreel (~jcreel@jcreel.tamu.edu) Quit (Quit: jcreel)</span><br />
+<span class="irc-date">[18:49]</span> <span class="irc-navy">* lo5an (~lo5an@unaffiliated/lo5an) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[18:52]</span> <span class="irc-green">* lo5an (~lo5an@unaffiliated/lo5an) has joined #duraspace</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-navy">* cknowles (uid98028@gateway/web/irccloud.com/x-bisvcftdjtdldgzc) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:edd6:1051:22d0:b02c) has joined #duraspace</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-178-45-117.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:02]</span> <span class="irc-navy">* lo5an (~lo5an@unaffiliated/lo5an) Quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)</span><br />
+<span class="irc-date">[23:29]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:edd6:1051:22d0:b02c) Quit (Quit: Leaving.)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

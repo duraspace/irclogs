@@ -1,0 +1,266 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2009-06-30
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><pre>
+
+ggory has quit ()
+--&gt; grahamtriggs (n=trig01@195.128.10.96) has joined #duraspace
+ awoods (n=awoods@173.66.53.150) has joined #duraspace
+ mhwood (i=mwood@mhw.ulib.iupui.edu) has joined #duraspace
+ bbranan (n=lc@70.121.159.9) has joined #duraspace
+&lt;-- bbranan has quit (Read error: 104 (Connection reset by peer))
+--&gt; bbranan (n=lc@70.121.159.9) has joined #duraspace
+ fzzzt (n=Josh@dhcp103-61.cs.cornell.edu) has joined #duraspace
+&lt;fzzzt&gt; it does exist!
+&lt;-- fzzzt (n=Josh@dhcp103-61.cs.cornell.edu) has left #duraspace
+--&gt; eddie27182 (i=52e0627a@gateway/web/freenode/x-b9069c461a72ee57) has joined #duraspace
+&lt;cwilper&gt; Fedora Committer meeting starting in a couple minutes, see https://fedora-commons.org/confluence/display/FCREPO/2009-06-30+-+Committer+Meeting
+&lt;awoods&gt; can I skype in?
+&lt;grahamtriggs&gt; you can skype out ;)
+--&gt; kstrnad (i=4e2af9b1@gateway/web/freenode/x-88c771c3610b89ad) has joined #duraspace
+--- #duraspace :You need to be a channel operator to do that
+&lt;awoods&gt; eddie: mibbit irc client no longer works with freenode
+&lt;cwilper&gt; 1. Report on OSGi conference (Eddie)
+&lt;bbranan&gt; eddie: OSGi conference update
+&lt;cwilper&gt; Eddie went to Zurich conf last week
+ Who attended: osgi spec folks, vendors, etc
+ Heard: What's coming in next rev of spec, various talks on what people are doing with it
+ Aaron and Eddie possibly going to Repository Fringe: http://wiki.repositoryfringe.org/index.php/Main_Page
+ Heard again: wrapping Fedora as a whole first, then doing individual pieces makes sense
+ Project Jigsaw...someone from this was at conf: http://java.dzone.com/news/java-modularity-osgi-and
+ SpringSource ppl at conf as well
+ New osgi blueprint service, part of 4.2 spec later this year, basically spring dm
+&lt;bbranan&gt; Maven is moving to OSGi
+ Problems we will probably face: When is Fedora started up? You can't rely on any particular bundle to be available
+&lt;cwilper&gt; Eddie is jazzed
+&lt;-- kstrnad has quit ("Page closed")
+--&gt; kstrnad (i=4e2af9b1@gateway/web/freenode/x-6e1b7db32049e7fd) has joined #duraspace
+&lt;cwilper&gt; OSGi alliance - excited about how ppl can make $ w/bundles ... this helps bring more activity to the community (paraphrased)
+ lots of projects moving to osgi
+ would help us become part of larger dev community
+ (from chris) recommended reading: http://www.javaworld.com/javaworld/jw-03-2008/jw-03-osgi1.html
+&lt;bbranan&gt; eddie: getting together with Aaron to work on this the last week in July
+&lt;cwilper&gt; also, a nice follow-on tutorial: http://www.javaworld.com/javaworld/jw-04-2008/jw-04-osgi2.html?page=6
+ eddie heard talk on maven-splitting-out and osgi-splitting-out.  "one-to-one mapping looks fine from dev perspective, but maybe not so much for users"
+ users = "consumers"
+ heard: "insane not to have maven repo for production"
+&lt;grahamtriggs&gt; insane not to push back to the central maven repository!! Mark Diggory did a lot of work with publishing our Maven artefacts in central, and the mechanism could be used across the duraspace sphere
+&lt;cwilper&gt; Discussion of FCREPO-510 reported by Willy Mene (This issue has been resolved, but the discussion about the extent to which FESL will handle AuthN is still worthwhile - Bill)
+&lt;mhwood&gt; And publish a human-readable list of artifacts, with descriptions.  Don't make people hunt them down.
+&lt;cwilper&gt; re: pushing to central, agreed, when we get there, need to push to central regularly via rsync
+ FESL doing authN via JAAS
+ 3. # Decision on next week's Special Topic meeting (see candidates)
+ candidates: http://fedora-commons.org/confluence/display/FCREPO/Meeting+Notes
+ http://www.dimdim.com/
+ Decided: topic for next week is Code review/overview of maven work (Andrew)
+ http://fedora-commons.org/confluence/display/DEV/Searching+for+a+Forum
+ Talking about move to forum/message board
+ Site Bill has set up, where we're testing phpBB: http://fedora-commons.forumotion.com/
+&lt;grahamtriggs&gt; There is a largely underused forum on dspace.org as well... maybe we should look towards an integrated duraspace forum, with areas for Fedora, DSpace, etc.?
+&lt;awoods&gt; what forum tool does dspace use?
+ How does it compare with the req-list on the above wiki link?
+&lt;grahamtriggs&gt; Fireboard - integrated with Joomla
+&lt;eddie27182&gt; google groups vs web forum
+&lt;grahamtriggs&gt; it probably doesn't, but I'll quite happily flag wave for trashing the existing dspace.org forum to get something better!
+ re: dimdim - another similar kind of thing: http://www.yuuguu.com/home
+&lt;awoods&gt; the issue with yuuguu is the limited number of concurrent users allowed
+ 30
+&lt;grahamtriggs&gt; dimdim is going to cost you (not entirely clear how much), if you want to go much above that. Yuuguu does have the audio conferencing facilities (global dial in numbers) which could be useful (ie. for people wanting to dial in to this meeting!)
+&lt;awoods&gt; where are you located, Graham?
+&lt;grahamtriggs&gt; London
+&lt;cwilper&gt; can add global #s for freeconferencecall.com, which is what we're on now: http://www.freeconferencecall.com/prodfreeintl.asp
+&lt;eddie27182&gt; re: #3 above, decided to discuss maven migration at the next special topics meeting
+&lt;cwilper&gt; discussing the top two issues here: https://fedora-commons.org/jira/secure/IssueNavigator.jspa?reset=true&pid=10051&status=10001
+&lt;eddie27182&gt; oops just saw andrew's comment to that effect
+&lt;grahamtriggs&gt; ahh... I was trying to figure that out, to see if there were alternative numbers available ;)
+&lt;cwilper&gt; https://fedora-commons.org/jira/browse/FCREPO-509
+ bill noticed this while looking into fcrepo-510
+&lt;eddie27182&gt; re: fcrepo-510, trying to decide what to do when a pid is specified in the request that differs from the pid in the foxml
+&lt;cwilper&gt; last words: andrew will be doing a medium-sized push to trunk soon
+* cwilper raises a glass to eddie
+&lt;grahamtriggs&gt; eddie27182: reject as malformed?
+&lt;cwilper&gt; graham: i think that makes sense...added to comment on the jira issue
+&lt;bbranan&gt; final determination (actually on fcrepo-509) is to throw an error if the URL pid and xml pid differ
+&lt;cwilper&gt; (meeting's over....i'll get the mp3 up on the agenda page soon)
+--&gt; dwdavis (i=80546716@gateway/web/freenode/x-852419fd616b5b8f) has joined #duraspace
+&lt;-- eddie27182 has quit ("Page closed")
+ dwdavis (i=80546716@gateway/web/freenode/x-852419fd616b5b8f) has left #duraspace
+--&gt; mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace
+&lt;mdiggory&gt; cwilper: you don't want to hear the "debates" we've had about channel logging :-(
+&lt;bbranan&gt; what was the result of the debates?
+&lt;mdiggory&gt; some folks worry about logging curtailing people speaking their minds...
+ some out there seem to think an IRC channel discussion is somehow "private" to those having it... doh
+&lt;bbranan&gt; so everyone else is ok with not having the channel logged?
+&lt;mdiggory&gt; I myself think it doesn't detract from communication to have a log.  And it saves us many headaches with referencing conversations that are/were pertinent
+ pretty much, it was never logged historically, so we never started
+ I highly recommend we try the opposite here and have the channel logged and published somewhere.
+&lt;bbranan&gt; so perhaps if we start logging duraspace now (from the beginning) it'll be easier to keep it that way
+&lt;mdiggory&gt; I agree
+ also means I don't have to fuss with keeping a bot running with my name on it ;-)
+ where are the logs published for fcrepo and duraspace?
+&lt;bbranan&gt; http://fedora-commons.org/irclogs for fcrepo
+ I don't think Chris added the logbot to duraspace yet
+&lt;mdiggory&gt; Sounds like something to do asap
+ heres an interesting tool...
+ http://www.irclog.org/
+&lt;grahamtriggs&gt; I agree that this channel should definitely by logged and published, given it's intended use for holding meetings and other such admin
+&lt;bbranan&gt; i think i like the local hosting of logs better, you never know when irclog.org might go away
+&lt;grahamtriggs&gt; More specific 'chatty' channels - like #dspace - are a more controversial subject
+&lt;awoods&gt; My vote is for the logging of #duraspace
+&lt;mdiggory&gt; bbranan: true, and I think as long as they are published in the context of the duraspace.org domain, we can get google to index on them and do searching
+ or http://fedora-commons.org/irclogs for fcrepo
+&lt;bbranan&gt; yes, http://duraspace.org/irclogs would seem to make sense
+&lt;-- grahamtriggs (n=trig01@195.128.10.96) has left #duraspace
+&lt;cwilper&gt; there's a history of irc logging being controversial, but i agree that if the purpose of this channel is for public meetings, logging them makes sense.
+ ...it just needs to be obvious for newcomers that it is in fact logged
+&lt;mdiggory&gt; just put it in the chat topic
+ with a link to the logs
+ wow... ha... I vaguely recall this ancient conversation... http://www.fedora-commons.org/confluence/display/FCKB/mail/8750861
+ http://fedora-commons.org/irclogs isn't indexed by google?
+&lt;bbranan&gt; doesn't look like it
+&lt;cwilper&gt; .../irclogs should be discovered by google shortly.  There's now a link to it from the wiki
+ re: AElfred, boy that's a blast from the past
+&lt;mdiggory&gt; hehe good riddens..
+ heres an interesting topic... Is anyone out there working on a SPI provider to put Jackrabbit on top of Fedora?
+ http://weblogs.goshaky.com/weblogs/alexkli/entry/using_jackrabbit_spi_to_implement
+ http://jackrabbit.apache.org/jackrabbit-spi.html\
+ This would allow Fedora to be used as a persistence store for JCR/Jackrabbit servers like http://www.day.com/content/day/en/products/crx.html
+ and since in DSpace 2 our fist attempt at a persistence store is via JCR... that would be a powerful alignment
+ more specifically via Jackrabbit
+ http://scm.dspace.org/svn/repo/dspace2/modules/storage-jackrabbit/trunk/
+ otherwise, krnl_ is working on a more direct connection in his GSoC project
+&lt;cwilper&gt; There's a "jcr tools" project I heard about from Dan.  I believe people at Northwestern are working on it...I don't have URL though.  I believe the idea with this project is to give Fedora a JCR face
+&lt;mdiggory&gt; The idea behind using the Jackrabbit SPI is just to reduce the amount of work to implement a JCR service for a persistence store.  Using it would mean being able to leverage all the pre-existing work around the Jackrabbit JCR provider.  Developing a JCR client provider would actually use reuse Fedora as the service and operate on the client side
+ that last sentence should have read: Developing a JCR client provider directly for Fedora would actually just reuse Fedora as the service and operate on the client side
+ they would be two different approaches
+&lt;cwilper&gt; google: jcr fedora northwestern  ... the pdf is the most detail i've seen of it...doesn't appear to have a homepage
+&lt;mdiggory&gt; link in paper is broken
+ wondering if this is heading here:   https://wiki.projectbamboo.org/display/BPUB/W4+Action+Plan+-+4.3+Shared+Services+Lifecycle?focusedCommentId=9764918#comment-9764918
+ looks like "a lot of thinking and talking about value propositions atm"
+ https://wiki.projectbamboo.org/display/BPUB/Terroir+-+Frameworks+and+APIs
+ https://wiki.projectbamboo.org/display/BPUB/Preserve+materials+in+a+digital+storage+facility
+ seems a growing initiative spearheaded by the UC system.
+&lt;cwilper&gt; mdiggory: got a link to the ASF rules/guidelines on voting in committers?  (these are the rules that dspace uses, correct?)
+&lt;mdiggory&gt; http://www.apache.org/foundation/voting.html
+ http://www.apache.org/foundation/how-it-works.html
+ Dan Davis are listed as project personnel in that project
+ PloneJCR not (Bamboo)
+ http://rit.mellon.org/projects/PloneJCR.pdf
+--&gt; grahamtriggs (n=grahamtr@cpc3-stev1-0-0-cust857.lutn.cable.ntl.com) has joined #duraspace
+&lt;mdiggory&gt; http://rit.mellon.org/projects
+ http://rit.mellon.org/projects/PloneJCR.pdf
+&lt;grahamtriggs&gt; Have I just walked in on a CMS / Repository discussion?
+&lt;mdiggory&gt; :-)
+ catching up on posting a few links...
+ now, see, if there were logging, this wouldn't even be a question ;-)
+&lt;grahamtriggs&gt; RTFL (not to be confused with rofl)
+&lt;cwilper&gt; re: logging, it sounds like people are ok with it on this channel...i will hook it up and see if anyone complains :)
+&lt;mdiggory&gt; lease do..... hurry
+ lease = please
+&lt;grahamtriggs&gt; PloneJCR is a bit of a curious one... I can see how it makes sense in their diagram of collecting multiple JCR sources, but there doesn't seem to be much sense in JCR vs Islandora implementations
+&lt;-- mdiggory has quit (Excess Flood)
+--&gt; mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) has joined #duraspace
+* mdiggory note to self... don't flood irc channel with cut/paste
+ grahamtriggs puts snorkel away
+&lt;mdiggory&gt; grahamtriggs: did you get that private post?
+&lt;grahamtriggs&gt; yes, thanks
+&lt;mdiggory&gt; k
+ grahamtriggs: PloneJCR is a bit of a curious one... I can see how it makes sense in their diagram of collecting multiple JCR sources, but there doesn't seem to be much sense in JCR vs Islandora implementations
+</pre>
+
+<hr size=1/>
+
+<span class="irc-date">[16:25]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;mdiggory&gt; I don't question their requirements.... just interested in connectors that enable greater pluggablity and more configurations</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mdiggory&gt; cwilper: maybe change the topic to Welcome to Duraspace - This channel is logged - <a href="http://duraspace.org/irclogs/">http://duraspace.org/irclogs/</a></span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-green">* ChanServ sets mode +o cwilper </span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-green">* cwilper changes topic to 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-green">* ChanServ sets mode -o cwilper </span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;mdiggory&gt; Very nice.</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;cwilper&gt; Now for google to find it...need linkage</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; &lt;bbranan&gt; Maven is moving to OSGi... wow</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mdiggory&gt; &lt;grahamtriggs&gt; insane not to push back to the central maven repository!! Mark Diggory did a lot of work with publishing our Maven artefacts in central, and the mechanism could be used across the duraspace sphere....</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;bbranan&gt; as reported by Eddie</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;mdiggory&gt; central repo sync is actually very easy to get setup</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;mdiggory&gt; I'll be listening to the meeting notes today... sorry I couldn't attend, its very difficult as 7-9am is "get kid to school" time for me</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;cwilper&gt; they're in mp3, so you have to listen them on your iphone</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-brick">* cwilper grins</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mdiggory&gt; now if we can just get them published over itunes ;-)</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mdiggory&gt; in a podcast channel</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;cwilper&gt; actually now that eddie is closer to this side of the world maybe we can push the meetings up so more left coasters can attend...hmmm</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;mhwood&gt; mplayer likes mp3 just fine</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; that would be of benefit, but I suspect there'll always be scheduling challenges with such meetings.</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; noticing Sakai topics at Mellon....</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; DuraSpace – Sakai would like to work with DuraSpace to create an OpenSocial gadget</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; that can be deployed in Sakai 3, similar to current work with DSpace. Curious about the</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; possibilities of JMS integration</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; Fedora – interest in JCR integration opportunities</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; JCR Tools – interest in JCR Tools as a potential access route to distributed teaching</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mdiggory&gt; materials through the native JCR in Sakai 3</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mdiggory&gt; Zotero – strong interest in Scholarly Networking referrer system potential of Zotero</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mdiggory&gt; server</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mdiggory&gt; Sling (Jackrabbit, Shindig, OSGi) – ongoing discussions</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mdiggory&gt; Apache Jackrabbit (Java Content Repository) – active in the community</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;mdiggory&gt; PloneJCR pdf... last line says... 5. Extension of JCR Tools to other major repository systems, such as DSpace.</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[17:54]</span> <span class="irc-navy">* kstrnad (i=4e2af9b1@gateway/web/freenode/x-6e1b7db32049e7fd) Quit ("Page closed")</span><br />
+<span class="irc-date">[18:28]</span> <span class="irc-navy">* grahamtriggs (n=grahamtr@cpc3-stev1-0-0-cust857.lutn.cable.ntl.com) Quit ()</span><br />
+<span class="irc-date">[18:31]</span> <span class="irc-navy">* bbranan (n=lc@70.121.159.9) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[19:18]</span> <span class="irc-navy">* awoods (n=awoods@173.66.53.150) Quit (Read error: 113 (No route to host))</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-navy">* mdiggory (n=mdiggory@64.50.88.162.ptr.us.xo.net) Quit (Read error: 110 (Connection timed out))</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-green">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:30]</span> <span class="irc-green">* mdiggory_ (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[22:47]</span> <span class="irc-navy">* mdiggory (n=mdiggory@cpe-76-176-188-83.san.res.rr.com) Quit (Read error: 110 (Connection timed out))</span><br />
+<span class="irc-date">[22:56]</span> <span class="irc-green">* mdiggory_ is now known as mdiggory</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

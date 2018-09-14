@@ -1,0 +1,279 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="../index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2013-10-02
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:42]</span> <span class="irc-brown">-cameron.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-brown">-cameron.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-brown">-cameron.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-brown">-cameron.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:42]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:07]</span> <span class="irc-green">* tdonohue (~tdonohue@67.177.111.99) has joined #duraspace</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:48]</span> <span class="irc-navy">* jrgriffiniii (~chatzilla@139.147.64.195) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has joined #duraspace</span><br />
+<span class="irc-date">[19:07]</span> <span class="irc-green">* pbecker (~rooms@2001:6f8:900:8f1c:7401:7743:bc2e:c899) has joined #duraspace</span><br />
+<span class="irc-date">[19:23]</span> <span class="irc-green">* bollini (~chatzilla@host135-111-dynamic.181-80-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[19:28]</span> <span class="irc-navy">* bollini (~chatzilla@host135-111-dynamic.181-80-r.retail.telecomitalia.it) Quit (Ping timeout: 248 seconds)</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:53]</span> <span class="irc-green">* robint (5eaf588c@gateway/web/freenode/ip.94.175.88.140) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* bollini (~chatzilla@host135-111-dynamic.181-80-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* kstamatis (2ebe5dfb@gateway/web/freenode/ip.46.190.93.251) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-green">* jrgriffiniii (~chatzilla@139.147.64.195) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi Developers, it's time for our weekly DSpace Developers Mtg.  Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-10-02">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-10-02</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2013-10-02 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-10-02">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-10-02</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; we'll start things off with our using PR reviews</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; kicking off today with #297 / DS-1654 : <a href="https://github.com/DSpace/DSpace/pull/297">https://github.com/DSpace/DSpace/pull/297</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1654 by jpiscanc · Pull Request #297 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/297">https://github.com/DSpace/DSpace/pull/297</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1654">https://jira.duraspace.org/browse/DS-1654</a> ] - [#DS-1654] IP-Based authentication fails if load-balancer/proxy  - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* StuartLewis (~522b66a9@li267-173.members.linode.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-brick">* hpottinger cheers for the Edinburgh crew</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;bollini&gt; look good, not sure about security implications</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* l_a_p (~chatzilla@host207-35-dynamic.9-87-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;bollini&gt; we should suggest a more standard name for the configuration parameter (English folks please help)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* vtkeithg (~vtkeithg@vtkeithg.lib.vt.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; perhaps "proxy" is a more generic term?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;helix84&gt; wait, we already have such config property</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-navy">* StuartLewis (~522b66a9@li267-173.members.linode.com) Quit (Client Quit)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; proxy does seem like a better term here</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;bollini&gt; mmm, I think that here we have done some wrong</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;bollini&gt; proxy was introduced to allow dspace to see the external world</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;bollini&gt; here we are talking about a load-balancer so dspace see user as coming from a single ip</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;helix84&gt; it slipped my mind what it's called</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;bollini&gt; there are case where dspace need a proxy but is not behind a load-balancer and viceversa</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;aschweer&gt; we have xmlui.controlpanel.activity.ipheader = X-Forward-For which is triggered by useProxies = true</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; useProxies</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; yes :)</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; I admit this is an area of DSpace I'm not as familiar with..mostly cause I've never set it up to use proxies.  But, is there someone here who would like to add comments on PR #297 and help it get in?  The idea seems good, i just don't know what to suggest myself</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; # If enabled, the logging and the solr statistics system will look for</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; # an X-Forward header. If it finds it, it will use this for the user IP address</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; #useProxies = true</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;helix84&gt; bollini: what you call load balancer can be also called a reverse proxy and it can pass X-Forwarded-For headers, too. E.g. Squid can.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;bollini&gt; helix84: yes</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;bollini&gt; probably we only need to clarify better the documentation</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; bollini: so, is there anything that concerns you?</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;bollini&gt; check this old version, not able to find in the current documentation <a href="http://www.dspace.org/1_6_0Documentation/ch05.html#N12E28">http://www.dspace.org/1_6_0Documentation/ch05.html#N12E28</a></span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;kompewter&gt; [ Chapter 5. DSpace System Documentation: Configuration ] - <a href="http://www.dspace.org/1_6_0Documentation/ch05.html#N12E28">http://www.dspace.org/1_6_0Documentation/ch05.html#N12E28</a></span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;aschweer&gt; But according to the commit message, DSpace currently assumes that X-Forwarded-For is a comma-separated list while it appears to be passed in as an Enumeration instead. That sounds like a bug to me, not lack in documentation.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;helix84&gt; bollini: http.proxy.host is used in case when DSpace is behind a regular (not reverse) proxy</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;bollini&gt; I was confused about the useProxy settings I had guest that it come from http.proxy.host I had missed that we have a different parameter for that... so sorry for the confusion</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; this ticket/PR sounds like it needs more eyes in general. I'm wondering if we should table it so that a few folks can look at it "offline" and report back? Anyone willing to take a closer look?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;helix84&gt; aschweer: good catch, could you please create a Jira issue so that we don't forget about it?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;aschweer&gt; helix84: I thought <a href="https://jira.duraspace.org/browse/DS-1654">https://jira.duraspace.org/browse/DS-1654</a> already says so :)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1654] IP-Based authentication fails if load-balancer/proxy - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1654">https://jira.duraspace.org/browse/DS-1654</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1654">https://jira.duraspace.org/browse/DS-1654</a> ] - [#DS-1654] IP-Based authentication fails if load-balancer/proxy  - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;aschweer&gt; I'm happy to have a look at this. we're not using load balancing but I can spin up a squid if necessary</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; As we are already nearly 20 mins into the meeting, I'm gonna suggest we move along here (rather then spend too much more time on this one PR)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;helix84&gt; aschweer: Right, sorry. I didn't see the forest for the trees.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;aschweer&gt; helix84: all good :)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; And I'm also gonna move us along to the main part of the agenda (since I'm assuming that's what most folks are here for -- lots of attendees this week!)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;aschweer&gt; I've assigned the Jira issue &amp; PR to me</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-navy">* pbecker (~rooms@2001:6f8:900:8f1c:7401:7743:bc2e:c899) Quit (Quit: Rooms • iPhone IRC Client • <a href="http://www.roomsapp.mobi)">http://www.roomsapp.mobi)</a></span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; thanks aschweer!</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-green">* pbecker (~rooms@port-92-206-48-151.dynamic.qsc.de) has joined #duraspace</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; So, next main topic on our agenda is 4.0 (obviously).</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; the main thing to talk through is of course our pending deadline for New Feature PRs (deadline is next Monday, Oct 7), and starting to get together a plan for reviewing those PRs.</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; I'd also like to see if the 4.0 RT had anything specific they'd like to discuss today, as it is the last meeting before 4.0 starts to "kick into gear"</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; I'm noticing mhwood isn't here (from the RT), but hpottinger and abollini are</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;hpottinger&gt; I'd just like to say, if you've got a big pull request coming, maybe don't wait until Monday to tell us about it... :-)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;bollini&gt; all you know that something could come from me... ;-)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.0+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.0+Notes</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 4.0 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.0+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+4.0+Notes</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; the Release Notes page for 4.0 has a place for you to add incoming new feature notes, if your PR will be "big" it helps to have a writeup on the release notes, it not only lets all of us know what's coming, but it helps us keep on top of informing the community about new features</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; Also, as noted in the "Timeline &amp; Proceeding" on the 4.0 Release notes, our next 2 developer meetings (Oct 9 &amp; 16) are to be devoted towards PR reviews (of anything that makes it under the deadline), so that we can try to merge as much as possible before we get to the Feature Freeze (Oct 21)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;pbecker&gt; I woul be really glad to get <a href="https://github.com/DSpace/DSpace/pull/312">https://github.com/DSpace/DSpace/pull/312</a> into 4.0</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-1535: DOI support for dspace-api by tuub · Pull Request #312 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/312">https://github.com/DSpace/DSpace/pull/312</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;pbecker&gt; S/woul/would</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;bollini&gt; just a note, It will be better if we are able to comment and make suggestion to the PRs before the meeting</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; I just wanted to note that I won't have time to work on Metadata for all. It would be terrific if someone else could pick up mdiggory's PR, it mostly just needs to be forward-ported to master.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;bollini&gt; the meetings should be reserved to discuss the PR that doesn't have get any feedback but are supported from the original submitter (i.e. he will be present to the meeting)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; bollini ++  It'd be best if folks can look at PRs as they come in, to save our meeting time for those needing the most attention/discussion</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; helix84, so DuraLogBot can have a complete record, can you just mention the PR number of mdiggory's "metadata for all" branch?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; well, silly me, it's in the release notes, never mind helix84, for the record, it's PR #12</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; If the Release Team has any other recommendations on how best to review these PRs as they come in (or how best to organize our next few PR review meetings), I'd recommend you let us all know.  I'm essentially leaving these decisions in the hands of the Release Team.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://github.com/DSpace/DSpace/pull/12">https://github.com/DSpace/DSpace/pull/12</a></span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;kompewter&gt; [ Support Metadata On All DSpaceObjects by mdiggory · Pull Request #12 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/12">https://github.com/DSpace/DSpace/pull/12</a></span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; We also can try and "revive" our dspace-release mailing list (which is still there, but not been used much) in order to do more 4.0 planning...and I'd encourage the RT to do so</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-navy">* l_a_p (~chatzilla@host207-35-dynamic.9-87-r.retail.telecomitalia.it) Quit (Quit: ChatZilla 0.9.90.1 [Firefox 24.0/20130910160258])</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: can you define "revive"? :-)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; So, RT (hpottinger, bollini, mhwood), if there's a particular order or "set" of PRs you'd like us to review in each of the upcoming meetings, please let us know.  If you want we can put specific tickets in the agenda for each week, but I'm leaving that up to you</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: mostly I just mean it's been a bit "quiet" on dspace-release... We can start doing more stuff there, like suggest PRs that need more eyes (before meetings), etc</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-brick">* helix84 cracks a whip</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; sounds like a good plan, anyone who has strong feelings about particular incoming PRs, dspace-release is the best place to express them</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I didn't mean to imply that it's bad that it's been "quiet", though :)  I just meant that as the 4.0 Release starts ramping up, we should remember that's a good place to collaborate ;)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;bollini&gt; we should make a list of the acceptable PR on monday send a mail to the tech/devel/release list asking to all interested in to sign on a wiki page for the two dedicated irc meetings</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; no offense taken, I just wanted to be sure what we were discussing</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: that'd be great if the RT wanted to create a quick PR list for us to work from</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; bollini: the important thing is to sort them by priority (likeliness of getting them merged)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;bollini&gt; I will prefer to spent more time making review but if noelse is available I can make the wiki page</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;hpottinger&gt; wiki is OK, but mail list would be faster</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; (plus, having a list of those PRs we need to most look at will help us to better "filter out" other PRs that we can ignore for now...e.g. PRs relating to just bug fixes, or ones that are still "in progress" work that are not ready for acceptance)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; oh, I wonder if we can ask the "feature owners" to make this list for us?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: we could, but it might be 'incomplete' (if some 'owners' are not responsive enough).  I'm noticing we have 49 currently "open" PRs.  My big question is are we going to 're-review' them all in light of 4.0, or is there a way to "streamline" our list.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like there are many (in that list of 49) which have "stalled"...there's recent comments asking for updates/changes that were never answered.  Those that are "stalled" it seems like would not be applicable for 4.0, unless someone decided to adopt the work to move it forward.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;bollini&gt; Ok, someone from RT (maybe me...) can prepare for monday a categorized list of these PR</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; so, it's almost like we have three categories:  (1) 4.0 Feature PRs needing review, (2) Bug-fix PRs (also needing review, but can be reviewed later), and (3) Stalled PRs (won't be accepted unless someone wants to step forward and adopt it / restart it)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good, bollini</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;hpottinger&gt; bollini, you may want to do that list prep on Tuesday, since the deadline is Monday</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; So, do we want to open up the floor here to see if anyone is working on "last minute" PRs we should anticipate by Monday?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;bollini&gt; tdonohue: yes, also making distinction between green button available or conflict for PR in category 1</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue++ and bollini++</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; One PR-specific question I had... Has anyone been working with or talking with Richard Jones about his SWORDv2 fixes? (PR#229 : <a href="https://github.com/DSpace/DSpace/pull/229)">https://github.com/DSpace/DSpace/pull/229)</a>  I recall him saying he needed some "git" expertise to get his PR rebased/cleaned up.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kstamatis&gt; We are working on a new version of BTE (new core + new data loaders) and a UI to call its function within it (for batch importing from various bibliographic formats)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kstamatis&gt; We have seen the similar work by bollini, we want to give it a try</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;robint&gt; tdonohue: I will give Richard a ping</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;bollini&gt; kstamatis: very good news! we can try to merge the two approach</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; Perhaps (regarding Richard Jones' PR#229) I should have asked, is anyone willing to reach out to Richard to see if he still needs help :)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-navy">* pbecker (~rooms@port-92-206-48-151.dynamic.qsc.de) Quit (Quit: Rooms • iPhone IRC Client • <a href="http://www.roomsapp.mobi)">http://www.roomsapp.mobi)</a></span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-green">* pbecker (~rooms@port-92-206-48-151.dynamic.qsc.de) has joined #duraspace</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; oh, thanks, robint. Just wanted to make sure we got Richard's fixes in :)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kstamatis&gt; bollini: we can skype tommorow to see details</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;bollini&gt; kstamatis: yes</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; Another 4.0 PR question.. PeterDietz, any chance you'll be able to have an "early version" Jersey REST API PR ready in time (which rumor has it you are working towards)?  Not wanting to put you on the spot, more just curious if there's enough time left :)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;bollini&gt; I'm also interested in known if anyone is planning to ask for a small extension...</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: or if you need want help or a small extension (as bollini mentions)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; Any other "possible PRs" we should expect from anyone?  I'm noticing we've got a *lot* of attendees today (which is awesome) but not a ton of discussion.  Is everyone just wanting to listen in on "what's possibly in 4.0"? :)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;robint&gt; Erm, yes :)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; well, at least you own up to it, robint ;)  I figured some were in that camp of just wanting to lurk/listen</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;aschweer&gt; I've got a handful of tiny bugfix-style changes (against 1.8.2), I'll need to check if they're still relevant for 4.0. I'm hoping to get to that before Monday</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;hpottinger&gt; robint, is that "yes" as in "yes, we have a PR we're preparing?" or "yes, I'm lurking?"</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-navy">* pbecker (~rooms@port-92-206-48-151.dynamic.qsc.de) Quit (Quit: Rooms • iPhone IRC Client • <a href="http://www.roomsapp.mobi)">http://www.roomsapp.mobi)</a></span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-green">* pbecker (~rooms@2001:6f8:900:8f1c:7401:7743:bc2e:c899) has joined #duraspace</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; aschweer: bug fixes can go in even after Monday</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;aschweer&gt; helix84: ah good, I had lost track of the schedule a bit</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; aschweer: well, bug fixes are welcome at ANY time (except the day when the RT actually wraps up a release)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; I'd let a bug fix in even on release day</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;pbecker&gt; As I mentioned before, I would be glad to get the Doi stuff into 4.0. I filed the PR today. DS-1535.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1535">https://jira.duraspace.org/browse/DS-1535</a> ] - [#DS-1535] DOI support for dspace-api - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;PeterDietz&gt; hi. pulled away for a meeting</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;PeterDietz&gt; To give people something real to test out, any hints on mechanics of that?</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: demo.dspace.org (possibly during testathon)?</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;PeterDietz&gt; ... PR / merge jersey into upstream dev branch, and install on demo</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;PeterDietz&gt; ...or just checkout demo to my feature branch...</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; realizing we're now a bit "overtime" here...which means I probably shouldn't delve into other agenda topics (but we can continue 4.0 topics as long as folks want to hang around).  There was one final topic (about "what belongs in build.properties"), but I'll email dspace-devel about that to get the discussion started there.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;robint&gt; hpottinger: just lurking :)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietz, I could try to get a branch of vagrant-dspace to demo your jersey REST</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;PeterDietz&gt; Just checking the dates.. So make the PR before Oct 07.. I could make it any time, but I'm feverishly working and improving it.. Several commits a day for the past week or so</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;bollini&gt; pbecker: I will try to take a look to your work on DOI... can you hightlight some charateristics? are there any relationship with the work done on Dryad?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: Any news regarding the possibility of DuraSpace hosting more than one demo site? You said it's possible now that your cloud thing is ready.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;robint&gt; Lurking over, cheers all!</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;pbecker&gt; I talked to ryan from datadryad and I want to write him a mail in the next days. But I was not able to take code from them.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-navy">* robint (5eaf588c@gateway/web/freenode/ip.94.175.88.140) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;PeterDietz&gt; so.. could I treat demo.dspace.org as sort of project space... i.e. /jspui -&gt; 4.x jspui, /jersey -&gt; peterdietz/jersey</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;pbecker&gt; I tried to document the idea behind the pr in the wiki. The article is linked in jira ticket.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;PeterDietz&gt; any advice helpful, I've usually used distinct servers for distinct feature sets</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: yea, a REST API PR would need to be made before Oct 7. It can be improved *after that* obviously, though it really should stabilize &amp; be merged before we get to Feature Freeze (Oct 21) deadline.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; PeterDietz: I don't think there's enough memory there to run too many webapps</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;bollini&gt; pbecker: ok, I will try to read as much as possible from your pr. I want to suggest you to get feedback from the dryad people</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;PeterDietz&gt; maybe I can talk to my local sysadmin and spin up an OSU VM</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;bollini&gt; pbecker: they have experience in use DOI with dspace so your PR should work in their use case if possible</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;helix84&gt; bollini: mhwood also looked at pbecker's DOI work and even added the other big DOI provider implementation (different API)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;pbecker&gt; bollini: Thank you. I'll write ryan and ask for his comment.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;bollini&gt; pbecker: your implementation is about datacite right?</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;pbecker&gt; helix84: I was thinking about merging both. Didn't had the time yet.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; pbecker: this is your chance to ask for a deadline extension ;)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;bollini&gt; I'm sorry I need to leave now... keep in touch</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-navy">* bollini (~chatzilla@host135-111-dynamic.181-80-r.retail.telecomitalia.it) Quit (Quit: ChatZilla 0.9.90.1 [Firefox 24.0/20130910160258])</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;pbecker&gt; bollini: almost. Different datacite members uses different APIs. My code uses the DataCite API directly. EZID f.e. is a DataCite member but they have their own API.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz, if you really need a place to put your REST API for demoing, you could just replace the HedTek REST API (currently running there) with your Jersey REST API</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;pbecker&gt; helix84: thanks, I'm fine with the pull request. There is always something that still can be done. I think it won't be my last PR. ;-)</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz &amp; helix84 - If we need a bigger demo.dspace.org server (more memory), we might also be able to do that... I'm just not sure when I'll be able to get to that (my plate is very full right now)</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: on a different note, I also wanted to ask you if you had the chance to add embargo support to AIP as you planned (for dspace-replicate, I think)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;aschweer&gt; gotta go, bye all</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: no, I have not. I'm not going to have any significant time for 4.0 development, unfortunately. My time is currently split between DSpaceDirect and DSpace, which vastly limits my actual programming time.  Most of what I'm able to contribute for 4.0 has been in vagrant-dspace, as it was related to stuff I was doing for DSpaceDirect</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; (and yea, I know 'vagrant-dspace' isn't directly related to 4.0, but it might be really useful for Testathon)</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;pbecker&gt; Does anyone know if Item Versioning Support and AIP will work well together one day?</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: I think we'd all love for it to work better. Just needs a volunteer developer.  Currently AIPs only are able to capture the *latest* version of an Item.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; pbecker: I see noone from @mire here today (the contributor of both features), but I understand their position is that their contract on these features has been completed and they don't have immediate plans to work on it.</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;pbecker&gt; helix84: didn't know that. I hoped they were working on it...</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; so, helix84 brings up a good point, if there's a feature you want changed, contacting the original submitter and collaborating or otherwise working together with them is one very good way to ensure the feature works the way you wish</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; To clarify, AIP support was developed by myself (DuraSpace), with some support from Richard Rodgers/MIT.   Item Versioning is still a "beta" feature, and it was developed by @mire (and when they created it, they did not update AIPs to support Item Versioning, which is why AIPs only capture the latest version of an item).</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; yes, I think our major problem as a community at this time is that we need to test and review each other's new code much more and not just leave it up to commiters</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: sorry about the misattribution</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; DS-1374</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1374">https://jira.duraspace.org/browse/DS-1374</a> ] - [#DS-1374] AIP Backup &amp;amp; Restore functionality does NOT backup/restore past versions of Items - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; what I meant was that @mire contributed versioning and embargo (not AIP)</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: oh, yea, that's true. @mire did contribute versioning &amp; *advanced* embargo (the latest embargo stuff)</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;helix84&gt; both those features have rough edges in relation to AIP</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; yes, unfortunately that is the case</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; AIP stuff was built before those features came in, and unfortunately the AIP work has not yet been updated to fully support those features</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;helix84&gt; but as both need a change in the actual AIP format, I think DuraSpace would have the most important voice in proposing how to do that</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-navy">* pbecker (~rooms@2001:6f8:900:8f1c:7401:7743:bc2e:c899) Quit (Quit: Rooms • iPhone IRC Client • <a href="http://www.roomsapp.mobi)">http://www.roomsapp.mobi)</a></span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-green">* pbecker (~rooms@2001:6f8:900:8f1c:7401:7743:bc2e:c899) has joined #duraspace</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-green">* kstamatis (2ebe5dfb@gateway/web/freenode/ip.46.190.93.251) has left #duraspace</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: I'd be glad to help brainstorm ideas with someone on how to fix/change/update the AIP format. But, not sure I can do any java development on it.  The AIP format history was that I created it based on some old (now obsolete) AIP work that MIT initially started many years ago now.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: if you could draft what the changes in format should look like, I think that would be a start (and not much work)</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: again, not sure when I'd get to that, as AIPs are not something I'm spending a lot of time with these days.  I'm hoping to get back to it at some point, but not sure if it'd be in a month or a year :)</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; so, if we want/need something more immediately, I'd suggest we look towards finding others to help chip in on AIPs.  Again, I'd be glad to help consult with whomever, but AIPs are not my top priority these days, unfortunately.</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;pbecker&gt; I'm quite interessted in versioning and AIP, but there are other things more urgent for us I'll work on in the next few month.</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker. If you ever get back to looking at AIPs, I have some basic notes in DS-1374 and DS-1382 about versioning + AIPs. But, I didn't get much further than those notes.  Still, be glad to offer suggestions/review code if you get back to it.</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1374">https://jira.duraspace.org/browse/DS-1374</a> ] - [#DS-1374] AIP Backup &amp;amp; Restore functionality does NOT backup/restore past versions of Items - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1382">https://jira.duraspace.org/browse/DS-1382</a> ] - [#DS-1382] AIP Backup &amp;amp; Restore functionality should not duplicate unchanged files across Item Versions - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-green">* PeterDietz (~peterdiet@dhcp-164-107-232-143.osuwireless.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: thanks. First thing I normally do is a quick search in jira, so I'll find this whenever I'll get back to it.</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: yep, makes sense</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;pbecker&gt; Have to leave no... Bye!</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;pbecker&gt; s/no/now</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: Have to leave now... Bye!</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-green">* pbecker (~rooms@2001:6f8:900:8f1c:7401:7743:bc2e:c899) has left #duraspace</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;helix84&gt; I tried to find a ticket on simple embargo and AIP, but I couldn't. Similarly, resourcepolicy start and end date is missing from METS - this is a simple addition Terry Brady has been working on and might be ready by Monday.</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;helix84&gt; good night</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-green">* helix84 (~a@ip4-95-82-147-170.cust.nbox.cz) has left #duraspace</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-navy">* PeterDietz (~peterdiet@dhcp-164-107-232-143.osuwireless.ohio-state.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[22:14]</span> <span class="irc-green">* tdonohue (~tdonohue@67.177.111.99) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>
