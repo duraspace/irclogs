@@ -1,0 +1,194 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2017-02-08
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:51]</span> <span class="irc-brown">-orwell.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-orwell.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-orwell.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-orwell.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:52]</span> <span class="irc-black">&lt;tdonohue&gt; Morning/Afternoon all. The DSpace DevMtg starts at the top of the hour: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-02-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-02-08</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-green">* terry-b (~chrome@97-113-118-39.tukw.qwest.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; Hi All, it's time for the DSpace DevMtg. It's a small group today... I just pinged folks on Slack #dev as well to see if anyone else plans to join us</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; Agenda is really the same as in recent weeks...continuing DSpace 6 maintenance work: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-02-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-02-08</a></span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;terry-b&gt; hello!</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; Hi terry-b</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; That reminds me...pinging other Committers (helix84, mhwood)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; So, we'll kick off with usual reminders. The next DSpace 7 UI Meeting is tomorrow. It was announced to dspace-devel yesterday</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://groups.google.com/d/msg/dspace-devel/pfMG_sFkGnY/dO-7kiTSBgAJ">https://groups.google.com/d/msg/dspace-devel/pfMG_sFkGnY/dO-7kiTSBgAJ</a></span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; Also, I've kept the usual Slack reminder around, but I'm pretty sure everyone here is already in Slack ;)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'm wondering if anyone else besides terry-b &amp; I are here... is it just two of us?  mhwood, are you around today?</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-green">* hpottinger (~hpottinge@162.104.218.179) has joined #duraspace</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; there's mr. hpottinger..that makes three (of us)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, just got back from a meeting.</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-brick">* hpottinger points at himself, looks worried, "who, me?"</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; there we go, up to four! ;)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;hpottinger&gt; wasn't me</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, next up on the agenda is to go through our 6.x tickets.  I've noticed (recently) we have a few PRs that seem to be nearing acceptance...so, it might be nice to get some merged in here today (if we can) or figure out next steps to merging</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;terry-b&gt; I would love to see the stats repo PR's merged</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; I'm thinking mainly of the work terry-b has done on statistics/solr fixes.  IIRC, several of those PRs are at +1</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: do you have all the PR #'s handy?  we could give them a review here and see if we can push them forward</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, I have a couple of those on my list to review.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;terry-b&gt; Will do</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;terry-b&gt; <a href="https://github.com/DSpace/DSpace/pull/1635">https://github.com/DSpace/DSpace/pull/1635</a></span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;terry-b&gt; <a href="https://github.com/DSpace/DSpace/pull/1634">https://github.com/DSpace/DSpace/pull/1634</a></span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;terry-b&gt; Those are the pair for master.  We have similar pairs for 5x and 6x</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; Right, I *think* kshepherd had +1'ed the 6x versions of these PRs, correct?</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;terry-b&gt; Correct.  Shall I share those?</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; yep, looks like the 6x versions are: DSPR#1633 and DSPR#1624</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; oh, we don't have kompewter here</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://github.com/DSpace/DSpace/pull/1633">https://github.com/DSpace/DSpace/pull/1633</a> and <a href="https://github.com/DSpace/DSpace/pull/1624">https://github.com/DSpace/DSpace/pull/1624</a></span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-green">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; thanks terry-b for cleaning up your whitespace alignment in these PRs (much easier to read) ;)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-green">* ntorres (c1895861@gateway/web/freenode/ip.193.137.88.97) has joined #duraspace</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;terry-b&gt; Thanks for pointing it out.  Hopefully my tab setting update in Eclipse will help me see those issues in advance.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; So, starting at 1633/1634 (Tomcat hanging issues on shards)... the changes here look good to me. I'd lean towards merging these (to all branches) unless there are objections here?</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; ^ mhwood / hpottinger, what do you say on 1633/1634 (these are the same issue on different branches)?</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;hpottinger&gt; no objections, I can toss a +1 on the pile if that helps?</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;mhwood&gt; Looking at it now.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;terry-b&gt; These are a pair of issues for 6x.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;hpottinger&gt; looks tested, code is from a trusted dev...</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;terry-b&gt; One addresses the shard hang issue.  The other addresses the import/export tools which facilitates shard management and testing</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;terry-b&gt; Changes are nearly identical on 6x and master PR pairs.  5x does not have the tomcat hang issue so that PR is slightly different.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: small note for the future, it'd help (me) if we link these PRs together via their descriptions (I keep having to search on the ticket ID to find the PRs on each of the various branches)</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; it's not a big deal to fix here...just makes it easier on testers/reviewers to find all of them at once</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;terry-b&gt; Makes sense.  I had them paired in the wiki page that detailed all the issues...</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;hpottinger&gt; I tossed a +1 on to both 1633 and 1624</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;hpottinger&gt; and 1634, too</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;mhwood&gt; Sorry, struggling to comprehend the synchronization....</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue++ we should link matching PRs</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;terry-b&gt; The initialization now runs on the first use of solr.  That is to address multiple threads calling the initialization before it is complete</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mhwood&gt; So that adds in a delay, but doesn't positively wait on Solr to start?  Probably good enough, but then I should stop looking for the wait.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;terry-b&gt; Solr has started at the point where the inits are called.  The logic moved from class loading to first use of solr.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;terry-b&gt; (At the point where the synchronized init method is called)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; Theoretically Tomcat could still be starting Solr.  Practically, it very likely won't be.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; I've cross linked all these PRs to the 6x versions now (as those PRs are where the most voting has occurred).  So, let's consider the "primary" PRs to be DSPR#1633 (6x shard fix) and DSPR#1624 (6x import/export fixes)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1633">https://github.com/DSpace/DSpace/pull/1633</a> ] - [DS-3457] Address tomcat hang when multiple solr shards exist in DSpace 6 by terrywbrady</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1624">https://github.com/DSpace/DSpace/pull/1624</a> ] - [DS-3456] 6x Fix Command Line Parameters for statistics import/export tools by terrywbrady</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mhwood&gt; Anyway it sounds like a better design than before.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, I think this shard fix looks much better than before...it now actually pings Solr to ensure it's running...whereas before we just "assumed" it likely should be running if Tomcat is up</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;terry-b&gt; Interesting note... if the ping is called during class load, it also causes tomcat to hang.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; So, 1633 (shard fix) now is at +3 votes (and no objections from mhwood). So, I'll go through and merge those three PRs....if you all want to start reviewing DSPR#1624 (the import/export CLI fixes) in meantime</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1624">https://github.com/DSpace/DSpace/pull/1624</a> ] - [DS-3456] 6x Fix Command Line Parameters for statistics import/export tools by terrywbrady</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-green">* dyelar (~dyelar@biolinux.mrb.ku.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;terry-b&gt; Among other things, this addressed a fun issue that only manifested itself in certain time zones!</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;mhwood&gt; Oh, THOSE are always interesting.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-brick">* hpottinger grumbles grumpily about time-zone bugs...</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mhwood&gt; That would be in SolrLoggerServiceImpl.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;terry-b&gt; yes</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; I've merged two of the shard PRs...cannot merge the 5x one though until DSPR#1624 is approved (as the 5.x shard fixes also include the import/export tool commits)</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1624">https://github.com/DSpace/DSpace/pull/1624</a> ] - [DS-3456] 6x Fix Command Line Parameters for statistics import/export tools by terrywbrady</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; So, with 1624, looks like we'll need updated docs, as there are new flags here (of course). This is kinda an improvement / bug fix...but, still seems OK to me for a minor release</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;terry-b&gt; Once these are merged, I will update the docs.  I may add some addition notes about testing that are captured here:<a href="https://wiki.duraspace.org/display/~terrywbrady/Statistics+Import+Export+Issues">https://wiki.duraspace.org/display/~terrywbrady/Statistics+Import+Export+Issues</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kompewter&gt; [ Statistics Import Export Issues - Terry Brady - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/~terrywbrady/Statistics+Import+Export+Issues">https://wiki.duraspace.org/display/~terrywbrady/Statistics+Import+Export+Issues</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;mhwood&gt; I like the improvements to the error messages.</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;terry-b&gt; We will likely also need a release notes section informing users how to repair corrupted shards.</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b++ (Yes, your wiki page notes would help inform what updates to add to the docs...and adding notes to the Upgrade instructions/release notes on repair would be excellent)</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; So, 1624 looks good to me, and was tested by kshepherd. So, I think this looks ready too. Any objections/comments from mhwood or hpottinger?</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;mhwood&gt; No objections.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I'm going to approve and merge these PRs too.  While I'm doing that, I just realized we have *ANOTHER* related sharding PR... DSPR#1613 (at +1)... could you all review that next?</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1613">https://github.com/DSpace/DSpace/pull/1613</a> ] - DS-3436 Sharding SOLR cores corrupts multivalued fields by tomdesair</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;terry-b&gt; This one looks good to me.  The conversation on this ticket led to the discovery of all the other issues we have reviewed</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;terry-b&gt; If this is approved, I will take a todo to port this to master and to 5.7</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;mhwood&gt; 1613 looks sensible, but I'd have to study Solr quite a bit to say more.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;hpottinger&gt; I tossed a +1 on 1613</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;terry-b&gt; Looking at the status of <a href="https://github.com/DSpace/DSpace/pull/1625,">https://github.com/DSpace/DSpace/pull/1625,</a> is this indicating that the branch may need some fixing?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;terry-b&gt; I will work on that</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: yes, you need to rebase #1625...it won't merge as-is, as it included some commits from another PR (and I think that other PR had updates)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; once 1625 is rebased, I'll merge it. Just ping me on it</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; I've also merge 1613 (as it looks good to me too</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; So, I *think* (besides 1625's conflicts) all the PRs relating to Solr shards/bugs have now been merged.  terry-b, could you close all the JIRA tickets once you've updated documentation?</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;terry-b&gt; Will do.  Thanks for all the time today</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks for the reviews here today all!  I was hoping to get some of these PRs merged soon ;)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; So, are there other PRs/JIRA tickets we wish to discuss today? Anything else we can help move along?</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;terry-b&gt; <a href="https://github.com/DSpace/DSpace/pull/1625/">https://github.com/DSpace/DSpace/pull/1625/</a> is running through travis</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-3458]5x Allow Shard Process to Append to an existing repo by terrywbrady · Pull Request #1625 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1625/">https://github.com/DSpace/DSpace/pull/1625/</a></span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; Trying to recall why I'm assigned DS-3367</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3367">https://jira.duraspace.org/browse/DS-3367</a> ] - [DS-3367] Configurable Workflow authorization denied error - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: maybe it was to test the related PR?... DSPR#1596</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1596">https://github.com/DSpace/DSpace/pull/1596</a> ] - DS-3367: Fix authorization error on claim by non-admin user by tomdesair</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;mhwood&gt; Must be.</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; That PR looks tiny to me, and seems like it's also likely correct.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;terry-b&gt; I need to run to a meeting.  Thanks for the reviews today.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; So, we could just merge it...or if you could give a quick test before merging, that'd be great too, mhwood</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: thank you for your hard work on the Solr shard stuff! later</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mhwood&gt; OK I will test, and merge if it works?</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; +1 yes, please merge if works</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mhwood&gt; Will do.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks!</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mhwood&gt; Wondering about DS-3469 status.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3469">https://jira.duraspace.org/browse/DS-3469</a> ] - [DS-3469] virus scan during submission attempts to read uploaded bitstream as anonymous user, which fails - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;mhwood&gt; DSPR#1632 is +1.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1632">https://github.com/DSpace/DSpace/pull/1632</a> ] - [DS-3469] virus scan during submission attempts to read uploaded bitstream as anonymous user, which fails by mwoodiupui</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; As we are nearing the end of the meeting, I thought I'd mention we have a LOT of recent "quick win" PRs coming in the door. I'm starting to wonder if we just give some of these quick code reviews (assuming Travis doesn't complain) and merge them...as we have a growing backlog of "quick wins"</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; (Admittedly it may be a case by case basis on how tiny the "quick win" is though)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: I'll review that PR</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;mhwood&gt; Thanks!</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; 1632 looks good, will merge</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; Would appreciate thoughts on "quick win" analysis...we have 24 quick win PRs already (and I haven't even gotten through flagging them all yet)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: wanna spend backlog hour on quick wins?</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; sure, we could do that. I'm free for backlog today</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;hpottinger&gt; I have backlog hour on my calendar for today, my day is completely full of meetings</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, let's close out the formal meeting then. We'll move over to Backlog Hour (in #dspace) and we can dig through our PR backlog today and see if we can move some along / merge</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-navy">* ntorres (c1895861@gateway/web/freenode/ip.193.137.88.97) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[18:18]</span> <span class="irc-navy">* terry-b (~chrome@97-113-118-39.tukw.qwest.net) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-navy">* hpottinger (~hpottinge@162.104.218.179) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-green">* hpottinger (~hpottinge@162.104.218.179) has joined #duraspace</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:28]</span> <span class="irc-navy">* dyelar (~dyelar@biolinux.mrb.ku.edu) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[22:32]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has left #duraspace</span><br />
+<span class="irc-date">[22:33]</span> <span class="irc-navy">* hpottinger (~hpottinge@162.104.218.179) Quit (Quit: Leaving, later taterz!)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2009-09-16
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[16:37]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;mdiggory&gt; perhaps there should be authorization in front of the uri</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;kshepherd&gt; but i agree it's a part of a much larger issue</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;stuartlewis&gt; So maybe skip it for 1.6, and add it as a central issue for whatever comes after the 1.6 branch?</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;mdiggory&gt; I'd say if kshepherd sees a solution... feel free to approach it</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;mhwood&gt; Agree, I don't think there's time for 1.6.</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;kshepherd&gt; i'm guessing that's how the voting will go, yeah ;) just wanted to get some feedback on the whole "open access vs OPEN access" thing :) thanks</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;bradmc&gt; Yes, it seems late in the day to get a good solution for 1.6, but if Kim comes up with a miracle we can revisit.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-green">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-naaqbxpuxueqqxxu) has joined #duraspace</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;mdiggory&gt; authorization in front of /metadata/handle/xxxxxx/mets.xml shouldn't be a difficultly</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;bradmc&gt; cwilper:  Thanks for log bot fix.</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, well, if this aspect can be fixed now, great, but the larger question is going to take some time.  If we have access controls at all they should be consistent (whatever that means) across all access modes.</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;cwilper&gt; np, will robustify it soon</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-black">&lt;mdiggory&gt; adjust teh sitemap to wrap the authorization matcher around the metadata match</span><br />
+<span class="irc-date">[16:39]</span> <span class="irc-navy">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Read error: 104 (Connection reset by peer))</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-green">* grahamtriggs (n=grahamtr@cpc3-stev1-0-0-cust857.lutn.cable.ntl.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;kshepherd&gt; yep, that's a quick specific solution for that particular one</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;kshepherd&gt; brad's gone.. who's backup mod? ;)</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;grahamtriggs&gt; no-one. anarchy... ANARCHY!!!!</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-brick">* kshepherd starts looting</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;bollini&gt; sorry to go back to specific jira issue but I need to prioritize them so that I can fix the most relevant in time for 1.6</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;bollini&gt; <a href="http://jira.dspace.org/jira/browse/DS-267">http://jira.dspace.org/jira/browse/DS-267</a> who agree with Larry comments?</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;grahamtriggs&gt; kshepherd: wouldn't bother. There's only a bot in the corner, and by the looks of it, it's a bit broken</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;mdiggory&gt; HandleAuthorizedMatcher... might need minor surgery to support /metadata/handle uri</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;rrodgers&gt; bollini: I still feel this is not the best approach to influencing policy by submitter</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;jat_ysu&gt; Admins really don't want submitters changing a policy on the fly.</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;bollini&gt; rrodgers: I could agree... but this is mainly a fix for withdrawn item</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;mdiggory&gt; I agree</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;mdiggory&gt; with jat_ysu</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;bollini&gt; :-(</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;rrodgers&gt; bollini: as for withdrawal, I agree it's not perfect, but is this a big problem?</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; but... we actually do have a case where we want the user to select from several permissions profiles...</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; during the submission process</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mdiggory&gt; we are not using DEFAULT_XXXX for this however</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;jat_ysu&gt; Okay, in that case you need to be able to insulate users from having that option as a default option.  Perhaps only certain authorized users.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;kshepherd&gt; bah, no solr books on our safari bookshelf :(</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;rrodgers&gt; yes, I think allowing entry of instructions or preferences is fine</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-green">* bradmc (n=bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;mdiggory&gt; kshepherd: I'll send you a url...</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;grahamtriggs&gt; jat_ysu: but when the submitter is an admin.... besides, if you want embargoes, then you are ceding (a certain amount of) policy control to the submitter... oh, the tangled web we weave...</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;bollini&gt; rrodgers: no really... (withdrawn)</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;jat_ysu&gt; User A is able to submit and make changes to collection 45, but User B can only submit to Collection 45, but not change.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mdiggory&gt; grahamtriggs: sure.. you do, but its controlled</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;jat_ysu&gt; Well, I'm the only admin who submits, but we have 45 other submitters who are not admins.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mdiggory&gt; I just don't think those "Actions" should be bastardized in that way... we need better controls than that...</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;bollini&gt; jat_ysu: this is more a question about UI... the DS-267 give us a place where store this data</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;mdiggory&gt; permissions templates</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;grahamtriggs&gt; is there really any reason why we don't just assign policies at the point of creation - and then have whatever *controlled* means of affecting them that we choose?</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;rrodgers&gt; bollini: also look at the Embargo as a model, you can enter metadata that the system interprets as policy</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;rrodgers&gt; in a controlled way</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;mdiggory&gt; rrodgers: is the policy applied when the metadata is entered... or on archiving of the item?</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;bollini&gt; collection A: open access, embargo (starting date), restricted access to a specific group - collection B: no option all open access - collection C: no option all restricted, etc.</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;rrodgers&gt; on installation - before that the policy means nothing</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;mdiggory&gt; k</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;bollini&gt; using metadata we have issues to manage policy on a bitstream basis</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;mdiggory&gt; oh how InstallItem needs plugability...</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;jat_ysu&gt; Okay, I see where you are going....there are already "pre-determined" policy choices for the submitter?</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;rrodgers&gt; mdiggory: Embargo does just that</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;mdiggory&gt; :-)</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;mdiggory&gt; commit IT!</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;rrodgers&gt; ;)</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;jat_ysu&gt; bollini:?</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;bollini&gt; jat_ysu: yes</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;jat_ysu&gt; And configurable?</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;jat_ysu&gt; If so, I endourse your proposal.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;bollini&gt; I'm working on...</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;jat_ysu&gt; It still leaves control in the hands of the admins, and the submitter can just make lousy choices.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;jat_ysu&gt; can=cannot</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;mdiggory&gt; rrodgers: you have the force... use it wisely ;-)</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;rrodgers&gt; mdiggory: cool</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;jat_ysu&gt; &lt;== wants to use Sith Lightenting....  ;-)</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;bollini&gt; just to be more clear ds-267 is not against the rodgers embargo</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;bollini&gt; I have asked for comments because (as Larry as underlined) it makes the policy system more "confusing"</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;jat_ysu&gt; Well, it does, but a good understanding/grasp of what this option gives use should make it less of a problem.</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;jat_ysu&gt; I think in general the whole Policy issue is undaunting for the neophyte admin with dspace.</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;rrodgers&gt; bollini: I have to think about lcs proposal a bit more</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;bradmc&gt; Well, I came back from my alternate reality (should have known you guys wouldn't really go that silent), but I have a hard stop on these 20:00 GMT Weds.  As per usual, please continue as you see fit, preferably with a minimal amount of looting, and no fires, lightning or otherwise.</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;bollini&gt; well... I will wait for your comments, if you want I will go ahead to develop the UI with configurable choices for the submitter</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;jat_ysu&gt; IMHO, it might be worth seeing it in action/testing.</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;bollini&gt; now, I need to prioritize my tasks for 1.6 (to be able to meet the deadlines)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;bollini&gt; <a href="http://jira.dspace.org/jira/browse/DS-236">http://jira.dspace.org/jira/browse/DS-236</a></span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;bollini&gt; <a href="http://jira.dspace.org/jira/browse/DS-267">http://jira.dspace.org/jira/browse/DS-267</a></span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;bollini&gt; <a href="http://jira.dspace.org/jira/browse/DS-270">http://jira.dspace.org/jira/browse/DS-270</a></span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;bollini&gt; please give me your opinions</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;rrodgers&gt; Id say start with 270, which is your work, yes?</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;bollini&gt; yes it is an abstraction</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes, 270</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;rrodgers&gt; there may be assistance for 236 in time</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;stuartlewis&gt; Will 236 be ready for 1.6?</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;bollini&gt; 236 is a big task</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;stuartlewis&gt; (e.g. two week deadline)</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;bollini&gt; all the code xmlui/jspui/postgres/oracle is in the sandbox</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;stuartlewis&gt; Is it all tested and working, or is there lots left to do?</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;bollini&gt; well... I have tested a lot the jspui/postgres implementation but on a 1.5.0 installation</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;bollini&gt; the 1.6 porting has been make on the fly and I have done only a fast run on it (all seems to work)</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;bollini&gt; there is also a lot of work to do on the i18n</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;mhwood&gt; We need to find some "language wranglers" who can drive i18n development and maintenance.  The skill set is different from most coding.</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;stuartlewis&gt; Would you feel more comfortable leaving it for after 1.6?</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;bollini&gt; most depend on the Larry availability</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;bollini&gt; I think that it will be really a big new feature and most people will love it</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;bollini&gt; but if I have to address the other two jira issues I have only marginal time for it (so only assistance not drive)</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;stuartlewis&gt; Maybe we should see how time goes over the next two weeks, and at the end of the month make the final call for what will, and what will not, be in 1.6?</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;bollini&gt; fine</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;mhwood&gt; Yes</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;stuartlewis&gt; Would be great if all these big features could get in, but if we don't make a final call at some point, we'll never get the release out.</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;mhwood&gt; Must go, thanks everyone!</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;stuartlewis&gt; Same here. Time to formally wrap up, or anything else to talk about?</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;bollini&gt; my primary concern is TESTING we need to make wide testing before release</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-green">* mhwood (i=mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;stuartlewis&gt; Yes. Ideally I'd like to see us freeze at the end of the month, two weeks of testing / getting the build sorted etc, then a release candidate + LiveCD (for testing) at the DSUG in mid-October</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-navy">* jat_ysu (n=jeffreyt@pool-70-20-82-37.pitbpa.east.verizon.net) Quit ("Leaving")</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;bollini&gt; ok, see what happen in the next weeks...</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;rrodgers&gt; Must also go - but I'd say there are a lot of goodies in 1.6 already, so we should err on the side of testing/stability</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;kshepherd&gt; indeed</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-navy">* rrodgers (n=rrodgers@18.111.15.222) Quit ()</span><br />
+<span class="irc-date">[17:21]</span> <span class="irc-black">&lt;stuartlewis&gt; Maybe leads us to a 1.7 in Spring 2010? :)</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;kshepherd&gt; hmm, my current contract won't have long to go by then</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;kshepherd&gt; how time flies</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;kshepherd&gt; stuartlewis: in t-shirt + shorts yet?</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;kshepherd&gt; spring is definitely here in Hamilton</span><br />
+<span class="irc-date">[17:23]</span> <span class="irc-black">&lt;stuartlewis&gt; I've been in t-shirt and shorts all winter (until I get to work, then have to change into something more respectable!). When summer really hits, I'll have to invest in some smarter shorts.</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;bollini&gt; bye all - thanks!</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;stuartlewis&gt; Bye Andrea, thanks for being here.</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-navy">* bollini (n=chatzill@host131-222-dynamic.16-87-r.retail.telecomitalia.it) Quit ("ChatZilla 0.9.85 [Firefox 3.0.14/2009082707]")</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;kshepherd&gt; heh, you're tougher than me, i've only just started</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;kshepherd&gt; cheers all</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-navy">* ksclarke (n=kevin@ip-152010148147.library.appstate.edu) Quit ("Leaving.")</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-black">&lt;stuartlewis&gt; I cycle to work, so thats my excuse for shorts.</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-navy">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-naaqbxpuxueqqxxu) Quit ("Page closed")</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-navy">* grahamtriggs (n=grahamtr@cpc3-stev1-0-0-cust857.lutn.cable.ntl.com) Quit ()</span><br />
+<span class="irc-date">[18:14]</span> <span class="irc-navy">* michaeldb (n=michaeld@CPE002436a25b34-CM000a739b087e.cpe.net.cable.rogers.com) Quit ()</span><br />
+<span class="irc-date">[19:10]</span> <span class="irc-navy">* mdiggory (n=mdiggory@98.97.212.6) Quit (Read error: 145 (Connection timed out))</span><br />
+<span class="irc-date">[19:20]</span> <span class="irc-green">* mdiggory (n=mdiggory@nmd.sbx05321.encinca.wayport.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:32]</span> <span class="irc-green">* mdiggory (n=mdiggory@nmd.sbx05321.encinca.wayport.net) has left #duraspace</span><br />
+<span class="irc-date">[19:34]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-1-145-78.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-navy">* ksclarke (n=kevin@adsl-1-145-78.clt.bellsouth.net) Quit ("Leaving.")</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-green">* ksclarke (n=kevin@adsl-1-145-78.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-green">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-lklmqfqpubfjlqdq) has joined #duraspace</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-green">* DuraLogBot (n=PircBot@fedcommsrv1.nsdlib.org) has joined #duraspace</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace - This channel is logged - <a href="http://duraspace.org/irclogs/'">http://duraspace.org/irclogs/'</a></span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-green">* Set by cwilper on Tue Jun 30 16:32:05 EDT 2009</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-red">[freenode-connect VERSION]</span><br />
+<span class="irc-date">[22:28]</span> <span class="irc-navy">* cwilper (i=4a2c9b5a@gateway/web/freenode/x-lklmqfqpubfjlqdq) Quit ("Page closed")</span><br />
+<span class="irc-date">[23:30]</span> <span class="irc-navy">* awoods (n=awoods@pool-71-191-160-93.washdc.fios.verizon.net) Quit (Read error: 110 (Connection timed out))</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

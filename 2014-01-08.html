@@ -1,0 +1,250 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2014-01-08
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:54]</span> <span class="irc-brown">-sendak.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-sendak.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-sendak.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-brown">-sendak.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:29]</span> <span class="irc-navy">* helix84 (~ctenar@195.178.95.132) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-navy">* jonathangee (~jonathang@142.68.37.238) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[13:38]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:40]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) Quit (*.net *.split)</span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[18:57]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[19:01]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-green">* KRR (~krr@libdhcp080.library.uiuc.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-navy">* KRR (~krr@libdhcp080.library.uiuc.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-green">* kstamatis (2ebe5803@gateway/web/freenode/ip.46.190.88.3) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-green">* bollini (~bollini@host111-17-dynamic.53-79-r.retail.telecomitalia.it) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi All, it's time for our weekly DSpace Dev Mtg. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-01-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-01-08</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-01-08 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-01-08">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-01-08</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Today's agenda is mostly just some followups on ideas/discussions that we had prior to the holiday break.  By the way, happy new year to everyone!</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-brick">* hpottinger throws some confetti, weeeee!</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; My first agenda item for today.  Mostly just a simple question to all of you.  Now that 4.0 is out, based on our "Support Policy", we now only officially support DSpace 1.8.x, 3.x and 4.x.  So, I was wondering whether we feel it'd be worth announcing that "DSpace 1.7 is now EOL" on lists? (I'm fine doing the announcement)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;hpottinger&gt; yes, and hands up who's still running 1.7?</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; Yes</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; I've seen one or two of them in the wild :)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; I actually suspect there are a lot of folks still on 1.7 or below (not Committers though, I hope ;).  So, this 1.7 EOL message would also be a friendly "reminder" that folks really should upgrade</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kstamatis&gt; we are still running 1.5 in one of our repositories :)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; I've got a dark archive around here that's a few versions back</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; 1.5, kstamatis, is what our dark archive runs, too :-)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;kstamatis&gt; hpottinger: ok, just stopped feeling lonely</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. So, I'll draft up a 1.7 EOL message... and get it sent out to lists sometime this week.   I suspect this is something we may want to do on a yearly basis...e.g. every January or February (after the most recent major release) we announce the latest EOL</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; it's a vanilla JSPUI repository, I'm planning to upgrade it first, to wow the archivists with all the fancy JSPUI improvements</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; (that way it's a yearly reminder to folks to "catch up" and upgrade their DSpace instance)</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mhwood&gt; Maybe the current support list should be part of the x.0 announcement.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; Why not just add it to the release announcement for next major versions? Do we have a checklist for those?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yea, it could be.  I just worry it'd get "lost" in the release announcement.  I think EOL is a "big deal" and needs to be a targeted (separate) email in order for folks to fully realize the implications to their local install</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue: point</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; +1 separate notice</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; I'm not convinced but I'm not going to veto :)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; ok, so I'll get this 1.7 EOL sent out this week.  As a subpoint in that email, I'll also remind folks about 4.0</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; thanks, Tim</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; no problem.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so we had two other discussion started just before our two week hiatus.  I mostly just wanted to remind us of them, and see if anyone has had new/different ideas:  (1) Requiring Docs before a PR can be merged, and (2) The "Let's Talk about Features" meeting every 3rd week of the month idea.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; I think with #1 (Requiring Docs for a PR), it sounds like committers seem mostly in favor.  So, it likely just needs to be written up as a policy, run past committers, &amp; put to a vote</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; #2 ("Let's talk about features") was brainstormed as a way to get us all communicating earlier on about what features we'd like to see or work on for 5.0.  It still seems like it might be worth trying, unless others object or have other ideas</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;bollini&gt; I'm just worried about add a barrier to contribution</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; Documentation:  if you need help, get help.  Volunteers are standing by.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;bollini&gt; it is not really true...</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; I'd rather "add a barrier to contribution" (by requiring docs for a PR), than "add a barrier towards releasing" (by not having docs needed to actually describe the new features)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue++</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;bollini&gt; for 4.0 we have add documentation for at most anything after the feature freeze</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;kstamatis&gt; maybe is shouldn't be a barrier, it should be a point for us to consider some contributions in priority than others</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: yes, but with 4.0, we also had a mad scramble (for those who aren't aware) the last few weeks when we noticed gaps in 4.0 docs (features which were added that were never documented)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; with 4.0, it also seemed like it became overly difficult to track down which features had been documented vs. which had not.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; There are still docs for some smaller 4.0 features missing. It's harder to add them after the fact by someone other than the contributor because I'm not familiar with the feature.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; so, we have an additional PR management data point: has_docs?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; essentially, the route of "waiting to add docs till after feature freeze" is very beneficial to contributors..but it puts added strain on the Release Team to determine which features still don't have docs</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;bollini&gt; yes, there are something that are not yet documentated but personally I prefer to have some functionalities in without documentation that keep a PR stale for long time waiting for the next release</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: there already is such indicator in Jira, I'm just not sure wemeticulously keep an eye on it.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: we actually already have a "has documentation" field in JIRA which is a selectbox of options.  We just haven't used it well.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;bollini&gt; we just need to keep "some" lower and try to get the documentation sometime</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mhwood&gt; If it's not documented, how do we know it exists?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood++</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;bollini&gt; I want to try a positive approach, don't create barrier to merge create benefit to provide documentation</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; another point to consider: It's actually easier for the commiters to review a feature that is documented</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; helix84++</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; helix84++</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;hpottinger&gt; my point is, at some point in the release process the RT has a big pile of PRs to sort through, and we approve them based on the merits of the code and whether it has been tested/verified</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;helix84&gt; so the incentive has always been there, yet the documentation is still lacking</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;bollini&gt; no one is saying that documentation is a wrong thing</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;hpottinger&gt; presence of documentation, unfortunately, hasn't yet fit into that process of PR review</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;bollini&gt; if you give me an extra week or two after a feature freeze for new PR that have documentation I will write much more documentation</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; Why should a need for documentation make code go stale?  IIRC several of us volunteered to help contributors document.</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; let's be honest - it's not so hard to write two paragraphs of documentation. we don't have to require a full page, but IMHO we should require minimal documentation.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: no one is saying the documentation needs to be *perfect* before a PR can be merged.  My proposal was that "*Minimal* Documentation is required before a PR be merged".   Docs can &amp; should be enhanced later on.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;bollini&gt; have we some new functionalities that are not already minimal  documentated in the PR or the JIRA comments?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;helix84&gt; as minimal documentation I'd see brief paragraph on purpose of the feature, location in the UI/command line and brief description of any configuration options</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; PR or Jira often doesn't say *how to use* the feature.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: yes. we do get features that sometimes fail to describe the new configs that have been added, or even fail to describe how to enable/disable the new feature (if that is possible).</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: as an example, see my recent questions to -commit about the "PDF Thumbnail rendering".  It's configs are missing from dspace.cfg by default &amp; are not explained well anywhere...it's unclear how to use or enable it</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; there are other features like that (mostly smaller features which added new configs) which are in a similar situation in terms of documentation</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; bollini: here's an example. I didn't know the answer. Luckily, you did: <a href="http://dspace.2283337.n4.nabble.com/Discovery-Spell-Checker-td4670052.html">http://dspace.2283337.n4.nabble.com/Discovery-Spell-Checker-td4670052.html</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace - Tech - Discovery Spell Checker ] - <a href="http://dspace.2283337.n4.nabble.com/Discovery-Spell-Checker-td4670052.html">http://dspace.2283337.n4.nabble.com/Discovery-Spell-Checker-td4670052.html</a></span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;bollini&gt; Ok, I'm only guessing that in some point on the PR or in the jira issue we have said that there is a configuration properties, a batch class etc.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;bollini&gt; if we ask for documentation before merge most people will read it as a well written document</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; we have a label for issues that change configuration, so it's easy for the RT to check whether they're documented</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; The sketch in the PR / Jira would still need to be copied to the Official Documentation and perhaps reorganized a bit.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; I'm suggesting here that we write up a doc on the wiki that describes what sort of documentation we require before merging.  Then, we use that when reviewing PRs &amp; link that that doc if a PR is lacking some key piece of documentation.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; My point is that, if I want to know what DSpace can do, I go to the Confluence or PDF doco.  If it's not in there, I assume it's not in DSpace.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; The secondary issue here is what mhwood mentions.  Even if the contributor adds explanation or docs to JIRA/PR, *someone* needs to make sure that gets on the wiki as well.  That's still a problem we'll need to solve</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; hey, didn't we draft a documentation template recently?</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; bram drafted something</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://wiki.duraspace.org/display/DSDOC/New+Contribution+Template">https://wiki.duraspace.org/display/DSDOC/New+Contribution+Template</a> (from bram)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;kompewter&gt; [ New Contribution Template - DSpace Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC/New+Contribution+Template">https://wiki.duraspace.org/display/DSDOC/New+Contribution+Template</a></span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;bollini&gt; I'm still conviced that is better give a benefit to whom provide documentation that saying you must provide documentation</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; What would you give him?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;bollini&gt; more time</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; Time is what the RT has the least of.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;bollini&gt; ok, we can give less time to the other... but let me say more time :-)</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; I will admit that, if I have not done something, and you give me more time, it will take as much more time as you give me. :-(</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; the common occurrence each year seems to be that the RT is stuck with documenting some things that are not documented (sometimes at the last moment).  There's already enough other docs that the RT needs to ensure get done (install / upgrade / release notes) that it'd be better if we can ease the burden on the RT</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood, wait, by that math, you already have enough time</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; so, it's either we require more docs on submission (before PR gets merged), or we find some sort of "documentation team" that is willing to write all these docs for submitters/contributors &amp; can take that burden away from the RT (but not sure how plausible that really is)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;bollini&gt; I know that the RT need to work a lot of work in the last days but I'm not sure that make a rule can improve that</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;bollini&gt; have a documentation template work much better</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; nothing is going to be perfect :)  We change our policies/rules all the time, so it's a matter of trying different options to see what may work.   I agree we'd want a documentation template to go along with this idea</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, I think the next steps are to work out more of the details here: e.g. draft up a policy, help on that "documentation template" that bram started.   Then, we can bring this to an official vote.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;bollini&gt; <a href="https://jira.duraspace.org/issues/?jql=project%20%3D%20DS%20AND%20%22Documentation%20Status%22%20%3D%20%22Needed%22%20and%20fixVersion%20%3D%20%224.0%22">https://jira.duraspace.org/issues/?jql=project%20%3D%20DS%20AND%20%22Documentation%20Status%22%20%3D%20%22Needed%22%20and%20fixVersion%20%3D%20%224.0%22</a></span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/issues/?jql=project%20%3D%20DS%20AND%20%22Documentation%20Status%22%20%3D%20%22Needed%22%20and%20fixVersion%20%3D%20%224.0%22">https://jira.duraspace.org/issues/?jql=project%20%3D%20DS%20AND%20%22Documentation%20Status%22%20%3D%20%22Needed%22%20and%20fixVersion%20%3D%20%224.0%22</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;bollini&gt; it looks as our documentation status flag is most of time not updated</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;bollini&gt; (I hope so... otherwise we have miss much documentation)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; Imagine how often it is just wrong, because someone overlooked it.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; yes, we don't do a good job up updating that status flag.  I think that status flag also defaults to "needed"</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; in any case, that's proof that we have a documentation problem here. How can the RT be expected to look through all 62 of those tickets and try to cross-check the latest Docs to see if there is proper documentation?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;bollini&gt; if we have many people that like to volunteer for documentation it will be very nice to have a documentation team that at least assue that this flag is correct for the outcoming version</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; I think a link to documentation in the PR would help</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;bollini&gt; one of the problem with is that we use two different system, JIRA and GitHub PR</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;bollini&gt; we miss often to keep them in sync</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: the problem we have with establishing a "documentation team" is finding enough folks to fill *both* a release team and a documentation team (without relying too much on the same people).  I recall several years ago we tried to setup a Documentation Team (with Jeff Trimble as the lead) and it didn't ever get off the ground, unfortunately.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; If we want to try again on creating a "documentation team" we can try again.  Just noting that past attempt</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mhwood&gt; One difficulty is that the person who knows what to document, and that in fact documentation is needed, is the contributor.  A separate team has great difficulty discovering these.</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: I agree.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; A part of me feels like DSpace should be teaching people to be "better open source developers".  Part of "Open Source Development" is also ensuring your stuff is documented.  There are too many OSS projects out there that have horrible documentation (I'm sure you all can think of 10 off the top of your head).  I'd rather not DSpace be one of them. :)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;bollini&gt; tdonohue: wait, we are not in such situation (fortunately). Big feature areat least minimal documented</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; If a big feature was not documented, how would we know?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;hpottinger&gt; complaints :-)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: Big features for DSpace tend to be documented, I agree (mostly cause we pay the most attention to those big features).  The gaps usually are in the small/medium features -- the ones that added 1-2 new configs or changed something ever so slightly</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Who would know to complain?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;hpottinger&gt; in my experience we have a very vocal community</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;bollini&gt; if we have a big PR what we do? we are doing review... and if we have no documentation at all we are not able to review big feature</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;bollini&gt; we *only* need to improve further our situation and keep the release process (and RT work) manageable</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: if you notice the early draft policy I sent to -commit... I had a statement at the end: "Individual exceptions to this policy can be made by the Release Team  and/or a vote of the Committers team."</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;bollini&gt; ok, I want do the devil job here</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: So, I expect there may be situations where there is large new feature, from a trusted committer/developer that we may want to "accept with no docs" provided that that person promises docs very soon thereafter.  But, I hope those become the *exceptions* and not the *norm*</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;bollini&gt; I read that in this way, the committers team can agree that PR that come from trusted developer (the committers) can be documented later</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;bollini&gt; my first goal for an OSS project is to have as much as contributors is possible</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; So, I think the next step here is to re-start this discussion on -commit.  Post up a new draft of the "Documentation before a PR can be merged" policy, and start to enhance Bram's initial documentation template</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; +1 I like that plan</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; Then we would vote on it...assuming it passes, we announce it to -devel  &amp; -tech and make sure folks understand what the new requirements may be</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;bollini&gt; anyway, I don't think  to place a veto on a future vote... I only want to be sure that we work more trying to keep things easier for contributors than defining rules and procedures. So I really appreaciete in this sense the Bram's template.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; yes, makes perfect sense bollini</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; I'll try and restart this discussion in the next few days on -commit</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;bollini&gt; can we dedicate the next backlog hour to review the documentation status flag for the 4.0 issues?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;bollini&gt; assuming that the issue that has something different than the default are right we have to check 60 issues</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; bollini: do you mean you want to review 4.0 issues marked as "docs needed" to verify if they actually have docs?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;bollini&gt; yes</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;bollini&gt; so that we know what is missing</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;hpottinger&gt; bollini requests to stare the monster in the face :-)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; not sure that we'll get through *all* of them in one hour. But, we can try :)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;bollini&gt; a such meeting should be scheduled as part of the final meeting pre-release</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-brick">* tdonohue wonders out-loud if we should be creating a "Release Team Schedule Template" somewhere?</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; good idea, tdonohue</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; Would the 4.0 RT members be willing to start such a thing?  I'd be glad to chip in, but I feel like you all may have it more "fresh" in your minds</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; I would suggest such a meeting happening earlier.  By the time new code is frozen, we should have draft documentation or a commitment to a date.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood++</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;bollini&gt; mhwood++</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; only thing fresh in my mind is that I just upgraded my Vagrant version from 1.3.5 to 1.4.2</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; I can help with an RT Schedule Template.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;bollini&gt; I don't want write documentation for the next 30 days :-) ... we are working hard to supply a full manual for dspace-cris</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; Well, I suspect the 4.0 RT might have strong ideas about what things should be done "earlier" rather than "at the last moment"....it need not be a strict schedule...just something that the 5.0 RT can use as a reference, and hopefully avoid the same stumbling blocks</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood!</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; May we ask you specific questions to refresh our memories, bollini?</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;bollini&gt; of course, I will also take a look to an initial draft and fill it as needed</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;bollini&gt; s/of course/sure/</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;kompewter&gt; bollini meant to say: sure, I will also take a look to an initial draft and fill it as needed</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; OK, I can gather the ideas and write a draft, but it needs some discussion to get it started.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; I know we are over time here...one final quick question:  Do we want to do anything regarding the "Let's talk about features" meeting idea or set it aside for the time being?  Next week is the 3rd meeting of the month, but I'm not sure we're ready to jump in yet...I still feel like we are working to "wrap up 4.0" and see when 4.1 may be coming.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;bollini&gt; we should announce the idea early, so to collect some features before the meeting</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; I like the idea of having a "let's talk about features" meeting each month. But, not sure we are quite ready to talk 5.0 features yet?</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;bollini&gt; so if we announce that for the 3rd meeting in February we can start collecting idea</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;hpottinger&gt; when are we ever ready to talk about new features?</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;hpottinger&gt; did I just type that? :-)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; Problematically, the answer often is "when they are ready".  Hence the meetings.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;hpottinger&gt; I honestly didn't mean that to sound as snarky as it came out, as mhwood notes, we have a built-in bias "my work isn't ready"</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so I think I'm going to wait on any "Let's talk about features" announcement this week.   It seems too far in advance of Feb 19 (3rd week of Feb).</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mhwood&gt; I agree that some advance notice is beneficial.  People need some time to think about questions like "what do you want to put into DSpace" or "what would you put into DSpace if you could get some help?"</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;bollini&gt; ok, let me say it in a different way... if I know that we have a predefined slot to talk on new feature I will try to summarize the idea that I'm working on. If I know that I can do it when I will be ready I will be never ready</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; So the meetings are to invite people to talk about what they are doing or would like to do.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;bollini&gt; yes, and we should assure that the committer will try to give a direction and an early evaluation of the idea</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;hpottinger&gt; I think waiting until February is fine, we should stick to it, though</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;bollini&gt; I'm sorry but I need to leave in 5minutes</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; I'd like to point out that we probably have "new" features in Jira, so we might want to take a look at them and notify their developers to come and talk</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, I think this meeting would be more about inviting Developers/Committers to talk about what they are building / have built / want to build.</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mhwood&gt; Sometimes I post something to Jira and then let it sit for a while in the hope of seeing comments.  These meetings are probably a better way. :-)</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I don't have any other topics for today.  So, we can close up the official meeting at this point.   I'll be around for a while though if folks have informal stuff to chat about</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;bollini&gt; bye</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;kompewter&gt; bye!</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-green">* bollini (~bollini@host111-17-dynamic.53-79-r.retail.telecomitalia.it) has left #duraspace</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mhwood&gt; I see 28 New Feature issues in either Received or Accepted, for all versions.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-green">* kstamatis (2ebe5803@gateway/web/freenode/ip.46.190.88.3) has left #duraspace</span><br />
+<span class="irc-date">[22:04]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:43]</span> <span class="irc-green">* kshepher1 is now known as kshepherd</span><br />
+<span class="irc-date">[22:54]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

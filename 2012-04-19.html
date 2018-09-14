@@ -1,0 +1,393 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2012-04-19
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:28]</span> <span class="irc-brown">-zelazny.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-zelazny.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-zelazny.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-zelazny.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:26]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[12:13]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-green">* cwilper (ad579d7c@gateway/web/freenode/ip.173.87.157.124) has joined #duraspace</span><br />
+<span class="irc-date">[12:54]</span> <span class="irc-green">* elschlomo (2e05a4bb@gateway/web/freenode/ip.46.5.164.187) has joined #duraspace</span><br />
+<span class="irc-date">[12:58]</span> <span class="irc-green">* Dan_Davis (4a4f9413@gateway/web/freenode/ip.74.79.148.19) has joined #duraspace</span><br />
+<span class="irc-date">[13:06]</span> <span class="irc-green">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) has joined #duraspace</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-black">&lt;Dan_Davis&gt; Its good they are not having to debug with OSGI too. :-)</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-green">* ajs6f (893607f8@gateway/web/freenode/ip.137.54.7.248) has joined #duraspace</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-green">* barmintor (~barmintor@cpe-72-229-190-215.nyc.res.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:21]</span> <span class="irc-black">&lt;Dan_Davis&gt; If Chris is lonely, he needs a desktop docking station for Mo.</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Status on notes for rescoping 1.6 to open up additional code improvements.</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-black">&lt;Dan_Davis&gt; Frank: Problem with shutdown and embedded OIA provider.</span><br />
+<span class="irc-date">[13:25]</span> <span class="irc-black">&lt;Dan_Davis&gt; Status on update of rework policy enforcement Springification, CXF integration.</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;Dan_Davis&gt; It looks like CXF is in good shape now.  Main problems are in FeSL test suite.</span><br />
+<span class="irc-date">[13:26]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Now has issues.</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: After a fresh build - with Axis.</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-black">&lt;barmintor&gt; git clean -df</span><br />
+<span class="irc-date">[13:27]</span> <span class="irc-black">&lt;cwilper&gt; nice tip</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;elschlomo&gt; check this: <a href="http://maven.apache.org/maven-1.x/plugins/eclipse/faq.html#generated-sources">http://maven.apache.org/maven-1.x/plugins/eclipse/faq.html#generated-sources</a></span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;kompewter&gt; [ Maven Eclipse Plugin - FAQs ] - <a href="http://maven.apache.org/maven-1.x/plugins/eclipse/faq.html#generated-sources">http://maven.apache.org/maven-1.x/plugins/eclipse/faq.html#generated-sources</a></span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: May need to remove Axis machinery.</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Do we need the Jersey library at all with CXF change.</span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-black">&lt;elschlomo&gt; this for maven2 and m2e plugin: <a href="http://stackoverflow.com/questions/6691723/m2e-generated-code-with-exec-maven-plugin">http://stackoverflow.com/questions/6691723/m2e-generated-code-with-exec-maven-plugin</a></span><br />
+<span class="irc-date">[13:31]</span> <span class="irc-black">&lt;kompewter&gt; [ java - m2e: Generated code with exec-maven-plugin - Stack Overflow ] - <a href="http://stackoverflow.com/questions/6691723/m2e-generated-code-with-exec-maven-plugin">http://stackoverflow.com/questions/6691723/m2e-generated-code-with-exec-maven-plugin</a></span><br />
+<span class="irc-date">[13:32]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Just need the dependency Jax-RS.</span><br />
+<span class="irc-date">[13:33]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: I would be nice to perform the 3.5 tests on the 3.6 code base.</span><br />
+<span class="irc-date">[13:34]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Can predict the likely fails - messages returned.</span><br />
+<span class="irc-date">[13:35]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Testing for the exception names are not a good idiom in current practice.</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Agree on what is necessary for 3.6 to go out the door.</span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1067">https://jira.duraspace.org/browse/FCREPO-1067</a></span><br />
+<span class="irc-date">[13:36]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-1067] Create fault codes for Fedora exceptions to be used in Web service error reporting - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-1067">https://jira.duraspace.org/browse/FCREPO-1067</a></span><br />
+<span class="irc-date">[13:40]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Using Git-K graphical browser.</span><br />
+<span class="irc-date">[13:42]</span> <span class="irc-black">&lt;elschlomo&gt; <a href="https://github.com/fcrepo/fcrepo/commit/8747984584c8d1f217e9d81c2428b6957e40cb77">https://github.com/fcrepo/fcrepo/commit/8747984584c8d1f217e9d81c2428b6957e40cb77</a></span><br />
+<span class="irc-date">[13:42]</span> <span class="irc-black">&lt;kompewter&gt; [ Merge branch 'master' of github.com:fcrepo/fcrepo · 8747984 · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/commit/8747984584c8d1f217e9d81c2428b6957e40cb77">https://github.com/fcrepo/fcrepo/commit/8747984584c8d1f217e9d81c2428b6957e40cb77</a></span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-black">&lt;elschlomo&gt; scroll to the left here: <a href="https://github.com/fcrepo/fcrepo/network">https://github.com/fcrepo/fcrepo/network</a></span><br />
+<span class="irc-date">[13:44]</span> <span class="irc-black">&lt;kompewter&gt; [ Network Graph · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/network">https://github.com/fcrepo/fcrepo/network</a></span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1067">https://jira.duraspace.org/browse/FCREPO-1067</a></span><br />
+<span class="irc-date">[13:46]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-1067] Create fault codes for Fedora exceptions to be used in Web service error reporting - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-1067">https://jira.duraspace.org/browse/FCREPO-1067</a></span><br />
+<span class="irc-date">[13:49]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[13:51]</span> <span class="irc-black">&lt;barmintor&gt; In the end, nothing changed.  The bleak philosophy of git. So modern!</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;Dan_Davis&gt; Multiple fumblings to find out the state of master regarding FCREPO-1067 that does not need to be repeated.</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Will remove Chris' issues and then recreate them.</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-black">&lt;Dan_Davis&gt; In order, to have a clearly identified branch.</span><br />
+<span class="irc-date">[13:55]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: I anyone using local solutions for checking fault codes.</span><br />
+<span class="irc-date">[13:56]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Are there people who have used brittle techniques out of necessity.</span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/utilities/CXFUtility.java#L52">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/utilities/CXFUtility.java#L52</a></span><br />
+<span class="irc-date">[13:57]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-server/src/main/java/org/fcrepo/server/utilities/CXFUtility.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/utilities/CXFUtility.java#L52">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/utilities/CXFUtility.java#L52</a></span><br />
+<span class="irc-date">[13:58]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: It may be some pain but it will be welcomed by users of SOAP interface.</span><br />
+<span class="irc-date">[13:59]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: All the faults come from one class.</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Will put into 3.6 release.</span><br />
+<span class="irc-date">[14:00]</span> <span class="irc-black">&lt;Dan_Davis&gt; Dan: Easter Egg</span><br />
+<span class="irc-date">[14:01]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Ben has acheived satori through refactoring</span><br />
+<span class="irc-date">[14:02]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: FeSL check on in the Web layer -- best to move PEP down.</span><br />
+<span class="irc-date">[14:03]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-installer/src/main/resources/config/spring/policy-enforcement.xml">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-installer/src/main/resources/config/spring/policy-enforcement.xml</a></span><br />
+<span class="irc-date">[14:03]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-installer/src/main/resources/config/spring/policy-enforcement.xml at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-installer/src/main/resources/config/spring/policy-enforcement.xml">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-installer/src/main/resources/config/spring/policy-enforcement.xml</a></span><br />
+<span class="irc-date">[14:05]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Make the enforcer a Spring bean and wired in.</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;barmintor&gt; No yawning!</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ben: Best way is to have an auth module that does all the work that is wired in, but it may not be easiest.</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;ajs6f&gt; FCREPO-1067 is replaced by:</span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://jira.duraspace.org/browse/FCREPO-1079">https://jira.duraspace.org/browse/FCREPO-1079</a></span><br />
+<span class="irc-date">[14:07]</span> <span class="irc-black">&lt;kompewter&gt; [ [#FCREPO-1079] Create fault codes for Fedora exceptions to be used in Web service error reporting - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/FCREPO-1079">https://jira.duraspace.org/browse/FCREPO-1079</a></span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Ben: Chris: We should get the FeSL history to judge approach.</span><br />
+<span class="irc-date">[14:10]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Chi may have considered FeSL and implementation of the interceptor pattern.</span><br />
+<span class="irc-date">[14:12]</span> <span class="irc-black">&lt;Dan_Davis&gt; Adam: Need to abstract out operation from its origin.</span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;Dan_Davis&gt; <a href="http://en.wikipedia.org/wiki/XACML">http://en.wikipedia.org/wiki/XACML</a></span><br />
+<span class="irc-date">[14:16]</span> <span class="irc-black">&lt;kompewter&gt; [ XACML - Wikipedia, the free encyclopedia ] - <a href="http://en.wikipedia.org/wiki/XACML">http://en.wikipedia.org/wiki/XACML</a></span><br />
+<span class="irc-date">[14:17]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/Authorization.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/Authorization.java</a></span><br />
+<span class="irc-date">[14:17]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-server/src/main/java/org/fcrepo/server/security/Authorization.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/Authorization.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/Authorization.java</a></span><br />
+<span class="irc-date">[14:17]</span> <span class="irc-black">&lt;Dan_Davis&gt; <a href="http://www.birds-eye.net/definition/p/pdp-policy_decision_point.shtml">http://www.birds-eye.net/definition/p/pdp-policy_decision_point.shtml</a></span><br />
+<span class="irc-date">[14:17]</span> <span class="irc-black">&lt;kompewter&gt; [ Define PDP- Policy Decision Point ] - <a href="http://www.birds-eye.net/definition/p/pdp-policy_decision_point.shtml">http://www.birds-eye.net/definition/p/pdp-policy_decision_point.shtml</a></span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/PolicyEnforcementPoint.java#L347">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/PolicyEnforcementPoint.java#L347</a></span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-server/src/main/java/org/fcrepo/server/security/PolicyEnforcementPoint.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/PolicyEnforcementPoint.java#L347">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/security/PolicyEnforcementPoint.java#L347</a></span><br />
+<span class="irc-date">[14:24]</span> <span class="irc-black">&lt;barmintor&gt; ^^ why the file policy doesn't get checked</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Adam: We need to patch for 3.6 and consider the bigger architecture changes for later.  Let Ben continue where he is going right now.</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-black">&lt;barmintor&gt; Muahahahahahah!</span><br />
+<span class="irc-date">[14:25]</span> <span class="irc-black">&lt;Dan_Davis&gt; Chris: Will stay on IRC for Office hours today.</span><br />
+<span class="irc-date">[14:26]</span> <span class="irc-black">&lt;ajs6f&gt; Chris: How 'bout those tests?</span><br />
+<span class="irc-date">[14:26]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: did your tests run?</span><br />
+<span class="irc-date">[14:26]</span> <span class="irc-black">&lt;cwilper&gt; negatory; same problem</span><br />
+<span class="irc-date">[14:26]</span> <span class="irc-black">&lt;barmintor&gt; null pointers?</span><br />
+<span class="irc-date">[14:26]</span> <span class="irc-black">&lt;barmintor&gt; or the axis thing?</span><br />
+<span class="irc-date">[14:26]</span> <span class="irc-black">&lt;cwilper&gt; APIAStubWrapper.java:[573,100] package org.apache.axis.types does not exist</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-black">&lt;barmintor&gt; what's the package?</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-black">&lt;cwilper&gt; fcrepo-client/fcrepo-client-admin/stubwrappers/org/fcrepo/client</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-black">&lt;barmintor&gt; is it generated?</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-black">&lt;ajs6f&gt; Maybe we need to check the Maven pom and see if Jiri cleaned everything out of there...</span><br />
+<span class="irc-date">[14:29]</span> <span class="irc-black">&lt;cwilper&gt; i did git clean -df &amp;&amp; mvn clean install...yeah in any case, all refs to axis should be eventually nuked.</span><br />
+<span class="irc-date">[14:29]</span> <span class="irc-black">&lt;ajs6f&gt; Chris- can you check the appropriate maven pom and see if the axis stuff is still there?</span><br />
+<span class="irc-date">[14:29]</span> <span class="irc-navy">* elschlomo (2e05a4bb@gateway/web/freenode/ip.46.5.164.187) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[14:30]</span> <span class="irc-black">&lt;ajs6f&gt; If the Maven axis plugin is still defined, there might be default executions taking places.</span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;barmintor&gt; Chris, can you delete that stub wrappers directory?</span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;ajs6f&gt; For example, did that pluging execute during your build-- it should be in the maven output.</span><br />
+<span class="irc-date">[14:31]</span> <span class="irc-black">&lt;barmintor&gt; if stub wrappers is ignored, it won't be removed by git-clean</span><br />
+<span class="irc-date">[14:32]</span> <span class="irc-black">&lt;ajs6f&gt; Stupid flexible sophisticated versioning software!</span><br />
+<span class="irc-date">[14:32]</span> <span class="irc-black">&lt;barmintor&gt; this suggests there's still some POM cleanup to be done, also</span><br />
+<span class="irc-date">[14:33]</span> <span class="irc-black">&lt;barmintor&gt; yeah, stubwrappers is in .gitignore</span><br />
+<span class="irc-date">[14:34]</span> <span class="irc-black">&lt;cwilper&gt; ok, deleted manually...re-doing a build. yes, some cleanup probably still needed regardless...i did a "git grep apache.axis" and got <a href="http://pastebin.com/X62HSemH">http://pastebin.com/X62HSemH</a></span><br />
+<span class="irc-date">[14:34]</span> <span class="irc-black">&lt;kompewter&gt; [ &gt; git grep -l apache.axis Result: fcrepo-client/fcrepo-client-admin/src/ma - Pastebin.com ] - <a href="http://pastebin.com/X62HSemH">http://pastebin.com/X62HSemH</a></span><br />
+<span class="irc-date">[14:36]</span> <span class="irc-black">&lt;cwilper&gt; The only ref to 'axis' in any pom is axistools-maven-plugin, used for wsdl2java, which I assume we still need</span><br />
+<span class="irc-date">[14:36]</span> <span class="irc-black">&lt;Dan_Davis&gt; Edited (badly) notes are posted.</span><br />
+<span class="irc-date">[14:36]</span> <span class="irc-black">&lt;barmintor&gt; thanks, Dan!</span><br />
+<span class="irc-date">[14:38]</span> <span class="irc-navy">* ajs6f (893607f8@gateway/web/freenode/ip.137.54.7.248) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-green">* ajs6f (89369b89@gateway/web/freenode/ip.137.54.155.137) has joined #duraspace</span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-black">&lt;ajs6f&gt; Any luck, Ben and Chris?</span><br />
+<span class="irc-date">[14:43]</span> <span class="irc-black">&lt;cwilper&gt; My mac's still chugging away...it will only be a matter of eons now..</span><br />
+<span class="irc-date">[14:44]</span> <span class="irc-black">&lt;Dan_Davis&gt; Ah. The allies against Axis.  (j.p.sousa music in the background)</span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Axis_%26_Allies">https://secure.wikimedia.org/wikipedia/en/wiki/Axis_%26_Allies</a></span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-black">&lt;kompewter&gt; [ Axis &amp; Allies - Wikipedia, the free encyclopedia ] - <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Axis_%26_Allies">https://secure.wikimedia.org/wikipedia/en/wiki/Axis_%26_Allies</a></span><br />
+<span class="irc-date">[14:45]</span> <span class="irc-black">&lt;ajs6f&gt; Big part of my youth.</span><br />
+<span class="irc-date">[14:50]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: but the compiling is working?</span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-black">&lt;cwilper&gt; yes, it's been compiling for a while. i think it's further than where it got before, based on how long i've been waiting for it to finish...</span><br />
+<span class="irc-date">[14:54]</span> <span class="irc-black">&lt;barmintor&gt; All right!</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-black">&lt;cwilper&gt; [INFO] BUILD SUCCESSFUL</span><br />
+<span class="irc-date">[14:55]</span> <span class="irc-black">&lt;barmintor&gt; HAH!</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-black">&lt;barmintor&gt; Ok, I need to hop off IRC for a train ride, but I'll be able to help figure out bamboo's problems in about an hour.</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-black">&lt;barmintor&gt; Thanks for double checking, cwilper</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-navy">* barmintor (~barmintor@cpe-72-229-190-215.nyc.res.rr.com) Quit (Quit: barmintor)</span><br />
+<span class="irc-date">[14:56]</span> <span class="irc-black">&lt;cwilper&gt; Cool...I'll get to configuring the test server now, to save server logs as artifacts. Will also make sure it clears the build directory before each build, then I'll run a manual build which will of course totally work without any unanticipated problems &lt;grin&gt;</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;ajs6f&gt; Chris-- you there? Did the Bamboo build go through? {crosses fingers}</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;cwilper&gt; ajs6f: I'm actually just back from lunch -- doing the bamboo stuff now, should know within an hour or so</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;ajs6f&gt; Groovy. Good luck!</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-green">* mdiggory_ (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has joined #duraspace</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: So, two things from this morning's talk-</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-navy">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-green">* mdiggory_ is now known as mdiggory</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;barmintor&gt; 1) .gitignore needs to be updated</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;barmintor&gt; 2) the bamboo build needs to incorporate a git clean step</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;cwilper&gt; #2 is now handled by having the bamboo do a "fresh checkout" (which is actually a fairly cheap operation, even for the fcrepo repository) per build</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;barmintor&gt; oh, okay</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;cwilper&gt; what needs to be added to .gitignore?</span><br />
+<span class="irc-date">[16:33]</span> <span class="irc-black">&lt;barmintor&gt; stubwrappers might be removed; nothing needs to be added</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;cwilper&gt; yeah, so let's figure out the fate of stubwrappers. first off, do we know why it's not in a target/ directory to begin with? if it were there, the whole issue of its presence in .gitignore would be irrelevant.</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-black">&lt;cwilper&gt; it seems like its current location is non-maven-like for some reason. and conformity is key.</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;barmintor&gt; I don't really understand why it was where it was.</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;barmintor&gt; just to backtrack, has there been a successful build on bamboo now?</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;ajs6f&gt; My guess would be history: the Axis machinery is older than the Maven machinery.</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;cwilper&gt; in ~10 mins we should know. <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE-11">https://bamboo.duraspace.org/browse/FCREPO-CORE-11</a></span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora - Core Test 11: Build Result Summary - DuraSpace Bamboo ] - <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE-11">https://bamboo.duraspace.org/browse/FCREPO-CORE-11</a></span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: nvm, I see that it's running</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-brick">* cwilper is trying to determine how stubwrappers came to be where it is</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;barmintor&gt; design goal: minimize or eliminate the use of Server.getInstance(File fedoraHome) in favor of actual DI</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;ajs6f&gt; +.5</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;barmintor&gt; which half?</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;cwilper&gt; +.4999</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;ajs6f&gt; What about using OSGi service registry instead of pure DI?</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;barmintor&gt; anything that gets us away from that janky static map of file objects to servers, that really only ever has one entry in it</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;ajs6f&gt; Still possble to use DI (i.e. Spring/Blueprint)</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;ajs6f&gt; Yeah, that was the half I agree with 100%.</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;ajs6f&gt; "janky"?</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;ajs6f&gt; hinky &lt; janky &lt; hacky</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;barmintor&gt; DI (Spring) is more readily available than OSGi in the current codebase, but I'm not religious</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;barmintor&gt; and yes, I think that's the etymology</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;ajs6f&gt; Oh, are we talking 3.6?</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;barmintor&gt; I try to replace it whenever I come across it in code</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;barmintor&gt; as long as I don't change the interfaces</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;ajs6f&gt; I thought you were talking about large-scale changes-- now I understand-- you're "leaving the camp site cleaner than you found it".</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;cwilper&gt; I'd say nix Server.getInstance in favor of actual DI where possible. I tend to think constructor injection is where it's at, particularly for required dependencies. I'm not sure where OSGi fits in exactly, but tend to tread cautiously when it comes to adding a dependency on a particular framework.</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;barmintor&gt; yeah. but I like the large-scale goals.</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;ajs6f&gt; No, I wouldn't suggest adding OSGi to the mix.</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;ajs6f&gt; I misunderstood what Ben was saying.</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;ajs6f&gt; And if you like, don't think OSGi, think service registry.</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;ajs6f&gt; <a href="http://martinfowler.com/articles/injection.html">http://martinfowler.com/articles/injection.html</a></span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;kompewter&gt; [ Inversion of Control Containers and the Dependency Injection	pattern ] - <a href="http://martinfowler.com/articles/injection.html">http://martinfowler.com/articles/injection.html</a></span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;barmintor&gt; bamboo's interface is confusing me right now</span><br />
+<span class="irc-date">[16:53]</span> <span class="irc-black">&lt;ajs6f&gt; SOmetimes a service registry is the Right Thing.</span><br />
+<span class="irc-date">[16:54]</span> <span class="irc-black">&lt;cwilper&gt; ajs6f: gotcha. Maybe someday Server can go away altogether too. I'd be much happier with either a beanfactory or service registry.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;ajs6f&gt; Yeah, that's where I'm going with this.</span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;ajs6f&gt; OSGi just happens to do a nivce one along with a lot of other stuff.</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;barmintor&gt; I think this means that these three tests are failing in one configuration?</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;ajs6f&gt; Ben, can you put a link to the Bamboo here?</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE-11">https://bamboo.duraspace.org/browse/FCREPO-CORE-11</a></span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;kompewter&gt; [ Fedora - Core Test 11: Build Result Summary - DuraSpace Bamboo ] - <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE-11">https://bamboo.duraspace.org/browse/FCREPO-CORE-11</a></span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;ajs6f&gt; Thnx</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;cwilper&gt; Yeah Bamboo's summary is confusing because it assume you have one set of test results that don't overlap in name. But we have several configurations, across which we run many of the same tests...</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;ajs6f&gt; Aren't those the tests we knew would fail?</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;barmintor&gt; they are the ones that failed with NPEs last night</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;ajs6f&gt; The ones that relate to the changes in exception types.</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;barmintor&gt; and are now reporting as both fixed and failing</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;barmintor&gt; Oh, no</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;barmintor&gt; Those tests are fixed</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;ajs6f&gt; Gah?</span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;cwilper&gt; For the "raw" tests results (un-bamboo-ified), see <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE-11/artifact/JOB1/Failsafe-reports/fcrepo-integrationtest">https://bamboo.duraspace.org/browse/FCREPO-CORE-11/artifact/JOB1/Failsafe-reports/fcrepo-integrationtest</a></span><br />
+<span class="irc-date">[16:58]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo-integrationtest ] - <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE-11/artifact/JOB1/Failsafe-reports/fcrepo-integrationtest">https://bamboo.duraspace.org/browse/FCREPO-CORE-11/artifact/JOB1/Failsafe-reports/fcrepo-integrationtest</a></span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;barmintor&gt; I changed them to check for the message instead of the exception name</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;barmintor&gt; ok, if Q didnt run they must have failed in C</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;ajs6f&gt; Well, one is a NullPOinter, one is a failed assert</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;ajs6f&gt; and one is</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;ajs6f&gt; javax.xml.ws.soap.SOAPFaultException: java.lang.RuntimeException: XML datastreams must be of type Managed or Inline Caused by: Uncaught exception from Fedora Server</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;ajs6f&gt; Did you see those locally, B, or did you just see NPEs?</span><br />
+<span class="irc-date">[17:00]</span> <span class="irc-black">&lt;barmintor&gt; All 4 configs pass locally</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;barmintor&gt; the NPEs were on bamboo last night</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-black">&lt;ajs6f&gt; Oh, okay. Wait, what?</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;cwilper&gt; Confirmed, the failure was in configC. <a href="https://bamboo.duraspace.org/artifact/FCREPO-CORE/JOB1/build-11/Failsafe-reports/fcrepo-integrationtest/fcrepo-integrationtest-configC/target/failsafe-reports/fcrepo-integrationtest-core/org.fcrepo.test.api.TestAPIM.txt">https://bamboo.duraspace.org/artifact/FCREPO-CORE/JOB1/build-11/Failsafe-reports/fcrepo-integrationtest/fcrepo-integrationtest-configC/target/failsafe-reports/fcrepo-integrationtest-core/org.fcrepo.test.api.TestAPIM.txt</a></span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;barmintor&gt; Yesterday, after all 4 test suites passed on my development machine, I pushed to master</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;barmintor&gt; bamboo failed to run</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;barmintor&gt; cwilper restarted bamboo, which then ran with 3 test failures</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;barmintor&gt; those 3 failures were NPEs</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;ajs6f&gt; Okay. I think I get it. So how do we "diff" your setup vs. Bamboo? Possibly more git-fu?</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;ajs6f&gt; brb</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;barmintor&gt; ok, for there to be a NPE there, there would have to never have been set DSControlGroup on a datastream object.</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-green">* ajs6f_ (89360899@gateway/web/freenode/ip.137.54.8.153) has joined #duraspace</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;barmintor&gt; not sure how I could not get that error on one of my two dev machines</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;ajs6f_&gt; back</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;ajs6f_&gt; Ben-- have you got a link to the test code?</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;barmintor&gt; cwilper: you had a successful local build too, right?</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-navy">* ajs6f (89369b89@gateway/web/freenode/ip.137.54.155.137) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;barmintor&gt; ajs6f_: Which test? The failing test?</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java</a></span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java</a></span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;ajs6f_&gt; Yeah, the one what vomits forth NPE unto the congregation.</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;ajs6f_&gt; Love that object setup.</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;ajs6f_&gt; Going to have to tease Ross about that.</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;ajs6f_&gt; I don't think I've ever seen that exception bfore-- it's weird. Why couldn't an XML datastream be External, for example POLICY?</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;ajs6f_&gt; Not a good message.</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;ajs6f_&gt; Chris-- can we see the server-side side logs to know where it arose?</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;ajs6f_&gt; Sorry, whence. Whence it arose.</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://bamboo.duraspace.org/artifact/FCREPO-CORE/JOB1/build-11/Fedora-server-logs/fcrepo-integrationtest-configC/target/fcrepo-3.6-SNAPSHOT/server/logs/fedora.log">https://bamboo.duraspace.org/artifact/FCREPO-CORE/JOB1/build-11/Fedora-server-logs/fcrepo-integrationtest-configC/target/fcrepo-3.6-SNAPSHOT/server/logs/fedora.log</a></span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;ajs6f_&gt; thnx</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;ajs6f_&gt; java.lang.RuntimeException: XML datastreams must be of type Managed or Inline 	at org.fcrepo.server.storage.types.XMLDatastreamProcessor.&lt;init&gt;(XMLDatastreamProcessor.java:103) [fcrepo-server-3.6-SNAPSHOT.jar:na] 	at org.fcrepo.server.management.DefaultManagement.modifyDatastreamByValue(DefaultManagement.java:864) [fcrepo-server-3.6-SNAPSHOT.jar:na] 	</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;barmintor&gt; Yeah, for some reason DSControlGroup looks not to be set in config C for those three tests</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;barmintor&gt; Which I'm baffled by</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-black">&lt;barmintor&gt; afk for a few minutes</span><br />
+<span class="irc-date">[17:18]</span> <span class="irc-green">* barmintor is now known as barmintor_afk</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-black">&lt;ajs6f_&gt; That shouldn't be valid. What sequence of operations could produce it?&gt;</span><br />
+<span class="irc-date">[17:20]</span> <span class="irc-black">&lt;ajs6f_&gt; And wy only in Config C?</span><br />
+<span class="irc-date">[17:24]</span> <span class="irc-black">&lt;ajs6f_&gt; Anyone know where demo:14 gets created in the test code? It's not directly in TestAPIM.java  that I notice.</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;ajs6f_&gt; Oh, <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/DemoObjectTestSetup.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/DemoObjectTestSetup.java</a></span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/DemoObjectTestSetup.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/DemoObjectTestSetup.java">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/DemoObjectTestSetup.java</a></span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;cwilper&gt; yea, i've had successful local builds, so why this is happening on bamboo is a mystery to me.</span><br />
+<span class="irc-date">[17:30]</span> <span class="irc-black">&lt;ajs6f_&gt; None of the demo objects appear to have been touched in years, so I don't think Jiri did anything to them.</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-navy">* EdAtTheAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-black">&lt;ajs6f_&gt; Okay, so if I'm not nuts, then here:</span><br />
+<span class="irc-date">[17:39]</span> <span class="irc-black">&lt;ajs6f_&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java#L1272">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java#L1272</a></span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java#L1272">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java#L1272</a></span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;ajs6f_&gt; is where that DS is created, and it is clearly created as type 'X".</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;ajs6f_&gt; So how the heck is it changing or losing that attribute...?</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;ajs6f_&gt; And why not on Ben's machine/</span><br />
+<span class="irc-date">[17:40]</span> <span class="irc-black">&lt;ajs6f_&gt; ?</span><br />
+<span class="irc-date">[17:45]</span> <span class="irc-black">&lt;cwilper&gt; (and why *only* on the Bamboo machine...since the tests are passing fine on my machine now)</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-black">&lt;ajs6f_&gt; Oh, criminy.</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-black">&lt;ajs6f_&gt; Seriously?</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-black">&lt;ajs6f_&gt; Chris-- any possibility that this is some kind of state ambiguity, like temp files not getting wiped? I know that sounds desperate, but...</span><br />
+<span class="irc-date">[17:52]</span> <span class="irc-black">&lt;ajs6f_&gt; I just can't see how the datastream loses (or changes) its X/M/E/R kind.</span><br />
+<span class="irc-date">[17:54]</span> <span class="irc-black">&lt;cwilper&gt; All I can think of is a threading issue...and that's grasping and straws. Yeah, it's a field that's either set or not...never un-set afaik.</span><br />
+<span class="irc-date">[17:55]</span> <span class="irc-black">&lt;ajs6f_&gt; Well, it could throw that exception if it were set to something other than X/M:</span><br />
+<span class="irc-date">[17:55]</span> <span class="irc-black">&lt;ajs6f_&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java#L93">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java#L93</a></span><br />
+<span class="irc-date">[17:55]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java#L93">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java#L93</a></span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-black">&lt;ajs6f_&gt; <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java#L142">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java#L142</a></span><br />
+<span class="irc-date">[17:56]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java#L142">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-server/src/main/java/org/fcrepo/server/storage/types/XMLDatastreamProcessor.java#L142</a></span><br />
+<span class="irc-date">[17:57]</span> <span class="irc-black">&lt;ajs6f_&gt; Actually, there's a bunch of places in there where it could get thrown, but they're all checking explicitly for X/M.</span><br />
+<span class="irc-date">[17:58]</span> <span class="irc-black">&lt;ajs6f_&gt; Say, come to think of it, could it be that the default type is somehow set to something other than X or M?</span><br />
+<span class="irc-date">[18:00]</span> <span class="irc-black">&lt;ajs6f_&gt; I mean the default type for DC or RELS</span><br />
+<span class="irc-date">[18:01]</span> <span class="irc-black">&lt;cwilper&gt; I don't know....maybe we should just change the code to log what it thinks it is and commit it so bamboo tells us in ~30 minutes</span><br />
+<span class="irc-date">[18:02]</span> <span class="irc-black">&lt;cwilper&gt; Cue infomercial refrain "There's gotta be a better way!". Unfortunately I don't know of one when the test server is the only thing that seems wonky for some reason.</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-black">&lt;cwilper&gt; But I do feel compelled to track this down, as it could certainly signal a bigger issue somewhere.</span><br />
+<span class="irc-date">[18:03]</span> <span class="irc-black">&lt;ajs6f_&gt; Agreed. It's not okay to ignore this.</span><br />
+<span class="irc-date">[18:04]</span> <span class="irc-black">&lt;ajs6f_&gt; Actually, loggin this at debug isn't crazy to my ears.</span><br />
+<span class="irc-date">[18:04]</span> <span class="irc-black">&lt;ajs6f_&gt; Hm. I wonder about Config C... why only Config C?</span><br />
+<span class="irc-date">[18:11]</span> <span class="irc-black">&lt;ajs6f_&gt; afk</span><br />
+<span class="irc-date">[18:15]</span> <span class="irc-green">* ajs6f (89360899@gateway/web/freenode/ip.137.54.8.153) has joined #duraspace</span><br />
+<span class="irc-date">[18:16]</span> <span class="irc-navy">* ajs6f_ (89360899@gateway/web/freenode/ip.137.54.8.153) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[18:16]</span> <span class="irc-black">&lt;ajs6f&gt; back</span><br />
+<span class="irc-date">[18:35]</span> <span class="irc-green">* barmintor_afk is now known as barmintor</span><br />
+<span class="irc-date">[18:37]</span> <span class="irc-black">&lt;barmintor&gt; Did you guys sort it out?</span><br />
+<span class="irc-date">[18:37]</span> <span class="irc-brick">* barmintor crosses fingers</span><br />
+<span class="irc-date">[18:51]</span> <span class="irc-navy">* ajs6f (89360899@gateway/web/freenode/ip.137.54.8.153) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[18:57]</span> <span class="irc-black">&lt;cwilper&gt; Not yet. I'm resorting to updating the log message to include a little more detail...to aid in figuring out what's going on. <a href="https://github.com/fcrepo/fcrepo/commit/58784deb75a7791809b36c2aad241990660a740d">https://github.com/fcrepo/fcrepo/commit/58784deb75a7791809b36c2aad241990660a740d</a></span><br />
+<span class="irc-date">[18:57]</span> <span class="irc-black">&lt;kompewter&gt; [ include more detail with log message when datastream type isn't as expec... · 58784de · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/commit/58784deb75a7791809b36c2aad241990660a740d">https://github.com/fcrepo/fcrepo/commit/58784deb75a7791809b36c2aad241990660a740d</a></span><br />
+<span class="irc-date">[18:58]</span> <span class="irc-green">* ajs6f (89360899@gateway/web/freenode/ip.137.54.8.153) has joined #duraspace</span><br />
+<span class="irc-date">[19:34]</span> <span class="irc-navy">* ajs6f (89360899@gateway/web/freenode/ip.137.54.8.153) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-black">&lt;cwilper&gt; barmintor: ran again, this time got an NPE for modifyDatastreamByValue. So it appears that somehow XMLDatastreamProcessor constructor is getting called with a null ds value.</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-black">&lt;barmintor&gt; Yeah.  I'm looking at this stacktrace...</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-black">&lt;barmintor&gt; <a href="https://gist.github.com/bb8c5df64dd214d8aabc">https://gist.github.com/bb8c5df64dd214d8aabc</a></span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo error — Gist ] - <a href="https://gist.github.com/bb8c5df64dd214d8aabc">https://gist.github.com/bb8c5df64dd214d8aabc</a></span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;barmintor&gt; trying to find a config C error.</span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-black">&lt;barmintor&gt; The thing is that some of these are expected failures. But the NPE was the one that got through, so presumably that's the real problem</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;barmintor&gt; this is also weird: <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE-JOB1-11/test/case/918649">https://bamboo.duraspace.org/browse/FCREPO-CORE-JOB1-11/test/case/918649</a></span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;kompewter&gt; [ FCREPO-CORE-JOB1-11 Validate: Test Case Result - DuraSpace Bamboo ] - <a href="https://bamboo.duraspace.org/browse/FCREPO-CORE-JOB1-11/test/case/918649">https://bamboo.duraspace.org/browse/FCREPO-CORE-JOB1-11/test/case/918649</a></span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;barmintor&gt; The assertion at <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java#L2577">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java#L2577</a></span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;kompewter&gt; [ fcrepo/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java at master · fcrepo/fcrepo · GitHub ] - <a href="https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java#L2577">https://github.com/fcrepo/fcrepo/blob/master/fcrepo-integrationtest/fcrepo-integrationtest-core/src/main/java/org/fcrepo/test/api/TestAPIM.java#L2577</a></span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;barmintor&gt; cannot throw a null pointer and also have been reached.</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;barmintor&gt; either the null pointer is on 2560, or that's a normal true/false assertion</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;barmintor&gt; something is not right</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;cwilper&gt; The NPE I'm seeing with build-12 is new, and it's in place of the previous error that was caused  by the wrong "type" of datastream being passed in to XMLDatastreamProcessor's constructor. Search for XMLDatastreamProcessor in <a href="https://bamboo.duraspace.org/artifact/FCREPO-CORE/JOB1/build-12/Fedora-server-logs/fcrepo-integrationtest-configC/target/fcrepo-3.6-SNAPSHOT/server/logs/fedora.log">https://bamboo.duraspace.org/artifact/FCREPO-CORE/JOB1/build-12/Fedora-server-logs/fcrepo-integrationtest-configC/target/fcrepo-3.6-SNAPSHOT/server/logs/fedora.log</a> to see it...the only way this could be thro</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;cwilper&gt; ..as null</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;barmintor&gt; It doesn't have anything to do with this, but I do see a bug I introduced in SimpleDOReader.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-green">* ajs6f (89360899@gateway/web/freenode/ip.137.54.8.153) has joined #duraspace</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;ajs6f&gt; Hola-- I'm back. Had to help a colleague with Camel.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;ajs6f&gt; Any news with these weirdo test cases?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;barmintor&gt; It's still nonsense. Nonsense!</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;ajs6f&gt; Well, I'm wondering if we can think of anything weird about the Bamboo environement. The big mystery to me is</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;ajs6f&gt; how the test that fails on the datastream categroy</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;ajs6f&gt; could be failing. How can that attribute "shift"?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;barmintor&gt; and so consistently, in one configuration?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;ajs6f&gt; It's being explicitly set a couple of dozen lines above that very test!</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;ajs6f&gt; Yeah, yeah-- what about that config?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;ajs6f&gt; What's different about COnfig C?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;barmintor&gt; it uses FESL</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;ajs6f&gt; Moy-hoy!</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;ajs6f&gt; Actually, that doesn't inspire me with any insight immediately.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;barmintor&gt; but FESL doesn't mess with datastreams :(</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;ajs6f&gt; No, no.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;ajs6f&gt; Hm.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;ajs6f&gt; FESL might be engaged at some point when storing or retrieving that datastream.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;ajs6f&gt; Is it conceivable that we've got a _very_ subtle bug here?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;ajs6f&gt; But then why doesn't it show up on your or Chris' builds?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;ajs6f&gt; Chris, did you get any insight from the logs on Bamboo?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;barmintor&gt; we did see that the two modify NPEs are both from a datastream not being returned</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;ajs6f&gt; Not being returned at all?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;ajs6f&gt; This is where I wish I had carried the Cargo work a little further.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;ajs6f&gt; We could run clients against that repo and see whether the ds is really there, or what.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;barmintor&gt; the only way to get those two NPEs is for a null to be returned for a datastream internal to Fedora, not on the client side</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;ajs6f&gt; Ah, I see.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;ajs6f&gt; Still, we would have the repo available for inspection.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;ajs6f&gt; Which we don't, unless we break an executing int-test run and examine the debris.</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;ajs6f&gt; Which might be worth doing</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;ajs6f&gt; break -&gt; stop execution</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;ajs6f&gt; Chris-- can we do that? Run the bamboo build, stop it right after that test, and examine the repo?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;ajs6f&gt; I mean just the files, not the running repo.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;ajs6f&gt; Well, I'm out of here for the day. Good luck with these exceptionally mysterious exceptions!</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;barmintor&gt; thanks ajs6f</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;barmintor&gt; have a good one</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;cwilper&gt; back. also headed off for the day. i can try saving the state of the repo on the bamboo server if that seems useful.</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;barmintor&gt; all right. I'm going to push a minor bugfix up.  Still not sure why the DS would be null there. Will keep working on it.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;cwilper&gt; ok, g'night</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-green">* ajs6f (89360899@gateway/web/freenode/ip.137.54.8.153) has left #duraspace</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-green">* barmintor (~ba2213@dyn-butler-158-112.dyn.columbia.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:36]</span> <span class="irc-navy">* cwilper (ad579d7c@gateway/web/freenode/ip.173.87.157.124) Quit (Quit: Page closed)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

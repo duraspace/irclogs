@@ -1,0 +1,219 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2015-07-29
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[0:43]</span> <span class="irc-green">* hpottinger (~hpottinge@72-161-217-98.dyn.centurytel.net) has joined #duraspace</span><br />
+<span class="irc-date">[0:52]</span> <span class="irc-navy">* hpottinger (~hpottinge@72-161-217-98.dyn.centurytel.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[2:52]</span> <span class="irc-green">* hpottinger (~hpottinge@216.106.51.118.reverse.socket.net) has joined #duraspace</span><br />
+<span class="irc-date">[3:07]</span> <span class="irc-navy">* hpottinger (~hpottinge@216.106.51.118.reverse.socket.net) Quit (Quit: Bye)</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-card.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-card.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-card.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-brown">-card.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:49]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:38]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-212-150-72.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:39]</span> <span class="irc-green">* test (55eac36d@gateway/web/freenode/ip.85.234.195.109) has joined #duraspace</span><br />
+<span class="irc-date">[12:39]</span> <span class="irc-green">* test is now known as Guest12620</span><br />
+<span class="irc-date">[12:43]</span> <span class="irc-navy">* Guest12620 (55eac36d@gateway/web/freenode/ip.85.234.195.109) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[13:49]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160070.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for our weekly DSpace Developers Meeting: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-29">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-29</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-07-29 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-29">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-29</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-green">* ben_bosman (~ben@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Wow, our attendance looks to be small today (smaller than normal).  Hopefully we have others join shortly</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;mhwood&gt; Hi</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; Pinging the Committers though: helix84, hpottinger, mhwood, ben_bosman (hi Ben)</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;hpottinger&gt; I'm here, but  I need to step away for about a minute, brb</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; OK, we seem to be a tiny group today, but I guess we can jump right in.  I'm going to reorder things ever so slightly in the Agenda (to see if others show up in a few minutes): <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-29">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-29</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-07-29 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-29">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-07-29</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; So, we'll start at 5.3 updates/notes.</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-green">* terry-b (~terry-b@71-212-24-25.tukw.qwest.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; Just as a general update, Kim Shepherd released 5.3 last night.  There's a few last steps to be completed later today (once Kim is back awake, it's the middle of the night for him right now).  So, 5.3 should be announced either late today or early tomorrow</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; But, for anyone wanting 5.3 immediately it is out in Maven Central :)</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;hpottinger&gt; back</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; Now we'll hop back to our first topic.  Discussion of the Service API work (which ben_bosman presented last week): <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Service+based+api">https://wiki.duraspace.org/display/DSPACE/DSpace+Service+based+api</a></span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Service based api - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Service+based+api">https://wiki.duraspace.org/display/DSPACE/DSpace+Service+based+api</a></span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; Since you've all seen this work last week and have had some time to review the wiki page / slides, etc, what feedback do you have to share? Or are there any additional questions that have come up?</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; I'll admit I've heard some positive chat in #dspace last week (mostly from folks here). But, I haven't heard much via email. So, I'll just say again for all here (or others reading these logs later), I really *want* your feedback</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;hpottinger&gt; Only way for us to get up to speed on it is to, um, get up to speed on it, and that's the only way we'll be able to support it</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;hpottinger&gt; I'm OK with jumping in, I really like the idea of handing off the constant worry of where the next Oracle bug will come from to another group entirely :-)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: from a development / ongoing maintenance standpoint, that's true.  I guess the question I'd pose is, "would you like to see this in DSpace? Or are there any concerns / outstanding questions you have first?"</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;hpottinger&gt; My only worry is one of support, but the only way to deal with that is to get this work into the code base early, so we can gain some experience with it</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;mhwood&gt; Support..?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;ben_bosman&gt; I also see the serviced based API as going much further as only hibernate</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;hpottinger&gt; "support" = "how does this work? what do we do now? this part seems a bit broken, what next?"</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;ben_bosman&gt; the hibernate part is just a small fraction</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;hpottinger&gt; true, ben_bosman, it's our missing business logic layer :-)</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;ben_bosman&gt; making everything much easier to adjust/extend is an even more important part as we see it</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;mhwood&gt; Indeed, ben_bosman, my main comment is that this is at least three distinct changes.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;hpottinger&gt; so, I'm all for getting this into 6, so we can focus on documenting it</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;ben_bosman&gt; regarding support, we have the first elaborate documentation on the wiki</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I do agree there may be some "early pain points" as we all get more comfortable with the changes. But, to be honest, I feel those are all things we can get through (especially since we'll need to help chip in immediately on updating all our UI layers to use the new API)...so it's likely any "pain points" will hit *prior* to the 6.0 release.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;ben_bosman&gt; and we will be working on a list of the actual changes as soon as Kevin returns from his leave</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;ben_bosman&gt; so documenting it and creating tutorials is a high priority for us</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;ben_bosman&gt; assuming we get positive feedback, but it seems good so far</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; +1 ben_bosman. tutorials &amp; even more docs would be excellent.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mhwood&gt; The initial documentation helps a lot in untangling the various changes.  Thanks to you all.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;ben_bosman&gt; What I would advise for those interested in digging in, is to check out the unit tests</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; My personal opinion here is that it all "sounds great" to me. After the talk, I've thoroughly read the entire wiki page, and I have no major concerns myself. I would like to see more "examples in action" (which I hope a tutorial will help with), but it honestly sounds/looks good.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;ben_bosman&gt; they contain a typical flow for most API actions</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; ben_bosman: nice idea. I hadn't looked at the Unit Tests quite yet</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-navy">* terry-b (~terry-b@71-212-24-25.tukw.qwest.net) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-green">* terry-b (~terry-b@71-212-24-25.tukw.qwest.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;mhwood&gt; What you want to do is all good, I think.  I'm still trying to comprehend *how* it's being done.  I must admit that I haven't finished the reading I'd intended.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;ben_bosman&gt; I think we can start working on the tutorials from these unit tests as well, which should allow us to create at least a first set quite soon</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;ben_bosman&gt; I’ll think about a good format, and might even be able to have someone work on them prior to Kevin’s return, since there seems to be quite some interest to get themù</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;hpottinger&gt; this isn't yet a PR, do we need a detailed outline of what needs to happen before this work can be a PR?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;ben_bosman&gt; I’ll have to check those details with Kevin</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;hpottinger&gt; coming at that question a bit differently: how do we see this work being done? I'm assuming @mire will continue developing the code, would this be a candidate for a "feature branch"?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I think we definitely need a *plan* for getting this in.  As was noted last week, this change obviously may break other PRs in consideration for 6.0.  So, we may need to determine the best route towards tackling that issue</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;mhwood&gt; My thought as well.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;ben_bosman&gt; I didn’t go into the details about how he did the development in git</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; I like the idea of treating this as a common feature branch...which others could collaborate on.  But, we'd need a timeline for getting this merged in as "master" will be a moving target (as other PRs get merged, etc)</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;hpottinger&gt; we don't yet have an RT for 6, correct?</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;mhwood&gt; The first merge from feature branch to master should come fairly soon.  But, with something this big, it may be good to keep a feature branch open for a while.</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; So, creating a "feature branch" off DSpace/DSpace would allow @mire to finish up API-level work, while others could start to "fix" XMLUI, JSPUI, LNI, etc.  Again though, we'd need to make developers aware of how this will effect existing PRs.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;mhwood&gt; I think we need to be wary of letting this work become isolated in its own branch.  Merges should start early and happen often, until the code settles down to the point that we can do a final merge and continue fixing/extending in the main line.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;ben_bosman&gt; the problem is of course also that the current code doesn’t contain a fully functional DSpace</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;ben_bosman&gt; we have an operational XMLUI, for most of the features</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;ben_bosman&gt; but e.g. JSPUI, OAI are not operational, and probably don’t even compile</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;ben_bosman&gt; so it will be hard to have any other PRs start from this branch, unless they only use code which was already porteed</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: that's correct, we don't yet have a Release Team for DSpace 6.  But, in some ways, assuming Services API is in 6.0, whoever is involved with the Services API may end up having to help "coordinate" things to get it in and ensure stability, etc. I think we'll need a group to do that coordination (not just @mire)...and that group essentially would be doing RT-like tasks</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: good point</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mhwood&gt; So that would be the first stuff to work on in the branch:  get various bits working again.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;hpottinger&gt; yeah, I was thinking feature branch just to get the work into shape for a PR, PR "soon" and then roll with the waves</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;hpottinger&gt; I'm just thinking we're asking questions about schedules, and the 6.0 schedule doesn't exist yet, because the team doesn't exist yet</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; Perhaps it would be best to "merge when dspace-api compiles/tests succeed".  This will break master for all the UIs.  But, we can then work to fix each one-by-one. Plus, PRs can be updated based on the new dspace-api (as needed).</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;hpottinger&gt; heh "sometimes it's OK to break master"</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;terry-b&gt; I am excited by this proposed change.  (I have studied it beyond attending the call last week.)  My gut reaction is that this is a big change.  What is this likely to do to the anticipated 6.0 schedule (and the follow on roadmap plans?</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I agree, not having a 6.0 schedule or RT is worrisome in general. Perhaps we just need to do a tentative schedule drafted that seems reasonable.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;hpottinger&gt; in the past, we've just re-used the old schedule, but I know that some people have concerns about previous timing, and we just keep kicking that can down the road</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-brick">* hpottinger would like to make it clear he's not on the RT this time around :-)</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: later roadmap plans should not be affected too much (as long as the API is stable by end-of-2015 when new UI work is scheduled to begin).  But, it *might* affect the 6.0 schedule, depending on what limitations we place on what will be in 6.0</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; But, what terry-b does bring up is a good point. We don't want 6.0 to get pushed back too far.  If we did, we'd be "splitting" resources between "finishing 6.0" and "starting new UI development"</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; Ideally, 6.0 is *finished* prior to "new UI development"....and "new UI development" is tentatively scheduled for early 2016</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;ben_bosman&gt; for the service based api work: our estimates are a few weeks of development work left to get all the modules work (apart from bugs we encounter later-on)</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; 5.0 schedule: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; Honestly though, now *is* the best time for this big of a change to get in.  Delaying Services API for 7.0 could prove even harder as you'd be developing a new UI on a new API.  Ideally we split that into two releases</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;ben_bosman&gt; with a few people interested in working on this, I think it should be possible to get a first version ready at a reasonable time, so the other PRs can be updated based on this contribution</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 5.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing</a></span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; ben_bosman: thanks for those timelines. Honestly it does sound doable, if we can get others to chip in immediately</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;hpottinger&gt; right, tdonohue, 6.0 is the logical time to do any major refactoring we want to do in the lead-up to 7.0</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; So, if we look at the 5.0 timelines as a reference (which hpottinger pasted in), ideally we'd have 6.0 "PR Deadline" in late Sept / early Oct.  That'd give us essentially a little over 2 months</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; Earlier is obviously *better*. But, that'd line up with what we did with 5.0</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;terry-b&gt; From a complexity standpoint, will these changes make 6.0 equivalent in complexity to other recent releases or does this make 6.0 an evolutionary release?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;ben_bosman&gt; for complexity: I guess this is the first release where all classes will be updated (except when the license was included in all classes)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: "earlier is obviously better" do you mean an earlier PR deadline?</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: 6.0 would be a bit more evolutionary than normal (as much of the API changes), but it'd be "invisible" mostly (assuming we get any bugs ironed out)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yes...the earlier we can get all the PRs ready for review/merger the better.  So, ideally we'd do that by late Sept, if possible</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; (which gives us 2 months)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;hpottinger&gt; need to plan out work for a year? this helps: <a href="http://davidseah.com/node/compact-calendar/">http://davidseah.com/node/compact-calendar/</a></span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;kompewter&gt; [ The Compact Calendar - Dave Seah ] - <a href="http://davidseah.com/node/compact-calendar/">http://davidseah.com/node/compact-calendar/</a></span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like those in attendance today are leaning towards getting this into 6.0.  We've identified we need a 6.0 Tentative Schedule. It seems reasonable to base that off the 5.0 schedule (I can throw a rough draft up on the 6.0 Status page)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;hpottinger&gt; How about Sept 30 for PR deadline?</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: sounds good</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: are you already plotting out a rough schedule for 6.0? If so, I'll let you do it :)</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; It sounds like our discussion on "Services API" is wrapping up a bit  though. My plan for this is that we discuss it again next week (20UTC) to catch others opinions. After next week's meeting, I'll call for an "official vote" on whether we'd like to adopt Services API for 6.0.</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;hpottinger&gt; :-) I'm scribbling on a piece of paper with a calendar printed on it</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;hpottinger&gt; copy/paste the 5.0 schedule, starting at Sept 30, runs the Testathon into Thanksgiving in the US</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; (I think this likely warrants a broader vote, just cause of the significance of the change, and the fact that help will be needed to "finish it up", so it's different than a normal PR)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;ben_bosman&gt; Kevin will join next week’s meeting</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; ben_bosman: sounds good</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: we can tweak the dates a bit around holidays...push Testathon back a week if needed</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;ben_bosman&gt; and it’s definitely good to do vote after that meeting, so everyone is certain of the release to invest the remaining work</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; Any last thoughts/questions on Services API?  (If not, we'll move on to other topics for today.)</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;hpottinger&gt; OK, so... if the PR deadline is 9/30, that means ideally the Services API needs to come in either early September or late August.</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yes, ideally Services API in late August if we can swing that</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; As that'd give a month for PR cleanup (and "master" cleanup/testing/fixing)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;ben_bosman&gt; should be doable if we get the support we hope for</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; +1</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, we'll pick this up again next week then.  In the meantime, if anyone has feedback to share (publicly or privately), please do so on mailing lists (or email me privately).  I'll update everyone next week on any feedback I've heard</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;hpottinger&gt; heh, I just crossed off all the days that are already gone out of 2015... makes it clear we've got about 3-6 weeks before this code should be merged</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; that's 2-3 sprints</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yep</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, moving along to other topics here.  Most everything else is general updates...but things worth mentioning</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding the SourceForge move... we plan to release 5.3 via GitHub (with SourceForge as a backup, assuming they allow us to upload release packages again).</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; The mailing list migration stuff is still a work-in-progress. I've run into issues with migrating easily to Google Groups (from SF).  But, I've got a few more ideas to try</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; (If I cannot get a clean archive over to Google Groups, we may need to decide if we either "split" our archive or go to something other than Google Groups...but, I still have a few more things to try before we come to that)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; That's it for the SourceForge migration updates for now</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding 6.0, we've already talked a fair amount about it, and drafting a tentative schedule. I don't think I have anything else to mention that isn't in the agenda</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;hpottinger&gt; where should I put this draft schedule for 6?</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; on the 6.0 status page :)</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;hpottinger&gt; that seems so... official :-) but OK</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; The last thing is an update on the RoadMap work.  We are in the midst of scheduling an initial "UI Working Group" meeting (in early August).  Once the meeting date/time is set, an email will go across mailing lists inviting anyone to join the meeting</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mhwood&gt; Just make sure it actually says "draft".</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; The goal of the meeting will be to formalize a "UI Working Group" team, and their charter...and also start to kick off the UI prototyping process.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; A rough draft of the UI Working Group charter / schedule is up on the wiki at: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+UI+Working+Group">https://wiki.duraspace.org/display/DSPACE/DSpace+UI+Working+Group</a></span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace UI Working Group - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+UI+Working+Group">https://wiki.duraspace.org/display/DSPACE/DSpace+UI+Working+Group</a></span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; Those are all the updates I have, but I'll pause now for questions/thoughts if there are any :)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. Anything else folks have to discuss / bring up for today?</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;terry-b&gt; Not from me</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; Well, thanks all then for joining us today. We'll go ahead and close up the meeting. I'll be around though if questions do come up!  See you next week at 20:00 UTC!</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;hpottinger&gt; draft schedule up: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status</a></span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 6.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status</a></span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;mhwood&gt; Thanks!</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;hpottinger&gt; That's enough RT duty for me, I again resign :-)</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-navy">* terry-b (~terry-b@71-212-24-25.tukw.qwest.net) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-hdfjeckbrjctwhqo) has joined #duraspace</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;hpottinger&gt; shoot, DSPR#999 would have been cool to get into 5.3</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/999">https://github.com/DSpace/DSpace/pull/999</a> ] - [DS-2679] Retain ordering of authors for Google Scholar metatags. by christian-scheible</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-navy">* ben_bosman (~ben@85.234.195.109.static.edpnet.net) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160070.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[18:04]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[18:05]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-green">* dyelar (~dyelar@31.158.45.66.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-green">* kshepherd (~kim@lbdigs29.lbr.auckland.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-212-150-72.hsd1.il.comcast.net) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

@@ -1,0 +1,396 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2015-11-18
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[0:10]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-tacvxoyyibwldotw) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[1:03]</span> <span class="irc-navy">* terry-b (~chrome@71-212-69-224.tukw.qwest.net) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-hobana.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-hobana.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-hobana.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:53]</span> <span class="irc-brown">-hobana.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:54]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:28]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:10]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-green">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hello all, welcome to our weekly DSpace Developers Mtg. Today's agenda is mostly just 6.0 topics: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-11-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-11-18</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-11-18 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-11-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-11-18</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Since we look to be a smaller than normal group, I'm going to ping the Committers awake... helix84, KevinVdV, mhwood, pbecker</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;helix84&gt; hi</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; As mentioned though, today is really about 6.0.  Our "official" PR deadline is now past (end of last week), but we do have a few PRs still being rebased by pbecker (by end of this week).</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;mhwood&gt; Hi</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; All that means we have a *ton* of PRs ready for review / analysis.</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; As noted in our 6.0 Release Timeline, today's meeting is supposed to be devoted towards PR reviews/assignment: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status#DSpaceRelease6.0Status-ReleaseTimeline">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status#DSpaceRelease6.0Status-ReleaseTimeline</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 6.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status#DSpaceRelease6.0Status-ReleaseTimeline">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status#DSpaceRelease6.0Status-ReleaseTimeline</a></span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;KevinVdV&gt; hi</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; But, before we do some PR reviews, I wanted to pause to be sure there's no other topics of high importance that folks feel we *need* to discuss first</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, not hearing anything</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;mhwood&gt; Just noting that FindBugs called attention to over a thousand concerns in dspace-api alone.</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: that is a good point. If there are one or two folks willing to do some "findbugs" work on even just dspace-api, that'd be a huge benefit to all of us</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;mhwood&gt; I'm slogging through the "incorrect serialization" hits.</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; and thanks for that. The Serialization issues have been a thorn on master</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;KevinVdV&gt; I’ll add a small note on my list to check that out</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;mhwood&gt; There's little to say about this except that there's plenty to look at.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;KevinVdV&gt; IF I can find the time between reviews</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;helix84&gt; we may want to discuss the strategy of merging the dynamic config PR, as there's high likelihood of conflicts</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: Perhaps we should create a JIRA ticket just as a "placeholder" / reminder, with the quick notes on how to run the findbugs reports (which I know you sent to dspace-devel)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;mhwood&gt; Will do.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: I was just going to bring that up first, but thanks for the prompt</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;helix84&gt; obviously, dynamic configs are highly attractive, so we may get a vote on the feature out of the way first, then focus on the timeline</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-green">* cknowles (uid98028@gateway/web/irccloud.com/x-gjjexcredeykexdm) has joined #duraspace</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;mhwood&gt; DS-2222 already exists.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2222">https://jira.duraspace.org/browse/DS-2222</a> ] - [DS-2222] Fix DSpace code via FindBugs - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; Jumping in on the PRs, this one is definitely the *largest* out there (with a very high probability of creating conflicts): DSPR#1104</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1104">https://github.com/DSpace/DSpace/pull/1104</a> ] - DS-2654: Enhanced Configurations via Apache Commons Configuration by tdonohue</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: thanks for the note on that</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; regarding 1104, I'll say that it all now works (at least from my tests, but it needs more eyes). It took much longer than I anticipated, but it turned out to be a major refactor</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; I've documented it now over at: <a href="https://wiki.duraspace.org/display/DSPACE/Enhanced+Configuration+Scheme">https://wiki.duraspace.org/display/DSPACE/Enhanced+Configuration+Scheme</a></span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;kompewter&gt; [ Enhanced Configuration Scheme - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Enhanced+Configuration+Scheme">https://wiki.duraspace.org/display/DSPACE/Enhanced+Configuration+Scheme</a></span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; A few warnings here to be aware of... (1) it does touch a LOT of files (high likelihood of conflicts), (2) It changes the build/install process too (no more build.properties)... but in the end, the Configuration is SIMPLIFIED in many ways</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: regarding your FAQ 1) I think this should be a supported use case</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;helix84&gt; (Can I have different local.cfg files for different environments)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; So, the big question at hand is what do we want to do with this feature?  Do we work to move it into master early on (which may break other PRs)?  Do we wait on it and get some other things in first?</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mhwood&gt; Gonna have to fix what's broken sooner or later.  And the longer it's unmerged, the more broken things we write.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: it *is* supported. You just need to tweak the config-definition.xml or your local.cfg as documented in that FAQ.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: Unfortunately, Commons Config doesn't allow for a dynamically named "local.cfg" (similar to how we could have [env].properties with the build.properites concept).  But, it supports it through the config-definition.xml</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;helix84&gt; I suggest calling a vote early to make sure we have buy-in. But it might be better to merge only after most other PRs are tackled, because I'm sure Tim will be around to make the config PR work, but others may not be so quick to update their PRs (and we should be fair to them and not break their work).</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;mhwood&gt; So what sort of breakage will we see?  And do we have a good idea of where to look?</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: the one downside to merging late is I fear we may limit our testing of the PR.  I will admit, Commons Config has a *slightly different* Properties format for cfg files. This means it's *possible* that some configs may be broken for some DSpace features. I've tried my best to test a lot of them, but the only way to get to all of them would be with more help</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;helix84&gt; re env: This use-case is somthing virtually everyone will want to use. So we should make it available out of the box - the -Ddspace.env=dev approach seems good enough for that.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; So, it's obvious we need to vote on the Enhanced Configuration Scheme (on dspace-devel).  That's one TODO here</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I understand that concern. We have a lot on our plate, but first order of business is merging PRs, then we'll be focusing on making them work. I know it's far from ideal. Take it only as a suggestion.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;helix84&gt; s/making them work/fixing bugs/</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: tdonohue: I understand that concern. We have a lot on our plate, but first order of business is merging PRs, then we'll be focusing on fixing bugs. I know it's far from ideal. Take it only as a suggestion.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; So, maybe we look to the results of that vote, before we decide on when to merge it?  Obviously, I'd personally like to have it merged quickly (as I'm excited to use it instead of the old hacky build.properties process)</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;helix84&gt; right, first things first</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. Are we satisfied enough with that for now?  I'll call a vote on the Enhanced Configuration Scheme feature, and we'll see what happens there?  (Are there any more major concerns or questions still outstanding regarding this feature?)</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; (I'll take the silence as approval on these next steps)</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-green">* roeland (~roeland@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; Are there other 6.0 PRs that we feel need to be discussed here early on (especially if they are large, or may require a vote)?</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;helix84&gt; well, let's take the opportunity of roeland and KevinVdV being here and ask about their import framework</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;helix84&gt; DS-2876</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2876">https://jira.duraspace.org/browse/DS-2876</a> ] - [DS-2876] Framework to better support metadata import from external sources - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds good.  roeland &amp; KevinVdV, you've likely seen the comments on 2876 from helix84 &amp; I</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-green">* dyelar (~dyelar@31.158.45.66.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;roeland&gt; not yet</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; We'd like to better understand the perceived goals/relationship between 2876 &amp; the existing BTE feature.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; Namely, one of the key strategic goals of DSpace in the coming years is to *reduce* duplicative functionality...and 2876 seems to be duplicating BTE to some extent, and it's not clear what the plan is here</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;helix84&gt; in my opinion, the import functionality is something we want, it's just the perceived duplication and next steps that desires more explanation</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; helix84++</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; I think my concern is that I don't know if 2876 is aligning itself as a *replacement* for BTE (in which case we need to look towards backwards compatibility)  OR if there's some perceived difference between it and BTE</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; If this is not something you all are prepared to discuss today, that's OK too. It's possible we just need more explanation (in docs or emails) of the relationship between BTE and 2876, and future plans</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; (Without that explanation, it'd be hard to approve 2876, even though it looks like a useful feature to add to 6.0)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, in the essence of time, it sounds like we may just want to move on here?</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;helix84&gt; seems so, let's have that discussion in the comments</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;roeland&gt; I’ am sorry, I can’t give this meeting the concentration it deserves</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. are there any other PRs/tickets we want to move to the front of the queue here?  Otherwise we'll just start from the list of PRs</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; roeland: no problem. We put you on the spot here. Just feel free to add your thoughts to the 2876 ticket later on. thanks!</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: we might want to skip the bugfixes and concentrate on new features / improvements</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: because bugfixes can go in later, too</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: true. unless anyone *really* needs a particular bugfix in (i.e. it's really broken their ability to test part of master)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: also, what about scheduling another backlog review between regular DevMtgs focused on 6.0?</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: you mean on a different day of the week?</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: yes</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; (We also can use the backlog hour post-meeting to do 6.0 reviews as well)</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; I'd be fine with scheduling additional backlog mtgs, but I'd want to find a day/time that'd work well for others.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; For me, it tends to be that Mondays and Thursdays are the most "open".  I can find some time on other days, but those generally have the fewest meetings for me</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone else interested in this idea &amp; willing to participate in additional PR review meetings?</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;mhwood&gt; I will try.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; So, we could do a 15UTC or 20UTC Thurs (tomorrow)... or a 15UTC or 20UTC Mon (23rd)</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: Let's bring it up in an email to -devel or -commiters. I suggest to make it regular until feature freeze (currently Dec 11).</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;mhwood&gt; I have a commitment at 1500 Thu and again Mon.</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: right, I was just hoping to narrow down some days of week / times ;)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; But, it's really quiet here today, so perhaps we'll have to do that via email too</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; So, let's just jump into PRs.  We'll concentrate on features/improvements...but if someone sees a bugfix of high importance, just let us know: <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0</a></span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A6.0</a></span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; (we'll continue PR reviews for JIRA backlog today too, if folks can stick around)</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; As the bottom of the list is mostly merge conflicts (which we'll need resolved), I'm going to just start at the top</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; DSPR#1173</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1173">https://github.com/DSpace/DSpace/pull/1173</a> ] - DS-2894:REST Call to return Optimized Hierarchy by terrywbrady</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; this is brand new...looks like hardy &amp; peter have been pinged on it</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;mhwood&gt; All new code.</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; I'm going to assume they will respond on this one, as they were interested in this (in IRC discussions).  The idea/concept of this PR seems good to me though.  It's more improvement than feature</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;helix84&gt; I haven't had time to deeply look at this yet. It concerns me a little that there's a separate endpoint for something that we perhaps could already do using the expand expand parameter; and that it's bypassing regular authorizations (why not just log in as admin?)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yes, this config seems odd to me too: <a href="https://github.com/DSpace/DSpace/pull/1173/files#diff-a9f8bb21850852f7ed98e33220c0876cR10">https://github.com/DSpace/DSpace/pull/1173/files#diff-a9f8bb21850852f7ed98e33220c0876cR10</a></span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-2894:REST Call to return Optimized Hierarchy by terrywbrady · Pull Request #1173 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1173/files#diff-a9f8bb21850852f7ed98e33220c0876cR10">https://github.com/DSpace/DSpace/pull/1173/files#diff-a9f8bb21850852f7ed98e33220c0876cR10</a></span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; Not sure I like the idea of bypassing Auth in REST</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;KevinVdV&gt; I need to run sadly, I’ll try to review what I can, until next week</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-navy">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;helix84&gt; it looks very ad-hoc, but it's not my final judgement</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mhwood&gt; Nor I.  We have too much that depends on ad-hoc switches rather than permissions already.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;helix84&gt; I'll copy in this discussion. Perhaps we should move on?</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; yep, I added a comment to the ticket asking about the "bypassing auth" need</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; next up: DSPR#1171</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1171">https://github.com/DSpace/DSpace/pull/1171</a> ] - DS-2796 Solr core auto-discovery (static cores) by helix84</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; oh wait, that's a code task</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; we'll skip this, sounds like it needs more work</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;helix84&gt; yes</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DSPR#1166</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1166">https://github.com/DSpace/DSpace/pull/1166</a> ] - DS-2888: JSPUI: Add language tags to submission edit metadata step. by pnbecker</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;helix84&gt; The idea is good. I don't feel qualified to consider the implementation.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds reasonable. I'm worried this might affect XMLUI and need to be changed there as well....as it changes a fair bit of shared configs/code</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;mhwood&gt; That was my concern as well.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;pbecker&gt; hi</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160086.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;helix84&gt; hi</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; I added a comment to 1166</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;pbecker&gt; I tested XMLUI poorly, but as far as I did, it did not affected XMLUI at all.</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; oh, hi pbecker. I didn't know you were here :)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;pbecker&gt; just came in. ;-)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;pbecker&gt; But I'm not able to stand long. Just started our big migration today. But I'll be here whenever you ping me...</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;hpottinger&gt; early meetings always throw me for a loop, sorry to wander in at the end</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;helix84&gt; Since we're now going by PRs, rather than Jira issues, we're not assigning issues to commiters for review. We might want to start doing that (so far we've been only skipping).</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; So, I think 1166 sounds good, but it might need more testing before we can think of merging.  Anyone willing to test/try this one out? It also might be rather simply to port to XMLUI (in all honesty)</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yes, it's easier to go at PRs..but I agree, we should assign volunteers where we can</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mhwood&gt; PRs can also be assigned.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;helix84&gt; just to set good example, I'll take this one :)</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; thanks helix84</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;pbecker&gt; thanks helix84 :-)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-brick">* tdonohue notes that we are at one hour. But, as the next hour is JIRA Backlog Review, I'm going to just continue the PR Review here in #duraspace.  (If you need to leave, no worries)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; Next feature/improvement: DSPR#1165</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1165">https://github.com/DSpace/DSpace/pull/1165</a> ] - DS-2886: Making sort option for metadata browse indexes configurable by pnbecker</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;pbecker&gt; I hope it is clear what we want to achieve with this pr.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; This seems to reference the wrong ticket?  DS-2886 doesn't look related?</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2886">https://jira.duraspace.org/browse/DS-2886</a> ] - [DS-2886] REST API documentation data types are wrong - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; What ticket does this go with?</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;pbecker&gt; yes it does, sorry. I'm looking for the right one.</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; aha DS-2885</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2885">https://jira.duraspace.org/browse/DS-2885</a> ] - [DS-2885] Making sort option for metadata browse indexes configurable - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;pbecker&gt; thanks tdonohue</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: you're fast today, even fixed the PR. thanks!</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; hmm... remind me again, this BrowseIndex stuff is used by Discovery? Or is this just for Lucene?</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; s/Lucene/DB-Browse/</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;kompewter&gt; tdonohue meant to say: hmm... remind me again, this BrowseIndex stuff is used by Discovery? Or is this just for DB-Browse?</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;pbecker&gt; we use it with discovery in JSPUI (on a highly patched DSpace 4)</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;pbecker&gt; works fine.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;pbecker&gt; we never used the old lucene/db browse</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. Yea, I'm now realizing that master has DB Browse removed, so...BrowseIndex must work with Discovery. :)</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;helix84&gt; I configured additional indexes with this and it still works on 5.x</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;helix84&gt; (I don't remember the details _how_ it works with Discovery, though)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; This idea/concept sounds reasonable enough. I don't know the code in this area well... there may be some conflicts here with Commons Config PR (since this changes configs some), but nothing we cannot work around</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;pbecker&gt; the only important thing is to run index-discovery -b after changing the browse configuration (don't forget that parameter!)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone willing to give 1165 a test run / trial?</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;pbecker&gt; I did already. ;-)</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, well, I don't have objections to this. We'll just need to ensure the configuration change is documented, so that anyone using it knows to update their configs</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;pbecker&gt; I didn't dare to add documentation before I don't have at least one +1. The comments in dspace.cfg are already changed by this PR.</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;tdonohue&gt; (it's really quiet here...are folks looking that this still?)</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;pbecker&gt; And yes, we'll need some documentation in the wiki.</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;tdonohue&gt; I think with 1165, I don't have strong opinions on this. I'd still +1 it though, but it'd be nice to have a sanity check from another Committer  (just to get two committers having tested this).  Beyond that it looks fine to me</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;tdonohue&gt; No one else has an opinion here on 1165? (or did everyone get pulled away on something more pressing) :)</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;mhwood&gt; 1165 looks reasonable.  I'd guess that the code is quite similar to that for the other index.</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;pbecker&gt; The only thing that is a little bit odd is the order of the configuration keys.</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;pbecker&gt; but I did it this way to be backward compatible so no one has to change his existing config.</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: yea, I'd prefer backwards compatibility here, even if the order of configs is a bit odd for now</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;hpottinger&gt; re 1165, I like the idea, and I trust pbecker</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;pbecker&gt; for the item index you define the default option first and then the order for the metadata it is the opposite (IIRC).</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: me too.</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;tdonohue&gt; ok, so sounds like 1165 has general approval here to me</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;pbecker&gt; great, so it just needs a tester.</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;pbecker&gt; But we can let this open for know, there are so many PRs to test in the next weeks.</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;tdonohue&gt; yea, unfortunately I'm not gonna have time myself to test this (rapidly trying to get my UI Prototype entry done by Dec 4). But, may have time in later weeks</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;hpottinger&gt; since 1165 is an improvement, it needs +2 before it can be merged, yes?</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;tdonohue&gt; I'm going to move along now..testers welcome for 1165. I added a comment on what is left for 1165</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger: yes, but I would say I have tdonohue's and your vote if someone tested it. ;-)</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yes, but it sounds like it'll get to +2 as soon as it's tested by someone else</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-brick">* pbecker goes back to his migration until someone pings him.</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;tdonohue&gt; moving along, DSPR#1164</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1164">https://github.com/DSpace/DSpace/pull/1164</a> ] - [DS-2883] Resurrect TabFileUsageEventListener by mwoodiupui</span><br />
+<span class="irc-date">[16:24]</span> <span class="irc-black">&lt;mhwood&gt; I like this one. :-)</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;hpottinger&gt; me too, it has my +1 already, and it's just a revert, right?</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;mhwood&gt; Well, I did polish it up a bit.</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;tdonohue&gt; "someone found a use for this"?  What's the use?</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;hpottinger&gt; OK, so a revert + polish</span><br />
+<span class="irc-date">[16:25]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: could you please add a better description to the ticket?</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mhwood&gt; The use is not relying on a cache (Solr) for permanent storage.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; I'm ok with restoring provided we understand what use case is gone now</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: it could be the basis of a permanent usage statistics solution</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;mhwood&gt; I will look over the ticket and try to describe it more fully.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: don't we already have Solr Statistics backup tools from aschweer though? How's this different?</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;roeland&gt; with some added fields it may be a nice disaster recovery tool</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-black">&lt;hpottinger&gt; I can chime in on the ticket, since Peter and I egged you on to do this</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;helix84&gt; this one sounds good to me (have't run it, though)</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;pbecker&gt; no I get the idea and I like it!</span><br />
+<span class="irc-date">[16:27]</span> <span class="irc-black">&lt;hpottinger&gt; roeland: yes... disaster recovery, or even handing off the job of stats analysis to something outside of DSpace altogether</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;mhwood&gt; +1 using a real stat package.</span><br />
+<span class="irc-date">[16:28]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, more explanation on the ticket is warranted. It probably should also be (re-)Documented (it's not anywhere in our docs)</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;hpottinger&gt; I'd prefer to document it if we choose to enable it by default</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;tdonohue&gt; But once that's in place, it seems like it has the votes to be merged immediately</span><br />
+<span class="irc-date">[16:29]</span> <span class="irc-black">&lt;mhwood&gt; The ticket notes that documentation is needed, and I'll work on that.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;pbecker&gt; +1 by code inspection, haven't tested it.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: it needs some sort of documentation to let folks know it *exists*.  Currently there's nothing in the Wiki Docs, and very minimal info in the Class comments itself.</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger: did you test it?</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;tdonohue&gt; So, sounds like we can move along here, as this looks to just need docs/JIRA ticket cleanup</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-black">&lt;hpottinger&gt; pbecker: I didn't, it's a revert + polish</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;tdonohue&gt; moving along to DSPR#1163</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1163">https://github.com/DSpace/DSpace/pull/1163</a> ] - DS-2880: Pubmed integration into XMLUI submission by rradillen</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;tdonohue&gt; oh, this is an example of the new Import API (which was mentioned briefly in our mtg)</span><br />
+<span class="irc-date">[16:34]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-jhtieupaxwtqqtvu) has joined #duraspace</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;tdonohue&gt; So, until we hear more about the Import API (DS-2876) vs. BTE, this might need to be set aside for now.  The concept sounds fine, but we need to understand the goals here with respect to BTE</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2876">https://jira.duraspace.org/browse/DS-2876</a> ] - [DS-2876] Framework to better support metadata import from external sources - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:35]</span> <span class="irc-black">&lt;mhwood&gt; There is some discussion of that in one of the commits here, as a starting place.</span><br />
+<span class="irc-date">[16:36]</span> <span class="irc-black">&lt;tdonohue&gt; Skipping the next PR (1162), as it's also related to 2876</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: PR 1163 seems to include the README / code from DSPR#1160 (which is the one for 2876). The discussion of BTE in that README is a bit vague and doesn't fully explain why we need duplicative import frameworks</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1160">https://github.com/DSpace/DSpace/pull/1160</a> ] - DS-2876 Framework for importing external metadata by jonas-atmire</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DSPR#1161</span><br />
+<span class="irc-date">[16:37]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1161">https://github.com/DSpace/DSpace/pull/1161</a> ] - DS-2879: Adds configuration to suppress notifications on returned tasks. by pnbecker</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;tdonohue&gt; This idea seems reasonable to me.  Though I guess I'd wonder why folks wouldn't want to be notified about a returned task?</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;mhwood&gt; What he said.</span><br />
+<span class="irc-date">[16:40]</span> <span class="irc-black">&lt;tdonohue&gt; (i.e. the code seems fine. The use case is slightly vague)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;pbecker&gt; It was a highly requested feature here.</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: what is unclear at the use case?</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;pbecker&gt; I made it configurable because the default behavior was to send those mails.</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;mhwood&gt; Did they say why it was highly requested?</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;pbecker&gt; You even got a mail for a task you returned yourself. ;-)</span><br />
+<span class="irc-date">[16:41]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: I guess I don't understand why it was "highly requested"?  What made them want to *not* be notified if a task was unclaimed by someone else</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: I don't understand your question, sorry. My colleagues requested this again and again until they got it.</span><br />
+<span class="irc-date">[16:42]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: that implies a different solution though...maybe you shouldn't get emails for tasks *you* return, but you should get emails for tasks returned by *others*</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;tdonohue&gt; Again, the code is perfectly fine. It just seems odd to me to allow tasks to go back into a general "pool" without notifying *anyone*. I worry those tasks would just sit around in the pool waiting for someone to finally stumble on them</span><br />
+<span class="irc-date">[16:43]</span> <span class="irc-black">&lt;mhwood&gt; I was just hoping that one of them said "we want this *because* the current behavior causes such-and-such a problem for us."</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;pbecker&gt; If someone claims a task it cannot be unclaimed by anyone else for good reason. If someone claims a task and is out of office no one can work on the task. so we put tasks back in the pool if we for example wait for an answer of an email to the submitter or for any other reasons.</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;pbecker&gt; So tasks are often put back into the pool with out the need of a new notification.</span><br />
+<span class="irc-date">[16:44]</span> <span class="irc-black">&lt;pbecker&gt; The persons working here on tasks knows which open tasks exists and claims the task only to be sure that no one else changes metadata in the same time they do.</span><br />
+<span class="irc-date">[16:45]</span> <span class="irc-black">&lt;pbecker&gt; the current behavior creates a lot of emails they don't need. They want to now if there is a *new* task in the sense of "a task that noone has ever looked yet."</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;pbecker&gt; does this explanation helps?</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, that's a bit clearer.  I still do wonder if there's a different solution to turning these notifications off completely (system wide).  But, this seems OK for now.</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;pbecker&gt; s/helps/help</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: does this explanation help?</span><br />
+<span class="irc-date">[16:46]</span> <span class="irc-black">&lt;pbecker&gt; imagine to people sharing one office.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: yea, that's a unique scenario in my mind. Often they are not all in the same office, but I can see how this would help :)</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;pbecker&gt; :-)</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;mhwood&gt; I think there are two personality types at work here.  One likes to go and check things on his own schedule; the other wants to be notified without having to remember to go look for work.</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;pbecker&gt; to be honest we have three offices with 6 persons working on tasks. ;-) but every office has his specified case (research data, theses, articles)</span><br />
+<span class="irc-date">[16:47]</span> <span class="irc-black">&lt;tdonohue&gt; If you could paste in your more detailed explanation into the ticket, I'd appreciate it. Beyond that though, the code looks good to me +1</span><br />
+<span class="irc-date">[16:48]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: will do.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;mhwood&gt; I have no actual objection.  I do wonder if, in the longer term, we should not pull a lot of things like this out into a much richer, finer-grained set of curation tasks that can be triggered by workflow transitions *if attached*.</span><br />
+<span class="irc-date">[16:49]</span> <span class="irc-black">&lt;tdonohue&gt; yea, I agree mhwood. I think our Workflow system might need an overhaul at some point</span><br />
+<span class="irc-date">[16:50]</span> <span class="irc-black">&lt;tdonohue&gt; I added a +1 to the PR though. Seems small &amp; obvious once the use case was explained</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;tdonohue&gt; moving along to peterdietz's big one... DSPR#1159</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;mhwood&gt; Same here.</span><br />
+<span class="irc-date">[16:51]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1159">https://github.com/DSpace/DSpace/pull/1159</a> ] - DS-79 Assetstore to support different implementations, including S3 by peterdietz</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;mhwood&gt; Good to see this again.  I wrote an XAM backend for Richard's original patch so long ago that we no longer have the hardware to test it with. :-(</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;pbecker&gt; tdonohue: <a href="https://jira.duraspace.org/browse/DS-2879?focusedCommentId=46953&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-46953">https://jira.duraspace.org/browse/DS-2879?focusedCommentId=46953&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-46953</a></span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;tdonohue&gt; ooh..nice...also includes a "bitstore-migrate" command to migrate your bitstreams between *any* assestores</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2879">https://jira.duraspace.org/browse/DS-2879</a> ] - [DS-2879] Make it configuarble if reviewers should be notified about tasks returned to the review pool - DuraSpace JIRA</span><br />
+<span class="irc-date">[16:52]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2879] Make it configuarble if reviewers should be notified about tasks returned to the review pool - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2879?focusedCommentId=46953&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-46953">https://jira.duraspace.org/browse/DS-2879?focusedCommentId=46953&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-46953</a></span><br />
+<span class="irc-date">[16:55]</span> <span class="irc-black">&lt;tdonohue&gt; I like what I see out of 1159. Obviously needs some testers</span><br />
+<span class="irc-date">[16:56]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, wandered off a second, re: workflow overhaul, there was a nice discussion session at OR15 in Indianapolis, lead by Andrea Schweer, with lots of good input about what works and what needs improvement with workflows</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;mhwood&gt; Well, the front-end will be tested by *everyone* as soon as it is in master, and S3 testers are likely to be scarce.</span><br />
+<span class="irc-date">[16:57]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: right, I'm more concerned immediately about front-end, backwards compatibility.</span><br />
+<span class="irc-date">[16:59]</span> <span class="irc-black">&lt;hpottinger&gt; re 1159, I think it might help if peterdietz can say whether this code is in production already?</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[17:01]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;tdonohue&gt; I added a comment to 1159 of some other minor things to do around this PR. Overall it looks good to me though.</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;peterdietz&gt; hi all</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;mhwood&gt; I just line-commented one small change:  a second, S3 store is configured by default.</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;peterdietz&gt; Yes, we have the 5.x version of this in production for 3 clients</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;peterdietz&gt; I'm going to spend time looking at Kevin's fixes to checksum</span><br />
+<span class="irc-date">[17:03]</span> <span class="irc-black">&lt;peterdietz&gt; , break that off, and hope to merge that in first</span><br />
+<span class="irc-date">[17:04]</span> <span class="irc-black">&lt;peterdietz&gt; Bitstore Migrate could be useful to move from /dspace/assetstore1 to /dspace/assetstore2</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;peterdietz&gt; This could use some testing with registering bitstream, in both local, and S3. It passes the unit test</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;peterdietz&gt; SRB support is yanked out. Nobody responded to a call-for-users. Though, searching the mailing list, has shown some people asking "hey, who uses SRB"</span><br />
+<span class="irc-date">[17:05]</span> <span class="irc-black">&lt;peterdietz&gt; ...one hit per year or so</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;peterdietz&gt; oops, yes. S3 shouldn't be autowired</span><br />
+<span class="irc-date">[17:06]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: I think SRB should be removed. It's unsupported as-is. I also like the new "bitstore-migrate" CLI tool as a feature in itself</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;hpottinger&gt; that "hey, who uses SRB" could be from devs looking at old docs at the request of management, and dutifully asking if SRB really exists before they attempt to implement it</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;mhwood&gt; We needed it moved out of the stock config. anyway.</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;peterdietz&gt; bitstore-migrate -p, prints out your current number of bitstreams. store[1] == S3BitStore, which has 2 # of bitstreams.</span><br />
+<span class="irc-date">[17:07]</span> <span class="irc-black">&lt;peterdietz&gt; I english speak not well</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;hpottinger&gt; wat?</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;tdonohue&gt; petedietz: KevinVdV's notes about wiring this up via Spring (instead of "bitstore.*.class") is worth thinking about. It might be a ton easier to just ship with a Spring config for an "s3Bitstore" and a "dsBitstore"</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;peterdietz&gt; 2 # of bitstream, reads awkward today</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-black">&lt;mhwood&gt; Two pounds of bitstreams.  Is that a lot?</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[17:08]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;tdonohue&gt; (It seems unlikely that anyone should/would ever change the values of "bitstore.*.class", which implies they could just be in Spring)</span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, any place where we configure a classname probably ought to be done in Spring.</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;peterdietz&gt; Well.. One of the use cases that I was allowing to continue. Was to allow multiple instances of a S3Bitstore, and multiple instances of a DSBitstore</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;peterdietz&gt; Also, I'm tongue in cheek calling DSBitstore Directory Scatter Bitstore</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-black">&lt;mhwood&gt; :-)</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: why can't that use-case be achieved in Spring?</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;peterdietz&gt; yeah. Probably should get on the services boat. Since it might be awkward, since 900 other services are all factory, impl, dao</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;mhwood&gt; Yes.  Autowire a List of stores, each one configured.</span><br />
+<span class="irc-date">[17:11]</span> <span class="irc-black">&lt;mhwood&gt; Eek, forget Auto.</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: o.O autowiring assetstore...</span><br />
+<span class="irc-date">[17:12]</span> <span class="irc-black">&lt;mhwood&gt; Fingers faster than brain.  *Wire* a List of stores, explicitly.</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;peterdietz&gt; I'm not sure how widely adopted S3 will get, but if your going to have your instances in AWS, or some other cloud that offers a simple storage service, then this is the way to go</span><br />
+<span class="irc-date">[17:13]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: yea, it'd be nice to move this slightly in the direction of Services. It seems that it shouldn't be *hard* to do... they seem like minor changes (unless I'm overlooking something).   I'm sure KevinVdV (or others) could be conscripted to help if you need it.</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz++ (agreed that S3 might not get "wide" adoption...but it's a good feature to have.  And this PR is much more than just S3 support..it's a nice refactoring of the Storage layer + remove SRB + bitstream-migrate CLI + S3)</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;tdonohue&gt; Overall, I'm very much +1 this feature. Just some minor cleanup would be nice</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;mhwood&gt; Ditto.</span><br />
+<span class="irc-date">[17:14]</span> <span class="irc-black">&lt;hpottinger&gt; I'm also +1 this feature</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;hpottinger&gt; (though my institution won't ever put bistreams "in the cloud")</span><br />
+<span class="irc-date">[17:15]</span> <span class="irc-black">&lt;mhwood&gt; Writing an iRODS store might be a fun weekend project.  If anyone is pining for SRB-like-ness.</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;tdonohue&gt; As we are now well over our hour for PR Reviews, we'll stop there for today. I'll still be around if anyone needs me, but need to concentrate on other tasks for today :)</span><br />
+<span class="irc-date">[17:16]</span> <span class="irc-black">&lt;mhwood&gt; I'd like to tinker with an HPSS store for low-use, large-sized stuff.</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;peterdietz&gt; There was some group in the UK that I had a phone call a few months ago. They sold some appliance that you add to your data center, which then takes care of replicating all of your content to their 100.000000% guarantee data center. I was thinking.. You could put a web service on your storage center, and then write a DSpace implementation like this to</span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-black">&lt;peterdietz&gt; connect</span><br />
+<span class="irc-date">[17:22]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: low use large size stuff... how do you get it in and out?</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;mhwood&gt; HPSS takes care of that.  It's a giant tape robot, a small disk farm, and some boxes to shuffle stuff back/forth and grant access.  I need to study the available protocols some more -- so far I've only used it via scp in some overnight cron jobs.  But I think it should be possible to give reasonable performance for large unpopular objects.</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-black">&lt;mhwood&gt; Or did you mean, in/out between DSpace and the end user?</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-brick">* hpottinger points at his nose, yup.</span><br />
+<span class="irc-date">[17:26]</span> <span class="irc-black">&lt;hpottinger&gt; doesn't matter the size of the pipes in the house, but the size of the straw in the cup</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;hpottinger&gt; HTTP is a tiny straw</span><br />
+<span class="irc-date">[17:27]</span> <span class="irc-black">&lt;mhwood&gt; HTTP 2 to the rescue, one of these days....</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;hpottinger&gt; ...</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-black">&lt;hpottinger&gt; gotta go, catch you all later, if anyone figure out how to hide facets on the home page, e-mail me?</span><br />
+<span class="irc-date">[17:29]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160086.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[17:31]</span> <span class="irc-green">* terry-b (~chrome@75-165-57-218.tukw.qwest.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:03]</span> <span class="irc-navy">* cknowles (uid98028@gateway/web/irccloud.com/x-gjjexcredeykexdm) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[19:35]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160086.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:52]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:25]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160086.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[23:50]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-jhtieupaxwtqqtvu) Quit (Quit: Connection closed for inactivity)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

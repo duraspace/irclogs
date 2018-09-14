@@ -1,0 +1,146 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2010-12-14
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[1:16]</span> <span class="irc-black">&lt;snail&gt; looks like the root of my problem may be a corrupt maven repository, as I'm managing to reproduce this error <a href="http://www.mail-archive.com/issues@maven.apache.org/msg51787.html">http://www.mail-archive.com/issues@maven.apache.org/msg51787.html</a> now starting from a fresh slate</span><br />
+<span class="irc-date">[1:22]</span> <span class="irc-black">&lt;kshepherd&gt; snail: you can try passing -U to mvn, eg. "mvn -U clean package" which will force an update of all snapshots as well (though the ${dspace.dir} thing still feels like problem in the ant part of the build)</span><br />
+<span class="irc-date">[1:23]</span> <span class="irc-black">&lt;snail&gt; kshepherd: it's under ~/.m2 that seemed bad.</span><br />
+<span class="irc-date">[1:23]</span> <span class="irc-black">&lt;snail&gt; i've deleted it and am starting again</span><br />
+<span class="irc-date">[3:43]</span> <span class="irc-navy">* stuartlewis (~stuartlew@s-lewis.itss.auckland.ac.nz) Quit (Quit: stuartlewis)</span><br />
+<span class="irc-date">[4:45]</span> <span class="irc-navy">* snail (~stuart@130.195.179.88) Quit (*.net *.split)</span><br />
+<span class="irc-date">[4:45]</span> <span class="irc-navy">* scottatm (~scottatm@adhcp136.evans.tamu.edu) Quit (*.net *.split)</span><br />
+<span class="irc-date">[4:45]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-80-108.clt.bellsouth.net) Quit (*.net *.split)</span><br />
+<span class="irc-date">[4:45]</span> <span class="irc-navy">* ChanServ (ChanServ@services.) Quit (*.net *.split)</span><br />
+<span class="irc-date">[4:45]</span> <span class="irc-navy">* kshepherd (kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[4:45]</span> <span class="irc-navy">* krnl_ (Andrius@193.219.34.106) Quit (*.net *.split)</span><br />
+<span class="irc-date">[4:54]</span> <span class="irc-green">* snail (~stuart@130.195.179.88) has joined #duraspace</span><br />
+<span class="irc-date">[4:54]</span> <span class="irc-green">* scottatm (~scottatm@adhcp136.evans.tamu.edu) has joined #duraspace</span><br />
+<span class="irc-date">[4:55]</span> <span class="irc-green">* ChanServ (ChanServ@services.) has joined #duraspace</span><br />
+<span class="irc-date">[4:55]</span> <span class="irc-green">* kshepherd (kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[4:55]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[4:57]</span> <span class="irc-navy">* ChanServ (ChanServ@services.) Quit (*.net *.split)</span><br />
+<span class="irc-date">[4:57]</span> <span class="irc-navy">* kshepherd (kim@ec2-174-129-179-33.compute-1.amazonaws.com) Quit (*.net *.split)</span><br />
+<span class="irc-date">[4:57]</span> <span class="irc-navy">* krnl_ (Andrius@193.219.34.106) Quit (*.net *.split)</span><br />
+<span class="irc-date">[4:58]</span> <span class="irc-green">* ChanServ (ChanServ@services.) has joined #duraspace</span><br />
+<span class="irc-date">[4:58]</span> <span class="irc-green">* kshepherd (kim@ec2-174-129-179-33.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[4:58]</span> <span class="irc-green">* krnl_ (Andrius@193.219.34.106) has joined #duraspace</span><br />
+<span class="irc-date">[6:10]</span> <span class="irc-navy">* snail (~stuart@130.195.179.88) Quit (*.net *.split)</span><br />
+<span class="irc-date">[6:10]</span> <span class="irc-green">* snail (~stuart@130.195.179.88) has joined #duraspace</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-barjavel.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-barjavel.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-barjavel.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-barjavel.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:18]</span> <span class="irc-green">* grahamtriggs (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* granitize (~Adium@137.149.66.159) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-navy">* granitize (~Adium@137.149.66.159) Quit (Client Quit)</span><br />
+<span class="irc-date">[12:25]</span> <span class="irc-green">* granitize (~Adium@137.149.66.159) has joined #duraspace</span><br />
+<span class="irc-date">[13:13]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has joined #duraspace</span><br />
+<span class="irc-date">[14:09]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:28]</span> <span class="irc-green">* ksclarke (~kevin@adsl-39-80-108.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-green">* Ed_theAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) has joined #duraspace</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-green">* Dan_Davis (4a4f12ae@gateway/web/freenode/ip.74.79.18.174) has joined #duraspace</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-green">* cwilper (ad579d86@gateway/web/freenode/ip.173.87.157.134) has joined #duraspace</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-green">* eddies (~eddies@unaffiliated/eddies) has joined #duraspace</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;cwilper&gt; <a href="https://wiki.duraspace.org/display/FCREPO/2010-12-14+-+Committer+Meeting">https://wiki.duraspace.org/display/FCREPO/2010-12-14+-+Committer+Meeting</a></span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-green">* Asger (82e11a21@gateway/web/freenode/ip.130.225.26.33) has joined #duraspace</span><br />
+<span class="irc-date">[16:23]</span> <span class="irc-navy">* snail (~stuart@130.195.179.88) Quit (*.net *.split)</span><br />
+<span class="irc-date">[16:30]</span> <span class="irc-green">* snail (~stuart@130.195.179.88) has joined #duraspace</span><br />
+<span class="irc-date">[16:32]</span> <span class="irc-black">&lt;eddies&gt; <a href="http://stackoverflow.com/questions/170961/whats-the-best-crlf-handling-strategy-with-git">http://stackoverflow.com/questions/170961/whats-the-best-crlf-handling-strategy-with-git</a></span><br />
+<span class="irc-date">[17:17]</span> <span class="irc-navy">* cwilper (ad579d86@gateway/web/freenode/ip.173.87.157.134) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[17:38]</span> <span class="irc-green">* alxp (~alxp@blk-30-155-121.eastlink.ca) has joined #duraspace</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-80-108.clt.bellsouth.net) Quit (Ping timeout: 276 seconds)</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-navy">* eddies (~eddies@unaffiliated/eddies) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[17:48]</span> <span class="irc-green">* ksclarke (~kevin@adsl-39-80-108.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-navy">* Asger (82e11a21@gateway/web/freenode/ip.130.225.26.33) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[17:51]</span> <span class="irc-green">* Ed_theAlliance (811398fe@gateway/web/freenode/ip.129.19.152.254) has left #duraspace</span><br />
+<span class="irc-date">[18:09]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-80-108.clt.bellsouth.net) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[18:10]</span> <span class="irc-green">* ksclarke (~kevin@adsl-39-80-108.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:01]</span> <span class="irc-navy">* ksclarke (~kevin@adsl-39-80-108.clt.bellsouth.net) Quit (Ping timeout: 265 seconds)</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-green">* ksclarke (~kevin@adsl-235-136-109.clt.bellsouth.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:33]</span> <span class="irc-navy">* grahamtriggs (~grahamtri@cpc2-stev6-2-0-cust333.9-2.cable.virginmedia.com) Quit (Quit: grahamtriggs)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-green">* sandsfish (~sandsfish@c-24-60-203-182.hsd1.ma.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-green">* ksclarke is now known as roku</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-green">* roku is now known as ksclarke</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-navy">* sandsfish (~sandsfish@c-24-60-203-182.hsd1.ma.comcast.net) Quit (Client Quit)</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-navy">* granitize (~Adium@137.149.66.159) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;snail&gt; can anyone give me a hint which theme <a href="http://dspace.mit.edu/">http://dspace.mit.edu/</a> is?</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; snail -- MIT's theme is custom.  Many larger institutions build their own custom themes.</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;snail&gt; tdonohue: yes, but is it closer to the Reference or Kubrick theme?</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;snail&gt; tdonohue: I'm having to re-theme / re-brand <a href="http://researcharchive.vuw.ac.nz/">http://researcharchive.vuw.ac.nz/</a></span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;snail&gt; and i'm looking for a head-start</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;tdonohue&gt; couldn't say for sure -- it doesn't look much like either Reference or Kubrick, to be honest.   Here's Reference: <a href="http://demo.dspace.org/xmlui/?themepath=Reference/">http://demo.dspace.org/xmlui/?themepath=Reference/</a>   and here's Kubrick: <a href="http://demo.dspace.org/xmlui/?themepath=Kubrick/">http://demo.dspace.org/xmlui/?themepath=Kubrick/</a></span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;tdonohue&gt; If you wanted, you could always send an email to the MIT folks, and see if they'd be willing to either share their theme or give you hints on where they started</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;snail&gt; i think i have the information I need</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;snail&gt; tdonohue: thanks</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;mhwood&gt; I think Reference is approximately what dspace.mit.edu was, back in the v1.0/1.1 days, but wow, they've changed a bit since then.</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;tdonohue&gt; MIT may have actually started from the Classic theme: <a href="http://demo.dspace.org/xmlui/?themepath=Classic/">http://demo.dspace.org/xmlui/?themepath=Classic/</a></span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;mhwood&gt; Mmm, yes, forget what I said, sorry.</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;mhwood&gt; Argh, that's right, Reference  has the TAMU? Digital Initiatives artwork and (one supposes) look-and-feel.  Classic has the DSpace-blue artwork that may go all the way back to MIT.</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;kshepherd&gt; MIT's DSpace is heavily customised 1.6.0, btw</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;kshepherd&gt; snail: if you want a copy of the chrome extension i made which will show nifty things like version, theme, page variables etc. for XMLUI interfaces, i can put an updated copy up somewhere</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;kshepherd&gt; it's a bit of a WIP.. i wanted to add struture navigation too, but got distracted with lots of other stuff</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;snail&gt; nah, it's fine</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;snail&gt; i've got to the root of the issues now, i believe</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;kshepherd&gt; ok</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;snail&gt; and i will be blogging them when i get through this...</span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;kshepherd&gt; this is what the extension looks like, in case anyone's interested:  <a href="http://i51.tinypic.com/mhbzht.png">http://i51.tinypic.com/mhbzht.png</a></span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;kshepherd&gt; i simplified it a bit, but my other version shows more useful info at the top of the panel</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;kshepherd&gt; the rest is prettified DRI (pre-i18n)</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;kshepherd&gt; and i have a METS navigator too, must only be in my other version</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;snail&gt; nice</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-green">* mhwood (~mhwood@2001:18e8:3:171:218:8bff:fe2a:56a4) has left #duraspace</span><br />
+<span class="irc-date">[22:05]</span> <span class="irc-black">&lt;kshepherd&gt; ksclarke++ for the idea</span><br />
+<span class="irc-date">[23:34]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-228-50-45.hsd1.il.comcast.net) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

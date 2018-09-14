@@ -1,0 +1,198 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2017-08-09
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:47]</span> <span class="irc-brown">-weber.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-weber.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-weber.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-brown">-weber.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:47]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[7:02]</span> <span class="irc-green">* xbsb (~bkroll@gateway.bsb-muenchen.de) has joined #duraspace</span><br />
+<span class="irc-date">[7:03]</span> <span class="irc-green">* xbsb (~bkroll@gateway.bsb-muenchen.de) has left #duraspace</span><br />
+<span class="irc-date">[8:47]</span> <span class="irc-navy">* AlexS[zedat] (~Alexander@home.zedat.fu-berlin.de) Quit (*.net *.split)</span><br />
+<span class="irc-date">[9:31]</span> <span class="irc-green">* AlexS[zedat] (~Alexander@home.zedat.fu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[12:20]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:22]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @here: Reminder, our DSpace Developers Meeting is at the top of the hour (~5mins). Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-08-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-08-09</a></span><br />
+<span class="irc-date">[14:54]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2017-08-09 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-08-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-08-09</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @here: it's DSpace DevMtg time (agenda linked above).  As usual, I'd like to do a very quick rollcall (a simple "here" is fine) to see who's with us today either in Slack or IRC.</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Here!</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Either we have a lot of lurkers, or others are off getting coffee/snacks ;)  Well, either way, we'll move along and hope a few others pop into the discussion</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I am here, too</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, so the main topic today is getting a 6.2 out the door (ASAP really).   We've got a number of important Hibernate bugs to squash, but I'd like to get them all squashed together if we can do so</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The list of tickets is still at the top of the agenda.  DS-3659 was closed out this week, but three remain.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3659">https://jira.duraspace.org/browse/DS-3659</a> ] - [DS-3659] Database migrate fails to create the initial groups - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; DS-3648 / DSPR#1813</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3648">https://jira.duraspace.org/browse/DS-3648</a> ] - [DS-3648] XMLUI Batch Import Failure - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1813">https://github.com/DSpace/DSpace/pull/1813</a> ] - DS-3648: Fix LazyInitializationExceptions in Batch Import Failure by tomdesair</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; (Sidenote: This one is tightly intertwined with PR-1812, which is next in the list)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The main idea behind this PR seems sound, but we've hit a bit of a "controversy" here with the `flush()` changes in the `uncacheEntity()` method (which are actually added as part of DSPR#1812)</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1812">https://github.com/DSpace/DSpace/pull/1812</a> ] -   [DS-3656]  DOIOrganiser CLI does not change the database anymore by ssolim</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, between 1812 / 1813, I'm starting to wonder if we need a possible new approach here...</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Conceptually, the new `flush()` makes sense (we don't want to lose session changes before uncaching)</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; But, should that be the job of `uncacheEntity()`?  Or should the code calling `uncacheEntity()` *first* ensure changes are saved (via a `commit()` or similar) before it uncaches?</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @sven in dev today suggested the latter as a solution to PR-1812</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I concur:  the caller knows what it is doing, and Context does not.</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, that said, it sounds like we should close 1812 and 1813 and create new PRs which fix they problems by adding in new `commit()` calls where needed.  (That said, 1813 has other changes that should be pulled into the new PR)</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I think I agree, but would feel better to hear a few more voices.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Unfortunately, we seem a small team today.  Another option is to keep these PRs open (for now) but create alternative versions (based on this new idea) to see if we can fix it another way.  We can point folks at the new PRs and decide which approach is "bettter"</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; That all said, I'd need some help/volunteers here.  Looking at this week's schedule, I'm not sure I'll have time myself to create these alternative PRs.  Though the alternative to 1812 is seemingly already proposed by @sven as this: <a href="https://github.com/ssolim/DSpace/commit/ac3ecbf4c58f974bb092652eff8ad746bff04850">https://github.com/ssolim/DSpace/commit/ac3ecbf4c58f974bb092652eff8ad746bff04850</a></span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;kompewter&gt; [ added context.commit for objects when processed · ssolim/DSpace@ac3ecbf · GitHub ] - <a href="https://github.com/ssolim/DSpace/commit/ac3ecbf4c58f974bb092652eff8ad746bff04850">https://github.com/ssolim/DSpace/commit/ac3ecbf4c58f974bb092652eff8ad746bff04850</a></span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;cwilper&gt; Not having the in-depth knowledge of the issue you folks have, I would think making Context "dumb" (not overly presumptuous about the use-case) makes sense.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Hi @cwilper, welcome ;)  The issue is essentially a Hibernate caching issue...the twin goal of keeping the cache "small" (to ensure better performance) but not accidentally "uncaching" stuff that hasn't been saved (which is the issue we are having).  The fix was proposed as <a href="https://github.com/DSpace/DSpace/pull/1812">https://github.com/DSpace/DSpace/pull/1812</a> (but we are rethinking that approach now)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-3656] DOIOrganiser CLI does not change the database anymore by ssolim · Pull Request #1812 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1812">https://github.com/DSpace/DSpace/pull/1812</a></span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; 1813 is about not uncaching some objects? I do not think we need to add `commit()` calls, or am I missing something?</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 1813 added in the commits of 1812 (i.e. the `flush()` before uncache) cause of similar issues noted in this comment: <a href="https://jira.duraspace.org/browse/DS-3648?focusedCommentId=56562&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-56562">https://jira.duraspace.org/browse/DS-3648?focusedCommentId=56562&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-56562</a></span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3648">https://jira.duraspace.org/browse/DS-3648</a> ] - [DS-3648] XMLUI Batch Import Failure - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-3648] XMLUI Batch Import Failure - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-3648?focusedCommentId=56562&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-56562">https://jira.duraspace.org/browse/DS-3648?focusedCommentId=56562&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-56562</a></span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, 1813 to me "sounds" like it was experiencing similar uncaching issues (to 1812) after part of it was fixed. I've not yet fully tested it myself though...just noting why these two PRs got "connected" together</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; As @tom_desair is off on vacation, I think these both need more eyes / testers though.  Both tickets have "stalled" somewhat, which is why I'd like to see if we could find new volunteers for fixing either (in a new PR)</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I maybe have time to look into that tomorrow .</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Thanks @sulfrian, that'd be great if you can!  My suspicion is there's (one or more) `commit()` missing before an `uncacheEntity()` in this XMLUI batch import code</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; Yes, I suspect something, too.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; And it sounds like @hpottinger previously tested this ticket (we're talking DS-3648, Hardy), so maybe we can get him to help re-test any new solution</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3648">https://jira.duraspace.org/browse/DS-3648</a> ] - [DS-3648] XMLUI Batch Import Failure - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, so that's a plan for an alternative PR to 1813.  Anyone want to create/test a quick alternative to 1812 (likely just a cherry-pick of <a href="https://github.com/ssolim/DSpace/commit/ac3ecbf4c58f974bb092652eff8ad746bff04850)?">https://github.com/ssolim/DSpace/commit/ac3ecbf4c58f974bb092652eff8ad746bff04850)?</a></span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'll admit, I've not used DOIOrganiser before myself.  I could create this quickly, but not sure how best to "test" (yet) ;)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I can create a pull request for this. But I currently do not have a working DOI setup, so I cannot test it.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Joining late.  Hello everyone</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @sulfrian : if you want to create this quickly, I'll let you do so, and see if I can search out a tester for you (and/or even just ping @sven to approve it)</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; thanks again!</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, it sounds like we have a plan to fix/replace the 1812 and 1813 PRs, which is good. I'd encourage us all to test/review them quickly once available</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I can test something. Let me know which PR to start with</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; The last ticket in our list is DS-3660 / DSPR#1816</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1816">https://github.com/DSpace/DSpace/pull/1816</a> ] - DS-3660: Fix discovery reindex on metadata change by AlexanderS Âˇ Pull Request #1816 Âˇ DSpace/DSpace Âˇ GitHub</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3660">https://jira.duraspace.org/browse/DS-3660</a> ] - [DS-3660] Items fail to be reindexed on metadata change when &amp;#39;authority&amp;#39; consumer is enabled - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; This one looks good to me (and has a few approvals of code review).  But, it would be nice to give it a quick test.  @terrywbrady -- this is one you could test right away, and shouldn't be hard to test</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Will do.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; As noted in the ticket 3660, just enable the "authority" consumer, and make sure that reindexing triggers automatically after updating any metadata field.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Thanks, @terrywbrady !</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, that's it for the tickets I had listed as "must have" for the 6.2 release.  Are there any other major issues (especially Hibernate related) we need/want to review for 6.2?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;sulfrian&gt; I haven't heard anything other.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Neither have I. Just wanted to be sure I hadn't missed anything myself ;)</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; They are not hibernate related, but I have 2 PR's looking for some attention: <a href="https://github.com/DSpace/DSpace/pull/1817">https://github.com/DSpace/DSpace/pull/1817</a> and <a href="https://github.com/DSpace/DSpace/pull/1782">https://github.com/DSpace/DSpace/pull/1782</a></span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-3661] ImageMagick PDF Processing Degraded with Changes in 5.7 release by terrywbrady · Pull Request #1817 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1817">https://github.com/DSpace/DSpace/pull/1817</a></span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-3602] Ensure Consistent Use of Legacy Id in Usage Queries by terrywbrady · Pull Request #1782 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1782">https://github.com/DSpace/DSpace/pull/1782</a></span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 1817 looks like it'd require a 5.8 release to fix :(  So, that'd need to be in a different release of course</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; You are right.  It would be nice to get it merged</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; The performance hit is SIGNIFICANT</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Oh, I guess I should mention <a href="https://github.com/DSpace/DSpace/pull/1820">https://github.com/DSpace/DSpace/pull/1820</a></span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Unclear to me how to reproduce 3661.  Does it affect everyone using ImageMagick? Or only if you have a custom color profile?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; If we have time today, could we continue the conversation from DCAT about creating a cloud instance running the latest release?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-3667] Document fundamental persistence support classes. by mwoodiupui · Pull Request #1820 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1820">https://github.com/DSpace/DSpace/pull/1820</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; For 3661, run the imagemagick thumbnail creator on a multi page PDF.  It takes 30 sec per page to process.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Event though you only need the first page for the thumbnail.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; If you enable the color profile setting, the performance hit will still be present.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; So, the answer to my question is it affects *everyone* using ImageMagick? (correct?)</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Yes</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Just making sure I understand, as that affects the priority here obviously</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; We had to perform an emergency release in order to work around the issue.  New collections could not be processed.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok, well the changes in PR 1817 look fine to me.  I can give them a code review :+1:    That doesn't resolve the fact that this would need a 5.8 release though (if even just to fix this one major issue introduced in 5.7)</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Great.  @alanorth confirmed his test so I think it could then be merged</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Would you be willing to cut a quick 5.8 (not necessarily now, but in nearish future)?  It seems like if this affects everyone using ImageMagick, it'd be good to get it in a formal release</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Sure. It would be a good way for me to learn the process.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I still hope to shadow Mark on the 6.2 creation.</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MakinganOfficialRelease%28e.g.%27dspace-x.y%27or%27dspace-x.y-rc1%27%29">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MakinganOfficialRelease%28e.g.%27dspace-x.y%27or%27dspace-x.y-rc1%27%29</a></span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;kompewter&gt; [ Release Procedure - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MakinganOfficialRelease%28e.g.%27dspace-x.y%27or%27dspace-x.y-rc1%27%29">https://wiki.duraspace.org/display/DSPACE/Release+Procedure#ReleaseProcedure-MakinganOfficialRelease%28e.g.%27dspace-x.y%27or%27dspace-x.y-rc1%27%29</a></span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Thanks @terrywbrady .  Yes, the 6.2 release would be good to learn from.  Also reviewing the docs @hpottinger just linked to (and the "prerequisites" on that page for doing a release)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; You all have worn me down and have gotten me to volunteer to do a release.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Scrolling back up... DSPR#1782 was also mentioned</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1782">https://github.com/DSpace/DSpace/pull/1782</a> ] - [DS-3602] Ensure Consistent Use of Legacy Id in Usage Queries by terrywbrady</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Yeah, there's some stuff you have to do, to be able to work with Sonatype, and it will take a bit of time.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; 1782: I have no objections to including this in 6.2.  But, it sounds like it's waiting for a tester?</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Yes.  No luck so far.  It would be unfortunate to not address this issue.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Our rep admins really care about usage stats.</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Is there an "easy" way to test this (that could be laid out in the PR)?  Or, do you have to have a 5.x (with stats) sitting around to upgrade to 6.x and test?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; You either need to upgrade a 5x instance or you need to have a set of exported 5x stats lying around that you can import</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; TBH, the code to me "looks right", but I'm at a loss to testing it easily</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; OK, so: Vagrant-DSpace up a 5x-based instance, poke poke poke, verify there are a few stats in there, upgrade it to 6x</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; @hpottinger care to give this a bit of a test? (just a quick verification that basics "work"?)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; (I'll gladly give it a code review)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I'm swamped</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;hpottinger&gt; I've got one eye on this meeting, and another on a bunch of Mirage2 stylesheets</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Ok. I'll code review this...see if I can find time to give it a verification test.  Otherwise, I might just "trust it" assuming @terrywbrady has done some major testing for his repo mgr folks</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Thanks.  I appreciate this getting some attention.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Running short on time, but I want to also mention DSPR#1820</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1820">https://github.com/DSpace/DSpace/pull/1820</a> ] - [DS-3667] Document fundamental persistence support classes. by mwoodiupui</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; More eyes on this PR (which is all enhanced comments) would be useful. I'd really like to get this into 6.2, as it helps document all this Hibernate Session/Connection stuff better</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; But it'd be good to verify no obvious "misstatements" in these comments... I looked myself and didn't see anything</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; I'm always nervous when I find myself writing documentation because I needed to *read* that documentation.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; I added myself as a reviewer</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; Thanks!</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; Based on my understanding of the purpose of these classes, I think your docs here are correct @mwood .  That said, I didn't write this code either... it mostly came from @kevinvdv (and updates from @tom_desair and others)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; Will the in-code documentation be sufficient?  Is there a need for a supplemental wiki page to go along with the code?</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; A wiki page on how we use Hibernate or Hibernate resources we've found to "explain things" would also be nice.  But, this is a good start to document what the code is "supposed to do"</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;mwood&gt; We probably do need a higher-level document on disciplined use of the persistence layer to avoid things like the PRs we've discussed today.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;tdonohue&gt; I'd welcome anyone to start such a doc on the Wiki. I'd gladly contribute to it... I just haven't had the chance to do that myself</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; If I feel inspired as I review, I will create one</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-navy">* DuraLogBot (~PircBot@webster.duraspace.org) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-navy">* Disconnected.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-brown">-verne.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-brown">-verne.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-brown">-verne.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-brown">-verne.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-brown">-adams.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-brown">-adams.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-brown">-adams.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-brown">-adams.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[16:31]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;DSpaceSlackBot&gt; &lt;terrywbrady&gt; As a follow up to today's meeting, I created a first draft proposal related to Active Branch Cloud Instances: <a href="https://wiki.duraspace.org/display/~terrywbrady/Proposal%3A+Create+Cloud+Instances+for+DSpace+Active+Branches">https://wiki.duraspace.org/display/~terrywbrady/Proposal%3A+Create+Cloud+Instances+for+DSpace+Active+Branches</a></span><br />
+<span class="irc-date">[17:42]</span> <span class="irc-black">&lt;kompewter&gt; [ Proposal: Create Cloud Instances for DSpace Active Branches - Terry Brady - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/~terrywbrady/Proposal%3A+Create+Cloud+Instances+for+DSpace+Active+Branches">https://wiki.duraspace.org/display/~terrywbrady/Proposal%3A+Create+Cloud+Instances+for+DSpace+Active+Branches</a></span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.146.129) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-navy">* tdonohue (~tdonohue@dspace/tdonohue) Quit (Ping timeout: 258 seconds)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-navy">* tdonohue (~tdonohue@dspace/tdonohue) Quit (Read error: Connection reset by peer)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

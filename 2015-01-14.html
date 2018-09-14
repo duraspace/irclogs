@@ -1,0 +1,297 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2015-01-14
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[0:09]</span> <span class="irc-navy">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[3:18]</span> <span class="irc-navy">* ianthecowu (~ianthe@cowu.be) Quit (Ping timeout: 244 seconds)</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-asimov.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-asimov.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-asimov.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-brown">-asimov.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:34]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[13:14]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:53]</span> <span class="irc-green">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:27]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:30]</span> <span class="irc-green">* hpottinger (~hpottinge@128.206.162.188) has joined #duraspace</span><br />
+<span class="irc-date">[14:53]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-green">* robint (81d7ec36@gateway/web/freenode/ip.129.215.236.54) has joined #duraspace</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-green">* srobbins (~Adium@c-98-212-148-48.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, apologies, I ended up getting stuck in traffic this morning. Obviously I'm about 8 mins late for our weekly DSpace Dev Mtg</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; Agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-01-14">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-01-14</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-01-14 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-01-14">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-01-14</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; Today's meeting is obviously all about working to "wrap up" the 5.0 release</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; On the agenda, you'll notice I've included links to the remaining "blocker" tickets.  Release Team, does this sound like a good place to start?</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;hpottinger&gt; yes</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; OK, starting from the top then...let's see if we can get some status updates and/or get some of these resolved</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; DS-2401</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2401">https://jira.duraspace.org/browse/DS-2401</a> ] - [DS-2401] Browse by Author shows Authority Control value in results header - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;hpottinger&gt; robint and I were just discussing 2401</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;hpottinger&gt; I added a comment to 2401 just now</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;hpottinger&gt; KevinVdV has made a suggestion we should try on demo, and if it works, KevinVdV has offered to correct the docs. That should close 2401</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;hpottinger&gt; anyone have time to tinker with demo a bit?</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; So, quick question. Is this a setting that should be the new "default" config in dspace.cfg?  Or it's just only enabled if you plan to use ORCID?</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;hpottinger&gt; only if you use authority control, I think, for authors, I think</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;KevinVdV&gt; I would only enable it if you ORCID on. Because I believe all NON authority controlled fields will NOT be shown in the browse index</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; ok. yes, then it does sound like simply a Documentation change is necessary. Just wanted to be certain I understood</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;KevinVdV&gt; But not sure if the best place to document it is on the ORCID page (although a link should be there), since it is a “browse” setting</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; not limited to ORCID alone, but to any authority controlled metadata field</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;hpottinger&gt; docs probably belong in the authority docs, but there ought to be a pointer to them from the ORCID docs, because we'll have lots of authority newbies coming from there</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-brick">* hpottinger is an authority newbie.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; If this setting is more for ORCID though, it could be documented under the "Enabling the ORCID authority control"...cause this sounds like a setting you'd *want* to tweak whenever ORCID is enabled</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://wiki.duraspace.org/display/DSDOC5x/ORCID+Integration?src=search#ORCIDIntegration-EnablingtheORCIDauthoritycontrol">https://wiki.duraspace.org/display/DSDOC5x/ORCID+Integration?src=search#ORCIDIntegration-EnablingtheORCIDauthoritycontrol</a></span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;kompewter&gt; [ ORCID Integration - DSpace 5.x Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC5x/ORCID+Integration?src=search#ORCIDIntegration-EnablingtheORCIDauthoritycontrol">https://wiki.duraspace.org/display/DSDOC5x/ORCID+Integration?src=search#ORCIDIntegration-EnablingtheORCIDauthoritycontrol</a></span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-green">* awoods (~awoods@c-67-165-245-76.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; But, where it's documented doesn't matter too much to me. Just needs to be documented and linked to from any other relevant places (ORCID docs, auth control docs, etc)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: it's not just for ORCID, but ORCID folks *will* want to set this setting.</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; So, in any case, it sounds like KevinVdV will write the docs, correct?  The outstanding action here is we need someone to verify this on demo.dspace.org?</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;hpottinger&gt; yep</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone want to do the verification on demo.dspace.org of this bug &amp; fix?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;robint&gt; I'll ssh right now!</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; thanks robint</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;hpottinger&gt; that's the spirit!</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; OK, for now we'll move along then</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; DS-2396 updates?</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2396">https://jira.duraspace.org/browse/DS-2396</a> ] - [DS-2396] Checksum checker and bitstream.user_format_description on version 5.0rc2 - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; looks like for 2396 we have an untested PR.  Anyone give this one a spin yet?  Or anyone willing to help test it out?</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;hpottinger&gt; it's a blocker, with a PR...</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; OK, I guess I can try to tackle testing this one, if no one else will be able to</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'll take this one on myself...It sounds easy enough to test (just run the Checksum checker)</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; So, moving along for now... last of the blockers, DS-2395</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2395">https://jira.duraspace.org/browse/DS-2395</a> ] - [DS-2395] ItemDAO* still uses bundle.name (now moved to metadatavalue) - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; also has a PR, DSPR#819</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/819">https://github.com/DSpace/DSpace/pull/819</a> ] - [DS-2395] ItemDAO* still uses bundle.name (now moved to metadatavalue) by mwoodiupui</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;mhwood&gt; I've tested it a bit.  helix84 said he would test it too, sometime today.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; This sounds like it's had some pretty thorough testing already.  Ok, good to hear that helix84 also said he'd chip in here</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;helix84&gt; hi</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; I'm bothering you about that PR again.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;helix84&gt; I actually don't know how that code branch should be tested, it's obviously wrong, but I've never encountered the error</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; If it works *now* then I guess it passes testing?</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;mhwood&gt; That is:  I didn't break anything, and we agree it was wrong before.</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;helix84&gt; no, what I'm saying is I didn't see this error, I only noticed the obsolete SQL</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: can you give helix84 a definition of "it works"? :-)</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;helix84&gt; definition of what to run to see the failure would be more useful :)</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;mhwood&gt; The code is only exercised by thumbnails in JSPUI.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;hpottinger&gt; I think the thumbnail test is a good one, that uses bundle.name, right?</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;helix84&gt; Anyway, I'll give it a look with Mark's help. We can move on.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;mhwood&gt; So that's what I tested:  I submitted an image, ran the content filter, and could see thumbnails in JSPUI.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; ok, sounds good. In all honesty, this sounds like something that is so obviously "wrong" as-is, that we should merge the fix.  But, it would be nice to give a sanity check.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;hpottinger&gt; so... on demo.dspace.org, we shouldn't see thumbnails in JSPUI currently?</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;mhwood&gt; That seems likely.  There should be SQLExceptions in the log.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="http://demo.dspace.org/jspui/handle/10673/11">http://demo.dspace.org/jspui/handle/10673/11</a> no thumbnail</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Demo Repository: My White Bicycle ] - <a href="http://demo.dspace.org/jspui/handle/10673/11">http://demo.dspace.org/jspui/handle/10673/11</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;helix84&gt; the only SQLException I see is java.sql.SQLException: Already closed.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;pbecker&gt; hpottinger the thumbnail doesn't show up in xmlui neither.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; Hm, it may be caught somewhere.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;pbecker&gt; <a href="http://demo.dspace.org/xmlui/handle/10673/11">http://demo.dspace.org/xmlui/handle/10673/11</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;kompewter&gt; [ My White Bicycle ] - <a href="http://demo.dspace.org/xmlui/handle/10673/11">http://demo.dspace.org/xmlui/handle/10673/11</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;mhwood&gt; We need to be sure the filter has run.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;helix84&gt; but that item is new, robint just submitted it, probably didn't go through media filter yet</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;KevinVdV&gt; Run filter-media from CLI ?</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;helix84&gt; I just did</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;hpottinger&gt; thumbnail</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; thumbnail is there</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;robint&gt; Hi all, just tested DS-2401 and it seems to work following KevinVdV's suggestion. I'll update Jira.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2401">https://jira.duraspace.org/browse/DS-2401</a> ] - [DS-2401] Browse by Author shows Authority Control value in results header - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-brick">* hpottinger scratches his head....</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; thumbnail appeared in both XMLUI and JSPUI...odd</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mhwood&gt; Odd indeed.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-brick">* hpottinger mutters, this shouldn't be...</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;helix84&gt; Thumbnail visible, no exception.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;helix84&gt; We can take a look at this during the following hour.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;KevinVdV&gt; The thumbnail issue is only in the Browse &amp; search results I think</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;KevinVdV&gt; Or so the code tells me (not tested)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;pbecker&gt; before the media-filter run, there was no thumbnail for the test documents that should have bin inserted by aip saturday night: <a href="http://demo.dspace.org/xmlui/handle/10673/5">http://demo.dspace.org/xmlui/handle/10673/5</a></span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;kompewter&gt; [ Test PDF Document ] - <a href="http://demo.dspace.org/xmlui/handle/10673/5">http://demo.dspace.org/xmlui/handle/10673/5</a></span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;pbecker&gt; hmm, even now its missing...</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;helix84&gt; KevinVdV: as in non-Discovery browse?</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;KevinVdV&gt; <a href="http://demo.dspace.org/jspui/browse?type=title">http://demo.dspace.org/jspui/browse?type=title</a></span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Demo Repository: Browsing DSpace ] - <a href="http://demo.dspace.org/jspui/browse?type=title">http://demo.dspace.org/jspui/browse?type=title</a></span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;KevinVdV&gt; <a href="http://demo.dspace.org/jspui/simple-search?query=white">http://demo.dspace.org/jspui/simple-search?query=white</a></span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Demo Repository: Search ] - <a href="http://demo.dspace.org/jspui/simple-search?query=white">http://demo.dspace.org/jspui/simple-search?query=white</a></span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;KevinVdV&gt; On these pages I think a thumbnail should be present</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;hpottinger&gt; how many bicycles do you own, robint? :-)</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;helix84&gt; KevinVdV: maybe we need to turn something on for JSPUI to display thumbnails?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; huh...here you go. Search "white" in XMLUI &amp; JSPUI.  In XMLUI you see a thumbnail. In JSPUI, none</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="http://demo.dspace.org/jspui/simple-search?query=white">http://demo.dspace.org/jspui/simple-search?query=white</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Demo Repository: Search ] - <a href="http://demo.dspace.org/jspui/simple-search?query=white">http://demo.dspace.org/jspui/simple-search?query=white</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;hpottinger&gt; yep</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; also depends on config I think, <a href="https://github.com/DSpace/DSpace/blob/master/dspace/config/dspace.cfg#L954">https://github.com/DSpace/DSpace/blob/master/dspace/config/dspace.cfg#L954</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace.cfg at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace/config/dspace.cfg#L954">https://github.com/DSpace/DSpace/blob/master/dspace/config/dspace.cfg#L954</a></span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;hpottinger&gt; aside: I like that JSPUI uses GETs instead of POSTs for the search box</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;helix84&gt; hpottinger++</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;helix84&gt; possibly related <a href="http://dspace.2283337.n4.nabble.com/Dspace-4-1-JSPUI-Error-displaying-thumbnails-td4672409.html">http://dspace.2283337.n4.nabble.com/Dspace-4-1-JSPUI-Error-displaying-thumbnails-td4672409.html</a></span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace - Tech - Dspace 4.1 JSPUI Error displaying thumbnails ] - <a href="http://dspace.2283337.n4.nabble.com/Dspace-4-1-JSPUI-Error-displaying-thumbnails-td4672409.html">http://dspace.2283337.n4.nabble.com/Dspace-4-1-JSPUI-Error-displaying-thumbnails-td4672409.html</a></span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;helix84&gt; I'll try turning this on on demo and restarting: webui.browse.thumbnail.show = false</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;tdonohue&gt; so, is there a person or group of folks willing to dig deeper with this ticket and get it resolved?</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;mhwood&gt; Sounds like that's being done.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;hpottinger&gt; I think helix84 just volunteered.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-brick">* hpottinger ducks.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;mhwood&gt; I tried a search on my Ds-2395 instance and it does show a thumbnail.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; OK. just wanted to move along to other topics here as well, if we have this assigned</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;helix84&gt; Working on it, we can discuss this in #dspace. Let's move on.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, sounds good</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; So, that's really it for the primary "blockers".  I will also bring up DS-2040, just because it is a significant issue, and I have a working PR</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2040">https://jira.duraspace.org/browse/DS-2040</a> ] - [DS-2040] AIP restore does not seem to work with cross-mapped items - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;robint&gt; I've git a wee concern...</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;robint&gt; Just added a number of items a 'Taylor, Robin' but when I browse by author they are each listed as a separate entry in the results</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;robint&gt; I would have expected to see 'Taylor, Robin [3]'</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; Yep, I see that: <a href="http://demo.dspace.org/xmlui/">http://demo.dspace.org/xmlui/</a></span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Home ] - <a href="http://demo.dspace.org/xmlui/">http://demo.dspace.org/xmlui/</a></span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;helix84&gt; robint: they have probably been assigned each a different GUID in the authority index</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;helix84&gt; robint: are these items you just added?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; hovering over those "Taylor, Robin" entries, it looks like they  all have unique GUID values</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; So, they are seen as "different people"</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;robint&gt; One I added maybe yesterday but the others I added now just to confirm the behaviour</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; robint: did you just type in the name manually, or did you actually use the "Lookup" tool to select an existing "Taylor, Robin" in the repository?</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; I *think* the former will add a *new* "Taylor, Robin", but the latter will not</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;robint&gt; Typed in manually each time</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;helix84&gt; yep, that must be it</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; I'm testing with a new submission right now</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;helix84&gt; regarding DS-2395, see #dspace</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2395">https://jira.duraspace.org/browse/DS-2395</a> ] - [DS-2395] ItemDAO* still uses bundle.name (now moved to metadatavalue) - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;robint&gt; Is that because we have Auth Control turned on in some form?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;helix84&gt; robint: yes, it's one of the new optional features and we turn those on for testing on demo</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; there we go, this Robin Taylor has (2) now...cause I selected this one from the AUth Control "Lookup" form in the submission process. <a href="http://demo.dspace.org/xmlui/discover?filtertype=author&amp;filter_relational_operator=authority&amp;filter=f9f3c53e-bfe8-43bc-b371-c2b54b1b0675">http://demo.dspace.org/xmlui/discover?filtertype=author&amp;filter_relational_operator=authority&amp;filter=f9f3c53e-bfe8-43bc-b371-c2b54b1b0675</a></span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;robint&gt; So if I don't select the same author from a list it assumes it is different?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;kompewter&gt; [ Search ] - <a href="http://demo.dspace.org/xmlui/discover?filtertype=author&amp;filter_relational_operator=authority&amp;filter=f9f3c53e-bfe8-43bc-b371-c2b54b1b0675">http://demo.dspace.org/xmlui/discover?filtertype=author&amp;filter_relational_operator=authority&amp;filter=f9f3c53e-bfe8-43bc-b371-c2b54b1b0675</a></span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;KevinVdV&gt; robint: it does</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;robint&gt; Good stuff, thanks for investigating</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;KevinVdV&gt; Because there is no way to know if you are the same Robin T</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;KevinVdV&gt; It could be your evil twin</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;helix84&gt; robint: otherwise the bug you were trying to test wouldn't be relevant (it's only with the new feature)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; Is there any way to "merge" authors later on?  Just curious</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;robint&gt; Makes sense</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;KevinVdV&gt; No real way to merge authors (yet)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; (i.e. to say...whoops, these two "Taylor, Robin" are the same!)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;hpottinger&gt; authority control isn't actually new, sorry for being pedantic :-)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, good to know KevinVdV. that seems like it'd be a worthwhile future feature</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;helix84&gt; KevinVdV: as an improvement, we might also suggest authors from the index when there's a duplicity (or multiplicity)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: SolrAuthority is</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; true, the cache is new</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;KevinVdV&gt; Indeed, but Rome wasn’t built in a day :)</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, back to the other topics at hand...there's still more to get through regarding 5.0 stuff</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; I do again want to mention DS-2040. Anyone have objections to my merging this fix?</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2040">https://jira.duraspace.org/browse/DS-2040</a> ] - [DS-2040] AIP restore does not seem to work with cross-mapped items - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;mhwood&gt; None here.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;hpottinger&gt; funny thing about 2040: I can't seem to reproduce it any more</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; It includes AIP Integration Tests, and I've verified both the bug and the fix via Integration Tests</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I will merge it before the release unless I find bugs. Still in the process of testing it.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: Only very specific restores (*must* be a hierarchical restore of a Community with a mapped item under it) will trigger the bug</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; aha, so my "poison pill" AIP won't work</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: my testing takes really long on real-world data, also because there are other unrelated bugs and limitations in the AIP packager</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I was able to trigger the bug via my Integration Tests though, prior to merging</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; prior to *fixing* I mean</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;hpottinger&gt; OK, so, the real bug is: cross-mapped collections + a complex hiearchy</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: correct, I don't think your "poison pill" will actually work. It's not the *Item AIP* that is the issue...it's actually the *Collection AIP* which references the mapped Item that is the issue</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: that's exactly what I'm testing ;)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; OK, well with 2040, it sounds like helix84 is on top of it. I just don't want this missing 5.0, as I'm 99.9% certain it works &amp; it comes with tests to verify it</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;hpottinger&gt; I'm on board with that</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; Moving along now...Anyone seen or heard from our friendly RT member, peterdietz, recently?  He still owes us 5.0 Documentation for several features</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: yes, even if I don't make it in time (yes, it really takes that long) I'll merge it. I haven't really found issues with it, just wasn't able to fully verify.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: he's alive, he posted a reply on the mailing list today or yesterday</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;hpottinger&gt; he's really busy with big project at the moment</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-brick">* hpottinger attempts to summon PeterDeitz...</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; OK, so I guess the question is...anyone in touch with him still about Docs? We obviously need these docs to release 5.0...<a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-ReleaseTODOlist">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-ReleaseTODOlist</a></span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 5.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-ReleaseTODOlist">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-ReleaseTODOlist</a></span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; I don't feel good about releasing 5.0 without docs for Batch UI Imports, REST (with CRUD) or PDF Cover Pages...each of those seem like they are in need of docs</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;helix84&gt; Since hpottinger is planning to release the langpacks today, I'd like to ask for help with checking one translation. The file encoding is correct, UTF-8, yet it doesn't display the text correctly in JSPUI. Could anyone give me a hand after the DevMtg?</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;hpottinger&gt; I'm actually planning to release lang packs *right after this meeting* :-)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;helix84&gt; Oh, I promised the UI docs. I'll do that today.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;hpottinger&gt; (hence my reticence to volunteer for things)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: I think you also mentioned having docs for the minor updates BTE (Biblio-Transformation-Engine). We need those too</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: Yes, noting that down</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: I</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;hpottinger&gt; will coordinate with you before I release langpacks</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: Thanks. I'll send you the file.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-brick">* hpottinger eyeballs his "return" key warily</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-yinvpzkvdowhozzl) has joined #duraspace</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;peterdietz&gt; Hi All</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;hpottinger&gt; Hi!</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: "send you the file" baffles me :-)</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;hpottinger&gt; I'm OK at pulling levers and pushing  buttons, not so OK at translating</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; Hi peterdietz... we were wondering about the 5.0 docs for REST (with CRUD), PDF Cover pages...and possibly Batch UI Import (though I think helix84 may have volunteered there)</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: any updates on docs schedules?  Docs are one of our last "blockers" to getting this release out the door soon</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;KevinVdV&gt; need to run guys, until next time ! Good luck with the release !</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;peterdietz&gt; I've been working on the PDF Cover Page, haven't published yet, and the REST, well, answering Bruno's question the other day got that a bit further.</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;peterdietz&gt; I can drop other projects to finish this all</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;hpottinger&gt; ask for help if you need it, we can all pitch in</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;mhwood&gt; Aye.</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-navy">* KevinVdV (~kevin@85.234.195.109.static.edpnet.net) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks, peterdietz. Ideally we really need them by end of day tomorrow (or end of week at the latest).  Definitely ask if you need help. We just need to push through and wrap up 5.0 :)</span><br />
+<span class="irc-date">[16:05]</span> <span class="irc-brick">* mhwood deeply appreciates good documentation.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;hpottinger&gt; same goes for the lot of you, no one here needs to struggle with this load, we can all help.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; yes, please email or jump on IRC if you need help on something 5.0 related</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;tdonohue&gt; OK, so to try and wrap up today's meeting.  It sounds like, if all goes well, we should still get 5.0 "cut" sometime this week.  I'm just wondering whether we'll get it cut early enough to announce this week, or if that may get pushed to Monday, but we'll see</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;hpottinger&gt; I have Thursday blocked off all day, I plan to start things off 9AM CST, so, if I need to stop, somebody show up in IRC and yell "stop!"</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; BTW, is someone on the RT willing / ready to start drafting the 5.0 email announcement (based on the wiki release notes)? Or is that an area where help is needed still?</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mhwood&gt; I could do that if nobody else wants it.</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;hpottinger&gt; thanks, mhwood!</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: that'd be great. I'm glad to chip in as well, if you need more eyes or someone to run a draft by. Thanks!</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;hpottinger&gt; same here, I will proofread</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mhwood&gt; When I have something, I'll send it out on -release.</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; sounds great! Thanks again!</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; OK, so anything else I'm forgetting with regards to 5.0?  It sounds like we have a plan / assignee for everything</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;helix84&gt; yeah, I'll take demo</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;helix84&gt; and apidocs</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;hpottinger&gt; sounds good, I will brb, need tea before I start cutting these lang packs</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-black">&lt;tdonohue&gt; oh, yep, demo needs updating too. That's true. FYI on demo though, I'm probably going to try to rebuild that behind the scenes in the coming weeks. But, helix84, I'll let you know if I start that in the next few days (kinda doubtful at this point) in which case I might steal this task from you</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;tdonohue&gt; With that though, it sounds like we've wrapped up today's meeting. 5.0 should be out by the end of the week!  Thank you all for all your hard work &amp; dedication to making this happen. It's gonna be a great release!</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;helix84&gt; I think it should go smoothly now, I ironed it out when deploying rc1/rc2</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-brick">* tdonohue notes the official meeting is now closed...but if you want to hang around, some discussion will be going on in #dspace immediately post-meeting</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-navy">* robint (81d7ec36@gateway/web/freenode/ip.129.215.236.54) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-navy">* srobbins (~Adium@c-98-212-148-48.hsd1.il.comcast.net) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:32]</span> <span class="irc-navy">* hpottinger (~hpottinge@128.206.162.188) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[22:51]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

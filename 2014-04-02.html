@@ -1,0 +1,202 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2014-04-02
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[0:04]</span> <span class="irc-navy">* kshepherd2 (~kim@203.160.115.179) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-sendak.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-sendak.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-sendak.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-brown">-sendak.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:51]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:13]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:34]</span> <span class="irc-green">* kshepherd2 (~kim@121-99-35-254.bng1.nct.orcon.net.nz) has joined #duraspace</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-navy">* kshepherd2 (~kim@121-99-35-254.bng1.nct.orcon.net.nz) Quit (Ping timeout: 264 seconds)</span><br />
+<span class="irc-date">[13:23]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:37]</span> <span class="irc-green">* edInCo (~smuxi@seta.coalliance.org) has joined #duraspace</span><br />
+<span class="irc-date">[19:13]</span> <span class="irc-green">* hpottinger (~hpottinge@216.106.51.118.reverse.socket.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for our weekly DSpace Developers Mtg: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-02">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-02</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-04-02 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-02">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-04-02</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; I'll admit, the agenda is mostly a "guess" for today.  It's a bit light on actual substance, but I figured it'd be good to check in on statuses, and see what discussions come up</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; First off though, I just wanted to remind folks that we are looking for volunteers for the 5.0 Release Team.  We also need to start working towards a tentative 5.0 Release schedule (which that Release Team can help establish or rework as they see fit)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; There's an example 5.0 release schedule already up at: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 5.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+5.0+Status#DSpaceRelease5.0Status-TimelineandProcessing</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; Though that schedule I believe is just a copy of last year's 4.0 schedule -- but the timeframes will likely be similar this year, even if the exact dates change slightly</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;hpottinger&gt; I can volunteer for RT, I've been instructed that I am not to volunteer for RC, though.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; (e.g. chances are the 5.0 PR deadline will be around late Sept or early Oct)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: sounds great! :)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;PeterDietz&gt;  /offtopic -- I can share a link to a rails + DSpace REST project we've been working on -- <a href="http://dspace-rails.herokuapp.com/communities">http://dspace-rails.herokuapp.com/communities</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Single Item ] - <a href="http://dspace-rails.herokuapp.com/communities">http://dspace-rails.herokuapp.com/communities</a></span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; I've got a re-worked schedule on my desk at work, I'm working at home today, mostly the deadlines map to roughly the same dates as for 4.0</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; I'm obviously not expecting us to figure out a 5.0 release team today...just wanted to remind folks that we're still looking</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; The only other semi-official topic for today.  Just wanted to check in on the 3.x and 4.x platforms.  It seems like there may be a 4.2.... I don't recall if we ever decided on a 3.3?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;mhwood&gt; helix84 argued for a 3.3, and I think I volunteered to do one (unless a 3.x RT member wants this).</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; (With all my recent travels, I've only been in this meeting every other week for a while...so I feel like I don't even know all the latest with 3.x and 4.x.   Luckily I don't have any more trips for some time)</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; here's what seems to be in 3.3, according to JIRA: <a href="https://jira.duraspace.org/browse/DS/fixforversion/11841">https://jira.duraspace.org/browse/DS/fixforversion/11841</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace: 3.3 - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS/fixforversion/11841">https://jira.duraspace.org/browse/DS/fixforversion/11841</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; helix84 has put in the work of backporting stuff to the 3.x branch</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; And also for 4.2, according to JIRA: <a href="https://jira.duraspace.org/browse/DS/fixforversion/11840">https://jira.duraspace.org/browse/DS/fixforversion/11840</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace: 4.2 - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS/fixforversion/11840">https://jira.duraspace.org/browse/DS/fixforversion/11840</a></span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; There are 10 issues scheduled for 4.2</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; we might want to look for anything else that "needs" backporting</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; I just pulled a DOI fix into 5.0 that should also go into 4.2 if there is one.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, that's right.  We really do need a 3.3...specifically for DS-1536 (which while it doesn't affect everyone, is a major pain for those it does affect)</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1536">https://jira.duraspace.org/browse/DS-1536</a> ] - [DS-1536] having a DOT in handle prefix causes identifier.uri to be cut off when being created - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, project = DSpace AND fixVersion = "3.3" AND status != Closed ORDER BY status only turns up one issue.</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; and that issue is....</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; DS-1958</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1958">https://jira.duraspace.org/browse/DS-1958</a> ] - [DS-1958] Discovery OutOfMemoryError when indexing Large Bitstreams. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; Don't know how to write "'3.3' in fixVersion" properly.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-green">* richardrodgers (~richardro@18.189.115.43) has joined #duraspace</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; created 14 minutes ago...</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; Wow, I thought it looked unfamiliar.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; 1958 is marked "trivial" so hopefully we have a PR coming soonish from @mire as well</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; by the most elusive mdiggory...</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; But, yes, it sounds like 3.3 might want to wait for 1958</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; hey, look, it's richardrodgers and aschweer!</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;richardrodgers&gt; hey all</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;aschweer&gt; good morning</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; So, to summarize.  3.3 sounds like it needs to happen (may want to wait on 1958 which sounds bad), and 4.2 sounds like it may happen at some point too (as 1958 would be good to fix there too)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; I mostly just wanted to see where things stand with 3.x/4.x  That's "good enough" for me for now.  I personally would want to see DS-1958 get squashed though soonish</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1958">https://jira.duraspace.org/browse/DS-1958</a> ] - [DS-1958] Discovery OutOfMemoryError when indexing Large Bitstreams. - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; Unless anyone has anything else related to 3.x or 4.x, we can move along to other topics :)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; The rest of my rough "agenda" really is up-in-the-air.  Honestly, I'm opening the floor to whatever you all would like to discuss.  I had mentioned some possible topics of  "feature ideas/updates" for 5.0, or even talk about whats going on with the DSpace Vision discussions (if my recent email brought up questions)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;hpottinger&gt; 3.x/4.x: dates?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; Anyone have anything to discuss or bring up?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;PeterDietz&gt; The only thing I have, I linked previously is the rails+rest project: <a href="http://dspace-rails.herokuapp.com/item/6210">http://dspace-rails.herokuapp.com/item/6210</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ Single Item ] - <a href="http://dspace-rails.herokuapp.com/item/6210">http://dspace-rails.herokuapp.com/item/6210</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: good question.  I suspect that's more a question for whoever is volunteering to cut the releases (which need not necessarily be mhwood again, unless he wants to).   Seems like 3.3 &amp; 4.2 *could* be released as soon as sometime in the next month.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz: Interesting! Is that built against the 4.x REST API?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;hpottinger&gt; If mhwood is willing to cut the release, I say he gets to pick the dates.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;PeterDietz&gt; Its currently pegged against Ohio State's DSpace, which I've backported the same 4.x rest api to work on. (Note: OSU is running 1.8.x + rest)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;PeterDietz&gt; ...so, it should work exactly correct against another 4.x DSpace / 1.0 DSpace REST</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger ++ I agree, the person doing the work can obviously select the dates.  Seems like we are "waiting" on 1958, so we may need to set a date at least a week out.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;hpottinger&gt; sent mdiggory a note just now re 1958</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; So, with 3.3 and 4.2, do we have someone willing to cut those releases?  Beyond that, we'll also need some (minimal) documentation updates and announcements to lists.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; cutting a release isn't nearly as exotic as it sounds, the script just runs, any takers?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; I think I already volunteered for 3.3 unless someone else wants it.  Maybe someone else on the 4_x RT could take 4.2?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; I'll take 4.2, it'll be a party</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. sounds good. Thanks, mhwood &amp; hpottinger.  So, then it's up to you two to set the dates.  It looks like 3.3 is more "ready" than 4.2 (just waiting on 1958).   4.2 seems to still have quite a few open tickets which we either need to complete or reschedule</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; (but if anyone else wants to run the script, let me know)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; I have a daily note on my calendar about 3.3.  I'll keep an eye on Ds-1958 progress.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; ok, sounds fine. We can revisit these later on then.</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; the end of 1958 says "The following change assures a consistent memory footprint for Solr Indexing." I suspect a PR is incoming</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Any other topics or things folks which to discuss?  PeterDietz also mentioned his rails app above</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;richardrodgers&gt; Since hpottinger asked about it in connection with <a href="https://jira.duraspace.org/browse/DS-1871,">https://jira.duraspace.org/browse/DS-1871,</a> I'm happy to shepherd media filters as curation tasks to 5.0. The work is here: <a href="https://github.com/richardrodgers/ctask/tree/master/mediafilter">https://github.com/richardrodgers/ctask/tree/master/mediafilter</a> If anyone has additional functional requirements, I'm all ears.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1871,">https://jira.duraspace.org/browse/DS-1871,</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ ctask/mediafilter at master · richardrodgers/ctask · GitHub ] - <a href="https://github.com/richardrodgers/ctask/tree/master/mediafilter">https://github.com/richardrodgers/ctask/tree/master/mediafilter</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1871">https://jira.duraspace.org/browse/DS-1871</a> ] - [DS-1871] UI support to call filter-media  - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;hpottinger&gt; I added a link to that work as a comment on 1871 (thanks, richardrodgers!) and marked the ticket as "low_hanging_fruit"</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; Thanks richardrodgers.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;PeterDietz&gt; media-filter to curation-task feels long overdue. Thanks for tackling that</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; awesome. Thanks richardrodgers.  That'd be a great addition to 5.0</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; richardrodgers, should we assign 1871 to you then?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; We should look over the other periodic jobs to see if any are done that way only because we didn't have a better way.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;richardrodgers&gt; No problem - a big side-effect win is using Tika library - we suddenly get a whole bunch of additional formats we can extract text from..</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; ooh, cool</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;richardrodgers&gt; tdonohue: sure, go ahead</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; TY, richardrodgers!</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; yes, thanks!</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Any other updates / thoughts / questions from anyone else?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; rails app, it's just a read-only UI, correct?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;PeterDietz&gt; hi hpottinger, yeah. Its talking to the DSpace 4.0 / DSpace REST API 1.0, so its using only what that other thing provides. Which is public - read only - anonymous</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; I'm assuming this rails app is really just an early proof of concept?  Or are there any plans to move in that direction at OSU?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; would be kinda cool if it fed new content in via SWORD</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;PeterDietz&gt; I think we have some rails caching on it too. So, it won't make another API call, if rails has cached the response, not sure of the details of that one.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;PeterDietz&gt; Yeah, eventually these kick-the-tires apps (DSpace-REST-API-clients) will coalesce into needing to do things, such as edit, create, manage, perform actions. For now, I'm thinking that you might just have a login button, that changes your to your url for JSPUI/XMLUI</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; cool. makes sense</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;PeterDietz&gt; ...but in the this-year time frame, I'm thinking that adding more functionality to DSpace REST is on my horizon. Richard has been active in that space too. Once your API supports features, the app can do things</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;PeterDietz&gt; so DSpace 4.0 has REST 1.0, its possible that DSpace 5.0 could have an incompatible REST 2.0</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;PeterDietz&gt; where DSpace REST 2, might be in a different structure, different endpoints, different auth, ...</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; Is there a reason to so drastically change things between REST 1.0 and REST 2.0?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;PeterDietz&gt; perhaps, I can look at having DSpace 5, have both DSpace 1.0 and DSpace 2.0, I haven't fully hashed the plan out</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; We obviously can do such major changes in a major release...but we'd need to document how one migrates from REST 1.0 -&gt; 2.0</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; Because it wouldn't be 2.0 if it didn't break with 1.x?</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;richardrodgers&gt; NIce thing about REST APIs - you can version em and support several..</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;PeterDietz&gt; no need, per se. Just that my riffs, Anja's riffs, and Richard's riff, all have slightly different response structure. I don't see any conclusive pro's/con's to any. Perhaps sticking with the most compatible structure has some merit</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; I'm just wondering about the reasons why we are jumping to "different structure, different endpoints, etc".  If there are good reasons / use cases, then by all means we can do that.  I just didn't want to encourage drastic redesign just cause "we felt like it"</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; well... there are probably reasons behind our feelings... :-)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; But, I do agree, we can version REST or make drastic REST changes in 5.0.  I just want there to be good reasons why :)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; (so that we can explain them to the users of REST who are bound to ask those questions)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;PeterDietz&gt; heh, reminds me of a ruby gem we were using. The maintainer pulled a version from rubygems.org, because he felt like it. He then version-bumped, and added the same exact thing back a day later. Needless to say, our app wouldn't bundle/compile for a day</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietz&gt; I think we'll find a route that makes sense for everyone. i.e. this rails app, or my play! framework consumers could hit DSpace 5 + REST@1.0,... What richard was saying about support multiple versions</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;PeterDietz&gt; demo.dspace.org/rest/v1/items.json   vs demo.dspace.org/rest/v2/works.json    you could upgrade the underlying DSpace 4.x to 5.x, but so long as the rest module can do v1 and v2, no heartburn for anyone</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz. Yep, that makes sense...we can even potentially "deprecate" /v1/ in DSpace 5.0 (to warn users to move to /v2/)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; we still support SWORDv1, correct?</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; (that would make our jobs easier going forward, so we don't have to *continually* maintain two versions of the REST API forever)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yes, but SWORD is a bit different.. There are not enough SWORDv2 tools out there (yet), which is why we still have SWORDv1 and SWORDv2</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;hpottinger&gt; my point was that we're currently already supporting two service APIs for the same type of service, we'll be fine if we support more than one REST API</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; I disagree (says the guy who hates supporting multiple versions of things forever and ever) ;)</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; But, in any case, we can figure that out later...I just don't like the idea of have REST 1.0 stick around forever just cause "someone might still be using it"... it gets us into another LNI scenario</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; So, I've come to the 'frame of mind' that I'd rather deprecate often, see if there are complaints, and then remove support....but again, that's only my opinion and I obviously can be out-voted by the majority</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mhwood&gt; No reason we can't ask, from time to time:  are you still using X version Y? what would it take for you to move to version Z?</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; Noticing now that we're in overtime here &amp; I admit I have to leave shortly (head into lurking mode).</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, I have to go too.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; 'bye, all.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;PeterDietz&gt; yeah. If we had a way to keep track of who is using what, i.e. to generate an API-key, please give us your email address. Then you could email people that have keys to deprecated versions, or be able to give your external users a heads up before maintenance..</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood ++  Yep, I agree.  Deprecation sometimes forces the point even more than a survey would..but the same idea</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;hpottinger&gt; I'm inclined to agree, in general, about supporting older code, as long as we don't deprecate merely because we fear potential future work, let's deprecate for good, functional, reasons</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;richardrodgers&gt; gotta run also - bye all</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-navy">* richardrodgers (~richardro@18.189.115.43) Quit (Quit: richardrodgers)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'm going to close up the meeting now as folks obviously need to head out (as do I).  I will be lurking around here though, if any other topics come up.  I just have a few other things I need to try and get done here before calling it a day :)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; my hunch was right: DSPR#515</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/515">https://github.com/DSpace/DSpace/pull/515</a> ] -  DS-1958 Fix SolrLogger Memory Error by mdiggory</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; who wants to review 515?</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-navy">* hpottinger (~hpottinge@216.106.51.118.reverse.socket.net) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[22:33]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:26]</span> <span class="irc-navy">* edInCo (~smuxi@seta.coalliance.org) Quit (Read error: Connection reset by peer)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

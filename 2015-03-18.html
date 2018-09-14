@@ -1,0 +1,291 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2015-03-18
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:46]</span> <span class="irc-brown">-wilhelm.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-wilhelm.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-wilhelm.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-brown">-wilhelm.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:46]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[7:17]</span> <span class="irc-green">* Jags (3b584fbd@gateway/web/freenode/ip.59.88.79.189) has joined #duraspace</span><br />
+<span class="irc-date">[7:17]</span> <span class="irc-black">&lt;Jags&gt; hi all</span><br />
+<span class="irc-date">[7:17]</span> <span class="irc-black">&lt;Jags&gt; can anyone help me</span><br />
+<span class="irc-date">[7:17]</span> <span class="irc-black">&lt;Jags&gt; regarding dspace search</span><br />
+<span class="irc-date">[7:18]</span> <span class="irc-black">&lt;- *Jags* hi</span><br />
+<span class="irc-date">[7:19]</span> <span class="irc-navy">* Jags (3b584fbd@gateway/web/freenode/ip.59.88.79.189) Quit (Client Quit)</span><br />
+<span class="irc-date">[12:10]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:00]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-ozencubasojsdxtr) has joined #duraspace</span><br />
+<span class="irc-date">[13:01]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[18:29]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: going home)</span><br />
+<span class="irc-date">[18:40]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:47]</span> <span class="irc-green">* srobbins (~srobbins@libstfsdg02.library.illinois.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:59]</span> <span class="irc-green">* kohts (~kohts@ppp91-79-215-155.pppoe.mtu-net.ru) has joined #duraspace</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, it's time for our weekly DSpace Developers meeting. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-18</a></span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-03-18 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-03-18</a></span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; The agenda today looks a bit "long" as the first topic is a summary of the discussions from last week's "DuraSpace Summit" (especially from the DSpace project breakouts)</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not going to dig deeply into each of my bullets in the agenda, but I'd encourage you to take a moment to read through them (if you haven't already)</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; The main points here are that:  (1) Everyone agreed that having 2 UIs (JSPUI &amp; XMLUI) is wasteful, and we need to work towards converging on a single UI</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; (2) DSpace Steering committee is tasking a small working group (including myself) to start to draft up a "DSpace Product RoadMap" (which will likely include how we can start to work towards converging on a single UI)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; (3) That Product RoadMap will be presented in draft form for feedback at OR15</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; (4) DSpace Steering Committee also wants to try to enhance our marketing of DSpace (forming a Marketing Working Group to do so), and do some more extensive fund raising this year in order to try to hire a Product Manager (to work alongside myself, as the Tech Lead)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; Those are the major themes / discussions that came out last week...more details in the agenda summary</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; I'll do my best to keep everyone up-to-date on all these various topics...there will also be a lot more discussion &amp; presentations (especially on the upcoming Product RoadMap) at OR15</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; If there are any questions, concerns or comments here, I'd be glad to answer them or help clarify anything</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; so the product manager idea is directly tied to getting more funding?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-brick">* tdonohue will pause here for a moment, in case anyone is typing.  I'm also glad to answer questions offline as needed</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;hpottinger&gt; and the road map process, has there been a change there?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yes, we cannot hire any a Product Manager without more funding.  My role as Tech Lead (as well as a Product Manager role) are dependent on Membership and/or Fundraising.   Last year (2014), we raised enough funds via the Membership Drive to cover me (at ~70% time), but *not* to cover a Product Manager</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; As for as the Product RoadMap is concerned, there's been no significant changes (as before this meeting we already had plans for a rough draft Product Roadmap to be presented at OR15).  The only slight change is that the issue of two UIs was noted as a big concern, and everyone seemed to agree it will need addressing in the Product RoadMap</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;hpottinger&gt; I think there was talk of hiring a consultant to help with drafting the road map?</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; (I'm not trying to be difficult, I just know I have some people here who will ask)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; Yes, the hiring of a consultant has changed (thanks for reminding me)....there's been a slight "wrench" in that process, as the consultant we were talking with may no longer be available.  We're now working towards getting this work done via a "RoadMap Working Group" on the same schedule (but without that consultant)</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; As a replacement to the consultant, I'm working on freeing up more of *my* time in the coming months, so that I can help to lead that "RoadMap Working Group"</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: how can we help?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; mostly "be available for feedback" (as the process gets started).  This is going to be a *very rapid* process, so the RoadMap Working Group is intentionally a small group (with representatives from Committers, DCAT, Service Providers, etc).</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;hpottinger&gt; so, perhaps it's as simple as: please hang out in IRC? :-)</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; But, the RoadMap Working Group does plan to try and give opportunities for feedback to especially the Steering Group, Committers &amp; DCAT (and anyone else who wants to help)....we hope to have at least one comment period prior to OR15...but we'll have many more at OR15 and likely even beyond then</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; Yep..."please hang out in IRC"..."please comment via email (as we start to send out very early drafts)", etc.</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; I anticipate most of the Product Roadmap work will likely be done in "public" (on the wiki) anyhow...so folks can likely just watch the page (once we get one setup) and add comments as we go</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;hpottinger&gt; sounds good to me</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; Any other questions, concerns, clarifications, comments on the Summit discussions?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;hpottinger&gt; would it be too much to organize that work into "sprints?" even though it's not really coding</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: good thought...yea, it's not really coding, but the sprint idea still might ensure we stay on track. I like it.  I'll mention that to the group as we get started (we haven't started yet)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;aschweer&gt; the sprints (with posted start/end dates) might also help get eyes on the work, because then we can pick and choose those topics we feel most confident with / that are most relevant locally</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; I'm doubting we have enough time between now and OR15 to *exactly detail* which topics will be discussed in each sprint...but we'll see.  The DCAT gathered use cases will be the "starting point" for this Product RoadMap though, so we might be able to do "high level" topic sprints (Admin vs End User vs Submit, etc)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://wiki.duraspace.org/display/DSPACE/Use+Cases">https://wiki.duraspace.org/display/DSPACE/Use+Cases</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ Use Cases - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Use+Cases">https://wiki.duraspace.org/display/DSPACE/Use+Cases</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue yes that's the type of breakdown I think would be helpful</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;peterdietz&gt; Is there any other notes from the summit, is this was most of it?</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; cool, yea, I'll see what I can do then, aschweer. I like the idea</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;hpottinger&gt; Can Confluence/Jira work a bit more like Trello?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: this was the summary of the "DSpace Breakout sessions" (from Day 2 of the summit).  Day 1 of the summit was mostly presentations (all of which were recorded &amp; will be public sometime soonish) on DuraSpace and each of the Projects (DSpace, Fedora, VIVO)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-brick">* hpottinger answers his own question: yes, with Greenhopper</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; I didn't take notes on the Day 1 stuff, to be honest, as it all was more of an overview of the last year, and where each project is going.  Oh, and a portion of Day 1 was the "Introducing the new DuraSpace CEO, Debra Hanken Kurtz" ;)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; I do know that additional summaries/reports from the summit will be posted to the DuraSpace blog in the next week or so...this was just my personal notes from the DSpace discussions</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; Any other questions or comments on all this?  Glad to answer them (now or later on)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;peterdietz&gt; Cool. So UI may or may not be the hottest topic at the moment. And a roadmap will help us guide future development</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: UI is one of the bigger topics in that it affects our Product Roadmap (and everyone sees it as a waste of current developer/committer resources to be building the same feature "twice").  And yea, the Product Roadmap's role is to try to guide future development and help organize all of us around a common "path" for DSpace (so we can avoid duplicative work as much as possible)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, sounds like discussion is slowing here...so we may as well move on to other topics.  As mentioned, I'll try to keep everyone posted on Product RoadMap status (as soon as we get kicked off).  Let me know if any other questions come up.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;peterdietz&gt; Okay. I'm thinking about how REST may or may not have been an example of how there were divergent routes to get there, and we eventually rallied around one "blessed" REST API, and that there has been consistent support on that feature</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; so, I'm assuming that organizing the use cases will be a big part of what the Road Map will tackle?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;peterdietz&gt; So, either have one of the current UI's get a blessing, then get overhauled to be the best choice in 2015 and beyond, or someone taking on a huge role and building a new UI, that people can get behind</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;hpottinger&gt; peterdietz: that's actually the story of the REST-API right there, truth be told</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yep. The Product RoadMap team will initially be analyzing the use cases in more detail, trying to prioritize them &amp; organize them.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-green">* mhwood (~mhwood@adsl-99-130-170-8.dsl.ipltin.sbcglobal.net) has joined #duraspace</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;peterdietz&gt; Any route, one with strong feelings can still use their alternative (the other REST implementations, other UI implementations), but your mostly on your own.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: that's kind of why I was asking about Trello, as it has a nice interface for organizing cards/use cases/stories</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; perhaps we can fire up Greenhopper and put all the use cases in it?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: yes, the UI path may be similar to the REST path.  I think the issue here is that solving the two UI problem may be necessitated by the Product RoadMap (in that in order to tackle some use case or features, we need a UI decided upon...otherwise, we are duplicating effort again)</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: Greenhopper might be a good plan here. I admit, I haven't played with it much (yet). But I know some projects use it more heavily (e.g. DuraCloud)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; One difference is that very few were using REST early on.  EVERY SITE is using a UI.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: hopefully we see some convergence with Bootstrap stuff</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; just in time to change everything all over again! :-)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; yep, true. The UI problem is not a "small one". It'd require a migration path for potentially *every* user of DSpace.  We initially made sure that our "Product Roadmap Working Group" has representatives for both XMLUI and JSPUI, etc</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; *intentionally* (not initially)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; Any other thoughts/comments?  Not wanting to stop the discussion here...just trying to gage if it's time to move on to other topics</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, all sounds quiet.  So, we may as well move on to other topics for today.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; Next topic - DSpace 5.2.   I'm aware that we have some Solr Statistics index issues that need resolution soonish...So, just curious how that's going, and whether there's any other major issues warranting a 5.2 in near future?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;aschweer&gt; I can give a status update on the Solr issues</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; Please.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; go ahead please :)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;aschweer&gt; I think we need a way to reindex all solr documents, ideally one that works for all our solr-as-main-datastore cores (statistics + authority)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;hpottinger&gt; +1</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;aschweer&gt; I see two approaches. 1) Reindex in place - this is what Terry Brady's code is doing</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;aschweer&gt; 2) Export all solr docs, empty out the core, re-import all solr docs</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;aschweer&gt; I've tried (1) but at least my code doesn't work too well, so I've started on (2) but have had other fires to put out so haven't got very far</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; I think #2 (export all solr docs) is necessary anyways for a safe "backup" (even if we had a "reindex in place" option)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue agreed</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; So, in my opinion, #2 is required.  #1 might be "nice" (cause it's likely quicker)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; Also less disruptive.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;aschweer&gt; not sure about quicker, #1 took 2 hours on 6.6M solr docs (and didn't fix all the problems)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;hpottinger&gt; +1 way to back up and restore stats would be great</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mhwood&gt; We can probably provide #2 rather quickly, and gain time to work on #1.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mhwood</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;aschweer&gt; I'm a little stumped on some of the behaviour I'm seeing with my #1 code</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; Yes?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;aschweer&gt; just a reminder, for now what we need to do is (a) add uids to all stats docs from pre DSpace 3 and (b) reindex all stats docs from pre DSpace 5 so that they use docValues for those fields where that's enabled</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;aschweer&gt; My code for the reindexing achieves (b) but not (a). Terry's code looks pretty similar to mine, it achieves (a) but achieves (b) only for those docs that are affected by both problems</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;hpottinger&gt; just to give context: DS-2487</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2487">https://jira.duraspace.org/browse/DS-2487</a> ] - [DS-2487] Pre-5 Solr usage stats geo information may get lost when upgrading to 5 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Sounds to me like we need two, uh, "migrations".</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;aschweer&gt; so essentially, I don't know why his code appears to add the uids but mine doesn't (I'm sure I might just be a bit blind to the details at the moment)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;aschweer&gt; in theory, one migration can achieve both</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;aschweer&gt; reindex all docs, add uid where needed</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;aschweer&gt; reindexing achieves (b) all by itself, nothing needed</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mhwood&gt; OK.</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;aschweer&gt; thanks for the ds link; Terry's code is here: <a href="https://gist.github.com/terrywbrady/82bd91b53ea4374b96e4">https://gist.github.com/terrywbrady/82bd91b53ea4374b96e4</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;kompewter&gt; [ Copy DSpace Statistics Records to Force UID generation ] - <a href="https://gist.github.com/terrywbrady/82bd91b53ea4374b96e4">https://gist.github.com/terrywbrady/82bd91b53ea4374b96e4</a></span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;aschweer&gt; I have my first attempt at #1 in a gist somewhere too, but it isn't at all up to date</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;aschweer&gt; and I will need to leave in 40 minutes to go to a funeral, won't be back till tomorrow</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;aschweer&gt; so, I think we should maybe focus on #2 anyway</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;aschweer&gt; there is an approach like that in the SolrLogger sharding code</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;aschweer&gt; however, that one has a bug at the moment because it doesn't strip out the _version_ fields, see DS-2212</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2212">https://jira.duraspace.org/browse/DS-2212</a> ] - [DS-2212] Statistics Shard not working, version conflict - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;aschweer&gt; also, there are smarter ways of reading solr responses into a csv</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, it seems like if we can get a #2 option done quickly, we could even potentially release a 5.2 with that (if the #1 option takes more work/analysis, it could wait for a 5.3)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;aschweer&gt; (better ways than in Terry's patch for 2212, I mean)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;aschweer&gt; FileUtils.copyURLToFile(queryURL, file)</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;aschweer&gt; then use the code as in the sharding to read it back in, stripping the _version_ field</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;aschweer&gt; the issue with the export-dump-import approach is writing code that isn't ugly and works for everyone</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;aschweer&gt; you probably want to throw a sort clause into the query used for exporting. but there isn't a common field between statistics and authority that would work (time for statistics, creation or modification date for authority)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;aschweer&gt; also, I don't know whether special magic is needed in the import to add the uids</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;aschweer&gt; and of course we don't want to add uids to the authority core</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;aschweer&gt; plus, the core names are configurable, as is the location of the solr server</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-navy">* kohts (~kohts@ppp91-79-215-155.pppoe.mtu-net.ru) Quit ()</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; I am available to help test and can contribute whatever meager amount of brain power I have available, DS-2487 is a blocker for our upgrade to 5</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2487">https://jira.duraspace.org/browse/DS-2487</a> ] - [DS-2487] Pre-5 Solr usage stats geo information may get lost when upgrading to 5 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'll admit I'm not sure whether I'll have much time to spend on coding/analysis in this problem (as much as I'd like, I'm rapidly trying to clear my "plate" to take on this Product RoadMap work).</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; But, I'm a very willing tester. I have mostly 4.x instances to test with though, so I only can easily test the docValues part.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;aschweer&gt; it is a high priority for our clients, since it is a blocker here too. But as I said, I'm out all of today.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mhwood&gt; The Solr instance's URL probably should be taken from the normal configuration, without asking.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;hpottinger&gt; I've got a 3x-era Solr stats core just waiting to be upgraded</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;aschweer&gt; cool. Just remember, you can take a copy of the stats core so you can do multiple test runs on the same data</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;aschweer&gt; mhwood yes, probably. My code currently takes a flag to say which index to work on</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;hpottinger&gt; indeed, I'm testing on a copy</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; I think the important piece here is just to keep this moving along, and as we get closer to a "resolution" we'll need to set more specific dates for a 5.2 release.  This is definitely a blocker for 5.2, but we don't have a schedule for 5.2 until we can get closer to resolution</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;aschweer&gt; I admit that I'm currently trying to get this working first in a way that helps my clients. So there may be opportunity in a little while for taking my code and making it more generic</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;aschweer&gt; that sounds good</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;aschweer&gt; in the meantime, if anyone has an idea, please shout out -- probably best place is on the devel list</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; We're about to go 5.x here, so I'll need the fix too.  If there's something I can do, ask.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; yep, I agree -devel or JIRA is the best place for these discussions.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;aschweer&gt; has anyone heard from @mire / CINECA (as the people who made the schema changes) whether they perhaps have local fixes hanging around for this?</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; I have not, aschweer. You might even want to ping them directly (Bram &amp; Andrea)...and possibly even CC in -commit if you want</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;aschweer&gt; cool, I'll do that when I get the chance</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; I'd expect they'd encounter this at some point as well, and they should be motivated to get it fixed ;)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; thanks for all your work on this, aschweer!</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Yes, thank you.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;aschweer&gt; I'm guessing it is too much to hope for that they have the fix already and it just needs to be shared :)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;aschweer&gt; thanks guys :)</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;hpottinger&gt; oh, hey, tdonohue, there's a new way to ping, isn't there?</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; It'd be nice if they did have a fix, but my guess is that they do not</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, yes, in JIRA tickets, you can type "@" in a Comment, and pull up someone's name. It'll send them an email letting them know you mentioned them on that Ticket</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; So you could ping Bram &amp; Andrea on that JIRA ticket (2487)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;aschweer&gt; oh oops I didn't know it spams people, I've been making liberal use of that for Terry to make sure he gets credit for his work too :)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; (and the others that are related)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer: I actually *like* that it emails folks separately....it allows us to more easily ping someone who may not have noticed the ticket in their inbox (or mail filters)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; speaking of spam, I'm about to add an at-ping comment to DS-2487</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2487">https://jira.duraspace.org/browse/DS-2487</a> ] - [DS-2487] Pre-5 Solr usage stats geo information may get lost when upgrading to 5 - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue: yes it totally makes sense, I just didn't think about it</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-brick">* tdonohue is going to have to go shortly, and we're "over time" here</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; Any other last thoughts for today?  It seems like we are mostly wrapping up anyhow</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;aschweer&gt; I guess one lesson learned from this is that we should check PRs for changes to the solr schema, and make sure there is an upgrade path</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; Argh, I did promise to bring up the question of whether, in the longer term, we should be using Solr as a primary store at all.  Maybe carry over to next week?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;hpottinger&gt; oh, mhwood, you did start a thread on -devel</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;aschweer&gt; yes, good point, and if tdonohue has to go (and I have to go soon too), then postponing sounds good. Though of course I'll be fast asleep at next week's meeting :)</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; The question of "solr as a primary store" is basically this same topic (as far as I'm concerned). I agree, it's not ideal..but if we have a good "backup &amp; restore" solution (as we just talked about), it's not as big a concern</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; True.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; ideally, we'd have a better place to store this info "permanently", but the DB is not an ideal place to put access/download stats...so, maybe just having a way to backup your stats to CSV is "good enough"?</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;hpottinger&gt; right, that's the concern: it's very ephemeral now</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;aschweer&gt; I agree that it doesn't have to be bad, as long as we give people ways to manage the data</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; Actually the question "should we use it at all" is a subset of the question I posed on the ML:  "are we using it well?"</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;aschweer&gt; ideally I suppose we'd like an incremental export option too, so people can run this on say a weekly basis</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;aschweer&gt; and I've said this before, but just so it doesn't get lost, ElasticSearch is in the same category as Solr in this regard, so ElasticSearch stats are affected too (just I'm guessing used by fewer people)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; I'm sure we'll still have more to talk about on this topic next week too, so I'll leave on the topic of "Solr as a Primary Store".  But, I do think it's directly related to what we've discussed today as well :)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; At this point, I unfortunately do need to head out. So, I'm going to have to close up the meeting now. I'll check back in on the logs later though (so feel free to continue to discuss things amongst yourselves)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; bye</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;kompewter&gt; bye!</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; So the question is "how should we store event records securely as they accumulate forever, in such a way that we can run useful queries with reasonable efficiency, and feed the results to tools of choice (DSpace builtin stuff and external tools like R or Excel)?"</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;aschweer&gt; bye tdonohue</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;aschweer&gt; I don't hate on solr for this, so I'm not sure we need anything "better" at this point</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: and, do we even need to be in this business, or are there other methods of storying and analyzing usage data which we can/should take advantage of?</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;aschweer&gt; we should try and get the Europeans to weigh in though, they may have some perspectives on stats shaped by their privacy laws</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; Point, aschweer.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;aschweer&gt; ie, they might need us to store aggregated stats for visits older than a certain time, etc</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;hpottinger&gt; s/storying/storing/</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;kompewter&gt; hpottinger meant to say: mhwood: and, do we even need to be in this business, or are there other methods of storing and analyzing usage data which we can/should take advantage of?</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;aschweer&gt; well Robin Taylor pointed out taht there are now ways to outsource stats to GA entirely, with the download-as-GA-event code and the GA stats inclusion in the user interface</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;aschweer&gt; that just doesn't help us for historical data</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;aschweer&gt; so I'm guessing yet again we are looking at use cases</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;hpottinger&gt; Logstash is an option, probably</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;aschweer&gt; my repo managers certainly brought out the pitchforks mentioned by someone else on -devel when I mentioned that historical stats data is in danger</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;aschweer&gt; logstash just uses elasticsearch for its data, no?</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; How well does GA support *exploratory* statistics?  (Every time I crank out a new report, they discover that they want something substantially different too.)</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;hpottinger&gt; aschweer: 'tis their business what they use, I'm just wondering if *we* need to be in this business</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;aschweer&gt; we also need to keep COUNTER/Sushi/whatever it's called in mind, ie, if that is what our user base wants to use then DSpace should be able to play nicely with that</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mhwood&gt; I suspect that we need to be in the business of preserving the event data.  I'm not at all sure that we need to be in the business of analyzing them.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;aschweer&gt; hpottinger: yeah fair point</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;aschweer&gt; mhwood++, but with the caveat that parts of our user base may be in legal trouble for storing the event data in non-aggregated form</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;hpottinger&gt; I'm thinking usage data isn't a very interesting problem to me, if someone else is solving it, I'll let them</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; Yes, so what we store must be configurable in useful ways.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;aschweer&gt; I'm not up to date on EU laws but I know that data retention and the like are big topics there, have been for years</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; And we should be sensitive to EU laws (and others).</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;aschweer&gt; so as I said, we're back to use cases. What information about usage do we agree that people should be able to get out of DSpace. We can't answer that between the three of us.</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; True.  I'll try to remember to bring this up again next week.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;aschweer&gt; Interesting look at the repo of the future really. The OAIS model doesn't talk about usage stats, and they certainly aren't the primary function of the repository. But they appear to be pretty important to our users in reality.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;aschweer&gt; mhwood that'd be great, thanks</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood was right about counter, that's pretty much *the* standard for "what usage data people want"</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mhwood&gt; That was not me.  But I agree that it is important.</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;aschweer&gt; I agree that it's important but I don't know enough about it to contribute usefully. Another reason to make sure the Europeans get their say, I guess.</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; oh, shoot, sorry, aschweer brough up counter</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;aschweer&gt; all good :)</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;aschweer&gt; (and it feels really weird to point to the Europeans as "the others", but really, I'm way out of touch with what's going on there)</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;hpottinger&gt; the point is we don't need to invest time researching that use case, it's been done</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;aschweer&gt; yes, that is a good point.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;aschweer&gt; assuming the rest of the world does agree with COUNTER ;)</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;hpottinger&gt; NISO does a good job with that stuff, I think?</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="http://www.projectcounter.org/about.html">http://www.projectcounter.org/about.html</a></span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;kompewter&gt; [ COUNTER | About Us ] - <a href="http://www.projectcounter.org/about.html">http://www.projectcounter.org/about.html</a></span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;aschweer&gt; Anyway, sorry guys, I really need to head off now. I will read up on counter but probably not in the very near future...</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mhwood&gt; We'll keep in touch.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mhwood&gt; Does that about wrap things up for now?</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;hpottinger&gt; a quick scan shows Counter members to come from a number of countries, and, yeah, I think we're done</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;mhwood&gt; OK, signing off.</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162188.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-green">* mhwood (~mhwood@adsl-99-130-170-8.dsl.ipltin.sbcglobal.net) has left #duraspace</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-215-0-161.hsd1.il.comcast.net) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

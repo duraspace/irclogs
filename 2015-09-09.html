@@ -1,0 +1,253 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2015-09-09
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:19]</span> <span class="irc-green">* cknowles (uid98028@gateway/web/irccloud.com/x-vzgdrebkrvhwbexe) has joined #duraspace</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-holmes.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-holmes.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-holmes.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-brown">-holmes.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:55]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:23]</span> <span class="irc-navy">* cknowles (uid98028@gateway/web/irccloud.com/x-vzgdrebkrvhwbexe) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[11:38]</span> <span class="irc-green">* cknowles (uid98028@gateway/web/irccloud.com/x-yjefvnivbnqbuidh) has joined #duraspace</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:03]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:13]</span> <span class="irc-navy">* cknowles (uid98028@gateway/web/irccloud.com/x-yjefvnivbnqbuidh) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[14:46]</span> <span class="irc-green">* cknowles (uid98028@gateway/web/irccloud.com/x-xwketlljosxkmugu) has joined #duraspace</span><br />
+<span class="irc-date">[14:47]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-160190.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hello all, it's time for our weekly DSpace Developers Mtg. <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-09-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-09-09</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-09-09 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-09-09">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-09-09</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;hpottinger&gt; Hi!</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; So, KevinVdV mentioned he'll be here today, but may be a little late again (as he usually is for these earlier meetings)</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; But, nonetheless, I'd like to go ahead and jump into the Service API stuff. Honestly, it's the highest priority item right now, and (having been out of the office last week) I was hoping to get some updates on where things stand</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; From what I can tell, we are mostly waiting on JSPUI to be completed? Is that correct? Is there anything else outstanding or needing attention?</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;mhwood&gt; That's my understanding.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;hpottinger&gt; I *think* some concerns were raised about Oracle testing?</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; I also see a couple of PRs still waiting (likely waiting for post-JSPUI though): DSPR#1040, DSPR#1039, DSPR#2035</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1040">https://github.com/DSpace/DSpace/pull/1040</a> ] - DS-2701: cleanup or org.dspace.rdf by pnbecker</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1039">https://github.com/DSpace/DSpace/pull/1039</a> ] - DS-2730 link getName() to DSpaceServices by pnbecker</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/2035">https://github.com/DSpace/DSpace/pull/2035</a> ] - ('Unexpected error:', &lt;type 'exceptions.AttributeError'&gt;)</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; whoops that last one is DSPR#1035 (not 2035)</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; wait..looks like REST API is also still not merged?  (DSPR#1026)  What's the status on REST API, peterdietz?</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1026">https://github.com/DSpace/DSpace/pull/1026</a> ] - [DS-2701] REST API by peterdietz</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1035">https://github.com/DSpace/DSpace/pull/1035</a> ] - [DS-2728] Remove the BundleBitstream object &amp;amp; replace by JPA mapping by KevinVdV</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: it looks like the Oracle-compatibility PR was merged last week.  Were there concerns beyond that?</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: none from me (I haven't had time to play at all, sorry)</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; So, from what I see...we are waiting on REST API &amp; JSPUI.  Then we also have several "cleanup" PRs (listed above).</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; Has anyone been able to offer abollini support/help on the JSPUI work?   I worry that if we don't get this moving *quickly* we're either going to have to push back 6.0, or we'll never get Services API done in time for 6.0 (both we'd like to avoid).  We seem to be "stalled" right now</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; and, based on abollini's branch, he's been stalled himself...and hasn't committed anything fro nearly 2 weeks: <a href="https://github.com/abollini/DSpace/tree/DS-2701-service-api">https://github.com/abollini/DSpace/tree/DS-2701-service-api</a></span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;kompewter&gt; [ abollini/DSpace at DS-2701-service-api · GitHub ] - <a href="https://github.com/abollini/DSpace/tree/DS-2701-service-api">https://github.com/abollini/DSpace/tree/DS-2701-service-api</a></span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;peterdietz&gt; hi all</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2701">https://jira.duraspace.org/browse/DS-2701</a> ] - [DS-2701] Adopt Service-based API refactor of existing Java API - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; hi peterdietz.  Any status for us on the REST API work for Services API?  It seems to be "sitting around" as a PR, but it's unclear if it's been reviewed or ready for merger</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;peterdietz&gt; With regard to REST, I didn't get a chance to work on that. I finished a assetstore migrate script for S3.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; so REST still needs more work?</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;peterdietz&gt; My issue with REST was that I wanted to go in and be a little bit more consistent. Its a finished refactor, but I never added methods that would allow you to use the new UUID's to reference objects</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;peterdietz&gt; So. It could be merged as-is, its fine, and I could make post-merge fixes</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;peterdietz&gt; ...or, find a moment to add another commit to it.</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;peterdietz&gt; (Sorry for not attacking this, this past week)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;mhwood&gt; IIRC the test for inclusion in the branch is "compiles and unit tests pass".</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;peterdietz&gt; Well, then REST passes that test</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. So, have you pinged KevinVdV to do an initial review of the REST work, peterdietz?  I know he said he'd like to get to do a quick review of each refactor</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;peterdietz&gt; I notified him during the last dev meeting, and he was scanning it. But then I told him I would like to make REST a bit better.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;peterdietz&gt; minor catch-22</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I say we assign this to KevinVdV for review.  Your "making it better" can be future PRs.  Though you might want to create a ticket for the "Make it better" tasks, so they don't get lost/forgotten along the way</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-green">* terry-b (~terry-b@71-212-24-25.tukw.qwest.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;peterdietz&gt; Yeah, that is probably the best</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;mhwood&gt; Branches are free.</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;hpottinger&gt; rebases aren't, though ;-)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;mhwood&gt; Uh-oh, how much should I be paying for rebases?</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; I've assigned DSPR#1026 to KevinVdV and let him know the status</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1026">https://github.com/DSpace/DSpace/pull/1026</a> ] - [DS-2701] REST API by peterdietz</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;hpottinger&gt; Oh, you'll pay :-)</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; So, that leaves us with JSPUI.  Anyone here have some spare time (even an hour or so) to chip in on JSPUI with abollini?  Obviously, if we fail to get JSPUI ready, then this whole thing fails...we obviously cannot move to Services API without compatibility with JSPUI.  So, "I don't use JSPUI" is not as good of an excuse here :)</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;pbecker&gt; hi</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; hi pbecker :)</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;hpottinger&gt; it sounds like pbecker is volunteering :-)</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;peterdietz&gt; hmm.. I don't use JSPUI</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;pbecker&gt; volunteering for what? (just reading the logs)</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; We were just doing updates on Services API.  I just asked if anyone is willing/able to help abollini with the JSPUI refactor</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;pbecker&gt; I'm willing but out of office the next three and a half weeks.</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;pbecker&gt; so I have one hour left today. ;-)</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: wow!  Well, enjoy your time away then :)</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;pbecker&gt; thanks. I'll be back on 6th of October.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;hpottinger&gt; Oh, you'll miss feature freeze</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;hpottinger&gt; I mean, the PR deadline</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;pbecker&gt; I have some PRs open which will need rebasing after the feature branch is build. I hope it's okay, if I rebase them when I'm back.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;pbecker&gt; s/build/merged</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: I have some PRs open which will need rebasing after the feature branch is merged. I hope it's okay, if I rebase them when I'm back.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: depends on if we ever get Services API done.  Right now, our PR deadline is not looking very plausible if we don't have a stable API for PRs to work against</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;hpottinger&gt; you've already beaten the deadline, pbecker, and tdonohue is right... it's a draft schedule, anyway</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;hpottinger&gt; heh, we don't even have a RT, do we?</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;hpottinger&gt; (draft schedule here: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status#DSpaceRelease6.0Status-DRAFTReleasetimeline%28notyetdiscussedorapproved%29)">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status#DSpaceRelease6.0Status-DRAFTReleasetimeline%28notyetdiscussedorapproved%29)</a></span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 6.0 Status - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status#DSpaceRelease6.0Status-DRAFTReleasetimeline%28notyetdiscussedorapproved%29)">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status#DSpaceRelease6.0Status-DRAFTReleasetimeline%28notyetdiscussedorapproved%29)</a></span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; Honestly, we're in a bit of a conundrum right now. If we cannot finish up Services API soon (next week or so), I think we'll need to revisit whether it's plausible to even include in 6.0.  I'm not liking on chances of stabilizing &amp; meeting all these deadlines if this goes on much further</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C5104D.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;KevinVdV&gt; Hello everybody</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; Hi KevinVdV.  We are still talking Services API...and the fact that JSPUI needs help and isn't getting it (yet)</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;KevinVdV&gt; Reading up now</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; I think we are quickly approaching a point where we NEED non-JSPUI folks to chip in on JSPUI refactor... or else the Services API is not going to be ready in time for 6.0 (and we'll be forced to delay it, which would be a huge shame)</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;mhwood&gt; I'm trying to work out how I want to juggle yet another remote repository, so I can see if there's anything I can help with.</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;KevinVdV&gt; On the JSPUI side, is the java compiling already ?</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;peterdietz&gt; Could JSPUI be sub-parcelled? Break up all of that into 10 evenly sized components? I could grab the BatchImportZIP component</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;peterdietz&gt; Or is JSPUI 500 big pieces...</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV: Unclear...but I think so. I think it's just that most/many of the JSPs break, according to abollini.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV: it sounds like the hard part is finding JSPs that no longer compile/work</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;KevinVdV&gt; Because of the JSPUI java compiles we COULD potentially merge it &amp; then do the fixes to the jsp files themselves as we move further</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;hpottinger&gt; that's a good point</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; I guess we could ask abollini to create a PR of "what he has". and then start to bang on the individual JSPs in smaller sets (sub-parcelled, like peterdietz said too)</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;KevinVdV&gt; Each committer gets one folder containing jsp files :D</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; seems reasonable enough</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;KevinVdV&gt; (Or you could create a quick page on which committers can CLAIM a certain jsp folder</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; I can email abollini about getting a PR created from what he has.  We can do an initial review of that, and make sure it compiles at a basic level...then parcel up the remaining JSPs.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;peterdietz&gt; Its a mountain of work. find dspace-jspui -name \*.java | wc -l shows that there are 139 java files in there</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;peterdietz&gt; Assuming 10 active committers.. 14 each?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: the *.java files should all compile (if dspace-jspui complies).  It's the *.jsp files that are the problem</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;hpottinger&gt; that's a great idea... or, maybe abolini already has his work in a branch we could look at?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;KevinVdV&gt; I did the entire XMLUI java classes rebase in about 10 hours</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: he has a branch here <a href="https://github.com/abollini/DSpace/tree/DS-2701-service-api">https://github.com/abollini/DSpace/tree/DS-2701-service-api</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;kompewter&gt; [ abollini/DSpace at DS-2701-service-api · GitHub ] - <a href="https://github.com/abollini/DSpace/tree/DS-2701-service-api">https://github.com/abollini/DSpace/tree/DS-2701-service-api</a></span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2701">https://jira.duraspace.org/browse/DS-2701</a> ] - [DS-2701] Adopt Service-based API refactor of existing Java API - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; the java files aren’t the problem</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;mhwood&gt; IDEs may be less helpful with JSP since it's two languages tangled together.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood +1 (I think that's exactly the issue here. IDEs don't refactor JSPs well)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mhwood&gt; If we can spot big hunks of Java in a JSP that could be moved out to a taglib or something, that might help.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;hpottinger&gt; looks like abolini is about 3 commits in</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;KevinVdV&gt; Can anybody do a quick check on the java ? (No the good hardware for this I’mafraid)</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;hpottinger&gt; so... if anyone wanted to pitch in with the JSPUI refactor, they could pick up aboilin's branch and then make PRs to that branch</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, I always typo Andrea's handle</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-brick">* tdonohue just emailed abollini / responded to his thread on dspace-devel</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;mhwood&gt; Right now there are a number of classes in org.dspace.app.webui.jsptag that show red flags in NetBeans.  That seems to be all, for the pure Java.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;KevinVdV&gt; “The version available on my branch now compile and allow you to start the webapp just to get the first exception :)”</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;KevinVdV&gt; From his latest email on the state</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;peterdietz&gt; Would it be acceptable to just finish the Java portion of the refactor? And leave the JSP's as-is, and delay release of 6 until someone addresses those?</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: unfortunately, no. I worry we'd be delaying release of 6 "indefinitely".  JSPUI needs to have a plan for getting fixed, otherwise Services API isn't getting into 6.</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; To put it another way, I think releasing 6 is more important than Services API.   I really *want* Services API to be in 6.  But, I don't think we delay 6 indefinitely to make that happen</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;KevinVdV&gt; I would like to note that releasing DSpace 6 without the service API would be very though (I would need to rebase for every pull request ....)</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;KevinVdV&gt; So for now I would say merge the jspui AS is in the branch &amp; then we all need to pitch in to get the jspui’s to work</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;peterdietz&gt; Then, lots of grunt work to finish up JSPUI is best thing to do. We don't want to have anyone stuck, and unable to upgrade, or have statements like DSpace 5 is the last version of JSPUI</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; KevinVdV: yea, don't get me wrong. I like that plan. I'm just noting that we need to fix these JSPs We cannot leave the JSPs hanging :)</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;hpottinger&gt; erm, you just made that statement ;-)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;KevinVdV&gt; I would love to pitch in but currently spending my time on getting the XmlWorkflow migration to work (DS-2713)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2713">https://jira.duraspace.org/browse/DS-2713</a> ] - [DS-2713] Ensure that there can still be an xml workflow migration - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;hpottinger&gt; So, we can "leave the JSPs hanging" for the feature branch, but we can't merge the feature branch until those issues are resolved</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;peterdietz&gt; @Hardy: I stated it, but its not what i meant, so not a state-meant</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like we have a plan here.  We'll get a PR which "just compiles".  We'll then work to divvy up the remaining JSPs</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:b974:3fee:10ae:ab41) has joined #duraspace</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: correct. To be abundantly clear, I will personally veto a merger of the "feature branch" into "master"  if the JSPs are broken (sorry, I feel that strongly that broken JSPs are not OK on "master", but they are fine on the "feature branch")</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;mhwood&gt; Um.  I just fetched a copy of abollini's branch and it does NOT compile here.  (Commit b00f3a698f383fe86b27650a90d67c2497416a87)</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: ugh. Well, it's also possible that abollini hasn't committed all his fixes yet.  Maybe he will respond today/tomorrow and get us a "compiling" PR</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;mhwood&gt; That is what I was thinking.  (Hoping?)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;KevinVdV&gt; I can help with the compiling issues WHEN he repplies, &amp; will put my xml workflow migration work on hold for now ...</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; So, in general here.. it sounds like we have a decent plan for JSPUI.  We'll get abollini to get us a compiling PR, then we'll divvy up the JSPs to get them functional again (at a basic level).</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;hpottinger&gt; I can't officially commit my time to JSPUI (just the way things are) but I'll unofficially say: I will try to help</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; Just as a note for KevinVdV... it looks like REST API is also ready for initial review (it compiles &amp; is refactored): DSPR#1026</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1026">https://github.com/DSpace/DSpace/pull/1026</a> ] - [DS-2701] REST API by peterdietz</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;KevinVdV&gt; Noticed that, will try to review tomorrow or the day after</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks KevinVdV...honestly for all your hard work on this.</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;KevinVdV&gt; Just don’t forget to mention me if it gets released ;)</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; But of course! :)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; OK. Any other updates/topics to discuss on Services API?   (As soon as we hear from abollini, I'll help us start to organize around cleaning up the JSPs, even if that involves claiming folders to tackle)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;hpottinger&gt; KevinVdV: you could volunteer for RC, then you could be in charge of remembering to mention yourself :-)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;KevinVdV&gt; Going to be hard to find for that as well…..</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; I think there is often a way to get a JSP engine to pre-compile the JSPs.  I wonder if we could do that and get better help from our tools.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; 6.0 may end up being a very "collaborative" release</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: if you can find / know of a way, that would be extremely useful to all of us  (It seems completely reasonable, I just don't know how to do it)</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;KevinVdV&gt; Ps: I will do my best to review as much pull requests as I can though</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: IIRC psi-probe can do that.</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;tdonohue&gt; We're bumping up against the end of this meeting.  So, I'm going to open up the floor to any topics. Anyone have topics to discuss? Or questions/thoughts to share?</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;pbecker&gt; mhwood: or better worded, psi-probe can tell tomcat to compile all jsps and shows you if any and which one failed...</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://tomcat.apache.org/tomcat-7.0-doc/jasper-howto.html#Web_Application_Compilation">https://tomcat.apache.org/tomcat-7.0-doc/jasper-howto.html#Web_Application_Compilation</a></span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;kompewter&gt; [ Apache Tomcat 7 (7.0.64) - Jasper 2 JSP Engine How To ] - <a href="https://tomcat.apache.org/tomcat-7.0-doc/jasper-howto.html#Web_Application_Compilation">https://tomcat.apache.org/tomcat-7.0-doc/jasper-howto.html#Web_Application_Compilation</a></span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mhwood&gt; You beat me to it. :-)</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-brick">* tdonohue notes that the UI Prototype Challenge announcement is also coming soon (likely in next week). Yet another thing in 2015 to give attention to :)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;hpottinger&gt; don't like supporting 2x UIs? try supporting Xx UIs!</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: very funny. No, DSpace 7 will only have *one* UI :)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;hpottinger&gt; indeed... one year only</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;terry-b&gt; I have a quick question related to some code I hope to contribute. I am working on some code for DS-2583 and DS-2539 that enhance the REST API.  When should I attempt to merge this with the active DSpace 6 branches.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2583">https://jira.duraspace.org/browse/DS-2583</a> ] - [DS-2583] Extend DSpace REST API verbs to support enhanced reporting - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2539">https://jira.duraspace.org/browse/DS-2539</a> ] - [DS-2539] Provide REST API function to dump the metadata repository - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mhwood&gt; Actually I think we only need the 'jspc' goal for our purpose.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: not if I have anything to say about it (which I think I do).  One UI forever. If others want to build third-party UIs, that's fine, but they won't be supported by the Committer team :)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;hpottinger&gt; sorry... tdonohue, I'm just talking about 2015, we'll have a few more than 2 UIs to worry about this year</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;peterdietz&gt; terry-b: Sorry if I haven't looked into those. We've currently operating under the idea that master is frozen, and waiting for services to get merged</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: yes, master is "frozen" right now, still waiting on Services API refactoring for DSpace 6.   Hopefully we'll have updates on when "master" will be ready again in the near future (next week or so)</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mhwood&gt; REST is just about ready in the Services branch.  You could build and test against that, and be ready to drop a PR quickly.</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mhwood&gt; Oops, it isn't actually *in* the Services branch yet.</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;peterdietz&gt; yes, unfortunately.</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;hpottinger&gt; and, while you're playing with the Services branch.... you can maybe pitch in with some JSPUI refactoring</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mhwood&gt; But a candidate is available.</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;terry-b&gt; Thanks.  I am curious to see how easy the upgrade will be!</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;hpottinger&gt; that's the spirit!</span><br />
+<span class="irc-date">[16:04]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b: Since it's API-level changes, the upgrade shouldn't be too much different for *most* folks.  It's the hardcore programmers (who are customizing at the API level) which might need to do some extra refactoring during the upgrade to 6.0</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; Since we are already past 1 hour, and conversation is dwindling, we'll go ahead and close up today's meeting.  Thanks all!  Once we get an update from abollini, we can work on the JSPUI fixes together</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;KevinVdV&gt; Need to run, until next week</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C5104D.access.telenet.be) Quit (Quit: KevinVdV)</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;peterdietz&gt; You could make your PR off of where the REST services one is. And then rebase afterwards. Or.. assume perhaps we'll have everything figured out in 2 weeks?</span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-brick">* tdonohue is moving over to #dspace now, if anyone wants to do some JIRA reviews there</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;terry-b&gt; Peter, I should be able to wait 2 weeks.  I am going to need to figure out how I will test against the upgraded code base.</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;hpottinger&gt; any committers hanging out here ought to consider moving tho #dspace and help with the backlog review</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[16:38]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[17:47]</span> <span class="irc-navy">* terry-b (~terry-b@71-212-24-25.tukw.qwest.net) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[18:43]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-160190.dhcp.missouri.edu) Quit (Quit: Leaving, later taterz!)</span><br />
+<span class="irc-date">[19:04]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:b974:3fee:10ae:ab41) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[19:44]</span> <span class="irc-green">* srobbins (~srobbins@libstfsdg02.library.illinois.edu) has left #duraspace</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:317d:f1f8:8198:594a) has joined #duraspace</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-navy">* cknowles (uid98028@gateway/web/irccloud.com/x-xwketlljosxkmugu) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[23:36]</span> <span class="irc-navy">* peterdietz (uid52203@gateway/web/irccloud.com/x-jyfqzxbwjntedshl) Quit (Quit: Connection closed for inactivity)</span><br />
+<span class="irc-date">[23:52]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:317d:f1f8:8198:594a) Quit (Quit: Leaving.)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

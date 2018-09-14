@@ -1,0 +1,375 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2012-08-01
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[5:57]</span> <span class="irc-green">* LouwVenter (8fa07c28@gateway/web/freenode/ip.143.160.124.40) has joined #duraspace</span><br />
+<span class="irc-date">[5:58]</span> <span class="irc-navy">* LouwVenter (8fa07c28@gateway/web/freenode/ip.143.160.124.40) Quit (Client Quit)</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-sendak.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-sendak.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-sendak.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-sendak.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:24]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:02]</span> <span class="irc-black">&lt;tdonohue&gt; Hi All, if anyone has DSpace stuff to discuss, I'll be lurking here for the next 3 hours as part of my "Office Hours": <a href="https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours">https://wiki.duraspace.org/display/~tdonohue/DSpace+Office+Hours</a></span><br />
+<span class="irc-date">[17:09]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has left #duraspace</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />
+<span class="irc-date">[19:37]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[19:41]</span> <span class="irc-black">&lt;helix84&gt; hi tim, look at /space/AIP-restore/reset-dspace-content.log</span><br />
+<span class="irc-date">[19:42]</span> <span class="irc-black">&lt;helix84&gt; probably postgres didn't manage to restart before you started pg_dump</span><br />
+<span class="irc-date">[19:44]</span> <span class="irc-green">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-navy">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[19:45]</span> <span class="irc-black">&lt;helix84&gt; (nevermind kompewter hopping on and off, i'm playing with it)</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yea, I actually wondered about that. I realized through some tests today that most the script is fine...just a matter of pausing briefly while rebooting postgres before doing an automatic "reset" of the demo server</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;helix84&gt; i noticed it only accidentally. where's the script?</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;tdonohue&gt; in ~/bin/reset-dspace-content -- it cleans out demo.dspace.org entirely and resets it to the AIPs in ~/AIP-restore</span><br />
+<span class="irc-date">[19:48]</span> <span class="irc-black">&lt;helix84&gt; i see now</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-black">&lt;helix84&gt; i'll try to find a good solution (wait, not poll)</span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-black">&lt;tdonohue&gt; I think the 'wait' bash command may be the easiest fix (since it's a bash script anyhow0</span><br />
+<span class="irc-date">[19:52]</span> <span class="irc-black">&lt;helix84&gt; i don't know what to wait for ATM, but i'll figure something out</span><br />
+<span class="irc-date">[19:54]</span> <span class="irc-black">&lt;helix84&gt; tim, can you please add one 3.0 agenda point? I added the list of patches by EKT to Release Notes.</span><br />
+<span class="irc-date">[19:55]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder that we have our weekly DSpace Devel Mtg at the top of the hour (~5 mins) here : <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-08-01">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-08-01</a></span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-green">* kompewter (~kompewter@ec2-50-17-201-82.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;helix84&gt; nevermind, i didn't look at the agenda :)</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- those are already listed on the agenda.  We'll be going through some 3.0 JIRA tickets today (instead of normal JIRA review) :)</span><br />
+<span class="irc-date">[19:56]</span> <span class="irc-black">&lt;tdonohue&gt; yes :)</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-black">&lt;helix84&gt; do you have any idea when the release team will start making a list of accepted features?</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:58]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:59]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: no, I'm admittedly not on the release team, but you can ask during the mtg in a few</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all.  It's that time again. DSpace Devel Mtg starts now: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-08-01">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-08-01</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-08-01 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-08-01">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-08-01</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Today we'll kick things off a bit different.  As we have a list of 3.0 submissions still needing some review, I thought we'd tackle some of those JIRA tickets as our "JIRA Review"</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; (list of 3.0 tickets I'm talking about is on the top of the agenda)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; we'll start off with DS-1127</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1127">https://jira.duraspace.org/browse/DS-1127</a> ] - [#DS-1127] Submission improvements: document type-based submission - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; this seems to be a new/updated version of the old work from robint (DS-464)?  Thoughts on this for 3.0 or anyone want to volunteer to review it more thoroughly?</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-464">https://jira.duraspace.org/browse/DS-464</a> ] - [#DS-464] Item type based submission - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;robint&gt; I'll have a look although I don't have much self interest as it says its XMLUI</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mdiggory&gt; This just reloads the Describe step with the forms required based on a selected dc.type value?</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mdiggory&gt; Can someone get this into a Pull Request?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;hpottinger&gt; mdiggory, I was about to ask the same :-) would be much easier to sort out what has changed if it were a pull request</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- to me it looks like it does just that.  It uses a new &lt;type-bind&gt; field in input-forms.xml, and then changes the Describe step form based on the dc.type (or at least, that's my assumption based on the description)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; robint thanks for volunteering to look at it</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; I agree with others that it'd be nice to see the changes easier via a Pull Request</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;helix84&gt; I can prepare the pull requests for today's items (for the EKT issues I'll first ask EKT if they want to make pull request)</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; thanks helix84!</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mdiggory&gt; Reminds me of another task in my pipeline...  we needed to present different submission forms to Reviewers vs Submitters.  One strategy being considered was to add a field to designate if the input-form field should it show in the submission or reviewer workflows</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;helix84&gt; just a quick note - i actually didn't ask EKT if they meant these issues for 3.0, I only assumed it and put them on the 3.0 release notes page</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, gonna move on to the next one now...trying to just get some quick opinions here on some of these tickets with patches attached</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- thanks for noting that.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; This next one is one of those EKT patches that helix84 is talking about: DS-1223</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1223">https://jira.duraspace.org/browse/DS-1223</a> ] - [#DS-1223] Display frequencies of items in single browsing for selected indices - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; this is for JSPUI only</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;helix84&gt; in parallel, let me ask a question to anyone from the release team: when do you mean to start publishing the list of  features accepted into 3.0? (or will you publish it all at once?)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-brick">* tdonohue notes that actually it's the *committers* that have a final decision on what goes into 3.0.  The release team can make suggestions, &amp; say what they think is ready (if they want), but it comes down to all of us to make final decisions</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;robint&gt; helix84: It will just be everything that gets reviewed, accepted, and commited in time for the first release candidate</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mdiggory&gt; I suspect this overlaps with Andrea's work on discovery / Browse in JSPUI</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;hpottinger&gt; I imagine it will be a week or so after feature freeze, depending on work load of those testing... or, really, post-testathon, before we know what the release will roll with</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;helix84&gt; mdiggory: look at the comments</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; helix84: We are starting our process as of last week, we will see a couple new JIRA tasks and Pull requests emerging each week, up until the freeze date</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; Has anyone heard from Andrea Bollini around whether the Discovery + JSPUI work will be ready for 3.0?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; getting tired of people calling solr "heavy"</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;robint&gt; tdonohue: Andrea is on holiday at the moment</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; you want heavy?... try ORacle</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-brick">* hpottinger nods grumpily</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;robint&gt; I think he expects to have that work ready but not until the very last moment unfortunately</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; I guess the bigger question on Ds-1223 is whether we want to allow it as an alternative to Discovery?  Or is Discovery our recommended route?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; robint: ok. good to know.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; thats the 100000 $ question</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-brick">* tdonohue admits that I'm getting a bit worried that everything seems to be coming "at the last moment"</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-navy">* helix84 (a@195.113.97.174) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;robint&gt; Personally speaking i am +1 for coalecsing around Discovery</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: apparently the nature of the beast</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;robint&gt; Forgive the spelling :)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; any thoughts on Ds-1223.  Do we want to allow this? Or is our answer to go with Discovery?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; robint: thats ok... studies show people only read the first and last work of any sentance</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;robint&gt; :)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; (alternatively, we can bring the Discovery idea to a more formal vote on dspace-commit or similar)</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mhwood&gt; What would still have to be done to get Discovery to do the "frequencies" stuff -- whatever that is?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;robint&gt; Can we wait and see Andrea's work ?</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;helix84&gt; DS-1217</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1217">https://jira.duraspace.org/browse/DS-1217</a> ] - [#DS-1217] DSpace Discovery for JSPUI - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; And with OSX now picking my words for me... Its like I don't even have to think anymore...</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-brick">* helix84 had some minor connection issue</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; Sure, robint. we can link up Ds-1223 and Ds-1217 &amp; wait to see what comes from Andrea</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; +1</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  Sounds like that's our summary for Ds-1223:  Link up to Ds-1217 work, and wait to see what the JSPUI + Discovery work looks like.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; oh, it has no patch, sorry</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, as we are now 20minutes here, I'm going to slightly "switch topics" and open the floor to 3.0 in general.  We can still review a few more of these JIRA tickets, or we can talk about something larger (like Advanced Embargo, etc.)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; i admit i haven't yet looked at the patch, but if it's simple, i'm for accepting it as an alternative to the discovery approach</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; discovery does raise tomcat memory greediness, so I understand if someone doesn't want to use discovery</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; 3.0 Release Team members -- Is there something you feel would be good to tackle/discuss for 3.0 right now?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;robint&gt; Erm cn I sneak in one last Jira ? <a href="https://jira.duraspace.org/browse/DS-1208">https://jira.duraspace.org/browse/DS-1208</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ [#DS-1208] Build time filtering to allow multi developer/environment builds - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1208">https://jira.duraspace.org/browse/DS-1208</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; but the benefits of that greediness are superior to the current capabilities of DSpace</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1208">https://jira.duraspace.org/browse/DS-1208</a> ] - [#DS-1208] Build time filtering to allow multi developer/environment builds - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; <a href="https://github.com/DSpace/DSpace/pull/40">https://github.com/DSpace/DSpace/pull/40</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Request #40: DS-1208 Build time filtering to allow multi developer/environment builds by steveswinsburg · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/40">https://github.com/DSpace/DSpace/pull/40</a></span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; sure, robint.  :)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;robint&gt; This is something we do here anyway to cope for having more that one developer</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;robint&gt; so I am +1</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; I'm going to admit that I haven't tried this before, but it seems reasonable to me, assuming it is well documented :)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-brick">* hpottinger needs to look into this...</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;helix84&gt; mdiggory: i understand that and i'm using it myself. i'm just pointing out that others may feel different, ergo that patch exists.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; It would require a change to our build instructions</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; robint:  Does this work significantly change our normal Installation (for normal users)?</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mhwood&gt; Sorry I haven't gotten back to you robint.  I haven't thought of any way that it would interfere with the test environment stuff.</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;helix84&gt; I looked at Ds-1223 and it looks lightweight enough. I'm +1</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; no problem mhwood</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;robint&gt; No major change. Instead of editing dspace.cfg you edit a build.properties file</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;robint&gt; This allows for a build.properties.tim and a build.properties.helix84 etc</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; S2-1208  there are some features I like about this....</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;robint&gt; It also cleans up the pom a little by removing some profiles</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mdiggory&gt; at this time we've been putting dev, test, prod properties into maven profiles</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mdiggory&gt; this seems to externalize that into java properties files.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-green">* ryscher (ae61f77a@gateway/web/freenode/ip.174.97.247.122) has joined #duraspace</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;tdonohue&gt; So, the one thing that's slightly odd to me is that the 'build.properties' doesn't include all the stuff in dspace.cfg.   So, I'm assuming 'build.properties' is really all about "basic configs to install/build" DSpace, and then dspace.cfg is still to tweak the "running" settings?</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mhwood&gt; Then I guess we need to tell Maven which file to use this time....</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;KevinVdV&gt; It also appears to just filter a hardcoded numer of module config files instead of all of them</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;robint&gt; tdonohue: yes</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; I've been using maven profiles as well, though I like the idea of there being a supported approach to dev/staging/production workflows</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;robint&gt; KevinVdV: I noticed that too. I assume it could be changed to do them all</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; KevinVdV: yea, that'd need to change...</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;KevinVdV&gt; Yeah perhaps we should look into making it dynamic so all config files are filtered all the time</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; It just hit me that this actually would be a way to potentially *ease* future upgrades of configs.  The base configs in 'build.properties' could still make their way into the appropriate *.cfg file even if the name/location of the *.cfg file were to change (like when we created all those /module/*.cfg files)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; the problem I've had with the current approach to filtering dspace.cfg, is that we have to parameterize any properties we want to replace the values on in the dspace.cfg and add properties to the maven profile to populate those parameters</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; this is still not great....</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; +dspace.dir = ${dspace.dir}</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; sidenote: Lyncode is reworking dspace configuration manager from scratch, this is post-3.0</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; The more I think about it, I think this could be a good change.  "build.properties" kinda also helps "hide" some of the complexities of the full dspace.cfg from the user during installation -- they really don't need to worry about them until after the installation.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mdiggory&gt; I would prefer that the ConfigurationService was adopted.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://wiki.duraspace.org/display/~lyncode/Dynamic+Configurations">https://wiki.duraspace.org/display/~lyncode/Dynamic+Configurations</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;kompewter&gt; [ Dynamic Configurations - DSpace @ Lyncode - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/~lyncode/Dynamic+Configurations">https://wiki.duraspace.org/display/~lyncode/Dynamic+Configurations</a></span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;robint&gt; Yes you could add whatever you want to your personal build.properties files. It could vary for each developer/environment.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: yeah, I was thinking along the same lines, it's dspace.cfg-lite</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;helix84&gt; instead of "lite" we should think in terms of "overlay"</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;robint&gt; mdiggory: +1 for ConfigurationService rather than ConfigurationManager</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mdiggory&gt; what would be more beneficial is if the filtering looked up the key in the cfg file and replaced the value.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; So, I think I'm +1 Ds-1208.  But, I think we need to make sure it is very well documented &amp; advertised, as it's a rather significant change to how people may be used to installing DSpace.</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; :-) helix84, yes, overlay is far more accurate</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;helix84&gt; so you can change anything (not only several selected things) and the rest is taken from the fallback dspace.cfg</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;mhwood&gt; So I have to specify -Dfilters.file=build.properties.mine every time I run Maven?</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory : I like the idea of the 'key' lookup + ConfigurationService. But, it's just a matter of seeing if we can find someone to look into / develop in the next week or so</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;robint&gt; mhwood: No Maven expects to find a build.properties file</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; so, you have to just rename the file to "build.properties" and then run Maven</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; can someone please briefly explain what do you mean by ConfigurationService and how it's different from ConfigurationManager?</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; tdonohue: yes</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; OK</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://rafacastanho.wordpress.com/2011/03/03/maven-write-an-properties-file/">http://rafacastanho.wordpress.com/2011/03/03/maven-write-an-properties-file/</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ Maven write an properties file « LIFE NOTES ] - <a href="http://rafacastanho.wordpress.com/2011/03/03/maven-write-an-properties-file/">http://rafacastanho.wordpress.com/2011/03/03/maven-write-an-properties-file/</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; tdonohue: which begs another question</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;robint&gt; As you point out the build will fail by default as there is no build.properties file</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;robint&gt; this currently forces the developer to change build.properties.sample to build.properties, and edit it</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Strictly speaking, the resources plugin is instructed to expect that file.  There used to be a built-in expectation of build.properties in Maven 1.x but they took it out at some point.  (This confused me for a while.)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; robint: I like the suggestion on the pull request to change the POM to look for build.properties</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: The "ConfigurationService" is a service of the DSpace Service Manager built to handle loading of config files, etc.  See this page (and the Service Mgt Tutorial linked off it): <a href="https://wiki.duraspace.org/display/DSDOC18/DSpace+Service+Manager">https://wiki.duraspace.org/display/DSDOC18/DSpace+Service+Manager</a></span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Service Manager - DSpace 1.8 Documentation - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSDOC18/DSpace+Service+Manager">https://wiki.duraspace.org/display/DSDOC18/DSpace+Service+Manager</a></span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;robint&gt; hpottinger: ok thanks. I can see both arguments, its a trivial thing that we can adjust if there is general approval</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;hpottinger&gt; build failures aren't that bad, as long as the error message is friendly</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; helix84: The ConfigurationService is a complete reimplementation of ConfigurationManager as a Spring Bean</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;robint&gt; There have been a couple of +1's, anyone against ?</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; well, accept for all the email and license junk that never should have been in ConfigurationManager,,,</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; I don't like the idea of the build failing by default. I'd rather the build.properties file exist, personally.  Unless we had a useful error (like hpottinger says) that would say "build.properties file is missing, please copy the build.properties.sample and fill it out"</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; +1 Ds-1208 (but I already stated that)</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; oh, sorry, I'm +1 for 1208, with the suggested modification to the POM to have a friendly error message in case build.properties is found to be missing</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;robint&gt; The author, Steve, says he could do that if that is our preference</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;KevinVdV&gt; If we can fix the modules I'm +1</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue's suggested wording is fine with me</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; let me just check - if i say +1, does it mean any configuration option can be overridden?</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; (agree with KevinVdV that it'd be nice to fix the module configs so they work too)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; helix84: it supplies property placeholder replacement of all dspace.cfg properties in the ServiceManagers Spring Application Context such that you can parameterize Spring beans in the XML with properties from dspace.cfg it can also be autowired into any beans added to the servicemanager.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;robint&gt; helix84: assuming it is parameterised in dspace.cfg</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; oh, then i'm -1</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;robint&gt; helix84: whats the problem there ?</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mdiggory&gt; helix84: the eventual goal was to either (a) gut ConfigurationManager and call ConfigurationService from inside it. or (b) replace all usage of ConfigurationManager with ConfigurationService,</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; the problem is that you're defining which options can be overriden. i know that you can add parameters to dspace.cfg, but it doesn't play nicely with git, at least not with my workflow...</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-brick">* tdonohue notes that fixing Ds-1208 so that *any* config can be overridden may be harder than it seems -- it would also mean finding a way to override &amp; enable configs that are commented out by default.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; helix84: robint this is what I mean by my comments eariler about relpacing the values based on just the key in the dspace.cfg.</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;helix84&gt; let me clear that up: commiters are defining the parameters. I assume admins can add their own parameters, but this is inconvenient because you'd have dspace.cfg changes in working directory and the whole point of this is to avoid that</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; SIDENOTE: One minor quibble with the Pull Request #40 -- I'm not a fan of the removing of comments from dspace.cfg <a href="https://github.com/DSpace/DSpace/pull/40/files">https://github.com/DSpace/DSpace/pull/40/files</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Request #40: DS-1208 Build time filtering to allow multi developer/environment builds by steveswinsburg · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/40/files">https://github.com/DSpace/DSpace/pull/40/files</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; "mdiggory: what would be more beneficial is if the filtering looked up the key in the cfg file and replaced the value."</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;robint&gt; I am not sure I understand. As it stands it doesn't do what Mark suggests, therefore you can't add extra parameters, it just filters existing ones</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: I agree with that as being "more beneficial".  But, does that mean we reject something that is still possible "good enough for now"?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;helix84&gt; robint: ok, then it's even worse from my point of view</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;mdiggory&gt; robint: it filters those that have foo = ${some.property.i.want.to.parameterize}</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mdiggory&gt; so the config files need to have this throughout them for every possible property</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;mdiggory&gt; I'm trying to find a good alternative as a maven plugin while we are talking</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; I'm not sure everyone understands what I'm trying to say, so let me start from the beginning. I understand the point of this is that you can have multiple "profiles" of configuration property overrides for different developers/machines,</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; this seems close...</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://code.google.com/p/maven-replacer-plugin/wiki/UsageGuide">http://code.google.com/p/maven-replacer-plugin/wiki/UsageGuide</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;kompewter&gt; [ UsageGuide - maven-replacer-plugin - Usage guide (how to use and parameter definitions) - Maven Plugin to replace tokens within a file with a given value - Google Project Hosting ] - <a href="http://code.google.com/p/maven-replacer-plugin/wiki/UsageGuide">http://code.google.com/p/maven-replacer-plugin/wiki/UsageGuide</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; Currently, you can just copy your config/ directory over your working copy and build away merrily. The inconvenience is, that your config/ changes show up in your working directory diff.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; replaces by "tokenValueMaps" about 1/3 way down page</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; So by having an override file (build.properties in this case) that is in .gitignore, you can get these overrides out of your working dir diff and you can even have multiple profiles selectable by ant/maven flag.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; The only problem I have with that is that you're saying "only these enumerated options can be changed".</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: that plugin still looks like it would require tokens (e.g. $token.to.replace$) to be added to the dspace.cfg file (or at least that's what it looks like from the example)</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;helix84&gt; (Sorry for the verbosity, I hope that clears it up.)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Why does Maven even care about any of that stuff?  It's used at install time (meaningful to Ant) and runtime (meaningful to DSpace itself).  Shouldn't this be pushed down to Ant?  Or whatever we use to do the installation?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: no... Each token/value pair should be in the format: "token=value" (without quotations). If your token contains ='s you must escape the = character to \=. e.g. tok\=en=value</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;robint&gt; helix84: sorry, I'm being a bit slow. You can still change other values directly in dspace.cfg.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: I personally like that the stuff in my target/build dir is the same as what's installed... I often run diffs on deployed configs to see what might have changed (mysterious elves at work)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; *grumble* install-time and run-time configuration should be in separate files....</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: I read that as being the *format* for the "build.properties" file (i.e. the file that will specify the values to replace the tokens with)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;helix84&gt; robint: i know, and it will show when you run "git diff", which is not desirable most of the time.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: I understand the concern about only certain values can be changed.  But, isn't this still a step in the right direction?  As it is, if you change dspace.cfg and run "git diff" you'll see those changes anyhow</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm.  What I usually do is copy config/dspace.cfg to ~/dspaces/configs/some-name.cfg, edit that as needed, and specify -Dconfig=~/dspaces/configs/some-name.cfg when firing up Ant.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;robint&gt; I think this helps with the 90% situation where we just want to change the dbusername etc</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-brick">* hpottinger knows how to do this already with maven profiles... is just interested in 1208 if it is a *supported community standard*</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; If you're running under TOmcat, you can have it provide the DataSource and DSpace will ignore the configured stuff.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: I"m sure the only way to know is to experiment with it.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;mhwood&gt; I think there's a way to do the same in Jetty.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I probably just have a different use case in mind than everyone else. I know about the status quo and I thought that this patch would allow me to work around that by having an override file which is not under version control.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: your point about using Ant or whatever the deployment process will be is well made.  The use of Maven does however, also allow creating profiles for specific dependencies and modules to be included into the distribution as well.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;robint&gt; I am sure there are numerous valid ways to do this, this iss just one that I personally I find this to be neat</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm.  This is one reason I would have liked the multiple-config stuff to be more like the /etc/foo.d directories you see a lot in Unixland.  If I drop 999-my-stuff.cfg into that directory, the configuration reader, which just scoops up any files it finds there, applies my values last and that's that.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;helix84&gt; yay to mhwood!</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mdiggory&gt; that was the original intent of dsapce/config/modules...</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;robint&gt; I think we are going round and round here. Could I ask people to try it and comment in Jira ?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; mdiggory: so can you override an option in a module?</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mdiggory&gt; but the final solution ended up focused heavily on prefixing based on file name.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, every module knows what its file name is.  Which means we can't introduce more file names.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mdiggory&gt; think about the way HTTPD works...</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;hpottinger&gt; robint: I'll test</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;robint&gt; thanks hpottinger</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; you have httpd.conf,  conf.d/   and vhosts.d/  and so on... its not hardcoded. they are includes in the httpd.conf</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; Apache HTTPD?  Exactly.  "include foo.d" reads every file in foo.d/, in lexical order.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; You get overlays, not rewriting.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; you can make up "foo.d" and tack it onto the end of httpd.conf and sick whatever you want in there...</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;KevinVdV&gt; Needs run ..... Until next time !</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; I agree with robint that we may want to all summarize our opinions on the JIRA ticket for DS-1208</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: right you still have to be sensitive to replicating properties</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1208">https://jira.duraspace.org/browse/DS-1208</a> ] - [#DS-1208] Build time filtering to allow multi developer/environment builds - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;helix84&gt; can we postpone this post-3.0? I think it would be worth waiting for Lyncode's solution, maybe they'll have a better way of tackling this.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mdiggory&gt; its not replacement....   you get two Listen 80 and you get a warning....</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;robint&gt; helix84: That means waiting a year for 4.0</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;robint&gt; This is available now if we want it</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mdiggory&gt; sorry, without knowing what the developer at Lyncode is working on or proposing,  I can't comment on that solution</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; right, in httpd it's concatenation. i'm all for overriding.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;helix84&gt; robint: i know. i just don't want an imperfect solution and do another change of configuration system in the next version.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;helix84&gt; robint: this probably covers one use case perfectly, but conflicts with another</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; I think I'm in agreement with robint on this one.  It seems odd to me to continually wait for the "perfect solution" to a problem when we can at least take a small step and do something that's "good enough" for now.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;hpottinger&gt; If I like 1208, it's staying in my code base, been looking for a better way than Maven profiles for a while</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;robint&gt; helix84: I still don't quite understand the problem, would you mind documenting it in Jira ? Thanks</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; So, adopt this "for now" and then discuss everybody's issues, perhaps replace with a more general solution later?  (3.1, not 4.0)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; It sounds to me like this is a good solution to one problem, but others are looking at a different problem?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;robint&gt; mhwood: 3.x releases are for bug fixes, not new features</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;helix84&gt; robint: i'll be glad to, but i already tried to verbosely explain it here. which part i didn't explain well enough?</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- 3.1 is "bug fix only" release.  So, new features would have to wait for 4.0.   I'm just saying that we shouldn't immediately reject an  piece of code if we have a better "blue sky" idea.  Instead, we should look at the current piece of code and determine if it's "good enough" until we can achieve the "perfect solution"</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; Did we lose the distinction between "breaks contracts" (major release) and "new features" (major or minor release)?</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: you're right, i'm only one voice. let's just do a vote.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;robint&gt; I didn't quite understand why a change to build.properties is more of a problem than a change to dspace.cfg in terms of diff</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;tdonohue&gt; yes, mhwood.  We lost that distinction when we changed numbering schemes.  The new scheme is "major.minor".   Major = New features/breaks contract, and Minor = bug fixes only</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;helix84&gt; robint: i assumed build.properties would be in .gitignore</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;robint&gt; So the problem is that you don't see the changes ?</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mdiggory&gt; robint: I think the point is that folks want to avoid putting their config for different environments into the config directory</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;helix84&gt; robint: I assumed the point is to have means of overriding configuration options, which happens to solve my problem. But the implementation doesn't.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;robint&gt; mdiggory: it could be outwith config dir</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;robint&gt; helix84: but is it worse for you than the current setup ?</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; robint: No, it isn't worse. But it _almost_ solves the problem, just a little short of it.</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;helix84&gt; what I expect and what it doesn't have are 2 things:</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;robint&gt; So if it doesn't make it worse for you but does make it better for others is that not a good thing on balance ?</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; 1) allow any option to be overridden</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mdiggory&gt; robint: I guess it depends on who the "others" are ;-)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;robint&gt; That is what a vote is for :)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;helix84&gt; 2) allow me to have my configuration outside the working directory (in .gitignore or completely outside source dir)</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: The "others" include robint!  Don't you want to help out robint!  Come-on!</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;robint&gt; I'm +1 because its good for me</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; s/configuration/overrides/</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: 2) allow me to have my overrides outside the working directory (in .gitignore or completely outside source dir)</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;hpottinger&gt; if you wanted to version build.properties in a separate repository, you could do so, and just symlink it in to your dspace working copy</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;mhwood&gt; I'll vote 0.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: You're right. But since it doesn't do 1), I still don't have an empty "git diff".</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: I know... he's such a great guy....</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 -- from my understanding it does have your #2.   It only falls down on #1, but you can manually achieve it by adding more "placeholders"/parameters to your existing dspace.cfg file if you want to override more options</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;robint&gt; I would need to check but I imagine you can specify a file outside your source dir with a full path</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: If I add the parameters after checking out the source, it will still show in my diff.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;helix84&gt; yes, 2) is probably easily solved by having it outside the source dir</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; I, too, want a clean diff, if I'm developing something to be shared, because I don't want to share local details.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; mhwood: exactly</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mdiggory&gt; ok... TBH... this is a bit of overkill. I'd say commit it and see who complains.... this is just a bunch of cat herding...</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;hpottinger&gt; others.addMember(hpottinger)</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mhwood&gt; I think I can just ignore it (after copying the .example) and continue doing what I do, so it's not a problem for me.</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;helix84&gt; I understand I'm outvoted, I'm just pointing out how it could be improved...</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; helix84: you can't be outvoted</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;hpottinger&gt; helix84: I think I understand, your objection is that, while it looks useful, it's not useful enough</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;robint&gt; helix84: Actually you are not outvoted, any -1 is a veto :)</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;helix84&gt; oh, i didn't know that</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;helix84&gt; in that case, i vote 0</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I think we've exhausted this discussion :)  Honestly, I think it'd be good for a few to try it out and see if there are major complaints. If not, it sounds like more are seemingly in favor of it.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;robint&gt; Community development in practice ! :)</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;robint&gt; I'll leave the pull request open for a while so feel free to object there or in Jira if anyone encounterss a problem. Thanks.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; I think the meeting is officially adjorned for today.  I'd *highly* recommend we find ways to start to commit/approve more of the outstanding features via email in the coming weeks.  We only have 2 weeks till Feature Freeze.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; Oh.  I forgot.  I'm out of the office next Weds (at a conference).  Anyone want to lead the meeting on Weds 8/8 ?</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; (sorry for the last minute notice on that...slipped my mind till I just looked at my calendar)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;robint&gt; tdonohue: Maybe Sands might want to lead but if not I would do it</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; I'll send a note to dspace-release, and you all can fight over / share the honor of leading the meeting next week :)</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mhwood&gt; Must go.  Thanks all!</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;robint&gt; Me too. Cheers</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;hpottinger&gt; gotta go too, bye!</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-navy">* ryscher (ae61f77a@gateway/web/freenode/ip.174.97.247.122) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[22:29]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2016-10-26
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:37]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:37]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-rajaniemi.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[12:15]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:33]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[14:51]</span> <span class="irc-green">* dyelar (~dyelar@120.121.124.24.cm.sunflower.com) has joined #duraspace</span><br />
+<span class="irc-date">[17:10]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[17:57]</span> <span class="irc-green">* hpottinger (~hpottinge@162.104.218.179) has joined #duraspace</span><br />
+<span class="irc-date">[19:49]</span> <span class="irc-green">* peterdietz (uid52203@gateway/web/irccloud.com/x-mbywcpktqsxbnhzi) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; All, it's time for our weekly DSpace Developers Meeting. Here's today's (late) agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-10-26">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-10-26</a></span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2016-10-26 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-10-26">https://wiki.duraspace.org/display/DSPACE/DevMtg+2016-10-26</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;mhwood&gt; pbecker did a lot of 1d.</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: I still see a lot of PRs flagged for "6.0".  I'm pretty sure pbecker did all the *JIRA* tickets though (moved those to 6.1)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;mhwood&gt; No, wait, that was Jira, perhaps.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, getting started here.. first off.. YAY! 6.0 IS RELEASED!</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks everyone for your hard work on this release, and for pbecker for helping with the final push / cutting the release</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;mhwood&gt; A hollow voice says, "whew!"</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; A "fun fact" about this release, according to the list of 6.0 contributors in the Release Notes, this release had our *most contributors ever*!  We ended up with 73 code contributors in 6.0!</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; Interesting.</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; For comparison, for other major releases (3.0, 4.0, 5.0), I think we maxed out in the mid-50s range</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; So, we have a lot of folks contributing, and that's great (the big problem is managing all those contributions &amp; the flood of PRs, as we know)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; :-)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; As noted in the agenda, we do have a few last "cleanup" tasks for post-6.0.  These all need volunteers:</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; 1) Someone to update "master" to 7.0-SNAPSHOT (pbecker ran into issues/errors when he tried it, not sure what happened)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; 2) Someone to update demo.dspace.org to 6.0 Final (it's still running RC4 or 5)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; 3) Someone to quickly/easily reschedule all open GitHub PRs flagged for 6.0 to be 6.1</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; I believe that's it, unless I'm forgetting anything :)</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; 2 &amp; 3 should be pretty painless.  #1 hypothetically also should be painless, but pbecker said he ran into build issues after he tried doing it</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; anyone interested in claiming one of those final tasks?</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mhwood&gt; I'll take (1).</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mhwood!</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; a lot of silence in here..anyone else around?  Or is it just mhwood &amp; I here right now</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger and peterdietz were here a moment ago.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;hpottinger&gt; I'm lurking, playing chicken with the other lurkers, it seems</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; I'm also interested in hearing any (early) feedback others may have around 6.0 (if anyone has started their upgrades, etc)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;peterdietz&gt; thanks for ping</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;tdonohue&gt; So, from the list above of final post-6.0 tasks, I guess if no one gets to #2 or 3, maybe I can find a 1/2 hour next week.  But updating demo.dspace.org and/or rescheduling GitHub PRs should be pretty easy for anyone interested in claiming that task</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; ok, fine, sign me up for 2</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks hpottinger! demo.dspace.org is already running RC4 or RC5, so it should just be a matter of pulling down latest code and doing a quick rebuild</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; There was no 5, and only the artifactId should have changed.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; So yes, should be easy.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; "easy" the time-consuming part for demo is changing the text</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;hpottinger&gt; but, I'm not complaining, I'll do it :-)</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; thanks again.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; The moving of the GitHub PRs is tiny...if pbecker doesn't get to it, I'll do it in spare time somewhere</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; So, anyone with early feedback on 6.0 to share here?</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Not here.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; I'll take that as a "no" for now.  Well, feel free to bring it to future meetings (or on mailing lists)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; So, beyond 6.0, in our agenda, I just noted that we should keep a 6.1 in mind (we still have a lot of open PRs which may be ripe for a 6.1, once they get testing/verification)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; Though, unfortunately, many of those PRs may need to be "ported" to the new dspace-6x branch</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; The other major thing to note (which all may be aware of) is the DSpace 7 / Angular2 UI group is "re-organizing".  First small meeting was yesterday. For non-Committers, we hope to open up to anyone interested in contributing in the very near future</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; (the only thing holding us back is first getting ourselves organized enough to accept contributions &amp; add in others, etc)</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; If you want to be looped in immediately, get in touch with Art Lowel (artlowel on GitHub, art.lowel at gmail.com) of Atmire, as he's leading the initiative in the coming months.  I'll still be in all meetings, but as many are aware, my time is a bit limited until the end of 2016</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;peterdietz&gt; Once I get passed some projects, I'd might be able to work on some REST work related to new UI</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; That said, this brings to mind another question to ask everyone.  What do we feel is the best usage of *this time* (weekly IRC meetings) in coming months, since we will have separate Angular2 UI meetings?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: sounds great, we could use your help.  Andrea Bollini has offered to help lead REST API work, but he's already asked for collaborators</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding *this* IRC meeting, obviously there are weekly/daily tasks to keep up with... 6.x releases, JIRA tickets, PRs.  So, there's plenty we can discuss week-to-week.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; Next week someone is going to join in to talk about XOAI.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; but, I am curious if others want to restructure our time here in any way, now that 6.0 is out the door, and that 7.0 work will start shortly</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;terry-b3&gt; Just joining in.  I think looking at 6.1 stuff makes sense for this group.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: thanks for the note on XOAI. I saw a brief mention of it, and yes that'd be a good topic to discuss too</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;terry-b3&gt; Would it be possible to combine the dev meeting and the backlog meeting into one meeting since there will be alot of 7.0 stuff in paralell?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b3: yes, for the time being, it may make sense.  Especially since, some weeks, we may not have a lot to talk about in these meetings and therefore it'd be good to jump into backlog tickets/PRs</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;hpottinger&gt; keep the venue of #duraspace for the combo backlog &amp; dev meeting?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; yes, I'd recommend we stick with #duraspace.  It's important for the meeting to be logged (for those who missed it).  Not as important for backlog discussions, but it doesn't hurt ;)</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; There was talk of regular, frequent communication about the status of the New UI.  That would perhaps be a repeating item for these meetings.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; yes, perhaps... though, I actually think that "regular, frequent communication about the status of the New UI" should be via mailing lists &amp; completely public.  The goal is not just to loop in Committers, but also all our users on what is going on</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;mhwood&gt; OK</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; So, yes, I think it's OK to have brief updates on New UI in these IRC meetings... I think the goal is to make those updates completely public.  Questions/brief discussion on those updates are welcome here though</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Typing too fast...meant to say this as second sentence "*But*, I think the eventual goal is to make those updates completely public"</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; So, any other hot topics that folks wish to bring up today?  I honestly don't have anything else on the agenda for today, though we could do some JIRA reviews or similar</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;terry-b3&gt; I hope those meetings do not move to IRC.  It was refreshing to meet with audio and video.  (This is my continual complaint)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; Aw.  Typing is so much easier.</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;terry-b3&gt; And slower</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; +1 typing</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; At least this time the various Google plugins didn't make Firefox unstable.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;hpottinger&gt; just don't run top and hangouts at the same time :-)</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; terry-b3: during the prototyping of the Angular2UI, we kept all meetings as video/audio.  I'd anticipate we'd do the same with the DSpace 7 work, as it's much easier to discuss via (minimally) audio, and there are occasions where you need/want to screenshare recent work</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; The screensharing became very important to use in the prototyping to help us resolve issues we were seeing or show off (quickly) progress on a particular feature</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;terry-b3&gt; Good to hear.</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; so, not hearing any other topics.  We are running a bit short on time for a full fledged JIRA review...but, I recall seeing something about a 5.6 issue  from peterdietz?  Should we talk about that here today, briefly?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;peterdietz&gt; sure. we upgraded some sites to 5.6, and the external handle resolver we use stopped working. one example of 5.6, and handleresolver not working is <a href="https://darchive.mblwhoilibrary.org/handleresolver/listprefixes">https://darchive.mblwhoilibrary.org/handleresolver/listprefixes</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;peterdietz&gt; (they use old fashioned handleresolver so its fine)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;peterdietz&gt; you should get data returned, like these guys: <a href="http://escholarshare.drake.edu/handleresolver/listprefixes">http://escholarshare.drake.edu/handleresolver/listprefixes</a></span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;peterdietz&gt; I've made the tiny patch</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;peterdietz&gt; The issue is DS-3366</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3366">https://jira.duraspace.org/browse/DS-3366</a> ] - [DS-3366] /handleresolver provides no data - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: do you have the "tiny patch" somewhere?</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;peterdietz&gt; and demo.dspace.org running 6x is fine. so bug didn't exist in 5.5, but exists in 5.6</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;peterdietz&gt; I've fixed longsight's branch <a href="http://escholarshare.drake.edu/handleresolver/listprefixes">http://escholarshare.drake.edu/handleresolver/listprefixes</a></span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;peterdietz&gt; oops</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;peterdietz&gt; <a href="https://github.com/LongsightGroup/DSpace/commit/34432c64b3291ac69d5d3129ffa985b06f7769db">https://github.com/LongsightGroup/DSpace/commit/34432c64b3291ac69d5d3129ffa985b06f7769db</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-3366 Remove out.close from handleresolverreader · LongsightGroup/DSpace@34432c6 · GitHub ] - <a href="https://github.com/LongsightGroup/DSpace/commit/34432c64b3291ac69d5d3129ffa985b06f7769db">https://github.com/LongsightGroup/DSpace/commit/34432c64b3291ac69d5d3129ffa985b06f7769db</a></span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;hpottinger&gt; I'm happy to test that patch, do you have a PR for us?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; yes, sounds like the next step is a PR.  wow, that is a tiny patch</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mhwood&gt; It makes sense, though.</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;peterdietz&gt; i never debugged to see WHY is was crashing. But mhwood and I were speculating, that of all the things changed in Andrea's refactoring (the only commit to touch that file between 5.5 and 5.6) the out.close is the most likely to affect things</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; ok, so sounds like we need a PR for more testing. We might want to see why this works on 6.x too (does it not have that close()? Or is something else happening here we aren't seeing?)</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; Glad that, at the very least, there's a "quick fix".  But, it would be good to double check why 6.0 works but 5.6 doesn't</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: 6.0 *is* on demo (saw your comment on DS-3366).  It's just running 6.0RC4 instead of 6.0 final</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-3366">https://jira.duraspace.org/browse/DS-3366</a> ] - [DS-3366] /handleresolver provides no data - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; <a href="https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/handle/HandleResolverReader.java#L153-L154">https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/handle/HandleResolverReader.java#L153-L154</a></span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/HandleResolverReader.java at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/handle/HandleResolverReader.java#L153-L154">https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/handle/HandleResolverReader.java#L153-L154</a></span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-brick">* peterdietz is learning that he shouldn't try to "do it live" by trying to create a PR from github UI.. (I've accidentally made a branch on DSpace/DSpace instead of peterdietz/DSpace</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; it's in a try/cactch block, so... out.close throws an exception... what exception did you see, peterdietz?</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;peterdietz&gt; I got NoException</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;hpottinger&gt; o.O</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; I hate it when code throws NoException.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; would you happen to have the stack trace you could paste into that ticket?</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; or, I could try to reproduce...</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;peterdietz&gt; it doesn't produce errors or exceptions, it just dies quietly. Swallowing the error, in 5.6 atleast</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; So, it does sound to me like we should... (1) Document this tiny patch as a "quick fix", (2) do some further investigation as to whether it is the *right* fix...especially looking at why 6.0 seems to work</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; My guess is that AbstractReader doesn't expect 'out' to be closed when generate() returns, but isn't able to tell us about it.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; it's a good guess, but then the obvious question is why isn't 6.0 acting the same way?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;peterdietz&gt; okay. PR created <a href="https://github.com/DSpace/DSpace/pull/1560">https://github.com/DSpace/DSpace/pull/1560</a></span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-3366 Fix handleresolver by removing out.close by peterdietz · Pull Request #1560 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1560">https://github.com/DSpace/DSpace/pull/1560</a></span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; ok, in any case, we have a plan here, and an initial PR for folks to play with.  Seems good enough for today</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;peterdietz&gt; hmm. yeah, weird that 6.0 has the same code. the out.close, and its working. and 5.6 has out.close, and not working</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; We're also at the top of the hour, so I'm going to close up the official meeting for today.  Discussion is welcome to continue though, either here or in #dspace. :)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; Gotta go, thanks all.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;peterdietz&gt; I wonder how many people would be using handleresolver anyways. Gotta create a dspace-spymode, that phones home to our feature monitoring and data gathering dashboard</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-navy">* mhwood (mwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-navy">* dyelar (~dyelar@120.121.124.24.cm.sunflower.com) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has left #duraspace</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-navy">* hpottinger (~hpottinge@162.104.218.179) Quit (Quit: Leaving, later taterz!)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

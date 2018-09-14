@@ -1,0 +1,369 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2012-03-07
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[2:06]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[2:09]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[3:16]</span> <span class="irc-navy">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) Quit (Quit: bradmc)</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-brown">-hitchcock.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:38]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-green">* bradmc (~bradmc@207-172-69-79.c3-0.smr-ubr3.sbo-smr.ma.static.cable.rcn.com) has joined #duraspace</span><br />
+<span class="irc-date">[12:53]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[14:10]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[19:02]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:33]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder we our back to the normal weekly DSpace Developer Mtg schedule.  Meeting today in about 15 mins: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-03-07">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-03-07</a></span><br />
+<span class="irc-date">[19:46]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-03-07 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-03-07">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-03-07</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome. Time to begin our weekly DSpace Developers Mtg : <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-03-07">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-03-07</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2012-03-07 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-03-07">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-03-07</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; we'll kick things off with our usual JIRA review: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-956+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-956+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-956">https://jira.duraspace.org/browse/DS-956</a> ] - [#DS-956] Skip from Item page to next Item in Browse results without having to return to Browse results page - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-956+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-956+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; starting with DS-956</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-956">https://jira.duraspace.org/browse/DS-956</a> ] - [#DS-956] Skip from Item page to next Item in Browse results without having to return to Browse results page - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;mhwood&gt; Sounds like a nice feature, but we would have to save a lot of state somewhere.</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; yeah, would definitely require saving some state info</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; anyone in this chat interesting in looking into ways we could implement Ds-956 (maybe your institution is interested in this?).  Just thought I'd ask.  I agree, it sounds like a nice feature</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; I think Ivan has a nice idea for embedding some state info into XMLUI (though you probably need more than just a next/previous reference)</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; So, thinking back to last week's discussion, how do we factor that out, since JSPUI sites will want it too.</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mdiggory&gt; We've actually been doing something like this in Discovery Instead</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;mhwood&gt; (And Freemarker sites....)</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- so, Discovery can/will do this eventually?</span><br />
+<span class="irc-date">[20:07]</span> <span class="irc-black">&lt;mdiggory&gt; In that case, we retain the Discvoery Search Results and the Position in the Results, then add navigation links at the top of the page.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; is this something that is planned for a future Discovery release then?  Just wondering if we should add comments here that Discovery plans to implement this issue in a future release.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mdiggory&gt; I"m not sure it will be in the contribution at this point</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; It was actually very light wieght,  an XMLUI aspect and some theming changes</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mhwood&gt; Anyway, is there some way to make this a service of the browse provider, that the UIs just call on?</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-green">* PeterDietzHome (~Angie@d60-65-161-223.col.wideopenwest.com) has joined #duraspace</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- I think that'd be the idea if it was in Discovery.  Then any UI which is made Discovery-compatible could use it</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; Its actually more like "View Search Results One at a Time" than it is retain navigation on the Item View itself</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; ok. well, we might as well move on for now.  Not sure that we will get anywhere more with this?    Basically we need a volunteer for Ds-956</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: there are some ideas in that direction, yes</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; Ds-956 Summary: Good idea, needs a volunteer.  Perhaps implement in Discovery as an option?</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;PeterDietzHome&gt; hmm, I was thinking of a previous and next direction to go from an item</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;PeterDietzHome&gt; i.e. viewItem @  handle/12345/3344.. you could click a link to go to handle/12345/3344/next which then has the controller go to next item</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mdiggory&gt; I would say that if we want to continue on the topic of Discovery being default in 3.0, this would ease implementation of these sort of features to again, only need to focus on one implementation to be able to accomplish them.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;PeterDietzHome&gt; like mhwood said, to allow the state from a search to have an item's next, would require a bit more state</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mhwood&gt; But the Item doesn't know what's in your browse result.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietzHome: that is the general approach, yes</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; +1 mdiggory.  That's my thoughts too.  If we manage to get behind Discovery, then that simplifies the number of solutions we need</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: that is why I said "mdiggory: Its actually more like "View Search Results One at a Time" than it is retain navigation on the Item View itself"</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietzHome: like mhwood said -- 'handle/12345/3344/next' wouldn't have any meaning without knowing whether you are browsing, searching, etc.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;PeterDietzHome&gt; then you would have more state search/rocket+NASA/item/34556 that can have a next</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; Here is an example of our URL retaining the state.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://host/handle/10211.6/179?order=DESC&amp;rpp=10&amp;sort_by=score&amp;page=1&amp;group_by=none&amp;etal=0">http://host/handle/10211.6/179?order=DESC&amp;rpp=10&amp;sort_by=score&amp;page=1&amp;group_by=none&amp;etal=0</a></span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; ok, should we move along for now?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; the next Item is</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://host/handle/10211.6/161?order=DESC&amp;rpp=10&amp;sort_by=score&amp;page=1&amp;group_by=none&amp;etal=0">http://host/handle/10211.6/161?order=DESC&amp;rpp=10&amp;sort_by=score&amp;page=1&amp;group_by=none&amp;etal=0</a></span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; so, it just exposes discovery query detains in the Item Page</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; detains = details</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;PeterDietzHome&gt; i guess we can proceed</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; makes sense - I suggest we move along for now &amp; put the above discussion in comments of Ds-956, so that hopefully we can find a volunteer for it</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; as we're already 20mins into a full schedule, I'm going to stop JIRA review there for now</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; I'll pass on the recommendation to our team, do continue</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; Next up...Reminder that OR12 DSUG proposals are due by end of day tomorrow (Robin Rice asked me to remind everyone)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; It sounds like they are still hoping for some more proposals to be submitted -- so if you have anything unique/novel you are doing with DSpace, I'd suggest submitting a talk (if you can attend)</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;mdiggory&gt; thanks, yes we are in full proposal writing mode ;-)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; good deal, just wanted to remind everyone :)</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; ok. next up, our DSpace GSoC Ideas Page is currently empty! <a href="https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas">https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Summer of Code Ideas - Google Summer of Code - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas">https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas</a></span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;PeterDietzHome&gt; Do you get funding if you have an accepted proposal?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;tdonohue&gt; It'd be nice to get a few ideas up there if possible (before Friday, when our GSoC Mentoring Application is due)</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietzHome: not sure. you could always submit and then try to get funding if accepted?  Or you could email Robin Rice</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; So, I was wondering if we wanted to brainstorm any possible GSoC Ideas?</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; I think most of 2011 could be moved up to 2012</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;PeterDietzHome&gt; My co-worker just started working on a Ruby on Rails app that talks to fedora objects.. I'm glad he is, because I _still_ don't understand what fedora is.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;mhwood&gt; It's a repository backend.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;PeterDietzHome&gt; he's gutting all the SOLR from the active-fedora ruby gem, since its very superfluous</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;PeterDietzHome&gt; a backend yes, holds objects yes, services on objects yes, but what does it do...</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- good idea.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; Whatever the frontend you write for it can manage.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; what about a GSoC project to change REST API to use Spring WebMVC (instead of Sakai stuff)?  Would that be enough to fill a summer?</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;PeterDietzHome&gt; Is there any "turn key" fedora?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-brick">* PeterDietzHome sorry for fedora side-track</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;mhwood&gt; See e.g. Islandora.</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietzHome:  Hydra provides various Ruby on Rails interfaces for Fedora</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;aschweer&gt; GSoC: in the past, have students gone only for "ooh look shiny new feature" style projects, or have infrastructure-style projects also been attractive?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; Hydra: <a href="http://hydraproject.org">http://hydraproject.org</a></span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;kompewter&gt; [ projecthydra.org ] - <a href="http://hydraproject.org">http://hydraproject.org</a></span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;tdonohue&gt; "shiny" is sometimes more popular -- but we've also had infrastructure projects.  So, it depends on the students sometimes</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue: ok good to know</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; I"m rather interested in seeing us look at the approach Hydra (Solritas) is using for indexing Fedora Content and Metadata</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; Though, I think we have learned that *smaller* projects are sometimes better (I.e. don't make the scope too large that it'd be hard/impossible to finish in a summer.  Instead, aim smaller, and expand it if the student is a rockstar and finishes early)</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mdiggory&gt; They really focused on capturing relationships between the Fedora Objects in a manner that can be traversed in the search results.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; REST API shouldn't be too *large*.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;PeterDietzHome&gt; There's enough work for the webmvc to make a rest api out of that</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;hpottinger&gt; PeterDietzHome: another front end for Fedora, fun for tinkering, is <a href="https://github.com/emory-libraries/eulfedora">https://github.com/emory-libraries/eulfedora</a></span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;kompewter&gt; [ emory-libraries/eulfedora · GitHub ] - <a href="https://github.com/emory-libraries/eulfedora">https://github.com/emory-libraries/eulfedora</a></span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;PeterDietzHome&gt; I would propose, an infrastructure boost that we can do that would make it easier for mentor to keep an eye on their student.. i.e. have a public build/workspace</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;PeterDietzHome&gt; the student pushes code (to github) and our continuous integration will rebuild some demo.dspace.org/project-X</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;mdiggory&gt; Sorry Solarizer not Solritas</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;PeterDietzHome&gt; I felt like it was a lot of work to rebuild the environment on my local computer to verify changes. Plus, it helps to get eyes on something</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; I started on a super-simple Fedora frontend to be done in Spring, but don't have any idea what year there might be something usable.  It's mainly for me to learn more about Spring and Fedora.</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; I agree with mdiggory, most of 2011 can be moved to 2012</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;PeterDietzHome&gt; so.. if webmvc-rest-student is building a new rest api on webmvc, then rest-clientUI student, can run their project against the webmvc-rest workspace too</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; ok. So, it sounds like we have:  move the 2011 projects forward.    Add a project to rework REST API to use Spring WebMVC (as discussed in Summit last week).  Others?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;PeterDietzHome&gt; mhwood, I read your statement as you'll finish it in the spring (season), but you don't know which year's sping season to stop working</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mhwood&gt; I like it.  Building against someone else's unfinished work is the sort of stuff we didn't get in school but see in the Real World.</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mhwood&gt; Hehe, I stop working when it starts working?</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;hpottinger&gt; better environment for developing an API, that's for sure, you want plenty of feedback</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; That sounds like a "good enough" starter list for GSoC.  If others come up with more project ideas, honestly feel free to add them in.  The more ideas the better (even if they may not be fully fleshed out yet, we can always work on that in coming weeks)</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;PeterDietzHome&gt; for another project, I could use a minion ( mdiggory's words ) to help bang out elastic-search for dspace-stats, but I'm not sure if that is a full summer's worth of work..</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;PeterDietzHome&gt; I have elastic-search-usage-event-listener listening and recording UsageEvents, and on a statistics page for now, I have it returning a Page of hits for city=columbus</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietzHome -- feel free to put it up there.  Again, I tend to prefer smaller projects (as it really sometimes takes a bit of time for students to learn about DSpace and get going).</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;PeterDietzHome&gt; the real work, actually, might be in refactoring statistics to not be dependent on solr.. i.e. get an interface in there</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; yep. makes sense</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;mhwood&gt; Sounds like we have an opportunity to learn what takes time and effort to come up to speed on DSpace.  Maybe we can improve the developer documentation.</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; ok. in essence of time, gonna move on.  definitely post your ideas up to <a href="https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas">https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas</a></span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Summer of Code Ideas - Google Summer of Code - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas">https://wiki.duraspace.org/display/GSOC/DSpace+Summer+of+Code+Ideas</a></span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;PeterDietzHome&gt; Another idea I have, is to have the end-user (i.e. librarian) be able to choose which theme gets applied to her collection</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- although docs can be a (small) part of a GSoC Project, the majority of the project *must include code* (that's a rule from Google)</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;PeterDietzHome&gt; i.e. collection of photo's of astronaut orbiting the earth, should get "gallery" theme. User goes to Edit Collection, clicks "gallery" radio button, hits save. Refreshes collection browse list</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;mhwood&gt; I was thinking more along the line that we can observe someone getting his arms around DSpace development, not that documentation would be a GSoC project.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietzHome -- post it up on the list. again, sounds like it could make a nice project.</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; ok. moving on for now (sorry -- just a lot on our plate today.  Please continue to brainstorm ideas up on our "Ideas Page")</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: I can tell you that the learning curve has been made much easier by people blogging about their own progress, so, perhaps we could ask the GsoC students to work in a way that is more public, blog their experience?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;PeterDietzHome&gt; ...and yet another idea, is to have a theme installer... I.e. OSU produces a MapView theme, publishes it to github/osulibraries/xmlui-map-view.. end user repository types [dspace]/bin/dspace install-theme github/osulibraries/xmlui-map-view</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; Just mentioning, it's "Official", by a landslide -- we are moving to GitHub.  I'll be posting that to the lists later today/early tomorrow.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mhwood&gt; Good thought.</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; Github wiki?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;PeterDietzHome&gt; actually, can I propose we move to mercurial?</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;PeterDietzHome&gt; jk ;)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; AAHHHHH</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mhwood&gt; Hey, that was my proposal!</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; Last year we encouraged students to "blog" (or document) their work up on the main Wiki</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; (some did it better than others though)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;mdiggory&gt; how do I kick people from IRC</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;PeterDietzHome&gt; .rmpoint PeterDietz</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;kompewter&gt; PeterDietzHome: I'm sorry, but I'm afraid I can't do that!</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; So, for the GitHub stuff, we need to start planning out the steps involved in the move.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; isnt there some sort of "Blog" addon/theme for confluence?</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/mdiggory/DSpace/tree/maven-project-consolidation">https://github.com/mdiggory/DSpace/tree/maven-project-consolidation</a></span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;kompewter&gt; [ mdiggory/DSpace at maven-project-consolidation · GitHub ] - <a href="https://github.com/mdiggory/DSpace/tree/maven-project-consolidation">https://github.com/mdiggory/DSpace/tree/maven-project-consolidation</a></span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; I"m getting more comfortable there</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;PeterDietzHome&gt; main code is already there, on github, remaining module's need to have someone say, I do actually care about dspace-xmlui-api-lang, and I'll migrate it.. or.. share the steps on how to migrate from svn</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; Actually, I'd say at this point I've almost completely climbed the learning curve</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;PeterDietzHome&gt; the bit of reconfiguring, that kshepherd will run into on 3.x release time is how maven needs to be updated to "do git"</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; the above is the consolidation example, not officially tested</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietzHome: umm..yea, there are several things like dspace-xmlui-api-lang that *must* be moved (as they are used by hundreds of DSpace institutions worldwide)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;mdiggory&gt; I did a relase of SWORD common version 1.1 into central via sonotype using git as the source repo</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; I'd suggest we may want to start up a Wiki page for "GitHub Migration Steps" and then start listing things there that need to be done (and tackling them as a team)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: PeterDietzHome yes, those are good first candidates</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;aschweer&gt; sorry folks, need to run off to another meeting</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; and will set the stage for the rest</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: +1</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;mhwood&gt; tdonohue++</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;PeterDietzHome&gt; I like how an end-user can edit a file, which automatically creates them a fork, and sends us a pull request with that changes, potentially mega-simplifying the languages <a href="https://github.com/DSpace/DSpace/edit/master/dspace-api/src/main/resources/Messages.properties">https://github.com/DSpace/DSpace/edit/master/dspace-api/src/main/resources/Messages.properties</a></span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;mdiggory&gt; Github pom changes are pretty minimal, mostly VCS related <a href="https://github.com/mdiggory/SWORDv1.1/blob/master/pom.xml">https://github.com/mdiggory/SWORDv1.1/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;kompewter&gt; [ SWORDv1.1/pom.xml at master · mdiggory/SWORDv1.1 · GitHub ] - <a href="https://github.com/mdiggory/SWORDv1.1/blob/master/pom.xml">https://github.com/mdiggory/SWORDv1.1/blob/master/pom.xml</a></span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;PeterDietzHome&gt; (looks like you need to be logged in to do that edit Messages)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; Ok.  I'll take up the task of creating a "GitHub Migration Steps" wiki page, which I'll send along to dspace-commit so that all of you can help me fill it out, etc.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietzHome: Golden!</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;mdiggory&gt; I seriously like that feature...</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietzHome: really?  it would be nice to simplify language changes.  We might want to look into how that process could be eased by GitHub, and talk to Claudia more about it (as she tends to manage it currently)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;PeterDietzHome&gt; yep, if you didn't just see if, go to <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/Messages.properties">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/Messages.properties</a> then click "Edit this file"</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-api/src/main/resources/Messages.properties at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/Messages.properties">https://github.com/DSpace/DSpace/blob/master/dspace-api/src/main/resources/Messages.properties</a></span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; Yea, I see that.  I don't imagine this works for 'messages.xml' though?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;PeterDietzHome&gt; hint with github.. hit t... the letter t on your keyboard, then type the name of the file your looking for, in this case messages</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;PeterDietzHome&gt; then hit enter</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mdiggory&gt; Hey.... per repo permissions in an organization, very cool too <a href="https://github.com/organizations/DSpace/teams">https://github.com/organizations/DSpace/teams</a></span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;kompewter&gt; [ Log in · GitHub ] - <a href="https://github.com/organizations/DSpace/teams">https://github.com/organizations/DSpace/teams</a></span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-brick">* mhwood imagines an XSL transform to produce Messages.properties from messages.xml</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; oh, cool. it does work for messages.xml too: <a href="https://github.com/DSpace/DSpace/edit/master/dspace-xmlui/dspace-xmlui-webapp/src/main/webapp/i18n/messages.xml">https://github.com/DSpace/DSpace/edit/master/dspace-xmlui/dspace-xmlui-webapp/src/main/webapp/i18n/messages.xml</a></span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mdiggory&gt; so we could have language packs and give rights to different team members than to DSpace itself...</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- I'd really like that. I *hate* the way we do language packs right now (and from my understanding it frustrates a lot of people)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;PeterDietzHome&gt; it works for all files. even java.. someone could pass through and fix typos in our comments, without having to run away because of complexity of "now how do i send this in"</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; If there was a way to get Cocoon/XMLUI to use 'messages.properties' (doubtful), then I'd love to just ditch 'messages.xml' altogether.   But, barring that, transforming messages.properties to messages.xml would be nice (if we could do it)</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;mdiggory&gt; yes, I like, this is definitely lowering the bar</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: mhwood I'd rather see a database approach for messages emerge.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; So then we need to write a DatabaseBundle class and a DatabaseWhateveritisforcocoon class.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mdiggory&gt; right</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; it's much better in github. But, we still do have a translation issue with the fact that there are so many different "messages" files that folks need to change these days.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mdiggory&gt; and then either a means to import properties files intot he db during install/upgrade</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietzHome&gt;  	name</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietzHome&gt; 	dspace-xmlui/dspace-xmlui-webapp/src/main/webapp/i18n/messages.xml</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietzHome&gt; 	dspace-discovery/dspace-discovery-xmlui-api/src/main/resources/aspects/Discovery/i18n/messages.xml</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietzHome&gt; 	dspace-sword-client/dspace-sword-client-xmlui-api/src/main/resources/aspects/SwordClient/i18n/messages.xml</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietzHome&gt; 	dspace-api/src/main/resources/Messages.properties</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;PeterDietzHome&gt; 	dspace-xmlui/dspace-xmlui-api/src/main/resources/aspects/XMLWorkflow/i18n/messages.xml</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- I'd be open to that idea. Just as long as we can load that DB initially from a *single* file (messages.properties)</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietzHome just proved my point.  If you want to fully translate DSpace to Spanish (or any other language) you need to edit 5 files -- and that number is increasing over time (as new ones were created for Discovery, SWORD, XMLWorkflow, etc)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mdiggory&gt; In xmlui, it could be prioritized/overriden such that first properties, then xml, then db giving the ability to designate priorities to override default messages and store the resulting customizations in the db</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; I doubt I'll ever be good in all of the supported languages, so I hope we can attract some *maintainers* for specific translations.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;mdiggory&gt; I do think that default messages should be maintained in the module in question, but that the databse would be a point of override for the local institution.</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- we do have "maintainers" that tend to work with Claudia.  But, over time it has become more and more frustrating for those maintainers as we have moved from 1 translation file (messages.properties) to now 5.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- that's OK, as long as people know what properties they need to be overriding elsewhere.  Right now, a "maintainer" has to dig around into 5 files and translate each one by one.  There's no easier way.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-brick">* tdonohue realizes we are way off topic, but this is an important point that does need discussing.</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; with the maven consolidation, its possible that some of these could also go away</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; It's also worth mentioning that complaints about translating DSpace have now made their way up to DCAT as well.  I sat in on today's DCAT meeting and Bram (from @mire) brought this up as an issue and is trying to find ways to help out the translators</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietzHome: dspace-xmlui/dspace-xmlui-webapp/src/main/webapp/i18n/messages.xml</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; [8:57pm] PeterDietzHome: dspace-discovery/dspace-discovery-xmlui-api/src/main/resources/aspects/Discovery/i18n/messages.xml</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; [8:57pm] PeterDietzHome: dspace-sword-client/dspace-sword-client-xmlui-api/src/main/resources/aspects/SwordClient/i18n/messages.xml</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; dspace-xmlui/dspace-xmlui-api/src/main/resources/aspects/XMLWorkflow/i18n/messages.xml</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; DBMS would make it easy to detect missing translations....</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mdiggory&gt; these could be merged</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;mhwood&gt; mdiggory:  yeah, but addons could have their own catalogs.</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mdiggory&gt; yes they always would...</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;mdiggory&gt; their addons...</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mdiggory&gt; but if we consolidate stats, discovery, xmlui in the manner i've proposed in the consolidation then these files can be consolidated as well</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;mdiggory&gt; because we are making them default addons in xmlui maintained in dspace-xmlui/src/main/java|resources</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect">https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect</a></span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect at maven-project-consolidation · mdiggory/DSpace · GitHub ] - <a href="https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect">https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect</a></span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-xmlui/src/main/resources/aspects">https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-xmlui/src/main/resources/aspects</a></span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-xmlui/src/main/resources/aspects at maven-project-consolidation · mdiggory/DSpace · GitHub ] - <a href="https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-xmlui/src/main/resources/aspects">https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-xmlui/src/main/resources/aspects</a></span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;PeterDietzHome&gt; I like the reconsolidation.. less intermediate directories</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-brick">* PeterDietzHome has to head out soon</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea, it could solve the problem for specific projects.  But, still doesn't really resolve the issue of translation management over time.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; Note the new dspace-common-api library for business/app code.</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-common-api/src/main/java/org/dspace">https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-common-api/src/main/java/org/dspace</a></span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-common-api/src/main/java/org/dspace at maven-project-consolidation · mdiggory/DSpace · GitHub ] - <a href="https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-common-api/src/main/java/org/dspace">https://github.com/mdiggory/DSpace/tree/maven-project-consolidation/dspace-common-api/src/main/java/org/dspace</a></span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt;  I think to improve translation management we may need to move more towards DBMS, or we'd have to consolidate on one format (like messages.properties) and find tools that can help us manage translations using that format (like <a href="http://translate.sourceforge.net/wiki/pootle/)">http://translate.sourceforge.net/wiki/pootle/)</a></span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;kompewter&gt; [ pootle:index · Translate Toolkit &amp; Pootle ] - <a href="http://translate.sourceforge.net/wiki/pootle/)">http://translate.sourceforge.net/wiki/pootle/)</a></span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-brick">* tdonohue says, sorry for going totally off our agenda today :)  One last thing to mention before folks head out.  We still need a 3.0 "Release Team Leader".  Kim won't be able to do it after all as it doesn't fit his upcoming work schedule.</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-brick">* mhwood imagines an XSL transform to turn messages.xml into SQL....</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: the consolidation helps... and if we were to get to one file format, that would help even more.</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-brick">* tdonohue so if anyone is willing to take on the 3.0 Release Team Leader role, please get in touch.  Again, you'll have an entire team helping you out -- so it should be less work than past RCs have had to do.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mdiggory&gt; there was once a report I wrote as part of the maven site build</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/tools/maven/dspace-i18n-report-plugin/trunk/src/main/java/org/dspace/maven/reports/I18nReport.java">http://scm.dspace.org/svn/repo/tools/maven/dspace-i18n-report-plugin/trunk/src/main/java/org/dspace/maven/reports/I18nReport.java</a></span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mdiggory&gt; I imagint hat a db approach could have "context" associated with it as well</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-brick">* tdonohue if folks need to head out, feel free.  We'll consider the official meeting "adjourned", but we can continue this discussion for those who can hang around for a bit.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mdiggory&gt; kind of like what we did with config properties</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;PeterDietzHome&gt; later all</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mdiggory&gt; [module].[property]=value</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-navy">* PeterDietzHome (~Angie@d60-65-161-223.col.wideopenwest.com) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory: what exactly does that I18nReport do?  It just reports on messages.xml files?  Or does it compare translations with the English copy?</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;mhwood&gt; Actually I wish there were not such a strong link between module and its serialized configuration.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mdiggory&gt; yea, it was supposed to compare them all</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mdiggory&gt; mhwood: ?</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; Would like to be able to just drop additional files and have them picked up, like e.g. /etc/xinetd.d/anythingyoulike</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mhwood&gt; It's been a while since I thought about it...I'm trying to recall specific problems I had.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;mdiggory&gt; in other words, you don't want the properties namespaced?</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mhwood&gt; Yes, I think that's it.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mdiggory&gt; I'll admit, thats a bit convoluted</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-green">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) has joined #duraspace</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mdiggory&gt; we tried to avoid it int he ConfigurationService, in fact, theres no concept of namespacing exposed in that API which is different from the ConfigurationManager api changes</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mdiggory&gt; Sometimes I think we need to be careful about straying too far from the norm, conventional behavior, some of our team members can be a bit too creative int his regard</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; I remember now.  I had to write a Maven plugin to merge stuff into the "main" dspace.cfg because there's no place to just drop additions.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mdiggory&gt; ah, for the test instance</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mdiggory&gt; probibly more to do with the db right?</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;mhwood&gt; I think so.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; No, actually it's to do with authority control.</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; #Configure authority control for testing</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; plugin.selfnamed.org.dspace.content.authority.ChoiceAuthority = \</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt;         org.dspace.content.authority.DCInputAuthority</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; choices.plugin.dc.language.iso = common_iso_languages</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; choices.presentation.dc.language.iso = select</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; authority.controlled.dc.language.iso = true</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mdiggory&gt; ok... that conifg is already pretty bad... it needs a serious rewrite...</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mdiggory&gt; this is a prime candidate for spring config....</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; Gets stuck on the end of config/dspace.cfg so something can test that.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mdiggory&gt; Any time we see hierarchical config like this... there should be a serious reconsidering.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;mhwood&gt; How many different config. mechanisms are we going to have?</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mdiggory&gt; if it is new code coming into DSpace.  It should be recommended that they switch to Spring config before the work will be accepted</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mhwood&gt; Agreed, serialized Properties is terrible for structured data.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;mhwood&gt; Do we have a consensus on using Spring for config?</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mdiggory&gt; Its already in there</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;KevinVdV&gt; &amp; allows for a hell of a lot more then any .cfg configuration :)</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mhwood&gt; I agree, but do we have a consensus that that's our direction?</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;mdiggory&gt; <a href="http://scm.dspace.org/svn/repo/dspace/trunk/dspace/config/spring/">http://scm.dspace.org/svn/repo/dspace/trunk/dspace/config/spring/</a></span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;kompewter&gt; [ repo - Revision 6957: /dspace/trunk/dspace/config/spring ] - <a href="http://scm.dspace.org/svn/repo/dspace/trunk/dspace/config/spring/">http://scm.dspace.org/svn/repo/dspace/trunk/dspace/config/spring/</a></span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mdiggory&gt; People vote with their feet</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-brick">* hpottinger is a big proponent of, if it's the right thing to do, do it, let the consensus follow</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;tdonohue&gt; IIRC we had talked about there being several "levels" of configuration.  There's the configuration to "install something" (which likely should move towards Spring, but we haven't had a consensus there yet), and then there's the configuration to actually "setup/configure something once installed" (which may be in DB/.cfg or similar)</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mhwood&gt; There's configuration of the installation process itself, which is done by the person doing the installation.  There's "configuration" that's baked into the instance, like message catalogs, because it's best externalized from the code.  There's configuration of the instance, which is done by the site.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;mdiggory&gt; I want to caution that lazy consensus does allow changes into the codebase that later may be realized were not the best choice.  It is not a perfect system.</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mhwood&gt; Sometimes we get a bimodal "consensus".  Services vs. Managers comes to mind.  There are distinct "parties".</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mdiggory&gt; The challenge is that sometimes consensus is used as the argument/excuse for not fixing such cases.</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;mdiggory&gt; which is circular argument</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;mhwood&gt; I'm not saying we shouldn't use Spring to configure.  I think we should.  But I hope to see convergence to a single best practice at some point.</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; I was just clarifying that there are definitely 'levels' to configuration. I generally like the idea of moving towards Spring configuration (for configs which only expert users may wish to tweak). But, obviously things more 'user-facing' need to be more easily manageable in the system (like in the DB, etc)</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;mdiggory&gt; So for example, while I supported adding swordv2 to the codebase, I do not agree with the versioning approach that is used in it.  I cannot go back now and say remove the versioning component of swordv2 because theres not consesus on its inclusion.</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;mhwood&gt; I think what I was getting at, back a ways, is that sometimes you have to *ask* for consensus or it never jells.</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: yes I agree that was the most recent dialog on properties. But, does that suggest any sort of consensus?</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;tdonohue&gt; to get a better "consensus" we'd probably need to call a vote of some sort</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-black">&lt;tdonohue&gt; or discuss on dspace-commit</span><br />
+<span class="irc-date">[21:38]</span> <span class="irc-navy">* robint (52292725@gateway/web/freenode/ip.82.41.39.37) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;KevinVdV&gt; Need to run until next time</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- Like it?  Visit #hydrairc on EFNet)</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;mhwood&gt; I suppose one way forward would be to just start picking configurable things, making them Spring-configurable (for example), and ripping the old config. out of dspace.cfg.  If no one puts it back, that's progress.</span><br />
+<span class="irc-date">[21:43]</span> <span class="irc-black">&lt;mhwood&gt; Eventually there's nothing left that makes sense to rework.</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;mhwood&gt; I could look at doing that for authority control.  That would solve my problem.</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;mhwood&gt; Actually most of the work would be on the plugin manager.</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;mhwood&gt; Hmmm, could be a good approach generally.  When something gets in the way, move it to Spring or database as appropriate, until there's nothing left in dspace.cfg but the answer to "Dude, where's my database?"</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;hpottinger&gt; which is never in dspace.cfg anyway, it's in a profile</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;mhwood&gt; ???  db.user=, db.password=, db.url=....</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;hpottinger&gt; sorry, in my implementation, yes, it's either in a maven profile, or in my own maven.properties</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;mhwood&gt; The servlet container can supply a ready-made connection pool out of JNDI, but commandline app.s have no such luck.  (Although I wrote a package to fix that...)</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;hpottinger&gt; been meaning to look into how to do the database stuff from the context fragment file</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;mhwood&gt; <a href="http://pastebin.com/KWSNaahe">http://pastebin.com/KWSNaahe</a></span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;kompewter&gt; [ &lt;Context docBase='/home/mwood/dspaces/trunk-1.7/webapps/xmlui'&gt; &lt;Param - Pastebin.com ] - <a href="http://pastebin.com/KWSNaahe">http://pastebin.com/KWSNaahe</a></span><br />
+<span class="irc-date">[21:55]</span> <span class="irc-black">&lt;mhwood&gt; Container-specific.  That works for Tomcat.  I think I've seen how to do it in Jetty but I haven't used Jetty myself.</span><br />
+<span class="irc-date">[21:59]</span> <span class="irc-black">&lt;mhwood&gt; Gotta go.  It's gone quiet, anyway.  Thanks, all!</span><br />
+<span class="irc-date">[22:01]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-black">&lt;tdonohue&gt; i see i just missed mhwood (had to step away for a moment). In general though, I agree with his approach</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-black">&lt;tdonohue&gt; I think it's perfectly fine for us to start "picking configurable things and making them Spring-configurable" etc.</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;tdonohue&gt; I don't think that needs to wait for a larger consensus -- it can just start happening.  The only thing I think we do need to do is put up a JIRA ticket first saying e.g. "Move authority control config to Spring" -- this gives folks the chance to comment on it and express concerns or support</span><br />
+<span class="irc-date">[22:17]</span> <span class="irc-black">&lt;hpottinger&gt; since this is a logged channel, I'll just shout out a belated thanks for the pastebin link, mhwood, it's much appreciated</span><br />
+<span class="irc-date">[22:20]</span> <span class="irc-navy">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) Quit (Quit: mdiggory)</span><br />
+<span class="irc-date">[22:47]</span> <span class="irc-green">* mdiggory (~mdiggory@ip72-199-216-7.sd.sd.cox.net) has joined #duraspace</span><br />
+<span class="irc-date">[23:15]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:20]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

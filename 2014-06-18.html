@@ -1,0 +1,203 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2014-06-18
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[1:14]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:8c23:a4b:fc61:2ae3) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-brown">-dickson.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-brown">-dickson.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-brown">-dickson.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-brown">-dickson.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-green">* DuraLogBot (~PircBot@ec2-107-22-210-74.compute-1.amazonaws.com) has joined #duraspace</span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:41]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:12]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:14]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:33]</span> <span class="irc-green">* tdonohue1 (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[12:35]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) Quit (Ping timeout: 245 seconds)</span><br />
+<span class="irc-date">[13:02]</span> <span class="irc-green">* tdonohue1 is now known as tdonohue</span><br />
+<span class="irc-date">[13:35]</span> <span class="irc-green">* monikam_ (~Monika_Me@monika.Princeton.EDU) has joined #duraspace</span><br />
+<span class="irc-date">[14:04]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:42:add0:7ed2:ecf9) has joined #duraspace</span><br />
+<span class="irc-date">[14:53]</span> <span class="irc-green">* Anja (82587893@gateway/web/freenode/ip.130.88.120.147) has joined #duraspace</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Hello all, it's time for our weekly DSpace Developers Meeting (today at 15UTC).  Today's agenda: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-06-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-06-18</a></span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-06-18 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-06-18">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-06-18</a></span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; Not many attendees today it seems...though I know some folks may be on vacation or traveling after OR14 last week in Helsinki</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; Today's agenda is pretty light. Mostly I wanted to go over some of what was discussed at OR14 last week, and check in on upcoming planned releases.  We may have time for other discussions/topics as well</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;mhwood&gt; Sounds good.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; As of yesterday, I've posted the notes from the OR14 face-to-face DSpace Developers meeting: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-06-09+-+OR14+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-06-09+-+OR14+Meeting</a></span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2014-06-09 - OR14 Meeting - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-06-09+-+OR14+Meeting">https://wiki.duraspace.org/display/DSPACE/DevMtg+2014-06-09+-+OR14+Meeting</a></span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; (they are at the bottom of that page)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially, during that meeting we covered a few primary topics:</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; 1) We talked through the results of the DSpace Vision Survey from earlier this year, along with an analysis of the results (performed by a small group of 6 Committers &amp; DCAT folks)</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; There are some attached slides which detail those results &amp; analysis...but the basics were that it seems like most of our "gaps" (things that are high priority to our community, but we haven't implemented yet) seem to lie on the UI layers.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; The *recommendation* of that small group (to the DSpace Steering Group) is that (1) We need to standardize on a *single UI* (if a secondary third-party UI is built, that is fine..but only one should be supported centrally), preferrably against a standard "API layer" (e.g. REST or a Java business logic layer), and (2) It's about time to refactor &amp; cleanup some of our codebase</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; Additionally, that group has recommended to the Steering Group that these two activities would be hard to do without some sort of *managed* or organized project. So, the first step would be to find a way to establish a process to get this work done (including resources), and come up with a plan for *what* we are going to do (e.g. what does this *single UI* look like? Will it be one of the current ones? Or something entirely new?)</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; The general feedback from those in attendance was that this seems like a reasonable idea. Everyone seemed to agree that we need more concentrated effort on avoiding too much duplication of effort (e.g. maintaining two UIs in parallel).  Obviously though, many folks pointed out that we need resources to make this happen, and we want to *avoid* a situation like the "DSpace 2.0" project (where the work went nowhere)</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;mhwood&gt; Communicate early, communicate often.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; yep, exactly. That seemed to be the consensus.  Needs more &amp; better communication. And we need to locate dedicated resources to make it happen (as these projects in themselves are too "large" for an ad-hoc group to do in  a timely manner)</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; And to be clear -- NONE of this will affect the upcoming DSpace 5.0 release.  5.0 will go forward as planned in our current development model (with both XMLUI and JSPUI).  It'd be *after 5.0* that we may form a larger project to refactor / rework some of DSpace for 6.0</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;tdonohue&gt; The DSpace Steering Group is hopeful to get this started for the 6.0 release...but the exact timelines still need to be worked out based on how quickly we can move things forward in the coming months.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; During this OR14 developer meeting, we also talked through the proposed "Product Planning Process" and proposed "Governance" model going forward.  Both of those have been documented in great detail on the wiki</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; Planning Process: <a href="https://wiki.duraspace.org/display/DSPACE/Product+Planning+Process">https://wiki.duraspace.org/display/DSPACE/Product+Planning+Process</a></span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;kompewter&gt; [ Product Planning Process - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Product+Planning+Process">https://wiki.duraspace.org/display/DSPACE/Product+Planning+Process</a></span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;tdonohue&gt; Governance model: <a href="https://wiki.duraspace.org/display/DSPACE/Governance">https://wiki.duraspace.org/display/DSPACE/Governance</a></span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;kompewter&gt; [ Governance - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Governance">https://wiki.duraspace.org/display/DSPACE/Governance</a></span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; Both of these are drafts (from the Steering Group).  We asked the Developers &amp; DCAT members for feedback on the ideas presented...the general consensus seemed to be that "the proposals seem reasonable, but they may need tweaking as we start to put things into action and try and establish this larger refactor/rework DSpace project"</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially though, the purpose of the Planning Process &amp; Governance model is to help us (1) locate resources, and also (2) hopefully improve communication at all levels &amp; help us be more efficient in using our resources (less duplicative effort / projects)</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; I know this is a *ton* of info all at once.  I'd encourage you all to review it when you have the chance, and feel free to provide feedback, ideas, etc.  We can also revisit it next week as well (since our group is small today)</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;tdonohue&gt; Essentially though, the first 1/2 of this OR14 Developer meeting was covering all of these topics.  The second 1/2 we moved into discussion of 5.0 release (and what folks may be working on for that release)</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; For 5.0, a few major features have been identified:</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; (1) Mirage 2 (bootstrap based theme for XMLUI) will be released in 5.0</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; (2) ORCID support (also from @mire with U of Missouri) will also be released in 5.0</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; There is interest in finding ways to *enhance the REST API* as well for 5.0...but no one was identified (yet) to do that work.  Many people hope to see the REST API improved though, in the hopes that it could become our  primary API to build a UI against.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;Anja&gt; I've done some stuff for the REST API</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; There was also interest in seeing some form of "Streaming" Support in 5.0, e.g. DS-1942  .  There's also some streaming work being performed by Open Repository / BioMed Central</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1942">https://jira.duraspace.org/browse/DS-1942</a> ] - [DS-1942] DSpace admins should be able to enable streaming or pseudo streaming on a per-format basis - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; Anja: yes, your name came up actually as someone who might be able to help us enhance the REST API, etc.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;Anja&gt; I've done something with search and stats is now working too</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;Anja&gt; <a href="http://dspace.jorum.ac.uk/rest/items/stats?start=2014-06-01&amp;end=2014-06-03&amp;interval=day">http://dspace.jorum.ac.uk/rest/items/stats?start=2014-06-01&amp;end=2014-06-03&amp;interval=day</a> as an example</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; Anja: yep, I had heard you were working on that. It sounds like we still need to find a way to cleanup the REST API Pull Request though (as I know they are broken/messed up right now)</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;Anja&gt; I don't quite understand how I created that mess</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;Anja&gt; should I just delete the one and try again in a new branch?</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;Anja&gt; Also stats is building on the search, so I don't know how to create a PR for that without the search being in the code first</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; It sounded like, from what I heard...it was mostly a matter of creating a Pull Request off of an older version (DSpace 1.8?) instead of the latest codebase.  Sometimes the cleanest way to do a Pull Request is to do it against the "master" branch, rather than an old version of DSpace code</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; You can create dependent Pull Requests...just make it known that one depends on the other...that way to we try and review the search part earlier on, and merge it first</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;Anja&gt; OK, so just create a branch of the branch with search</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; Anja: yep, I think that should work fine</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;Anja&gt; I am changing job in a month, so I try to get this done fairly soon</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; And make sure to create the *search* PR against a fresh copy of the "master" branch, if possible.   That should help the PR turn out "clean"</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;Anja&gt; Yes, there are not many files changed for that</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; Anja: that'd be great! Thanks.  Congrats also on a new job!  Will you still be working on DSpace in your new job, or are you moving on to other things?</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;Anja&gt; Thanks. No I am going to join the Uni Manchester Library and they are using Fedora</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; OK, good to know! In that case, we'll have to make sure to get your DSpace work analyzed quickly (or handed over to someone else), so that we aren't bugging you with DSpace REST API questions later on :)</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;Anja&gt; I hand over my developments to the new person, so someone should continue with REST within Jorum</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, ok. That's also good to know. thanks!</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;mhwood&gt; I'm sure we'd all appreciate an introduction.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;tdonohue&gt; yes, definitely</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;Anja&gt; I'll do that soon</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; sounds good</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; A few other discussion points from the OR14 Developer Meeting....</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; (1) Several people (both Developers &amp; DCAT) asked that we split the JIRA updates out into a separate mailing list (currently any updates in JIRA are sent to dspace-devel).  We had some DCAT members say they'd like to subscribe *just* to JIRA updates...and others felt that not all folks on dspace-devel may want to see every little JIRA update</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; (2) Folks requested that DuraSpace find a way to re-enable self-registration in JIRA/Wiki. It's been disabled since December (after spammers attacked our wiki and crashed it).  I've already brought this up with our sysadmin folks, and we're going to look at options to re-enable it (hopefully as early as next week)</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; (3) Finally, there was a request for some sort of "Developers Hub" (akin to a "Stack Overflow" or similar)...a place to do Q&amp;A and vote up good answers...also a place to share what folks are working on (even tiny projects or fixes or tweaks), so that it's easier to find common interests.  The concern is that the mailing list is hard to find old answers on, and some things go unanswered. A few of us (Graham Triggs, Andrea Schweer </span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;tdonohue&gt; Regarding #3 -- essentially folks are dissatisfied with the mailing lists. Too many questions are repeated, and it's hard to find answers...and too many threads are "forgotten" or unanswered.  So, we're just trying to see if there's a better way to communicate between developers..with "Stack Overflow"-like idea being just one possible option.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;mhwood&gt; I would wish for a way to be notified of activity, so I don't have to remember to scan for new stuff all the time.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:42:add0:7ed2:ecf9) Quit (Ping timeout: 260 seconds)</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yep. I agree.  It'd be nice to have a way to be notified, or at least have a place you can go to see "unanswered" stuff....that's how the idea of "Stack Overflow" came up...they do a good job of letting you "subscribe" to topics, and "incentivizing" you (via badges/notoriety) to take part &amp; help out</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; I've been digging around a bit already...and Stack Exchange actually does let you suggest a new "Q&amp;A Site" (<a href="https://area51.stackexchange.com/)">https://area51.stackexchange.com/)</a>  So, we could try to suggest one for DSpace.   I also just stumbled across a plugin for Confluence wiki which lets you do Q&amp;A similar to StackOverflow/StackExchange: <a href="https://www.atlassian.com/wac/software/confluence-questions">https://www.atlassian.com/wac/software/confluence-questions</a></span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;kompewter&gt; [ Confluence Questions - Knowledge Sharing Software | Atlassian ] - <a href="https://www.atlassian.com/wac/software/confluence-questions">https://www.atlassian.com/wac/software/confluence-questions</a></span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; But, I'll be forwarding these ideas on to Graham &amp; Andrea (and anyone else who is interested) to get their comments, etc.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; So, I think that is *everything* from OR14 that I wanted to highlight.  Didn't realize it would take most of the meeting ;)</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; Any questions on OR14 stuff...or comments?  As mentioned, this was a ton of info...so questions in the future are also welcome, and we can even revisit this briefly next week as well to see if there are questions</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;Anja&gt; sounds all good</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; Ok. cool.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;mhwood&gt; Thanks!</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; So, in the final few minutes here... I wanted to at least touch upon the 3.3 bug fix release.  It looks like all the tickets marked for 3.3 are now completed.  So, are we ready to release 3.3 this week (or early next week)?</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;mhwood&gt; I had a question out on -devel about a problem that I had with m-release-p not updating versions properly.  It depends on the version of m-release-p *and* the version of git.  Would like to revive that and see what people think.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; oh, I must've missed that query while I was out at OR14. Need to go back and look again</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, of course I posted it Friday afternoon before OR to ensure the smallest audience. :-/</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mhwood&gt; Date: Fri, 6 Jun 2014 14:49:10 -0400</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mhwood&gt; Subject: [Dspace-devel] mvn release plugin didn't update version properly for</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;mhwood&gt;         3.3-rc1: now what?</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; just found it</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; Not sure I fully understand what happened.  It sounds like you looked into this some? It's a common problem?</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mhwood&gt; It's a somewhat common problem, but the solution is *either* to upgrade or downgrade m-release-p, depending on your environment.  So fixing it here could break it elsewhere.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; do you have links to these "solutions"?</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;mhwood&gt; I'll see if I can find some.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; cause I think I need some more info...I'll try and dig around myself too</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;mhwood&gt; Thanks.  I should followup on the ML just to reawaken the thread.</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;mhwood&gt; <a href="https://jira.codehaus.org/browse/MRELEASE-812">https://jira.codehaus.org/browse/MRELEASE-812</a></span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;kompewter&gt; [ [MRELEASE-812] "prepare" does not commit before tagging and therefore deploys snapshot instead of release - jira.codehaus.org ] - <a href="https://jira.codehaus.org/browse/MRELEASE-812">https://jira.codehaus.org/browse/MRELEASE-812</a></span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; Also, regarding "SNAPSHOT" Releases...it looks like your snapshot release did show up in Sonatype's Maven repo: <a href="https://oss.sonatype.org/content/groups/public/org/dspace/dspace-api/3.3-SNAPSHOT/">https://oss.sonatype.org/content/groups/public/org/dspace/dspace-api/3.3-SNAPSHOT/</a></span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;kompewter&gt; [ Index of /groups/public/org/dspace/dspace-api/3.3-SNAPSHOT ] - <a href="https://oss.sonatype.org/content/groups/public/org/dspace/dspace-api/3.3-SNAPSHOT/">https://oss.sonatype.org/content/groups/public/org/dspace/dspace-api/3.3-SNAPSHOT/</a></span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;mhwood&gt; OK, either it was slow or I wasn't looking in the right place.</span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;tdonohue&gt; Hmm...this workaround seems to imply that all you need to do is set "LANG" to fix the "mvn release:prepare" issues: <a href="http://www.shredzone.de/cilla/page/373/maven-release-plugin-and-git-fix.html">http://www.shredzone.de/cilla/page/373/maven-release-plugin-and-git-fix.html</a></span><br />
+<span class="irc-date">[16:06]</span> <span class="irc-black">&lt;kompewter&gt; [ maven-release-plugin and git fix - shredzone ] - <a href="http://www.shredzone.de/cilla/page/373/maven-release-plugin-and-git-fix.html">http://www.shredzone.de/cilla/page/373/maven-release-plugin-and-git-fix.html</a></span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;mhwood&gt; mwood@mhw ~ $ locale</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;mhwood&gt; LANG=en_US.UTF-8</span><br />
+<span class="irc-date">[16:07]</span> <span class="irc-black">&lt;mhwood&gt; Already got that.</span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;mhwood&gt; Just found this, though:  <a href="http://stackoverflow.com/questions/20912299/using-maven-release-plugin-with-git-1-8-5">http://stackoverflow.com/questions/20912299/using-maven-release-plugin-with-git-1-8-5</a></span><br />
+<span class="irc-date">[16:08]</span> <span class="irc-black">&lt;kompewter&gt; [ Using maven-release-plugin with git-1.8.5 - Stack Overflow ] - <a href="http://stackoverflow.com/questions/20912299/using-maven-release-plugin-with-git-1-8-5">http://stackoverflow.com/questions/20912299/using-maven-release-plugin-with-git-1-8-5</a></span><br />
+<span class="irc-date">[16:09]</span> <span class="irc-black">&lt;tdonohue&gt; that one just says to upgrade to "maven-release-plugin" 2.5.  That seems simple enough to try out</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;tdonohue&gt; Honestly, if upgrading to 2.5 "works for you", mhwood...I'd say just do that.  We can revisit this again at the next release (4.2) and again with 5.0....and if it pops up again, we look for a "better" fix</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-black">&lt;mhwood&gt; There are things I can do to fix it *for me*.  But they can break the process for people who would not have seen the problem without the "fix".</span><br />
+<span class="irc-date">[16:10]</span> <span class="irc-brick">* tdonohue notes that we're into "overtime" here.  No more topics will be brought up today after this discussion of 3.3 stuff</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;mhwood&gt; I may try downgrading my local git temporarily, just to get this release to work.  That way I don't have to introduce changes to DSpace.</span><br />
+<span class="irc-date">[16:11]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: Not sure I understand how it'd break for others.. especially if people claim that v.2.5 of m-release-p should fix this problem</span><br />
+<span class="irc-date">[16:12]</span> <span class="irc-black">&lt;mhwood&gt; Others say that running with m-release-p:2.5 *causes* a problem and downgrading fixes it.  It's dependent on the *combination* of m-release-p and git versions.</span><br />
+<span class="irc-date">[16:13]</span> <span class="irc-navy">* Anja (82587893@gateway/web/freenode/ip.130.88.120.147) Quit (Ping timeout: 246 seconds)</span><br />
+<span class="irc-date">[16:14]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not seeing any verified "issues" with 2.5 in the links above...there's one claim to that affect, but everything else seems to imply that it was fixed in 2.5.  So, that's why I was wondering if the quick fix here is to just upgrade us to 2.5 and *see* if it works right</span><br />
+<span class="irc-date">[16:15]</span> <span class="irc-black">&lt;mhwood&gt; Would it be acceptable to just make it work for git 1.8.5ff, and if someone has problems as a result, the response is "upgrade your git"?</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; yes...as long as we document what version of git you need to do a release.  Releases are only done by a small subset of folks.  We already have notes in the Release Docs about particular versions of Maven you *must* avoid.  So, having notes related to Git versions is also OK</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;mhwood&gt; I will take that approach, then.</span><br />
+<span class="irc-date">[16:16]</span> <span class="irc-black">&lt;tdonohue&gt; ok, sounds fine</span><br />
+<span class="irc-date">[16:17]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'm not going to bring up any more topics here.  Is that the last thing for the 3.3 release though? Is the release basically "ready to go"?</span><br />
+<span class="irc-date">[16:18]</span> <span class="irc-black">&lt;mhwood&gt; I think so.  That's why I was putting out an RC.  Not the best week to be doing that, I know.</span><br />
+<span class="irc-date">[16:19]</span> <span class="irc-black">&lt;tdonohue&gt; gotcha</span><br />
+<span class="irc-date">[16:20]</span> <span class="irc-black">&lt;mhwood&gt; OK, I followed up the ML posting with those links above and the fix I'm going to try.  Thanks for talking it over with me.</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so, I guess keep in touch about how the release process goes (you may want to obviously do another RC just as a test).  We can then work on getting the docs &amp; advertising in place for 3.3 once the Release process kinks are worked out</span><br />
+<span class="irc-date">[16:21]</span> <span class="irc-black">&lt;mhwood&gt; Will do.</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;tdonohue&gt; Thanks, mhwood!</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;tdonohue&gt; I'm going head into "lurking" now...if anything else pops up, let me know</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-navy">* monikam_ (~Monika_Me@monika.Princeton.EDU) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[16:22]</span> <span class="irc-black">&lt;mhwood&gt; Later, then.</span><br />
+<span class="irc-date">[16:26]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:e0a4:8bdd:4c05:dba0) has joined #duraspace</span><br />
+<span class="irc-date">[17:19]</span> <span class="irc-green">* monikam_ (~Monika_Me@monika.Princeton.EDU) has joined #duraspace</span><br />
+<span class="irc-date">[18:11]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[18:23]</span> <span class="irc-green">* monikam_ (~Monika_Me@monika.Princeton.EDU) has left #duraspace</span><br />
+<span class="irc-date">[19:50]</span> <span class="irc-navy">* aawoods_ (~awoods@67.165.245.76) Quit (Ping timeout: 240 seconds)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-green">* linux4u (~james@employed.library.emory.edu) has joined #duraspace</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-navy">* kdweeks (~Adium@2001:468:c80:a103:e0a4:8bdd:4c05:dba0) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-green">* kdweeks (~Adium@2001:468:c80:a103:e0a4:8bdd:4c05:dba0) has joined #duraspace</span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-green">* tdonohue (~tdonohue@c-50-179-112-246.hsd1.il.comcast.net) has left #duraspace</span><br />
+<span class="irc-date">[22:12]</span> <span class="irc-navy">* hpottinger (~hpottinge@mu-161174.dhcp.missouri.edu) Quit (Quit: Later, taterz!)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

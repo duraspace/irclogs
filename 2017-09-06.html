@@ -1,0 +1,208 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2017-09-06
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:45]</span> <span class="irc-brown">-weber.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-weber.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-weber.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-brown">-weber.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Topic is 'Welcome to DuraSpace IRC. This channel is used for formal meetings and is logged - <a href="http://irclogs.duraspace.org/'">http://irclogs.duraspace.org/'</a></span><br />
+<span class="irc-date">[6:45]</span> <span class="irc-green">* Set by tdonohue on Thu Sep 15 17:49:38 UTC 2016</span><br />
+<span class="irc-date">[12:23]</span> <span class="irc-green">* mhwood (~mhwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[12:24]</span> <span class="irc-green">* tdonohue (~tdonohue@dspace/tdonohue) has joined #duraspace</span><br />
+<span class="irc-date">[13:52]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Reminder that we have our weekly DSpace DevMtg today at 15UTC (11am ET, a little over an hour from now) here.  Agenda was just posted to: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-09-06">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-09-06</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Hi all @here.  It's DSpace DevMtg time. Our agenda is posted above :point_up:</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;terrywbrady&gt; I have a conflicting meeting today.  I will join in if it ends early.</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;sulfrian&gt; Hi</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Looks like more folks are around today (at least lurking in Slack) which is good to see. :slightly_smiling_face:  Welcome all.</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; Hello everyone.</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; Hello.</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; The main topic for today's meeting is the 6.2 release, and (hopefully) trying to nail down a release date for 6.2</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; I just added a reference to DS-3681 to the meeting schedule. If possible, I would like to see that going into 6.2.</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; As of a week ago, demo.dspace.org has been running 6.2.  But, I'll admit, I haven't heard any feedback (good or bad) on whether folks have been testing demo</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; But I should mention it is not a reason to delay 6.2.</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @sulfrian created a PR against it (thank you!). I reviewed the PR it looks fine to me. We would need a second +1, a vote from mhwood as release committer and someone to test it.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @pbecker and @sulfrian : To be honest, I think 6.2 has been high priority for some time (cause of known stability/scalability issues in 6.x). I worry that 3681 needs more eyes/testing, and I'm hesitant to throw in a larger refactor here (as it could have unforeseen side effects or accidentally introduce new bugs).  That isn't to say it shouldn't get into 6.x soonish, but I'm very hesitant to push more into </span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; But, that's just my opinion here, and would like to hear from others</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; I think that 6_x is going to have quite a few releases, because we seem to uncover more Hibernate/cache problems whenever we fix one.  We need to get fixes out frequently until we seem to have found them all.</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; It is a direct follow-up of some hibernate problems and touches only the authority-indexer, so the side-effects should be limited. But If you all think it needs more tester, I would understand nevertheless.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; well said @mwood. Yes, I'd rather we do smaller, speedier releases to 6.x.  I wish 6.2 had been out a few weeks back (as there are significant fixes in there that folks need in production) and I don't want to delay it any further at this point.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; I'm a bit afraid that people who are using the authority index (ORCID) will either need a lot of memory to rebuild that index or will run into problems.</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; I agree that it shouldn't delay 6.2</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; So, let's set 3681 aside for now, and talk 6.2 first then</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; I haven't heard any specific news/feedback on the pre-6.2 out on demo.dspace.org.  But, also demo hasn't crashed in the last week (that I've seen), so that's something.  Do we want to do some of our own quick testing of demo still? Or do we feel 6.2 is "ready to go"?</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; I'm happy we reverted the changes in the context class. I think that made it much easier to test. Personally I think it is ready.</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Yes, thanks for that update @pbecker and your additional testing that discovered the Context changes were dangerous</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; So, if we feel 6.2 is "ready"....then all we really need is someone to volunteer to cut the release (@mwood, are you still interested?) and a date to cut it on/by.  I do recall last week we tentatively said Thurs/Fri of this week as a release date</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; I've been running what is essentially a preview of 6.2 in staging for a couple of weeks, no complaints</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; I still have 6.2 release on my calendar.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @hpottinger so do we in our test system (production is waiting for a bigger migration)</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @mwood : Remind me what date we said? Is it on your calendar for tomorrow or Fri? :slightly_smiling_face:</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; Tentative Thursday, definitely by Friday.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; so... honest question, how many times do people actually run the reindex for authority?</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @hpottinger : I don't know the answer there...but I don't want to accidentally break it to the point that we have to rush out an immediate 6.3 the same week ;)</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @hpottinger at least when they start using it and it was introduced with DSpace 6.</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; ORCID is a point that currently gets quite some attention</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; ```# run the index-authority script once a day at 12:45 to ensure the Solr Authority cache is up to date #45 0 * * * $DSPACE/bin/dspace index-authority &gt; /dev/null ```</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; commented out</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; As far as I'm concerned, an untested PR that does code refactoring is something we don't rush into a release. It needs testing &amp; analysis, and if 6.2 is "ready to go", we should just release 6.2 and get this refactor in 6.x for a 6.3 in the near future</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; Is someone @here who would volunteer to test it?</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; I just haven't tested it as we are not using ORCID.</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; I agree, 6.2 is OK as-is, and I can test it, though it's not clear at me what benefit one would even achieve by re-running the index script</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; I honestly think that if we are saying we shouldn't delay 6.2 for 3681 *AND* we feel 6.2 is ready, THEN that means we release 6.2 tomorrow (or whenever @mwood is ready) and work on getting 3681 tested &amp; into 6.x just after that release</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @hpottinger the index script is needed only for the initial indexing. If you install a empty repository and switch it on right away, you shouldn't need it at all.</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @tdonohue fair enough. @mwood go ahead!</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; OK, that's the cause of my confusion: I've been using ORCID on our staging repository since we stood it up</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; And if you are upgrading to 6_x and beginning to use the authority feature, then indexing should work if given enough memory, yes?</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; Depends on the size of your repo.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; It currently needs to be able to cache *all* your items.</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; Fun thing about Java8/Tomcat 8 is, you can finally just feed your box more memory and it "does the right thing"</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; Maybe we should mention it in the release notes or in our documentation as known bug? pointing to the PR and ask for testers?</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; If we get 3681 into 6.x shortly, then sites that need it immediately can just cherry-pick it immediately</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; We do need to fix that.  But I feel that "inefficient but works given enough memory" is less urgent than "crashes".</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @mwood that was the idea behind my PR that just removed the uncachEntity() call within the authority indexer.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; We also need a model to point to when someone finds another bulk operation that wastes memory.</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; The problem is 3681 is a "known bug" with no definitive replication steps.  I agree that there's concerns that it may be using a lot of memory, but we have no definitive description of when issues might occur.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; So, I agree with 3681 conceptually, and I want to see it move forward. But, I don't see any reason to make a big deal out of it until someone encounters it</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @tdonohue I'm already conviced to delay 3681 and push out 6.2 immediately. ;)</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; OK.  Let's get 3618 out "soon" but not wait on it for 6.2.</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @pbecker : I was responding to the note about adding 3681 to documentation as a "known bug", as I don't think it really is "known" yet...we don't know how to trigger it quite yet other than "it likely will hit memory issues at some point"</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; ah. got it.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; But, let's just move back to 6.2 discussions... I think we just set 3681 aside for now. We do need to move it forward, but we'll do so after 6.2</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; well, you could compare memory footprints using YourKit or some other profiler</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @hpottinger : no one has done that yet though, which is my point. It's not yet "known" how severe this is ;)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; So how many items are in the repo. on which the problem was discovered?  That's a rough upper bound on conditions to reproduce it.</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @hpottinger isn't that the point where you normally jump in and ask if the someone volunteer to do so?</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @mwood : Unless I'm mistaken, 3681 hasn't been "discovered" on any repo yet.  It was a discovery that the code looks like it'd load everyting into memory and hit issues</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; I'm pretty sure I already volunteered, and I am just saying how I plan to do it :slightly_smiling_face:</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; It sounds like we all agree here...we're just talking around how to move 3681 forward. The main points here are though that we should (1) Move forward with 6.2 as-is, (2) figure out ways to test/reproduce 3681 and move its PR forward post-6.2</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; I remove the call to uncacheEntity(). I felt obligated to at least create a ticket about that. @sulfrian was so kind to create a PR.</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; OK, so... 3681 has a PR, but it doesn't look like it's linked on the ticket...</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; Action: hpottinger starts scrolling back</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; So, back to 6.2 scheduling then.  @mwood is there a day that works better for you to cut the 6.2 release?  (I'm around this week to help as needed too)</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; <a href="https://github.com/DSpace/DSpace/pull/1835">https://github.com/DSpace/DSpace/pull/1835</a></span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @hpottinger : You need to be logged into JIRA. Then you'll see the "development" section  on 3681 which links to the PR that @pbecker just posted.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; I have one 15-minute meeting on Friday.  Same on Thursday plus the DSpace 7 meeting.</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;hpottinger&gt; DSPR#1835</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @mwood : It's your call really.  You could start it post- DSpace 7 on Thursday... or first-thing Friday</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; (I'd recommend starting it earlier in the day, in case you need extra time to resolve issues)</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-green">* ksclarke (~ksclarke@pdpc/supporter/active/ksclarke) has joined #duraspace</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; I like that:  start Thursday afternoon, with Friday available as needed.</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Ok, sounds good to me then. @mwood will cut DSpace 6.2 tomorrow afternoon (with overflow into Fri if needed)!  Thanks @mwood!</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; And, let me know if I can help in any way. I'll be around a bit, and may be able to chip in on Release Notes, etc, as needed (although those are already started at <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.2+Status)">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.2+Status)</a></span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; Thanks!</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; So, that wraps up 6.2 planning.</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; I'll briefly mention that 5.8 was released late last week. I forgot to get the announcement sent out yesterday, but will do so today.  <a href="https://github.com/DSpace/DSpace/releases/tag/dspace-5.8">https://github.com/DSpace/DSpace/releases/tag/dspace-5.8</a></span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Thanks to @terrywbrady (and @mwood) for the 5.8 release!</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; The rest of our agenda for today is a bit open ended (purposefully).  We have several "ongoing discussion topics" (see bullet #3) that have been hanging on here for some time: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-09-06">https://wiki.duraspace.org/display/DSPACE/DevMtg+2017-09-06</a></span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Are there any we'd like to talk through in the remaining 20+ minutes?</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; I think the DSpace Database Connections discussion (3.a.) has been discussed a bit already, and docs have begun at <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Database+Access">https://wiki.duraspace.org/display/DSPACE/DSpace+Database+Access</a>   So, that might be one we can take off this list for now</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; (unless we want to talk DSpace 7 plans for that)</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; I have a question regarding 3aII and 3aIII In that list.</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @pbecker : go for it</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; Two context object within the same thread: does that mean within the same web/cli session?</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; Can we be sure that to different user never get the same DB Connection?</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @pbecker: no...each *request* is a new thread, so connections won't be shared across user requests</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; But connections *will* be shared within a single request (which is not the same behavior as in 5.x)</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; There is a way to ask Hibernate for a fresh Session, but we don't provide access to it in DSpace.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; hopefully no one will create a servlet container that reuses threads.</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; Do we have a ticket on what @mwood just pointed out?</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Hibernate Session != HTTP Session.  We need to be careful about saying "session" here</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; I believe that there is code to ensure that the current transaction is closed at the end of a request.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; Oops, yes, Hibernate Session.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Hibernate Session is loosely a *database connection* from the DB pool</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; fine. that were my two cents.</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; thanks for the answers</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Ok, So, regarding these database connection issues. I think we should continue to enhance the "DSpace Database Access" docs to describe the new behavior in 6.x.  But, I'm going to take this off the discussion topic list, as I'm not sure we have anything to discuss in detail here _quite yet_</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; We can pull this topic back into discussion as we see fit though, obviously</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @tdonohue fine with me. Do we need a ticket for DSpace 7 to check if we handle Hibernate sessions correctly and whether we need to expose the methods to handle hibernate session towards DSpace?</span><br />
+<span class="irc-date">[15:44]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; I think that first we need a theory of how we should use Hibernate, and then figure out what code changes are needed.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Yes, I think maybe that is the discussion topic now that I think about it... how do we want this to behave in DSpace 7 (i.e. are we OK with the DSpace 6 way, or do we see areas of improvement), and start to map out what code changes we'd need</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; We have been running into problems with code that was converted for Hibernate mechanically but not logically.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Currently DSpace 7 is synced with DSpace 6... in that 7 will behave the same as 6 does.  We have the opportunity for larger refactors in the DSpace 7 codebase, but we don't have clear proposals on what those changes should be</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; So, I'll leave this topic around but update it...we need to talk ideas specific to DSpace 7.</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; But, for today, I'd like to see if we can get a few of these other "hanging" topics talked through briefly</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; OK</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; +1</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; So, I see this question of DSpace + Spring (3.b.).  Personally, I don't see any question here...the Java API is moving towards Spring (during the 6.0 refactor and now again in the 7.0 REST API).  So, I think the answer is simply "Yes, we should move DSpace more towards Spring"</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; But, that then begs the question: "how else should it or could it use Spring" ;)</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; More use of dependency injection.  Right now, some code calls "new DSpace().getThis().getThat()", other code has to know which ThingServiceFactory.getInstance().getWhatsit() to call, and some lucky code is beans which can just use @Inject.</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; Spring security, authN/Z</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; I think we should let Spring inspect all of our classes so that we can use @Inject more liberally.  This may require some refactoring.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @mwood : yes, I agree with all that. I guess the question in the agenda doesn't make sense though... It sounds more like we should generally be creating tickets (or proposals) of other areas of the codebase that could use a refactor to better make use of Spring</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; You may be right.</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; So, I think this question is not the correct one.  We are already using Spring, and we should start to embrace that more.  We all should start to look more closely at areas of the code that are "old way" or "only partially refactored" and propose ways to make them "Spring way" in either DSpace 7 or beyond</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @tdonohue what is with spring security for AuthN/Z?</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;sulfrian&gt; @pbecker There was some discussion in github regarding auth in DSpace 7.</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @pbecker : I'd embrace that...but it'd be a major refactor of our existing AuthN/Z, so I'm not sure myself it's possible in time for DSpace 7. But, maybe for DSpace 8?</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;sulfrian&gt; Here: <a href="https://github.com/DSpace/Rest7Contract/issues/10">https://github.com/DSpace/Rest7Contract/issues/10</a></span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; We should look at widely-used things like Spring Security to see if we can drop our home-grown AuthNZ code.</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; I would add it to the list of thing where we can/should move into the direction of spring. Or is that limited to DSpace 7?</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @sulfrian thank you!</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; For DSpace 7, we are planning to use the same DSpace 6 AuthN/Z (with a Spring Security "shim" on the REST API layer), as we worry replacing our entire custom AuthN/Z is a massive endeavor (and on DSpace 7 team, we don't have enough resources to take that on right now)</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; But, from what I've heard *everyone* agrees our custom AuthN/Z needs to go (sooner the better) and be replaced likely by Spring Security</span><br />
+<span class="irc-date">[15:55]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; @tdonohue would you prefer someone to chip into DSpace7 or into Spring Security in our java backend?</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; What AuthNZ needs more than replacing our own code is to take decisions away from the user interfaces and move them into core objects, so that questions are decided the same way no matter how they are asked.</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; @pbecker : I'd rather have more resources for DSpace 7 right now...as the sooner we get the new UI done the better (and it allows us *all* to work together instead of on separate UIs)</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Unfortunately, I'm going to have to run shortly here to a DSpace Steering Mtg</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; But, I think we all agree that DSpace + Spring is the future here...we just need more ideas/proposals/tickets on where we can better use Spring in our code</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; So, I need to jump to another meeting now, but it's been a good discussion.</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; And I'll be around all week to help with 6.2 release, etc</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;tdonohue&gt; Have a good one!  (Feel free to continue the discussion if you want, but I'll just be lurking)</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;mwood&gt; DS-2931 may be relevant to Spring discussion.</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;DSpaceSlackBot1&gt; &lt;pbecker&gt; I have to run too. Good bye everyone.</span><br />
+<span class="irc-date">[19:00]</span> <span class="irc-navy">* dyelar (~dyelar@129.237.146.129) Quit (Quit: Leaving.)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-navy">* ksclarke (~ksclarke@pdpc/supporter/active/ksclarke) Quit (Ping timeout: 248 seconds)</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-navy">* mhwood (~mhwood@mhw.ulib.iupui.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-navy">* tdonohue (~tdonohue@dspace/tdonohue) Quit (Read error: Connection reset by peer)</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

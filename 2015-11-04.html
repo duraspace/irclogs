@@ -1,0 +1,262 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2015-11-04
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[2:08]</span> <span class="irc-navy">* misilot (~misilot@p-body.lib.fit.edu) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[4:09]</span> <span class="irc-green">* srobbins_ (~srobbins@libstfsdg02.library.illinois.edu) has joined #duraspace</span><br />
+<span class="irc-date">[4:11]</span> <span class="irc-navy">* srobbins (~srobbins@libstfsdg02.library.illinois.edu) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[4:11]</span> <span class="irc-green">* srobbins_ is now known as srobbins</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-leguin.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-leguin.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-leguin.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-brown">-leguin.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* DuraLogBot (~PircBot@webster.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:50]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[10:57]</span> <span class="irc-green">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:17]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:40]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:41]</span> <span class="irc-green">* awoods (~awoods@c-98-245-50-182.hsd1.co.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-brick">* tdonohue Reminds everyone the DSpace DevMtg starts in just a few minutes!</span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-black">&lt;tdonohue&gt; Agenda at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-11-04">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-11-04</a></span><br />
+<span class="irc-date">[14:57]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2015-11-04 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-11-04">https://wiki.duraspace.org/display/DSPACE/DevMtg+2015-11-04</a></span><br />
+<span class="irc-date">[15:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hello all, it's time for our DSpace Developers Mtg. (Agenda pasted above)</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;tdonohue&gt; Since both North America &amp; Europe just exited daylight savings, this is an hour earlier...so I'm going to ping the usual suspects/committers (helix84, mhwood, pbecker, peterdietz, terry-b)</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;pbecker&gt; hi tdonohue, hi *</span><br />
+<span class="irc-date">[15:01]</span> <span class="irc-black">&lt;mhwood&gt; Zzzzz...uh, here!</span><br />
+<span class="irc-date">[15:02]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so, the first topic for today is trying to finalize things for 5.4, and get a sense of whether we think we can release it this week, or if we need to recommend a delay to aschweer (who won't be here, as it's middle of the night for her)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;tdonohue&gt; Here's our still open PRs for 5.4...there's still 10 open, but most of these are rather small: <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4</a></span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;pbecker&gt; First I want to thank tdonohue for fixing DS-2736, DS-2737 and DS-2738!</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2736">https://jira.duraspace.org/browse/DS-2736</a> ] - ('Unexpected error:', &lt;type 'exceptions.AttributeError'&gt;)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2737">https://jira.duraspace.org/browse/DS-2737</a> ] - ('Unexpected error:', &lt;type 'exceptions.AttributeError'&gt;)</span><br />
+<span class="irc-date">[15:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2738">https://jira.duraspace.org/browse/DS-2738</a> ] - ('Unexpected error:', &lt;type 'exceptions.AttributeError'&gt;)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;tdonohue&gt; you're welcome. Hopefully the fixes are all correct (I don't tend to work with the JSPUI, but these all seemed like low-hanging fruit) ;)</span><br />
+<span class="irc-date">[15:04]</span> <span class="irc-black">&lt;pbecker&gt; I just merged his PR against the first two of them into our dspace-5_x branch. Currently I'm porting the fix to dspace-3_x dspace-4_x and master.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;pbecker&gt; I'm not sure about DS-2738 yet, as it might affect with community/collection admins. But I hope to be able to test it today.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2738">https://jira.duraspace.org/browse/DS-2738</a> ] - ('Unexpected error:', &lt;type 'exceptions.AttributeError'&gt;)</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;pbecker&gt; s/with/</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;kompewter&gt; pbecker meant to say: I'm not sure about DS-2738 yet, as it might affect  community/collection admins. But I hope to be able to test it today.</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;tdonohue&gt; So, for 5.4, I suspect it would be useful to go through the remaining PRs today (either now or during JIRA review...or a bit of both).  Any objections to looking at some of these now?</span><br />
+<span class="irc-date">[15:05]</span> <span class="irc-black">&lt;peterdietz&gt; i can review</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;mhwood&gt; OK</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-brick">* pbecker is slightly distracted by rebasing the fix for 2736 and 2737. But please go on.</span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; Here's the list..<a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4</a></span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4</a></span><br />
+<span class="irc-date">[15:06]</span> <span class="irc-black">&lt;tdonohue&gt; I'm going to *skip* the top one (#1147) as pbecker will be testing &amp; reviewing and it might need a small update</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; so, DSPR#1146 is next</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1146">https://github.com/DSpace/DSpace/pull/1146</a> ] - DS-2542: Fix bug for day granularity (from zuki&amp;#39;s PR#912) by tdonohue</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;tdonohue&gt; This is a tiny fix, initially from zuki for DS-2542.  However, as noted in the final comments of that ticket, it doesn't solve *everything*...just 99% of it</span><br />
+<span class="irc-date">[15:07]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2542">https://jira.duraspace.org/browse/DS-2542</a> ] - [DS-2542] XOAI does not support non granular YYYY-MM-DD harvesting properly - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:08]</span> <span class="irc-black">&lt;tdonohue&gt; So, the question here is really.... is this "good enough" for now/5.4?  We can log a ticket for the remaining issue for post-5.4 (as it'll require a bigger XOAI fix)</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;mhwood&gt; 99% better is a lot better. :-)</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;tdonohue&gt; yea, that's my feeling too. See my comment here: <a href="https://jira.duraspace.org/browse/DS-2542?focusedCommentId=46502&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-46502">https://jira.duraspace.org/browse/DS-2542?focusedCommentId=46502&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-46502</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2542] XOAI does not support non granular YYYY-MM-DD harvesting properly - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-2542?focusedCommentId=46502&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-46502">https://jira.duraspace.org/browse/DS-2542?focusedCommentId=46502&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-46502</a></span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2542">https://jira.duraspace.org/browse/DS-2542</a> ] - [DS-2542] XOAI does not support non granular YYYY-MM-DD harvesting properly - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:09]</span> <span class="irc-black">&lt;mhwood&gt; Who knows? XOAI 4 may fix this, or make the necessary changes different.</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yes, I was thinking the same thing.  We might want to first work on upgrading to XOAI 4 instead of concentrating too much more effort on major issues in XOAI 3</span><br />
+<span class="irc-date">[15:10]</span> <span class="irc-black">&lt;mhwood&gt; Indeed.</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;tdonohue&gt; So, with PR #1146, any objections to merging this for 5.4 and closing 2542 &amp; opening a new ticket for the remaining "midnight issue"?  (I'll open the new ticket)</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;mhwood&gt; None here.</span><br />
+<span class="irc-date">[15:11]</span> <span class="irc-black">&lt;peterdietz&gt; It looks like its progress on this front</span><br />
+<span class="irc-date">[15:12]</span> <span class="irc-black">&lt;tdonohue&gt; ok, I'll consider that approval (along with cjuergen's tests + aschweer's comments on the ticket). I'll press the green button, close the existing ticket &amp; open up a new one post-mtg</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; merged</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;tdonohue&gt; next in our list: DSPR#1122</span><br />
+<span class="irc-date">[15:13]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1122">https://github.com/DSpace/DSpace/pull/1122</a> ] - DS-2831 connections cleanup and context reuse by arnodb</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;tdonohue&gt; This code looks right/obvious to me...and it's a necessary cleanup of a Context that is just left open/hanging</span><br />
+<span class="irc-date">[15:14]</span> <span class="irc-black">&lt;peterdietz&gt; yep</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;mhwood&gt; Nothing obviously wrong.</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;peterdietz&gt; This is also very related to DSPR#1134, so whatever we vote on this, should also apply the other</span><br />
+<span class="irc-date">[15:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1134">https://github.com/DSpace/DSpace/pull/1134</a> ] - DS-2831 connections cleanup, context reuse (master) by arnodb</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: did you give 1134 a test? Just curious, as they are the same fix (for master vs 5.x)</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;peterdietz&gt; unfortunately no, i haven't run this. So hopefully no spooky side effects</span><br />
+<span class="irc-date">[15:16]</span> <span class="irc-black">&lt;tdonohue&gt; would one of you be willing to give these a really quick test today. They look obvious, but I wonder if it's worth testing one/both</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;terry-b&gt; tdonohue, just signing on</span><br />
+<span class="irc-date">[15:17]</span> <span class="irc-black">&lt;peterdietz&gt; Yes, I can give them a run really quick. (quick means ~ 20 minutes)</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: thanks. Once they are tested, please merge! They have approval it sounds like</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;tdonohue&gt; moving along then.. DSPR#1121</span><br />
+<span class="irc-date">[15:18]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1121">https://github.com/DSpace/DSpace/pull/1121</a> ] - DS-2830 add proper synchronization in TokenHolder by arnodb</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; This is a REST specific issue.  It looks reasonable, but I don't know this area of the code so well (yet)</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;tdonohue&gt; It definitely *seems* right...a generation of a token should be synchronized :)</span><br />
+<span class="irc-date">[15:19]</span> <span class="irc-black">&lt;mhwood&gt; Hm, is this one finished?  Or is there an open question?</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;peterdietz&gt; I haven't encountered this issue, but Arnaud's been doing some refined interactions with DSpace via REST. i.e. Using WADL, generating code. So perhaps he also has been profiling login/logout to discover this</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: I think the open question was about porting this forward to "master"?  Maybe peterdietz can clarify</span><br />
+<span class="irc-date">[15:20]</span> <span class="irc-black">&lt;peterdietz&gt; 1121 is good, for 5x</span><br />
+<span class="irc-date">[15:21]</span> <span class="irc-black">&lt;peterdietz&gt; For 6x, the code is ever so different, we have a different data structure that contains the tokens, we could replace it with a Synchronized data structure, or manually have a synchronized block</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: do you want to go ahead and merge this one too then?  Maybe open up a new ticket for moving it forward to "master"?  Or would you rather wait to see a solution for "master" too?</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;peterdietz&gt; he hasn't filed a proper PR, but he has a branch for master <a href="https://github.com/DSpace/DSpace/compare/master...arnodb:DS-2830-rest-authentication-safety-master">https://github.com/DSpace/DSpace/compare/master...arnodb:DS-2830-rest-authentication-safety-master</a></span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;kompewter&gt; [ Comparing DSpace:master...arnodb:DS-2830-rest-authentication-safety-master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/compare/master...arnodb:DS-2830-rest-authentication-safety-master">https://github.com/DSpace/DSpace/compare/master...arnodb:DS-2830-rest-authentication-safety-master</a></span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2830">https://jira.duraspace.org/browse/DS-2830</a> ] - [DS-2830] REST API login/logout thread-safety - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:22]</span> <span class="irc-black">&lt;peterdietz&gt; Would it be strange to create PR on his behalf? I know he suggested it to us</span><br />
+<span class="irc-date">[15:23]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: oh, I see.  So, it sounds like this one should be merged, and you should prompt him to create a PR for "master".  If he doesn't create it, you could, but I bet he'd be willing</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;mhwood&gt; Just leave the ticket open and attach the second PR?  I think it would be sensible.</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; In any case, it sounds like you have these in hand, peterdietz. I'd say merge them once you are satisfied</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;peterdietz&gt; I have just made a PR, from his suggestion. <a href="https://github.com/DSpace/DSpace/pull/1150">https://github.com/DSpace/DSpace/pull/1150</a></span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-2830 (Master) add proper synchronization in TokenHolder by peterdietz · Pull Request #1150 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1150">https://github.com/DSpace/DSpace/pull/1150</a></span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;peterdietz&gt; Okay. I will merge this to 5x and master</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;tdonohue&gt; moving along then... DSPR#1120</span><br />
+<span class="irc-date">[15:24]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1120">https://github.com/DSpace/DSpace/pull/1120</a> ] - DS-2823: Limit Solr text field size to 10,000 tokens by tdonohue</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, this one. So, I'm seriously considering just withdrawing this PR until we figure out a way to get Solr configs to be easier to manage</span><br />
+<span class="irc-date">[15:25]</span> <span class="irc-black">&lt;tdonohue&gt; It turned out to be a "red herring" to my other Solr memory issues...and now, the 10K token thing doesn't matter too much (doesn't affect memory really)</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;tdonohue&gt; It still might be a worthwhile config for "some day", but I'm less interested in forcing it into 5.4... thoughts?</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;mhwood&gt; That seems reasonable.</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;peterdietz&gt; What was the one that you discovered it was putting the fulltext inside, or loading it</span><br />
+<span class="irc-date">[15:26]</span> <span class="irc-black">&lt;peterdietz&gt; 1124</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: yes, this PR (1120) was a "red herring" for the other PR (1124) which fixed the issue of loading the fulltext of every doc in memory</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; So, 1120 really doesn't do anything to help with memory issues</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; as those were fixed in 1124</span><br />
+<span class="irc-date">[15:27]</span> <span class="irc-black">&lt;tdonohue&gt; I'll leave 1120 open for now, but I'm "descheduling" it from 5.4</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;mhwood&gt; So, it would be nice to make this more readily configurable, but perhaps it should be rolled into a general "make Solr configuration easier" effort.</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: yes, likely it should</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; ok, done. taken this one off of 5.4</span><br />
+<span class="irc-date">[15:28]</span> <span class="irc-black">&lt;tdonohue&gt; next, DSPR#1107</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1107">https://github.com/DSpace/DSpace/pull/1107</a> ] - DS-2699 Only escape colon-space, not other characters by aschweer</span><br />
+<span class="irc-date">[15:29]</span> <span class="irc-black">&lt;tdonohue&gt; this one looks right to me, but I admit to not having tested it yet.  Looks like it may need JSPUI testing too</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;tdonohue&gt; It *was* tested by other users (who commented on DS-2699)</span><br />
+<span class="irc-date">[15:30]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2699">https://jira.duraspace.org/browse/DS-2699</a> ] - [DS-2699] Search not working as expected - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:31]</span> <span class="irc-black">&lt;tdonohue&gt; pbecker: any chance you can give 1107 a test for JSPUI today as well?</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;mhwood&gt; The rationale is sound, and the code seems to follow it.</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;tdonohue&gt; Or anyone else have time to run a quick test here?</span><br />
+<span class="irc-date">[15:32]</span> <span class="irc-black">&lt;pbecker&gt; one moment please</span><br />
+<span class="irc-date">[15:33]</span> <span class="irc-black">&lt;pbecker&gt; I doubt that. Will have to leave in two hours and have to mutch left open. Sorry.</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; ok, I'll try and run a quick test then today...this looks right to me though</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DSPR#1056</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1056">https://github.com/DSpace/DSpace/pull/1056</a> ] - DS-2750 REST API ignores expand=all on communities by helix84</span><br />
+<span class="irc-date">[15:34]</span> <span class="irc-black">&lt;peterdietz&gt; I'm -1 on this</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;peterdietz&gt; 1) It won't do what you think it will, and 2) I could be a performance disaster on large sites.</span><br />
+<span class="irc-date">[15:35]</span> <span class="irc-black">&lt;peterdietz&gt; A positive would be for smaller sites that want to grab data of your entire site in one request</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: so, you initially added a +1 here...do you want to update your vote here with a comment?</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;terry-b&gt; Eventually, we will need a way to efficiently pull the comm/coll hierarchy as a hierarchy</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;mhwood&gt; I think he did?</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;peterdietz&gt; look below</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; Oh, wait, I see...your last one did :)</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;tdonohue&gt; sorry, I missed the final comment</span><br />
+<span class="irc-date">[15:36]</span> <span class="irc-black">&lt;peterdietz&gt; final thought helix84 ?</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, it sounds like 1056 should minimally be de-scheduled from 5.4.  Needs more work</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;peterdietz&gt; terry-b: Yes, I agree. So, I'm not entirely opposed to the idea, but if you could figure out an efficient way to grab everything</span><br />
+<span class="irc-date">[15:37]</span> <span class="irc-black">&lt;peterdietz&gt; ..this pr wouldn't accomplish that</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;peterdietz&gt; I{'m going to close this one then?</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;tdonohue&gt; So, should we... (1) close the PR, (2) deschedule this ticket from 5.4, and (3) change ticket to "needs volunteer" status again?</span><br />
+<span class="irc-date">[15:38]</span> <span class="irc-black">&lt;terry-b&gt; peterdietz, we could create a minimal structure to hold hierarchy... unless hibernate caching would make things so fast it isn;t needed</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: feel free to close the PR. I'll update the ticket</span><br />
+<span class="irc-date">[15:39]</span> <span class="irc-black">&lt;peterdietz&gt; okay</span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;peterdietz&gt; In my former life, I had made a LiteCollection, to minimize how much data got pulled: <a href="https://github.com/osulibraries/DSpace/blob/osukb/dspace-api/src/main/java/org/dspace/content/LiteCollection.java">https://github.com/osulibraries/DSpace/blob/osukb/dspace-api/src/main/java/org/dspace/content/LiteCollection.java</a></span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/LiteCollection.java at osukb · osulibraries/DSpace · GitHub ] - <a href="https://github.com/osulibraries/DSpace/blob/osukb/dspace-api/src/main/java/org/dspace/content/LiteCollection.java">https://github.com/osulibraries/DSpace/blob/osukb/dspace-api/src/main/java/org/dspace/content/LiteCollection.java</a></span><br />
+<span class="irc-date">[15:40]</span> <span class="irc-black">&lt;peterdietz&gt; But.. If hibernate could be efficient / lazy about things, that would be great</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;peterdietz&gt; Even caching. Hey, here is another of the same request, has the underlying data changed, such that you need to redo the query, or do you have the data already available</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;tdonohue&gt; ok, moving along for now... next up, DSPR#1050</span><br />
+<span class="irc-date">[15:41]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1050">https://github.com/DSpace/DSpace/pull/1050</a> ] - DS-1207: Stop throwing ResourceNotFoundException for redirects by cwilper</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;tdonohue&gt; This to me, looks like a very obvious/beneficial fix +1</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;peterdietz&gt; yeah, looks good from inspection</span><br />
+<span class="irc-date">[15:42]</span> <span class="irc-black">&lt;mhwood&gt; Sensible.</span><br />
+<span class="irc-date">[15:43]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I'll merge this one post-meeting &amp; cherry-pick to 5.x (as it needs to be in both places)</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DSPR#1028</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1028">https://github.com/DSpace/DSpace/pull/1028</a> ] - DS-2719 fix /{collection_id}/items to properly process offset  parameter by akinom</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;peterdietz&gt; So many REST issues</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;peterdietz&gt; travis fails on this one</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;mhwood&gt; Ran afoul of the nexus.codehaus.org problem.</span><br />
+<span class="irc-date">[15:45]</span> <span class="irc-black">&lt;tdonohue&gt; well, REST is still "new" :)  It's actually a good thing though, as it means people are *using* REST</span><br />
+<span class="irc-date">[15:46]</span> <span class="irc-black">&lt;tdonohue&gt; I'll restart that build</span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;tdonohue&gt; so, in reality, this is a one-liner it seems... rest of the PR is "cleanup" <a href="https://github.com/DSpace/DSpace/pull/1028/files">https://github.com/DSpace/DSpace/pull/1028/files</a></span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;kompewter&gt; [ DS-2719 fix /{collection_id}/items to properly process offset parameter by akinom · Pull Request #1028 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1028/files">https://github.com/DSpace/DSpace/pull/1028/files</a></span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;peterdietz&gt; interesting.. This is the same PR (sort of) as: <a href="https://github.com/DSpace/DSpace/pull/992">https://github.com/DSpace/DSpace/pull/992</a></span><br />
+<span class="irc-date">[15:47]</span> <span class="irc-black">&lt;kompewter&gt; [ Fix bug DS-2655 REST api collection items 'offset' does not function … by edgo914 · Pull Request #992 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/992">https://github.com/DSpace/DSpace/pull/992</a></span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz is one preferrable to the other?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;tdonohue&gt; They do look to touch the same bit of code, but make a very different change?</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-black">&lt;terry-b&gt; I feel like there was a similar issue that I reported and Kevin resolved</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;peterdietz&gt; What does this mean? (void) dspaceItems.nextID();</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;tdonohue&gt; Sounds like we need testing/verification between DS-2719 and DS-2655</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2719">https://jira.duraspace.org/browse/DS-2719</a> ] - [DS-2719] rest /colections/&amp;lt;id&amp;gt;/items   ignores offset parameter  - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:49]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-2655">https://jira.duraspace.org/browse/DS-2655</a> ] - [DS-2655] REST api collection items &amp;#39;offset&amp;#39; does not function correctly - DuraSpace JIRA</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: I'm not entirely sure what the "(void)" does there...I had assumed it was something in REST that I wasn't familiar with</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;terry-b&gt; I was thinking of <a href="https://github.com/DSpace/DSpace/pull/1073/files">https://github.com/DSpace/DSpace/pull/1073/files</a></span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;peterdietz&gt; I think it means don't waste memory storing the returned value.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;kompewter&gt; [ [DS-2764] CollectionDAOImpl - Parameters Switched by KevinVdV · Pull Request #1073 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/1073/files">https://github.com/DSpace/DSpace/pull/1073/files</a></span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;mhwood&gt; My guess would be to quiet the compiler concerning an unused return value.</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;peterdietz&gt; They are just incrementing</span><br />
+<span class="irc-date">[15:50]</span> <span class="irc-black">&lt;peterdietz&gt; The other is org.dspace.content.Item dspaceItemx = dspaceItems.next();</span><br />
+<span class="irc-date">[15:51]</span> <span class="irc-black">&lt;tdonohue&gt; My recommendation here would be that we test the solutions here and choose one. They look like they are doing essentially the same thing</span><br />
+<span class="irc-date">[15:52]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: are you willing/up for this one as well?  It looks like there *is* a bug here...it's just a matter of which PR to choose for 5.4 (and then closing out the other PR/Ticket as well)</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;peterdietz&gt; I'm thinking to go with Monika's. It will be a tad better performance, as nextid doesn't hit the DB</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;peterdietz&gt; And then we need to link these PR's/JIRA as duplicate</span><br />
+<span class="irc-date">[15:53]</span> <span class="irc-black">&lt;tdonohue&gt; peterdietz: sounds fine.  I linked up the JIRA tickets as duplicates. So, once this is merged, feel free to close everything out</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;peterdietz&gt; do i ignore the nexus.codehaus.org issues with travis?</span><br />
+<span class="irc-date">[15:54]</span> <span class="irc-black">&lt;peterdietz&gt; because travis builds her exact code, but the 5.4 code has updated poms</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; I'd recommend cherry-picking her commit &amp; running tests locally, since Travis is having issues.  Chances are things *should*  be fine on latest master/5.x, but it'd be good to verify</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; it's either that or rebasing her PR &amp; then seeing what Travis says</span><br />
+<span class="irc-date">[15:56]</span> <span class="irc-black">&lt;tdonohue&gt; I'd be nervous about just merging anyways, in case there *are* some other issues that are being 'hidden' (doubtful though in this case)</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;tdonohue&gt; one LAST PR for 5.4: DSPR#1014</span><br />
+<span class="irc-date">[15:57]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://github.com/DSpace/DSpace/pull/1014">https://github.com/DSpace/DSpace/pull/1014</a> ] - Revert &amp;quot;DS-1821 Internationalize the bitstream access icon alt text&amp;quot; by helix84</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; aschweer reviewed this and said it's likely "the way to go"</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; It's just undoing an old change, so it seems like something to just merge</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[15:58]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I'll merge this one &amp; cherry-pick as well. Assigning the PR to me</span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; BTW... I just assigned all the PRs except the first one: <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4</a></span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;kompewter&gt; [ Pull Requests · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4">https://github.com/DSpace/DSpace/pulls?q=is%3Aopen+is%3Apr+milestone%3A5.4</a></span><br />
+<span class="irc-date">[15:59]</span> <span class="irc-black">&lt;tdonohue&gt; So, looks like we are VERY near to 5.4 and just need to merge/backport these last few PRS</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;tdonohue&gt; And unfortunately, that took the entire meeting...but I think it was worth our time today nonetheless</span><br />
+<span class="irc-date">[16:00]</span> <span class="irc-black">&lt;mhwood&gt; We need to get 5.4 over and done with so we can think about 6.0.</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; So, I'm going to save the 6.0 topics for next week.  Especially the "teaser" about possibly deprecating Elastic Search stats in 6.0.  So, please do gather your thoughts on whether you think that's a good idea (both folks here &amp; any reading this later on)</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood++</span><br />
+<span class="irc-date">[16:01]</span> <span class="irc-black">&lt;tdonohue&gt; As for 5.4, it sounds like it still *might* be possible to release it *this week*...if we can knock out these final PRs today</span><br />
+<span class="irc-date">[16:02]</span> <span class="irc-black">&lt;tdonohue&gt; Any other final thoughts/comments/questions for today before we close out the meeting?</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;mhwood&gt; None here.</span><br />
+<span class="irc-date">[16:03]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, hearing none. We'll consider today's meeting closed! Thanks all</span><br />
+<span class="irc-date">[17:25]</span> <span class="irc-navy">* helix84 (~ctenar@195.178.95.132) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[17:32]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[18:22]</span> <span class="irc-navy">* pbecker (~pbecker@ubwstmapc098.ub.tu-berlin.de) Quit (Quit: Leaving)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-green">* bram___ (~bram@62-205-65-213.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;bram___&gt; hi</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-navy">* bram___ (~bram@62-205-65-213.access.telenet.be) Quit (Quit: bram___)</span><br />
+<span class="irc-date">[22:02]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:38]</span> <span class="irc-green">* tdonohue (~tdonohue@c-98-226-113-104.hsd1.il.comcast.net) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

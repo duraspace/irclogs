@@ -1,0 +1,300 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2012-04-11
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:28]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-hitchcock.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-brown">-hitchcock.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:28]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[12:06]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:15]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[14:36]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[14:39]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[15:48]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[17:28]</span> <span class="irc-green">* vtkeithg (~vtkeithg@2001:468:c80:a103:41e7:ca94:54ec:46d6) has joined #duraspace</span><br />
+<span class="irc-date">[17:41]</span> <span class="irc-green">* hpottinger is now known as Guest40433</span><br />
+<span class="irc-date">[18:36]</span> <span class="irc-green">* Guest40433 (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[18:36]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:00]</span> <span class="irc-green">* sands (~sandsfish@18.189.87.190) has joined #duraspace</span><br />
+<span class="irc-date">[19:30]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has joined #duraspace</span><br />
+<span class="irc-date">[19:47]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, reminder we have a DSpace Developers Meeting starting at the top of the hour  : <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-11</a></span><br />
+<span class="irc-date">[19:51]</span> <span class="irc-green">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi all, welcome to our weekly DSpace Developers Mtg: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-11">https://wiki.duraspace.org/display/DSPACE/DevMtg+2012-04-11</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-brick">* tdonohue notices it looks like kompewter is absent today... not sure if PeterDie_ is around or not.  But, we can do without it for now</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; First up, we'll do some JIRA reviews: <a href="https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-976+ORDER+BY+key+ASC">https://jira.duraspace.org/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+DS+AND+resolution+%3D+Unresolved+AND+Key%3E%3DDS-976+ORDER+BY+key+ASC</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-green">* kompewter (~kompewter@sul272sandbox.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; beginning with DS-976 (just in time, kompewter!)</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-976">https://jira.duraspace.org/browse/DS-976</a> ] - [#DS-976] Simple Asynchronous Add-on Facility for DSpace - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; oh, this is one of those large "placeholders".  Not sure where this stands right now, but probably would require a larger meeting to discuss</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;sands&gt; Richard is away from the meeting today.  I can mention it to him for status.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; ok, thanks sands.  Yea, would be good to know if this is still an idea he is trying to pursue or not</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; ok, we'll move along to the next one for now.  DS-977</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-977">https://jira.duraspace.org/browse/DS-977</a> ] - [#DS-977] Problem in new user registration Dspace 1.7.2 - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; looks like this one should have been posted to dspace-tech.  Sounds like a config/setup error, and not a bug</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-green">* PeterDie_ is now known as PeterDietz</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;mhwood&gt; Looks like a configuration problem.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; I have a "template" that I can paste into this issue to close it &amp; recommend that more info/questions be posted to dspace-tech</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; assign Ds-977 to tdonohue for closing</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;tdonohue&gt; next up, DS-981</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-981">https://jira.duraspace.org/browse/DS-981</a> ] - [#DS-981] Created a DSpace API module to contain api changes - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; oh, I remember this one....about creating a new [dspace]/modules/api/ folder for API overlays.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;KevinVdV&gt; It appears my patch is a bit out of date</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;tdonohue&gt; anyone have thoughts/opinions on this idea?  does this seem useful to others?</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;sands&gt; seems like a reasonable and non-disruptive change.</span><br />
+<span class="irc-date">[20:08]</span> <span class="irc-black">&lt;PeterDietz&gt; ohh, I haven't seen this.. When I was following the module overlay method, this would have been very useful to be in there.</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-green">* ryscher (ae61f77a@gateway/web/freenode/ip.174.97.247.122) has joined #duraspace</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;hpottinger&gt; I think having a clear place to override API stuff would be great, and +1 PeterDeitz</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;KevinVdV&gt; Well the thought behind it is that it would be nice general place to place all dspace-api code changes</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;PeterDietz&gt; (I've since switched to not following module overlays), but I would be supportive of this</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;mdiggory&gt; hello, Kevin just kicked me to wake me back up.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;mhwood&gt; 0, I don't use overlays but the proposal seems sensible.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; The only (very slight) concern I have is that technically this doesn't "overlay" the full dspace-api (in that I don't think it lets you overlay the dspace-api.jar in [dspace]/lib/ used for command-line).  But, I still like the idea of putting API changes in one place so that they are inherited by all webapps</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;mdiggory&gt; correct, it is a place to put customized addon code.</span><br />
+<span class="irc-date">[20:11]</span> <span class="irc-black">&lt;tdonohue&gt; so, that's more of an "advertising" concern.  We just need to be very clear about where code/files placed in [dspace]/modules/api/ ends up.</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;aschweer&gt; tdonohue: that would cause problems with custom embargo lifters and the like, wouldn't it? definitely something to advertise then</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;tdonohue&gt; one last question: should it then be called something besides "api"?  Is the name [dspace]/modules/api/ OK, or should it be named something else?  (I'm on the fence here)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-black">&lt;mdiggory&gt; I think the general point here that is of concern is... when you create custom addons that are just for your local use, you either need to create this kind of project to share them across the webapps, or dump your code into dspace-api</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; [dspace]/modules/global ?</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mdiggory&gt; the objective of the api project is to make it so that implementers don't need to edit poms to get simple java code into lib and webapps.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;PeterDietz&gt; I would say changes that I make to dspace-api, are generally overall improvements that we ought to contribute back upstream, so hopefully they don't dangle as modifications for too long</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- totally agree with the reasons behind this.  I think it's a good addition.  I'm just questioning whether the name "api" would make people assume they are also updating "dspace-api.jar" in [dspace]/lib/</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;mdiggory&gt; is it a better practice to package your own changes and classify them accordingly modules/addon1 modules/addon2.... or promote putting all in one modules.</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;sands&gt; would calling it dspace-api be a more descriptive name?</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;sands&gt; it seems worth including to me, as one doesn't have to use it if their practice doesn't agree with it.  it's a minor addition for some extensibility it sounds like some will use.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: yes in that case I'm in agreement with putting them there, but for the average non-developer, having a spot like this is good to save them pain.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; I want to caution, it is not an overlay of dspace-api.jar, it is a separate jar</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;mdiggory&gt; called api.jar</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; I think my main point here is that we just need to be clear that code/files placed in [dspace]/modules/api/ does not end up in the same place as code in [dspace-src]/dspace-api/    So, we should avoid that misconception if possible.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mdiggory&gt; you cannot overlay jars.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- exactly. that's why I worry the name "api" is too close to "dspace-api"</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;PeterDietz&gt; note: your overlay jar has to be alphabetically before what it overrides</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;KevinVdV&gt; What do you propose as a name then tdonohue ?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; local-api ?</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;sands&gt; api doesn't rub me the wrong way.  it seems relatively consistent with other module naming schemes.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mhwood&gt; aaa-local-api ?</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;mdiggory&gt; the choice of "api" is also because of a benefit in classpath ordering, you can copy and override dspace-api, jspui-api, xmlui-api classes in that manner</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;tdonohue&gt; ugh, I forgot about that whole alphabetic stuff.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; mhwood: aaa-local-dspace-api</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; maybe "api" is the best we can do afterall.  We can just be clear about what it is and is not doing</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;PeterDietz&gt; if our core stuff is all in dspace-api, then it logically makes sense for the module overlay to be api</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;mdiggory&gt; PeterDietz: its not an overlay :-P</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- the point there though is that what you said isn't fully "true".  [dspace]/module/api is NOT an overlay of dspace-api</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;PeterDietz&gt; .rmpoint mdiggory</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;kompewter&gt; PeterDietz: I'm sorry, but I'm afraid I can't do that!</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; instead, [dspace]/module/api/ is just a new "empty" module, which lets you create your own custom API code that will be shared across all Webapps (but won't end up in [dspace]/lib/)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has joined #duraspace</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mdiggory&gt; "Sorry Dave, I can't do that."</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;aschweer&gt; "all-webapps"?</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; so, as mdiggory says, it's not a "true" overlay.  It's something different</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;KevinVdV&gt; Second tdonohue it SHOULD end up in dspace/lib</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;aschweer&gt; KevinVdV +1</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;KevinVdV&gt; Because else your command line would use different code as your webapp</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; but, it doesn't end up in [dspace]/lib/ right now (in these patches)?  Or did I misunderstand?</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;aschweer&gt; KevinVdV ... which would get interesting if xmlui finds your curation tasks but the command line doesn't</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mdiggory&gt; theres one more benefit to to the jar module, if it is a dependency of all webapps and dspace/lib,  you can just add new dependencies for all projects in it as a single edit</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mdiggory&gt; dspace-additions</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; ok.  so, maybe I'm wrong here.  Does this "api.jar" end up in [dspace]/lib as well as all Webapps?  If so, then this all seems fine to me and I'll just shut up now ;)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; comes before dspace-api</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;KevinVdV&gt; It WILL end up in the [dspace]/lib</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mdiggory&gt; then just call it dspace/modules/additions for directory name</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; ok. that wasn't clear to me.  I withdraw my complaint then.  I'm fine if this is called "api"....we'll just be clear that it's creating a new "api.jar" that is separate from the default "dspace-api.jar"</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;sands&gt; +1</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; so, I'm +1 this addition as well</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; (just needs some corresponding documentation, obviously)</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;KevinVdV&gt; Allrighty I'll prepare a new patch &amp; contribute in the near future</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mhwood&gt; We need to note somewhere that everything that comes with DSpace must begin with "dspace-" (or, at least, something that sorts after "additions").</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;mdiggory&gt; tdonohue: the name or the contribution? mdiggory: dspace-additions</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory, I'm +1 the contribution.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;PeterDietz&gt; instead of a "patch", how about a pull request?</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;PeterDietz&gt; you can add a link to the jira ticket</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;tdonohue&gt; to me, the name "api" is OK.  But, I'm not against changing to "dspace-additions"  (just don't feel strongly one way or the other, to be honest)</span><br />
+<span class="irc-date">[20:27]</span> <span class="irc-black">&lt;KevinVdV&gt; I'll see what I can cook up (still learning github)</span><br />
+<span class="irc-date">[20:28]</span> <span class="irc-black">&lt;mdiggory&gt; I fear "api" is starting to feel like "core" thats why I'm avoiding it.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; But it's not part of DSpace; it's part of your local ScholarWorks or IDEALS or whatever.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory &amp; mhwood : both are good points</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;mhwood&gt; The part that comes with DSpace is just the hole you dorp it into.</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;sands&gt; not to beat this to death, but for the name, you could technically be overriding (not overlaying now) a class in any module with this, right?  not just dspace-api?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; "addon-api" (ugh), "api-local"</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; correct sands.  You could be overlaying *any* module (as long as this one is named in such a way that it's alphabetically first)</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; so, it's not just for overriding 'dspace-api'</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;KevinVdV&gt; sands: well I wouldn't recommond overriding anything outside of the dspace-api since it doesn't have any xmlui depencendencies for example</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;KevinVdV&gt; You COULD add dependencies for xmlui stuff but then these would end up in your [dspace]/lib directory which isn't good</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;sands&gt; ok, well, i'd be fine with additions then, since it's more accurate, less misleading, maybe more telling.</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;sands&gt; KevinVdV:  understood</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mdiggory&gt; sands: yes</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; not only any class in any module.... any class that comes after "addons" on the classpath, even system classes</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;tdonohue&gt; We're probably getting to the point of "thinking about this too much".  If anyone comes up with an amazing idea, add it to DS-981.  The name "additions" or "addons" is OK with me for now.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-981">https://jira.duraspace.org/browse/DS-981</a> ] - [#DS-981] Created a DSpace API module to contain api changes - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mdiggory&gt; this is a dark art, we need to be careful about suggesting we fully support doing it (even though we do it ourselves)</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;mhwood&gt; Yup, and you *could* carve a turkey with a chainsaw.  It might even work.  But you shouldn't.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;mdiggory&gt; thats after I cooked it with a blow torch?</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-brick">* mhwood worries about all this dark classpath magic.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;hpottinger&gt; "God as my witness, I thought turkeys could fly..."</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;tdonohue&gt; should we just move along? bring further discussion/ideas/brainstorms over to Ds-981 comments or to dspace-devel as necessary?</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;mdiggory&gt; ROTFL</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;sands&gt; tdonohue: sounds good</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;KevinVdV&gt; *adds discussion in the jira task*</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; Moving along to next topic.  Just a few FYIs for folks.  First up, the OR12 Face-to-face DSpace Developers Meeting will be on Monday, July 9.  So, keep that in mind for any of your travel plans</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;tdonohue&gt; (if anyone would like to lead that face-to-face meeting, get in touch)</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; next up...I sent this to dspace-commit, but the feedback from Google about GSoC is up at: <a href="https://wiki.duraspace.org/display/GSOC/GSoC+2012+Rejection+Notes">https://wiki.duraspace.org/display/GSOC/GSoC+2012+Rejection+Notes</a>  Essentially the response was "good application, but we wanted to give new orgs a chance this year"</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;kompewter&gt; [ GSoC 2012 Rejection Notes - Google Summer of Code - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/GSOC/GSoC+2012+Rejection+Notes">https://wiki.duraspace.org/display/GSOC/GSoC+2012+Rejection+Notes</a></span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; So, there's not much we could have done "better" in the application we are told.  Just bad luck</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;tdonohue&gt; that's it for the FYIs.  I'll pause for a brief moment if anyone has quick comments/questions</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;PeterDietz&gt; In other news, I've been cranking away at Elastic Search Statistics.. see some screenshots at: <a href="https://plus.google.com/115522466408243604820/posts">https://plus.google.com/115522466408243604820/posts</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;kompewter&gt; [ Peter Dietz - Google+ ] - <a href="https://plus.google.com/115522466408243604820/posts">https://plus.google.com/115522466408243604820/posts</a></span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;tdonohue&gt; Next topic:  We are now officially on GitHub (save for a few minor "modules").  So, *no more commits can be made to SVN* (it's now read-only).</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-brick">* hpottinger cheers for GitHub and Elastic Search eye candy</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; I'm starting to write up some ideas for "best practices" (or at least resources) at: <a href="https://wiki.duraspace.org/display/DSPACE/Development+with+Git">https://wiki.duraspace.org/display/DSPACE/Development+with+Git</a>  I could really use some help here, and we may want to dig into this further in a meeting</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;kompewter&gt; [ Development with Git - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Development+with+Git">https://wiki.duraspace.org/display/DSPACE/Development+with+Git</a></span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; the more I look into Git/GitHub development practices, it seems like there are a lot of them -- lots of folks do their collaborative development in different ways.  We likely will find our own way as well</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;PeterDietz&gt; I'm glad Alan Orth's email came in on dspace-tech, about how do i migrate all my code history between versions</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;mdiggory&gt; is elastic search syntax similar to solr?</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;PeterDietz&gt; not really, I'll dig up some examples</span><br />
+<span class="irc-date">[20:42]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz -- yea, that was a good question, and worth documenting best practices around.  We need to let folks know how we recommend they "upgrade" from 1.7.x to 1.8.x (or similar) via GitHub</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mdiggory&gt; So I attended the DCAT meeting on Tuesday to discuss our project with UMICH, members are reviewing the described requirements...  If committer folks could take a look over the following and comment, we'd be grateful too [ <a href="https://wiki.duraspace.org/display/DSPACE/Advanced+Embargo+Support">https://wiki.duraspace.org/display/DSPACE/Advanced+Embargo+Support</a> ]</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;kompewter&gt; [ Advanced Embargo Support - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/Advanced+Embargo+Support">https://wiki.duraspace.org/display/DSPACE/Advanced+Embargo+Support</a></span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; essentially, I'd like for us to be documenting the answers to these questions (as they come up , or as we realize them ourselves, which ever comes first).  Just worried that currently we're all a bit "in the deep end" and we need to start writing things down in order to come to a common agreement about how we want to take advantage of Git/GitHub</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mdiggory&gt; aschweer has already done a great job adding in their implementation details.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;aschweer&gt; thanks mdiggory -- I need to update that a bit after discussion with "my" librarians</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;tdonohue&gt; thanks mdiggory. yea, definitely worth us looking at.  Oh, and can we get this added to the 3.0 page, assuming this is planned for 3.0.  The 3.0 page is looking very sparse: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes</a></span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 3.0 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;tdonohue&gt; Speaking of which, the next topic on the agenda is 3.0 and trying to get planning/ideas for that moving forward more.  If you have a feature/idea you want (or hope) to add to 3.0, put it up at: <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes</a></span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mdiggory&gt; added it</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace Release 3.0 Notes - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes">https://wiki.duraspace.org/display/DSPACE/DSpace+Release+3.0+Notes</a></span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;tdonohue&gt; Also : We still need a 3.0 Release Team Leader!  Anyone interested?   (I'll just keep on pestering) You can also ping me offline :)</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;sands&gt; tdonohue, perhaps a write-up of the release team leader role would make people more likely to raise their hand?  #notvoluteering</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;sands&gt; just a thought.</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;PeterDietz&gt; perhaps pay for Release leaders trip to Scotland?</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; sands: yea, the issue here is that it's an entirely new role (obviously).  I have some guesses as to the role (essentially just keeping the Release Team organized).  But, it's likely going to be "shaped" a bit as we move forward</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz just offered to pay your way to Scotland! ;)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;sands&gt; PeterDietz: did i say i wasn't volunteering?...</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Maybe this is something that the RT works out for itself?</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- it could be.  that may be the 'default approach'.  Have the Release Team almost "self-organize", and divvy things up as they see fit.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; The only other topic I had for today was a question about the "Virtual Summit" and when we'd next like to hold one  (or if we just want to "table" that decision until we feel we need another Virtual Summit)?</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;tdonohue&gt; My initial thoughts were to make that *at least* a yearly event (usually in Jan/Feb, after we're all back from holiday).</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;tdonohue&gt; But, I'm also wondering if there'd be interest in making it two times a year (e.g. Jan &amp; May/June/July) or 3 times (Jan, May, Sept)?   Though, I don't want them to be too frequent as to become "less useful"</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;sands&gt; tdonohue:  twice a year doesn't sound like too much.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;mhwood&gt; 1-2 / yr.</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; following summer break, or is that too close to release?</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-brick">* hpottinger realizes that's hemisphere-centric</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;tdonohue&gt; so, if we did twice a year, it is worth thinking about how this differs from the OR12 Dev Mtg?    Should a second "Virtual Summit" be held after OR, to allow us to touch base about things that came up there (or new ideas)?</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;aschweer&gt; (sorry all, I need to go to work)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;KevinVdV&gt; Needs to run need sleep</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;KevinVdV&gt; Until next week</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;tdonohue&gt; Or, are we really talking about:  1 virtual summit (early in year), and 1 face-to-face summit (at OR12).  Though, you could argue that the OR meeting is sometimes a bit of a larger / broader meeting as it often involves non-developers as well</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-navy">* KevinVdV (~KevinVdV@d54C154B1.access.telenet.be) Quit (Quit:  HydraIRC -&gt; <a href="http://www.hydrairc.com">http://www.hydrairc.com</a> &lt;- Wibbly Wobbly IRC)</span><br />
+<span class="irc-date">[21:00]</span> <span class="irc-black">&lt;sands&gt; after the release would be a good time to discuss features of the next release before they're hardened.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-brick">* PeterDietz (sorry been distracted by impromtu meeting by office)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; sounds like it's gone mostly quiet.  :)  Maybe this is just "something to think about more".</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;tdonohue&gt; sands -- I actually viewed the Jan/Feb Virtual Summit as sort of "after the release" in Nov.  So, I agree with that idea -- it's good to come together after a release to start to brainstorm the next one</span><br />
+<span class="irc-date">[21:04]</span> <span class="irc-black">&lt;sands&gt; makes sense</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; (that's the main reason why I think we should *always* at least have a yearly summit in Jan or Feb each year, since we've been tending to do our major releases late in the year)</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;hpottinger&gt; a post-OR virtual summit would be a good chance for everyone who didn't make it to OR to share information with those who did</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;PeterDietz&gt; ^ and to get some summary / conclusion about the direction to be going</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;sands&gt; how 'bout a yearly shouting match just before the release?  ;P</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: that's a good thought.  I also wonder if a post-OR summit lets us "keep the momentum going".  I tend to feel "energized" by OR, but sometimes that momentum doesn't continue for long after getting home :)</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; PeterDietz : good point too</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mdiggory&gt; virtual meetings are good... maybe some integration milestones might be good too.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; "integration milestones" like "deadlines"?</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; hmmm.. more like checkpoints</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;PeterDietz&gt; get a series of changes into something stable</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-brick">* tdonohue notes we have been running in "overtime".  If you have to head out, feel free (no worries).  I'm gonna hang around for a while though to continue this thread</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mdiggory&gt; IE, we might do a integration build prior to OR for testing etc</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- sounds like an idea for the Release Team!  (I actually do like the idea of more "checkpoints".  Just a matter of scheduling them)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;sands&gt; i like the idea(l) of checkpoints/milestones too.  we should talk about it when we start organizing around this release.  (goes to email the team)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mdiggory&gt; shucks... we should have chatted quick about the maven consolidation today.. see if we could get that finalized...</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;mhwood&gt; So, no more CI watching the trunk?  (Oops, I mean DSpace/DSpace/master or something like that.)</span><br />
+<span class="irc-date">[21:10]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- I do recall with 1.8, we tried to get a 1.8 "beta" released before OR11, but then when we got close, we realized there was hardly any new code on Trunk to even warrant a "beta" release.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; so, part of it is just getting some code into GitHub master in a timely fashion</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood -- Bamboo is now setup to watch GitHub.  So, we do have CI still, it's just now looking at GitHub</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;sands&gt; heading out all.  catch you on the flip-side</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;mdiggory&gt; yes, there needs to be some motivation there, surely.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-navy">* sands (~sandsfish@18.189.87.190) Quit (Quit: sands)</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; How would it work to just ask specific people to commit working versions of specific stuff they're doing by a date they choose, as long as it's not release-1wk.</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;mhwood&gt; So we have an integration build every time a commit lands.</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: re: bamboo, since that's just the main project, and not an individual fork of dspace, we all need to be thinking of running our own CI instances, for our own forks, I've been looking into it, but not seriously, if anyone beats me to it, please write up what you're doing?</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; Maybe what we do for a milestone is to focus on getting the integration build stable before resuming unfinished work.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- yea. I've yet to figure out what motivates us besides a strict deadline (we all procrastinate, self included). ideas are definitely welcome.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt;  Maybe adding some more enhanced CI stuff (like auto-build &amp; deploy to demo.dspace.org) would help? (to show off your cool stuff)</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mdiggory&gt; but integration needs to = build --&gt; test --&gt; deploy --&gt; http test or the like...</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; hpottinger:  I have Jenkins watching mine.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mdiggory&gt; not just  = build --&gt; test</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;mhwood&gt; mdiggory:  I see.</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; we can work towards a build -&gt; test -&gt; deploy -&gt; http test model.  I'm completely open to it.  We just need to set it up in Bamboo, etc.</span><br />
+<span class="irc-date">[21:16]</span> <span class="irc-black">&lt;hpottinger&gt; I've been meaning to build some acceptance tests at some point...</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yea, I'm not entirely sure of the best route for CI + all our various GitHub forks.  Technically, we could point Bamboo at all of them (for committers forks only), but I'm not sure if that's the right route.</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;mdiggory&gt; could it be linked to demo?  or has mhwood's test reworking reached a point we can run dspace on a java db?</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;tdonohue&gt; mdiggory -- we could link it to demo.dspace.org if we choose to.  demo.dspace.org is ours and ours alone. So, we can do whatever we want with it (though we still should keep a demo of the most recent release up there, obviously)</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;mhwood&gt; Rats, I have to go, will check the log later.</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;helix84&gt; hello guys, don't let me disturb the conversation, I was wondering if someone could help me with this issue I'm stuck on: <a href="http://www.mail-archive.com/dspace-tech@lists.sourceforge.net/msg16732.html">http://www.mail-archive.com/dspace-tech@lists.sourceforge.net/msg16732.html</a></span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;kompewter&gt; [ [Dspace-tech] custom authentication plugin ] - <a href="http://www.mail-archive.com/dspace-tech@lists.sourceforge.net/msg16732.html">http://www.mail-archive.com/dspace-tech@lists.sourceforge.net/msg16732.html</a></span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; helix84:  It looks like it's complaining that the XMLUI cannot see that MyAuth class.  Does that same updated "dspace-api-1.8.2.jar" also exist in your /dspace/webapps/xmlui/WEB-INF/lib/ folder?  And, you might want to clear the Cocoon &amp; Tomcat caches to make sure they aren't doing something odd.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: thanks, will check and try</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: i think it's the likely cause because i actually overwrote the whole xmlui webapp folder to keep my customizations...</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;hpottinger&gt; tdonohue: I've been meaning to look at running our own CI server for a while, and have a box that would be just perfect for it, but my situation might not match all committers, so if Bamboo could be tweaked to watch all committer forks of DSpace/DSpace, that would (I think) be ideal</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: I'll ask others in DuraSpace about using Bamboo to watch committer forks.  I think it likely shouldn't be a big deal to configure it to watch all our various forks though -- it just would take some time to setup (though I might be able to just give each committer rights to set it up for themselves)</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: spot on! thanks for catching my stupid mistake</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; no problem, helix84.  I only thought of that because I've made the same mistake myself many times before</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-navy">* ryscher (ae61f77a@gateway/web/freenode/ip.174.97.247.122) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-108-221.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;hpottinger&gt; here's a fun diversion someone sent to me today: <a href="https://github.com/icefox/git-achievements#readme">https://github.com/icefox/git-achievements#readme</a></span><br />
+<span class="irc-date">[21:58]</span> <span class="irc-black">&lt;kompewter&gt; [ icefox/git-achievements · GitHub ] - <a href="https://github.com/icefox/git-achievements#readme">https://github.com/icefox/git-achievements#readme</a></span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-162198.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[23:21]</span> <span class="irc-green">* mdiggory (~mdiggory@rrcs-74-87-47-114.west.biz.rr.com) has left #duraspace</span><br />
+<span class="irc-date">[23:31]</span> <span class="irc-green">* helix84 (a@195.113.97.174) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>

@@ -1,0 +1,335 @@
+<html>
+
+<head>
+
+<title>IRC Log for #duraspace on irc.freenode.net, collected by DuraLogBot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="IRC Log for #duraspace" />
+<meta name="keywords" content="IRC Log for #duraspace" />
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.irc-date  {font-family: Courier New, Courier, mono;}
+.irc-green {color: #009200;}
+.irc-black {color: #000000;}
+.irc-brown {color: #7b0000;}
+.irc-navy  {color: #00007b;}
+.irc-brick {color: #9c009c;}
+.irc-red   {color: #ff0000;}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>#duraspace IRC Log</h1>
+
+<p>
+ <a href="index.html">Index</a>
+</p>
+
+<h2>IRC Log for 2013-11-13
+</h2>
+<p>
+ Timestamps are in GMT/BST.
+</p>
+
+<p><span class="irc-date">[6:29]</span> <span class="irc-brown">-brooks.freenode.net- *** Looking up your hostname...</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-brown">-brooks.freenode.net- *** Checking Ident</span><br />
+<span class="irc-date">[6:29]</span> <span class="irc-brown">-brooks.freenode.net- *** Found your hostname</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-brown">-brooks.freenode.net- *** No Ident response</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* DuraLogBot (~PircBot@atlas.duraspace.org) has joined #duraspace</span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Topic is '[Welcome to DuraSpace - This channel is logged - <a href="http://irclogs.duraspace.org/]'">http://irclogs.duraspace.org/]'</a></span><br />
+<span class="irc-date">[6:30]</span> <span class="irc-green">* Set by cwilper!ad579d86@gateway/web/freenode/ip.173.87.157.134 on Fri Oct 22 01:19:41 UTC 2010</span><br />
+<span class="irc-date">[8:46]</span> <span class="irc-navy">* helix84_ (~ctenar@195.178.95.132) Quit (Remote host closed the connection)</span><br />
+<span class="irc-date">[12:26]</span> <span class="irc-green">* fasseg (~fas@HSI-KBW-095-208-235-163.hsi5.kabel-badenwuerttemberg.de) has joined #duraspace</span><br />
+<span class="irc-date">[13:18]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has joined #duraspace</span><br />
+<span class="irc-date">[13:34]</span> <span class="irc-green">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) has joined #duraspace</span><br />
+<span class="irc-date">[17:50]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[19:21]</span> <span class="irc-green">* helix84 (~ctenar@195.178.95.132) has joined #duraspace</span><br />
+<span class="irc-date">[19:57]</span> <span class="irc-green">* PeterDietz (~peterdiet@dietz72m1.lib.ohio-state.edu) has joined #duraspace</span><br />
+<span class="irc-date">[20:00]</span> <span class="irc-black">&lt;tdonohue&gt; Hi All, it's time for our weekly DSpace Developers Mtg.  Agenda at: <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-11-13">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-11-13</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;kompewter&gt; [ DevMtg 2013-11-13 - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-11-13">https://wiki.duraspace.org/display/DSPACE/DevMtg+2013-11-13</a></span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-green">* robint (5eaf588c@gateway/web/freenode/ip.94.175.88.140) has joined #duraspace</span><br />
+<span class="irc-date">[20:01]</span> <span class="irc-black">&lt;tdonohue&gt; today is obviously all about 4.0 &amp; Testathon and next steps</span><br />
+<span class="irc-date">[20:02]</span> <span class="irc-black">&lt;tdonohue&gt; Not sure of the best place to start here, but we still have several semi-high priority tickets (linked off agenda) to figure out resolutions/volunteers for.  I'm sure there are also tickets I've missed adding to the agenda</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;hpottinger&gt; I'm puttering away at getting things running on Oracle</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;tdonohue&gt; In my mind though, some of the highest priority tickets though are those related to the "Discovery by default" change in 4.0.  Namely DS-1749 and DS-1621.</span><br />
+<span class="irc-date">[20:03]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1749">https://jira.duraspace.org/browse/DS-1749</a> ] - [DS-1749] Graceful deprecation for different index update launcher commands - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1621">https://jira.duraspace.org/browse/DS-1621</a> ] - [DS-1621] Search in Item mapper don&amp;#39;t work without lucene search provider - DuraSpace JIRA</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;helix84&gt; <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+4.0+indexing+commands">https://wiki.duraspace.org/display/DSPACE/DSpace+4.0+indexing+commands</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace 4.0 indexing commands - DSpace - DuraSpace Wiki ] - <a href="https://wiki.duraspace.org/display/DSPACE/DSpace+4.0+indexing+commands">https://wiki.duraspace.org/display/DSPACE/DSpace+4.0+indexing+commands</a></span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;helix84&gt; I tried to make a summary here</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; thanks helix84!</span><br />
+<span class="irc-date">[20:04]</span> <span class="irc-black">&lt;tdonohue&gt; so, helix84's link is related to 1749.. We can start there</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-black">&lt;helix84&gt; Sorry it isn't as detailed as I planned it to be, but I hope I have covered all the options we discussed last time.</span><br />
+<span class="irc-date">[20:05]</span> <span class="irc-green">* aschweer (~schweer@schweer.its.waikato.ac.nz) has joined #duraspace</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; thanks, helix84, this helps quite a bit</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;tdonohue&gt; yes, I think it does help give a better lay of the  land (especially the options in "Problem A" -- the "index" commands)</span><br />
+<span class="irc-date">[20:06]</span> <span class="irc-black">&lt;hpottinger&gt; if we go with option 1, I'd like to see the suggested documentation</span><br />
+<span class="irc-date">[20:09]</span> <span class="irc-black">&lt;tdonohue&gt; Honestly, with the "index" commands, I'm starting to lean towards *Option 2* (doing away with commands like "index" "index-init" "index-update" and moving everything to more explicit commands).  That way it's much clearer what you must use.</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; I know it makes the upgrade annoying in some ways...but at least it makes things much clearer</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;hpottinger&gt; just so I'm clear (I'm still not a discovery user), with default of discovery on, we just plain don't need to run index-init/index-update, we only ever need to run update-discovery-index?</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;tdonohue&gt; correct, hpottinger</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: well, explicit is better than what we have (index, index-init/index-update sound generic, but aren't) and while it would be better to be smart about the currently set backend, it's not an easy problem</span><br />
+<span class="irc-date">[20:10]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: true</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: IIRC, you still needed it in 3.0 to fill the browse indices, unless you configured the new (non-default in 3.0) Solr-backed browse class</span><br />
+<span class="irc-date">[20:12]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yes, I agree it'd be better to be "smart". But, as you laid out well (on that wiki page), that may not be a very easy problem to tackle in the near term.  So, if we cannot be "smart" and auto-determine your backend, it seems (to me) that the next best option is to be more explicit about what index tool works with what backend (your Option 2)</span><br />
+<span class="irc-date">[20:13]</span> <span class="irc-green">* kstamatis (2ebe410b@gateway/web/freenode/ip.46.190.65.11) has joined #duraspace</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;mhwood&gt; Why can we not?  event.dispatcher.default.consumers lists the consumers which will be called.  If browse is listed, browse should be initialized/updated; if discovery is listed, discovery should be initialized/updated.</span><br />
+<span class="irc-date">[20:14]</span> <span class="irc-black">&lt;hpottinger&gt; OK, so, demo.dspace.org has a cron job that resets the content every so often, it currently runs index-init, but it also runs update-discovery-index, we need to comment out the index-init</span><br />
+<span class="irc-date">[20:15]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: yes. For 3.x that 'index-init' was needed (as helix84 explained), but now it is not.</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I haven't finished hunting down all the related config options, but note there is e.g. browseDAO.class and browseCreateDAO.class, what if a user changes each to work with a different backend (I know, it sounds stupid, but we're currently making it possible)</span><br />
+<span class="irc-date">[20:16]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: I think the question in my mind is whether it's really that easy.  We need someone to try it.  If it's possible quickly, then maybe we can.  Otherwise, maybe we need to look at something simple for 4.0, and enhancing for 5.0</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; If a site is using both backends, they should both be called.</span><br />
+<span class="irc-date">[20:17]</span> <span class="irc-black">&lt;mhwood&gt; OK, if being smart is not so simple then yes, do something simple now and rework it later.</span><br />
+<span class="irc-date">[20:18]</span> <span class="irc-black">&lt;hpottinger&gt; actually, I see a note in the demo.dspace.org that we need to disable the reset script during testathon, doing so now</span><br />
+<span class="irc-date">[20:19]</span> <span class="irc-black">&lt;tdonohue&gt; Yep. So my preference is (1) "smartly determine your backend" and index in the right area(s)....but, if that's too hard to do quickly, then (2) just remove the old "index" scripts and have "index-lucene" and "update-discovery-index" (or some other similarly named scripts which explicitly tell you which backend they work with)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: that would be my preference, too. Just one note - please, let's be consistent for once and call it update-lucene-index.</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: fine by me :)</span><br />
+<span class="irc-date">[20:20]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;tdonohue&gt; or, we rename them both to "index-lucene" and "index-discovery".  But, I agree consistency is best</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; that brings me to one thing that is not clear to me</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;hpottinger&gt; FYI, reset-dspace-content script modified to no longer call index-init, and crontab commented out for testathon purposes</span><br />
+<span class="irc-date">[20:21]</span> <span class="irc-black">&lt;helix84&gt; update-discovery-index is able to create, destroy and update</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;helix84&gt; index-update/index-init each have one task</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;helix84&gt; and I'm not familiar with "index"</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; index-foo are aliases for "index --foo"</span><br />
+<span class="irc-date">[20:22]</span> <span class="irc-black">&lt;mhwood&gt; Right?</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; index-init = index -f -r</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I just listed options of "index" and I don't see init and update</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;tdonohue&gt; no, mhwood</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-black">&lt;mhwood&gt; index-update = index -i</span><br />
+<span class="irc-date">[20:23]</span> <span class="irc-green">* kstamatis_ (2ebe410b@gateway/web/freenode/ip.46.190.65.11) has joined #duraspace</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; Well, for some value of "alias".  Sorry, should have checked the config. and then spoken instead of the other way around.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-navy">* kstamatis (2ebe410b@gateway/web/freenode/ip.46.190.65.11) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; look at the launcher folks.  "index" is only the Browse indexes.  "index-init" is Browse + ItemCounter + Lucene.  "index-update" is Browse + ItemCounter + Lucene</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://github.com/DSpace/DSpace/blob/master/dspace/config/launcher.xml#L122">https://github.com/DSpace/DSpace/blob/master/dspace/config/launcher.xml#L122</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace/config/launcher.xml at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace/config/launcher.xml#L122">https://github.com/DSpace/DSpace/blob/master/dspace/config/launcher.xml#L122</a></span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; plus, see the table on my wiki page - index-init/index-update call more than once class for some reason.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I see, thanks.</span><br />
+<span class="irc-date">[20:24]</span> <span class="irc-black">&lt;mhwood&gt; Ah.</span><br />
+<span class="irc-date">[20:25]</span> <span class="irc-black">&lt;tdonohue&gt; Why they were named that way, I have *no idea*.  They should all be one script in my opinion, but they were not built that way</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;helix84&gt; Note that in 4.0 with Solr, there's no need to call itemcounter separately. But it would be needed with Lucene.</span><br />
+<span class="irc-date">[20:26]</span> <span class="irc-black">&lt;tdonohue&gt; IIRC, "index-init" and "index-update" existed first.   Then someone created "index" (generic) later on and named it oddly as it only deals with the Browse index</span><br />
+<span class="irc-date">[20:29]</span> <span class="irc-black">&lt;helix84&gt; This only seems to get messier. Where does it leave us?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; So, it sounds like we are in agreement that "smart" indexing is best (if possible).  But, if not possible, then we should rename our index scripts to explicitly say "lucene" and "discovery"?  Does anyone disagree with that? Just want to make sure we are on the same initial page.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; ,1</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; +1</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; +1</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; It looks like we should rename "index" too.</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;helix84&gt; mhwood: rename to what?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;mhwood&gt; lucene-index?</span><br />
+<span class="irc-date">[20:30]</span> <span class="irc-black">&lt;tdonohue&gt; +1. The "index" script would need renaming too. (perhaps to "index-browse" or something)</span><br />
+<span class="irc-date">[20:31]</span> <span class="irc-black">&lt;helix84&gt; just to make sure, index is *only* the DB-backed browse index, right?</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;hpottinger&gt; ideally it would be nice if developers on autopilot don't get bitten by the fact that the script names changed</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;tdonohue&gt; correct, as far as I know, 'index' is *only* the Browse DB index, helix84</span><br />
+<span class="irc-date">[20:32]</span> <span class="irc-black">&lt;mhwood&gt; I see that build.xml calls IndexBrowse and DSIndexer.</span><br />
+<span class="irc-date">[20:33]</span> <span class="irc-black">&lt;helix84&gt; then let's make it explicit from the name, and have something like update-db-index or db-browse-index or something.</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; hpottinger: In some ways, I'd rather they get "bitten" than assume they will properly read the upgrade docs.   So, if we rename these scripts, we could still leave "dummy" scripts that print "Do not use 'dspace index-init'. It has been replaced by 'dspace update-lucene-index'. Modify your scripts/cron jobs appropriately." ;)</span><br />
+<span class="irc-date">[20:34]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: yep, I agree.  "index" would need to be renamed to something more explicit as well</span><br />
+<span class="irc-date">[20:35]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I agree with the first part. But I prefer a missing script (which would be loud and clear) to and existing script which runs from cron with an error that noone reads.</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: true</span><br />
+<span class="irc-date">[20:36]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: that is a good point. agreed</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;hpottinger&gt; missing script, one would hope, would get noticed... as long as they aren't doing the old &gt;/dev/null trick in crontab</span><br />
+<span class="irc-date">[20:37]</span> <span class="irc-black">&lt;mhwood&gt; If nobody is reading the cron logs, what does it matter how the command refused to do what one thought it would do?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; I vote we make the replacement script really annoying and have it e-mail the configured admin</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so I think the question here is now: Would anyone(s) have some time to briefly investigate whether it is possible to create a "smart" script?    Or are we just going straight to renaming these scripts?</span><br />
+<span class="irc-date">[20:38]</span> <span class="irc-black">&lt;hpottinger&gt; rename now, smarts later</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; hpottinger++</span><br />
+<span class="irc-date">[20:39]</span> <span class="irc-black">&lt;helix84&gt; I agreed with Hardy's emailing suggestion</span><br />
+<span class="irc-date">[20:40]</span> <span class="irc-black">&lt;helix84&gt; with the later one, too, actually :)</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so "rename now, smarts later".  In the essence of "rename now", should we just do a *full overhaul*?   I.e. rename *everything* to "index-[backend]" or "[backend]-index".... this would include renaming "update-discovery-index".    Or do we use "update-[backend]-index" as the new script naming scheme?</span><br />
+<span class="irc-date">[20:41]</span> <span class="irc-black">&lt;mhwood&gt; Yeah, email sounds good.  Time is short, so maybe best to just punt the smart version down the line.</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; (I admit to never much liking the "update-discovery-index" name...as it does more than "update"...but, I'm fine if folks want to keep that)</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I never really liked that it says *update*-discovery-index but it's actually able to destroy and create it, too, so I'd take this opportunity to change all to index-backend</span><br />
+<span class="irc-date">[20:43]</span> <span class="irc-black">&lt;tdonohue&gt; helix84 and I just said the same thing :)</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; May I say it too?</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;tdonohue&gt; sure</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;mhwood&gt; Consider it said.</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;helix84&gt; that's all folks :D</span><br />
+<span class="irc-date">[20:44]</span> <span class="irc-black">&lt;hpottinger&gt; +1 y'all</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, so it sounds like we've settled on renaming *ALL* indexing related scripts to "index-[backend]"?</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;mhwood&gt; Yes.</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;helix84&gt; yes, but we still have to discuss some details</span><br />
+<span class="irc-date">[20:45]</span> <span class="irc-black">&lt;hpottinger&gt; if I understand correctly, that involves changing the plumbing of the index command a bit</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; namely, as we just noted, index-init/index-update did 2 functions together (I just updated the table on the wiki to make it clearer)</span><br />
+<span class="irc-date">[20:46]</span> <span class="irc-black">&lt;helix84&gt; do we split these functions into separate commands as they (can) use separate backends?</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;helix84&gt; Lucene doesn't have browse, but Solr has all of browse, search and itemcounter</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-black">&lt;mhwood&gt; I think we have to, if the names are not to be confusing all over again.</span><br />
+<span class="irc-date">[20:47]</span> <span class="irc-navy">* aschweer (~schweer@schweer.its.waikato.ac.nz) Quit (Quit: leaving)</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; so we would have index-discovery, index-lucene, index-db-browse and itemcounter</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; the forst one does 3 things, the other 3 do all 1 thing</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;helix84&gt; s/all/each/</span><br />
+<span class="irc-date">[20:48]</span> <span class="irc-black">&lt;kompewter&gt; helix84 meant to say: the forst one does 3 things, the other 3 do each 1 thing</span><br />
+<span class="irc-date">[20:49]</span> <span class="irc-black">&lt;tdonohue&gt; Makes sense, helix84.  My only question would be if we want to offer a direct replacement for "index-init" that is "index-lucene-init" (and just calls index-lucene, index-db-browse and itemcounter)</span><br />
+<span class="irc-date">[20:50]</span> <span class="irc-black">&lt;tdonohue&gt; (otherwise, if I understand correctly, there is no direct replacement for "index-init" or "index-update"...instead you must call all three?)</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I don't have an opinion yet, but note that it would require you to change at least 3 configuration options to use it - the search, browse and itemcounter class</span><br />
+<span class="irc-date">[20:51]</span> <span class="irc-black">&lt;mhwood&gt; Make separate for clarity.  They may all go away in a year.  (TBD)</span><br />
+<span class="irc-date">[20:52]</span> <span class="irc-black">&lt;hpottinger&gt; the docs for this will be... interesting...</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: we'll just say we're doing away with magic</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;tdonohue&gt; that's my worry.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;mhwood&gt; Apparently they *should* be...interesting...now.</span><br />
+<span class="irc-date">[20:53]</span> <span class="irc-black">&lt;helix84&gt; it's actually the state we had that was hard to understand, not what we're moving to now</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-navy">* kstamatis_ (2ebe410b@gateway/web/freenode/ip.46.190.65.11) Quit (Ping timeout: 250 seconds)</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;hpottinger&gt; right, the interesting part will be first explaining what it used to be (and possibly why) and then what it is now. Or, maybe we just explain *now* and skip the rest?</span><br />
+<span class="irc-date">[20:54]</span> <span class="irc-black">&lt;helix84&gt; hpottinger: I'm not sure I understood the last sentence.</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;hpottinger&gt; it'll be hard to explain why what we're changing to is better, without first explaining what it is we used to have</span><br />
+<span class="irc-date">[20:55]</span> <span class="irc-black">&lt;helix84&gt; as I understood it, you mean Option 1 or very similar</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-green">* kstamatis (2ebe410b@gateway/web/freenode/ip.46.190.65.11) has joined #duraspace</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;helix84&gt; ok. yes, we'll definitely have to explain both. but now that we cleared it up for ourselves  it's not so hard to write it down.</span><br />
+<span class="irc-date">[20:56]</span> <span class="irc-black">&lt;mhwood&gt; Yay!</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;hpottinger&gt; +1 exhuberance</span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;tdonohue&gt; I'm hesitant to remove the ease of use of "index-init" and "index-update", when it's so easy to just add in essentially an "alias" to launcher.xml.    This is what I'm thinking: <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a></span><br />
+<span class="irc-date">[20:57]</span> <span class="irc-black">&lt;kompewter&gt; [ New Index commands? ] - <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a></span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: see my note about at least 3 configuration options above</span><br />
+<span class="irc-date">[20:58]</span> <span class="irc-black">&lt;mhwood&gt; Indeed, we're already making it hard to use the old indexing by changing the default.</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;mhwood&gt; We still need to have that discussion about what happens to the old indexing.  (Agenda item 2)</span><br />
+<span class="irc-date">[20:59]</span> <span class="irc-black">&lt;tdonohue&gt; hmmmm...  But, what about the folks who already have those *3 configuration options* in their local DSpace (i.e. they are running 3.x with Lucene)?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;tdonohue&gt; I agree with you that it's now harder to use Lucene in 4.0.  I just don't understand why someone would want to enable Lucene *without* Browse DB?  So, why separate them out?</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;mhwood&gt; Dunno.  I can't recall when I last ran any of these on a production system.</span><br />
+<span class="irc-date">[21:01]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I'm not sure I get your point. What about them? 4.0 has a different configuration. And you shouldn't re-use old configuration files, that's one of the things I most often recommend against.</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; It seems like the instructions to *reenable* Lucene would involve tweaking *all three* of those config options (search/browse/itemcounter) and then running "index-lucene-init" (or all three scripts separately)</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: true</span><br />
+<span class="irc-date">[21:02]</span> <span class="irc-black">&lt;tdonohue&gt; I guess I question not replacing "index-init/index-update" if there's no way to really run Lucene without the DB browse tables anyway</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;tdonohue&gt; hence, as I suggested in my gist: <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;kompewter&gt; [ New Index commands? ] - <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a></span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-navy">* robint (5eaf588c@gateway/web/freenode/ip.94.175.88.140) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:03]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: Since old lucene (not a potential discovery-lucene) is in legacy mode, we might as well not make it harder to use and have "index-lucene-init" that does all 3. It's an option.</span><br />
+<span class="irc-date">[21:05]</span> <span class="irc-black">&lt;tdonohue&gt; yep, exactly helix84.  I'm just suggesting that for 4.x we have an "index-lucene-init" and "index-lucene-update" as direct replacements of their 3.x equivalents.  Then in 5.0 we can determine if all the 'index-lucene*' commands get dropped or not.</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;tdonohue&gt; that way we still support Lucene in the same way, but we are essentially "deprecating" it</span><br />
+<span class="irc-date">[21:06]</span> <span class="irc-black">&lt;helix84&gt; Keep in mind that if you forget to configure the solr itemcounter DAO class back to db-browse, it will complain about the Solr itemcounter DAO not having caching.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;tdonohue&gt; yes, we need to note all those instructions in the docs.  Do we even have all the instructions on how to "enable Lucene" in our 4.x docs yet?</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; So it may seem easy to have a new command with the old semantics, but it may fail in unexpected ways if you don't follow the docs closely.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;mhwood&gt; If we have no time to make the code smart, then the administrators will have to be smart.</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-brick">* hpottinger is excited about all this new documentation someone is going to write!</span><br />
+<span class="irc-date">[21:07]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: we do, I linked to it at the beginning of this meeting</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;tdonohue&gt; right right. which is why we need the docs.  I agree, none of this is perfect.  I just hesitate towards removing useful Lucene scripts since we are supporting Lucene still</span><br />
+<span class="irc-date">[21:08]</span> <span class="irc-black">&lt;mhwood&gt; Sure, rename them.  We are going to revisit all this later, right?</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;tdonohue&gt; yes. we'll revisit for 5.0</span><br />
+<span class="irc-date">[21:09]</span> <span class="irc-black">&lt;helix84&gt; so, we're removing index-init/index-update because we want people to *notice* there are big changes underneath. If we essentially just rename them, they will try to use the new ones in the old ways, but they can easily run into problems.</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;tdonohue&gt; So, are we in agreement here?  Not sure if we are or not.  This is what I propose: <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a>  (It's essentially a simple rename of scripts in launcher.xml...with the addition of one new one)</span><br />
+<span class="irc-date">[21:11]</span> <span class="irc-black">&lt;kompewter&gt; [ New Index commands ] - <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a></span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;helix84&gt; apart from what I just said, I'm not sure what you're suggesting index-lucene should do when we have index-lucene-init/index-lucene-update</span><br />
+<span class="irc-date">[21:12]</span> <span class="irc-black">&lt;tdonohue&gt; well, we could drop 'index-lucene'...that's true</span><br />
+<span class="irc-date">[21:13]</span> <span class="irc-black">&lt;tdonohue&gt; which makes it all just a simple renaming of scripts in "launcher.xml"... no new additions</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;helix84&gt; OK, let's backtrack here. What does renaming win us?</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;mhwood&gt; current "index" does a lot more than index-init or index-update.  Take a look at the options.</span><br />
+<span class="irc-date">[21:14]</span> <span class="irc-black">&lt;tdonohue&gt; current "index" becomes "index-db-browse"...here...let me clean up my Gist</span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a></span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;kompewter&gt; [ New Index commands ] - <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a></span><br />
+<span class="irc-date">[21:15]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: renaming wins us *clarity* which is what we've been talking about this whole time...clarifying what "index" and "index-init" and "index-update" actually do</span><br />
+<span class="irc-date">[21:17]</span> <span class="irc-black">&lt;helix84&gt; right</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;tdonohue&gt; I'm not sure I understand here what folks opinions are.  Can we all clarify where we stand?  Anyone else listening in want to express their opinions?  I feel like we are talking in circles the last few weeks around this issue.  There seems to be two overlying options: (1) Lots of 4.x documentation to explain why you shouldn't use "index/index-init/index-update" by default, OR (2) rename scripts for clarity.</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;helix84&gt; IF we do what you suggest in your gist, I think we shouldn't add index-lucene because a) its meaning is not immediately obvious in presence of index-lucene-init and -update and b) we didn't have it before, so we don't need to add a new feature for legacy backend</span><br />
+<span class="irc-date">[21:18]</span> <span class="irc-black">&lt;mhwood&gt; I think that "clear" means different things, depending on how much you know about what DSpace is doing with indexing.</span><br />
+<span class="irc-date">[21:19]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: I agree with that statement</span><br />
+<span class="irc-date">[21:20]</span> <span class="irc-black">&lt;hpottinger&gt; hmm.... my trusty rusty old Oracle-based dev stack just mysteriously died</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I think what you proposed is in line with what we agreed on today and I don't immediately see any new problems with it.</span><br />
+<span class="irc-date">[21:21]</span> <span class="irc-black">&lt;tdonohue&gt; feel like we are really a bit "stuck" on this issue, and I am not sure how to move us forward. Are we in agreement here on renaming?  Are others now disagreeing based on the proposed renaming?</span><br />
+<span class="irc-date">[21:22]</span> <span class="irc-black">&lt;mhwood&gt; At this point I'm more interested in a consensus than in what (among the current options) it is.</span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;tdonohue&gt; well, it sounds like at least two of us (helix84 and I) agree on this (I removed 'index-lucene' for reasons helix84 mentioned): <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a></span><br />
+<span class="irc-date">[21:23]</span> <span class="irc-black">&lt;kompewter&gt; [ New Index commands ] - <a href="https://gist.github.com/tdonohue/7456271">https://gist.github.com/tdonohue/7456271</a></span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;helix84&gt; I just want to note for anyone who only reads this log later that Tim changed this gist during the meeting several times, so you may want to check the Revisions link to see the old versions we were discussing.</span><br />
+<span class="irc-date">[21:24]</span> <span class="irc-black">&lt;tdonohue&gt; I can add this to the initial ticket that Bram created and we can work on a PR (which should be a simple rename in launcher.xml) and also work on Doc changes</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;tdonohue&gt; good point, helix84: yes the history of that gist show all the versions I went through</span><br />
+<span class="irc-date">[21:25]</span> <span class="irc-black">&lt;helix84&gt; OK, this addresses Problem A. We agreed not to address Problem C in 4.0 (if at all). What about B) - it seems we'll be relying only on documentation to clarify this.</span><br />
+<span class="irc-date">[21:26]</span> <span class="irc-black">&lt;mhwood&gt; Given the timing I think we may have to accept that.</span><br />
+<span class="irc-date">[21:27]</span> <span class="irc-black">&lt;tdonohue&gt; Problem B should be in the documentation on how to switch to "re-enabling" Lucene?   with the renaming of the scripts, it'd only be an error if you didn't properly enable all aspects of Lucene (namely itemcounter) and your ran 'index-lucene-init'</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;tdonohue&gt; So the error would be a "you didn't follow the documentation for enabling Lucene properly" error</span><br />
+<span class="irc-date">[21:28]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: true, just note that's exactly what the testathon ticket was about.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; Yep. It was only an error in testathon cause we haven't the docs or renaming in place to point to the solution.</span><br />
+<span class="irc-date">[21:29]</span> <span class="irc-black">&lt;tdonohue&gt; So we should be able to "resolve" that ticket once we have renamed the scripts &amp; enhanced the docs as appropriate</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; Ok, I know we are now 1.5 hrs into a 1 hour meeting</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;tdonohue&gt; But, I think we need to highlight DS-1621. It needs eyes</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1621">https://jira.duraspace.org/browse/DS-1621</a> ] - [DS-1621] Search in Item mapper don&amp;#39;t work without lucene search provider - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:30]</span> <span class="irc-black">&lt;mhwood&gt; "why index-init/index-update need to use ItemCountDAO" is because that's part of what they are intended to do.</span><br />
+<span class="irc-date">[21:31]</span> <span class="irc-black">&lt;tdonohue&gt; 1621 is a major issue with "Discovery by default". We have broken the Item mapper and it needs fixing</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;helix84&gt; Hmm, steps to reproduce? I don't know where to go look.</span><br />
+<span class="irc-date">[21:32]</span> <span class="irc-black">&lt;tdonohue&gt; So, if someone out there listening wants to look into it, it'd be great.   I don't know that we can release 4.0 without a fix.</span><br />
+<span class="irc-date">[21:33]</span> <span class="irc-black">&lt;tdonohue&gt; helix84: (1) Create twoCollections, (2) Create an Item (in one collection), (3) in the other collection, open the "Item Mapper" and attempt to map the Item</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;tdonohue&gt; (this is XMLUI only though)</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;tdonohue&gt; oh wait? is this fixed?</span><br />
+<span class="irc-date">[21:34]</span> <span class="irc-black">&lt;tdonohue&gt; it's not erroring on demo.dspace.org</span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;helix84&gt; ok, here's the relevant class that needs to be changed: <a href="https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/administrative/mapper/SearchItemForm.java">https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/administrative/mapper/SearchItemForm.java</a></span><br />
+<span class="irc-date">[21:36]</span> <span class="irc-black">&lt;kompewter&gt; [ DSpace/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/administrative/mapper/SearchItemForm.java at master · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/administrative/mapper/SearchItemForm.java">https://github.com/DSpace/DSpace/blob/master/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/administrative/mapper/SearchItemForm.java</a></span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: I think on demo we still have the lucene index filled in</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;tdonohue&gt; yep, you are correct. There is still a lucene index on demo</span><br />
+<span class="irc-date">[21:37]</span> <span class="irc-black">&lt;tdonohue&gt; so, that's why it is "working" there.</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;tdonohue&gt; So, 1621 needs eyes/investigation/help.   If anyone out there wants to chip in, we'd appreciate it</span><br />
+<span class="irc-date">[21:39]</span> <span class="irc-black">&lt;helix84&gt; I just added steps to reproduce and links to the class to Jira comments.</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;tdonohue&gt; thanks helix84. that helps</span><br />
+<span class="irc-date">[21:40]</span> <span class="irc-black">&lt;helix84&gt; tdonohue: off-topic: I can't edit my own Jira comment (You do not have the permission for this comment.)</span><br />
+<span class="irc-date">[21:41]</span> <span class="irc-black">&lt;tdonohue&gt; So, on to a more general topic.  As we are nearing the end of 4.0 Testathon, it's about time to start taking "stock" of where we are at with 4.0.  This means we need to begin reviewing all the tickets marked "fix for 4.0" in JIRA and also any fresh ones that have come in during Testathon</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;tdonohue&gt; Currently we have 68 "fix for 4.0" tickets in JIRA.  I suspect some are nearly fixed (may just need docs), some may need eyes, and others may need to just be rescheduled.  But, we need to figure out which are which</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;tdonohue&gt; <a href="https://jira.duraspace.org/browse/DS-1776?jql=project%20%3D%20DS%20AND%20fixVersion%20%3D%20%224.0%22%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC">https://jira.duraspace.org/browse/DS-1776?jql=project%20%3D%20DS%20AND%20fixVersion%20%3D%20%224.0%22%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC</a></span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;kompewter&gt; [ Issue Navigator - DuraSpace JIRA ] - <a href="https://jira.duraspace.org/browse/DS-1776?jql=project%20%3D%20DS%20AND%20fixVersion%20%3D%20%224.0%22%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC">https://jira.duraspace.org/browse/DS-1776?jql=project%20%3D%20DS%20AND%20fixVersion%20%3D%20%224.0%22%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20due%20ASC%2C%20priority%20DESC%2C%20created%20ASC</a></span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1776">https://jira.duraspace.org/browse/DS-1776</a> ] - [DS-1776] Unable to read statistics core after upgrade to DSpace 4.0  - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:42]</span> <span class="irc-black">&lt;helix84&gt; new Jira :)</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;helix84&gt; DS-1374 would be a new feature, I'd reschedule it for 5.0</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1374">https://jira.duraspace.org/browse/DS-1374</a> ] - [DS-1374] AIP Backup &amp;amp; Restore functionality does NOT backup/restore past versions of Items - DuraSpace JIRA</span><br />
+<span class="irc-date">[21:44]</span> <span class="irc-black">&lt;tdonohue&gt; I don't really want to bring up any more topics for today, as we are way "over time".  But, I do want to highlight that we need to be reviewing JIRA tickets and making some decisions here.. I think we still have a bit of work ahead before 4.0 is ready, but I am not sure exactly how much is left (&amp; some of it may be documentation)</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;tdonohue&gt; This to me seems like an RT role..to try and help us determine where are "gaps" our with 4.0 right now, and what still needs eyes/help.</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;mhwood&gt; I agree.</span><br />
+<span class="irc-date">[21:45]</span> <span class="irc-black">&lt;tdonohue&gt; Everyone though is encouraged to review tickets and either close them, work on them or reschedule them if they are not "doable" for 4.0</span><br />
+<span class="irc-date">[21:46]</span> <span class="irc-black">&lt;tdonohue&gt; thanks, mhwood</span><br />
+<span class="irc-date">[21:47]</span> <span class="irc-black">&lt;tdonohue&gt; I'll still be hanging around here for a bit, to chat as needed.  But, I'm not going to call any other meeting topics.  If folks have anything they want to discuss though, please feel free.</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-navy">* kstamatis (2ebe410b@gateway/web/freenode/ip.46.190.65.11) Quit (Quit: Page closed)</span><br />
+<span class="irc-date">[21:48]</span> <span class="irc-black">&lt;mhwood&gt; Any thoughts on agenda item 2?  What do we do with old indexing *after* 4.0 releases?</span><br />
+<span class="irc-date">[21:49]</span> <span class="irc-black">&lt;helix84&gt; mhwood: that's a large topic that we'd better revisit when there are more folks here and during a proper DevMtg time</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;tdonohue&gt; mhwood: My opinion is actually we should consider *deprecating* the Lucene Java code in 4.0.   Then, after 4.0 we can decide whether we want to replace it with new code (hooked into Discovery), or if we remove it.  Either way though, it seems like the old code should likely go away</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;helix84&gt; mhwood,,</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;tdonohue&gt; but, I agree, we need to revisit with a larger group, or discuss on JIRA</span><br />
+<span class="irc-date">[21:50]</span> <span class="irc-black">&lt;helix84&gt; mhwood++</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;helix84&gt; I vaguely remember we already agreed on Lucene deprecation, with removing TBD</span><br />
+<span class="irc-date">[21:51]</span> <span class="irc-black">&lt;tdonohue&gt; we likely should create a JIRA ticket for that...and determine which classes exactly need deprecation warnings added</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;tdonohue&gt; (plus a JIRA ticket would be a good place to start the discussion and ensure no one else has huge objections)</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;helix84&gt; I'll have to excuse myself now. Good night.</span><br />
+<span class="irc-date">[21:52]</span> <span class="irc-black">&lt;mhwood&gt; Good night.</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-black">&lt;mhwood&gt; I would write one but I'm not yet sure what it would say.</span><br />
+<span class="irc-date">[21:53]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+<span class="irc-date">[21:54]</span> <span class="irc-black">&lt;tdonohue&gt; "Deprecate Lucene Java classes" :)  I can create one here in a sec.  I won't have a chance to find all the Java classes, but I can at least describe the issue at hand</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;helix84&gt; mhwood: I just remembered, I have a branch with a large bunch of typo fixes that I waited with in order not to introduce conflicts. Is it a good time now to fire a PR?</span><br />
+<span class="irc-date">[21:56]</span> <span class="irc-black">&lt;mhwood&gt; Might be good to get them in before the bug fixes start rolling in (we hope).</span><br />
+<span class="irc-date">[21:57]</span> <span class="irc-black">&lt;helix84&gt; Good. I'll try to find it tomorrow.</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-black">&lt;mhwood&gt; Must go.  Thanks, all!</span><br />
+<span class="irc-date">[22:00]</span> <span class="irc-green">* mhwood (mwood@mhw.ulib.iupui.edu) has left #duraspace</span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;helix84&gt; I figureed I'll just get it done, so here it is: <a href="https://github.com/DSpace/DSpace/pull/390">https://github.com/DSpace/DSpace/pull/390</a></span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;kompewter&gt; [ fix a bunch of typos by helix84 · Pull Request #390 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/390">https://github.com/DSpace/DSpace/pull/390</a></span><br />
+<span class="irc-date">[22:03]</span> <span class="irc-black">&lt;helix84&gt; click away :)</span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-black">&lt;helix84&gt; one more easy job: <a href="https://github.com/DSpace/DSpace/pull/391">https://github.com/DSpace/DSpace/pull/391</a></span><br />
+<span class="irc-date">[22:06]</span> <span class="irc-black">&lt;kompewter&gt; [ JavaDoc for statistics converter/importers by helix84 · Pull Request #391 · DSpace/DSpace · GitHub ] - <a href="https://github.com/DSpace/DSpace/pull/391">https://github.com/DSpace/DSpace/pull/391</a></span><br />
+<span class="irc-date">[22:07]</span> <span class="irc-black">&lt;helix84&gt; Am I just not looking correctly or is Travis gone from our GitHub?</span><br />
+<span class="irc-date">[22:08]</span> <span class="irc-black">&lt;tdonohue&gt; it's there..I see it... It says "waiting to hear about.."</span><br />
+<span class="irc-date">[22:09]</span> <span class="irc-black">&lt;tdonohue&gt; (though you may need to be logged in to GitHub to see that message, as I know some of the Travis stuff only appears to GitHub project admins)</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-black">&lt;helix84&gt; I see it now, I didn't see it before. Logged in all the time. *shrug*</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-black">&lt;helix84&gt; I just realized one "problem" with our renaming decision</span><br />
+<span class="irc-date">[22:10]</span> <span class="irc-brick">* helix84 ducks</span><br />
+<span class="irc-date">[22:11]</span> <span class="irc-black">&lt;helix84&gt; index-lucene-* do not just deal with lucene, but also DB (actually they work with whatever the configured browse and itemcounter class is), so the name is not an improvement</span><br />
+<span class="irc-date">[22:12]</span> <span class="irc-black">&lt;tdonohue&gt; it's still better. As I said, I'm not sure you really can use Lucene without the DB (or visa versa)...they are "intertwined" as it is...so it's impossible for full clarity there</span><br />
+<span class="irc-date">[22:13]</span> <span class="irc-black">&lt;tdonohue&gt; the main message is that "index-lucene-*" only works if you have taken steps to enable Lucene (and the DB browse).</span><br />
+<span class="irc-date">[22:15]</span> <span class="irc-black">&lt;tdonohue&gt; created a new JIRA ticket for this renaming of commands: DS-1788</span><br />
+<span class="irc-date">[22:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1788">https://jira.duraspace.org/browse/DS-1788</a> ] - [DS-1788] Rename Indexing scripts for clarity - DuraSpace JIRA</span><br />
+<span class="irc-date">[22:15]</span> <span class="irc-black">&lt;tdonohue&gt; Also created a JIRA ticket which suggests deprecating Lucene Java classes: DS-1789</span><br />
+<span class="irc-date">[22:15]</span> <span class="irc-black">&lt;kompewter&gt; [ <a href="https://jira.duraspace.org/browse/DS-1789">https://jira.duraspace.org/browse/DS-1789</a> ] - [DS-1789] Deprecate Lucene Java classes - DuraSpace JIRA</span><br />
+<span class="irc-date">[22:23]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has joined #duraspace</span><br />
+<span class="irc-date">[23:15]</span> <span class="irc-navy">* tdonohue (~tdonohue@c-67-177-111-99.hsd1.il.comcast.net) Quit (Read error: Connection reset by peer)</span><br />
+<span class="irc-date">[23:19]</span> <span class="irc-green">* hpottinger (~hpottinge@mu-161244.dhcp.missouri.edu) has left #duraspace</span><br />
+</p>
+
+<p>
+ These logs were automatically created by <b>DuraLogBot</b> on
+ <a href="irc://irc.freenode.net/duraspace">irc.freenode.net</a>
+ using the <a href="http://www.jibble.org/logbot/">Java IRC LogBot</a>.
+</p>
+
+</body>
+
+</html>
